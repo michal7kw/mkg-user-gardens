@@ -41,6 +41,26 @@ function getAnchorLink(filePath, linkTitle) {
     .join(' ')}>${innerHTML}</a>`;
 }
 
+/**
+ * Derive permalink from a file path relative to notes/.
+ * Multi-user: notes/{username}/{entityType}/{slug}.md → /garden/{username}/{entityType}/{slug}/
+ * Single-user: notes/{slug}.md → /notes/{slug}/
+ */
+function derivePermalink(relPath) {
+  const normalized = relPath.replace(/\\/g, '/');
+  const parts = normalized.split('/').filter(Boolean);
+  // Multi-user: {username}/{entityType}/{slug}.md (3+ parts)
+  if (parts.length >= 3) {
+    const username = parts[0];
+    const entityType = parts[1];
+    const slug = slugify(parts[parts.length - 1].replace(/\.md$/, ''));
+    return `/garden/${username}/${entityType}/${slug}/`;
+  }
+  // Single-user fallback
+  const slug = slugify(parts[parts.length - 1].replace(/\.md$/, ''));
+  return `/notes/${slug}/`;
+}
+
 function getAnchorAttributes(filePath, linkTitle) {
   let fileName = filePath.replaceAll('&amp;', '&');
   let header = '';
@@ -52,7 +72,7 @@ function getAnchorAttributes(filePath, linkTitle) {
 
   let noteIcon = process.env.NOTE_ICON_DEFAULT;
   const title = linkTitle ? linkTitle : fileName;
-  let permalink = `/notes/${slugify(filePath)}`;
+  let permalink = derivePermalink(fileName);
   let deadLink = false;
   try {
     const startPath = './src/site/notes/';
@@ -676,10 +696,13 @@ module.exports = function (eleventyConfig) {
    * Expected structure: src/site/notes/{username}/{entity_type}/{slug}.md
    */
   function extractGardenInfo(inputPath) {
-    const pathParts = inputPath.split(path.sep);
+    // Normalize to forward slashes (Eleventy uses / even on Windows)
+    const normalized = inputPath.replace(/\\/g, '/');
+    const pathParts = normalized.split('/');
     const notesIndex = pathParts.findIndex((p) => p === 'notes');
 
-    if (notesIndex >= 0 && pathParts.length > notesIndex + 2) {
+    // Multi-user structure: notes/{username}/{entityType}/{slug}.md (4+ parts after notes/)
+    if (notesIndex >= 0 && pathParts.length >= notesIndex + 4) {
       return {
         gardenUsername: pathParts[notesIndex + 1],
         entityType: pathParts[notesIndex + 2] || 'note',

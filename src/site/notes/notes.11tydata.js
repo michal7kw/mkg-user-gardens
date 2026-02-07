@@ -15,10 +15,13 @@ const allSettings = settings.ALL_NOTE_SETTINGS;
 function extractGardenInfo(inputPath) {
   if (!inputPath) return { gardenUsername: null, entityType: 'note' };
 
-  const pathParts = inputPath.split(path.sep);
+  // Normalize to forward slashes (Eleventy uses / even on Windows)
+  const normalized = inputPath.replace(/\\/g, '/');
+  const pathParts = normalized.split('/');
   const notesIndex = pathParts.findIndex((p) => p === 'notes');
 
-  if (notesIndex >= 0 && pathParts.length > notesIndex + 2) {
+  // Multi-user structure: notes/{username}/{entityType}/{slug}.md (4+ parts after notes/)
+  if (notesIndex >= 0 && pathParts.length >= notesIndex + 4) {
     return {
       gardenUsername: pathParts[notesIndex + 1],
       entityType: pathParts[notesIndex + 2] || 'note',
@@ -102,22 +105,17 @@ module.exports = {
         return '/';
       }
 
-      // If explicit permalink is set in frontmatter, use it
-      if (data.permalink) {
-        return data.permalink;
-      }
-
       // Extract garden info from file path
       const { gardenUsername, entityType } = extractGardenInfo(data.page?.inputPath);
 
-      // If note belongs to a user's garden, use garden permalink structure
+      // Multi-user garden: /garden/{username}/{entityType}/{slug}/
       if (gardenUsername) {
         const slug = data.slug || slugify(data.title) || data.page?.fileSlug || 'untitled';
         return `/garden/${gardenUsername}/${entityType}/${slug}/`;
       }
 
-      // Default to standard note permalink
-      return undefined;
+      // Single-user fallback: /notes/{slug}/
+      return `/notes/${slugify(data.page?.fileSlug || 'untitled')}/`;
     },
 
     /**
