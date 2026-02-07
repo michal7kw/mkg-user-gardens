@@ -9,7 +9,7 @@ permalink: /entities/drug/
 
   <div class="entity-list">
     {%- for note in collections.note -%}
-      {%- if note.data.tags and 'drug' in note.data.tags -%}
+      {%- if (note.data.tags and 'drug' in note.data.tags) or note.data.type == 'drug' -%}
         <div class="entity-item drug">
           <a href="{{ note.url }}">{{ note.data.title or note.fileSlug }}</a>
         </div>
