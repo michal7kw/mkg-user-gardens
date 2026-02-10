@@ -1,5 +1,5 @@
 ---
-created: '2026-02-10T08:17:14.942256Z'
+created: '2026-02-10T10:03:25.361456Z'
 description: 'E2E test: Test Magnesium'
 dg-home: false
 dg-publish: true
@@ -12,7 +12,7 @@ tags:
 templateEngineOverride: njk
 title: Test Magnesium
 type: supplement
-updated: '2026-02-10T08:17:14.942256Z'
+updated: '2026-02-10T10:03:25.361456Z'
 ---
 
 {% raw %}
