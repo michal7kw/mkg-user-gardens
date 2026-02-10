@@ -1,5 +1,5 @@
 ---
-created: '2026-02-10T08:17:20.734859Z'
+created: '2026-02-10T10:03:30.906261Z'
 description: 'E2E test: Pro Test Vitamin D'
 dg-home: false
 dg-publish: true
@@ -12,7 +12,7 @@ tags:
 templateEngineOverride: njk
 title: Pro Test Vitamin D
 type: supplement
-updated: '2026-02-10T08:17:20.734859Z'
+updated: '2026-02-10T10:03:30.906261Z'
 ---
 
 {% raw %}
