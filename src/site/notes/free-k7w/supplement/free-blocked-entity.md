@@ -1,5 +1,5 @@
 ---
-created: '2026-02-10T08:11:01.770363Z'
+created: '2026-02-10T08:14:16.191075Z'
 description: 'E2E test: Free Blocked Entity'
 dg-home: false
 dg-publish: true
@@ -12,7 +12,7 @@ tags:
 templateEngineOverride: njk
 title: Free Blocked Entity
 type: supplement
-updated: '2026-02-10T08:11:01.770363Z'
+updated: '2026-02-10T08:14:16.191075Z'
 ---
 
 {% raw %}
