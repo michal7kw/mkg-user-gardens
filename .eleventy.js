@@ -561,8 +561,23 @@ module.exports = function (eleventyConfig) {
           const displayName = noteName.replace(/_/g, ' ');
           // URL encode for spaces in path
           const encodedName = encodeURIComponent(displayName);
-          // Link to notes/entities path matching the actual file structure
-          return `href="/notes/entities/biomarker/${encodedName}/" class="excalidraw-link" data-internal-link`;
+          // Dynamically resolve entity type by scanning the notes directory
+          const notesDir = './src/site/notes/entities/';
+          let resolvedType = 'biomarker'; // fallback default
+          try {
+            const entityTypes = fs.readdirSync(notesDir).filter(d =>
+              fs.statSync(path.join(notesDir, d)).isDirectory()
+            );
+            for (const type of entityTypes) {
+              const testPath = path.join(notesDir, type, `${displayName}.md`);
+              const testPathSlug = path.join(notesDir, type, `${encodedName}.md`);
+              if (fs.existsSync(testPath) || fs.existsSync(testPathSlug)) {
+                resolvedType = type;
+                break;
+              }
+            }
+          } catch (e) { /* directory doesn't exist yet, use fallback */ }
+          return `href="/notes/entities/${resolvedType}/${encodedName}/" class="excalidraw-link" data-internal-link`;
         });
 
         // Make all links in SVG clickable
