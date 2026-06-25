@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.cache/
+.env
+*.log
+.minify-cache/
+
+# Generated entity content (source of truth is curated_kg/entities/ or Neo4j)
+src/site/notes/entities/
+src/site/notes/*/
+
+# Vercel CLI build artifacts (added 2026-05-18 to fix accidental tracking)
+.vercel/
+
+# Internal docs (not for publication)
+Docs/

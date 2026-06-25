@@ -1,0 +1,20 @@
+---
+pagination:
+  data: collections.gardenIndexes
+  size: 1
+  alias: garden
+permalink: /garden/{{ garden.username }}/
+eleventyExcludeFromCollections: true
+---
+<!DOCTYPE html>
+<html lang="{{ meta.mainLanguage }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0;url=/garden/{{ garden.username }}/outlook/">
+    <title>Redirecting...</title>
+  </head>
+  <body>
+    <script>window.location.replace('/garden/{{ garden.username }}/outlook/');</script>
+    <p>Redirecting to <a href="/garden/{{ garden.username }}/outlook/">{{ garden.username }}'s Garden Outlook</a>...</p>
+  </body>
+</html>

@@ -1,0 +1,322 @@
+<script>
+    // Entity type color palette — matches _entity-types.scss AND the Obsidian
+    // graph view (curated_kg/.obsidian/graph.json), so users see the SAME
+    // node colors whether they're authoring locally or browsing the web garden.
+    const entityTypeColors = {
+        biomarker: '#22C55E',
+        drug: '#3B82F6',
+        supplement: '#A855F7',
+        condition: '#F97316',
+        intervention: '#06B6D4',
+        hormone: '#EC4899',
+        organ: '#78350F',
+        metabolite: '#64748B',
+        gene: '#84CC16',
+        protein: '#6366F1',
+        neurotransmitter: '#F43F5E',
+        cellularcomponent: '#14B8A6',
+        // Filled in by 2026-04-19 SCSS extension (curated_kg entity types):
+        clinicalpattern: '#FB7185',
+        cognitivefunction: '#8B5CF6',
+        examination: '#0D9488',
+        labtest: '#0EA5E9',
+        labtestpanel: '#4F46E5',
+        pathway: '#10B981',
+        phenotype: '#D946EF',
+        research: '#475569',
+        // Filled in by 2026-05-11 — types previously colored by default-gray:
+        food: '#EAB308',
+        nutrient: '#FBBF24',
+        vaccine: '#38BDF8',
+        sideeffect: '#EF4444',
+        variant: '#A78BFA',
+        microbe: '#65A30D',
+        exposure: '#71717A',
+        healthstack: '#DB2777',
+        clinicalscale: '#0891B2',
+        default: '#888888'
+    };
+
+    // Active entity type filters
+    let activeEntityFilters = new Set();
+
+    // Resolve per-user graph URL when on /garden/{user}/..., else global.
+    // Per-user subgraph is ~1.5-3 MB vs ~18 MB global — cuts page-load
+    // bandwidth ~6-10× and speeds up every hover-preview iframe.
+    function currentGardenGraphUrl() {
+        try {
+            const parts = window.location.pathname.split('/').filter(Boolean);
+            if (parts[0] === 'garden' && parts[1]) {
+                return '/garden/' + encodeURIComponent(parts[1]) + '/graph.json';
+            }
+        } catch (e) {}
+        return '/graph.json';
+    }
+
+    async function fetchGraphData() {
+        const graphData = await fetch(currentGardenGraphUrl()).then(res => res.json());
+        const fullGraphData  = filterFullGraphData(graphData);
+        return {graphData, fullGraphData}
+    }
+
+    function getEntityTypeColor(node) {
+        const entityType = node.entityType || node.type || 'default';
+        return entityTypeColors[entityType.toLowerCase()] || entityTypeColors.default;
+    }
+
+    function getNextLevelNeighbours(existing, remaining) {
+        const keys = Object.values(existing).map((n) => n.neighbors).flat();
+        const n_remaining = Object.keys(remaining).reduce((acc, key) => {
+                if (keys.indexOf(key) != -1) {
+                    if (!remaining[key].hide) {
+                        existing[key] = remaining[key];
+                    }
+                } else {
+                    acc[key] = remaining[key];
+                }
+                return acc;
+            }, {});
+        return existing, n_remaining;
+    }
+
+    // Cap local subgraph to this many nodes — keeps force-graph simulation
+    // snappy and the rendered graph readable. Current node is always kept;
+    // neighbors (in BFS order from getNextLevelNeighbours) fill the rest.
+    const MAX_LOCAL_NODES = 20;
+
+    function filterLocalGraphData(graphData, depth) {
+        if (graphData == null) {
+            return null;
+        }
+        let remaining = JSON.parse(JSON.stringify(graphData.nodes));
+        let links = JSON.parse(JSON.stringify(graphData.links));
+        let currentLink = decodeURI(window.location.pathname);
+        let currentNode = remaining[currentLink] || Object.values(remaining).find((v) => v.home);
+
+        // Guard: if no matching node found, return null gracefully
+        if (!currentNode) {
+            console.warn('Graph: No matching node found for current page:', currentLink);
+            return null;
+        }
+
+        delete remaining[currentNode.url];
+        if (!currentNode.home) {
+            let home = Object.values(remaining).find((v) => v.home);
+            if (home) {
+                delete remaining[home.url];
+            }
+        }
+        currentNode.current = true;
+        let existing = {};
+        existing[currentNode.url] = currentNode;
+        for (let i = 0; i < depth; i++) {
+            existing, remaining = getNextLevelNeighbours(existing, remaining);
+        }
+        let nodes = Object.values(existing);
+        if (!currentNode.home) {
+            nodes = nodes.filter(n => !n.home);
+        }
+        // Cap at MAX_LOCAL_NODES — keep current node first, then first N-1 others.
+        if (nodes.length > MAX_LOCAL_NODES) {
+            const currentIdx = nodes.findIndex(n => n.current);
+            const currentN = currentIdx >= 0 ? nodes.splice(currentIdx, 1)[0] : null;
+            nodes = nodes.slice(0, MAX_LOCAL_NODES - (currentN ? 1 : 0));
+            if (currentN) nodes.unshift(currentN);
+        }
+        let ids = nodes.map((n) => n.id);
+        return {
+            nodes,
+            links: links.filter(function (con) {
+                return ids.indexOf(con.target) > -1 && ids.indexOf(con.source) > -1;
+            }),
+        }
+    }
+
+    function getCssVar(variable) {return getComputedStyle(document.body).getPropertyValue(variable)}
+
+    function htmlDecode(input) {
+        var doc = new DOMParser().parseFromString(input, "text/html");
+        return doc.documentElement.textContent;
+    }
+
+    function renderGraph(graphData, id, delay, fullScreen) {
+        if (graphData == null) {
+            return null;
+        }
+        const el = document.getElementById(id);
+        if (!el) {
+            console.warn('Graph: Element not found:', id);
+            return null;
+        }
+        width = el.offsetWidth;
+        height = el.offsetHeight;
+        const highlightNodes = new Set();
+        let hoverNode = null;
+        const color = getCssVar("--graph-main");
+        const mutedColor = getCssVar("--graph-muted");
+        let Graph = ForceGraph()
+        (el)
+            .graphData(graphData)
+            .nodeId('id')
+            .nodeLabel('title')
+            .linkSource('source')
+            .linkTarget('target')
+            .d3AlphaDecay(0.10)
+            .width(width)
+            .height(height)
+            .linkDirectionalArrowLength(2)
+            .linkDirectionalArrowRelPos(0.5)
+            .autoPauseRedraw(false)
+            .linkColor((link) => {
+                if (hoverNode == null) {
+                    return color;
+                }
+                if (link.source.id == hoverNode.id || link.target.id == hoverNode.id) {
+                    return color;
+                } else {
+                    return mutedColor;
+                }
+
+            })
+            .nodeCanvasObject((node, ctx) => {
+                const numberOfNeighbours = (node.neighbors && node.neighbors.length) || 2;
+                const nodeR = Math.min(7, Math.max(numberOfNeighbours / 2, 2));
+
+                // Get entity type color for this node
+                const nodeColor = getEntityTypeColor(node);
+
+                ctx.beginPath();
+                ctx.arc(node.x, node.y, nodeR, 0, 2 * Math.PI, false);
+                if (hoverNode == null) {
+                    ctx.fillStyle = nodeColor;
+                } else {
+                    if (node == hoverNode || highlightNodes.has(node.url)) {
+                        ctx.fillStyle = nodeColor;
+                    } else {
+                        ctx.fillStyle = mutedColor;
+                    }
+                }
+
+                ctx.fill();
+
+                // Current node indicator ring
+                if (node.current) {
+                    ctx.beginPath();
+                    ctx.arc(node.x, node.y, nodeR + 1, 0, 2 * Math.PI, false);
+                    ctx.lineWidth = 0.5;
+                    ctx.strokeStyle = nodeColor;
+                    ctx.stroke();
+                }
+
+                // Node label
+                const label = htmlDecode(node.title)
+                const fontSize = 3.5;
+                ctx.font = `${fontSize}px Sans-Serif`;
+
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'top';
+                ctx.fillStyle = color; // Label always uses default text color
+                ctx.fillText(label, node.x, node.y + nodeR + 2);
+            })
+            .onNodeClick(node => {
+                window.location = node.url;
+            })
+            .onNodeHover(node => {
+                highlightNodes.clear();
+                if (node) {
+                highlightNodes.add(node);
+                node.neighbors.forEach(neighbor => highlightNodes.add(neighbor));
+                }
+                hoverNode = node || null;
+
+            });
+            if (fullScreen || (delay != null && graphData.nodes.length > 4)) {
+                setTimeout(() => {
+                    Graph.zoomToFit(5, 75);
+                }, delay || 200);
+            }
+        return Graph;
+    }
+
+    function renderLocalGraph(graphData, depth, fullScreen) {
+        if (window.graph){
+            window.graph._destructor();
+        }
+        const data = filterLocalGraphData(graphData, depth);
+        return renderGraph(data, 'link-graph', null, fullScreen);
+    }
+
+    function filterFullGraphData(graphData) {
+        if (graphData == null) {
+            return null;
+        }
+        graphData = JSON.parse(JSON.stringify(graphData));
+        const hiddens = Object.values(graphData.nodes).filter((n) => n.hide).map((n) => n.id);
+        const data = {
+            links: JSON.parse(JSON.stringify(graphData.links)).filter((l) => hiddens.indexOf(l.source) == -1 && hiddens.indexOf(l.target) == -1),
+            nodes: [...Object.values(graphData.nodes).filter((n) => !n.hide)]
+        }
+        return data
+    }
+
+    function openFullGraph(fullGraphData) {
+        // Guard: only call lucide if it has finished loading
+        if (typeof lucide !== 'undefined' && lucide.createIcons) {
+            lucide.createIcons({
+                attrs: {
+                    class: ["svg-icon"]
+                }
+            });
+        }
+        return renderGraph(fullGraphData, "full-graph-container", 200, false);
+    }
+
+    function closefullGraph(fullGraph) {
+        if (fullGraph) {
+            fullGraph._destructor();
+        }
+        return null;
+    }
+</script>
+<div  x-init="{graphData, fullGraphData} = await fetchGraphData();" x-data="{ graphData: null, depth: 1, graph: null, fullGraph: null, showFullGraph: false, fullScreen: false, fullGraphData: null, showLegend: false}" id="graph-component" x-bind:class="fullScreen ? 'graph graph-fs' : 'graph'" v-scope>
+    <div class="graph-title-container">
+        <div class="graph-title">Connected Pages</div>
+        <div id="graph-controls">
+                <div class="depth-control">
+                    <label for="graph-depth">Depth</label>
+                    <div class="slider">
+                            <input x-model.number="depth" name="graph-depth" list="depthmarkers" type="range" step="1" min="1" max="3" id="graph-depth"/>
+                    <datalist id="depthmarkers">
+                            <option value="1" label="1"></option>
+                            <option value="2" label="2"></option>
+                            <option value="3" label="3"></option>
+                    </datalist>
+                    </div>
+                    <span id="depth-display" x-text="depth"></span>
+                </div>
+                <div class="ctrl-right">
+                    <span id="legend-btn" x-on:click="showLegend = !showLegend" title="Toggle entity type legend"><i icon-name="palette" aria-hidden="true"></i></span>
+                    <span id="global-graph-btn" x-on:click="showFullGraph = true; setTimeout(() => {fullGraph = openFullGraph(fullGraphData)}, 100)"><i  icon-name="globe" aria-hidden="true"></i></span>
+                    <span  id="graph-fs-btn"  x-on:click="fullScreen = !fullScreen"><i  icon-name="expand" aria-hidden="true"></i></span>
+                </div>
+        </div>
+    </div>
+    {# Entity type legend #}
+    <div x-show="showLegend" class="graph-legend" style="display: none;">
+        <div class="legend-title">Entity Types</div>
+        <div class="legend-items">
+            <div class="legend-item"><span class="legend-dot" style="background: #22C55E;"></span> Biomarker</div>
+            <div class="legend-item"><span class="legend-dot" style="background: #3B82F6;"></span> Drug</div>
+            <div class="legend-item"><span class="legend-dot" style="background: #A855F7;"></span> Supplement</div>
+            <div class="legend-item"><span class="legend-dot" style="background: #F97316;"></span> Condition</div>
+            <div class="legend-item"><span class="legend-dot" style="background: #06B6D4;"></span> Intervention</div>
+            <div class="legend-item"><span class="legend-dot" style="background: #EC4899;"></span> Hormone</div>
+            <div class="legend-item"><span class="legend-dot" style="background: #78350F;"></span> Organ</div>
+            <div class="legend-item"><span class="legend-dot" style="background: #888888;"></span> Other</div>
+        </div>
+    </div>
+    <div x-effect="if (graphData) { $nextTick(() => { window.graph = renderLocalGraph(graphData, depth, fullScreen) }) }" id="link-graph" ></div>
+    <div x-show="showFullGraph" id="full-graph" class="show" style="display: none;">
+        <span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i icon-name="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
+    </div>
+</div>

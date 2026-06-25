@@ -1,0 +1,571 @@
+---
+title: Medical Knowledge Garden
+eleventyExcludeFromCollections: true
+---
+<!DOCTYPE html>
+<html lang="{{ meta.mainLanguage }}">
+  <head>
+    <title>Medical Knowledge Garden</title>
+    {%include "components/pageheader.njk"%}
+    <script src="https://unpkg.com/force-graph"></script>
+    <style>
+      .outlook {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      /* ── Header ── */
+      .outlook-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+      .outlook-header h1 {
+        font-size: 2rem;
+        margin: 0;
+      }
+      .outlook-header-subtitle {
+        color: var(--text-muted);
+        font-size: 0.95rem;
+        margin-top: 0.25rem;
+      }
+      .outlook-header-links {
+        display: flex;
+        gap: 0.75rem;
+      }
+      .outlook-header-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.5rem 1rem;
+        background: var(--background-secondary);
+        border: 1px solid var(--background-modifier-border);
+        border-radius: 8px;
+        color: var(--text-normal);
+        text-decoration: none;
+        font-size: 0.9rem;
+        transition: all 0.2s;
+      }
+      .outlook-header-link:hover {
+        border-color: var(--interactive-accent);
+        color: var(--text-accent);
+      }
+
+      /* ── Stat Chips ── */
+      .outlook-stats {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 2rem;
+      }
+      .stat-chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.4rem 0.8rem;
+        background: var(--background-secondary);
+        border: 1px solid var(--background-modifier-border);
+        border-radius: 2rem;
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        text-decoration: none;
+        transition: all 0.2s;
+      }
+      .stat-chip:hover {
+        border-color: var(--chip-color, var(--interactive-accent));
+        color: var(--text-normal);
+      }
+      .stat-chip .stat-count {
+        font-weight: 600;
+        color: var(--chip-color, var(--text-normal));
+      }
+      .stat-chip.total {
+        background: var(--interactive-accent);
+        color: #fff;
+        border-color: transparent;
+      }
+      .stat-chip.total .stat-count { color: #fff; }
+      .stat-chip.total .stat-label { color: rgba(255,255,255,0.85); }
+
+      /* ── Graph ── */
+      .outlook-graph-section {
+        position: relative;
+        margin-bottom: 2rem;
+      }
+      .outlook-graph {
+        width: 100%;
+        height: 450px;
+        background: var(--background-primary);
+        border: 1px solid var(--background-modifier-border);
+        border-radius: 12px;
+        overflow: hidden;
+      }
+      #outlook-graph-container {
+        width: 100%;
+        height: 100%;
+      }
+      .outlook-graph-loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.75rem;
+        height: 450px;
+        color: var(--text-muted);
+      }
+      .loading-spinner {
+        width: 24px; height: 24px;
+        border: 3px solid var(--background-modifier-border);
+        border-top-color: var(--interactive-accent);
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;
+      }
+      @keyframes spin { to { transform: rotate(360deg); } }
+
+      /* Legend */
+      .outlook-legend {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        background: var(--background-secondary);
+        border: 1px solid var(--background-modifier-border);
+        border-radius: 8px;
+        padding: 0.6rem 0.8rem;
+        font-size: 0.8rem;
+        z-index: 2;
+      }
+      .outlook-legend-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 0.4rem;
+        font-weight: 600;
+        color: var(--text-normal);
+      }
+      .outlook-legend-close {
+        background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1.1rem; padding: 0;
+      }
+      .outlook-legend-item {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        color: var(--text-muted);
+        padding: 0.1rem 0;
+      }
+      .legend-dot {
+        display: inline-block;
+        width: 10px; height: 10px;
+        border-radius: 50%;
+      }
+
+      /* Graph info bar */
+      .outlook-graph-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0.5rem;
+        font-size: 0.85rem;
+        color: var(--text-muted);
+      }
+      .outlook-legend-toggle {
+        background: none; border: 1px solid var(--background-modifier-border);
+        border-radius: 4px; padding: 0.2rem 0.6rem; color: var(--text-muted);
+        cursor: pointer; font-size: 0.8rem;
+      }
+
+      /* ── Browse Categories ── */
+      .outlook-categories {
+        margin-bottom: 2rem;
+      }
+      .outlook-categories h2 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+      }
+      .outlook-categories-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 0.75rem;
+      }
+      .outlook-cat-card {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 1rem;
+        background: var(--background-secondary);
+        border: 1px solid var(--background-modifier-border);
+        border-radius: 8px;
+        text-decoration: none;
+        color: inherit;
+        transition: all 0.2s;
+      }
+      .outlook-cat-card:hover {
+        border-color: var(--interactive-accent);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+      .cat-icon { font-size: 1.5rem; }
+      .cat-label { font-weight: 600; color: var(--text-normal); }
+      .cat-count { font-size: 0.8rem; color: var(--text-muted); }
+
+      /* ── Footer ── */
+      .outlook-footer {
+        text-align: center;
+        padding: 2rem 0;
+        color: var(--text-faint);
+        font-size: 0.85rem;
+      }
+
+      @media (max-width: 768px) {
+        .outlook { padding: 1rem; }
+        .outlook-header h1 { font-size: 1.5rem; }
+        .outlook-graph, .outlook-graph-loading { height: 320px; }
+        .outlook-categories-grid { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body class="theme-{{meta.baseTheme}} markdown-preview-view">
+    {%include "components/navbar.njk"%}
+
+    <script>
+      var outlookEntityTypeColors = {
+        biomarker: '#22C55E', drug: '#3B82F6', supplement: '#A855F7',
+        condition: '#F97316', intervention: '#06B6D4', hormone: '#EC4899',
+        organ: '#78350F', protein: '#6366F1', metabolite: '#64748B',
+        gene: '#84CC16', neurotransmitter: '#F43F5E', cellularcomponent: '#14B8A6',
+        'default': '#888888'
+      };
+
+      function getEntityColor(node) {
+        var t = (node.group || node.entityType || node.type || 'default').toLowerCase();
+        return outlookEntityTypeColors[t] || outlookEntityTypeColors['default'];
+      }
+
+      async function outlookInit(state, nextTick) {
+        var gd = await fetch('/graph.json').then(function(r) { return r.json(); });
+
+        // No per-user filter on the global homepage — show all nodes
+        var nodes = Object.values(gd.nodes).filter(function(n) { return !n.hide; });
+        var hiddenIds = new Set(Object.values(gd.nodes).filter(function(n) { return n.hide; }).map(function(n) { return n.id; }));
+        var links = gd.links.filter(function(l) {
+          var sid = typeof l.source === 'object' ? l.source.id : l.source;
+          var tid = typeof l.target === 'object' ? l.target.id : l.target;
+          return !hiddenIds.has(sid) && !hiddenIds.has(tid);
+        });
+
+        state.nodeCount = nodes.length;
+        state.linkCount = links.length;
+
+        var counts = {};
+        nodes.forEach(function(n) {
+          var t = (n.group || n.entityType || n.type || 'other').toLowerCase();
+          counts[t] = (counts[t] || 0) + 1;
+        });
+        state.typeCounts = counts;
+
+        var MAX_NODES = 60;
+        var previewNodes, previewLinks;
+        if (nodes.length <= MAX_NODES) {
+          previewNodes = nodes;
+          previewLinks = links;
+        } else {
+          var adj = {};
+          var nodeById = {};
+          nodes.forEach(function(n) { adj[n.id] = []; nodeById[n.id] = n; });
+          links.forEach(function(l) {
+            var sid = typeof l.source === 'object' ? l.source.id : l.source;
+            var tid = typeof l.target === 'object' ? l.target.id : l.target;
+            if (adj[sid]) adj[sid].push(tid);
+            if (adj[tid]) adj[tid].push(sid);
+          });
+          var byType = {};
+          nodes.forEach(function(n) {
+            var t = (n.group || n.entityType || n.type || 'other').toLowerCase();
+            if (!byType[t]) byType[t] = [];
+            byType[t].push(n);
+          });
+          var pickedSet = new Set();
+          var pickedList = [];
+          Object.keys(byType).forEach(function(t) {
+            byType[t].sort(function(a, b) { return (adj[b.id] || []).length - (adj[a.id] || []).length; });
+            var seed = byType[t][0];
+            if (seed && !pickedSet.has(seed.id)) { pickedSet.add(seed.id); pickedList.push(seed); }
+          });
+          while (pickedList.length < MAX_NODES) {
+            var bestNode = null, bestScore = 0;
+            var candidates = new Set();
+            pickedList.forEach(function(n) {
+              (adj[n.id] || []).forEach(function(nid) {
+                if (!pickedSet.has(nid) && nodeById[nid]) candidates.add(nid);
+              });
+            });
+            candidates.forEach(function(cid) {
+              var score = 0;
+              (adj[cid] || []).forEach(function(nid) { if (pickedSet.has(nid)) score++; });
+              if (score > bestScore) { bestScore = score; bestNode = nodeById[cid]; }
+            });
+            if (!bestNode) break;
+            pickedSet.add(bestNode.id); pickedList.push(bestNode);
+          }
+          previewNodes = pickedList;
+          previewLinks = links.filter(function(l) {
+            var sid = typeof l.source === 'object' ? l.source.id : l.source;
+            var tid = typeof l.target === 'object' ? l.target.id : l.target;
+            return pickedSet.has(sid) && pickedSet.has(tid);
+          });
+        }
+
+        state.graphData = { nodes: previewNodes, links: previewLinks };
+        state.loading = false;
+
+        nextTick(function() {
+          if (state.graphData && typeof ForceGraph !== 'undefined') {
+            state.graphInstance = outlookRenderGraph(state.graphData);
+          } else {
+            var iv = setInterval(function() {
+              if (typeof ForceGraph !== 'undefined') {
+                clearInterval(iv);
+                state.graphInstance = outlookRenderGraph(state.graphData);
+              }
+            }, 200);
+            setTimeout(function() { clearInterval(iv); }, 10000);
+          }
+        });
+      }
+
+      function outlookRenderGraph(graphData) {
+        if (!graphData) return null;
+        var el = document.getElementById('outlook-graph-container');
+        if (!el) return null;
+
+        var width = el.offsetWidth;
+        var height = el.offsetHeight;
+        var highlightNodes = new Set();
+        var hoverNode = null;
+        var color = getComputedStyle(document.body).getPropertyValue('--graph-main') || '#d4d4d4';
+        var mutedColor = getComputedStyle(document.body).getPropertyValue('--graph-muted') || '#555555';
+
+        var Graph = ForceGraph()(el)
+          .graphData(graphData)
+          .nodeId('id')
+          .nodeLabel('title')
+          .linkSource('source')
+          .linkTarget('target')
+          .d3AlphaDecay(0.10)
+          .width(width)
+          .height(height)
+          .linkDirectionalArrowLength(2)
+          .linkDirectionalArrowRelPos(0.5)
+          .autoPauseRedraw(false)
+          .linkColor(function(link) {
+            if (!hoverNode) return color;
+            return (link.source.id === hoverNode.id || link.target.id === hoverNode.id) ? color : mutedColor;
+          })
+          .nodeCanvasObject(function(node, ctx) {
+            var neighbours = (node.neighbors && node.neighbors.length) || 2;
+            var nodeR = Math.min(7, Math.max(neighbours / 2, 2));
+            var nodeColor = getEntityColor(node);
+            ctx.beginPath();
+            ctx.arc(node.x, node.y, nodeR, 0, 2 * Math.PI, false);
+            ctx.fillStyle = (!hoverNode) ? nodeColor :
+              (node === hoverNode || highlightNodes.has(node.url)) ? nodeColor : mutedColor;
+            ctx.fill();
+            var label = new DOMParser().parseFromString(node.title, 'text/html').documentElement.textContent;
+            ctx.font = '3.5px Sans-Serif';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'top';
+            ctx.fillStyle = color;
+            ctx.fillText(label, node.x, node.y + nodeR + 2);
+          })
+          .onNodeClick(function(node) { window.location = node.url; })
+          .onNodeHover(function(node) {
+            highlightNodes.clear();
+            if (node) {
+              highlightNodes.add(node);
+              if (node.neighbors) node.neighbors.forEach(function(n) { highlightNodes.add(n); });
+            }
+            hoverNode = node || null;
+          });
+
+        if (graphData.nodes.length > 2) {
+          setTimeout(function() { Graph.zoomToFit(400, 50); }, 500);
+        }
+        var ro = new ResizeObserver(function() { Graph.width(el.offsetWidth).height(el.offsetHeight); });
+        ro.observe(el);
+        return Graph;
+      }
+    </script>
+
+    <div class="outlook"
+         x-data="{
+           graphData: null,
+           graphInstance: null,
+           nodeCount: 0,
+           linkCount: 0,
+           typeCounts: {},
+           loading: true,
+           showLegend: true
+         }"
+         x-init="outlookInit($data, $nextTick)">
+
+      <header class="outlook-header">
+        <div>
+          <h1>Medical Knowledge Garden</h1>
+          <p class="outlook-header-subtitle">Explore biomarkers, drugs, supplements, and health insights</p>
+        </div>
+        <div class="outlook-header-links">
+          <a href="/gardens/" class="outlook-header-link">
+            <i icon-name="users"></i> All Gardens
+          </a>
+          <a href="/search/" class="outlook-header-link">
+            <i icon-name="search"></i> Search
+          </a>
+          <a href="/graph/" class="outlook-header-link">
+            <i icon-name="git-branch"></i> Full Graph
+          </a>
+        </div>
+      </header>
+
+      <section class="outlook-stats">
+        <div class="stat-chip total">
+          <span class="stat-count" x-text="nodeCount">...</span>
+          <span class="stat-label">Total</span>
+        </div>
+        <a href="/gardens/" class="stat-chip" style="--chip-color: #22C55E;">
+          <span>📊</span>
+          <span class="stat-count" x-text="typeCounts.biomarker || 0">0</span>
+          <span class="stat-label">Biomarkers</span>
+        </a>
+        <a href="/gardens/" class="stat-chip" style="--chip-color: #3B82F6;">
+          <span>💊</span>
+          <span class="stat-count" x-text="typeCounts.drug || 0">0</span>
+          <span class="stat-label">Drugs</span>
+        </a>
+        <a href="/gardens/" class="stat-chip" style="--chip-color: #A855F7;">
+          <span>🌿</span>
+          <span class="stat-count" x-text="typeCounts.supplement || 0">0</span>
+          <span class="stat-label">Supplements</span>
+        </a>
+        <a href="/gardens/" class="stat-chip" style="--chip-color: #F97316;">
+          <span>🏥</span>
+          <span class="stat-count" x-text="typeCounts.condition || 0">0</span>
+          <span class="stat-label">Conditions</span>
+        </a>
+        <a href="/gardens/" class="stat-chip" style="--chip-color: #06B6D4;">
+          <span>⚡</span>
+          <span class="stat-count" x-text="typeCounts.intervention || 0">0</span>
+          <span class="stat-label">Interventions</span>
+        </a>
+        <a href="/gardens/" class="stat-chip" style="--chip-color: #6366F1;">
+          <span>🧬</span>
+          <span class="stat-count" x-text="typeCounts.protein || 0">0</span>
+          <span class="stat-label">Proteins</span>
+        </a>
+        <a href="/gardens/" class="stat-chip" style="--chip-color: #EC4899;">
+          <span>🧬</span>
+          <span class="stat-count" x-text="typeCounts.hormone || 0">0</span>
+          <span class="stat-label">Hormones</span>
+        </a>
+      </section>
+
+      <section class="outlook-graph-section">
+        <div class="outlook-graph-loading" x-show="loading" x-cloak>
+          <div class="loading-spinner"></div>
+          <span>Loading knowledge graph...</span>
+        </div>
+
+        <div class="outlook-graph" x-show="!loading" x-cloak>
+          <div id="outlook-graph-container"></div>
+
+          <div class="outlook-legend" x-show="showLegend" x-transition>
+            <div class="outlook-legend-header">
+              <span>Entity Types</span>
+              <button class="outlook-legend-close" x-on:click="showLegend = false">&times;</button>
+            </div>
+            <div class="outlook-legend-items">
+              <div class="outlook-legend-item"><span class="legend-dot" style="background: #22C55E;"></span> Biomarker</div>
+              <div class="outlook-legend-item"><span class="legend-dot" style="background: #3B82F6;"></span> Drug</div>
+              <div class="outlook-legend-item"><span class="legend-dot" style="background: #A855F7;"></span> Supplement</div>
+              <div class="outlook-legend-item"><span class="legend-dot" style="background: #F97316;"></span> Condition</div>
+              <div class="outlook-legend-item"><span class="legend-dot" style="background: #06B6D4;"></span> Intervention</div>
+              <div class="outlook-legend-item"><span class="legend-dot" style="background: #EC4899;"></span> Hormone</div>
+              <div class="outlook-legend-item"><span class="legend-dot" style="background: #6366F1;"></span> Protein</div>
+              <div class="outlook-legend-item"><span class="legend-dot" style="background: #888888;"></span> Other</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="outlook-graph-info" x-show="!loading" x-cloak>
+          <span>
+            <strong x-text="nodeCount">0</strong> nodes &middot;
+            <strong x-text="linkCount">0</strong> connections
+          </span>
+          <button class="outlook-legend-toggle" x-on:click="showLegend = !showLegend">
+            <span x-text="showLegend ? 'Hide Legend' : 'Show Legend'">Toggle</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="outlook-categories">
+        <h2>Browse by Category</h2>
+        <div class="outlook-categories-grid">
+          <a href="/gardens/" class="outlook-cat-card">
+            <span class="cat-icon">📊</span>
+            <div>
+              <span class="cat-label">Biomarkers</span>
+              <span class="cat-count" x-text="(typeCounts.biomarker || 0) + ' entities'">0 entities</span>
+            </div>
+          </a>
+          <a href="/gardens/" class="outlook-cat-card">
+            <span class="cat-icon">💊</span>
+            <div>
+              <span class="cat-label">Drugs</span>
+              <span class="cat-count" x-text="(typeCounts.drug || 0) + ' entities'">0 entities</span>
+            </div>
+          </a>
+          <a href="/gardens/" class="outlook-cat-card">
+            <span class="cat-icon">🌿</span>
+            <div>
+              <span class="cat-label">Supplements</span>
+              <span class="cat-count" x-text="(typeCounts.supplement || 0) + ' entities'">0 entities</span>
+            </div>
+          </a>
+          <a href="/gardens/" class="outlook-cat-card">
+            <span class="cat-icon">🏥</span>
+            <div>
+              <span class="cat-label">Conditions</span>
+              <span class="cat-count" x-text="(typeCounts.condition || 0) + ' entities'">0 entities</span>
+            </div>
+          </a>
+          <a href="/gardens/" class="outlook-cat-card">
+            <span class="cat-icon">⚡</span>
+            <div>
+              <span class="cat-label">Interventions</span>
+              <span class="cat-count" x-text="(typeCounts.intervention || 0) + ' entities'">0 entities</span>
+            </div>
+          </a>
+          <a href="/gardens/" class="outlook-cat-card">
+            <span class="cat-icon">🧬</span>
+            <div>
+              <span class="cat-label">Proteins</span>
+              <span class="cat-count" x-text="(typeCounts.protein || 0) + ' entities'">0 entities</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <footer class="outlook-footer">
+        <p>Medical Knowledge Garden &middot; Explore. Understand. Optimize.</p>
+      </footer>
+    </div>
+
+    {% include "components/timestamps.njk" %}
+    {% include "components/lucideIcons.njk" %}
+    {% for imp in dynamics.common.footer %}
+      {% include imp %}
+    {% endfor %}
+  </body>
+</html>

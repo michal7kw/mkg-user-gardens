@@ -1,0 +1,962 @@
+const slugify = require('@sindresorhus/slugify');
+const markdownIt = require('markdown-it');
+const fs = require('fs');
+const matter = require('gray-matter');
+const faviconsPlugin = require('eleventy-plugin-gen-favicons');
+const tocPlugin = require('eleventy-plugin-nesting-toc');
+const { parse } = require('node-html-parser');
+const htmlMinifier = require('html-minifier-terser');
+const pluginRss = require('@11ty/eleventy-plugin-rss');
+
+const { headerToId, namedHeadingsFilter } = require('./src/helpers/utils');
+const { userMarkdownSetup, userEleventySetup } = require('./src/helpers/userSetup');
+const {
+  transformSvgContent,
+  parseElementLinks,
+  processExcalidrawTransclusions,
+  isExcalidrawFile,
+  getExcalidrawSvgPath,
+} = require('./src/helpers/excalidrawUtils');
+const path = require('path');
+
+const Image = require('@11ty/eleventy-img');
+function transformImage(src, cls, alt, sizes, widths = ['500', '700', 'auto']) {
+  let options = {
+    widths: widths,
+    formats: ['webp', 'jpeg'],
+    outputDir: './dist/img/optimized',
+    urlPath: '/img/optimized',
+  };
+
+  // generate images, while this is async we don�t wait
+  Image(src, options);
+  let metadata = Image.statsSync(src, options);
+  return metadata;
+}
+
+// Build-time name→path index for wiki-link resolution.
+// Allows [[Vitamin D]] to resolve even when the file is nested at
+// demo_user/supplement/Vitamin D.md. Built lazily on first call, cached.
+let _noteNameIndex = null;
+function getNoteNameIndex() {
+  if (_noteNameIndex) return _noteNameIndex;
+  _noteNameIndex = {};
+  const base = path.resolve('./src/site/notes/');
+  function walk(dir) {
+    let entries;
+    try { entries = fs.readdirSync(dir, { withFileTypes: true }); } catch { return; }
+    for (const e of entries) {
+      const full = path.join(dir, e.name);
+      if (e.isDirectory()) { walk(full); }
+      else if (e.name.endsWith('.md')) {
+        const nameNoExt = e.name.replace(/\.md$/, '');
+        const rel = path.relative(base, full); // e.g. demo_user/supplement/Vitamin D.md
+        // First match wins (no overwrite) — prefer earlier in alphabetical walk
+        if (!_noteNameIndex[nameNoExt]) {
+          _noteNameIndex[nameNoExt] = rel;
+        }
+      }
+    }
+  }
+  walk(base);
+  return _noteNameIndex;
+}
+
+function getAnchorLink(filePath, linkTitle) {
+  const { attributes, innerHTML } = getAnchorAttributes(filePath, linkTitle);
+  return `<a ${Object.keys(attributes)
+    .map((key) => `${key}="${attributes[key]}"`)
+    .join(' ')}>${innerHTML}</a>`;
+}
+
+/**
+ * Derive permalink from a file path relative to notes/.
+ * Multi-user: notes/{username}/{entityType}/{slug}.md → /garden/{username}/{entityType}/{slug}/
+ * Single-user: notes/{slug}.md → /notes/{slug}/
+ */
+function derivePermalink(relPath) {
+  const normalized = relPath.replace(/\\/g, '/');
+  const parts = normalized.split('/').filter(Boolean);
+  // Multi-user: {username}/{entityType}/{slug}.md (3+ parts)
+  if (parts.length >= 3) {
+    const username = parts[0];
+    const entityType = parts[1];
+    const slug = slugify(parts[parts.length - 1].replace(/\.md$/, ''));
+    return `/garden/${username}/${entityType}/${slug}/`;
+  }
+  // Single-user fallback
+  const slug = slugify(parts[parts.length - 1].replace(/\.md$/, ''));
+  return `/notes/${slug}/`;
+}
+
+function getAnchorAttributes(filePath, linkTitle) {
+  let fileName = filePath.replaceAll('&amp;', '&');
+  let header = '';
+  let headerLinkPath = '';
+  if (filePath.includes('#')) {
+    [fileName, header] = filePath.split('#');
+    headerLinkPath = `#${headerToId(header)}`;
+  }
+
+  let noteIcon = process.env.NOTE_ICON_DEFAULT;
+  const title = linkTitle ? linkTitle : fileName;
+  let permalink = derivePermalink(fileName);
+  let deadLink = false;
+  try {
+    const startPath = './src/site/notes/';
+    const fullPath = fileName.endsWith('.md')
+      ? `${startPath}${fileName}`
+      : `${startPath}${fileName}.md`;
+    const file = fs.readFileSync(fullPath, 'utf8');
+    const frontMatter = matter(file);
+    if (frontMatter.data.permalink) {
+      permalink = frontMatter.data.permalink;
+    }
+    if (frontMatter.data.tags && frontMatter.data.tags.indexOf('gardenEntry') != -1) {
+      permalink = '/';
+    }
+    if (frontMatter.data.noteIcon) {
+      noteIcon = frontMatter.data.noteIcon;
+    }
+  } catch {
+    // Direct path failed — try name-based index lookup (handles nested user files)
+    const nameKey = fileName.replace(/\.md$/, '');
+    const idx = getNoteNameIndex();
+    const resolved = idx[nameKey];
+    if (resolved) {
+      try {
+        const startPath = './src/site/notes/';
+        const file = fs.readFileSync(startPath + resolved, 'utf8');
+        const frontMatter = matter(file);
+        permalink = derivePermalink(resolved);
+        if (frontMatter.data.permalink) {
+          permalink = frontMatter.data.permalink;
+        }
+        if (frontMatter.data.tags && frontMatter.data.tags.indexOf('gardenEntry') != -1) {
+          permalink = '/';
+        }
+        if (frontMatter.data.noteIcon) {
+          noteIcon = frontMatter.data.noteIcon;
+        }
+      } catch {
+        deadLink = true;
+      }
+    } else {
+      deadLink = true;
+    }
+  }
+
+  if (deadLink) {
+    return {
+      attributes: {
+        class: 'internal-link is-unresolved',
+        href: '/404',
+        target: '',
+      },
+      innerHTML: title,
+    };
+  }
+  return {
+    attributes: {
+      class: 'internal-link',
+      target: '',
+      'data-note-icon': noteIcon,
+      href: `${permalink}${headerLinkPath}`,
+    },
+    innerHTML: title,
+  };
+}
+
+const tagRegex = /(^|\s|\>)(#[^\s!@#$%^&*()=+\.,\[{\]};:'"?><]+)(?!([^<]*>))/g;
+
+module.exports = function (eleventyConfig) {
+  // Don't use .gitignore for Eleventy's ignore list — generated entity files
+  // in src/site/notes/entities/ are gitignored but must be processed by Eleventy.
+  eleventyConfig.setUseGitIgnore(false);
+
+  // Soft-archive root: gc-user-gardens.py moves deleted users here for a 30-day
+  // grace period. Excluded from build so the live site drops them immediately.
+  eleventyConfig.ignores.add('src/site/notes/_archived/**');
+
+  eleventyConfig.setLiquidOptions({
+    dynamicPartials: true,
+  });
+  let markdownLib = markdownIt({
+    breaks: true,
+    html: true,
+    linkify: true,
+  })
+    .use(require('markdown-it-anchor'), {
+      slugify: headerToId,
+    })
+    .use(require('markdown-it-mark'))
+    .use(require('markdown-it-footnote'))
+    .use(function (md) {
+      md.renderer.rules.hashtag_open = function (tokens, idx) {
+        return '<a class="tag" onclick="toggleTagSearch(this)">';
+      };
+    })
+    .use(require('markdown-it-mathjax3'), {
+      tex: {
+        inlineMath: [['$', '$']],
+      },
+      options: {
+        skipHtmlTags: { '[-]': ['pre'] },
+      },
+    })
+    .use(require('markdown-it-attrs'))
+    .use(require('markdown-it-task-checkbox'), {
+      disabled: true,
+      divWrap: false,
+      divClass: 'checkbox',
+      idPrefix: 'cbx_',
+      ulClass: 'task-list',
+      liClass: 'task-list-item',
+    })
+    .use(require('markdown-it-plantuml'), {
+      openMarker: '```plantuml',
+      closeMarker: '```',
+    })
+    .use(namedHeadingsFilter)
+    .use(function (md) {
+      //https://github.com/DCsunset/markdown-it-mermaid-plugin
+      const origFenceRule =
+        md.renderer.rules.fence ||
+        function (tokens, idx, options, env, self) {
+          return self.renderToken(tokens, idx, options, env, self);
+        };
+      md.renderer.rules.fence = (tokens, idx, options, env, slf) => {
+        const token = tokens[idx];
+        if (token.info === 'mermaid') {
+          const code = token.content.trim();
+          return `<pre class="mermaid">${code}</pre>`;
+        }
+        if (token.info === 'transclusion') {
+          const code = token.content.trim();
+          return `<div class="transclusion">${md.render(code)}</div>`;
+        }
+        if (token.info.startsWith('ad-')) {
+          const code = token.content.trim();
+          const parts = code.split('\n');
+          let titleLine;
+          let collapse;
+          let collapsible = false;
+          let collapsed = true;
+          let icon;
+          let color;
+          let nbLinesToSkip = 0;
+          for (let i = 0; i < 4; i++) {
+            if (parts[i] && parts[i].trim()) {
+              let line = parts[i] && parts[i].trim().toLowerCase();
+              if (line.startsWith('title:')) {
+                titleLine = line.substring(6);
+                nbLinesToSkip++;
+              } else if (line.startsWith('icon:')) {
+                icon = line.substring(5);
+                nbLinesToSkip++;
+              } else if (line.startsWith('collapse:')) {
+                collapsible = true;
+                collapse = line.substring(9);
+                if (collapse && collapse.trim().toLowerCase() == 'open') {
+                  collapsed = false;
+                }
+                nbLinesToSkip++;
+              } else if (line.startsWith('color:')) {
+                color = line.substring(6);
+                nbLinesToSkip++;
+              }
+            }
+          }
+          const foldDiv = collapsible
+            ? `<div class="callout-fold">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-chevron-down">
+              <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+          </div>`
+            : '';
+          const titleDiv = titleLine
+            ? `<div class="callout-title"><div class="callout-title-inner">${titleLine}</div>${foldDiv}</div>`
+            : '';
+          let collapseClasses = titleLine && collapsible ? 'is-collapsible' : '';
+          if (collapsible && collapsed) {
+            collapseClasses += ' is-collapsed';
+          }
+
+          let res = `<div data-callout-metadata class="callout ${collapseClasses}" data-callout="${token.info.substring(
+            3
+          )}">${titleDiv}\n<div class="callout-content">${md.render(
+            parts.slice(nbLinesToSkip).join('\n')
+          )}</div></div>`;
+          return res;
+        }
+
+        // Other languages
+        return origFenceRule(tokens, idx, options, env, slf);
+      };
+
+      const defaultImageRule =
+        md.renderer.rules.image ||
+        function (tokens, idx, options, env, self) {
+          return self.renderToken(tokens, idx, options, env, self);
+        };
+      md.renderer.rules.image = (tokens, idx, options, env, self) => {
+        const imageName = tokens[idx].content;
+        //"image.png|metadata?|width"
+        const [fileName, ...widthAndMetaData] = imageName.split('|');
+        const lastValue = widthAndMetaData[widthAndMetaData.length - 1];
+        const lastValueIsNumber = !isNaN(lastValue);
+        const width = lastValueIsNumber ? lastValue : null;
+
+        let metaData = '';
+        if (widthAndMetaData.length > 1) {
+          metaData = widthAndMetaData.slice(0, widthAndMetaData.length - 1).join(' ');
+        }
+
+        if (!lastValueIsNumber) {
+          metaData += ` ${lastValue}`;
+        }
+
+        if (width) {
+          const widthIndex = tokens[idx].attrIndex('width');
+          const widthAttr = `${width}px`;
+          if (widthIndex < 0) {
+            tokens[idx].attrPush(['width', widthAttr]);
+          } else {
+            tokens[idx].attrs[widthIndex][1] = widthAttr;
+          }
+        }
+
+        return defaultImageRule(tokens, idx, options, env, self);
+      };
+
+      const defaultLinkRule =
+        md.renderer.rules.link_open ||
+        function (tokens, idx, options, env, self) {
+          return self.renderToken(tokens, idx, options, env, self);
+        };
+      md.renderer.rules.link_open = function (tokens, idx, options, env, self) {
+        const aIndex = tokens[idx].attrIndex('target');
+        const classIndex = tokens[idx].attrIndex('class');
+
+        if (aIndex < 0) {
+          tokens[idx].attrPush(['target', '_blank']);
+        } else {
+          tokens[idx].attrs[aIndex][1] = '_blank';
+        }
+
+        if (classIndex < 0) {
+          tokens[idx].attrPush(['class', 'external-link']);
+        } else {
+          tokens[idx].attrs[classIndex][1] = 'external-link';
+        }
+
+        return defaultLinkRule(tokens, idx, options, env, self);
+      };
+    })
+    .use(userMarkdownSetup);
+
+  eleventyConfig.setLibrary('md', markdownLib);
+
+  eleventyConfig.addFilter('isoDate', function (date) {
+    return date && date.toISOString();
+  });
+
+  eleventyConfig.addFilter('link', function (str) {
+    return (
+      str &&
+      str.replace(/\[\[([^\]]+?)\]\]/g, function (match, p1) {
+        //Check if it is an embedded excalidraw drawing or mathjax javascript
+        if (p1.indexOf('],[') > -1 || p1.indexOf('"$"') > -1) {
+          return match;
+        }
+        const [fileLink, linkTitle] = p1.split('|');
+
+        return getAnchorLink(fileLink, linkTitle);
+      })
+    );
+  });
+
+  eleventyConfig.addFilter('taggify', function (str) {
+    return (
+      str &&
+      str.replace(tagRegex, function (match, precede, tag) {
+        return `${precede}<a class="tag" onclick="toggleTagSearch(this)" data-content="${tag}">${tag}</a>`;
+      })
+    );
+  });
+
+  eleventyConfig.addFilter('searchableTags', function (str) {
+    let tags;
+    let match = str && str.match(tagRegex);
+    if (match) {
+      tags = match
+        .map((m) => {
+          return `"${m.split('#')[1]}"`;
+        })
+        .join(', ');
+    }
+    if (tags) {
+      return `${tags},`;
+    } else {
+      return '';
+    }
+  });
+
+  eleventyConfig.addFilter('hideDataview', function (str) {
+    return (
+      str &&
+      str.replace(/\(\S+\:\:(.*)\)/g, function (_, value) {
+        return value.trim();
+      })
+    );
+  });
+
+  eleventyConfig.addTransform('dataview-js-links', function (str) {
+    if (!str || !str.includes('data-href')) return str;
+    const parsed = parse(str);
+    for (const dataViewJsLink of parsed.querySelectorAll('a[data-href].internal-link')) {
+      const notePath = dataViewJsLink.getAttribute('data-href');
+      const title = dataViewJsLink.innerHTML;
+      const { attributes, innerHTML } = getAnchorAttributes(notePath, title);
+      for (const key in attributes) {
+        dataViewJsLink.setAttribute(key, attributes[key]);
+      }
+      dataViewJsLink.innerHTML = innerHTML;
+    }
+
+    return str && parsed.innerHTML;
+  });
+
+  eleventyConfig.addTransform('callout-block', function (str) {
+    if (!str || !str.includes('[!')) return str;
+    const parsed = parse(str);
+
+    const transformCalloutBlocks = (blockquotes = parsed.querySelectorAll('blockquote')) => {
+      for (const blockquote of blockquotes) {
+        transformCalloutBlocks(blockquote.querySelectorAll('blockquote'));
+
+        let content = blockquote.innerHTML;
+
+        let titleDiv = '';
+        let calloutType = '';
+        let calloutMetaData = '';
+        let isCollapsable;
+        let isCollapsed;
+        const calloutMeta = /\[!([\w-]*)\|?(\s?.*)\](\+|\-){0,1}(\s?.*)/;
+        if (!content.match(calloutMeta)) {
+          continue;
+        }
+
+        content = content.replace(
+          calloutMeta,
+          function (metaInfoMatch, callout, metaData, collapse, title) {
+            isCollapsable = Boolean(collapse);
+            isCollapsed = collapse === '-';
+            const titleText = title.replace(/(<\/{0,1}\w+>)/, '')
+              ? title
+              : `${callout.charAt(0).toUpperCase()}${callout.substring(1).toLowerCase()}`;
+            const fold = isCollapsable
+              ? `<div class="callout-fold"><i icon-name="chevron-down"></i></div>`
+              : ``;
+
+            calloutType = callout;
+            calloutMetaData = metaData;
+            titleDiv = `<div class="callout-title"><div class="callout-title-inner">${titleText}</div>${fold}</div>`;
+            return '';
+          }
+        );
+
+        /* Hacky fix for callouts with only a title:
+        This will ensure callout-content isn't produced if
+        the callout only has a title, like this:
+        ```md
+        > [!info] i only have a title
+        ```
+        Not sure why content has a random <p> tag in it,
+        */
+        if (content === '\n<p>\n') {
+          content = '';
+        }
+        let contentDiv = content ? `\n<div class="callout-content">${content}</div>` : '';
+
+        blockquote.tagName = 'div';
+        blockquote.classList.add('callout');
+        blockquote.classList.add(isCollapsable ? 'is-collapsible' : '');
+        blockquote.classList.add(isCollapsed ? 'is-collapsed' : '');
+        blockquote.setAttribute('data-callout', calloutType.toLowerCase());
+        calloutMetaData && blockquote.setAttribute('data-callout-metadata', calloutMetaData);
+        blockquote.innerHTML = `${titleDiv}${contentDiv}`;
+      }
+    };
+
+    transformCalloutBlocks();
+
+    return str && parsed.innerHTML;
+  });
+
+  function fillPictureSourceSets(src, cls, alt, meta, width, imageTag) {
+    imageTag.tagName = 'picture';
+    let html = `<source
+      media="(max-width:480px)"
+      srcset="${meta.webp[0].url}"
+      type="image/webp"
+      />
+      <source
+      media="(max-width:480px)"
+      srcset="${meta.jpeg[0].url}"
+      />
+      `;
+    if (meta.webp && meta.webp[1] && meta.webp[1].url) {
+      html += `<source
+        media="(max-width:1920px)"
+        srcset="${meta.webp[1].url}"
+        type="image/webp"
+        />`;
+    }
+    if (meta.jpeg && meta.jpeg[1] && meta.jpeg[1].url) {
+      html += `<source
+        media="(max-width:1920px)"
+        srcset="${meta.jpeg[1].url}"
+        />`;
+    }
+    html += `<img
+      class="${cls.toString()}"
+      src="${src}"
+      alt="${alt}"
+      width="${width}"
+      />`;
+    imageTag.innerHTML = html;
+  }
+
+  eleventyConfig.addTransform('picture', function (str) {
+    if (process.env.USE_FULL_RESOLUTION_IMAGES === 'true') {
+      return str;
+    }
+    if (!str || !str.includes('<img')) return str;
+    const parsed = parse(str);
+    for (const imageTag of parsed.querySelectorAll('.cm-s-obsidian img')) {
+      const src = imageTag.getAttribute('src');
+      if (src && src.startsWith('/') && !src.endsWith('.svg')) {
+        const cls = imageTag.classList.value;
+        const alt = imageTag.getAttribute('alt');
+        const width = imageTag.getAttribute('width') || '';
+
+        try {
+          const meta = transformImage(
+            './src/site' + decodeURI(imageTag.getAttribute('src')),
+            cls.toString(),
+            alt,
+            ['(max-width: 480px)', '(max-width: 1024px)']
+          );
+
+          if (meta) {
+            fillPictureSourceSets(src, cls, alt, meta, width, imageTag);
+          }
+        } catch {
+          // Make it fault tolarent.
+        }
+      }
+    }
+    return str && parsed.innerHTML;
+  });
+
+  eleventyConfig.addTransform('table', function (str) {
+    if (!str || !str.includes('<table')) return str;
+    const parsed = parse(str);
+    for (const t of parsed.querySelectorAll('.cm-s-obsidian > table')) {
+      let inner = t.innerHTML;
+      t.tagName = 'div';
+      t.classList.add('table-wrapper');
+      t.innerHTML = `<table>${inner}</table>`;
+    }
+
+    for (const t of parsed.querySelectorAll('.cm-s-obsidian > .block-language-dataview > table')) {
+      t.classList.add('dataview');
+      t.classList.add('table-view-table');
+      t.querySelector('thead')?.classList.add('table-view-thead');
+      t.querySelector('tbody')?.classList.add('table-view-tbody');
+      t.querySelectorAll('thead > tr')?.forEach((tr) => {
+        tr.classList.add('table-view-tr-header');
+      });
+      t.querySelectorAll('thead > tr > th')?.forEach((th) => {
+        th.classList.add('table-view-th');
+      });
+    }
+    return str && parsed.innerHTML;
+  });
+
+  // ==========================================================================
+  // Excalidraw SVG Link Transformation
+  // ==========================================================================
+
+  /**
+   * Transform Excalidraw SVG links from obsidian:// URLs to garden URLs.
+   * Handles both inline SVGs and img tags pointing to SVG files.
+   */
+  eleventyConfig.addTransform('excalidraw-svg-links', function (content, outputPath) {
+    if (!outputPath || !outputPath.endsWith('.html')) return content;
+    if (!content || !content.includes('excalidraw')) return content;
+
+    const parsed = parse(content);
+
+    // Process inline SVGs wrapped in excalidraw containers
+    for (const container of parsed.querySelectorAll('.excalidraw-svg, .excalidraw-embed')) {
+      const svgElement = container.querySelector('svg');
+      if (svgElement) {
+        let svgHtml = svgElement.outerHTML;
+
+        // Transform obsidian:// links to garden URLs
+        svgHtml = svgHtml.replace(
+          /href="obsidian:\/\/open\?[^"]*file=([^"&]+)[^"]*"/g,
+          (match, encodedFile) => {
+            const noteName = decodeURIComponent(encodedFile).replace(/\.md$/, '');
+            // Use simple slug-based URL (will be resolved at build time)
+            const slug = noteName
+              .toLowerCase()
+              .replace(/\s+/g, '-')
+              .replace(/[^a-z0-9-]/g, '');
+            return `href="/notes/${slug}/" class="excalidraw-link" data-internal-link`;
+          }
+        );
+
+        // Transform [[WikiLink]] format links to garden URLs
+        // Excalidraw exports links with href="[[NoteName]]" format
+        svgHtml = svgHtml.replace(/href="\[\[([^\]|]+)(?:\|[^\]]+)?\]\]"/g, (match, noteName) => {
+          // Convert underscores to spaces to match file names
+          const displayName = noteName.replace(/_/g, ' ');
+          // URL encode for spaces in path
+          const encodedName = encodeURIComponent(displayName);
+          // Dynamically resolve entity type by scanning the notes directory
+          const notesDir = './src/site/notes/entities/';
+          let resolvedType = 'biomarker'; // fallback default
+          try {
+            const entityTypes = fs
+              .readdirSync(notesDir)
+              .filter((d) => fs.statSync(path.join(notesDir, d)).isDirectory());
+            for (const type of entityTypes) {
+              const testPath = path.join(notesDir, type, `${displayName}.md`);
+              const testPathSlug = path.join(notesDir, type, `${encodedName}.md`);
+              if (fs.existsSync(testPath) || fs.existsSync(testPathSlug)) {
+                resolvedType = type;
+                break;
+              }
+            }
+          } catch (e) {
+            /* directory doesn't exist yet, use fallback */
+          }
+          return `href="/notes/entities/${resolvedType}/${encodedName}/" class="excalidraw-link" data-internal-link`;
+        });
+
+        // Make all links in SVG clickable
+        svgHtml = svgHtml.replace(
+          /<a\s+([^>]*)>/g,
+          '<a $1 style="pointer-events: all; cursor: pointer;">'
+        );
+
+        // Update the SVG content
+        const newSvg = parse(svgHtml);
+        svgElement.innerHTML = newSvg.innerHTML;
+        if (newSvg.querySelector('svg')) {
+          svgElement.setAttribute('class', newSvg.querySelector('svg').getAttribute('class') || '');
+        }
+      }
+    }
+
+    // Process any img tags pointing to SVG files that should be interactive
+    for (const img of parsed.querySelectorAll('img[src$=".svg"]')) {
+      const src = img.getAttribute('src');
+      if (src && src.includes('excalidraw')) {
+        // Mark for client-side processing
+        img.setAttribute('data-excalidraw-svg', 'true');
+        img.setAttribute('loading', 'lazy');
+      }
+    }
+
+    return parsed.innerHTML;
+  });
+
+  /**
+   * Process Excalidraw transclusions (![[drawing.excalidraw]]).
+   * Converts Excalidraw embeds to inline SVGs with clickable links.
+   */
+  eleventyConfig.addTransform('excalidraw-transclusion', function (content, outputPath) {
+    if (!outputPath || !outputPath.endsWith('.html')) return content;
+    if (!content || !content.includes('.excalidraw')) return content;
+
+    const parsed = parse(content);
+
+    // Find placeholders left by markdown processing for excalidraw embeds
+    // These might appear as broken image links or special divs
+    for (const element of parsed.querySelectorAll('.internal-embed[src*=".excalidraw"]')) {
+      const src = element.getAttribute('src');
+      if (src) {
+        // Try to load the SVG file
+        const svgPath = src.replace('.excalidraw.md', '.svg').replace('.excalidraw', '.svg');
+        const fullPath = path.join('./src/site/notes', svgPath);
+
+        try {
+          if (fs.existsSync(fullPath)) {
+            const svgContent = fs.readFileSync(fullPath, 'utf8');
+            element.innerHTML = `<div class="excalidraw-svg">${svgContent}</div>`;
+            element.removeAttribute('src');
+            element.setAttribute('class', 'excalidraw-embed');
+          }
+        } catch (e) {
+          console.warn(`Could not load Excalidraw SVG: ${fullPath}`);
+        }
+      }
+    }
+
+    return parsed.innerHTML;
+  });
+
+  // ============================================================
+  // HTML minifier — dual-path (parallel worker pool OR legacy serial).
+  // Legacy path gated by MKG_USE_LEGACY_MINIFIER=1 for OptiPlex backup runbook.
+  // ============================================================
+  const { createPool } = require('./src/build/minify-pool');
+  const useLegacyMinifier = process.env.MKG_USE_LEGACY_MINIFIER === '1';
+  const minifierOptions = {
+    useShortDoctype: true,
+    removeComments: true,
+    collapseWhitespace: true,
+    conservativeCollapse: true,
+    preserveLineBreaks: true,
+    minifyCSS: true,
+    minifyJS: true,
+    keepClosingSlash: true,
+  };
+
+  let _pool = null;
+
+  eleventyConfig.addTransform('htmlMinifier', async function (content, outputPath) {
+    if (!outputPath || !outputPath.endsWith('.html')) return content;
+    const isProd = process.env.NODE_ENV === 'production' || process.env.ELEVENTY_ENV === 'prod';
+    if (!isProd) return content;
+
+    if (useLegacyMinifier) {
+      return htmlMinifier.minify(content, minifierOptions);
+    }
+
+    if (!_pool) _pool = createPool();
+    return _pool.minify(content, outputPath, minifierOptions);
+  });
+
+  // Terminate the worker pool once Eleventy has finished writing all files,
+  // so Node's event loop can drain and the process exits cleanly.
+  eleventyConfig.on('eleventy.after', () => {
+    if (_pool) {
+      _pool.terminate();
+      _pool = null;
+    }
+  });
+
+  eleventyConfig.addPassthroughCopy('src/site/img');
+  eleventyConfig.addPassthroughCopy('src/site/scripts');
+  eleventyConfig.addPassthroughCopy('src/site/styles/_theme.*.css');
+  eleventyConfig.addPassthroughCopy('src/site/favicon.svg');
+  // Excalidraw SVG assets: serve alongside notes so diagram pages can load them
+  eleventyConfig.addPassthroughCopy('src/site/notes/**/*.excalidraw.svg');
+  // Favicon plugin disabled temporarily due to Windows file locking issues
+  // eleventyConfig.addPlugin(faviconsPlugin, { outputDir: "dist" });
+  eleventyConfig.addPlugin(tocPlugin, {
+    ul: true,
+    tags: ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
+  });
+
+  eleventyConfig.addFilter('dateToZulu', function (date) {
+    try {
+      return new Date(date).toISOString('dd-MM-yyyyTHH:mm:ssZ');
+    } catch {
+      return '';
+    }
+  });
+
+  eleventyConfig.addFilter('jsonify', function (variable) {
+    return JSON.stringify(variable) || '""';
+  });
+
+  eleventyConfig.addFilter('readingTime', function (content) {
+    if (!content || typeof content !== 'string') return 1;
+    const text = content.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+    const words = text ? text.split(' ').length : 0;
+    return Math.max(1, Math.round(words / 220));
+  });
+
+  eleventyConfig.addFilter('validJson', function (variable) {
+    if (Array.isArray(variable)) {
+      return variable.map((x) => x.replaceAll('\\', '\\\\')).join(',');
+    } else if (typeof variable === 'string') {
+      return variable.replaceAll('\\', '\\\\');
+    }
+    return variable;
+  });
+
+  eleventyConfig.addPlugin(pluginRss, {
+    posthtmlRenderOptions: {
+      closingSingleTag: 'slash',
+      singleTags: ['link'],
+    },
+  });
+
+  userEleventySetup(eleventyConfig);
+
+  // ==========================================================================
+  // Multi-User Garden Collections
+  // ==========================================================================
+
+  /**
+   * Extract username from file path.
+   * Expected structure: src/site/notes/{username}/{entity_type}/{slug}.md
+   */
+  function extractGardenInfo(inputPath) {
+    // Normalize to forward slashes (Eleventy uses / even on Windows)
+    const normalized = inputPath.replace(/\\/g, '/');
+    const pathParts = normalized.split('/');
+    const notesIndex = pathParts.findIndex((p) => p === 'notes');
+
+    // Multi-user structure: notes/{username}/{entityType}/{slug}.md (4+ parts after notes/)
+    if (notesIndex >= 0 && pathParts.length >= notesIndex + 4) {
+      return {
+        gardenUsername: pathParts[notesIndex + 1],
+        entityType: pathParts[notesIndex + 2] || 'note',
+      };
+    }
+
+    return {
+      gardenUsername: null,
+      entityType: 'note',
+    };
+  }
+
+  /**
+   * Notes collection with garden username extraction.
+   * Adds gardenUsername and entityType to each note's data.
+   */
+  eleventyConfig.addCollection('gardenNotes', (collection) => {
+    return collection.getFilteredByGlob('src/site/notes/**/*.md').map((note) => {
+      const { gardenUsername, entityType } = extractGardenInfo(note.inputPath);
+
+      // Add garden-specific data
+      note.data.gardenUsername = gardenUsername;
+      note.data.entityType = entityType;
+
+      return note;
+    });
+  });
+
+  /**
+   * Garden indexes collection - creates index page data for each user's garden.
+   * Groups notes by username and provides statistics.
+   */
+  eleventyConfig.addCollection('gardenIndexes', (collection) => {
+    const notes = collection.getFilteredByGlob('src/site/notes/**/*.md');
+    const byUser = {};
+
+    notes.forEach((note) => {
+      const { gardenUsername, entityType } = extractGardenInfo(note.inputPath);
+
+      // Skip notes without a username (single-user mode)
+      if (!gardenUsername) return;
+
+      if (!byUser[gardenUsername]) {
+        byUser[gardenUsername] = {
+          notes: [],
+          types: new Set(),
+          lastUpdated: null,
+        };
+      }
+
+      byUser[gardenUsername].notes.push(note);
+      byUser[gardenUsername].types.add(entityType);
+
+      // Track last updated
+      const noteUpdated = note.data.updated || note.date;
+      if (
+        noteUpdated &&
+        (!byUser[gardenUsername].lastUpdated || noteUpdated > byUser[gardenUsername].lastUpdated)
+      ) {
+        byUser[gardenUsername].lastUpdated = noteUpdated;
+      }
+    });
+
+    return Object.entries(byUser).map(([username, data]) => ({
+      username,
+      notes: data.notes,
+      entityTypes: Array.from(data.types),
+      noteCount: data.notes.length,
+      lastUpdated: data.lastUpdated,
+    }));
+  });
+
+  /**
+   * Flattened (user, type) pairs for per-type listing pages.
+   * Each entry shards into its own small page so browsing an entity type
+   * no longer pulls the entire user garden into one 300+ KB document.
+   */
+  eleventyConfig.addCollection('gardenTypeIndexes', (collection) => {
+    const notes = collection.getFilteredByGlob('src/site/notes/**/*.md');
+    const byUserType = {};
+
+    notes.forEach((note) => {
+      const { gardenUsername, entityType } = extractGardenInfo(note.inputPath);
+      if (!gardenUsername || !entityType) return;
+      const key = `${gardenUsername}::${entityType}`;
+      if (!byUserType[key]) {
+        byUserType[key] = { username: gardenUsername, entityType, notes: [] };
+      }
+      byUserType[key].notes.push(note);
+    });
+
+    return Object.values(byUserType).map((v) => ({
+      username: v.username,
+      entityType: v.entityType,
+      notes: v.notes.sort((a, b) => {
+        const ta = (a.data.title || a.fileSlug || '').toLowerCase();
+        const tb = (b.data.title || b.fileSlug || '').toLowerCase();
+        return ta.localeCompare(tb);
+      }),
+      noteCount: v.notes.length,
+    }));
+  });
+
+  /**
+   * Filter to group notes by entity type for a garden index.
+   */
+  eleventyConfig.addFilter('groupByType', function (notes) {
+    const grouped = {};
+    notes.forEach((note) => {
+      const type = note.data.entityType || 'note';
+      if (!grouped[type]) {
+        grouped[type] = [];
+      }
+      grouped[type].push(note);
+    });
+    return grouped;
+  });
+
+  /**
+   * Filter to create a URL slug from a string.
+   */
+  eleventyConfig.addFilter('slugify', function (str) {
+    if (!str) return '';
+    return str
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^a-z0-9-]/g, '')
+      .replace(/-+/g, '-')
+      .replace(/^-|-$/g, '');
+  });
+
+  return {
+    dir: {
+      input: 'src/site',
+      output: 'dist',
+      data: `_data`,
+    },
+    templateFormats: ['njk', 'md', '11ty.js'],
+    htmlTemplateEngine: 'njk',
+    markdownTemplateEngine: false,
+    passthroughFileCopy: true,
+  };
+};

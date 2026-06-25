@@ -1,0 +1,158 @@
+const wikiLinkRegex = /\[\[([^\]]+?)\]\]/g;
+const internalLinkRegex = /href="\/(.*?)"/g;
+
+function caselessCompare(a, b) {
+  return a.toLowerCase() === b.toLowerCase();
+}
+
+/**
+ * Clean a raw link match into a normalized note reference.
+ */
+function cleanLink(raw) {
+  return raw
+    .split('|')[0]
+    .replace(/.(md|markdown)\s?$/i, '')
+    .replace('\\', '')
+    .trim()
+    .split('#')[0];
+}
+
+/**
+ * Extract wikilink targets from Excalidraw "## Element Links" sections.
+ * Format: "elementId: [[Note Name]]" — these create diagram-to-note backlinks.
+ */
+function extractElementLinks(content) {
+  const links = [];
+  const sectionMatch = content.match(/## Element Links\n([\s\S]*?)(?=\n##|\n%%|$)/);
+  if (!sectionMatch) return links;
+
+  const section = sectionMatch[1];
+  const regex = /^\s*[^:]+:\s*\[\[([^\]|]+?)(?:\|[^\]]+?)?\]\]\s*$/gm;
+  let match;
+  while ((match = regex.exec(section)) !== null) {
+    links.push(cleanLink(match[1]));
+  }
+  return links;
+}
+
+function extractLinks(content) {
+  return [
+    ...(content.match(wikiLinkRegex) || []).map((link) => cleanLink(link.slice(2, -2))),
+    ...(content.match(internalLinkRegex) || []).map((link) => cleanLink(link.slice(6, -1))),
+    ...extractElementLinks(content),
+  ];
+}
+
+let _graphCache = null;
+function getGraph(data) {
+  if (_graphCache && _graphCache.collection === data.collections.note) {
+    return _graphCache.result;
+  }
+  let nodes = {};
+  let links = [];
+  let stemURLs = {};
+  let homeAlias = '/';
+  (data.collections.note || []).forEach((v, idx) => {
+    let fpath = v.filePathStem.replace('/notes/', '');
+    let parts = fpath.split('/');
+    let group = 'none';
+    if (parts.length >= 3) {
+      group = parts[parts.length - 2];
+    }
+    const isDiagram = !!(
+      v.data.type === 'diagram' ||
+      v.data['dg-entity-type'] === 'diagram' ||
+      (v.inputPath || '').includes('.excalidraw')
+    );
+    nodes[v.url] = {
+      id: idx,
+      title: v.data.title || v.fileSlug,
+      url: v.url,
+      group,
+      entityType: v.data['dg-entity-type'] || v.data.type || group || 'default',
+      home: v.data['dg-home'] || (v.data.tags && v.data.tags.indexOf('gardenEntry') > -1) || false,
+      outBound: extractLinks(v.template.frontMatter.content),
+      neighbors: new Set(),
+      backLinks: new Set(),
+      noteIcon: v.data.noteIcon || process.env.NOTE_ICON_DEFAULT,
+      hide: v.data.hideInGraph || false,
+      isDiagram,
+      updated: v.data.updated || v.data.created || null,
+      description: v.data.description || null,
+    };
+    stemURLs[fpath] = v.url;
+    if (v.data['dg-home'] || (v.data.tags && v.data.tags.indexOf('gardenEntry') > -1)) {
+      homeAlias = v.url;
+    }
+  });
+  // Build fallback lookup maps for wikilink resolution
+  let titleToURL = {};
+  let slugToURL = {};
+  Object.values(nodes).forEach((node) => {
+    if (node.title) {
+      let lower = node.title.toLowerCase().trim();
+      if (!titleToURL[lower]) titleToURL[lower] = node.url;
+      // Underscore variant (Obsidian sometimes uses underscores for spaces)
+      let underscored = lower.replace(/ /g, '_');
+      if (underscored !== lower && !titleToURL[underscored]) titleToURL[underscored] = node.url;
+    }
+    let urlParts = node.url.split('/').filter(Boolean);
+    if (urlParts.length > 0) {
+      let slug = urlParts[urlParts.length - 1];
+      if (!slugToURL[slug]) slugToURL[slug] = node.url;
+    }
+  });
+
+  Object.values(nodes).forEach((node) => {
+    let outBound = new Set();
+    node.outBound.forEach((olink) => {
+      let link = stemURLs[olink];
+      // Fallback 1: direct node URL match (entity HTML hrefs)
+      if (!link && nodes[olink]) link = olink;
+      // Fallback 2: title-based lookup (plain [[Note Name]] wikilinks)
+      if (!link) {
+        let normalized = olink.toLowerCase().trim().replace(/_/g, ' ');
+        link = titleToURL[normalized] || titleToURL[olink.toLowerCase().trim()];
+      }
+      // Fallback 3: slug-based lookup (path-like wikilinks)
+      if (!link) {
+        let parts = olink.split('/');
+        let lastPart = parts[parts.length - 1]
+          .toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+        if (lastPart) link = slugToURL[lastPart];
+      }
+      // Final fallback: use olink as-is
+      if (!link) link = olink;
+      link = link.split('#')[0];
+      outBound.add(link);
+    });
+    node.outBound = Array.from(outBound);
+    node.outBound.forEach((link) => {
+      let n = nodes[link];
+      if (n) {
+        n.neighbors.add(node.url);
+        n.backLinks.add(node.url);
+        node.neighbors.add(n.url);
+        links.push({ source: node.id, target: n.id });
+      }
+    });
+  });
+  Object.keys(nodes).map((k) => {
+    nodes[k].neighbors = Array.from(nodes[k].neighbors);
+    nodes[k].backLinks = Array.from(nodes[k].backLinks);
+    nodes[k].size = nodes[k].neighbors.length;
+  });
+  const result = {
+    homeAlias,
+    nodes,
+    links,
+  };
+  _graphCache = { collection: data.collections.note, result };
+  return result;
+}
+
+exports.wikiLinkRegex = wikiLinkRegex;
+exports.internalLinkRegex = internalLinkRegex;
+exports.extractLinks = extractLinks;
+exports.extractElementLinks = extractElementLinks;
+exports.getGraph = getGraph;

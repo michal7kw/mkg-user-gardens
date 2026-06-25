@@ -1,0 +1,27 @@
+{%if settings.dgHomeLink === true%}
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <a class="garden-home-link" href="/" style="text-decoration: none; margin: 15px; font-size: 1.5rem; display: inline-flex; align-items: center;" aria-label="Home">
+                <i icon-name="home"></i>
+            </a>
+        </div>
+        {% if settings.dgEnableSearch === true%}
+            {% include "components/searchButton.njk" %}
+        {%endif%}
+    </nav>
+    {%else%}
+    <div class="empty-navbar" >
+        {% if settings.dgEnableSearch === true%}
+            {% include "components/searchButton.njk" %}
+        {%endif%}
+    </div>
+{%endif%}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var segs = window.location.pathname.split('/').filter(Boolean);
+    if (segs.length >= 2 && segs[0] === 'garden') {
+        var href = '/garden/' + segs[1] + '/outlook/';
+        document.querySelectorAll('.garden-home-link').forEach(function(el) { el.href = href; });
+    }
+});
+</script>

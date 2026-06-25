@@ -1,0 +1,39 @@
+---
+confidence_score: 1.0
+created: '2026-06-13T17:47:11.946910Z'
+description: Encodes the p85alpha regulatory subunit of PI3K. Essential for insulin
+  signaling and glucose metabolism. Mutations cause SHORT syndrome and contribute
+  to cancer.
+dg-home: false
+dg-publish: true
+gardenUsername: demo_user
+id: pik3r1
+permalink: /garden/demo_user/gene/pik3r1/
+slug: pik3r1
+source: Manual
+tags:
+- gene
+- insulin_signaling
+- metabolic_regulation
+- tumor_suppressor
+- imported
+- primekg
+templateEngineOverride: njk
+title: PIK3R1
+type: gene
+updated: '2026-06-13T17:47:11.946910Z'
+---
+
+{% raw %}
+<h1>PIK3R1</h1>
+<h2>Overview</h2>
+<p>Encodes the p85alpha regulatory subunit of PI3K. Essential for insulin signaling and glucose metabolism. Mutations cause SHORT syndrome and contribute to cancer.</p>
+<h2>Relationships</h2>
+<h3>Related</h3>
+<p>RELATED::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a><br />
+RELATED::<a href="/garden/demo_user/hormone/igf-1/" class="internal-link">IGF-1</a></p>
+<h3>Participates In Pathway</h3>
+<p>PARTICIPATES_IN_PATHWAY::<a class="internal-link is-unresolved" href="/404">PI3K-Akt Pathway</a><br />
+PARTICIPATES_IN_PATHWAY::<a href="/garden/demo_user/pathway/mtor-pathway/" class="internal-link">mTOR Pathway</a></p>
+
+{% endraw %}

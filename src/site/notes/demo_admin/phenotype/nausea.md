@@ -1,0 +1,65 @@
+---
+confidence_score: 0.9
+created: '2026-06-13T17:47:02.081967Z'
+description: '...'
+dg-home: false
+dg-publish: true
+gardenUsername: demo_admin
+id: nausea
+permalink: /garden/demo_admin/phenotype/nausea/
+slug: nausea
+source: Manual
+tags:
+- phenotype
+- imported
+- primekg
+templateEngineOverride: njk
+title: Nausea
+type: phenotype
+updated: '2026-06-13T17:47:02.081967Z'
+---
+
+{% raw %}
+<h1>Nausea</h1>
+<h2>Overview</h2>
+<p>Nausea operates as a hardwired evolutionary defense mechanism. As a clinical phenotype, it is an immensely uncomfortable, highly distressing visceral sensation typically localized intuitively to the throat or epigastrium. It serves as the psychological alert signal engineered to actively discourage humans from ingesting further food or toxins and effectively prepares the body's musculature for an impending violent reverse-peristaltic ejection (vomiting).</p>
+<p>Unlike pain (which maps heavily to the somatosensory cortex), nausea is triggered rapidly and violently by a specific set of deep medullary structures.</p>
+<p>The primary neurological trigger hub is the <strong>Chemoreceptor Trigger Zone (CTZ)</strong>, located highly strategically at the area postrema right at the base of the fourth ventricle. Crucially, the CTZ inherently lacks a blood-brain barrier. Because of this massive structural vulnerability, the CTZ can freely sample passing blood plasma and rapidly detect circulating toxic chemicals (ranging from chemotherapy agents and synthetic opioids to uremic toxins accumulating from kidney failure). When the CTZ detects poison, it instantly bombs the medullary vomiting center, immediately generating overwhelming nausea.</p>
+<p>Alternatively, nausea can be triggered heavily by the <strong>vestibular system</strong> (motion sickness, via conflicting visual/inner-ear motion data) or directly by massive inflammation spanning the peripheral vagus nerve winding through an irritated gastrointestinal tract (e.g. food poisoning).</p>
+<h2>Relationships</h2>
+<h3>Related</h3>
+<p>RELATED::<a class="internal-link is-unresolved" href="/404">mal de Debarquement</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">non-secreting paraganglioma</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">neuroleptic malignant syndrome</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">liver neuroendocrine carcinoma</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">renal nutcracker syndrome</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">glucocorticoid-remediable aldosteronism</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">acute liver failure</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">ileal neuroendocrine tumor well differentiated low or intermediate grade</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">seizures-scoliosis-macrocephaly syndrome</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">hereditary renal hypouricemia</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">boutonneuse fever</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">Nausea and vomiting</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">gallbladder neuroendocrine tumor grade 12</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">neuromyelitis optica</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">pseudotumor cerebri</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">primary unilateral adrenal hyperplasia</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">multiple endocrine neoplasia</a><br />
+RELATED::<a href="/garden/demo_admin/sideeffect/serotonin-syndrome/" class="internal-link">Serotonin Syndrome</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">gastric mucosal hypertrophy</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">jejunal neuroendocrine tumor well differentiated low or intermediate grade</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">ethylene glycol poisoning</a><br />
+RELATED::<a href="/garden/demo_admin/drug/chlorpromazine/" class="internal-link">Chlorpromazine</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">hereditary angioedema</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">hereditary pheochromocytoma-paraganglioma</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">duodenal neuroendocrine tumor well differentiated low or intermediate grade</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">cocaine intoxication</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">sporadic pheochromocytomasecreting paraganglioma</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">aldosterone-producing adenoma with seizures and neurological abnormalities</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">optic pathway glioma</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">colchicine poisoning</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">hereditary coproporphyria</a></p>
+<h3>Related To Phenotype</h3>
+<p>RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Nausea and vomiting</a></p>
+
+{% endraw %}

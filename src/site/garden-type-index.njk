@@ -1,0 +1,108 @@
+---
+pagination:
+  data: collections.gardenTypeIndexes
+  size: 1
+  alias: typeIndex
+permalink: /garden/{{ typeIndex.username }}/{{ typeIndex.entityType }}/
+eleventyComputed:
+  title: "{{ typeIndex.entityType | capitalize }} — {{ typeIndex.username }}"
+---
+<!DOCTYPE html>
+<html lang="{{ meta.mainLanguage }}">
+  <head>
+    <title>{{ typeIndex.entityType | capitalize }} — {{ typeIndex.username }}</title>
+    {%include "components/pageheader.njk"%}
+    <style>
+      .type-index-main {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem;
+      }
+      .type-index-main .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        color: var(--text-accent);
+        font-size: 0.9rem;
+        text-decoration: none;
+        opacity: 0.8;
+        margin-bottom: 1rem;
+      }
+      .type-index-main .back-link:hover { opacity: 1; }
+      .type-index-header {
+        padding-bottom: 1.25rem;
+        border-bottom: 1px solid var(--background-modifier-border);
+        margin-bottom: 1.5rem;
+      }
+      .type-index-header h1 {
+        margin: 0 0 0.25rem 0;
+        font-size: 2rem;
+        text-transform: capitalize;
+      }
+      .type-index-header p {
+        margin: 0;
+        color: var(--text-muted);
+        font-size: 1rem;
+      }
+      .type-entity-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 1rem;
+      }
+      .type-entity-card {
+        display: block;
+        padding: 1rem 1.1rem;
+        background: var(--background-secondary);
+        border-radius: 8px;
+        border: 1px solid transparent;
+        text-decoration: none;
+        color: inherit;
+        transition: transform 0.15s ease, border-color 0.15s ease;
+      }
+      .type-entity-card:hover {
+        border-color: var(--interactive-accent);
+        transform: translateY(-2px);
+      }
+      .type-entity-card h3 {
+        margin: 0 0 0.35rem 0;
+        font-size: 1.05rem;
+        color: var(--text-normal);
+      }
+      .type-entity-card p {
+        margin: 0;
+        color: var(--text-muted);
+        font-size: 0.88rem;
+        line-height: 1.45;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body class="theme-{{meta.baseTheme}} markdown-preview-view">
+    {%include "components/navbar.njk"%}
+
+    <main class="type-index-main">
+      <a href="/garden/{{ typeIndex.username }}/outlook/" class="back-link">&larr; Back to {{ typeIndex.username }}'s outlook</a>
+      <header class="type-index-header">
+        <h1>{{ typeIndex.entityType | replace("_", " ") }}</h1>
+        <p>{{ typeIndex.noteCount }} published in {{ typeIndex.username }}'s garden</p>
+      </header>
+
+      <div class="type-entity-grid">
+        {% for note in typeIndex.notes %}
+          {% set noteSlug = note.data.slug or (note.data.title | slugify) or note.fileSlug %}
+          <a href="/garden/{{ typeIndex.username }}/{{ typeIndex.entityType }}/{{ noteSlug }}/" class="type-entity-card">
+            <h3>{{ note.data.title or note.fileSlug }}</h3>
+            {% if note.data.description %}
+              <p>{{ note.data.description | truncate(140) }}</p>
+            {% endif %}
+          </a>
+        {% endfor %}
+      </div>
+    </main>
+
+    {% include "components/lucideIcons.njk" %}
+  </body>
+</html>
