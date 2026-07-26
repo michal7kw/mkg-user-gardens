@@ -1,0 +1,45 @@
+---
+confidence_score: 0.85
+created: '2026-07-26T12:38:42.623822Z'
+description: Largest serotonergic nucleus in the brainstem, containing ~235,000 serotonin
+  neurons in humans. Projects to virtually all forebrain regions (cortex, hippocampus,
+  amygdala, basal ganglia, hypothalamus). Primary target of SSRI antidepressants.
+  Modulates mood, anxiety, sleep, appetite, and pain.
+dg-home: false
+dg-publish: true
+evidence_level: 5
+gardenUsername: e2euser82c06227
+id: dorsal_raphe_nucleus
+permalink: /garden/e2euser82c06227/organ/dorsal-raphe-nucleus/
+provenance: curated
+slug: dorsal-raphe-nucleus
+source: Manual
+tags:
+- organ
+templateEngineOverride: njk
+title: Dorsal Raphe Nucleus
+type: organ
+updated: '2026-07-26T12:38:42.623822Z'
+---
+
+{% raw %}
+<h1>Dorsal Raphe Nucleus</h1>
+<h2>Overview</h2>
+<p>Largest serotonergic nucleus in the brainstem, containing ~235,000 serotonin neurons in humans. Projects to virtually all forebrain regions (cortex, hippocampus, amygdala, basal ganglia, hypothalamus). Primary target of SSRI antidepressants. Modulates mood, anxiety, sleep, appetite, and pain. See also <a href="/garden/e2euser82c06227/organ/raphe-nuclei/" class="internal-link">Raphe Nuclei</a> in anatomy for the full raphe system.</p>
+<h2>Relationships</h2>
+<h3>Related</h3>
+<p>RELATED::<a href="/garden/e2euser82c06227/organ/raphe-nuclei/" class="internal-link">Raphe Nuclei</a><br />
+RELATED::<a href="/garden/e2euser82c06227/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">Hippocampus</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">Amygdala</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">Prefrontal Cortex</a></p>
+<h3>Produces</h3>
+<p>PRODUCES::<a href="/garden/e2euser82c06227/neurotransmitter/serotonin/" class="internal-link">Serotonin</a></p>
+<h3>Supports Function</h3>
+<p>SUPPORTS_FUNCTION::<a href="/garden/e2euser82c06227/cognitivefunction/emotional-regulation/" class="internal-link">Emotional Regulation</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (textbook reference)</li>
+</ul>
+
+{% endraw %}
