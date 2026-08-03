@@ -1,0 +1,53 @@
+---
+confidence_score: 0.7
+created: 2026-01-03T17:55:40+0000
+description: Reversible acetylcholinesterase inhibitor. First-line symptomatic treatment
+  for Alzheimer's disease.
+dg-home: false
+dg-publish: true
+evidence_level: 5
+gardenUsername: layouttest
+id: donepezil
+last_modified: 2026-06-23T00:00:00+0000
+permalink: /garden/layouttest/drug/donepezil/
+provenance: curated
+slug: donepezil
+source: Manual
+tags:
+- drug
+- alzheimers
+- cognitive_enhancer
+- cholinergic
+templateEngineOverride: njk
+title: Donepezil
+type: drug
+updated: 2026-06-23T00:00:00+0000
+---
+
+{% raw %}
+<h1>Donepezil</h1>
+<h2>Overview</h2>
+<p>Donepezil (Aricept) is a reversible acetylcholinesterase inhibitor and the most widely prescribed medication for Alzheimer's disease. It is FDA-approved for all stages of Alzheimer's (mild, moderate, and severe), making it the only cholinesterase inhibitor with approval for severe disease. Its long half-life (70 hours) allows once-daily dosing, improving adherence. Donepezil provides modest but clinically meaningful improvement in cognition (2-4 points on ADAS-cog) and function, though it does not alter disease progression. A 23 mg/day high-dose formulation is available for moderate-to-severe disease. It is selective for acetylcholinesterase over butyrylcholinesterase.</p>
+<h2>Mechanism of Action</h2>
+<p>Donepezil reversibly and selectively inhibits acetylcholinesterase (AChE), the enzyme responsible for hydrolysis of acetylcholine in the synaptic cleft. By preventing acetylcholine breakdown, it increases cholinergic neurotransmission in brain regions affected by Alzheimer's disease, particularly the cortex and hippocampus where cholinergic neurons progressively degenerate. Donepezil is approximately 1,000 times more selective for AChE than for butyrylcholinesterase, which reduces peripheral cholinergic side effects compared to rivastigmine. The symptomatic benefit is limited by the continued degeneration of cholinergic neurons as disease progresses, and the drug does not address the underlying amyloid or tau pathology.</p>
+<h2>Clinical Uses</h2>
+<ul>
+<li><strong>Mild Alzheimer's disease</strong>: 5 mg once daily at bedtime</li>
+<li><strong>Moderate Alzheimer's disease</strong>: 10 mg once daily; titrate from 5 mg after 4-6 weeks</li>
+<li><strong>Severe Alzheimer's disease</strong>: 23 mg/day (high-dose formulation); only cholinesterase inhibitor approved</li>
+<li><strong>Vascular dementia</strong>: Off-label use with some supporting evidence</li>
+<li><strong>Lewy body dementia</strong>: Off-label; may be particularly effective for cognitive and behavioral symptoms</li>
+<li><strong>Combination therapy</strong>: Often combined with <a href="/garden/layouttest/drug/memantine/" class="internal-link">Memantine</a> for moderate-severe disease</li>
+</ul>
+<h2>Relationships</h2>
+<h3>Related</h3>
+<p>RELATED::<a href="/garden/layouttest/condition/alzheimers-disease/" class="internal-link">Alzheimers Disease</a><br />
+RELATED::<a href="/garden/layouttest/condition/dementia/" class="internal-link">Dementia</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">Acetylcholinesterase</a><br />
+RELATED::<a href="/garden/layouttest/neurotransmitter/acetylcholine/" class="internal-link">Acetylcholine</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
+
+{% endraw %}
