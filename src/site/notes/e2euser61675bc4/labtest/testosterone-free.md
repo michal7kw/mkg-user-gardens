@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: testosterone_free
 type: labtest
-updated: '2026-08-04T15:46:56.499253Z'
+updated: '2026-08-04T15:47:12.533225Z'
 ---
 
 {% raw %}

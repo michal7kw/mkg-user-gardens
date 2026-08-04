@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Gallbladder
 type: organ
-updated: '2026-08-04T15:46:56.940849Z'
+updated: '2026-08-04T15:47:12.970491Z'
 ---
 
 {% raw %}

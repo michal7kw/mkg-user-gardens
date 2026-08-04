@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: mri_scan
 type: labtestpanel
-updated: '2026-08-04T15:46:56.638728Z'
+updated: '2026-08-04T15:47:12.667632Z'
 ---
 
 {% raw %}

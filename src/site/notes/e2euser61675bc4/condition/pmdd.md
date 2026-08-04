@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: PMDD
 type: condition
-updated: '2026-08-04T15:46:55.413037Z'
+updated: '2026-08-04T15:47:11.334569Z'
 ---
 
 {% raw %}

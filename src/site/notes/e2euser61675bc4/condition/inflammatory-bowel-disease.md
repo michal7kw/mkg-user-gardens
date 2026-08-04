@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Inflammatory Bowel Disease
 type: condition
-updated: '2026-08-04T15:46:55.205322Z'
+updated: '2026-08-04T15:47:11.133592Z'
 ---
 
 {% raw %}

@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: GLP-1 Signaling Pathway
 type: pathway
-updated: '2026-08-04T15:46:57.024412Z'
+updated: '2026-08-04T15:47:13.056918Z'
 ---
 
 {% raw %}

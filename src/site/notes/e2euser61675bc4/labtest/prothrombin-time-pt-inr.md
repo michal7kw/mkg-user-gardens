@@ -111,7 +111,7 @@ tags:
 templateEngineOverride: njk
 title: prothrombin_time_pt_inr
 type: labtest
-updated: '2026-08-04T15:46:56.456256Z'
+updated: '2026-08-04T15:47:12.492313Z'
 ---
 
 {% raw %}

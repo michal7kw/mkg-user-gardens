@@ -1,7 +1,7 @@
 ---
 aliases:
 - reports
-created: '2026-08-04T15:46:57.736444Z'
+created: '2026-08-04T15:47:13.757388Z'
 description: Generate and export comprehensive health reports
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Health Reports — Guide
 type: users_guide
-updated: '2026-08-04T15:46:57.736444Z'
+updated: '2026-08-04T15:47:13.757388Z'
 ---
 
 {% raw %}

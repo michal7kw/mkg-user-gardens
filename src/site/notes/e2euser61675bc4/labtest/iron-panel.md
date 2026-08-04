@@ -109,7 +109,7 @@ tags:
 templateEngineOverride: njk
 title: iron_panel
 type: labtest
-updated: '2026-08-04T15:46:56.313444Z'
+updated: '2026-08-04T15:47:12.346102Z'
 ---
 
 {% raw %}

@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: PQQ
 type: supplement
-updated: '2026-08-04T15:46:57.550632Z'
+updated: '2026-08-04T15:47:13.570140Z'
 ---
 
 {% raw %}

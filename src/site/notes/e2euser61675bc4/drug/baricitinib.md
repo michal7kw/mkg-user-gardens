@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Baricitinib
 type: drug
-updated: '2026-08-04T15:46:55.619327Z'
+updated: '2026-08-04T15:47:11.697142Z'
 ---
 
 {% raw %}

@@ -30,7 +30,7 @@ tags:
 templateEngineOverride: njk
 title: Histamine
 type: neurotransmitter
-updated: '2026-08-04T15:46:56.856084Z'
+updated: '2026-08-04T15:47:12.883271Z'
 ---
 
 {% raw %}

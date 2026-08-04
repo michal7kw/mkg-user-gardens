@@ -1,7 +1,7 @@
 ---
 aliases:
 - Energy and Vitality
-created: '2026-08-04T15:46:55.877575Z'
+created: '2026-08-04T15:47:11.937074Z'
 description: Combat fatigue and support sustained energy levels. B-complex vitamins
   are essential cofactors in energy metabolism, CoQ10 powers mitochondrial ATP production,
   iron supports oxygen transport, and vitamin D3 regulates hundreds of metabolic processes.
@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Energy & Vitality
 type: healthstack
-updated: '2026-08-04T15:46:55.877575Z'
+updated: '2026-08-04T15:47:11.937074Z'
 ---
 
 {% raw %}

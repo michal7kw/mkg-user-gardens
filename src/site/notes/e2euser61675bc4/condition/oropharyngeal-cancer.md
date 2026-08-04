@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Oropharyngeal Cancer
 type: condition
-updated: '2026-08-04T15:46:55.348673Z'
+updated: '2026-08-04T15:47:11.272354Z'
 ---
 
 {% raw %}

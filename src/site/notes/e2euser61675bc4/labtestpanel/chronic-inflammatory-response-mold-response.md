@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: chronic_inflammatory_response_mold_response
 type: labtestpanel
-updated: '2026-08-04T15:46:56.608988Z'
+updated: '2026-08-04T15:47:12.639903Z'
 ---
 
 {% raw %}

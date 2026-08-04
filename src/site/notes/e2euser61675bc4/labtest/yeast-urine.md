@@ -18,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: yeast_urine
 type: labtest
-updated: '2026-08-04T15:46:56.592434Z'
+updated: '2026-08-04T15:47:12.623314Z'
 ---
 
 {% raw %}

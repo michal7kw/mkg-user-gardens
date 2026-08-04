@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: hiv_antigen_antibody
 type: labtest
-updated: '2026-08-04T15:46:56.285896Z'
+updated: '2026-08-04T15:47:12.318400Z'
 ---
 
 {% raw %}

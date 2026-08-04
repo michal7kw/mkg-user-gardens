@@ -46,7 +46,7 @@ tags:
 templateEngineOverride: njk
 title: Lixisenatide
 type: drug
-updated: '2026-08-04T15:46:55.698513Z'
+updated: '2026-08-04T15:47:11.776168Z'
 ---
 
 {% raw %}

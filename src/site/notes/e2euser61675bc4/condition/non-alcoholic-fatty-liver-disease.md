@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Non-alcoholic Fatty Liver Disease
 type: condition
-updated: '2026-08-04T15:46:55.330842Z'
+updated: '2026-08-04T15:47:11.254980Z'
 ---
 
 {% raw %}

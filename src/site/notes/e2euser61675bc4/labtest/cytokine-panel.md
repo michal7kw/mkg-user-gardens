@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: cytokine_panel
 type: labtest
-updated: '2026-08-04T15:46:56.168216Z'
+updated: '2026-08-04T15:47:12.223849Z'
 ---
 
 {% raw %}

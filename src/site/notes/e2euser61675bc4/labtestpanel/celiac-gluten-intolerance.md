@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: celiac_gluten_intolerance
 type: labtestpanel
-updated: '2026-08-04T15:46:56.607978Z'
+updated: '2026-08-04T15:47:12.637905Z'
 ---
 
 {% raw %}

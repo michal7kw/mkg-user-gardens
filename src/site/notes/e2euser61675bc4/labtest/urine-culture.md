@@ -112,7 +112,7 @@ tags:
 templateEngineOverride: njk
 title: urine_culture
 type: labtest
-updated: '2026-08-04T15:46:56.570204Z'
+updated: '2026-08-04T15:47:12.601705Z'
 ---
 
 {% raw %}

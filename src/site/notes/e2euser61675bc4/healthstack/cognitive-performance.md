@@ -1,5 +1,5 @@
 ---
-created: '2026-08-04T15:46:55.876051Z'
+created: '2026-08-04T15:47:11.935063Z'
 description: Optimize brain function, memory, and mental clarity. Omega-3 DHA is the
   primary structural fat in neuronal membranes, Lion's Mane stimulates nerve growth
   factor, creatine enhances brain energy metabolism, and B-complex supports methylation
@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Cognitive Performance
 type: healthstack
-updated: '2026-08-04T15:46:55.876051Z'
+updated: '2026-08-04T15:47:11.935063Z'
 ---
 
 {% raw %}

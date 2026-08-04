@@ -18,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Carnivore Diet
 type: intervention
-updated: '2026-08-04T15:46:55.941203Z'
+updated: '2026-08-04T15:47:12.000149Z'
 ---
 
 {% raw %}

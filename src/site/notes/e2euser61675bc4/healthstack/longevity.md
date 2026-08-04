@@ -1,5 +1,5 @@
 ---
-created: '2026-08-04T15:46:55.888543Z'
+created: '2026-08-04T15:47:11.948230Z'
 description: Target the hallmarks of aging with cutting-edge and foundational supplements.
   Omega-3 and vitamin D form the anti-inflammatory base, CoQ10 supports mitochondrial
   function, curcumin inhibits chronic inflammation, NMN boosts NAD+ for cellular repair,
@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Longevity
 type: healthstack
-updated: '2026-08-04T15:46:55.888543Z'
+updated: '2026-08-04T15:47:11.948230Z'
 ---
 
 {% raw %}

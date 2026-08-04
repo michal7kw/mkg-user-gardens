@@ -109,7 +109,7 @@ tags:
 templateEngineOverride: njk
 title: uric_acid
 type: labtest
-updated: '2026-08-04T15:46:56.561146Z'
+updated: '2026-08-04T15:47:12.593169Z'
 ---
 
 {% raw %}

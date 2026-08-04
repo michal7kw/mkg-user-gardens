@@ -110,7 +110,7 @@ tags:
 templateEngineOverride: njk
 title: total_bilirubin
 type: labtest
-updated: '2026-08-04T15:46:56.525667Z'
+updated: '2026-08-04T15:47:12.558067Z'
 ---
 
 {% raw %}

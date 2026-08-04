@@ -1,7 +1,7 @@
 ---
 aliases:
 - lab-tests
-created: '2026-08-04T15:46:57.730914Z'
+created: '2026-08-04T15:47:13.752386Z'
 description: Browse the lab test catalog, upload reports, and track results
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Lab Tests — Guide
 type: users_guide
-updated: '2026-08-04T15:46:57.730914Z'
+updated: '2026-08-04T15:47:13.752386Z'
 ---
 
 {% raw %}

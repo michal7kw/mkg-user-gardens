@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Gastric MALT Lymphoma
 type: condition
-updated: '2026-08-04T15:46:55.105939Z'
+updated: '2026-08-04T15:47:11.046444Z'
 ---
 
 {% raw %}
