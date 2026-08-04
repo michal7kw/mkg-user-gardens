@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Pyruvate Kinase
 type: protein
-updated: '2026-08-04T15:52:48.290891Z'
+updated: '2026-08-04T15:53:03.232375Z'
 ---
 
 {% raw %}

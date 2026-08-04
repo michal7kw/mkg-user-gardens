@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: rs6025 (Factor V Leiden)
 type: variant
-updated: '2026-08-04T15:52:48.707995Z'
+updated: '2026-08-04T15:53:03.641504Z'
 ---
 
 {% raw %}

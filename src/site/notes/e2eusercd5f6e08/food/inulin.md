@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Inulin
 type: food
-updated: '2026-08-04T15:52:46.891831Z'
+updated: '2026-08-04T15:53:01.507351Z'
 ---
 
 {% raw %}

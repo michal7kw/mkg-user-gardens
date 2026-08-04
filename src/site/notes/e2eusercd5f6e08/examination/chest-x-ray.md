@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Chest X-Ray
 type: examination
-updated: '2026-08-04T15:52:46.854676Z'
+updated: '2026-08-04T15:53:01.460979Z'
 ---
 
 {% raw %}

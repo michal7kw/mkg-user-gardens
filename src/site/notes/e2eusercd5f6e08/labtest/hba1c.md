@@ -117,7 +117,7 @@ tags:
 templateEngineOverride: njk
 title: hba1c
 type: labtest
-updated: '2026-08-04T15:52:47.302117Z'
+updated: '2026-08-04T15:53:02.130071Z'
 ---
 
 {% raw %}

@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: mean_corpuscular_hemoglobin_concentration_mchc
 type: labtest
-updated: '2026-08-04T15:52:47.402086Z'
+updated: '2026-08-04T15:53:02.253771Z'
 ---
 
 {% raw %}

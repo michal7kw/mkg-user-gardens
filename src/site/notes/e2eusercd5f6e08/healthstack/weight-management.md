@@ -1,5 +1,5 @@
 ---
-created: '2026-08-04T15:52:46.953738Z'
+created: '2026-08-04T15:53:01.608518Z'
 description: Support healthy metabolism and weight management. Green tea EGCG enhances
   thermogenesis and fat oxidation, chromium improves insulin sensitivity, omega-3
   reduces metabolic inflammation, and psyllium fiber promotes satiety and healthy
@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Weight Management
 type: healthstack
-updated: '2026-08-04T15:52:46.953738Z'
+updated: '2026-08-04T15:53:01.608518Z'
 ---
 
 {% raw %}

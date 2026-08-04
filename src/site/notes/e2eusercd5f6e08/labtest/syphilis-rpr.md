@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: syphilis_rpr
 type: labtest
-updated: '2026-08-04T15:52:47.531428Z'
+updated: '2026-08-04T15:53:02.443251Z'
 ---
 
 {% raw %}

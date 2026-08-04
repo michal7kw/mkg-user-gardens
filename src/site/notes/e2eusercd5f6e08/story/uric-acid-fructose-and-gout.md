@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Uric Acid, Fructose and Gout
 type: story
-updated: '2026-08-04T15:52:48.443930Z'
+updated: '2026-08-04T15:53:03.372634Z'
 ---
 
 {% raw %}

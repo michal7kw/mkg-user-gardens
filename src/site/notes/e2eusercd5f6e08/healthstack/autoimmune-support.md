@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Autoimmune Support
 type: healthstack
-updated: '2026-08-04T15:52:46.929306Z'
+updated: '2026-08-04T15:53:01.570568Z'
 ---
 
 {% raw %}

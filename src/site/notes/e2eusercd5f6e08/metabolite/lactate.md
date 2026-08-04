@@ -30,7 +30,7 @@ tags:
 templateEngineOverride: njk
 title: Lactate
 type: metabolite
-updated: '2026-08-04T15:52:47.765061Z'
+updated: '2026-08-04T15:53:02.706416Z'
 ---
 
 {% raw %}

@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: omega_3_profile
 type: labtest
-updated: '2026-08-04T15:52:47.438119Z'
+updated: '2026-08-04T15:53:02.317356Z'
 ---
 
 {% raw %}

@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: anti_mullerian_hormone
 type: labtest
-updated: '2026-08-04T15:52:47.112507Z'
+updated: '2026-08-04T15:53:01.858838Z'
 ---
 
 {% raw %}

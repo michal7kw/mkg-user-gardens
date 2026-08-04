@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: mthfr_genotype
 type: labtest
-updated: '2026-08-04T15:52:47.416740Z'
+updated: '2026-08-04T15:53:02.280828Z'
 ---
 
 {% raw %}

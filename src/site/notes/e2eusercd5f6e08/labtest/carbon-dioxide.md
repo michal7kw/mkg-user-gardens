@@ -112,7 +112,7 @@ tags:
 templateEngineOverride: njk
 title: carbon_dioxide
 type: labtest
-updated: '2026-08-04T15:52:47.171147Z'
+updated: '2026-08-04T15:53:01.960738Z'
 ---
 
 {% raw %}

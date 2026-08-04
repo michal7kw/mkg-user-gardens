@@ -1,5 +1,5 @@
 ---
-created: '2026-08-04T15:52:48.528518Z'
+created: '2026-08-04T15:53:03.455334Z'
 description: The body's master antioxidant, available as a supplement in liposomal
   form for enhanced bioavailability. Protects mitochondrial membranes and DNA from
   oxidative damage caused by reactive oxygen species generated during oxidative phosphorylation.
@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Glutathione
 type: supplement
-updated: '2026-08-04T15:52:48.528518Z'
+updated: '2026-08-04T15:53:03.455334Z'
 ---
 
 {% raw %}

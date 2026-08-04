@@ -18,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Paleo Diet
 type: intervention
-updated: '2026-08-04T15:52:47.032884Z'
+updated: '2026-08-04T15:53:01.727416Z'
 ---
 
 {% raw %}

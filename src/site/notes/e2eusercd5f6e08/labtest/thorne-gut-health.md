@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: thorne_gut_health
 type: labtest
-updated: '2026-08-04T15:52:47.537427Z'
+updated: '2026-08-04T15:53:02.449945Z'
 ---
 
 {% raw %}

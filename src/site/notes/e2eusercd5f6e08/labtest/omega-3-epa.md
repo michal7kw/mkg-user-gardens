@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: omega_3_epa
 type: labtest
-updated: '2026-08-04T15:52:47.436120Z'
+updated: '2026-08-04T15:53:02.316350Z'
 ---
 
 {% raw %}

@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: neutrophils
 type: labtest
-updated: '2026-08-04T15:52:47.420406Z'
+updated: '2026-08-04T15:53:02.288386Z'
 ---
 
 {% raw %}

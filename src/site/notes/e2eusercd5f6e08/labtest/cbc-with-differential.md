@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: cbc_with_differential
 type: labtest
-updated: '2026-08-04T15:52:47.174660Z'
+updated: '2026-08-04T15:53:01.966504Z'
 ---
 
 {% raw %}

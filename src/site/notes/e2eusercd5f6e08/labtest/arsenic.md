@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: arsenic
 type: labtest
-updated: '2026-08-04T15:52:47.133328Z'
+updated: '2026-08-04T15:53:01.893793Z'
 ---
 
 {% raw %}

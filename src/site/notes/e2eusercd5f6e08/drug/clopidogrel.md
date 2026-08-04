@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Clopidogrel
 type: drug
-updated: '2026-08-04T15:52:46.713495Z'
+updated: '2026-08-04T15:53:01.275824Z'
 ---
 
 {% raw %}

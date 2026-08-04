@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: D-Ribose
 type: supplement
-updated: '2026-08-04T15:52:48.510342Z'
+updated: '2026-08-04T15:53:03.437616Z'
 ---
 
 {% raw %}

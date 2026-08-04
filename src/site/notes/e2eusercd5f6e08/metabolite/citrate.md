@@ -29,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Citrate
 type: metabolite
-updated: '2026-08-04T15:52:47.720005Z'
+updated: '2026-08-04T15:53:02.658198Z'
 ---
 
 {% raw %}

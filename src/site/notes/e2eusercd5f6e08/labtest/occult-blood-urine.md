@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: occult_blood_urine
 type: labtest
-updated: '2026-08-04T15:52:47.428613Z'
+updated: '2026-08-04T15:53:02.302602Z'
 ---
 
 {% raw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.75
-created: '2026-08-04T15:52:46.879870Z'
+created: '2026-08-04T15:53:01.490277Z'
 description: Chronic or acute exposure to toxic heavy metals (lead, mercury, cadmium,
   arsenic) from environmental, occupational, or dietary sources, causing oxidative
   stress, enzyme inhibition, and organ damage primarily affecting kidneys, brain,

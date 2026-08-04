@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Kidney Function, Creatinine and eGFR
 type: story
-updated: '2026-08-04T15:52:48.407634Z'
+updated: '2026-08-04T15:53:03.335021Z'
 ---
 
 {% raw %}

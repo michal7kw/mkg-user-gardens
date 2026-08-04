@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Infliximab
 type: drug
-updated: '2026-08-04T15:52:46.760041Z'
+updated: '2026-08-04T15:53:01.326956Z'
 ---
 
 {% raw %}

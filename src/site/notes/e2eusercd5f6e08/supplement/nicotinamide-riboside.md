@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Nicotinamide Riboside
 type: supplement
-updated: '2026-08-04T15:52:48.594009Z'
+updated: '2026-08-04T15:53:03.524015Z'
 ---
 
 {% raw %}

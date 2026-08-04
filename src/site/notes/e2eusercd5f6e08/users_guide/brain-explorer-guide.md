@@ -1,7 +1,7 @@
 ---
 aliases:
 - brain-explorer
-created: '2026-08-04T15:52:48.782389Z'
+created: '2026-08-04T15:53:03.715209Z'
 description: Explore brain regions, pathways, and brain-targeting supplements
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Brain Explorer — Guide
 type: users_guide
-updated: '2026-08-04T15:52:48.782389Z'
+updated: '2026-08-04T15:53:03.715209Z'
 ---
 
 {% raw %}

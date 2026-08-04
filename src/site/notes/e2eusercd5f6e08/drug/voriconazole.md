@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Voriconazole
 type: drug
-updated: '2026-08-04T15:52:46.846423Z'
+updated: '2026-08-04T15:53:01.445609Z'
 ---
 
 {% raw %}

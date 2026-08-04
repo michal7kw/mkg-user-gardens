@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: IL-6 Signaling Pathway
 type: pathway
-updated: '2026-08-04T15:52:48.091315Z'
+updated: '2026-08-04T15:53:03.038845Z'
 ---
 
 {% raw %}

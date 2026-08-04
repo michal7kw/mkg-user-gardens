@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Ganoderic Acids
 type: metabolite
-updated: '2026-08-04T15:52:47.745441Z'
+updated: '2026-08-04T15:53:02.684743Z'
 ---
 
 {% raw %}

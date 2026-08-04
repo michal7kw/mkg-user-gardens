@@ -1,7 +1,7 @@
 ---
 aliases:
 - supplement-map
-created: '2026-08-04T15:52:48.800541Z'
+created: '2026-08-04T15:53:03.734283Z'
 description: Explore supplement effects on the body via the anatomy map
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Supplement Map — Guide
 type: users_guide
-updated: '2026-08-04T15:52:48.800541Z'
+updated: '2026-08-04T15:53:03.734283Z'
 ---
 
 {% raw %}

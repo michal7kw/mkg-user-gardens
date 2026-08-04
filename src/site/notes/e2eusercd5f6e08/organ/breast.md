@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Breast
 type: organ
-updated: '2026-08-04T15:52:47.962161Z'
+updated: '2026-08-04T15:53:02.926788Z'
 ---
 
 {% raw %}

@@ -1,7 +1,7 @@
 ---
 aliases:
 - 13_Tips_and_Best_Practices
-created: '2026-08-04T15:52:48.766086Z'
+created: '2026-08-04T15:53:03.699169Z'
 description: Quality standards, evidence level scale, naming conventions, tagging,
   and relationship best practices
 dg-home: false
@@ -16,7 +16,7 @@ tags:
 templateEngineOverride: njk
 title: Tips and Best Practices
 type: users_guide
-updated: '2026-08-04T15:52:48.766086Z'
+updated: '2026-08-04T15:53:03.699169Z'
 ---
 
 {% raw %}

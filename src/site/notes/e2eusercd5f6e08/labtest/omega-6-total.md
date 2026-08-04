@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: omega_6_total
 type: labtest
-updated: '2026-08-04T15:52:47.445313Z'
+updated: '2026-08-04T15:53:02.326382Z'
 ---
 
 {% raw %}

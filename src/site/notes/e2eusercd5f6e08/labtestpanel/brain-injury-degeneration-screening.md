@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: brain_injury_degeneration_screening
 type: labtestpanel
-updated: '2026-08-04T15:52:47.636407Z'
+updated: '2026-08-04T15:53:02.568645Z'
 ---
 
 {% raw %}

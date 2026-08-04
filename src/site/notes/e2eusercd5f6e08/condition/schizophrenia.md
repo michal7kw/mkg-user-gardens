@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Schizophrenia
 type: condition
-updated: '2026-08-04T15:52:46.577568Z'
+updated: '2026-08-04T15:53:01.100249Z'
 ---
 
 {% raw %}

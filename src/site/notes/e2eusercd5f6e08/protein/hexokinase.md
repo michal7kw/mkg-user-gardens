@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Hexokinase
 type: protein
-updated: '2026-08-04T15:52:48.262362Z'
+updated: '2026-08-04T15:53:03.200084Z'
 ---
 
 {% raw %}
