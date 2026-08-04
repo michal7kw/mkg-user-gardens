@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: environmental_allergen_panel_ige
 type: labtest
-updated: '2026-08-04T15:40:58.527285Z'
+updated: '2026-08-04T15:41:15.002933Z'
 ---
 
 {% raw %}

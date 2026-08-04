@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: HPV Vaccine (Gardasil 9)
 type: vaccine
-updated: '2026-08-04T15:41:00.145858Z'
+updated: '2026-08-04T15:41:16.582987Z'
 ---
 
 {% raw %}

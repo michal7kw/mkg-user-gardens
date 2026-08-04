@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Type III Hyperlipoproteinemia
 type: condition
-updated: '2026-08-04T15:40:57.659278Z'
+updated: '2026-08-04T15:41:14.401020Z'
 ---
 
 {% raw %}

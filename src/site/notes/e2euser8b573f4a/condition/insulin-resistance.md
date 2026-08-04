@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Insulin Resistance
 type: condition
-updated: '2026-08-04T15:40:57.276221Z'
+updated: '2026-08-04T15:41:14.007644Z'
 ---
 
 {% raw %}

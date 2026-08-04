@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Intra-abdominal Abscess
 type: condition
-updated: '2026-08-04T15:40:57.282255Z'
+updated: '2026-08-04T15:41:14.017258Z'
 ---
 
 {% raw %}

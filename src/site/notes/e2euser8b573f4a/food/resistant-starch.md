@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Resistant Starch
 type: food
-updated: '2026-08-04T15:40:57.930619Z'
+updated: '2026-08-04T15:41:14.655099Z'
 ---
 
 {% raw %}

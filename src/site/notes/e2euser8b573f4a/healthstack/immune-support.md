@@ -1,5 +1,5 @@
 ---
-created: '2026-08-04T15:40:57.989497Z'
+created: '2026-08-04T15:41:14.703516Z'
 description: Fortify immune defenses with well-researched nutrients. Vitamin D3 modulates
   innate and adaptive immunity, vitamin C supports neutrophil function, zinc is essential
   for T-cell development, and elderberry has antiviral properties.
@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Immune Support
 type: healthstack
-updated: '2026-08-04T15:40:57.989497Z'
+updated: '2026-08-04T15:41:14.703516Z'
 ---
 
 {% raw %}

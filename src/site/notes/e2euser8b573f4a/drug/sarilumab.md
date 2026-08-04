@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Sarilumab
 type: drug
-updated: '2026-08-04T15:40:57.840094Z'
+updated: '2026-08-04T15:41:14.578371Z'
 ---
 
 {% raw %}

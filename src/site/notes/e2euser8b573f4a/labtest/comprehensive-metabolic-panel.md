@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: comprehensive_metabolic_panel
 type: labtest
-updated: '2026-08-04T15:40:58.446950Z'
+updated: '2026-08-04T15:41:14.966885Z'
 ---
 
 {% raw %}

@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Ulcerative Colitis
 type: condition
-updated: '2026-08-04T15:40:57.660797Z'
+updated: '2026-08-04T15:41:14.402523Z'
 ---
 
 {% raw %}

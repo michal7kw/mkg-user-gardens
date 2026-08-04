@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: squamous_epithelial_cells
 type: labtest
-updated: '2026-08-04T15:40:58.956890Z'
+updated: '2026-08-04T15:41:15.287400Z'
 ---
 
 {% raw %}

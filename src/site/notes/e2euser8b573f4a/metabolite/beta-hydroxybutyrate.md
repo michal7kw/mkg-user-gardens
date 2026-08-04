@@ -35,7 +35,7 @@ tags:
 templateEngineOverride: njk
 title: Beta-Hydroxybutyrate
 type: metabolite
-updated: '2026-08-04T15:40:59.174671Z'
+updated: '2026-08-04T15:41:15.529315Z'
 ---
 
 {% raw %}

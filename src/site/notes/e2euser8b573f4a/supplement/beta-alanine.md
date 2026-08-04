@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Beta-Alanine
 type: supplement
-updated: '2026-08-04T15:40:59.920156Z'
+updated: '2026-08-04T15:41:16.337873Z'
 ---
 
 {% raw %}

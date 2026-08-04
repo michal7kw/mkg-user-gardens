@@ -110,7 +110,7 @@ tags:
 templateEngineOverride: njk
 title: testosterone_total
 type: labtest
-updated: '2026-08-04T15:40:58.972465Z'
+updated: '2026-08-04T15:41:15.298516Z'
 ---
 
 {% raw %}

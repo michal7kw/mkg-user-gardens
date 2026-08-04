@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Paroxetine
 type: drug
-updated: '2026-08-04T15:40:57.818312Z'
+updated: '2026-08-04T15:41:14.557103Z'
 ---
 
 {% raw %}

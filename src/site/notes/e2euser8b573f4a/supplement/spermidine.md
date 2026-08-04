@@ -31,7 +31,7 @@ tags:
 templateEngineOverride: njk
 title: Spermidine
 type: supplement
-updated: '2026-08-04T15:41:00.094156Z'
+updated: '2026-08-04T15:41:16.530189Z'
 ---
 
 {% raw %}

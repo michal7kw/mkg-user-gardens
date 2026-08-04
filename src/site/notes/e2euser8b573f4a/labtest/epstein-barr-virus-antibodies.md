@@ -116,7 +116,7 @@ tags:
 templateEngineOverride: njk
 title: epstein_barr_virus_antibodies
 type: labtest
-updated: '2026-08-04T15:40:58.538310Z'
+updated: '2026-08-04T15:41:15.008696Z'
 ---
 
 {% raw %}

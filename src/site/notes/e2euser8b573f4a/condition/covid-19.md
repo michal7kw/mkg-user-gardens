@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: COVID-19
 type: condition
-updated: '2026-08-04T15:40:57.117585Z'
+updated: '2026-08-04T15:41:13.823467Z'
 ---
 
 {% raw %}

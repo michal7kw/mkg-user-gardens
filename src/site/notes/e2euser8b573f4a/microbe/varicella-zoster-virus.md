@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Varicella Zoster Virus
 type: microbe
-updated: '2026-08-04T15:40:59.322025Z'
+updated: '2026-08-04T15:41:15.697093Z'
 ---
 
 {% raw %}

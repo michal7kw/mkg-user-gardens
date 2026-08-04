@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Atrophic Gastritis
 type: condition
-updated: '2026-08-04T15:40:57.008621Z'
+updated: '2026-08-04T15:41:13.709515Z'
 ---
 
 {% raw %}

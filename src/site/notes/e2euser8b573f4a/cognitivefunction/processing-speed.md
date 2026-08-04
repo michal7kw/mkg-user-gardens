@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Processing Speed
 type: cognitivefunction
-updated: '2026-08-04T15:40:56.912552Z'
+updated: '2026-08-04T15:41:13.620232Z'
 ---
 
 {% raw %}

@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: TPH2
 type: gene
-updated: '2026-08-04T15:40:57.963661Z'
+updated: '2026-08-04T15:41:14.683991Z'
 ---
 
 {% raw %}

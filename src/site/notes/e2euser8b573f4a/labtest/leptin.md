@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: leptin
 type: labtest
-updated: '2026-08-04T15:40:58.760637Z'
+updated: '2026-08-04T15:41:15.130141Z'
 ---
 
 {% raw %}

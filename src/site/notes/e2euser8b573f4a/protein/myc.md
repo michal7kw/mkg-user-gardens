@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: MYC
 type: protein
-updated: '2026-08-04T15:40:59.734885Z'
+updated: '2026-08-04T15:41:16.135572Z'
 ---
 
 {% raw %}

@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Vortioxetine
 type: drug
-updated: '2026-08-04T15:40:57.876204Z'
+updated: '2026-08-04T15:41:14.607492Z'
 ---
 
 {% raw %}

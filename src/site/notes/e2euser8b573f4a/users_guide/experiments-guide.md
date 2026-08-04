@@ -1,7 +1,7 @@
 ---
 aliases:
 - experiments
-created: '2026-08-04T15:41:00.245671Z'
+created: '2026-08-04T15:41:16.680168Z'
 description: Run N-of-1 self-experiments with statistical analysis
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Experiments — Guide
 type: users_guide
-updated: '2026-08-04T15:41:00.245671Z'
+updated: '2026-08-04T15:41:16.680168Z'
 ---
 
 {% raw %}
