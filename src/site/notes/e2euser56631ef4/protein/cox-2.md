@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: COX-2
 type: protein
-updated: '2026-08-05T03:23:25.817067Z'
+updated: '2026-08-05T03:24:01.064334Z'
 ---
 
 {% raw %}

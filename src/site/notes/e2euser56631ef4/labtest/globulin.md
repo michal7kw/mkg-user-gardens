@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: globulin
 type: labtest
-updated: '2026-08-05T03:23:19.740130Z'
+updated: '2026-08-05T03:23:55.226401Z'
 ---
 
 {% raw %}

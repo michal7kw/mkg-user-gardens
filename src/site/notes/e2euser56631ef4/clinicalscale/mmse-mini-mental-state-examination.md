@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: MMSE (Mini-Mental State Examination)
 type: clinicalscale
-updated: '2026-08-05T03:23:09.891251Z'
+updated: '2026-08-05T03:23:45.754852Z'
 ---
 
 {% raw %}

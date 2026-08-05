@@ -29,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Glycine
 type: neurotransmitter
-updated: '2026-08-05T03:23:23.188550Z'
+updated: '2026-08-05T03:23:59.098159Z'
 ---
 
 {% raw %}

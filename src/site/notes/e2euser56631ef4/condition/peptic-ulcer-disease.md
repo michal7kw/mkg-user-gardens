@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Peptic Ulcer Disease
 type: condition
-updated: '2026-08-05T03:23:14.257961Z'
+updated: '2026-08-05T03:23:50.080199Z'
 ---
 
 {% raw %}

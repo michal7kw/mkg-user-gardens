@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Prediabetes
 type: condition
-updated: '2026-08-05T03:23:14.579335Z'
+updated: '2026-08-05T03:23:50.404170Z'
 ---
 
 {% raw %}

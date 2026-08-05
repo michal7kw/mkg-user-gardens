@@ -43,7 +43,7 @@ tags:
 templateEngineOverride: njk
 title: Collagen Peptides
 type: supplement
-updated: '2026-08-05T03:23:27.334030Z'
+updated: '2026-08-05T03:24:03.134444Z'
 ---
 
 {% raw %}

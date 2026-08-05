@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: TCF7L2
 type: gene
-updated: '2026-08-05T03:23:17.454483Z'
+updated: '2026-08-05T03:23:53.324902Z'
 ---
 
 {% raw %}

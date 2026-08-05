@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Kidney Calculi
 type: condition
-updated: '2026-08-05T03:23:13.157205Z'
+updated: '2026-08-05T03:23:48.979121Z'
 ---
 
 {% raw %}

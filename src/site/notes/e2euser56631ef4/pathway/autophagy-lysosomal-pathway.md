@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Autophagy-Lysosomal Pathway
 type: pathway
-updated: '2026-08-05T03:23:24.356833Z'
+updated: '2026-08-05T03:24:00.089403Z'
 ---
 
 {% raw %}

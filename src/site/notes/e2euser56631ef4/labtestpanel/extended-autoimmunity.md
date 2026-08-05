@@ -34,7 +34,7 @@ tags:
 templateEngineOverride: njk
 title: extended_autoimmunity
 type: labtestpanel
-updated: '2026-08-05T03:23:21.454012Z'
+updated: '2026-08-05T03:23:57.467872Z'
 ---
 
 {% raw %}

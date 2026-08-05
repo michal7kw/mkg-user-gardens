@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Resistance Band Training
 type: intervention
-updated: '2026-08-05T03:23:18.216869Z'
+updated: '2026-08-05T03:23:54.133164Z'
 ---
 
 {% raw %}

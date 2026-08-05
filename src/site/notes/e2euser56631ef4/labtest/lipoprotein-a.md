@@ -100,7 +100,7 @@ tags:
 templateEngineOverride: njk
 title: lipoprotein_a
 type: labtest
-updated: '2026-08-05T03:23:20.223711Z'
+updated: '2026-08-05T03:23:55.679873Z'
 ---
 
 {% raw %}

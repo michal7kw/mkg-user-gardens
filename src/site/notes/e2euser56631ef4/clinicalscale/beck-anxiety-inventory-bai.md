@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Beck Anxiety Inventory (BAI)
 type: clinicalscale
-updated: '2026-08-05T03:23:09.864260Z'
+updated: '2026-08-05T03:23:45.726922Z'
 ---
 
 {% raw %}

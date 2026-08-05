@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Eosinophilic Esophagitis
 type: condition
-updated: '2026-08-05T03:23:12.235835Z'
+updated: '2026-08-05T03:23:47.672772Z'
 ---
 
 {% raw %}

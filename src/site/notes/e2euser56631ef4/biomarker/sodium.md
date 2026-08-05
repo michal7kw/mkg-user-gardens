@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Sodium
 type: biomarker
-updated: '2026-08-05T03:23:08.170436Z'
+updated: '2026-08-05T03:23:43.914943Z'
 ---
 
 {% raw %}

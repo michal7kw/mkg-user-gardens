@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: thyroid_stimulating_immunoglobulin_tsi
 type: labtest
-updated: '2026-08-05T03:23:21.031907Z'
+updated: '2026-08-05T03:23:57.022500Z'
 ---
 
 {% raw %}

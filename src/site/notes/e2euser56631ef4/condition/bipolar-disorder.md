@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Bipolar Disorder
 type: condition
-updated: '2026-08-05T03:23:10.806389Z'
+updated: '2026-08-05T03:23:46.662819Z'
 ---
 
 {% raw %}

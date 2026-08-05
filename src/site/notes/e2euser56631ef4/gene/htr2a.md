@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: HTR2A
 type: gene
-updated: '2026-08-05T03:23:17.380569Z'
+updated: '2026-08-05T03:23:53.248181Z'
 ---
 
 {% raw %}

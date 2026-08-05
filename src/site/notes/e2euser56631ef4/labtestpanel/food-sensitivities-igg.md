@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: food_sensitivities_igg
 type: labtestpanel
-updated: '2026-08-05T03:23:21.538931Z'
+updated: '2026-08-05T03:23:57.565290Z'
 ---
 
 {% raw %}

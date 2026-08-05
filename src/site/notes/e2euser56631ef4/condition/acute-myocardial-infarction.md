@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Acute Myocardial Infarction
 type: condition
-updated: '2026-08-05T03:23:10.151071Z'
+updated: '2026-08-05T03:23:46.013032Z'
 ---
 
 {% raw %}

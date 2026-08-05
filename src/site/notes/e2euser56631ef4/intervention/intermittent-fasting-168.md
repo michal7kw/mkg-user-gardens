@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Intermittent Fasting 16:8
 type: intervention
-updated: '2026-08-05T03:23:18.023361Z'
+updated: '2026-08-05T03:23:53.934683Z'
 ---
 
 {% raw %}

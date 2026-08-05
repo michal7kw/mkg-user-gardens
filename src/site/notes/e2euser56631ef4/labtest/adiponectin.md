@@ -18,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: adiponectin
 type: labtest
-updated: '2026-08-05T03:23:18.394532Z'
+updated: '2026-08-05T03:23:54.354587Z'
 ---
 
 {% raw %}

@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: bun_creatinine_ratio
 type: labtest
-updated: '2026-08-05T03:23:18.759123Z'
+updated: '2026-08-05T03:23:54.724616Z'
 ---
 
 {% raw %}

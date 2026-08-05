@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Mitophagy
 type: pathway
-updated: '2026-08-05T03:23:25.274114Z'
+updated: '2026-08-05T03:24:00.494472Z'
 ---
 
 {% raw %}
