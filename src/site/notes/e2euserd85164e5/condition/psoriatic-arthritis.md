@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Psoriatic Arthritis
 type: condition
-updated: '2026-08-05T03:20:50.972758Z'
+updated: '2026-08-05T03:21:29.001726Z'
 ---
 
 {% raw %}

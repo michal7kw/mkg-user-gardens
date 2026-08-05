@@ -29,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Phosphatidylserine
 type: supplement
-updated: '2026-08-05T03:21:05.035888Z'
+updated: '2026-08-05T03:21:42.943953Z'
 ---
 
 {% raw %}

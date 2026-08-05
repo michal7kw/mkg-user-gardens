@@ -29,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: CYP3A4
 type: protein
-updated: '2026-08-05T03:21:02.501785Z'
+updated: '2026-08-05T03:21:40.039477Z'
 ---
 
 {% raw %}

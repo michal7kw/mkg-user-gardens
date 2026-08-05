@@ -109,7 +109,7 @@ tags:
 templateEngineOverride: njk
 title: lipid_panel_standard
 type: labtest
-updated: '2026-08-05T03:20:56.920946Z'
+updated: '2026-08-05T03:21:34.130438Z'
 ---
 
 {% raw %}

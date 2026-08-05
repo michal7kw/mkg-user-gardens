@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: coagulation_panel
 type: labtestpanel
-updated: '2026-08-05T03:20:58.175625Z'
+updated: '2026-08-05T03:21:35.855263Z'
 ---
 
 {% raw %}

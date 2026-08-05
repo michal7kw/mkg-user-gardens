@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Cognitive Function
 type: cognitivefunction
-updated: '2026-08-05T03:20:46.161390Z'
+updated: '2026-08-05T03:21:24.251715Z'
 ---
 
 {% raw %}

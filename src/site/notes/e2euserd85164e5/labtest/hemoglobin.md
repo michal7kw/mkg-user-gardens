@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: hemoglobin
 type: labtest
-updated: '2026-08-05T03:20:56.584371Z'
+updated: '2026-08-05T03:21:33.813585Z'
 ---
 
 {% raw %}

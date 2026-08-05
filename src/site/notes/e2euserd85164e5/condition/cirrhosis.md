@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Cirrhosis
 type: condition
-updated: '2026-08-05T03:20:47.503112Z'
+updated: '2026-08-05T03:21:25.535820Z'
 ---
 
 {% raw %}

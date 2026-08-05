@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Antibiotic Exposure
 type: exposure
-updated: '2026-08-05T03:20:53.851409Z'
+updated: '2026-08-05T03:21:31.665226Z'
 ---
 
 {% raw %}

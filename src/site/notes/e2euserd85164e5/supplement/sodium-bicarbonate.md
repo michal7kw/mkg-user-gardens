@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Sodium Bicarbonate
 type: supplement
-updated: '2026-08-05T03:21:05.266137Z'
+updated: '2026-08-05T03:21:43.205228Z'
 ---
 
 {% raw %}

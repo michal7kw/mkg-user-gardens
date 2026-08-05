@@ -1,5 +1,5 @@
 ---
-created: '2026-08-05T03:20:54.240015Z'
+created: '2026-08-05T03:21:32.038740Z'
 description: Improve sleep onset, duration, and quality. Magnesium glycinate promotes
   relaxation through GABA enhancement, L-theanine induces alpha brain waves, glycine
   lowers core body temperature to facilitate sleep, and vitamin D deficiency is associated
@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Sleep Quality
 type: healthstack
-updated: '2026-08-05T03:20:54.240015Z'
+updated: '2026-08-05T03:21:32.038740Z'
 ---
 
 {% raw %}

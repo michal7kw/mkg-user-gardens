@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: 5-HT1A Receptor
 type: protein
-updated: '2026-08-05T03:21:02.173577Z'
+updated: '2026-08-05T03:21:39.709098Z'
 ---
 
 {% raw %}

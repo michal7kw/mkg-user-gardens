@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: L-Glutamine
 type: supplement
-updated: '2026-08-05T03:21:04.565749Z'
+updated: '2026-08-05T03:21:42.497563Z'
 ---
 
 {% raw %}

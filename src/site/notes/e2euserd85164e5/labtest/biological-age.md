@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: biological_age
 type: labtest
-updated: '2026-08-05T03:20:55.410200Z'
+updated: '2026-08-05T03:21:33.161244Z'
 ---
 
 {% raw %}

@@ -45,7 +45,7 @@ tags:
 templateEngineOverride: njk
 title: Aspirin
 type: drug
-updated: '2026-08-05T03:20:52.644092Z'
+updated: '2026-08-05T03:21:30.106834Z'
 ---
 
 {% raw %}

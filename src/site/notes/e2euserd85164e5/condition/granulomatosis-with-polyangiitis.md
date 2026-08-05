@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Granulomatosis with Polyangiitis
 type: condition
-updated: '2026-08-05T03:20:48.743818Z'
+updated: '2026-08-05T03:21:26.427485Z'
 ---
 
 {% raw %}

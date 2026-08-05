@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Juvenile Idiopathic Arthritis
 type: condition
-updated: '2026-08-05T03:20:49.243890Z'
+updated: '2026-08-05T03:21:27.351170Z'
 ---
 
 {% raw %}

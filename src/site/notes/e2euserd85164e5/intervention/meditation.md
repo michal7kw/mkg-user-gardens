@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Meditation
 type: intervention
-updated: '2026-08-05T03:20:54.727698Z'
+updated: '2026-08-05T03:21:32.499471Z'
 ---
 
 {% raw %}

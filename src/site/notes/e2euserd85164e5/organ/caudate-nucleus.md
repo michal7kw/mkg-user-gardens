@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Caudate Nucleus
 type: organ
-updated: '2026-08-05T03:21:00.468128Z'
+updated: '2026-08-05T03:21:38.308680Z'
 ---
 
 {% raw %}

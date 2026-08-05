@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: amylase
 type: labtest
-updated: '2026-08-05T03:20:55.163524Z'
+updated: '2026-08-05T03:21:32.943405Z'
 ---
 
 {% raw %}

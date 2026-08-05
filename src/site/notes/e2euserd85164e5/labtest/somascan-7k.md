@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: somascan_7k
 type: labtest
-updated: '2026-08-05T03:20:57.615073Z'
+updated: '2026-08-05T03:21:35.296710Z'
 ---
 
 {% raw %}

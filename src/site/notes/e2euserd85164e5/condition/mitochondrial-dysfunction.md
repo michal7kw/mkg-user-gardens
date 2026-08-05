@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Mitochondrial Dysfunction
 type: condition
-updated: '2026-08-05T03:20:49.708503Z'
+updated: '2026-08-05T03:21:27.874346Z'
 ---
 
 {% raw %}

@@ -109,7 +109,7 @@ tags:
 templateEngineOverride: njk
 title: complete_blood_count
 type: labtest
-updated: '2026-08-05T03:20:55.612034Z'
+updated: '2026-08-05T03:21:33.354055Z'
 ---
 
 {% raw %}

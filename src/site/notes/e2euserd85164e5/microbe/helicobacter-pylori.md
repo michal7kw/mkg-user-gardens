@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Helicobacter pylori
 type: microbe
-updated: '2026-08-05T03:20:59.482369Z'
+updated: '2026-08-05T03:21:37.199621Z'
 ---
 
 {% raw %}

@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Oxidative Phosphorylation
 type: pathway
-updated: '2026-08-05T03:21:01.863128Z'
+updated: '2026-08-05T03:21:39.381520Z'
 ---
 
 {% raw %}

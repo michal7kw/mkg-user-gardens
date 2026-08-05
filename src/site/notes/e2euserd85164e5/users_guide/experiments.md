@@ -1,7 +1,7 @@
 ---
 aliases:
 - 10_Experiments
-created: '2026-08-05T03:21:06.127593Z'
+created: '2026-08-05T03:21:44.069882Z'
 description: Designing and running N-of-1 self-experiments with phases, biomarker
   tracking, and statistical analysis
 dg-home: false
@@ -16,7 +16,7 @@ tags:
 templateEngineOverride: njk
 title: Experiments
 type: users_guide
-updated: '2026-08-05T03:21:06.127593Z'
+updated: '2026-08-05T03:21:44.069882Z'
 ---
 
 {% raw %}

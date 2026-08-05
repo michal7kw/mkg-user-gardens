@@ -36,7 +36,7 @@ tags:
 templateEngineOverride: njk
 title: lyme_antibodies
 type: labtestpanel
-updated: '2026-08-05T03:20:58.332160Z'
+updated: '2026-08-05T03:21:36.005874Z'
 ---
 
 {% raw %}

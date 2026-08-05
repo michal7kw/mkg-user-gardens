@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Polymyositis
 type: condition
-updated: '2026-08-05T03:20:50.687874Z'
+updated: '2026-08-05T03:21:28.784826Z'
 ---
 
 {% raw %}

@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Chronic Lung Disease
 type: condition
-updated: '2026-08-05T03:20:47.416249Z'
+updated: '2026-08-05T03:21:25.446290Z'
 ---
 
 {% raw %}

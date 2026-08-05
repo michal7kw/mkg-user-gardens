@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Warburg Effect
 type: pathway
-updated: '2026-08-05T03:21:02.014159Z'
+updated: '2026-08-05T03:21:39.536299Z'
 ---
 
 {% raw %}

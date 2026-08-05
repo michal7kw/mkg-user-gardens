@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Oxaloacetate
 type: metabolite
-updated: '2026-08-05T03:20:59.166213Z'
+updated: '2026-08-05T03:21:36.906157Z'
 ---
 
 {% raw %}

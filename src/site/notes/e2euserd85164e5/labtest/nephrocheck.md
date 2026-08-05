@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: nephrocheck
 type: labtest
-updated: '2026-08-05T03:20:57.130296Z'
+updated: '2026-08-05T03:21:34.339084Z'
 ---
 
 {% raw %}

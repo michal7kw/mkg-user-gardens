@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Certolizumab Pegol
 type: drug
-updated: '2026-08-05T03:20:52.725479Z'
+updated: '2026-08-05T03:21:30.182519Z'
 ---
 
 {% raw %}

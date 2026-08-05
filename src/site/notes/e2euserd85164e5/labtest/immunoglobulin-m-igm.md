@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: immunoglobulin_m_igm
 type: labtest
-updated: '2026-08-05T03:20:56.683381Z'
+updated: '2026-08-05T03:21:33.901610Z'
 ---
 
 {% raw %}

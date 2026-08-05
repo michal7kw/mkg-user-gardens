@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: mri_scan_with_skeletal_neurological_assessment
 type: labtestpanel
-updated: '2026-08-05T03:20:58.349082Z'
+updated: '2026-08-05T03:21:36.022567Z'
 ---
 
 {% raw %}

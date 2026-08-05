@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Golimumab
 type: drug
-updated: '2026-08-05T03:20:53.095716Z'
+updated: '2026-08-05T03:21:30.933654Z'
 ---
 
 {% raw %}

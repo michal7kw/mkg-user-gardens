@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Propionate
 type: metabolite
-updated: '2026-08-05T03:20:59.203507Z'
+updated: '2026-08-05T03:21:36.947993Z'
 ---
 
 {% raw %}

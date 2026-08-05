@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Hypothyroidism
 type: condition
-updated: '2026-08-05T03:20:49.068057Z'
+updated: '2026-08-05T03:21:27.142875Z'
 ---
 
 {% raw %}

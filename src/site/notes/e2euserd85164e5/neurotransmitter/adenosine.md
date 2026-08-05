@@ -31,7 +31,7 @@ tags:
 templateEngineOverride: njk
 title: Adenosine
 type: neurotransmitter
-updated: '2026-08-05T03:20:59.616660Z'
+updated: '2026-08-05T03:21:37.340983Z'
 ---
 
 {% raw %}
