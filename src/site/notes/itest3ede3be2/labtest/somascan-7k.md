@@ -1,0 +1,103 @@
+---
+confidence_score: 0.0
+created: 2025-12-10T09:07:57+0000
+description: SomaLogic's advanced proteomics platform measuring 7000+ proteins. Research-grade
+  comprehensive protein profiling.
+dg-home: false
+dg-publish: true
+evidence_level: 2
+gardenUsername: itest3ede3be2
+id: test-somascan-001
+permalink: /garden/itest3ede3be2/labtest/somascan-7k/
+provenance: curated
+slug: somascan-7k
+source: Manual
+tags:
+- labtest
+templateEngineOverride: njk
+title: somascan_7k
+type: labtest
+updated: '2026-08-05T21:28:54.726769Z'
+---
+
+{% raw %}
+<h1>SomaScan 7K Proteomics</h1>
+<h2>Overview</h2>
+<p>SomaLogic's advanced proteomics platform measuring 7000+ proteins. Research-grade comprehensive protein profiling.</p>
+<p><strong>Evidence Level:</strong> ⭐⭐ (2/5)</p>
+<h2>Test Information</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Category</strong></td>
+<td>Proteomics</td>
+</tr>
+<tr>
+<td><strong>Subcategory</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
+<td><strong>Sample Type</strong></td>
+<td>Blood</td>
+</tr>
+<tr>
+<td><strong>Collection Method</strong></td>
+<td>Venipuncture</td>
+</tr>
+<tr>
+<td><strong>Turnaround Time</strong></td>
+<td>21-42 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$2500-$5000</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+</tbody>
+</table>
+<h2>Fasting Requirements</h2>
+<p>⚠️ <strong>Fasting Required</strong></p>
+<ul>
+<li>Fast for <strong>8 hours</strong> before the test</li>
+<li>Water is generally permitted during fasting</li>
+<li>Take medications as usual unless advised otherwise by your provider</li>
+</ul>
+<h2>Recommended For</h2>
+<h3>Supplement Monitoring</h3>
+<p>No specific supplement monitoring recommendations.</p>
+<h3>Conditions</h3>
+<p>General health screening.</p>
+<h2>Reference Ranges</h2>
+<p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
+<h2>Relationships</h2>
+<p>RELATED::<a href="/garden/itest3ede3be2/nutrient/protein/" class="internal-link">Protein</a></p>
+<h3>Enriched</h3>
+<p>ASSOCIATED_WITH::<a href="/garden/itest3ede3be2/organ/blood/" class="internal-link">Blood</a><br />
+INDICATES::<a href="/garden/itest3ede3be2/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
+<h2>Notes</h2>
+<ul>
+<li>Results should be interpreted by a qualified healthcare provider</li>
+<li>Reference ranges may vary by laboratory</li>
+<li>Individual factors (age, sex, health status) affect interpretation</li>
+</ul>
+<hr />
+<p><em>Last Updated: 2026-03-11T13:47:04.561789+00:00</em></p>
+
+{% endraw %}
