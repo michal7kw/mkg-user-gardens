@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: fecal_calprotectin
 type: labtest
-updated: '2026-08-05T01:26:58.525978Z'
+updated: '2026-08-05T01:27:13.515592Z'
 ---
 
 {% raw %}

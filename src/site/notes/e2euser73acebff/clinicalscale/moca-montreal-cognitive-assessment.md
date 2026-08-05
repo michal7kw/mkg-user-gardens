@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: MoCA (Montreal Cognitive Assessment)
 type: clinicalscale
-updated: '2026-08-05T01:26:56.471837Z'
+updated: '2026-08-05T01:27:11.741942Z'
 ---
 
 {% raw %}

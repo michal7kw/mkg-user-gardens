@@ -110,7 +110,7 @@ tags:
 templateEngineOverride: njk
 title: total_protein
 type: labtest
-updated: '2026-08-05T01:26:58.988082Z'
+updated: '2026-08-05T01:27:13.878461Z'
 ---
 
 {% raw %}

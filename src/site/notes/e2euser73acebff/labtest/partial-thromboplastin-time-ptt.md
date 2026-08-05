@@ -111,7 +111,7 @@ tags:
 templateEngineOverride: njk
 title: partial_thromboplastin_time_ptt
 type: labtest
-updated: '2026-08-05T01:26:58.833696Z'
+updated: '2026-08-05T01:27:13.744241Z'
 ---
 
 {% raw %}

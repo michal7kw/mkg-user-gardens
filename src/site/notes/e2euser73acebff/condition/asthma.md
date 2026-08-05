@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Asthma
 type: condition
-updated: '2026-08-05T01:26:56.607614Z'
+updated: '2026-08-05T01:27:11.844921Z'
 ---
 
 {% raw %}

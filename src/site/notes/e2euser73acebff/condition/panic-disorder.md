@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Panic Disorder
 type: condition
-updated: '2026-08-05T01:26:57.130342Z'
+updated: '2026-08-05T01:27:12.377751Z'
 ---
 
 {% raw %}

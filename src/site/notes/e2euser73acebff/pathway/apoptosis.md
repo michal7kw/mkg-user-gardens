@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-08-05T01:26:59.569177Z'
+created: '2026-08-05T01:27:14.455015Z'
 description: Programmed cell death mechanism essential for tissue homeostasis, immune
   regulation, and elimination of damaged or potentially cancerous cells through an
   orderly cascade of caspase activation.

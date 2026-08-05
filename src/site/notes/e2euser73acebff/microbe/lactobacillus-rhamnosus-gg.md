@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Lactobacillus rhamnosus GG
 type: microbe
-updated: '2026-08-05T01:26:59.330619Z'
+updated: '2026-08-05T01:27:14.210060Z'
 ---
 
 {% raw %}

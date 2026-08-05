@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Tocilizumab
 type: drug
-updated: '2026-08-05T01:26:57.732221Z'
+updated: '2026-08-05T01:27:13.005873Z'
 ---
 
 {% raw %}

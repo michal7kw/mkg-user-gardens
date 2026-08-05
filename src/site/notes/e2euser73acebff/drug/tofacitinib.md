@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Tofacitinib
 type: drug
-updated: '2026-08-05T01:26:57.734741Z'
+updated: '2026-08-05T01:27:13.007895Z'
 ---
 
 {% raw %}

@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: omega_6_arachidonic_acid
 type: labtest
-updated: '2026-08-05T01:26:58.807289Z'
+updated: '2026-08-05T01:27:13.723283Z'
 ---
 
 {% raw %}

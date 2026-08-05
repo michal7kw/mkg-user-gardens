@@ -112,7 +112,7 @@ tags:
 templateEngineOverride: njk
 title: fasting_insulin
 type: labtest
-updated: '2026-08-05T01:26:58.520448Z'
+updated: '2026-08-05T01:27:13.512036Z'
 ---
 
 {% raw %}

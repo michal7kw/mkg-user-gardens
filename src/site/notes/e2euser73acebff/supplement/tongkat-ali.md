@@ -30,7 +30,7 @@ tags:
 templateEngineOverride: njk
 title: Tongkat Ali
 type: supplement
-updated: '2026-08-05T01:27:00.286567Z'
+updated: '2026-08-05T01:27:15.567817Z'
 ---
 
 {% raw %}

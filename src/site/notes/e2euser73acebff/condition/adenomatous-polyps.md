@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Adenomatous Polyps
 type: condition
-updated: '2026-08-05T01:26:56.543613Z'
+updated: '2026-08-05T01:27:11.798058Z'
 ---
 
 {% raw %}

@@ -1,7 +1,7 @@
 ---
 aliases:
 - _index
-created: '2026-08-05T01:27:00.411629Z'
+created: '2026-08-05T01:27:15.768494Z'
 description: Table of contents and reading paths for all MKG platform user guides
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: MKG Platform User Guide
 type: users_guide
-updated: '2026-08-05T01:27:00.411629Z'
+updated: '2026-08-05T01:27:15.768494Z'
 ---
 
 {% raw %}

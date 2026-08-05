@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Crohns Disease
 type: condition
-updated: '2026-08-05T01:26:56.742930Z'
+updated: '2026-08-05T01:27:11.984773Z'
 ---
 
 {% raw %}

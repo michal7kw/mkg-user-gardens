@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: total_cholesterol_hdl_ratio
 type: labtest
-updated: '2026-08-05T01:26:58.985077Z'
+updated: '2026-08-05T01:27:13.873946Z'
 ---
 
 {% raw %}

@@ -110,7 +110,7 @@ tags:
 templateEngineOverride: njk
 title: albumin
 type: labtest
-updated: '2026-08-05T01:26:58.209065Z'
+updated: '2026-08-05T01:27:13.324201Z'
 ---
 
 {% raw %}

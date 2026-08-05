@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Urolithin A
 type: supplement
-updated: '2026-08-05T01:27:00.289584Z'
+updated: '2026-08-05T01:27:15.574944Z'
 ---
 
 {% raw %}

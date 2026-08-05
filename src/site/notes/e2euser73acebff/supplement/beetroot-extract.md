@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Beetroot Extract
 type: supplement
-updated: '2026-08-05T01:27:00.068123Z'
+updated: '2026-08-05T01:27:15.187350Z'
 ---
 
 {% raw %}

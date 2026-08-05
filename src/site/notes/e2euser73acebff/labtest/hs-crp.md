@@ -114,7 +114,7 @@ tags:
 templateEngineOverride: njk
 title: hs_crp
 type: labtest
-updated: '2026-08-05T01:26:58.632618Z'
+updated: '2026-08-05T01:27:13.582831Z'
 ---
 
 {% raw %}

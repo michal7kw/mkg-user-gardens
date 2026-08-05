@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Devils Claw
 type: supplement
-updated: '2026-08-05T01:27:00.123578Z'
+updated: '2026-08-05T01:27:15.269446Z'
 ---
 
 {% raw %}

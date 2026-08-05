@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: PRAZOSIN
 type: drug
-updated: '2026-08-05T01:26:57.679478Z'
+updated: '2026-08-05T01:27:12.961521Z'
 ---
 
 {% raw %}

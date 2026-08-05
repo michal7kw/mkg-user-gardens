@@ -18,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: procalcitonin
 type: labtest
-updated: '2026-08-05T01:26:58.856247Z'
+updated: '2026-08-05T01:27:13.762077Z'
 ---
 
 {% raw %}

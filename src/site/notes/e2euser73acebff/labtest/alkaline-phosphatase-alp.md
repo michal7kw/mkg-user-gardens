@@ -112,7 +112,7 @@ tags:
 templateEngineOverride: njk
 title: alkaline_phosphatase_alp
 type: labtest
-updated: '2026-08-05T01:26:58.216677Z'
+updated: '2026-08-05T01:27:13.330263Z'
 ---
 
 {% raw %}

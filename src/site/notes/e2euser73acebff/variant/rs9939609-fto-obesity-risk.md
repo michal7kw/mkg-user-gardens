@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: rs9939609 (FTO obesity-risk)
 type: variant
-updated: '2026-08-05T01:27:00.346624Z'
+updated: '2026-08-05T01:27:15.654990Z'
 ---
 
 {% raw %}

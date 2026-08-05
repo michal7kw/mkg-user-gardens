@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Antibiotic-Associated Diarrhea
 type: condition
-updated: '2026-08-05T01:26:56.595833Z'
+updated: '2026-08-05T01:27:11.837620Z'
 ---
 
 {% raw %}

@@ -110,7 +110,7 @@ tags:
 templateEngineOverride: njk
 title: blood_urea_nitrogen
 type: labtest
-updated: '2026-08-05T01:26:58.328430Z'
+updated: '2026-08-05T01:27:13.394838Z'
 ---
 
 {% raw %}
