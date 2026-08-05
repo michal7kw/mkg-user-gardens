@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Mitochondrial Function Panel
 type: labtest
-updated: '2026-08-05T03:33:11.841589Z'
+updated: '2026-08-05T03:33:52.375224Z'
 ---
 
 {% raw %}

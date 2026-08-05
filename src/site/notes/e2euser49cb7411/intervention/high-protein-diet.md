@@ -18,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: High-Protein Diet
 type: intervention
-updated: '2026-08-05T03:33:09.380648Z'
+updated: '2026-08-05T03:33:50.292031Z'
 ---
 
 {% raw %}

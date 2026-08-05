@@ -1,7 +1,7 @@
 ---
 aliases:
 - 12_Web_Dashboard_Tour
-created: '2026-08-05T03:33:21.321610Z'
+created: '2026-08-05T03:34:02.256155Z'
 description: Complete page-by-page walkthrough of all web dashboard features and pages
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Web Dashboard Tour
 type: users_guide
-updated: '2026-08-05T03:33:21.321610Z'
+updated: '2026-08-05T03:34:02.256155Z'
 ---
 
 {% raw %}

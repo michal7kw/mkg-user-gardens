@@ -1,7 +1,7 @@
 ---
 aliases:
 - bioenergetics
-created: '2026-08-05T03:33:21.585296Z'
+created: '2026-08-05T03:34:02.441829Z'
 description: Explore metabolic pathways, energy production, and interventions
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Bioenergetics — Guide
 type: users_guide
-updated: '2026-08-05T03:33:21.585296Z'
+updated: '2026-08-05T03:34:02.441829Z'
 ---
 
 {% raw %}

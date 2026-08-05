@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: GrimAge
 type: biomarker
-updated: '2026-08-05T03:32:55.367910Z'
+updated: '2026-08-05T03:33:35.032239Z'
 ---
 
 {% raw %}

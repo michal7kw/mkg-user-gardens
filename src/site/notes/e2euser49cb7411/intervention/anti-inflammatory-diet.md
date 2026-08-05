@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Anti-Inflammatory Diet
 type: intervention
-updated: '2026-08-05T03:33:09.236828Z'
+updated: '2026-08-05T03:33:50.065473Z'
 ---
 
 {% raw %}

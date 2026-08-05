@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Tart Cherry Extract
 type: supplement
-updated: '2026-08-05T03:33:20.396777Z'
+updated: '2026-08-05T03:34:01.090212Z'
 ---
 
 {% raw %}

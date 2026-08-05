@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: JAK-STAT Signaling Pathway
 type: pathway
-updated: '2026-08-05T03:33:17.170996Z'
+updated: '2026-08-05T03:33:56.804184Z'
 ---
 
 {% raw %}

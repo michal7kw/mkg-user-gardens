@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: specific_gravity_urine
 type: labtest
-updated: '2026-08-05T03:33:12.331189Z'
+updated: '2026-08-05T03:33:53.386640Z'
 ---
 
 {% raw %}

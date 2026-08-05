@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: ATP
 type: metabolite
-updated: '2026-08-05T03:33:13.421842Z'
+updated: '2026-08-05T03:33:54.326158Z'
 ---
 
 {% raw %}

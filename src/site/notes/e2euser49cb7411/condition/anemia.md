@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Anemia
 type: condition
-updated: '2026-08-05T03:33:00.101556Z'
+updated: '2026-08-05T03:33:40.614898Z'
 ---
 
 {% raw %}

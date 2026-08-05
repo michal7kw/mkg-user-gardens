@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Influenza Vaccine (Annual)
 type: vaccine
-updated: '2026-08-05T03:33:20.681661Z'
+updated: '2026-08-05T03:34:01.559757Z'
 ---
 
 {% raw %}

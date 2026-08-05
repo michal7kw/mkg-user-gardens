@@ -111,7 +111,7 @@ tags:
 templateEngineOverride: njk
 title: potassium
 type: labtest
-updated: '2026-08-05T03:33:12.141741Z'
+updated: '2026-08-05T03:33:52.700953Z'
 ---
 
 {% raw %}

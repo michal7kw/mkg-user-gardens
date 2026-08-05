@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Acute Ischemic Stroke
 type: condition
-updated: '2026-08-05T03:32:59.745728Z'
+updated: '2026-08-05T03:33:40.276881Z'
 ---
 
 {% raw %}

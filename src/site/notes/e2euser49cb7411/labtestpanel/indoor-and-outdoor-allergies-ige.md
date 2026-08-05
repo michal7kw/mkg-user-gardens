@@ -42,7 +42,7 @@ tags:
 templateEngineOverride: njk
 title: indoor_and_outdoor_allergies_ige
 type: labtestpanel
-updated: '2026-08-05T03:33:13.109585Z'
+updated: '2026-08-05T03:33:54.087373Z'
 ---
 
 {% raw %}

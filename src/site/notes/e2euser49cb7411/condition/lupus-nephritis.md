@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Lupus Nephritis
 type: condition
-updated: '2026-08-05T03:33:03.217671Z'
+updated: '2026-08-05T03:33:43.966324Z'
 ---
 
 {% raw %}

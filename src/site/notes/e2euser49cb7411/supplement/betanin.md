@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Betanin
 type: supplement
-updated: '2026-08-05T03:33:19.194988Z'
+updated: '2026-08-05T03:33:59.675294Z'
 ---
 
 {% raw %}

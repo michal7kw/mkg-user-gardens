@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: glucose
 type: labtest
-updated: '2026-08-05T03:33:11.188066Z'
+updated: '2026-08-05T03:33:51.801197Z'
 ---
 
 {% raw %}

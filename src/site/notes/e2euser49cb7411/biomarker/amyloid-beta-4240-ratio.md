@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Amyloid-Beta 42/40 Ratio
 type: biomarker
-updated: '2026-08-05T03:32:52.662138Z'
+updated: '2026-08-05T03:33:32.396442Z'
 ---
 
 {% raw %}

@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Irritable Bowel Syndrome
 type: condition
-updated: '2026-08-05T03:33:02.948409Z'
+updated: '2026-08-05T03:33:43.627661Z'
 ---
 
 {% raw %}

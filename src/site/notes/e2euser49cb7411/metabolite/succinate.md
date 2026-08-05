@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Succinate
 type: metabolite
-updated: '2026-08-05T03:33:14.425082Z'
+updated: '2026-08-05T03:33:55.064220Z'
 ---
 
 {% raw %}
