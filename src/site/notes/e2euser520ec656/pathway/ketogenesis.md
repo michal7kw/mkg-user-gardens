@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Ketogenesis
 type: pathway
-updated: '2026-08-05T02:40:38.814410Z'
+updated: '2026-08-05T02:40:51.504523Z'
 ---
 
 {% raw %}

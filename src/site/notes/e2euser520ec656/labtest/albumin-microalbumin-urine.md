@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: albumin_microalbumin_urine
 type: labtest
-updated: '2026-08-05T02:40:37.783720Z'
+updated: '2026-08-05T02:40:50.440296Z'
 ---
 
 {% raw %}

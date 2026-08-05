@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: gut_health_comprehensive_panel
 type: labtestpanel
-updated: '2026-08-05T02:40:38.372461Z'
+updated: '2026-08-05T02:40:51.050002Z'
 ---
 
 {% raw %}

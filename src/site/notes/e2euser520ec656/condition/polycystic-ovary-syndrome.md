@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Polycystic Ovary Syndrome
 type: condition
-updated: '2026-08-05T02:40:37.005835Z'
+updated: '2026-08-05T02:40:49.803791Z'
 ---
 
 {% raw %}

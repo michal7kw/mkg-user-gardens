@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: extended_immune_regulation
 type: labtestpanel
-updated: '2026-08-05T02:40:38.358273Z'
+updated: '2026-08-05T02:40:51.037280Z'
 ---
 
 {% raw %}

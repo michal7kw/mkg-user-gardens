@@ -114,7 +114,7 @@ tags:
 templateEngineOverride: njk
 title: complement_c3
 type: labtest
-updated: '2026-08-05T02:40:37.891767Z'
+updated: '2026-08-05T02:40:50.545085Z'
 ---
 
 {% raw %}

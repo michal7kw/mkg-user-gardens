@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Migraine
 type: condition
-updated: '2026-08-05T02:40:36.869693Z'
+updated: '2026-08-05T02:40:49.668374Z'
 ---
 
 {% raw %}

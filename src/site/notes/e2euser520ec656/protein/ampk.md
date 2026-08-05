@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: AMPK
 type: protein
-updated: '2026-08-05T02:40:38.918778Z'
+updated: '2026-08-05T02:40:51.617796Z'
 ---
 
 {% raw %}

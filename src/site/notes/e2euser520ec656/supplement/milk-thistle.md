@@ -3,7 +3,7 @@ aliases:
 - Silymarin
 - Silybum marianum
 confidence_score: 0.8
-created: '2026-08-05T02:40:39.321953Z'
+created: '2026-08-05T02:40:52.034378Z'
 description: Herbal extract from the seeds of Silybum marianum whose active complex,
   silymarin (chiefly silybin), is used for liver support. Acts as an antioxidant,
   membrane stabilizer, and modulator of hepatic regeneration. Most studied in alcohol-related
@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Milk Thistle
 type: supplement
-updated: '2026-08-05T02:40:39.321953Z'
+updated: '2026-08-05T02:40:52.034378Z'
 ---
 
 {% raw %}

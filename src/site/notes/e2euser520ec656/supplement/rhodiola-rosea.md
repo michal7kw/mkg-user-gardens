@@ -29,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Rhodiola Rosea
 type: supplement
-updated: '2026-08-05T02:40:39.366458Z'
+updated: '2026-08-05T02:40:52.077247Z'
 ---
 
 {% raw %}

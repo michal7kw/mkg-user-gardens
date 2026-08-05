@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: TFAM
 type: protein
-updated: '2026-08-05T02:40:39.052842Z'
+updated: '2026-08-05T02:40:51.755119Z'
 ---
 
 {% raw %}

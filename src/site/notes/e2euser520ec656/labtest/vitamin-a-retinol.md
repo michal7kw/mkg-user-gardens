@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: vitamin_a_retinol
 type: labtest
-updated: '2026-08-05T02:40:38.314049Z'
+updated: '2026-08-05T02:40:50.985652Z'
 ---
 
 {% raw %}

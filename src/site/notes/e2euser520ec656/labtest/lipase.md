@@ -112,7 +112,7 @@ tags:
 templateEngineOverride: njk
 title: lipase
 type: labtest
-updated: '2026-08-05T02:40:38.070471Z'
+updated: '2026-08-05T02:40:50.741051Z'
 ---
 
 {% raw %}

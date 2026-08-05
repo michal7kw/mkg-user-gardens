@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: total_ige
 type: labtest
-updated: '2026-08-05T02:40:38.260029Z'
+updated: '2026-08-05T02:40:50.943198Z'
 ---
 
 {% raw %}

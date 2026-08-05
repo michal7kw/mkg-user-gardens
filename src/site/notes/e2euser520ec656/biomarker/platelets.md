@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Platelets
 type: biomarker
-updated: '2026-08-05T02:40:36.159076Z'
+updated: '2026-08-05T02:40:48.917009Z'
 ---
 
 {% raw %}

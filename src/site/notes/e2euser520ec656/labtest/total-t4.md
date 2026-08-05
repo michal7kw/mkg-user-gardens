@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-08-05T02:40:38.266611Z'
+created: '2026-08-05T02:40:50.948437Z'
 description: Total T4 measures the total concentration of thyroxine in blood, including
   both protein-bound and free hormone. As the main hormone secreted by the thyroid
   gland, T4 is converted peripherally to the more active T3. Total T4 is influenced
@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: total_t4
 type: labtest
-updated: '2026-08-05T02:40:38.266611Z'
+updated: '2026-08-05T02:40:50.948437Z'
 ---
 
 {% raw %}

@@ -114,7 +114,7 @@ tags:
 templateEngineOverride: njk
 title: urine_collection_24h
 type: labtest
-updated: '2026-08-05T02:40:38.306011Z'
+updated: '2026-08-05T02:40:50.978109Z'
 ---
 
 {% raw %}

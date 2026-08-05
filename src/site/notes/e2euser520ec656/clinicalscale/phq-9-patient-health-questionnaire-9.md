@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: PHQ-9 (Patient Health Questionnaire-9)
 type: clinicalscale
-updated: '2026-08-05T02:40:36.406311Z'
+updated: '2026-08-05T02:40:49.215509Z'
 ---
 
 {% raw %}

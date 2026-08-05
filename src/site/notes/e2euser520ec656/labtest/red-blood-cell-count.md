@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: red_blood_cell_count
 type: labtest
-updated: '2026-08-05T02:40:38.185468Z'
+updated: '2026-08-05T02:40:50.859690Z'
 ---
 
 {% raw %}

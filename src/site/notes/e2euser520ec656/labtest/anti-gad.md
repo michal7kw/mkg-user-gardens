@@ -55,7 +55,7 @@ tags:
 templateEngineOverride: njk
 title: anti_gad
 type: labtest
-updated: '2026-08-05T02:40:37.806302Z'
+updated: '2026-08-05T02:40:50.462250Z'
 ---
 
 {% raw %}

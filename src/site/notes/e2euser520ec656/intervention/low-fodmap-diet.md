@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Low-FODMAP Diet
 type: intervention
-updated: '2026-08-05T02:40:37.714658Z'
+updated: '2026-08-05T02:40:50.374175Z'
 ---
 
 {% raw %}

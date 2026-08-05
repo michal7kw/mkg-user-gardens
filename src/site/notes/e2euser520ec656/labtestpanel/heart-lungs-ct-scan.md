@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: heart_lungs_ct_scan
 type: labtestpanel
-updated: '2026-08-05T02:40:38.373468Z'
+updated: '2026-08-05T02:40:51.050553Z'
 ---
 
 {% raw %}

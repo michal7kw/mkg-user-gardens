@@ -112,7 +112,7 @@ tags:
 templateEngineOverride: njk
 title: antistreptolysin_o
 type: labtest
-updated: '2026-08-05T02:40:37.823129Z'
+updated: '2026-08-05T02:40:50.477289Z'
 ---
 
 {% raw %}

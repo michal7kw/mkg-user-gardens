@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: COVID-19 mRNA Vaccine (BNT162b2 / mRNA-1273 family)
 type: vaccine
-updated: '2026-08-05T02:40:39.443625Z'
+updated: '2026-08-05T02:40:52.157228Z'
 ---
 
 {% raw %}

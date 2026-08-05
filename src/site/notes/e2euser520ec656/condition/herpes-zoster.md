@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Herpes Zoster
 type: condition
-updated: '2026-08-05T02:40:36.748232Z'
+updated: '2026-08-05T02:40:49.552060Z'
 ---
 
 {% raw %}
