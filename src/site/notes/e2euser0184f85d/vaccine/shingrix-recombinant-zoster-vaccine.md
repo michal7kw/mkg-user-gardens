@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Shingrix (Recombinant Zoster Vaccine)
 type: vaccine
-updated: '2026-08-05T02:42:31.816971Z'
+updated: '2026-08-05T02:43:07.817943Z'
 ---
 
 {% raw %}

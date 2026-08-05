@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: hematocrit
 type: labtest
-updated: '2026-08-05T02:42:23.256877Z'
+updated: '2026-08-05T02:42:58.483212Z'
 ---
 
 {% raw %}

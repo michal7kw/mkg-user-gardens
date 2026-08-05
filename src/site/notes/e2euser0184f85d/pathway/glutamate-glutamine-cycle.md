@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Glutamate-Glutamine Cycle
 type: pathway
-updated: '2026-08-05T02:42:28.217680Z'
+updated: '2026-08-05T02:43:03.493374Z'
 ---
 
 {% raw %}

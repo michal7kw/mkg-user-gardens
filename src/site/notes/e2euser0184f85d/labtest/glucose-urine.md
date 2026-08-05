@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: glucose_urine
 type: labtest
-updated: '2026-08-05T02:42:23.164778Z'
+updated: '2026-08-05T02:42:58.404036Z'
 ---
 
 {% raw %}

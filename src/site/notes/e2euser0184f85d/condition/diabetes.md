@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Diabetes
 type: condition
-updated: '2026-08-05T02:42:14.811742Z'
+updated: '2026-08-05T02:42:50.484111Z'
 ---
 
 {% raw %}

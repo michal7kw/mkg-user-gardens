@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: alzheimer_s_risk_apoe
 type: labtestpanel
-updated: '2026-08-05T02:42:24.848017Z'
+updated: '2026-08-05T02:43:00.557621Z'
 ---
 
 {% raw %}

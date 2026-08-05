@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: extended_heavy_metals
 type: labtestpanel
-updated: '2026-08-05T02:42:24.944012Z'
+updated: '2026-08-05T02:43:00.658077Z'
 ---
 
 {% raw %}

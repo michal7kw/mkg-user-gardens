@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: cardiac_biomarker_panel
 type: labtestpanel
-updated: '2026-08-05T02:42:24.882579Z'
+updated: '2026-08-05T02:43:00.595553Z'
 ---
 
 {% raw %}

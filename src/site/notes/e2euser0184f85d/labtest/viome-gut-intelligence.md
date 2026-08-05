@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: viome_gut_intelligence
 type: labtest
-updated: '2026-08-05T02:42:24.716098Z'
+updated: '2026-08-05T02:43:00.429048Z'
 ---
 
 {% raw %}

@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Abatacept
 type: drug
-updated: '2026-08-05T02:42:18.820662Z'
+updated: '2026-08-05T02:42:54.528904Z'
 ---
 
 {% raw %}

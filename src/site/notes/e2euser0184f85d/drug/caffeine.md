@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Caffeine
 type: drug
-updated: '2026-08-05T02:42:18.950687Z'
+updated: '2026-08-05T02:42:54.604401Z'
 ---
 
 {% raw %}

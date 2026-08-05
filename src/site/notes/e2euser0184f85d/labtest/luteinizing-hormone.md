@@ -117,7 +117,7 @@ tags:
 templateEngineOverride: njk
 title: luteinizing_hormone
 type: labtest
-updated: '2026-08-05T02:42:23.676189Z'
+updated: '2026-08-05T02:42:58.861465Z'
 ---
 
 {% raw %}

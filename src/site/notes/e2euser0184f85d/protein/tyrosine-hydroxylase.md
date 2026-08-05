@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Tyrosine Hydroxylase
 type: protein
-updated: '2026-08-05T02:42:29.464230Z'
+updated: '2026-08-05T02:43:04.738706Z'
 ---
 
 {% raw %}

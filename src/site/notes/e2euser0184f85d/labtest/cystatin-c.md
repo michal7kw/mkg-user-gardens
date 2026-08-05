@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-08-05T02:42:22.367242Z'
+created: '2026-08-05T02:42:58.122246Z'
 description: Cystatin C is a low-molecular-weight protein freely filtered by the glomerulus
   and used as a marker of kidney function. Because it is less influenced by muscle
   mass, age, and sex than creatinine, cystatin C provides an alternative or complementary
@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: cystatin_c
 type: labtest
-updated: '2026-08-05T02:42:22.367242Z'
+updated: '2026-08-05T02:42:58.122246Z'
 ---
 
 {% raw %}

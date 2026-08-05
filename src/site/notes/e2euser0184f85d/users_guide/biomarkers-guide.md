@@ -1,7 +1,7 @@
 ---
 aliases:
 - biomarkers
-created: '2026-08-05T02:42:32.596415Z'
+created: '2026-08-05T02:43:08.619952Z'
 description: Record readings, track trends, and read biomarker status
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Biomarkers — Guide
 type: users_guide
-updated: '2026-08-05T02:42:32.596415Z'
+updated: '2026-08-05T02:43:08.619952Z'
 ---
 
 {% raw %}

@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: platelet_count
 type: labtest
-updated: '2026-08-05T02:42:24.134695Z'
+updated: '2026-08-05T02:42:59.327686Z'
 ---
 
 {% raw %}

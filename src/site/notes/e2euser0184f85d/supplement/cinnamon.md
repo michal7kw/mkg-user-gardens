@@ -30,7 +30,7 @@ tags:
 templateEngineOverride: njk
 title: Cinnamon
 type: supplement
-updated: '2026-08-05T02:42:30.419643Z'
+updated: '2026-08-05T02:43:06.339420Z'
 ---
 
 {% raw %}

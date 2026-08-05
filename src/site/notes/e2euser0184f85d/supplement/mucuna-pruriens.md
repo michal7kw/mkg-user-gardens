@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Mucuna Pruriens
 type: supplement
-updated: '2026-08-05T02:42:31.077482Z'
+updated: '2026-08-05T02:43:07.007439Z'
 ---
 
 {% raw %}

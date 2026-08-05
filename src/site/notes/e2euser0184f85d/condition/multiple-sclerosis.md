@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Multiple Sclerosis
 type: condition
-updated: '2026-08-05T02:42:16.368335Z'
+updated: '2026-08-05T02:42:52.415890Z'
 ---
 
 {% raw %}

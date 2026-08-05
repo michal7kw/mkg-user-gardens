@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Niacin
 type: supplement
-updated: '2026-08-05T02:42:31.119954Z'
+updated: '2026-08-05T02:43:07.047755Z'
 ---
 
 {% raw %}

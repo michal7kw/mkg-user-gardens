@@ -1,7 +1,7 @@
 ---
 aliases:
 - nutrition
-created: '2026-08-05T02:42:32.690391Z'
+created: '2026-08-05T02:43:08.710057Z'
 description: Track diet and connect dietary patterns to your biomarkers
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Nutrition — Guide
 type: users_guide
-updated: '2026-08-05T02:42:32.690391Z'
+updated: '2026-08-05T02:43:08.710057Z'
 ---
 
 {% raw %}

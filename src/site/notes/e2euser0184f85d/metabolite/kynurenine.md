@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Kynurenine
 type: metabolite
-updated: '2026-08-05T02:42:25.693165Z'
+updated: '2026-08-05T02:43:01.433957Z'
 ---
 
 {% raw %}

@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: leukocyte_esterase_urine
 type: labtest
-updated: '2026-08-05T02:42:23.596857Z'
+updated: '2026-08-05T02:42:58.791945Z'
 ---
 
 {% raw %}

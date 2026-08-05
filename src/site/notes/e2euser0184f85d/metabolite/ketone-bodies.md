@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Ketone Bodies
 type: metabolite
-updated: '2026-08-05T02:42:25.652557Z'
+updated: '2026-08-05T02:43:01.390566Z'
 ---
 
 {% raw %}

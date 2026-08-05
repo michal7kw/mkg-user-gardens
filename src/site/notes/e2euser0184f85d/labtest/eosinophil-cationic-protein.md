@@ -50,7 +50,7 @@ tags:
 templateEngineOverride: njk
 title: eosinophil_cationic_protein
 type: labtest
-updated: '2026-08-05T02:42:22.943057Z'
+updated: '2026-08-05T02:42:58.214974Z'
 ---
 
 {% raw %}

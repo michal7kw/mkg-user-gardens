@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Insomnia
 type: condition
-updated: '2026-08-05T02:42:15.729689Z'
+updated: '2026-08-05T02:42:51.784052Z'
 ---
 
 {% raw %}

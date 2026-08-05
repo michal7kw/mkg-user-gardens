@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-08-05T02:42:24.760670Z'
+created: '2026-08-05T02:43:00.470889Z'
 description: VLDL cholesterol measures the cholesterol carried by very-low-density
   lipoprotein particles, which transport triglycerides from the liver to peripheral
   tissues. It is usually estimated as triglycerides divided by 5 within a standard
@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: vldl
 type: labtest
-updated: '2026-08-05T02:42:24.760670Z'
+updated: '2026-08-05T02:43:00.470889Z'
 ---
 
 {% raw %}

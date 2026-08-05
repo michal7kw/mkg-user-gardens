@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: kidney_injury_panel
 type: labtest
-updated: '2026-08-05T02:42:23.487828Z'
+updated: '2026-08-05T02:42:58.688573Z'
 ---
 
 {% raw %}

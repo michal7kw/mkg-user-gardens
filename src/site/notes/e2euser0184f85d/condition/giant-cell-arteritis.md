@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Giant Cell Arteritis
 type: condition
-updated: '2026-08-05T02:42:15.245177Z'
+updated: '2026-08-05T02:42:50.916073Z'
 ---
 
 {% raw %}

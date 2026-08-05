@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Pseudomembranous Colitis
 type: condition
-updated: '2026-08-05T02:42:17.384819Z'
+updated: '2026-08-05T02:42:53.466756Z'
 ---
 
 {% raw %}

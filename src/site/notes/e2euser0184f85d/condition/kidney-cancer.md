@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Kidney Cancer
 type: condition
-updated: '2026-08-05T02:42:15.861797Z'
+updated: '2026-08-05T02:42:51.915129Z'
 ---
 
 {% raw %}

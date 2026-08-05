@@ -39,7 +39,7 @@ tags:
 templateEngineOverride: njk
 title: Acetylcholine
 type: neurotransmitter
-updated: '2026-08-05T02:42:26.264299Z'
+updated: '2026-08-05T02:43:01.988415Z'
 ---
 
 {% raw %}

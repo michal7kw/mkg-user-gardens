@@ -1,7 +1,7 @@
 ---
 aliases:
 - developers
-created: '2026-08-05T02:42:32.625836Z'
+created: '2026-08-05T02:43:08.650963Z'
 description: Create and manage API keys for programmatic access
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Developer API — Guide
 type: users_guide
-updated: '2026-08-05T02:42:32.625836Z'
+updated: '2026-08-05T02:43:08.650963Z'
 ---
 
 {% raw %}
