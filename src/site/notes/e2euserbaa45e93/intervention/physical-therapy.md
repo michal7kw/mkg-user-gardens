@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Physical Therapy
 type: intervention
-updated: '2026-08-05T03:07:49.165584Z'
+updated: '2026-08-05T03:08:03.077399Z'
 ---
 
 {% raw %}

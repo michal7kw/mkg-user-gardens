@@ -42,7 +42,7 @@ tags:
 templateEngineOverride: njk
 title: Tesamorelin
 type: drug
-updated: '2026-08-05T03:07:48.952511Z'
+updated: '2026-08-05T03:08:02.869489Z'
 ---
 
 {% raw %}

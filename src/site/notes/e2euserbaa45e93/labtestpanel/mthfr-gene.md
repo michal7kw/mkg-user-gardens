@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: mthfr_gene
 type: labtestpanel
-updated: '2026-08-05T03:07:49.882201Z'
+updated: '2026-08-05T03:08:03.739821Z'
 ---
 
 {% raw %}

@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Beta-Oxidation
 type: pathway
-updated: '2026-08-05T03:07:50.325634Z'
+updated: '2026-08-05T03:08:04.285777Z'
 ---
 
 {% raw %}

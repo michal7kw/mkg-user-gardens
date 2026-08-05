@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: omega3_index
 type: labtest
-updated: '2026-08-05T03:07:49.615502Z'
+updated: '2026-08-05T03:08:03.483597Z'
 ---
 
 {% raw %}

@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Mindfulness Meditation
 type: intervention
-updated: '2026-08-05T03:07:49.156852Z'
+updated: '2026-08-05T03:08:03.069387Z'
 ---
 
 {% raw %}

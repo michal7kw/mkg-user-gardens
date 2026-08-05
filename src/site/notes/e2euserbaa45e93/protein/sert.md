@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: SERT
 type: protein
-updated: '2026-08-05T03:07:50.612731Z'
+updated: '2026-08-05T03:08:04.548326Z'
 ---
 
 {% raw %}

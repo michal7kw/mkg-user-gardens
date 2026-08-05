@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Hypertension
 type: condition
-updated: '2026-08-05T03:07:48.366969Z'
+updated: '2026-08-05T03:08:02.273734Z'
 ---
 
 {% raw %}

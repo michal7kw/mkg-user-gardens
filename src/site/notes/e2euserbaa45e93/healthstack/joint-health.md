@@ -1,5 +1,5 @@
 ---
-created: '2026-08-05T03:07:49.063156Z'
+created: '2026-08-05T03:08:02.980890Z'
 description: Protect and rebuild joint cartilage, reduce joint inflammation, and maintain
   mobility with targeted collagen, anti-inflammatory, and cartilage-supporting supplements.
   Essential for active individuals, aging populations, and anyone with joint wear
@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Joint Health
 type: healthstack
-updated: '2026-08-05T03:07:49.063156Z'
+updated: '2026-08-05T03:08:02.980890Z'
 ---
 
 {% raw %}

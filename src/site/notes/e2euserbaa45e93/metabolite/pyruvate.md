@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Pyruvate
 type: metabolite
-updated: '2026-08-05T03:07:50.022629Z'
+updated: '2026-08-05T03:08:03.868817Z'
 ---
 
 {% raw %}

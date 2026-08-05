@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: rs7412 (APOE-e2 defining)
 type: variant
-updated: '2026-08-05T03:07:51.060580Z'
+updated: '2026-08-05T03:08:05.015141Z'
 ---
 
 {% raw %}

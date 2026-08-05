@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Hyperlipidemia
 type: condition
-updated: '2026-08-05T03:07:48.364970Z'
+updated: '2026-08-05T03:08:02.272212Z'
 ---
 
 {% raw %}

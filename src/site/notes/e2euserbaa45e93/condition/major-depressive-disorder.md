@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Major Depressive Disorder
 type: condition
-updated: '2026-08-05T03:07:48.436527Z'
+updated: '2026-08-05T03:08:02.348391Z'
 ---
 
 {% raw %}

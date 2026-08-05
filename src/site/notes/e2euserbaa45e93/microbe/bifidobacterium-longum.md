@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Bifidobacterium longum
 type: microbe
-updated: '2026-08-05T03:07:50.055258Z'
+updated: '2026-08-05T03:08:04.056199Z'
 ---
 
 {% raw %}

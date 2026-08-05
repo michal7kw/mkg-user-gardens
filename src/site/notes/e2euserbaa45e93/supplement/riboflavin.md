@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Riboflavin
 type: supplement
-updated: '2026-08-05T03:07:50.975150Z'
+updated: '2026-08-05T03:08:04.919041Z'
 ---
 
 {% raw %}

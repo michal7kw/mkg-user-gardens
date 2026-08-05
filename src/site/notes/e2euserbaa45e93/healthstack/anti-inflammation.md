@@ -1,5 +1,5 @@
 ---
-created: '2026-08-05T03:07:49.045412Z'
+created: '2026-08-05T03:08:02.964015Z'
 description: Target chronic low-grade inflammation, a root driver of cardiovascular
   disease, neurodegeneration, and accelerated aging. This stack combines omega-3 for
   resolvin production, curcumin for NF-kB inhibition, vitamin D for immune regulation,
@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Anti-Inflammation
 type: healthstack
-updated: '2026-08-05T03:07:49.045412Z'
+updated: '2026-08-05T03:08:02.964015Z'
 ---
 
 {% raw %}

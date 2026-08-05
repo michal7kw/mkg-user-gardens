@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Vitamin D Deficiency
 type: condition
-updated: '2026-08-05T03:07:48.782151Z'
+updated: '2026-08-05T03:08:02.699969Z'
 ---
 
 {% raw %}

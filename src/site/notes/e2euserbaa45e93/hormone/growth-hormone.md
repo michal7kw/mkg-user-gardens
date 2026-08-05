@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Growth Hormone
 type: hormone
-updated: '2026-08-05T03:07:49.091512Z'
+updated: '2026-08-05T03:08:03.009273Z'
 ---
 
 {% raw %}

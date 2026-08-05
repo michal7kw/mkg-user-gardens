@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Enoyl-CoA
 type: metabolite
-updated: '2026-08-05T03:07:49.943060Z'
+updated: '2026-08-05T03:08:03.793345Z'
 ---
 
 {% raw %}

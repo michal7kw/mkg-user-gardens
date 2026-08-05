@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Drug-Induced Liver Injury
 type: condition
-updated: '2026-08-05T03:07:48.250784Z'
+updated: '2026-08-05T03:08:02.151311Z'
 ---
 
 {% raw %}

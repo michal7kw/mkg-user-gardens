@@ -114,7 +114,7 @@ tags:
 templateEngineOverride: njk
 title: creatinine_based_estimated_glomerular_filtration_rate_egfr
 type: labtest
-updated: '2026-08-05T03:07:49.361856Z'
+updated: '2026-08-05T03:08:03.268494Z'
 ---
 
 {% raw %}

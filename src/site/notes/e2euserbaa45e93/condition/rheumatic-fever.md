@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Rheumatic Fever
 type: condition
-updated: '2026-08-05T03:07:48.666503Z'
+updated: '2026-08-05T03:08:02.580488Z'
 ---
 
 {% raw %}

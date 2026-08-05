@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Parietal Lobe
 type: organ
-updated: '2026-08-05T03:07:50.280446Z'
+updated: '2026-08-05T03:08:04.246487Z'
 ---
 
 {% raw %}

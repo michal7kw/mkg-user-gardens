@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: pfas_panel
 type: labtest
-updated: '2026-08-05T03:07:49.652653Z'
+updated: '2026-08-05T03:08:03.517843Z'
 ---
 
 {% raw %}

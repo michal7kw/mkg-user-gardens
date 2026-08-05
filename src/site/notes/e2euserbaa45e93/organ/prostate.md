@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Prostate
 type: organ
-updated: '2026-08-05T03:07:50.288480Z'
+updated: '2026-08-05T03:08:04.252486Z'
 ---
 
 {% raw %}

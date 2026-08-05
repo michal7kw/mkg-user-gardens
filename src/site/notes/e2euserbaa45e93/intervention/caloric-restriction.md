@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Caloric Restriction
 type: intervention
-updated: '2026-08-05T03:07:49.118587Z'
+updated: '2026-08-05T03:08:03.033934Z'
 ---
 
 {% raw %}

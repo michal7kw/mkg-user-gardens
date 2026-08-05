@@ -114,7 +114,7 @@ tags:
 templateEngineOverride: njk
 title: fecal_occult_blood
 type: labtest
-updated: '2026-08-05T03:07:49.420240Z'
+updated: '2026-08-05T03:08:03.314966Z'
 ---
 
 {% raw %}

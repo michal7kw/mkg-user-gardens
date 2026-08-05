@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: 3-Ketoacyl-CoA
 type: metabolite
-updated: '2026-08-05T03:07:49.893789Z'
+updated: '2026-08-05T03:08:03.752434Z'
 ---
 
 {% raw %}

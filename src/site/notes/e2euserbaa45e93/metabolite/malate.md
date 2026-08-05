@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Malate
 type: metabolite
-updated: '2026-08-05T03:07:49.988162Z'
+updated: '2026-08-05T03:08:03.836054Z'
 ---
 
 {% raw %}

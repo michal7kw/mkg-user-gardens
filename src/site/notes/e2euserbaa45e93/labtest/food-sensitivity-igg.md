@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: food_sensitivity_igg
 type: labtest
-updated: '2026-08-05T03:07:49.440493Z'
+updated: '2026-08-05T03:08:03.330628Z'
 ---
 
 {% raw %}
