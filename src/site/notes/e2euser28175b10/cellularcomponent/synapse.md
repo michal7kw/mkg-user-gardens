@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Synapse
 type: cellularcomponent
-updated: '2026-08-05T03:38:16.322733Z'
+updated: '2026-08-05T03:38:55.595118Z'
 ---
 
 {% raw %}

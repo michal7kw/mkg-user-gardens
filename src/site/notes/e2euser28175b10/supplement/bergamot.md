@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Bergamot
 type: supplement
-updated: '2026-08-05T03:38:33.668968Z'
+updated: '2026-08-05T03:39:13.836997Z'
 ---
 
 {% raw %}

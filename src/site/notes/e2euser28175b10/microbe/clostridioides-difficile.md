@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Clostridioides difficile
 type: microbe
-updated: '2026-08-05T03:38:29.502051Z'
+updated: '2026-08-05T03:39:09.214494Z'
 ---
 
 {% raw %}

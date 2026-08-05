@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Cytochrome C
 type: protein
-updated: '2026-08-05T03:38:32.471987Z'
+updated: '2026-08-05T03:39:11.984034Z'
 ---
 
 {% raw %}

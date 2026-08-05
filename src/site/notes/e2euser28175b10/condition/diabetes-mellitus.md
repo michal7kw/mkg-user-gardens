@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Diabetes Mellitus
 type: condition
-updated: '2026-08-05T03:38:18.550932Z'
+updated: '2026-08-05T03:38:57.944801Z'
 ---
 
 {% raw %}

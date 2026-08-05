@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: bisphenol_a_bpa_exposure
 type: labtestpanel
-updated: '2026-08-05T03:38:28.187387Z'
+updated: '2026-08-05T03:39:07.832977Z'
 ---
 
 {% raw %}

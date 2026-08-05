@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Hepatitis B
 type: condition
-updated: '2026-08-05T03:38:19.203103Z'
+updated: '2026-08-05T03:38:58.724549Z'
 ---
 
 {% raw %}

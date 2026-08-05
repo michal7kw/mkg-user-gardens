@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: GAD-7 (Generalized Anxiety Disorder-7)
 type: clinicalscale
-updated: '2026-08-05T03:38:16.620535Z'
+updated: '2026-08-05T03:38:56.192762Z'
 ---
 
 {% raw %}

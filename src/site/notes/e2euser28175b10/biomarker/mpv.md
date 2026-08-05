@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: MPV
 type: biomarker
-updated: '2026-08-05T03:38:13.863165Z'
+updated: '2026-08-05T03:38:53.211833Z'
 ---
 
 {% raw %}

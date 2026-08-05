@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Hamilton Depression Rating Scale (HAM-D)
 type: clinicalscale
-updated: '2026-08-05T03:38:16.626139Z'
+updated: '2026-08-05T03:38:56.195948Z'
 ---
 
 {% raw %}

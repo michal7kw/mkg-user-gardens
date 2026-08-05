@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: troponin_t_high_sensitivity
 type: labtest
-updated: '2026-08-05T03:38:27.971728Z'
+updated: '2026-08-05T03:39:07.609451Z'
 ---
 
 {% raw %}

@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: nt_probnp
 type: labtest
-updated: '2026-08-05T03:38:27.289351Z'
+updated: '2026-08-05T03:39:06.441377Z'
 ---
 
 {% raw %}

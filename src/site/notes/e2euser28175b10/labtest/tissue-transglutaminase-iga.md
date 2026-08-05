@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: tissue_transglutaminase_iga
 type: labtest
-updated: '2026-08-05T03:38:27.852101Z'
+updated: '2026-08-05T03:39:07.491954Z'
 ---
 
 {% raw %}

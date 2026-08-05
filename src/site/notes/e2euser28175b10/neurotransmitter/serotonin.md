@@ -29,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Serotonin
 type: neurotransmitter
-updated: '2026-08-05T03:38:29.930740Z'
+updated: '2026-08-05T03:39:09.689400Z'
 ---
 
 {% raw %}

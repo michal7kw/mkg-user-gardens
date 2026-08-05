@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Plant-Based/Vegan Diet
 type: intervention
-updated: '2026-08-05T03:38:25.081471Z'
+updated: '2026-08-05T03:39:04.719415Z'
 ---
 
 {% raw %}

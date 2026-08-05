@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: L-Tyrosine
 type: supplement
-updated: '2026-08-05T03:38:34.237457Z'
+updated: '2026-08-05T03:39:14.365921Z'
 ---
 
 {% raw %}

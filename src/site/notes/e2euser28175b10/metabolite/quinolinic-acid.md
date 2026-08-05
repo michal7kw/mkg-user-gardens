@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Quinolinic Acid
 type: metabolite
-updated: '2026-08-05T03:38:29.327585Z'
+updated: '2026-08-05T03:39:08.992556Z'
 ---
 
 {% raw %}

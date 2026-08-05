@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Fatty Acyl-CoA
 type: metabolite
-updated: '2026-08-05T03:38:28.812677Z'
+updated: '2026-08-05T03:39:08.466060Z'
 ---
 
 {% raw %}

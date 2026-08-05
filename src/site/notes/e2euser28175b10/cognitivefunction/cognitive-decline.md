@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Cognitive Decline
 type: cognitivefunction
-updated: '2026-08-05T03:38:16.676761Z'
+updated: '2026-08-05T03:38:56.247275Z'
 ---
 
 {% raw %}

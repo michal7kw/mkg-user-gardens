@@ -107,7 +107,7 @@ tags:
 templateEngineOverride: njk
 title: vitamin_b12
 type: labtest
-updated: '2026-08-05T03:38:28.064845Z'
+updated: '2026-08-05T03:39:07.712432Z'
 ---
 
 {% raw %}

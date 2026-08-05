@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Interleukin-1 Beta
 type: protein
-updated: '2026-08-05T03:38:32.576638Z'
+updated: '2026-08-05T03:39:12.085889Z'
 ---
 
 {% raw %}

@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Mastocytosis
 type: condition
-updated: '2026-08-05T03:38:19.877793Z'
+updated: '2026-08-05T03:38:59.868197Z'
 ---
 
 {% raw %}

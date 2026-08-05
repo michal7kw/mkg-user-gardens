@@ -111,7 +111,7 @@ tags:
 templateEngineOverride: njk
 title: stool_h_pylori_antigen
 type: labtest
-updated: '2026-08-05T03:38:27.727508Z'
+updated: '2026-08-05T03:39:07.376665Z'
 ---
 
 {% raw %}

@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Blood Urea Nitrogen
 type: biomarker
-updated: '2026-08-05T03:38:10.187246Z'
+updated: '2026-08-05T03:38:50.120918Z'
 ---
 
 {% raw %}

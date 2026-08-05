@@ -1,7 +1,7 @@
 ---
 aliases:
 - 02_Understanding_the_Vault
-created: '2026-08-05T03:38:35.582809Z'
+created: '2026-08-05T03:39:15.553915Z'
 description: Vault folder structure, all 26 entity types explained, naming conventions,
   and what gets synced
 dg-home: false
@@ -16,7 +16,7 @@ tags:
 templateEngineOverride: njk
 title: Understanding the Vault
 type: users_guide
-updated: '2026-08-05T03:38:35.582809Z'
+updated: '2026-08-05T03:39:15.553915Z'
 ---
 
 {% raw %}

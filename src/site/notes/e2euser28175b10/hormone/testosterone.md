@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Testosterone
 type: hormone
-updated: '2026-08-05T03:38:24.676919Z'
+updated: '2026-08-05T03:39:04.346841Z'
 ---
 
 {% raw %}

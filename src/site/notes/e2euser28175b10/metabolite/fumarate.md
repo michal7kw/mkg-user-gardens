@@ -29,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Fumarate
 type: metabolite
-updated: '2026-08-05T03:38:28.873222Z'
+updated: '2026-08-05T03:39:08.528928Z'
 ---
 
 {% raw %}

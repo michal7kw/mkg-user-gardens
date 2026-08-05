@@ -1,7 +1,7 @@
 ---
 aliases:
 - stacks
-created: '2026-08-05T03:38:36.362853Z'
+created: '2026-08-05T03:39:16.262426Z'
 description: Build and track your supplement + biomarker stack
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: My Stack — Guide
 type: users_guide
-updated: '2026-08-05T03:38:36.362853Z'
+updated: '2026-08-05T03:39:16.262426Z'
 ---
 
 {% raw %}

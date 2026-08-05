@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Intestinal Barrier Function
 type: phenotype
-updated: '2026-08-05T03:38:32.111758Z'
+updated: '2026-08-05T03:39:11.551337Z'
 ---
 
 {% raw %}

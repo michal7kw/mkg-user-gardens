@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: basophils
 type: labtest
-updated: '2026-08-05T03:38:25.605445Z'
+updated: '2026-08-05T03:39:05.232785Z'
 ---
 
 {% raw %}

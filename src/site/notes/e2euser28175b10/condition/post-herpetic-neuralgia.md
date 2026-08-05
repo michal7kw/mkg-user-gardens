@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Post-Herpetic Neuralgia
 type: condition
-updated: '2026-08-05T03:38:20.916990Z'
+updated: '2026-08-05T03:39:00.935682Z'
 ---
 
 {% raw %}

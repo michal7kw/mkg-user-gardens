@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Nerve Growth Factor
 type: protein
-updated: '2026-08-05T03:38:32.643031Z'
+updated: '2026-08-05T03:39:12.155107Z'
 ---
 
 {% raw %}
