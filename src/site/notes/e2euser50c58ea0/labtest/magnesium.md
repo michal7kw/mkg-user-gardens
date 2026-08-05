@@ -113,7 +113,7 @@ tags:
 templateEngineOverride: njk
 title: magnesium
 type: labtest
-updated: '2026-08-05T01:36:16.615020Z'
+updated: '2026-08-05T01:36:31.036024Z'
 ---
 
 {% raw %}

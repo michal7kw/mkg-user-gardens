@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: ESR1
 type: protein
-updated: '2026-08-05T01:36:17.664759Z'
+updated: '2026-08-05T01:36:31.959318Z'
 ---
 
 {% raw %}

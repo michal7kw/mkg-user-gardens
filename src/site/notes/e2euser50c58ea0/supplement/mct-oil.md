@@ -36,7 +36,7 @@ tags:
 templateEngineOverride: njk
 title: MCT Oil
 type: supplement
-updated: '2026-08-05T01:36:18.058480Z'
+updated: '2026-08-05T01:36:32.294786Z'
 ---
 
 {% raw %}

@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Kynurenine Pathway
 type: pathway
-updated: '2026-08-05T01:36:17.503508Z'
+updated: '2026-08-05T01:36:31.807675Z'
 ---
 
 {% raw %}

@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: C-Peptide
 type: biomarker
-updated: '2026-08-05T01:36:13.941193Z'
+updated: '2026-08-05T01:36:28.133500Z'
 ---
 
 {% raw %}

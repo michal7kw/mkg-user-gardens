@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Interleukin-17A
 type: protein
-updated: '2026-08-05T01:36:17.677779Z'
+updated: '2026-08-05T01:36:31.978839Z'
 ---
 
 {% raw %}

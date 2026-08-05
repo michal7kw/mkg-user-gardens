@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Akkermansia muciniphila
 type: microbe
-updated: '2026-08-05T01:36:17.206896Z'
+updated: '2026-08-05T01:36:31.515618Z'
 ---
 
 {% raw %}

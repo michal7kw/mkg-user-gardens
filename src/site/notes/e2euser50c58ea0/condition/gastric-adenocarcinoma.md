@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Gastric Adenocarcinoma
 type: condition
-updated: '2026-08-05T01:36:15.108150Z'
+updated: '2026-08-05T01:36:29.318777Z'
 ---
 
 {% raw %}

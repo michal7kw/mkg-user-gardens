@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Synaptic Plasticity
 type: pathway
-updated: '2026-08-05T01:36:17.552632Z'
+updated: '2026-08-05T01:36:31.854361Z'
 ---
 
 {% raw %}

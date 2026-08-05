@@ -1,7 +1,7 @@
 ---
 aliases:
 - path-finder
-created: '2026-08-05T01:36:18.374611Z'
+created: '2026-08-05T01:36:32.529256Z'
 description: Find the connection between any two entities in the graph
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Path Finder — Guide
 type: users_guide
-updated: '2026-08-05T01:36:18.374611Z'
+updated: '2026-08-05T01:36:32.529256Z'
 ---
 
 {% raw %}

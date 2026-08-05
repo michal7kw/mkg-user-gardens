@@ -111,7 +111,7 @@ tags:
 templateEngineOverride: njk
 title: direct_bilirubin
 type: labtest
-updated: '2026-08-05T01:36:16.396322Z'
+updated: '2026-08-05T01:36:30.782532Z'
 ---
 
 {% raw %}

@@ -115,7 +115,7 @@ tags:
 templateEngineOverride: njk
 title: stool_culture_parasites
 type: labtest
-updated: '2026-08-05T01:36:16.814832Z'
+updated: '2026-08-05T01:36:31.181268Z'
 ---
 
 {% raw %}

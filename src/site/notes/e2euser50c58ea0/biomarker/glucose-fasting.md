@@ -29,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Glucose Fasting
 type: biomarker
-updated: '2026-08-05T01:36:14.138588Z'
+updated: '2026-08-05T01:36:28.382522Z'
 ---
 
 {% raw %}

@@ -111,7 +111,7 @@ tags:
 templateEngineOverride: njk
 title: anti_hcv
 type: labtest
-updated: '2026-08-05T01:36:16.206450Z'
+updated: '2026-08-05T01:36:30.588972Z'
 ---
 
 {% raw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-08-05T01:36:17.772858Z'
+created: '2026-08-05T01:36:32.074315Z'
 description: Localised reaction at the site of a subcutaneous or intramuscular injection,
   ranging from transient redness, swelling, itching, bruising and pain to nodules,
   sterile abscesses or infection. Common to injectable peptides and biologics, and
@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Injection Site Reaction
 type: sideeffect
-updated: '2026-08-05T01:36:17.772858Z'
+updated: '2026-08-05T01:36:32.074315Z'
 ---
 
 {% raw %}

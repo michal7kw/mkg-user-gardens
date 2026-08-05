@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Toxoplasmosis
 type: condition
-updated: '2026-08-05T01:36:15.555200Z'
+updated: '2026-08-05T01:36:30.030506Z'
 ---
 
 {% raw %}

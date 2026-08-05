@@ -1,7 +1,7 @@
 ---
 aliases:
 - 09_AI_Research_Tools
-created: '2026-08-05T01:36:18.316762Z'
+created: '2026-08-05T01:36:32.480754Z'
 description: AI chat, deep research, PubMed search, entity extraction, note analysis,
   and citation suggestions
 dg-home: false
@@ -16,7 +16,7 @@ tags:
 templateEngineOverride: njk
 title: AI Research Tools
 type: users_guide
-updated: '2026-08-05T01:36:18.316762Z'
+updated: '2026-08-05T01:36:32.480754Z'
 ---
 
 {% raw %}

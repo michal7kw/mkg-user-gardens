@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Attention and Focus
 type: cognitivefunction
-updated: '2026-08-05T01:36:14.798905Z'
+updated: '2026-08-05T01:36:28.965191Z'
 ---
 
 {% raw %}

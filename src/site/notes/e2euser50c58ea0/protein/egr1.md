@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: EGR1
 type: protein
-updated: '2026-08-05T01:36:17.661754Z'
+updated: '2026-08-05T01:36:31.957314Z'
 ---
 
 {% raw %}
