@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Glutamate
 type: neurotransmitter
-updated: '2026-08-05T03:36:12.567433Z'
+updated: '2026-08-05T03:36:54.481183Z'
 ---
 
 {% raw %}

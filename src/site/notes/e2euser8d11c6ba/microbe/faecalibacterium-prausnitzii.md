@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Faecalibacterium prausnitzii
 type: microbe
-updated: '2026-08-05T03:36:12.269900Z'
+updated: '2026-08-05T03:36:54.187742Z'
 ---
 
 {% raw %}

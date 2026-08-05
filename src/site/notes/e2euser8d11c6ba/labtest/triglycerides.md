@@ -114,7 +114,7 @@ tags:
 templateEngineOverride: njk
 title: triglycerides
 type: labtest
-updated: '2026-08-05T03:36:10.633976Z'
+updated: '2026-08-05T03:36:52.238469Z'
 ---
 
 {% raw %}

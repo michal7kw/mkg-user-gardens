@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: RBC
 type: biomarker
-updated: '2026-08-05T03:35:56.346014Z'
+updated: '2026-08-05T03:36:36.628199Z'
 ---
 
 {% raw %}

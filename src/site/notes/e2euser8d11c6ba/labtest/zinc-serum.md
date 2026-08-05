@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: zinc_serum
 type: labtest
-updated: '2026-08-05T03:36:10.849056Z'
+updated: '2026-08-05T03:36:52.511916Z'
 ---
 
 {% raw %}

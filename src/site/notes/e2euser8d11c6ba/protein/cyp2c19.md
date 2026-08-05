@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: CYP2C19
 type: protein
-updated: '2026-08-05T03:36:15.254452Z'
+updated: '2026-08-05T03:36:56.586358Z'
 ---
 
 {% raw %}

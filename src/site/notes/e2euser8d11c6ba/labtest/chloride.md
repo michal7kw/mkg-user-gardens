@@ -111,7 +111,7 @@ tags:
 templateEngineOverride: njk
 title: chloride
 type: labtest
-updated: '2026-08-05T03:36:08.203276Z'
+updated: '2026-08-05T03:36:49.356377Z'
 ---
 
 {% raw %}

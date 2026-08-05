@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Muscarinic Acetylcholine Receptor
 type: protein
-updated: '2026-08-05T03:36:15.490610Z'
+updated: '2026-08-05T03:36:56.811254Z'
 ---
 
 {% raw %}

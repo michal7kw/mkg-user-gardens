@@ -1,7 +1,7 @@
 ---
 aliases:
 - dashboard
-created: '2026-08-05T03:36:20.559461Z'
+created: '2026-08-05T03:37:00.780498Z'
 description: How to read and customize your MKG health dashboard
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Dashboard — Guide
 type: users_guide
-updated: '2026-08-05T03:36:20.559461Z'
+updated: '2026-08-05T03:37:00.780498Z'
 ---
 
 {% raw %}

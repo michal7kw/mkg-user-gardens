@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: coq10_blood
 type: labtest
-updated: '2026-08-05T03:36:08.302289Z'
+updated: '2026-08-05T03:36:49.462159Z'
 ---
 
 {% raw %}

@@ -31,7 +31,7 @@ tags:
 templateEngineOverride: njk
 title: Taurine
 type: supplement
-updated: '2026-08-05T03:36:19.151836Z'
+updated: '2026-08-05T03:36:59.694369Z'
 ---
 
 {% raw %}

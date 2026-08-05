@@ -107,7 +107,7 @@ tags:
 templateEngineOverride: njk
 title: afp
 type: labtest
-updated: '2026-08-05T03:36:07.768554Z'
+updated: '2026-08-05T03:36:48.801090Z'
 ---
 
 {% raw %}

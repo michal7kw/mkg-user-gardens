@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Tendinitis
 type: condition
-updated: '2026-08-05T03:36:04.102019Z'
+updated: '2026-08-05T03:36:44.992219Z'
 ---
 
 {% raw %}

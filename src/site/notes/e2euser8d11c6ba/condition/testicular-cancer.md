@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Testicular Cancer
 type: condition
-updated: '2026-08-05T03:36:04.105536Z'
+updated: '2026-08-05T03:36:44.996729Z'
 ---
 
 {% raw %}

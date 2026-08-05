@@ -18,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: bnp
 type: labtest
-updated: '2026-08-05T03:36:08.097700Z'
+updated: '2026-08-05T03:36:49.242000Z'
 ---
 
 {% raw %}

@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Elevated hepatic transaminase
 type: phenotype
-updated: '2026-08-05T03:36:14.871546Z'
+updated: '2026-08-05T03:36:56.197157Z'
 ---
 
 {% raw %}

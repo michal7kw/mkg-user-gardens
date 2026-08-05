@@ -31,7 +31,7 @@ tags:
 templateEngineOverride: njk
 title: extended_heart_metabolic
 type: labtestpanel
-updated: '2026-08-05T03:36:10.981106Z'
+updated: '2026-08-05T03:36:52.693809Z'
 ---
 
 {% raw %}

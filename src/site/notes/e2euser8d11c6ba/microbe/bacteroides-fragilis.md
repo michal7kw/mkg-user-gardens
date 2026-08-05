@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Bacteroides fragilis
 type: microbe
-updated: '2026-08-05T03:36:12.240222Z'
+updated: '2026-08-05T03:36:54.163478Z'
 ---
 
 {% raw %}

@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: albumin_globulin_ratio
 type: labtest
-updated: '2026-08-05T03:36:07.803633Z'
+updated: '2026-08-05T03:36:48.847975Z'
 ---
 
 {% raw %}

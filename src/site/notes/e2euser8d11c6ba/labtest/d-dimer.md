@@ -108,7 +108,7 @@ tags:
 templateEngineOverride: njk
 title: d_dimer
 type: labtest
-updated: '2026-08-05T03:36:08.882639Z'
+updated: '2026-08-05T03:36:49.569158Z'
 ---
 
 {% raw %}

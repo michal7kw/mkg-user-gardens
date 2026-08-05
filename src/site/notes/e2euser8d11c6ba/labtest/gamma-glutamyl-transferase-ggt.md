@@ -112,7 +112,7 @@ tags:
 templateEngineOverride: njk
 title: gamma_glutamyl_transferase_ggt
 type: labtest
-updated: '2026-08-05T03:36:09.119827Z'
+updated: '2026-08-05T03:36:49.812986Z'
 ---
 
 {% raw %}

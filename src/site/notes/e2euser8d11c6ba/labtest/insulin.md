@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: insulin
 type: labtest
-updated: '2026-08-05T03:36:09.395453Z'
+updated: '2026-08-05T03:36:50.061888Z'
 ---
 
 {% raw %}
