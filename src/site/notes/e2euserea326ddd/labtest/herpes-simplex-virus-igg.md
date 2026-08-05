@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: herpes_simplex_virus_igg
 type: labtest
-updated: '2026-08-05T02:38:32.035087Z'
+updated: '2026-08-05T02:38:48.153783Z'
 ---
 
 {% raw %}

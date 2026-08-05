@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Mini-Cog
 type: clinicalscale
-updated: '2026-08-05T02:38:30.468459Z'
+updated: '2026-08-05T02:38:46.503384Z'
 ---
 
 {% raw %}

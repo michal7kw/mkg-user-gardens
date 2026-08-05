@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Sun Exposure
 type: intervention
-updated: '2026-08-05T02:38:31.767796Z'
+updated: '2026-08-05T02:38:47.861825Z'
 ---
 
 {% raw %}

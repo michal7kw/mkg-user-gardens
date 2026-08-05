@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: ionized_calcium
 type: labtest
-updated: '2026-08-05T02:38:32.057317Z'
+updated: '2026-08-05T02:38:48.183520Z'
 ---
 
 {% raw %}

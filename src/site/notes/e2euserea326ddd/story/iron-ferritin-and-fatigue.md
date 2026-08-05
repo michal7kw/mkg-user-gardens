@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Iron, Ferritin and Fatigue
 type: story
-updated: '2026-08-05T02:38:33.169241Z'
+updated: '2026-08-05T02:38:49.284749Z'
 ---
 
 {% raw %}

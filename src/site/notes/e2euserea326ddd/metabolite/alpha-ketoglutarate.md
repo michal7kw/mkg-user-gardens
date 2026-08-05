@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Alpha-Ketoglutarate
 type: metabolite
-updated: '2026-08-05T02:38:32.460461Z'
+updated: '2026-08-05T02:38:48.549073Z'
 ---
 
 {% raw %}

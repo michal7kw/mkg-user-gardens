@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: tsh_receptor_antibody_trab
 type: labtest
-updated: '2026-08-05T02:38:32.347538Z'
+updated: '2026-08-05T02:38:48.442496Z'
 ---
 
 {% raw %}

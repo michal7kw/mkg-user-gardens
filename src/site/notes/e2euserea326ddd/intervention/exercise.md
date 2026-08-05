@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Exercise
 type: intervention
-updated: '2026-08-05T02:38:31.715780Z'
+updated: '2026-08-05T02:38:47.798945Z'
 ---
 
 {% raw %}

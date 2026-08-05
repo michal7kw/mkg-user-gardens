@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: CT Colonography
 type: examination
-updated: '2026-08-05T02:38:31.568969Z'
+updated: '2026-08-05T02:38:47.643278Z'
 ---
 
 {% raw %}

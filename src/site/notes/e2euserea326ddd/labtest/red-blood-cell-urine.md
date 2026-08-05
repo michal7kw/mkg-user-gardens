@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: red_blood_cell_urine
 type: labtest
-updated: '2026-08-05T02:38:32.227301Z'
+updated: '2026-08-05T02:38:48.343422Z'
 ---
 
 {% raw %}

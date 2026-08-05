@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Vitamin B12 Deficiency
 type: condition
-updated: '2026-08-05T02:38:31.381605Z'
+updated: '2026-08-05T02:38:47.428596Z'
 ---
 
 {% raw %}

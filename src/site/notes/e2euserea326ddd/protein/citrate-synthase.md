@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Citrate Synthase
 type: protein
-updated: '2026-08-05T02:38:32.986481Z'
+updated: '2026-08-05T02:38:49.096248Z'
 ---
 
 {% raw %}

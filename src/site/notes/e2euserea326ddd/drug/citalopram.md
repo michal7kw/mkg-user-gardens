@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Citalopram
 type: drug
-updated: '2026-08-05T02:38:31.415728Z'
+updated: '2026-08-05T02:38:47.471533Z'
 ---
 
 {% raw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-08-05T02:38:32.886783Z'
+created: '2026-08-05T02:38:49.002227Z'
 description: Generation of new neurons from neural stem and progenitor cells, occurring
   primarily in the hippocampal dentate gyrus and subventricular zone in the adult
   brain, with implications for memory, mood, and neurodegenerative disease.

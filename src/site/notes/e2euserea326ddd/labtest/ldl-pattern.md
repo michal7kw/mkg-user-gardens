@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: ldl_pattern
 type: labtest
-updated: '2026-08-05T02:38:32.083974Z'
+updated: '2026-08-05T02:38:48.209508Z'
 ---
 
 {% raw %}

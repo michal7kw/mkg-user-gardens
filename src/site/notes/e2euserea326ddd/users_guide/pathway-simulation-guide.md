@@ -1,7 +1,7 @@
 ---
 aliases:
 - simulation
-created: '2026-08-05T02:38:33.571521Z'
+created: '2026-08-05T02:38:49.863883Z'
 description: Run kinetic simulations of metabolic pathways (experimental)
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Pathway Simulation — Guide
 type: users_guide
-updated: '2026-08-05T02:38:33.571521Z'
+updated: '2026-08-05T02:38:49.863883Z'
 ---
 
 {% raw %}

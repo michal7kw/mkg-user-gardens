@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Citric Acid Cycle
 type: pathway
-updated: '2026-08-05T02:38:32.829208Z'
+updated: '2026-08-05T02:38:48.933696Z'
 ---
 
 {% raw %}

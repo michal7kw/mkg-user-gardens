@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: 5:2 Fasting
 type: intervention
-updated: '2026-08-05T02:38:31.702419Z'
+updated: '2026-08-05T02:38:47.783387Z'
 ---
 
 {% raw %}

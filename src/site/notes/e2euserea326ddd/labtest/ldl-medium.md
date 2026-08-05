@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: ldl_medium
 type: labtest
-updated: '2026-08-05T02:38:32.081455Z'
+updated: '2026-08-05T02:38:48.205627Z'
 ---
 
 {% raw %}

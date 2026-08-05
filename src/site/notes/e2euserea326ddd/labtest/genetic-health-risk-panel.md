@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: genetic_health_risk_panel
 type: labtest
-updated: '2026-08-05T02:38:32.000305Z'
+updated: '2026-08-05T02:38:48.117381Z'
 ---
 
 {% raw %}
