@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-08-05T03:26:23.660802Z'
+created: '2026-08-05T03:27:05.866033Z'
 description: Potentially life-threatening condition caused by excess serotonergic
   activity in the central and peripheral nervous system, typically from drug combinations
   that increase serotonin synthesis, decrease reuptake, or directly stimulate serotonin

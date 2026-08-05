@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Dementia
 type: condition
-updated: '2026-08-05T03:26:06.585743Z'
+updated: '2026-08-05T03:26:47.823227Z'
 ---
 
 {% raw %}

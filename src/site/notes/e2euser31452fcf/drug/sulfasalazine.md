@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Sulfasalazine
 type: drug
-updated: '2026-08-05T03:26:12.420137Z'
+updated: '2026-08-05T03:26:54.414187Z'
 ---
 
 {% raw %}

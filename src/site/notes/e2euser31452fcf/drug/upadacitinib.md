@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Upadacitinib
 type: drug
-updated: '2026-08-05T03:26:12.488098Z'
+updated: '2026-08-05T03:26:54.490128Z'
 ---
 
 {% raw %}

@@ -53,7 +53,7 @@ tags:
 templateEngineOverride: njk
 title: thyroglobulin
 type: labtest
-updated: '2026-08-05T03:26:17.399775Z'
+updated: '2026-08-05T03:26:59.601386Z'
 ---
 
 {% raw %}

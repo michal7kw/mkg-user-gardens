@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Lp(a) — The Inherited Cholesterol
 type: story
-updated: '2026-08-05T03:26:23.937781Z'
+updated: '2026-08-05T03:27:06.146439Z'
 ---
 
 {% raw %}

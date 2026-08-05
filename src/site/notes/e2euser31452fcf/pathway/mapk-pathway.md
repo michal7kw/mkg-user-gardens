@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: MAPK Pathway
 type: pathway
-updated: '2026-08-05T03:26:21.992954Z'
+updated: '2026-08-05T03:27:03.837761Z'
 ---
 
 {% raw %}

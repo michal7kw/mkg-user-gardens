@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Monocytes
 type: biomarker
-updated: '2026-08-05T03:26:01.678060Z'
+updated: '2026-08-05T03:26:41.951382Z'
 ---
 
 {% raw %}

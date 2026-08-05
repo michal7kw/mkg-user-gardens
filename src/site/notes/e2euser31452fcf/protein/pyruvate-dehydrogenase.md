@@ -29,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Pyruvate Dehydrogenase
 type: protein
-updated: '2026-08-05T03:26:23.231959Z'
+updated: '2026-08-05T03:27:04.854745Z'
 ---
 
 {% raw %}

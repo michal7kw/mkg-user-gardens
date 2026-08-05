@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Rheumatoid Arthritis
 type: condition
-updated: '2026-08-05T03:26:09.937827Z'
+updated: '2026-08-05T03:26:52.123747Z'
 ---
 
 {% raw %}

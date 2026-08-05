@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: copper_serum
 type: labtest
-updated: '2026-08-05T03:26:14.964768Z'
+updated: '2026-08-05T03:26:57.077150Z'
 ---
 
 {% raw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-08-05T03:26:23.643302Z'
+created: '2026-08-05T03:27:05.849142Z'
 description: Drug-induced muscle damage manifesting as myalgia, weakness, and elevated
   creatine kinase, most commonly associated with statin therapy through mitochondrial
   dysfunction and CoQ10 depletion, ranging from mild symptoms to life-threatening

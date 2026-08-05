@@ -33,7 +33,7 @@ tags:
 templateEngineOverride: njk
 title: Basophils
 type: biomarker
-updated: '2026-08-05T03:25:56.694060Z'
+updated: '2026-08-05T03:26:38.618445Z'
 ---
 
 {% raw %}

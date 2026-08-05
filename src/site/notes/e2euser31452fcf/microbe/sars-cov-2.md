@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: SARS-CoV-2
 type: microbe
-updated: '2026-08-05T03:26:19.591182Z'
+updated: '2026-08-05T03:27:01.975752Z'
 ---
 
 {% raw %}

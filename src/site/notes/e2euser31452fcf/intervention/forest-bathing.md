@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Forest Bathing
 type: intervention
-updated: '2026-08-05T03:26:13.571491Z'
+updated: '2026-08-05T03:26:55.552741Z'
 ---
 
 {% raw %}

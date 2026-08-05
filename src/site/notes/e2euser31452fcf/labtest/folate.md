@@ -107,7 +107,7 @@ tags:
 templateEngineOverride: njk
 title: folate
 type: labtest
-updated: '2026-08-05T03:26:15.814184Z'
+updated: '2026-08-05T03:26:57.396598Z'
 ---
 
 {% raw %}

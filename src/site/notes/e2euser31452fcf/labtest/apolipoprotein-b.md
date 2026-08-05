@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: apolipoprotein_b
 type: labtest
-updated: '2026-08-05T03:26:14.432007Z'
+updated: '2026-08-05T03:26:56.633168Z'
 ---
 
 {% raw %}

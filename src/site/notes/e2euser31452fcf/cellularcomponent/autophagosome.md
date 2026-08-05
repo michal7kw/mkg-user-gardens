@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Autophagosome
 type: cellularcomponent
-updated: '2026-08-05T03:26:04.608376Z'
+updated: '2026-08-05T03:26:44.789627Z'
 ---
 
 {% raw %}

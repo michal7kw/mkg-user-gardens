@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: CYP2C9
 type: protein
-updated: '2026-08-05T03:26:22.869614Z'
+updated: '2026-08-05T03:27:04.558255Z'
 ---
 
 {% raw %}

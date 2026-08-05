@@ -114,7 +114,7 @@ tags:
 templateEngineOverride: njk
 title: oral_glucose_tolerance_test
 type: labtest
-updated: '2026-08-05T03:26:16.902042Z'
+updated: '2026-08-05T03:26:58.486968Z'
 ---
 
 {% raw %}

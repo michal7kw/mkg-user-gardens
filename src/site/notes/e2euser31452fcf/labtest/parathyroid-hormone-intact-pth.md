@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: parathyroid_hormone_intact_pth
 type: labtest
-updated: '2026-08-05T03:26:16.970771Z'
+updated: '2026-08-05T03:26:59.153998Z'
 ---
 
 {% raw %}

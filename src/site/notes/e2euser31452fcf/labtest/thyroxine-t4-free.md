@@ -111,7 +111,7 @@ tags:
 templateEngineOverride: njk
 title: thyroxine_t4_free
 type: labtest
-updated: '2026-08-05T03:26:17.475951Z'
+updated: '2026-08-05T03:26:59.712847Z'
 ---
 
 {% raw %}

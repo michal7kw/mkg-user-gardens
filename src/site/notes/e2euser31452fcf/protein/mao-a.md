@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: MAO-A
 type: protein
-updated: '2026-08-05T03:26:23.088951Z'
+updated: '2026-08-05T03:27:04.764372Z'
 ---
 
 {% raw %}

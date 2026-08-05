@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: advanced_inflammation_panel
 type: labtestpanel
-updated: '2026-08-05T03:26:17.876292Z'
+updated: '2026-08-05T03:27:00.239312Z'
 ---
 
 {% raw %}

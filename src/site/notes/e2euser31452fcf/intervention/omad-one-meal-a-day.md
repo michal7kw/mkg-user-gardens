@@ -18,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: OMAD (One Meal a Day)
 type: intervention
-updated: '2026-08-05T03:26:13.825533Z'
+updated: '2026-08-05T03:26:55.874571Z'
 ---
 
 {% raw %}

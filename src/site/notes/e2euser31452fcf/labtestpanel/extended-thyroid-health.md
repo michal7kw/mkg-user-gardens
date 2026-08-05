@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: extended_thyroid_health
 type: labtestpanel
-updated: '2026-08-05T03:26:18.057138Z'
+updated: '2026-08-05T03:27:00.433387Z'
 ---
 
 {% raw %}

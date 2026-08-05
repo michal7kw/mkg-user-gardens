@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Treatment-Resistant Depression
 type: condition
-updated: '2026-08-05T03:26:10.958329Z'
+updated: '2026-08-05T03:26:52.679523Z'
 ---
 
 {% raw %}

@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Mitral Regurgitation
 type: condition
-updated: '2026-08-05T03:26:08.509157Z'
+updated: '2026-08-05T03:26:50.557672Z'
 ---
 
 {% raw %}

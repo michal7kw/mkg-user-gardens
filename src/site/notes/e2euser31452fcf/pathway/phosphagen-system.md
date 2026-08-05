@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Phosphagen System
 type: pathway
-updated: '2026-08-05T03:26:22.185916Z'
+updated: '2026-08-05T03:27:04.012181Z'
 ---
 
 {% raw %}

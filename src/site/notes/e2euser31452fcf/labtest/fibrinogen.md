@@ -107,7 +107,7 @@ tags:
 templateEngineOverride: njk
 title: fibrinogen
 type: labtest
-updated: '2026-08-05T03:26:15.804677Z'
+updated: '2026-08-05T03:26:57.388086Z'
 ---
 
 {% raw %}
