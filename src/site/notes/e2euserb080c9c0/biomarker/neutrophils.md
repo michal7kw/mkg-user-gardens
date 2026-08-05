@@ -29,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Neutrophils
 type: biomarker
-updated: '2026-08-05T03:29:02.879514Z'
+updated: '2026-08-05T03:29:44.032428Z'
 ---
 
 {% raw %}

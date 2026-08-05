@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Bones
 type: organ
-updated: '2026-08-05T03:29:22.027635Z'
+updated: '2026-08-05T03:30:05.048927Z'
 ---
 
 {% raw %}

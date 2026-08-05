@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: omega_6_linoleic_acid
 type: labtest
-updated: '2026-08-05T03:29:18.641633Z'
+updated: '2026-08-05T03:29:59.201397Z'
 ---
 
 {% raw %}

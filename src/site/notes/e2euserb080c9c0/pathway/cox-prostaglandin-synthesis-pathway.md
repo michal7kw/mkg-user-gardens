@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: COX-Prostaglandin Synthesis Pathway
 type: pathway
-updated: '2026-08-05T03:29:23.059626Z'
+updated: '2026-08-05T03:30:05.684908Z'
 ---
 
 {% raw %}

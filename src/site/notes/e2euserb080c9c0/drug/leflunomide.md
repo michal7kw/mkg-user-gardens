@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Leflunomide
 type: drug
-updated: '2026-08-05T03:29:13.426965Z'
+updated: '2026-08-05T03:29:55.533604Z'
 ---
 
 {% raw %}

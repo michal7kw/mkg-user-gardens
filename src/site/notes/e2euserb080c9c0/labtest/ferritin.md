@@ -107,7 +107,7 @@ tags:
 templateEngineOverride: njk
 title: ferritin
 type: labtest
-updated: '2026-08-05T03:29:17.766797Z'
+updated: '2026-08-05T03:29:58.188330Z'
 ---
 
 {% raw %}

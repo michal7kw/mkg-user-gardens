@@ -43,7 +43,7 @@ tags:
 templateEngineOverride: njk
 title: GHK-Cu
 type: supplement
-updated: '2026-08-05T03:29:26.026180Z'
+updated: '2026-08-05T03:30:08.901629Z'
 ---
 
 {% raw %}

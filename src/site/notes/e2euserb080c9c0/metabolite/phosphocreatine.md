@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Phosphocreatine
 type: metabolite
-updated: '2026-08-05T03:29:20.786677Z'
+updated: '2026-08-05T03:30:03.392277Z'
 ---
 
 {% raw %}

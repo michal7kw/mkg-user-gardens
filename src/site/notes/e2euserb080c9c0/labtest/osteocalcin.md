@@ -18,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: osteocalcin
 type: labtest
-updated: '2026-08-05T03:29:18.691180Z'
+updated: '2026-08-05T03:29:59.272688Z'
 ---
 
 {% raw %}

@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: SLUMS (Saint Louis University Mental Status)
 type: clinicalscale
-updated: '2026-08-05T03:29:05.867124Z'
+updated: '2026-08-05T03:29:47.610663Z'
 ---
 
 {% raw %}

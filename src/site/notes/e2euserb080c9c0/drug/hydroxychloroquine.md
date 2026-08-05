@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Hydroxychloroquine
 type: drug
-updated: '2026-08-05T03:29:13.318941Z'
+updated: '2026-08-05T03:29:55.490192Z'
 ---
 
 {% raw %}

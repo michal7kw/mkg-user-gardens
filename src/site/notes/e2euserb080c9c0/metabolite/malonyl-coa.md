@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Malonyl-CoA
 type: metabolite
-updated: '2026-08-05T03:29:20.630100Z'
+updated: '2026-08-05T03:30:03.173012Z'
 ---
 
 {% raw %}

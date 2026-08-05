@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: white_blood_cell_count
 type: labtest
-updated: '2026-08-05T03:29:19.513949Z'
+updated: '2026-08-05T03:30:01.398291Z'
 ---
 
 {% raw %}

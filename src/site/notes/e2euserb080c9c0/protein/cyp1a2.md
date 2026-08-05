@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: CYP1A2
 type: protein
-updated: '2026-08-05T03:29:24.050280Z'
+updated: '2026-08-05T03:30:06.669835Z'
 ---
 
 {% raw %}

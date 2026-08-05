@@ -115,7 +115,7 @@ tags:
 templateEngineOverride: njk
 title: anti_ccp
 type: labtest
-updated: '2026-08-05T03:29:16.627876Z'
+updated: '2026-08-05T03:29:57.542723Z'
 ---
 
 {% raw %}

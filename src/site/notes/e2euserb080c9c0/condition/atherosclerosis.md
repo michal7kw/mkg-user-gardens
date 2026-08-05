@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Atherosclerosis
 type: condition
-updated: '2026-08-05T03:29:06.562137Z'
+updated: '2026-08-05T03:29:48.834665Z'
 ---
 
 {% raw %}

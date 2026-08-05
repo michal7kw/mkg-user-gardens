@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Fructose-6-Phosphate
 type: metabolite
-updated: '2026-08-05T03:29:20.413511Z'
+updated: '2026-08-05T03:30:02.829263Z'
 ---
 
 {% raw %}

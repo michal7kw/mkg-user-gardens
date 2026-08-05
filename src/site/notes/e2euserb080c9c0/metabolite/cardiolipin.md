@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Cardiolipin
 type: metabolite
-updated: '2026-08-05T03:29:20.263456Z'
+updated: '2026-08-05T03:30:02.577015Z'
 ---
 
 {% raw %}

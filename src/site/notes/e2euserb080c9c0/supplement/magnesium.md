@@ -32,7 +32,7 @@ tags:
 templateEngineOverride: njk
 title: Magnesium
 type: supplement
-updated: '2026-08-05T03:29:26.409461Z'
+updated: '2026-08-05T03:30:09.199641Z'
 ---
 
 {% raw %}

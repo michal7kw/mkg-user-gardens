@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Thiamine
 type: supplement
-updated: '2026-08-05T03:29:27.118187Z'
+updated: '2026-08-05T03:30:09.843498Z'
 ---
 
 {% raw %}

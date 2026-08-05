@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: matrix_metalloproteinase_9_mmp9
 type: labtest
-updated: '2026-08-05T03:29:18.389353Z'
+updated: '2026-08-05T03:29:58.849819Z'
 ---
 
 {% raw %}

@@ -54,7 +54,7 @@ tags:
 templateEngineOverride: njk
 title: tryptase
 type: labtest
-updated: '2026-08-05T03:29:19.384590Z'
+updated: '2026-08-05T03:30:01.136576Z'
 ---
 
 {% raw %}

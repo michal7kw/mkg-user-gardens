@@ -29,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Inositol
 type: supplement
-updated: '2026-08-05T03:29:26.135105Z'
+updated: '2026-08-05T03:30:08.988082Z'
 ---
 
 {% raw %}

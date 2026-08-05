@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Myalgia
 type: condition
-updated: '2026-08-05T03:29:09.522720Z'
+updated: '2026-08-05T03:29:52.551968Z'
 ---
 
 {% raw %}

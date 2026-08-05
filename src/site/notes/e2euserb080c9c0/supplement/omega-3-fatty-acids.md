@@ -31,7 +31,7 @@ tags:
 templateEngineOverride: njk
 title: Omega-3 Fatty Acids
 type: supplement
-updated: '2026-08-05T03:29:26.705152Z'
+updated: '2026-08-05T03:30:09.455230Z'
 ---
 
 {% raw %}

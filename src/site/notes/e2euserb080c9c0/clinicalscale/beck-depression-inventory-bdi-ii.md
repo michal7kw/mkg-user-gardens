@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Beck Depression Inventory (BDI-II)
 type: clinicalscale
-updated: '2026-08-05T03:29:05.826004Z'
+updated: '2026-08-05T03:29:47.509085Z'
 ---
 
 {% raw %}

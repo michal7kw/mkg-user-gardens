@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Polymyalgia Rheumatica
 type: condition
-updated: '2026-08-05T03:29:10.299855Z'
+updated: '2026-08-05T03:29:53.331441Z'
 ---
 
 {% raw %}

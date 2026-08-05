@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: pregnancy_hcg
 type: labtestpanel
-updated: '2026-08-05T03:29:19.944718Z'
+updated: '2026-08-05T03:30:02.076930Z'
 ---
 
 {% raw %}

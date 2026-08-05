@@ -18,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: creatine_kinase
 type: labtest
-updated: '2026-08-05T03:29:17.103061Z'
+updated: '2026-08-05T03:29:57.973437Z'
 ---
 
 {% raw %}

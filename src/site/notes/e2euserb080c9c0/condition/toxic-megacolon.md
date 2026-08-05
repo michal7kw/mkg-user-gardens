@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Toxic Megacolon
 type: condition
-updated: '2026-08-05T03:29:11.884520Z'
+updated: '2026-08-05T03:29:54.315828Z'
 ---
 
 {% raw %}

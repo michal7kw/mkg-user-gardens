@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: BDNF-TrkB Signaling Pathway
 type: pathway
-updated: '2026-08-05T03:29:22.462463Z'
+updated: '2026-08-05T03:30:05.602746Z'
 ---
 
 {% raw %}

@@ -115,7 +115,7 @@ tags:
 templateEngineOverride: njk
 title: prolactin
 type: labtest
-updated: '2026-08-05T03:29:18.809665Z'
+updated: '2026-08-05T03:30:00.262121Z'
 ---
 
 {% raw %}

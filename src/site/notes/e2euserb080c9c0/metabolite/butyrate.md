@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Butyrate
 type: metabolite
-updated: '2026-08-05T03:29:20.252239Z'
+updated: '2026-08-05T03:30:02.558998Z'
 ---
 
 {% raw %}
