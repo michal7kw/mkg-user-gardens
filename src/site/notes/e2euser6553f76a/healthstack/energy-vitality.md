@@ -1,0 +1,129 @@
+---
+aliases:
+- Energy and Vitality
+created: '2026-08-05T23:31:52.471315Z'
+description: Combat fatigue and support sustained energy levels. B-complex vitamins
+  are essential cofactors in energy metabolism, CoQ10 powers mitochondrial ATP production,
+  iron supports oxygen transport, and vitamin D3 regulates hundreds of metabolic processes.
+dg-home: false
+dg-publish: true
+evidence_level: 4
+gardenUsername: e2euser6553f76a
+id: fd6e929c-a8d5-449a-b9e6-4ad4dada302b
+permalink: /garden/e2euser6553f76a/healthstack/energy-vitality/
+provenance: curated
+slug: energy-vitality
+source: Manual
+tags:
+- healthstack
+- energy
+- general_wellness
+templateEngineOverride: njk
+title: Energy & Vitality
+type: healthstack
+updated: '2026-08-05T23:31:52.471315Z'
+---
+
+{% raw %}
+<h1>Energy &amp; Vitality</h1>
+<p>Boost energy with essential vitamins and track key deficiency markers.</p>
+<h2>Evidence Summary</h2>
+<p>B-vitamin deficiency is a well-documented cause of fatigue. Iron supplementation improves energy in deficient individuals. Vitamin D insufficiency affects 40-50% of adults.</p>
+<h2>Supplements</h2>
+<table>
+<thead>
+<tr>
+<th>Supplement</th>
+<th>Dosage</th>
+<th>Frequency</th>
+<th>Timing</th>
+<th>Reason</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/garden/e2euser6553f76a/supplement/b-complex-vitamins/" class="internal-link">B-Complex</a></td>
+<td>1capsules</td>
+<td>once daily</td>
+<td>morning</td>
+<td>Essential cofactors in cellular energy metabolism</td>
+</tr>
+<tr>
+<td><a href="/garden/e2euser6553f76a/supplement/coenzyme-q10/" class="internal-link">CoQ10 (Ubiquinol)</a></td>
+<td>100mg</td>
+<td>once daily</td>
+<td>with meals</td>
+<td>Mitochondrial electron transport chain cofactor</td>
+</tr>
+<tr>
+<td><a href="/garden/e2euser6553f76a/supplement/iron/" class="internal-link">Iron Bisglycinate</a></td>
+<td>25mg</td>
+<td>once daily</td>
+<td>empty stomach</td>
+<td>Supports oxygen transport and energy production</td>
+</tr>
+<tr>
+<td><a href="/garden/e2euser6553f76a/nutrient/vitamin-d/" class="internal-link">Vitamin D3</a></td>
+<td>4000IU</td>
+<td>once daily</td>
+<td>with meals</td>
+<td>Regulates 200+ genes involved in metabolism</td>
+</tr>
+</tbody>
+</table>
+<h2>Biomarker Targets</h2>
+<table>
+<thead>
+<tr>
+<th>Biomarker</th>
+<th>Target Range</th>
+<th>Optimal Range</th>
+<th>Unit</th>
+<th>Reason</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/garden/e2euser6553f76a/labtest/ferritin/" class="internal-link">ferritin</a></td>
+<td>30-300</td>
+<td>50-150</td>
+<td>ng/mL</td>
+<td>Iron stores — low levels cause fatigue before anemia develops</td>
+</tr>
+<tr>
+<td><a href="/garden/e2euser6553f76a/supplement/vitamin-b12/" class="internal-link">Vitamin B12</a></td>
+<td>200-900</td>
+<td>500-900</td>
+<td>pg/mL</td>
+<td>Essential for red blood cell formation and neurological function</td>
+</tr>
+<tr>
+<td><a href="/garden/e2euser6553f76a/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin D (25-OH)</a></td>
+<td>30-100</td>
+<td>50-80</td>
+<td>ng/mL</td>
+<td>Optimal levels support energy, immunity, and mood</td>
+</tr>
+</tbody>
+</table>
+<h2>Goal Categories</h2>
+<ul>
+<li>Energy</li>
+<li>General wellness</li>
+</ul>
+<h3>Contains Supplement</h3>
+<p>CONTAINS_SUPPLEMENT::<a href="/garden/e2euser6553f76a/supplement/b-complex-vitamins/" class="internal-link">B-Complex</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/e2euser6553f76a/supplement/coenzyme-q10/" class="internal-link">CoQ10 (Ubiquinol)</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/e2euser6553f76a/supplement/iron/" class="internal-link">Iron Bisglycinate</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/e2euser6553f76a/nutrient/vitamin-d/" class="internal-link">Vitamin D3</a></p>
+<h2>Relationships</h2>
+<h3>Enriched</h3>
+<p>ASSOCIATED_WITH_CONDITION::<a href="/garden/e2euser6553f76a/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+INCLUDES_SUPPLEMENT::<a href="/garden/e2euser6553f76a/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a><br />
+INCLUDES_SUPPLEMENT::<a href="/garden/e2euser6553f76a/supplement/iron/" class="internal-link">Iron</a><br />
+AFFECTS_BIOMARKER::<a href="/garden/e2euser6553f76a/labtest/ferritin/" class="internal-link">ferritin</a><br />
+AFFECTS_BIOMARKER::<a href="/garden/e2euser6553f76a/labtest/hemoglobin/" class="internal-link">hemoglobin</a></p>
+<hr />
+<p><strong>Difficulty:</strong> Beginner | <strong>Evidence Level:</strong> ⭐⭐⭐⭐ (4/5)</p>
+
+{% endraw %}

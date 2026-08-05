@@ -1,0 +1,196 @@
+---
+aliases:
+- prostate specific antigen psa free
+confidence_score: 0.0
+country_availability:
+  it:
+    access_pathway:
+      identity_required: true
+      steps:
+      - Visit medico di base
+      - Receive ricetta (e-prescription) with NRE code via SMS
+      - Book via CUP or accredited SSN lab
+      type: primary_care_referral
+    coverage_tier: public_co_pay
+    exemptions:
+    - description: E-code exemption for 59 chronic conditions
+      type: chronic_condition
+    - description: Full exemption for prenatal monitoring
+      type: pregnancy
+    - description: Income < €8,263.31/year individual
+      type: low_income
+    last_verified: 2026-05
+    localized_name: PSA libero (free PSA)
+    typical_providers:
+    - coverage_area: 13 Italian regions
+      name: Bianalisi
+      type: private_walk_in
+      url: https://bianalisi.it
+    - coverage_area: 8 Italian regions
+      name: SYNLAB Italia
+      type: private_walk_in
+      url: https://synlab.it
+    - coverage_area: Lombardy
+      name: CDI (Centro Diagnostico Italiano)
+      type: private_walk_in
+      url: https://www.cdi.it
+    - coverage_area: Italy nationwide
+      name: Medelit
+      type: home_collection
+      url: https://medelit.com
+  pl:
+    access_pathway:
+      identity_required: true
+      steps:
+      - Visit POZ (lekarz POZ)
+      - Get e-skierowanie (e-referral)
+      - Go to the designated lab specified by your POZ
+      type: primary_care_referral
+    coverage_tier: public_free_with_referral
+    exemptions: []
+    last_verified: 2026-05
+    localized_name: PSA wolny (fPSA)
+    typical_providers:
+    - coverage_area: national
+      name: Diagnostyka
+      type: private_walk_in
+      url: https://diag.pl
+    - coverage_area: national
+      name: ALAB Laboratoria
+      type: private_walk_in
+      url: https://alab.pl
+    - coverage_area: 70 cities
+      name: Synevo
+      type: private_walk_in
+      url: https://store.synevo.pl/en
+    - coverage_area: major Polish cities
+      name: uPacjenta
+      type: home_collection
+      url: https://upacjenta.pl
+  uk:
+    access_pathway:
+      identity_required: true
+      steps:
+      - Visit your GP
+      - Request the test
+      - Sample sent to NHS pathology lab via your GP practice
+      type: primary_care_referral
+    coverage_tier: public_free_with_referral
+    exemptions: []
+    last_verified: 2026-05
+    localized_name: Free PSA
+    typical_providers:
+    - coverage_area: UK national
+      name: NHS Pathology
+      type: public_lab
+      url: https://www.england.nhs.uk
+    - coverage_area: London
+      name: TDL (The Doctors Laboratory)
+      type: private_walk_in
+      url: https://www.tdlpathology.com
+    - coverage_area: UK national
+      name: Nuffield Health
+      type: private_walk_in
+      url: https://www.nuffieldhealth.com
+created: '2026-01-19T08:30:02.042235+00:00'
+description: pros-tate speh-sif-ik an-tih-jen (p-s-a) per-sent free Percent free PSA
+  (prostate-specific antigen) measures the share of PSA in the blood that is not attached
+  to proteins. This percentage is used alongside other information to help assess
+  the likelihood of prostate cancer and to guide decisions about further testing,
+  such as a biopsy. It is calculated by dividing free PSA by total PSA and multiplying
+  by 100%. Lower values can be associated with a higher likelihood of cancer, while
+  higher values are more often linked to non cancerous prostate conditions like enlargement
+  or inflammation.
+dg-home: false
+dg-publish: true
+evidence_level: 3
+gardenUsername: e2euser6553f76a
+id: fh-prostate-specific-antigen-psa-free
+permalink: /garden/e2euser6553f76a/labtest/prostate-specific-antigen-psa-free/
+provenance: curated
+slug: prostate-specific-antigen-psa-free
+source: Manual
+tags:
+- labtest
+templateEngineOverride: njk
+title: prostate_specific_antigen_psa_free
+type: labtest
+updated: '2026-08-05T23:31:53.398420Z'
+---
+
+{% raw %}
+<h1>Prostate Specific Antigen (PSA) %, Free</h1>
+<h2>Overview</h2>
+<p>pros-tate speh-sif-ik an-tih-jen (p-s-a) per-sent free Percent free PSA (prostate-specific antigen) measures the share of PSA in the blood that is not attached to proteins. This percentage is used alongside other information to help assess the likelihood of prostate cancer and to guide decisions about further testing, such as a biopsy. It is calculated by dividing free PSA by total PSA and multiplying by 100%. Lower values can be associated with a higher likelihood of cancer, while higher values are more often linked to non cancerous prostate conditions like enlargement or inflammation.</p>
+<p><strong>Evidence Level:</strong> ⭐⭐⭐ (3/5)</p>
+<h2>Test Information</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Category</strong></td>
+<td>Hormones</td>
+</tr>
+<tr>
+<td><strong>Subcategory</strong></td>
+<td>Null</td>
+</tr>
+<tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
+<td><strong>Sample Type</strong></td>
+<td>Blood</td>
+</tr>
+<tr>
+<td><strong>Collection Method</strong></td>
+<td>Venipuncture</td>
+</tr>
+<tr>
+<td><strong>Turnaround Time</strong></td>
+<td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+</tbody>
+</table>
+<h2>Recommended For</h2>
+<h3>Supplement Monitoring</h3>
+<p>No specific supplement monitoring recommendations.</p>
+<h3>Conditions</h3>
+<p>General health screening.</p>
+<h2>Reference Ranges</h2>
+<p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
+<h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/e2euser6553f76a/biomarker/psa/" class="internal-link">PSA</a><br />
+INDICATES_ORGAN_HEALTH::<a href="/garden/e2euser6553f76a/organ/prostate/" class="internal-link">Prostate</a></p>
+<h3>Enriched</h3>
+<p>INDICATES::<a href="/garden/e2euser6553f76a/condition/cancer/" class="internal-link">Cancer</a><br />
+ASSOCIATED_WITH::<a href="/garden/e2euser6553f76a/organ/blood/" class="internal-link">Blood</a></p>
+<h2>Notes</h2>
+<ul>
+<li>Results should be interpreted by a qualified healthcare provider</li>
+<li>Reference ranges may vary by laboratory</li>
+<li>Individual factors (age, sex, health status) affect interpretation</li>
+</ul>
+<hr />
+<p><em>Last Updated: 2026-03-11T13:46:57.832562+00:00</em></p>
+
+{% endraw %}
