@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Roseburia intestinalis
 type: microbe
-updated: '2026-08-05T01:34:35.096513Z'
+updated: '2026-08-05T01:34:49.666117Z'
 ---
 
 {% raw %}

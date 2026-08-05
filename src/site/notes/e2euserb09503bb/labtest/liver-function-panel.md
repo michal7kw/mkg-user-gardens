@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: liver_function_panel
 type: labtest
-updated: '2026-08-05T01:34:34.612996Z'
+updated: '2026-08-05T01:34:49.115103Z'
 ---
 
 {% raw %}

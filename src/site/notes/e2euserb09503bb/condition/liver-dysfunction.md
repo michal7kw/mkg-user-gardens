@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Liver Dysfunction
 type: condition
-updated: '2026-08-05T01:34:33.437763Z'
+updated: '2026-08-05T01:34:47.569957Z'
 ---
 
 {% raw %}

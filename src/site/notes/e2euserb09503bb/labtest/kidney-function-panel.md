@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: kidney_function_panel
 type: labtest
-updated: '2026-08-05T01:34:34.580337Z'
+updated: '2026-08-05T01:34:49.078813Z'
 ---
 
 {% raw %}

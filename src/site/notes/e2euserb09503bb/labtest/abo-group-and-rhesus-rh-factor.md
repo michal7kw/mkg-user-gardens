@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: abo_group_and_rhesus_rh_factor
 type: labtest
-updated: '2026-08-05T01:34:34.278327Z'
+updated: '2026-08-05T01:34:48.715964Z'
 ---
 
 {% raw %}

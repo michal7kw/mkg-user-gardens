@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: GlycanAge
 type: biomarker
-updated: '2026-08-05T01:34:32.139536Z'
+updated: '2026-08-05T01:34:46.582293Z'
 ---
 
 {% raw %}

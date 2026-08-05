@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: gi_map
 type: labtest
-updated: '2026-08-05T01:34:34.514993Z'
+updated: '2026-08-05T01:34:49.010197Z'
 ---
 
 {% raw %}

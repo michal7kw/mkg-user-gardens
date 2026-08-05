@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: deamidated_gliadin_igg
 type: labtest
-updated: '2026-08-05T01:34:34.443685Z'
+updated: '2026-08-05T01:34:48.922953Z'
 ---
 
 {% raw %}

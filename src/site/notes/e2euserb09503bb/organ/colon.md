@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Colon
 type: organ
-updated: '2026-08-05T01:34:35.247979Z'
+updated: '2026-08-05T01:34:49.806950Z'
 ---
 
 {% raw %}

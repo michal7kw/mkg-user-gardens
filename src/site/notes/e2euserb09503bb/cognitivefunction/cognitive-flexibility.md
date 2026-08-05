@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Cognitive Flexibility
 type: cognitivefunction
-updated: '2026-08-05T01:34:32.865161Z'
+updated: '2026-08-05T01:34:47.081646Z'
 ---
 
 {% raw %}

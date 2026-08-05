@@ -113,7 +113,7 @@ tags:
 templateEngineOverride: njk
 title: prostate_specific_antigen_psa_total
 type: labtest
-updated: '2026-08-05T01:34:34.717039Z'
+updated: '2026-08-05T01:34:49.226809Z'
 ---
 
 {% raw %}

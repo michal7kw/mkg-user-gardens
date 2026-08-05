@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: trichomoniasis_naat
 type: labtest
-updated: '2026-08-05T01:34:34.810605Z'
+updated: '2026-08-05T01:34:49.350133Z'
 ---
 
 {% raw %}

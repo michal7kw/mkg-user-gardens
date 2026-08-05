@@ -1,7 +1,7 @@
 ---
 aliases:
 - 11_Digital_Garden
-created: '2026-08-05T01:34:36.093511Z'
+created: '2026-08-05T01:34:50.685293Z'
 description: Publishing your curated health knowledge as a public digital garden website
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Digital Garden
 type: users_guide
-updated: '2026-08-05T01:34:36.093511Z'
+updated: '2026-08-05T01:34:50.685293Z'
 ---
 
 {% raw %}

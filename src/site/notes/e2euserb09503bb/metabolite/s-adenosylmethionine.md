@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: S-Adenosylmethionine
 type: metabolite
-updated: '2026-08-05T01:34:35.062600Z'
+updated: '2026-08-05T01:34:49.624630Z'
 ---
 
 {% raw %}

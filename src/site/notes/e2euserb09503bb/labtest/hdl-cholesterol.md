@@ -111,7 +111,7 @@ tags:
 templateEngineOverride: njk
 title: hdl_cholesterol
 type: labtest
-updated: '2026-08-05T01:34:34.532579Z'
+updated: '2026-08-05T01:34:49.027286Z'
 ---
 
 {% raw %}

@@ -52,7 +52,7 @@ tags:
 templateEngineOverride: njk
 title: vitamin_e
 type: labtest
-updated: '2026-08-05T01:34:34.853290Z'
+updated: '2026-08-05T01:34:49.402025Z'
 ---
 
 {% raw %}

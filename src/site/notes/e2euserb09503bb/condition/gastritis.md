@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Gastritis
 type: condition
-updated: '2026-08-05T01:34:33.255552Z'
+updated: '2026-08-05T01:34:47.428194Z'
 ---
 
 {% raw %}

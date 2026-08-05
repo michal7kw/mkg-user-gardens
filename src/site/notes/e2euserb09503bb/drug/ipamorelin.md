@@ -44,7 +44,7 @@ tags:
 templateEngineOverride: njk
 title: Ipamorelin
 type: drug
-updated: '2026-08-05T01:34:33.954574Z'
+updated: '2026-08-05T01:34:48.335924Z'
 ---
 
 {% raw %}

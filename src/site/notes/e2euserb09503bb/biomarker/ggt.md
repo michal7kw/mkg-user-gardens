@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: GGT
 type: biomarker
-updated: '2026-08-05T01:34:32.120439Z'
+updated: '2026-08-05T01:34:46.563826Z'
 ---
 
 {% raw %}
