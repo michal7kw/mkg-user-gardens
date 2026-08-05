@@ -1,0 +1,58 @@
+---
+confidence_score: 0.9
+created: '2026-03-11T11:39:49.109556+00:00'
+description: The Glutamatergic Pathway serves as the absolute, overwhelming primary
+  engine orchestrating excitatory physiological neurotransmission throughout the entirely
+  of the human Central Nervous System.
+dg-home: false
+dg-publish: true
+evidence_level: 4
+gardenUsername: testuser1aa616fac
+id: glutamatergic_pathways
+last_modified: 2026-06-23T00:00:00+0000
+permalink: /garden/testuser1aa616fac/pathway/glutamatergic-pathways/
+provenance: curated
+slug: glutamatergic-pathways
+source: Manual
+tags:
+- pathway
+templateEngineOverride: njk
+title: Glutamatergic Pathways
+type: pathway
+updated: 2026-06-23T00:00:00+0000
+---
+
+{% raw %}
+<h1>Glutamatergic Pathways</h1>
+<h2>Overview</h2>
+<p>The Glutamatergic Pathway serves as the absolute, overwhelming primary engine orchestrating excitatory physiological neurotransmission throughout the entirely of the human Central Nervous System. It acts fundamentally as the brain's &quot;Gas Pedal.&quot; Staggeringly, over 80% of all neuronal synapses in the cerebral cortex utilize Glutamate perfectly as their primary neurotransmitter.</p>
+<p>When a cortical pyramidal neuron fires, it releases massive bursts of Glutamate into the synaptic cleft. This profoundly impacts two distinct sets of receptors: rapid <strong>AMPA receptors</strong> (which instantly trigger immediate sodium depolarization) and slower <strong>NMDA receptors</strong> (which crucially require a massive electrical jolt to unblock a magnesium plug before allowing massive amounts of Calcium to rush in). Because the influx of Calcium permanently alters the internal architecture of the receiving cell, the Glutamatergic pathway heavily mediates the absolute foundation of Long-Term Potentiation (LTP) and memory formation.</p>
+<h2>Clinical Pathologies</h2>
+<p>Because Glutamate commands absolute electrical excitation, an unregulated pathological surplus acts as a brutally devastating chemical weapon:</p>
+<ul>
+<li><strong>Excitotoxicity and Stroke:</strong> During an ischemic stroke, massive hypoxia completely shuts down the brain's ATP-driven transport pumps. Millions of dying neurons violently dump their entire intracellular payload of Glutamate out into the extracellular space. This hyperactivates NMDA receptors on perfectly healthy nearby neurons, violently forcing lethal levels of Calcium inside them, triggering mass apoptosis.</li>
+<li><strong>Amyotrophic Lateral Sclerosis (ALS):</strong> Severe defects specifically in the EAAT2 astrocytes responsible for rapidly clearing stray Glutamate out of the synapse allow chronic, massive excitotoxic buildup, violently burning out the upper and lower motor neurons.</li>
+</ul>
+<h2>Relationships</h2>
+<h3>Modulated By Supplement</h3>
+<p>MODULATED_BY_SUPPLEMENT::<a href="/garden/testuser1aa616fac/supplement/magnesium/" class="internal-link">Magnesium</a><br />
+MODULATED_BY_SUPPLEMENT::<a href="/garden/testuser1aa616fac/supplement/nac/" class="internal-link">NAC</a><br />
+MODULATED_BY_SUPPLEMENT::<a href="/garden/testuser1aa616fac/supplement/l-theanine/" class="internal-link">L-Theanine</a><br />
+MODULATED_BY_SUPPLEMENT::<a href="/garden/testuser1aa616fac/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
+MODULATED_BY_SUPPLEMENT::<a href="/garden/testuser1aa616fac/supplement/vitamin-d/" class="internal-link">Vitamin D</a></p>
+<h3>Associated Biomarker</h3>
+<p>ASSOCIATED_WITH::<a href="/garden/testuser1aa616fac/neurotransmitter/glutamate/" class="internal-link">Glutamate</a><br />
+ASSOCIATED_WITH::<a href="/garden/testuser1aa616fac/biomarker/bdnf/" class="internal-link">BDNF</a><br />
+ASSOCIATED_WITH::<a href="/garden/testuser1aa616fac/supplement/glutathione/" class="internal-link">Glutathione</a><br />
+ASSOCIATED_WITH::<a href="/garden/testuser1aa616fac/biomarker/8-ohdg/" class="internal-link">8-OHdG</a></p>
+<h3>Associated With Condition</h3>
+<p>ASSOCIATED_WITH_CONDITION::<a href="/garden/testuser1aa616fac/condition/alzheimers-disease/" class="internal-link">Alzheimer's Disease</a><br />
+ASSOCIATED_WITH_CONDITION::<a href="/garden/testuser1aa616fac/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a><br />
+ASSOCIATED_WITH_CONDITION::<a href="/garden/testuser1aa616fac/condition/depression/" class="internal-link">Depression</a><br />
+ASSOCIATED_WITH_CONDITION::<a href="/garden/testuser1aa616fac/condition/parkinsons-disease/" class="internal-link">Parkinson's Disease</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
+
+{% endraw %}
