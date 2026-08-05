@@ -107,7 +107,7 @@ tags:
 templateEngineOverride: njk
 title: peripheral_blood_smear
 type: labtest
-updated: '2026-08-05T00:58:33.416421Z'
+updated: '2026-08-05T00:58:50.118282Z'
 ---
 
 {% raw %}

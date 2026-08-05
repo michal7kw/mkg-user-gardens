@@ -115,7 +115,7 @@ tags:
 templateEngineOverride: njk
 title: hbsag
 type: labtest
-updated: '2026-08-05T00:58:33.190754Z'
+updated: '2026-08-05T00:58:49.904619Z'
 ---
 
 {% raw %}

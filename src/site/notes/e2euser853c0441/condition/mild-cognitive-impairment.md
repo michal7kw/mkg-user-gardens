@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Mild Cognitive Impairment
 type: condition
-updated: '2026-08-05T00:58:31.944719Z'
+updated: '2026-08-05T00:58:48.457602Z'
 ---
 
 {% raw %}

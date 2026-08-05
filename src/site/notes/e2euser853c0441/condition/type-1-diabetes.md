@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Type 1 Diabetes
 type: condition
-updated: '2026-08-05T00:58:32.290769Z'
+updated: '2026-08-05T00:58:49.043048Z'
 ---
 
 {% raw %}

@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Depression
 type: condition
-updated: '2026-08-05T00:58:31.681179Z'
+updated: '2026-08-05T00:58:48.144349Z'
 ---
 
 {% raw %}

@@ -1,7 +1,7 @@
 ---
 aliases:
 - knowledge-graph
-created: '2026-08-05T00:58:35.073621Z'
+created: '2026-08-05T00:58:51.988375Z'
 description: Explore entities and relationships in the interactive graph
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Knowledge Graph — Guide
 type: users_guide
-updated: '2026-08-05T00:58:35.073621Z'
+updated: '2026-08-05T00:58:51.988375Z'
 ---
 
 {% raw %}

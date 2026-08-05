@@ -1,7 +1,7 @@
 ---
 aliases:
 - 04_Relationships_and_Links
-created: '2026-08-05T00:58:34.984619Z'
+created: '2026-08-05T00:58:51.914146Z'
 description: Connecting entities with typed relationships — syntax, 160+ relationship
   types, and the visual editor
 dg-home: false
@@ -16,7 +16,7 @@ tags:
 templateEngineOverride: njk
 title: Relationships and Links
 type: users_guide
-updated: '2026-08-05T00:58:34.984619Z'
+updated: '2026-08-05T00:58:51.914146Z'
 ---
 
 {% raw %}

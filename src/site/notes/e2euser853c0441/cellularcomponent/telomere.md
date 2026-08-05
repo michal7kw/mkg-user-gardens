@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Telomere
 type: cellularcomponent
-updated: '2026-08-05T00:58:31.325668Z'
+updated: '2026-08-05T00:58:47.778053Z'
 ---
 
 {% raw %}

@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: JAK1
 type: protein
-updated: '2026-08-05T00:58:34.372890Z'
+updated: '2026-08-05T00:58:51.311671Z'
 ---
 
 {% raw %}

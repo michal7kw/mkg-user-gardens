@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Willow Bark Extract
 type: supplement
-updated: '2026-08-05T00:58:34.934472Z'
+updated: '2026-08-05T00:58:51.862396Z'
 ---
 
 {% raw %}

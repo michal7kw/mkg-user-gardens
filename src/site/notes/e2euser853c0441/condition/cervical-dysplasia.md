@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Cervical Dysplasia
 type: condition
-updated: '2026-08-05T00:58:31.605440Z'
+updated: '2026-08-05T00:58:48.051207Z'
 ---
 
 {% raw %}

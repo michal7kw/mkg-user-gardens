@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: dihydrotestosterone_dht
 type: labtest
-updated: '2026-08-05T00:58:33.107117Z'
+updated: '2026-08-05T00:58:49.827336Z'
 ---
 
 {% raw %}

@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Thyroid Hormones
 type: hormone
-updated: '2026-08-05T00:58:32.773191Z'
+updated: '2026-08-05T00:58:49.493293Z'
 ---
 
 {% raw %}

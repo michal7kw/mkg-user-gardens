@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Atopic Dermatitis
 type: condition
-updated: '2026-08-05T00:58:31.530594Z'
+updated: '2026-08-05T00:58:47.959933Z'
 ---
 
 {% raw %}

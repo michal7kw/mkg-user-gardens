@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: 3-Hydroxyacyl-CoA
 type: metabolite
-updated: '2026-08-05T00:58:33.698167Z'
+updated: '2026-08-05T00:58:50.514346Z'
 ---
 
 {% raw %}

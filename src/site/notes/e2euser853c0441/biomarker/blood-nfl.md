@@ -29,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Blood NfL
 type: biomarker
-updated: '2026-08-05T00:58:30.377061Z'
+updated: '2026-08-05T00:58:46.832938Z'
 ---
 
 {% raw %}

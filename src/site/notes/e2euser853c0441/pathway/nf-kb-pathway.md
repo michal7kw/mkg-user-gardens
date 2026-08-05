@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: NF-kB Pathway
 type: pathway
-updated: '2026-08-05T00:58:34.208620Z'
+updated: '2026-08-05T00:58:51.126631Z'
 ---
 
 {% raw %}

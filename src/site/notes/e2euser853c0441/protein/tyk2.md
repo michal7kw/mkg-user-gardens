@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: TYK2
 type: protein
-updated: '2026-08-05T00:58:34.432200Z'
+updated: '2026-08-05T00:58:51.369588Z'
 ---
 
 {% raw %}

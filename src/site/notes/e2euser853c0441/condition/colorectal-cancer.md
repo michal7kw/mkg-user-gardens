@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Colorectal Cancer
 type: condition
-updated: '2026-08-05T00:58:31.647030Z'
+updated: '2026-08-05T00:58:48.108275Z'
 ---
 
 {% raw %}

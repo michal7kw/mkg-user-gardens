@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: phosphorus
 type: labtest
-updated: '2026-08-05T00:58:33.426935Z'
+updated: '2026-08-05T00:58:50.126609Z'
 ---
 
 {% raw %}

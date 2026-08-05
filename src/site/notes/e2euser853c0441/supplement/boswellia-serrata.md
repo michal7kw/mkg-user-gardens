@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Boswellia Serrata
 type: supplement
-updated: '2026-08-05T00:58:34.652456Z'
+updated: '2026-08-05T00:58:51.571463Z'
 ---
 
 {% raw %}

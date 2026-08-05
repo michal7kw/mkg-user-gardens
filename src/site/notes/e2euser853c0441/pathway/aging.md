@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Aging
 type: pathway
-updated: '2026-08-05T00:58:34.119617Z'
+updated: '2026-08-05T00:58:51.018146Z'
 ---
 
 {% raw %}

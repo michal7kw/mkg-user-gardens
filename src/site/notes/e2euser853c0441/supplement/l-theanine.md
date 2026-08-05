@@ -32,7 +32,7 @@ tags:
 templateEngineOverride: njk
 title: L-Theanine
 type: supplement
-updated: '2026-08-05T00:58:34.738698Z'
+updated: '2026-08-05T00:58:51.664703Z'
 ---
 
 {% raw %}

@@ -18,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Low Glycemic Index Diet
 type: intervention
-updated: '2026-08-05T00:58:32.815048Z'
+updated: '2026-08-05T00:58:49.541766Z'
 ---
 
 {% raw %}

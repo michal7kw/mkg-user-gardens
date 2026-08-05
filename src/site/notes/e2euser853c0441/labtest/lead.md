@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: lead
 type: labtest
-updated: '2026-08-05T00:58:33.300385Z'
+updated: '2026-08-05T00:58:49.996186Z'
 ---
 
 {% raw %}

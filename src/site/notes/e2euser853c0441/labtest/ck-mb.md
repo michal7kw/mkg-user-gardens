@@ -55,7 +55,7 @@ tags:
 templateEngineOverride: njk
 title: ck_mb
 type: labtest
-updated: '2026-08-05T00:58:33.041362Z'
+updated: '2026-08-05T00:58:49.773743Z'
 ---
 
 {% raw %}

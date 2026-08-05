@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: neurofilament_light_chain_nfl
 type: labtest
-updated: '2026-08-05T00:58:33.365751Z'
+updated: '2026-08-05T00:58:50.057691Z'
 ---
 
 {% raw %}

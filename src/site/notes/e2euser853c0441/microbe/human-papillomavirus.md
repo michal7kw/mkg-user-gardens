@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Human Papillomavirus
 type: microbe
-updated: '2026-08-05T00:58:33.857140Z'
+updated: '2026-08-05T00:58:50.776130Z'
 ---
 
 {% raw %}

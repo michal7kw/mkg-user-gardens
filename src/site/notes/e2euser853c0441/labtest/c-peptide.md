@@ -111,7 +111,7 @@ tags:
 templateEngineOverride: njk
 title: c_peptide
 type: labtest
-updated: '2026-08-05T00:58:33.006149Z'
+updated: '2026-08-05T00:58:49.732338Z'
 ---
 
 {% raw %}

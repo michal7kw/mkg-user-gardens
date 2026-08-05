@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Vilazodone
 type: drug
-updated: '2026-08-05T00:58:32.575591Z'
+updated: '2026-08-05T00:58:49.310744Z'
 ---
 
 {% raw %}

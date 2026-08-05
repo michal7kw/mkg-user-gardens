@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Etanercept
 type: drug
-updated: '2026-08-05T00:58:32.409157Z'
+updated: '2026-08-05T00:58:49.155294Z'
 ---
 
 {% raw %}
