@@ -29,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Endorphins
 type: neurotransmitter
-updated: '2026-08-05T01:43:27.366603Z'
+updated: '2026-08-05T01:43:42.882082Z'
 ---
 
 {% raw %}

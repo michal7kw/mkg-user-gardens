@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Cervix
 type: organ
-updated: '2026-08-05T01:43:27.474782Z'
+updated: '2026-08-05T01:43:42.996117Z'
 ---
 
 {% raw %}

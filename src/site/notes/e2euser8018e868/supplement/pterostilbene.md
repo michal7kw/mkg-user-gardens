@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Pterostilbene
 type: supplement
-updated: '2026-08-05T01:43:28.133190Z'
+updated: '2026-08-05T01:43:43.751671Z'
 ---
 
 {% raw %}

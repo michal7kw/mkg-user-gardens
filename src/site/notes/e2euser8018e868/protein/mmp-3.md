@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: MMP-3
 type: protein
-updated: '2026-08-05T01:43:27.784124Z'
+updated: '2026-08-05T01:43:43.341857Z'
 ---
 
 {% raw %}

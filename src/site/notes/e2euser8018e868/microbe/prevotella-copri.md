@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Prevotella copri
 type: microbe
-updated: '2026-08-05T01:43:27.339997Z'
+updated: '2026-08-05T01:43:42.854743Z'
 ---
 
 {% raw %}

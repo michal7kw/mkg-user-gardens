@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: triiodothyronine_t3_free
 type: labtest
-updated: '2026-08-05T01:43:27.068527Z'
+updated: '2026-08-05T01:43:42.529670Z'
 ---
 
 {% raw %}

@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Urea
 type: metabolite
-updated: '2026-08-05T01:43:27.317036Z'
+updated: '2026-08-05T01:43:42.830642Z'
 ---
 
 {% raw %}

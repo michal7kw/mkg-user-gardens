@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: zonulin
 type: labtest
-updated: '2026-08-05T01:43:27.119658Z'
+updated: '2026-08-05T01:43:42.603151Z'
 ---
 
 {% raw %}

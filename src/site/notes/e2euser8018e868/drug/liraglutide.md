@@ -50,7 +50,7 @@ tags:
 templateEngineOverride: njk
 title: Liraglutide
 type: drug
-updated: '2026-08-05T01:43:26.158277Z'
+updated: '2026-08-05T01:43:41.564404Z'
 ---
 
 {% raw %}

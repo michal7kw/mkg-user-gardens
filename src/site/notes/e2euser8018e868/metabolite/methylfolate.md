@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Methylfolate
 type: metabolite
-updated: '2026-08-05T01:43:27.269121Z'
+updated: '2026-08-05T01:43:42.778144Z'
 ---
 
 {% raw %}

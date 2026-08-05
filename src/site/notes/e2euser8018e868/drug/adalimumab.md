@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Adalimumab
 type: drug
-updated: '2026-08-05T01:43:26.072906Z'
+updated: '2026-08-05T01:43:41.465540Z'
 ---
 
 {% raw %}

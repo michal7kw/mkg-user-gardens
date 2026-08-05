@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: cancer_screening_panel
 type: labtestpanel
-updated: '2026-08-05T01:43:27.128740Z'
+updated: '2026-08-05T01:43:42.613697Z'
 ---
 
 {% raw %}

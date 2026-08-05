@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: BNP
 type: biomarker
-updated: '2026-08-05T01:43:24.400103Z'
+updated: '2026-08-05T01:43:39.154204Z'
 ---
 
 {% raw %}

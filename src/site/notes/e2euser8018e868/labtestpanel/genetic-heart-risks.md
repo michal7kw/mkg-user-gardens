@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: genetic_heart_risks
 type: labtestpanel
-updated: '2026-08-05T01:43:27.153161Z'
+updated: '2026-08-05T01:43:42.651186Z'
 ---
 
 {% raw %}

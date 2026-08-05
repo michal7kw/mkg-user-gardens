@@ -43,7 +43,7 @@ tags:
 templateEngineOverride: njk
 title: Sermorelin
 type: drug
-updated: '2026-08-05T01:43:26.248129Z'
+updated: '2026-08-05T01:43:41.634908Z'
 ---
 
 {% raw %}

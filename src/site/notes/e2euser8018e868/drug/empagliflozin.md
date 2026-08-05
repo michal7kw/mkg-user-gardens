@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Empagliflozin
 type: drug
-updated: '2026-08-05T01:43:26.116320Z'
+updated: '2026-08-05T01:43:41.519383Z'
 ---
 
 {% raw %}

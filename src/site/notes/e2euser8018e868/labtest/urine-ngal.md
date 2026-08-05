@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: urine_ngal
 type: labtest
-updated: '2026-08-05T01:43:27.095283Z'
+updated: '2026-08-05T01:43:42.570920Z'
 ---
 
 {% raw %}

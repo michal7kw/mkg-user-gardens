@@ -29,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Hemoglobin A1c
 type: biomarker
-updated: '2026-08-05T01:43:24.625388Z'
+updated: '2026-08-05T01:43:39.457403Z'
 ---
 
 {% raw %}

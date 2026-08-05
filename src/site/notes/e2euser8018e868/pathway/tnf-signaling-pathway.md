@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: TNF Signaling Pathway
 type: pathway
-updated: '2026-08-05T01:43:27.655353Z'
+updated: '2026-08-05T01:43:43.210590Z'
 ---
 
 {% raw %}

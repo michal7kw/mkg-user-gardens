@@ -47,7 +47,7 @@ tags:
 templateEngineOverride: njk
 title: Exenatide
 type: drug
-updated: '2026-08-05T01:43:26.124116Z'
+updated: '2026-08-05T01:43:41.528437Z'
 ---
 
 {% raw %}

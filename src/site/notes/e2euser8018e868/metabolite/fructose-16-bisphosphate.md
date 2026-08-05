@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Fructose-1,6-Bisphosphate
 type: metabolite
-updated: '2026-08-05T01:43:27.231965Z'
+updated: '2026-08-05T01:43:42.738459Z'
 ---
 
 {% raw %}

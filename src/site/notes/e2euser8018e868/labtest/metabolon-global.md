@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: metabolon_global
 type: labtest
-updated: '2026-08-05T01:43:26.884226Z'
+updated: '2026-08-05T01:43:42.277419Z'
 ---
 
 {% raw %}

@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: PI3K-Akt Pathway
 type: pathway
-updated: '2026-08-05T01:43:27.639969Z'
+updated: '2026-08-05T01:43:43.189752Z'
 ---
 
 {% raw %}

@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: IRX5
 type: gene
-updated: '2026-08-05T01:43:26.347975Z'
+updated: '2026-08-05T01:43:41.745719Z'
 ---
 
 {% raw %}

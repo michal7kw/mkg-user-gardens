@@ -36,7 +36,7 @@ tags:
 templateEngineOverride: njk
 title: Berberine
 type: supplement
-updated: '2026-08-05T01:43:27.973745Z'
+updated: '2026-08-05T01:43:43.560610Z'
 ---
 
 {% raw %}

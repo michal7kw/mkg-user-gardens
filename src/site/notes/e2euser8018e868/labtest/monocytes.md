@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: monocytes
 type: labtest
-updated: '2026-08-05T01:43:26.892776Z'
+updated: '2026-08-05T01:43:42.282433Z'
 ---
 
 {% raw %}

@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: beta_amyloid_42_40_ratio
 type: labtest
-updated: '2026-08-05T01:43:26.590730Z'
+updated: '2026-08-05T01:43:42.000516Z'
 ---
 
 {% raw %}

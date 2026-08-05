@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Monounsaturated Fat
 type: food
-updated: '2026-08-05T01:43:26.331435Z'
+updated: '2026-08-05T01:43:41.730703Z'
 ---
 
 {% raw %}

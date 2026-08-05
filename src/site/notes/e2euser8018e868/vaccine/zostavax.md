@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Zostavax
 type: vaccine
-updated: '2026-08-05T01:43:28.235456Z'
+updated: '2026-08-05T01:43:43.844867Z'
 ---
 
 {% raw %}

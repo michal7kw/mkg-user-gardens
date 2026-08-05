@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: human_chorionic_gonadotropin_hcg
 type: labtest
-updated: '2026-08-05T01:43:26.800008Z'
+updated: '2026-08-05T01:43:42.191980Z'
 ---
 
 {% raw %}

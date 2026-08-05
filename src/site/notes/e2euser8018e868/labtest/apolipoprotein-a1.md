@@ -55,7 +55,7 @@ tags:
 templateEngineOverride: njk
 title: apolipoprotein_a1
 type: labtest
-updated: '2026-08-05T01:43:26.574176Z'
+updated: '2026-08-05T01:43:41.984887Z'
 ---
 
 {% raw %}

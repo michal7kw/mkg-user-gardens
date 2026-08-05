@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Glucose-6-Phosphate
 type: metabolite
-updated: '2026-08-05T01:43:27.244976Z'
+updated: '2026-08-05T01:43:42.752620Z'
 ---
 
 {% raw %}

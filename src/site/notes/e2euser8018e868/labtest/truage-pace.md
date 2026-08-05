@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: truage_pace
 type: labtest
-updated: '2026-08-05T01:43:27.075343Z'
+updated: '2026-08-05T01:43:42.537699Z'
 ---
 
 {% raw %}

@@ -114,7 +114,7 @@ tags:
 templateEngineOverride: njk
 title: fructosamine
 type: labtest
-updated: '2026-08-05T01:43:26.750292Z'
+updated: '2026-08-05T01:43:42.142821Z'
 ---
 
 {% raw %}

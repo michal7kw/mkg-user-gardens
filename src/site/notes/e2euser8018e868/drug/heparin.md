@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Heparin
 type: drug
-updated: '2026-08-05T01:43:26.142545Z'
+updated: '2026-08-05T01:43:41.548626Z'
 ---
 
 {% raw %}

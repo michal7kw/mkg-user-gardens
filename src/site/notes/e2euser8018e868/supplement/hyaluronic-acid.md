@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Hyaluronic Acid
 type: supplement
-updated: '2026-08-05T01:43:28.047968Z'
+updated: '2026-08-05T01:43:43.661052Z'
 ---
 
 {% raw %}

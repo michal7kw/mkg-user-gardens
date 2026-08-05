@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: telomere_length
 type: labtest
-updated: '2026-08-05T01:43:27.016383Z'
+updated: '2026-08-05T01:43:42.463468Z'
 ---
 
 {% raw %}

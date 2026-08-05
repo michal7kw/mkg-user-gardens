@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: aluminum
 type: labtest
-updated: '2026-08-05T01:43:26.532858Z'
+updated: '2026-08-05T01:43:41.944391Z'
 ---
 
 {% raw %}
