@@ -53,7 +53,7 @@ tags:
 templateEngineOverride: njk
 title: calcitonin
 type: labtest
-updated: '2026-08-05T01:41:23.328239Z'
+updated: '2026-08-05T01:41:37.349107Z'
 ---
 
 {% raw %}

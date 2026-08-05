@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Glycolysis
 type: pathway
-updated: '2026-08-05T01:41:24.398557Z'
+updated: '2026-08-05T01:41:38.527527Z'
 ---
 
 {% raw %}

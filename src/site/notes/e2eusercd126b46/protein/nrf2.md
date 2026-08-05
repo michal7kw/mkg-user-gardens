@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: NRF2
 type: protein
-updated: '2026-08-05T01:41:24.677009Z'
+updated: '2026-08-05T01:41:38.731275Z'
 ---
 
 {% raw %}

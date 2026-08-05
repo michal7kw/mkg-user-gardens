@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Blood Pressure
 type: examination
-updated: '2026-08-05T01:41:22.982501Z'
+updated: '2026-08-05T01:41:36.994111Z'
 ---
 
 {% raw %}

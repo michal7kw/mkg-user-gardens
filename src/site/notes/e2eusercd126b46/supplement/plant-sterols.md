@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Plant Sterols
 type: supplement
-updated: '2026-08-05T01:41:25.054330Z'
+updated: '2026-08-05T01:41:39.063621Z'
 ---
 
 {% raw %}

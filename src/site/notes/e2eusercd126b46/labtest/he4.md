@@ -51,7 +51,7 @@ tags:
 templateEngineOverride: njk
 title: he4
 type: labtest
-updated: '2026-08-05T01:41:23.468541Z'
+updated: '2026-08-05T01:41:37.532664Z'
 ---
 
 {% raw %}

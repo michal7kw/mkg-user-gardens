@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: magnesium_rbc
 type: labtest
-updated: '2026-08-05T01:41:23.553907Z'
+updated: '2026-08-05T01:41:37.634363Z'
 ---
 
 {% raw %}

@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Diet, hs-CRP and Inflammation
 type: story
-updated: '2026-08-05T01:41:24.789118Z'
+updated: '2026-08-05T01:41:38.822673Z'
 ---
 
 {% raw %}

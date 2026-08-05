@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.75
-created: '2026-08-05T01:41:23.015868Z'
+created: '2026-08-05T01:41:37.032294Z'
 description: Exposure to agricultural and household pesticides, primarily organophosphates
   and glyphosate-based herbicides, causing acetylcholinesterase inhibition, oxidative
   stress, mitochondrial dysfunction, and increased risk of neurodegenerative disease,

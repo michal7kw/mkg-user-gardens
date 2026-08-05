@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Raphe Nuclei
 type: organ
-updated: '2026-08-05T01:41:24.328152Z'
+updated: '2026-08-05T01:41:38.446042Z'
 ---
 
 {% raw %}

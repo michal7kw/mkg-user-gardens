@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: interleukin_6
 type: labtest
-updated: '2026-08-05T01:41:23.492243Z'
+updated: '2026-08-05T01:41:37.562282Z'
 ---
 
 {% raw %}

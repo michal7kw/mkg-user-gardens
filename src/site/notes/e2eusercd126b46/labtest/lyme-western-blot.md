@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: lyme_western_blot
 type: labtest
-updated: '2026-08-05T01:41:23.548927Z'
+updated: '2026-08-05T01:41:37.626297Z'
 ---
 
 {% raw %}

@@ -1,7 +1,7 @@
 ---
 aliases:
 - drug-interactions
-created: '2026-08-05T01:41:25.253552Z'
+created: '2026-08-05T01:41:39.285165Z'
 description: Check drug-drug and drug-supplement interactions
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Drug Interactions — Guide
 type: users_guide
-updated: '2026-08-05T01:41:25.253552Z'
+updated: '2026-08-05T01:41:39.285165Z'
 ---
 
 {% raw %}

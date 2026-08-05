@@ -30,7 +30,7 @@ tags:
 templateEngineOverride: njk
 title: forever_chemicals_pfas_exposure
 type: labtestpanel
-updated: '2026-08-05T01:41:23.831213Z'
+updated: '2026-08-05T01:41:37.965499Z'
 ---
 
 {% raw %}

@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: mean_corpuscular_volume_mcv
 type: labtest
-updated: '2026-08-05T01:41:23.560414Z'
+updated: '2026-08-05T01:41:37.641904Z'
 ---
 
 {% raw %}

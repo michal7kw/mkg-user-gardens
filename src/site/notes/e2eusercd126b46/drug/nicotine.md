@@ -29,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Nicotine
 type: drug
-updated: '2026-08-05T01:41:22.903164Z'
+updated: '2026-08-05T01:41:36.920595Z'
 ---
 
 {% raw %}

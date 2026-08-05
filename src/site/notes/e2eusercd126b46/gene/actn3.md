@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: ACTN3
 type: gene
-updated: '2026-08-05T01:41:23.042180Z'
+updated: '2026-08-05T01:41:37.047864Z'
 ---
 
 {% raw %}

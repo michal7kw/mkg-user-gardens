@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: OCD
 type: condition
-updated: '2026-08-05T01:41:22.486522Z'
+updated: '2026-08-05T01:41:36.360261Z'
 ---
 
 {% raw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-08-05T01:41:24.757293Z'
+created: '2026-08-05T01:41:38.793143Z'
 description: Drug- or supplement-induced liver injury ranging from asymptomatic transaminase
   elevation to acute liver failure, representing the most common cause of post-marketing
   drug withdrawal and a major safety concern in pharmacology and supplement use.

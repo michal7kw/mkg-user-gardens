@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Orexin
 type: neurotransmitter
-updated: '2026-08-05T01:41:24.197018Z'
+updated: '2026-08-05T01:41:38.286035Z'
 ---
 
 {% raw %}

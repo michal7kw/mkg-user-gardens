@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: PPARGC1A
 type: gene
-updated: '2026-08-05T01:41:23.058263Z'
+updated: '2026-08-05T01:41:37.062746Z'
 ---
 
 {% raw %}

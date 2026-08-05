@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Nucleolus
 type: cellularcomponent
-updated: '2026-08-05T01:41:21.870607Z'
+updated: '2026-08-05T01:41:35.650883Z'
 ---
 
 {% raw %}

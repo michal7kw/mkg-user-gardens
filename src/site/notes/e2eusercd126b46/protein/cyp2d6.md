@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: CYP2D6
 type: protein
-updated: '2026-08-05T01:41:24.606250Z'
+updated: '2026-08-05T01:41:38.691463Z'
 ---
 
 {% raw %}

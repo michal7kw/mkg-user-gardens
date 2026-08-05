@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: 8-OHdG
 type: biomarker
-updated: '2026-08-05T01:41:20.981097Z'
+updated: '2026-08-05T01:41:34.820632Z'
 ---
 
 {% raw %}
