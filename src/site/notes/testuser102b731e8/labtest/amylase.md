@@ -1,0 +1,106 @@
+---
+confidence_score: 0.0
+created: 2026-01-18T16:02:31+0000
+description: Amylase is a digestive enzyme made by the salivary glands and pancreas
+  that helps break down complex carbohydrates from food into usable energy. Abnormal
+  levels can be an early sign of problems in the salivary glands, strain on the digestive
+  system due to celiac disease or IBD, and pancreatic stress.
+dg-home: false
+dg-publish: true
+evidence_level: 3
+gardenUsername: testuser102b731e8
+id: fh-amylase
+permalink: /garden/testuser102b731e8/labtest/amylase/
+provenance: curated
+slug: amylase
+source: Manual
+tags:
+- labtest
+- blood-panel
+- function-health
+templateEngineOverride: njk
+title: amylase
+type: labtest
+updated: '2026-08-06T00:47:17.783724Z'
+---
+
+{% raw %}
+<h1>Amylase</h1>
+<h2>Overview</h2>
+<p>Amylase is a digestive enzyme made by the salivary glands and pancreas that helps break down complex carbohydrates from food into usable energy. Abnormal levels can be an early sign of problems in the salivary glands, strain on the digestive system due to celiac disease or IBD, and pancreatic stress.</p>
+<p><strong>Evidence Level:</strong> ⭐⭐⭐ (3/5)</p>
+<h2>Test Information</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Category</strong></td>
+<td>Blood Panel</td>
+</tr>
+<tr>
+<td><strong>Subcategory</strong></td>
+<td>Cmp</td>
+</tr>
+<tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
+<td><strong>Sample Type</strong></td>
+<td>Blood</td>
+</tr>
+<tr>
+<td><strong>Collection Method</strong></td>
+<td>Venipuncture</td>
+</tr>
+<tr>
+<td><strong>Turnaround Time</strong></td>
+<td>3-7 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+</tbody>
+</table>
+<h2>Recommended For</h2>
+<h3>Supplement Monitoring</h3>
+<p>No specific supplement monitoring recommendations.</p>
+<h3>Conditions</h3>
+<p>General health screening.</p>
+<h2>Reference Ranges</h2>
+<p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
+<h2>Relationships</h2>
+<h3>Related</h3>
+<p>RELATED::<a class="internal-link is-unresolved" href="/404">Salivary Gland Inflammation Like In Mumps</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">Stomach Flu Gastroenteritis</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">Bowel Blockage Or Perforation</a><br />
+RELATED::<a class="internal-link is-unresolved" href="/404">Pancreatitis Acute Or Chronic</a><br />
+RELATED::<a href="/garden/testuser102b731e8/condition/gallbladder-disease/" class="internal-link">Gallbladder Disease</a></p>
+<h3>May Detect</h3>
+<p>MAY_DETECT::<a href="/garden/testuser102b731e8/condition/gallbladder-disease/" class="internal-link">Gallbladder Disease</a></p>
+<h3>Associated With Condition</h3>
+<p>ASSOCIATED_WITH_CONDITION::<a href="/garden/testuser102b731e8/condition/gallbladder-disease/" class="internal-link">Gallbladder Disease</a></p>
+<h2>Notes</h2>
+<ul>
+<li>Results should be interpreted by a qualified healthcare provider</li>
+<li>Reference ranges may vary by laboratory</li>
+<li>Individual factors (age, sex, health status) affect interpretation</li>
+</ul>
+<hr />
+<p><em>Last Updated: 2026-03-11T13:47:03.806043+00:00</em></p>
+
+{% endraw %}
