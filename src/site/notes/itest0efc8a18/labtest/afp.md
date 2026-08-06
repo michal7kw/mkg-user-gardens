@@ -1,0 +1,194 @@
+---
+confidence_score: 0.0
+country_availability:
+  it:
+    access_pathway:
+      identity_required: true
+      steps:
+      - Visit medico di base
+      - Receive ricetta (e-prescription) with NRE code via SMS
+      - Book via CUP or accredited SSN lab
+      type: primary_care_referral
+    coverage_tier: public_co_pay
+    exemptions:
+    - description: E-code exemption for 59 chronic conditions
+      type: chronic_condition
+    - description: Full exemption for prenatal monitoring
+      type: pregnancy
+    - description: Income < €8,263.31/year individual
+      type: low_income
+    last_verified: 2026-04
+    localized_name: AFP (Alfa-fetoproteina)
+    typical_providers:
+    - coverage_area: 13 Italian regions
+      name: Bianalisi
+      type: private_walk_in
+      url: https://bianalisi.it
+    - coverage_area: 8 Italian regions
+      name: SYNLAB Italia
+      type: private_walk_in
+      url: https://synlab.it
+    - coverage_area: Lombardy
+      name: CDI (Centro Diagnostico Italiano)
+      type: private_walk_in
+      url: https://www.cdi.it
+    - coverage_area: Italy nationwide
+      name: Medelit
+      type: home_collection
+      url: https://medelit.com
+  pl:
+    access_pathway:
+      identity_required: true
+      steps:
+      - Specialist referral required (not on NFZ POZ list)
+      - OR pay out-of-pocket at a private lab
+      type: specialist_referral
+    coverage_tier: private_only_specialist
+    exemptions: []
+    last_verified: 2026-04
+    localized_name: AFP (alfa-fetoproteina)
+    typical_providers:
+    - coverage_area: national
+      name: Diagnostyka
+      type: private_walk_in
+      url: https://diag.pl
+    - coverage_area: national
+      name: ALAB Laboratoria
+      type: private_walk_in
+      url: https://alab.pl
+    - coverage_area: 70 cities
+      name: Synevo
+      type: private_walk_in
+      url: https://store.synevo.pl/en
+    - coverage_area: major Polish cities
+      name: uPacjenta
+      type: home_collection
+      url: https://upacjenta.pl
+  uk:
+    access_pathway:
+      identity_required: true
+      steps:
+      - Visit your GP
+      - Request the test
+      - Sample sent to NHS pathology lab via your GP practice
+      type: primary_care_referral
+    coverage_tier: public_free_with_referral
+    exemptions: []
+    last_verified: 2026-04
+    localized_name: AFP (Alpha-Fetoprotein)
+    typical_providers:
+    - coverage_area: UK national
+      name: NHS Pathology
+      type: public_lab
+      url: https://www.england.nhs.uk
+    - coverage_area: London
+      name: TDL (The Doctors Laboratory)
+      type: private_walk_in
+      url: https://www.tdlpathology.com
+    - coverage_area: UK national
+      name: Nuffield Health
+      type: private_walk_in
+      url: https://www.nuffieldhealth.com
+created: 2026-02-07T00:00:00+0000
+description: Alpha-Fetoprotein (AFP) test. Tumor marker used for hepatocellular carcinoma
+  surveillance in high-risk patients and monitoring of testicular germ cell tumors.
+  Also used in prenatal screening for neural tube defects.
+dg-home: false
+dg-publish: true
+evidence_level: 3
+gardenUsername: itest0efc8a18
+id: test-afp-001
+permalink: /garden/itest0efc8a18/labtest/afp/
+provenance: curated
+slug: afp
+source: Manual
+tags:
+- labtest
+templateEngineOverride: njk
+title: afp
+type: labtest
+updated: '2026-08-06T03:11:41.171351Z'
+---
+
+{% raw %}
+<h1>AFP</h1>
+<h2>Overview</h2>
+<p>Alpha-Fetoprotein (AFP) test. Tumor marker used for hepatocellular carcinoma surveillance in high-risk patients and monitoring of testicular germ cell tumors. Also used in prenatal screening for neural tube defects.</p>
+<p><strong>Evidence Level:</strong> ⭐⭐⭐ (3/5)</p>
+<h2>Test Information</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Category</strong></td>
+<td>Cancer Screening</td>
+</tr>
+<tr>
+<td><strong>Subcategory</strong></td>
+<td>Null</td>
+</tr>
+<tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
+<td><strong>Sample Type</strong></td>
+<td>Blood</td>
+</tr>
+<tr>
+<td><strong>Collection Method</strong></td>
+<td>Venipuncture</td>
+</tr>
+<tr>
+<td><strong>Turnaround Time</strong></td>
+<td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+</tbody>
+</table>
+<h2>Biomarkers Measured</h2>
+<p>This test measures the following biomarkers:</p>
+<ul>
+<li><a href="/garden/itest0efc8a18/labtest/afp/" class="internal-link">afp</a></li>
+</ul>
+<h2>Recommended For</h2>
+<h3>Supplement Monitoring</h3>
+<p>No specific supplement monitoring recommendations.</p>
+<h3>Conditions</h3>
+<p>General health screening.</p>
+<h2>Reference Ranges</h2>
+<p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
+<h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/itest0efc8a18/labtest/afp/" class="internal-link">AFP</a></p>
+<h3>Included In</h3>
+<p>INCLUDED_IN::<a href="/garden/itest0efc8a18/labtestpanel/cancer-screening-panel/" class="internal-link">cancer screening panel</a></p>
+<h3>Enriched</h3>
+<p>INDICATES::<a href="/garden/itest0efc8a18/condition/cancer/" class="internal-link">Cancer</a><br />
+INDICATES::<a href="/garden/itest0efc8a18/condition/liver-disease/" class="internal-link">Liver Disease</a></p>
+<h2>Notes</h2>
+<ul>
+<li>Results should be interpreted by a qualified healthcare provider</li>
+<li>Reference ranges may vary by laboratory</li>
+<li>Individual factors (age, sex, health status) affect interpretation</li>
+</ul>
+<hr />
+<p><em>Last Updated: 2026-03-11T13:47:04.637624+00:00</em></p>
+
+{% endraw %}
