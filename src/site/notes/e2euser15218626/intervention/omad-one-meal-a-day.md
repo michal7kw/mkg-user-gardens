@@ -1,0 +1,47 @@
+---
+confidence_score: 0.0
+created: '2026-04-05T16:16:24.426780+00:00'
+description: Extreme time-restricted eating with a single meal consumed within a 1-hour
+  window and 23-hour fast. Maximizes fasting-state metabolic adaptations including
+  autophagy and ketogenesis.
+dg-home: false
+dg-publish: true
+gardenUsername: e2euser15218626
+id: intervention_omad
+permalink: /garden/e2euser15218626/intervention/omad-one-meal-a-day/
+provenance: curated
+slug: omad-one-meal-a-day
+source: dev_seeder
+tags:
+- intervention
+- diet
+templateEngineOverride: njk
+title: OMAD (One Meal a Day)
+type: intervention
+updated: '2026-08-19T04:17:50.319243Z'
+---
+
+{% raw %}
+<h1>OMAD (One Meal a Day)</h1>
+<h2>Overview</h2>
+<p>Extreme time-restricted eating with a single meal consumed within a 1-hour window and 23-hour fast. Maximizes fasting-state metabolic adaptations including autophagy and ketogenesis.<br />
+<strong>Type</strong>: diet</p>
+<h2>Mechanism of Action</h2>
+<p>Prolonged fasting depletes glycogen stores, activating AMPK and SIRT1 pathways. Deep ketosis reached daily. Significant insulin reduction promotes lipolysis. Growth hormone pulsatility increases. Extended autophagy window for cellular repair.</p>
+<h2>Protocol</h2>
+<h2>Safety Information</h2>
+<h3>Contraindications</h3>
+<ul>
+<li>type 1 or type 2 diabetes on insulin</li>
+<li>eating disorder history</li>
+<li>pregnancy/breastfeeding</li>
+<li>underweight individuals</li>
+<li>gallbladder disease</li>
+<li>adolescents</li>
+</ul>
+<h2>Relationships</h2>
+<p>No relationships found.</p>
+<h2>Research SupportNo research studies documented yet.</h2>
+<h2>ReferencesNo references available.</h2>
+
+{% endraw %}
