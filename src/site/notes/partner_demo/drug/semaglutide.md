@@ -52,7 +52,7 @@ tags:
 templateEngineOverride: njk
 title: Semaglutide
 type: drug
-updated: '2026-08-19T13:01:52.523968Z'
+updated: '2026-08-20T04:08:45.326739Z'
 ---
 
 {% raw %}

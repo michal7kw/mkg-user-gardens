@@ -44,7 +44,7 @@ tags:
 templateEngineOverride: njk
 title: Escitalopram
 type: drug
-updated: '2026-08-19T13:01:52.422054Z'
+updated: '2026-08-20T04:08:45.219899Z'
 ---
 
 {% raw %}

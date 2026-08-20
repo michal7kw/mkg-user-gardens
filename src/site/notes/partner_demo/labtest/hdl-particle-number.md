@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-08-19T13:01:53.057630Z'
+created: '2026-08-20T04:08:45.975324Z'
 description: HDL particle number (HDL-P) measures the total concentration of high-density
   lipoprotein particles, typically by nuclear magnetic resonance (NMR) or ion mobility,
   rather than the cholesterol they carry. HDL-P can diverge from HDL cholesterol and
@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: hdl_particle_number
 type: labtest
-updated: '2026-08-19T13:01:53.057630Z'
+updated: '2026-08-20T04:08:45.975324Z'
 ---
 
 {% raw %}

@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Social Anxiety Disorder
 type: condition
-updated: '2026-08-19T13:01:52.261089Z'
+updated: '2026-08-20T04:08:45.058238Z'
 ---
 
 {% raw %}

@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: osteoporosis_hyperparathyroidism_and_myeloma
 type: labtestpanel
-updated: '2026-08-19T13:01:53.421358Z'
+updated: '2026-08-20T04:08:46.474869Z'
 ---
 
 {% raw %}

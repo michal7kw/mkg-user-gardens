@@ -43,7 +43,7 @@ tags:
 templateEngineOverride: njk
 title: Colchicine
 type: drug
-updated: '2026-08-19T13:01:52.409955Z'
+updated: '2026-08-20T04:08:45.206739Z'
 ---
 
 {% raw %}

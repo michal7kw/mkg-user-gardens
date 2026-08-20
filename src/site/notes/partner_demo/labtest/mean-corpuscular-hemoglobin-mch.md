@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: mean_corpuscular_hemoglobin_mch
 type: labtest
-updated: '2026-08-19T13:01:53.150962Z'
+updated: '2026-08-20T04:08:46.091724Z'
 ---
 
 {% raw %}

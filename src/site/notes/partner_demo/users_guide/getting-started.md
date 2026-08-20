@@ -1,7 +1,7 @@
 ---
 aliases:
 - 01_Getting_Started
-created: '2026-08-19T13:01:54.468786Z'
+created: '2026-08-20T04:08:47.619989Z'
 description: 'Step-by-step setup guide: download the vault, install the plugin, configure
   settings, and first login'
 dg-home: false
@@ -16,7 +16,7 @@ tags:
 templateEngineOverride: njk
 title: Getting Started
 type: users_guide
-updated: '2026-08-19T13:01:54.468786Z'
+updated: '2026-08-20T04:08:47.619989Z'
 ---
 
 {% raw %}

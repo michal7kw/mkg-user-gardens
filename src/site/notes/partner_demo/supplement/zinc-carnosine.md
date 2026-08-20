@@ -3,7 +3,7 @@ aliases:
 - Polaprezinc
 - PepZin GI
 confidence_score: 0.8
-created: '2026-08-19T13:01:54.433461Z'
+created: '2026-08-20T04:08:47.585243Z'
 description: A chelate of zinc and L-carnosine (polaprezinc) with specific affinity
   for the gastric mucosa. Unlike ordinary zinc salts it adheres to ulcerated and inflamed
   mucosal surfaces, where it provides localized antioxidant, mucosal-stabilizing,
@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Zinc Carnosine
 type: supplement
-updated: '2026-08-19T13:01:54.433461Z'
+updated: '2026-08-20T04:08:47.585243Z'
 ---
 
 {% raw %}

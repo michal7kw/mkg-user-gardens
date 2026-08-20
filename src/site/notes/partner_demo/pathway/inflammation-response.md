@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-08-19T13:01:53.831400Z'
+created: '2026-08-20T04:08:46.917936Z'
 description: Innate immune defense mechanism involving NF-kB-mediated transcription
   of pro-inflammatory cytokines (TNF-alpha, IL-6, IL-1beta), eicosanoid production,
   and immune cell recruitment, with acute forms being protective and chronic low-grade

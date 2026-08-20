@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: serum_pfas_panel
 type: labtest
-updated: '2026-08-19T13:01:53.255797Z'
+updated: '2026-08-20T04:08:46.247812Z'
 ---
 
 {% raw %}

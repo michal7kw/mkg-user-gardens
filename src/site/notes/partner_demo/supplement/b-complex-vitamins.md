@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: B-Complex Vitamins
 type: supplement
-updated: '2026-08-19T13:01:54.187121Z'
+updated: '2026-08-20T04:08:47.329904Z'
 ---
 
 {% raw %}

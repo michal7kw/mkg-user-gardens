@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: advanced_lipid_panel
 type: labtest
-updated: '2026-08-19T13:01:52.810689Z'
+updated: '2026-08-20T04:08:45.676281Z'
 ---
 
 {% raw %}

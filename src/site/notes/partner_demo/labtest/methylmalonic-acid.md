@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: methylmalonic_acid
 type: labtest
-updated: '2026-08-19T13:01:53.158592Z'
+updated: '2026-08-20T04:08:46.102661Z'
 ---
 
 {% raw %}

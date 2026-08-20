@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Bulimia Nervosa
 type: condition
-updated: '2026-08-19T13:01:51.474042Z'
+updated: '2026-08-20T04:08:44.047123Z'
 ---
 
 {% raw %}

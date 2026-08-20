@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: mri_scan_with_spine
 type: labtestpanel
-updated: '2026-08-19T13:01:53.419358Z'
+updated: '2026-08-20T04:08:46.472329Z'
 ---
 
 {% raw %}

@@ -2,7 +2,7 @@
 aliases:
 - Lutein and Zeaxanthin
 confidence_score: 0.85
-created: '2026-08-19T13:01:54.293412Z'
+created: '2026-08-20T04:08:47.449782Z'
 description: A xanthophyll carotenoid concentrated in the macula of the retina, where
   together with zeaxanthin it forms macular pigment that filters high-energy blue
   light and quenches reactive oxygen species. Not synthesized by the body and obtained
@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Lutein
 type: supplement
-updated: '2026-08-19T13:01:54.293412Z'
+updated: '2026-08-20T04:08:47.449782Z'
 ---
 
 {% raw %}

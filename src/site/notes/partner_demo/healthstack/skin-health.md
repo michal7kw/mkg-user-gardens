@@ -1,5 +1,5 @@
 ---
-created: '2026-08-19T13:01:52.671137Z'
+created: '2026-08-20T04:08:45.517377Z'
 description: Support skin integrity, collagen production, and protection against UV
   damage and aging with targeted antioxidants, collagen precursors, and photoprotective
   compounds. Skin is the body's largest organ and a visible indicator of internal
@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Skin Health
 type: healthstack
-updated: '2026-08-19T13:01:52.671137Z'
+updated: '2026-08-20T04:08:45.517377Z'
 ---
 
 {% raw %}

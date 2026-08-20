@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Neuropathic Pain
 type: condition
-updated: '2026-08-19T13:01:51.982609Z'
+updated: '2026-08-20T04:08:44.835109Z'
 ---
 
 {% raw %}

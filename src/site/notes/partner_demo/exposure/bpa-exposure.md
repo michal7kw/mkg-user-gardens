@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.75
-created: '2026-08-19T13:01:52.585287Z'
+created: '2026-08-20T04:08:45.422377Z'
 description: Exposure to bisphenol A, a ubiquitous endocrine-disrupting chemical found
   in polycarbonate plastics and epoxy resins, that mimics estrogen and disrupts hormonal
   signaling, linked to obesity, insulin resistance, reproductive disorders, and developmental

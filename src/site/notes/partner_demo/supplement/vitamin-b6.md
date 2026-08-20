@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Vitamin B6
 type: supplement
-updated: '2026-08-19T13:01:54.407560Z'
+updated: '2026-08-20T04:08:47.565564Z'
 ---
 
 {% raw %}

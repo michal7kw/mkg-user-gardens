@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.75
-created: '2026-08-19T13:01:52.589305Z'
+created: '2026-08-20T04:08:45.427114Z'
 description: Exposure to mycotoxins (aflatoxin, ochratoxin A, trichothecenes) and
   mold-derived volatile organic compounds from water-damaged buildings and contaminated
   food, causing immune dysregulation, oxidative stress, neuroinflammation, and multi-system

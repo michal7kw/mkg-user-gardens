@@ -113,7 +113,7 @@ tags:
 templateEngineOverride: njk
 title: aspartate_aminotransferase_ast
 type: labtest
-updated: '2026-08-19T13:01:52.881677Z'
+updated: '2026-08-20T04:08:45.751920Z'
 ---
 
 {% raw %}

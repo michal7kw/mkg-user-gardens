@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: bone_health_panel
 type: labtestpanel
-updated: '2026-08-19T13:01:53.382032Z'
+updated: '2026-08-20T04:08:46.432606Z'
 ---
 
 {% raw %}

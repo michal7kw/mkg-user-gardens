@@ -19,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: tnf_alpha
 type: labtest
-updated: '2026-08-19T13:01:53.303565Z'
+updated: '2026-08-20T04:08:46.320166Z'
 ---
 
 {% raw %}

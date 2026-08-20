@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Acute Gastroenteritis
 type: condition
-updated: '2026-08-19T13:01:51.356345Z'
+updated: '2026-08-20T04:08:43.865311Z'
 ---
 
 {% raw %}

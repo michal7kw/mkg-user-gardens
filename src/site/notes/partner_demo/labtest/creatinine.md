@@ -114,7 +114,7 @@ tags:
 templateEngineOverride: njk
 title: creatinine
 type: labtest
-updated: '2026-08-19T13:01:52.954452Z'
+updated: '2026-08-20T04:08:45.846312Z'
 ---
 
 {% raw %}

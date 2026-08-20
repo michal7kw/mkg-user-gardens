@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Icosapent Ethyl
 type: drug
-updated: '2026-08-19T13:01:52.454254Z'
+updated: '2026-08-20T04:08:45.252344Z'
 ---
 
 {% raw %}

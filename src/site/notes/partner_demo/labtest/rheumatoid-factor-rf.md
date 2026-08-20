@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: rheumatoid_factor_rf
 type: labtest
-updated: '2026-08-19T13:01:53.250288Z'
+updated: '2026-08-20T04:08:46.236559Z'
 ---
 
 {% raw %}

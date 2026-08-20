@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Osteoarthritis
 type: condition
-updated: '2026-08-19T13:01:52.016410Z'
+updated: '2026-08-20T04:08:44.865982Z'
 ---
 
 {% raw %}
