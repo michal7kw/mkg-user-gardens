@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: 5-Hydroxyindoleacetic Acid
 type: metabolite
-updated: '2026-08-20T07:40:23.555287Z'
+updated: '2026-08-20T07:40:43.875454Z'
 ---
 
 {% raw %}

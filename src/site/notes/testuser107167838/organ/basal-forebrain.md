@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Basal Forebrain
 type: organ
-updated: '2026-08-20T07:40:24.098805Z'
+updated: '2026-08-20T07:40:44.406076Z'
 ---
 
 {% raw %}

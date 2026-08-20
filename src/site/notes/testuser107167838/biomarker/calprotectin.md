@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Calprotectin
 type: biomarker
-updated: '2026-08-20T07:40:19.063141Z'
+updated: '2026-08-20T07:40:39.569438Z'
 ---
 
 {% raw %}

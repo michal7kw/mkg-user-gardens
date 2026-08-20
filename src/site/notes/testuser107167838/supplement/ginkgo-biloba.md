@@ -29,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Ginkgo Biloba
 type: supplement
-updated: '2026-08-20T07:40:24.985201Z'
+updated: '2026-08-20T07:40:45.488730Z'
 ---
 
 {% raw %}

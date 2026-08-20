@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Rituximab
 type: drug
-updated: '2026-08-20T07:40:21.783581Z'
+updated: '2026-08-20T07:40:42.184629Z'
 ---
 
 {% raw %}

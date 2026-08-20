@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Beta-Glucans
 type: metabolite
-updated: '2026-08-20T07:40:23.591606Z'
+updated: '2026-08-20T07:40:43.915939Z'
 ---
 
 {% raw %}

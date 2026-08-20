@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Fidaxomicin
 type: drug
-updated: '2026-08-20T07:40:21.611090Z'
+updated: '2026-08-20T07:40:42.061521Z'
 ---
 
 {% raw %}

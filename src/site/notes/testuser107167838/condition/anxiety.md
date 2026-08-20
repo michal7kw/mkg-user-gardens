@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-08-20T07:40:20.228063Z'
+created: '2026-08-20T07:40:40.715017Z'
 description: A group of mental health disorders characterized by excessive fear, worry,
   and physiological arousal. Includes generalized anxiety disorder (GAD), social anxiety,
   panic disorder, and specific phobias. The most common mental health condition worldwide
@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Anxiety
 type: condition
-updated: '2026-08-20T07:40:20.228063Z'
+updated: '2026-08-20T07:40:40.715017Z'
 ---
 
 {% raw %}

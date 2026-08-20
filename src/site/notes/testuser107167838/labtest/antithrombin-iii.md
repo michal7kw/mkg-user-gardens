@@ -115,7 +115,7 @@ tags:
 templateEngineOverride: njk
 title: antithrombin_iii
 type: labtest
-updated: '2026-08-20T07:40:22.409049Z'
+updated: '2026-08-20T07:40:42.738818Z'
 ---
 
 {% raw %}

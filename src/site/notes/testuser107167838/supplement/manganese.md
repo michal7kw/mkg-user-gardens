@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Manganese
 type: supplement
-updated: '2026-08-20T07:40:25.061880Z'
+updated: '2026-08-20T07:40:45.576776Z'
 ---
 
 {% raw %}

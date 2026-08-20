@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Pentose Phosphate Pathway
 type: pathway
-updated: '2026-08-20T07:40:24.363622Z'
+updated: '2026-08-20T07:40:44.753330Z'
 ---
 
 {% raw %}

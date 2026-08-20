@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Anaphylaxis
 type: condition
-updated: '2026-08-20T07:40:20.204527Z'
+updated: '2026-08-20T07:40:40.693319Z'
 ---
 
 {% raw %}

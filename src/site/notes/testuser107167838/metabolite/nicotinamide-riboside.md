@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Nicotinamide Riboside
 type: metabolite
-updated: '2026-08-20T07:40:23.737831Z'
+updated: '2026-08-20T07:40:44.046314Z'
 ---
 
 {% raw %}

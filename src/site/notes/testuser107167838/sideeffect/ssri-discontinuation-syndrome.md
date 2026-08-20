@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: SSRI Discontinuation Syndrome
 type: sideeffect
-updated: '2026-08-20T07:40:24.735112Z'
+updated: '2026-08-20T07:40:45.190517Z'
 ---
 
 {% raw %}
