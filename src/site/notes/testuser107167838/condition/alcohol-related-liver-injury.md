@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Alcohol-Related Liver Injury
 type: condition
-updated: '2026-08-20T07:39:59.661287Z'
+updated: '2026-08-20T07:40:20.171360Z'
 ---
 
 {% raw %}

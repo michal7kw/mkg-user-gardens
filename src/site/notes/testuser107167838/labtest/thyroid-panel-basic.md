@@ -18,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: thyroid_panel_basic
 type: labtest
-updated: '2026-08-20T07:40:02.399769Z'
+updated: '2026-08-20T07:40:23.279729Z'
 ---
 
 {% raw %}

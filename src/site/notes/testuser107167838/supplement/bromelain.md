@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Bromelain
 type: supplement
-updated: '2026-08-20T07:40:03.979139Z'
+updated: '2026-08-20T07:40:24.910015Z'
 ---
 
 {% raw %}

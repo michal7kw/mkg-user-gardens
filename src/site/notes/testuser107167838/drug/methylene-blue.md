@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Methylene Blue
 type: drug
-updated: '2026-08-20T07:40:01.123787Z'
+updated: '2026-08-20T07:40:21.716954Z'
 ---
 
 {% raw %}

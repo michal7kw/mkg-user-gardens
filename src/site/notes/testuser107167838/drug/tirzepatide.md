@@ -50,7 +50,7 @@ tags:
 templateEngineOverride: njk
 title: Tirzepatide
 type: drug
-updated: '2026-08-20T07:40:01.196736Z'
+updated: '2026-08-20T07:40:21.818257Z'
 ---
 
 {% raw %}

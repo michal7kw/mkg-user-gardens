@@ -18,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: thyroxine_binding_globulin_tbg
 type: labtest
-updated: '2026-08-20T07:40:02.410714Z'
+updated: '2026-08-20T07:40:23.293228Z'
 ---
 
 {% raw %}

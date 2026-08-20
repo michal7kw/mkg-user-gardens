@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Vancomycin
 type: drug
-updated: '2026-08-20T07:40:01.208236Z'
+updated: '2026-08-20T07:40:21.846158Z'
 ---
 
 {% raw %}

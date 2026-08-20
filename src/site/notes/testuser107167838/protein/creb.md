@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: CREB
 type: protein
-updated: '2026-08-20T07:40:03.620217Z'
+updated: '2026-08-20T07:40:24.509362Z'
 ---
 
 {% raw %}

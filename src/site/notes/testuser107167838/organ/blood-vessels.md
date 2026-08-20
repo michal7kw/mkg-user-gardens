@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Blood Vessels
 type: organ
-updated: '2026-08-20T07:40:03.187537Z'
+updated: '2026-08-20T07:40:24.105376Z'
 ---
 
 {% raw %}

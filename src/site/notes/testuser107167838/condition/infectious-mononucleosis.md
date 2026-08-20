@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Infectious Mononucleosis
 type: condition
-updated: '2026-08-20T07:40:00.160687Z'
+updated: '2026-08-20T07:40:20.731718Z'
 ---
 
 {% raw %}

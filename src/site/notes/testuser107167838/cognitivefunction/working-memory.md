@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Working Memory
 type: cognitivefunction
-updated: '2026-08-20T07:39:59.592688Z'
+updated: '2026-08-20T07:40:20.097204Z'
 ---
 
 {% raw %}

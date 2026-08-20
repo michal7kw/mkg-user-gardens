@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Norepinephrine
 type: neurotransmitter
-updated: '2026-08-20T07:40:03.064963Z'
+updated: '2026-08-20T07:40:23.955965Z'
 ---
 
 {% raw %}

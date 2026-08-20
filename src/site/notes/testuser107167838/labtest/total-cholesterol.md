@@ -112,7 +112,7 @@ tags:
 templateEngineOverride: njk
 title: total_cholesterol
 type: labtest
-updated: '2026-08-20T07:40:02.426998Z'
+updated: '2026-08-20T07:40:23.315467Z'
 ---
 
 {% raw %}

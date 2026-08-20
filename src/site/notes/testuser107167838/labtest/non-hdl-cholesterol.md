@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: non_hdl_cholesterol
 type: labtest
-updated: '2026-08-20T07:40:02.189060Z'
+updated: '2026-08-20T07:40:23.052278Z'
 ---
 
 {% raw %}

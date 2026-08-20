@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Fluvoxamine
 type: drug
-updated: '2026-08-20T07:40:01.049607Z'
+updated: '2026-08-20T07:40:21.618409Z'
 ---
 
 {% raw %}

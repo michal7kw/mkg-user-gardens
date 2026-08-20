@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Interleukin 6
 type: biomarker
-updated: '2026-08-20T07:39:58.864540Z'
+updated: '2026-08-20T07:40:19.361892Z'
 ---
 
 {% raw %}

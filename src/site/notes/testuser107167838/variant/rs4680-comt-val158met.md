@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: rs4680 (COMT Val158Met)
 type: variant
-updated: '2026-08-20T07:40:04.310555Z'
+updated: '2026-08-20T07:40:25.342665Z'
 ---
 
 {% raw %}

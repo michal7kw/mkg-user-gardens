@@ -113,7 +113,7 @@ tags:
 templateEngineOverride: njk
 title: pancreatic_elastase
 type: labtest
-updated: '2026-08-20T07:40:02.247583Z'
+updated: '2026-08-20T07:40:23.106292Z'
 ---
 
 {% raw %}

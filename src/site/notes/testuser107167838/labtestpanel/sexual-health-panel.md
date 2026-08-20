@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: sexual_health_panel
 type: labtestpanel
-updated: '2026-08-20T07:40:02.650234Z'
+updated: '2026-08-20T07:40:23.540621Z'
 ---
 
 {% raw %}

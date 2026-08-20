@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Vitamin B12
 type: supplement
-updated: '2026-08-20T07:40:04.241613Z'
+updated: '2026-08-20T07:40:25.245692Z'
 ---
 
 {% raw %}

@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Acetyl-CoA
 type: metabolite
-updated: '2026-08-20T07:40:02.672185Z'
+updated: '2026-08-20T07:40:23.558834Z'
 ---
 
 {% raw %}

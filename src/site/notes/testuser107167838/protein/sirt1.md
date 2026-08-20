@@ -32,7 +32,7 @@ tags:
 templateEngineOverride: njk
 title: SIRT1
 type: protein
-updated: '2026-08-20T07:40:03.739477Z'
+updated: '2026-08-20T07:40:24.636857Z'
 ---
 
 {% raw %}

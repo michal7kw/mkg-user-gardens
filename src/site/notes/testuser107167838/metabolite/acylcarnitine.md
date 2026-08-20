@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Acylcarnitine
 type: metabolite
-updated: '2026-08-20T07:40:02.678248Z'
+updated: '2026-08-20T07:40:23.565451Z'
 ---
 
 {% raw %}

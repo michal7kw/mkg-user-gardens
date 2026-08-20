@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: amyloid_beta_42
 type: labtest
-updated: '2026-08-20T07:40:01.590697Z'
+updated: '2026-08-20T07:40:22.352309Z'
 ---
 
 {% raw %}

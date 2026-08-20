@@ -110,7 +110,7 @@ tags:
 templateEngineOverride: njk
 title: haptoglobin
 type: labtest
-updated: '2026-08-20T07:40:01.947784Z'
+updated: '2026-08-20T07:40:22.785536Z'
 ---
 
 {% raw %}

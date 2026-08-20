@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: FIT Test
 type: examination
-updated: '2026-08-20T07:40:01.239478Z'
+updated: '2026-08-20T07:40:21.891867Z'
 ---
 
 {% raw %}

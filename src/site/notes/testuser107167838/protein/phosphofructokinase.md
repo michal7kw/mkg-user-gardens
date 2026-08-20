@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Phosphofructokinase
 type: protein
-updated: '2026-08-20T07:40:03.717362Z'
+updated: '2026-08-20T07:40:24.611196Z'
 ---
 
 {% raw %}

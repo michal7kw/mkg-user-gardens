@@ -109,7 +109,7 @@ tags:
 templateEngineOverride: njk
 title: fasting_glucose
 type: labtest
-updated: '2026-08-20T07:40:01.879558Z'
+updated: '2026-08-20T07:40:22.700776Z'
 ---
 
 {% raw %}
