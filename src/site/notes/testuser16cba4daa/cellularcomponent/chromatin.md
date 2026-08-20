@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Chromatin
 type: cellularcomponent
-updated: '2026-08-20T07:35:19.709479Z'
+updated: '2026-08-20T07:35:47.654178Z'
 ---
 
 {% raw %}

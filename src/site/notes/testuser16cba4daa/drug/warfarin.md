@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-08-20T07:35:21.705485Z'
+created: '2026-08-20T07:35:49.649953Z'
 description: A vitamin K antagonist oral anticoagulant that inhibits vitamin K epoxide
   reductase (VKORC1), depleting the reduced vitamin K needed to activate clotting
   factors II, VII, IX, and X. Requires routine INR monitoring and has a narrow therapeutic
@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Warfarin
 type: drug
-updated: '2026-08-20T07:35:21.705485Z'
+updated: '2026-08-20T07:35:49.649953Z'
 ---
 
 {% raw %}

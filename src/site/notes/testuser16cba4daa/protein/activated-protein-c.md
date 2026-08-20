@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Activated Protein C
 type: protein
-updated: '2026-08-20T07:35:24.199243Z'
+updated: '2026-08-20T07:35:51.993130Z'
 ---
 
 {% raw %}

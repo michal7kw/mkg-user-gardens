@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Obesity
 type: condition
-updated: '2026-08-20T07:35:20.549109Z'
+updated: '2026-08-20T07:35:48.811320Z'
 ---
 
 {% raw %}

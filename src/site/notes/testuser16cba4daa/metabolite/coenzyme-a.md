@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Coenzyme A
 type: metabolite
-updated: '2026-08-20T07:35:23.227933Z'
+updated: '2026-08-20T07:35:51.197183Z'
 ---
 
 {% raw %}

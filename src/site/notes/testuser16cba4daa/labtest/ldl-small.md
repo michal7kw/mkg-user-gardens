@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: ldl_small
 type: labtest
-updated: '2026-08-20T07:35:22.671174Z'
+updated: '2026-08-20T07:35:50.490696Z'
 ---
 
 {% raw %}

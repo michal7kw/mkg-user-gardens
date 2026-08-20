@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: pharmacogenomics_panel
 type: labtest
-updated: '2026-08-20T07:35:22.840398Z'
+updated: '2026-08-20T07:35:50.690713Z'
 ---
 
 {% raw %}

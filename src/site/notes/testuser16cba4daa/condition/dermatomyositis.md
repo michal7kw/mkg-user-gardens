@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Dermatomyositis
 type: condition
-updated: '2026-08-20T07:35:20.112822Z'
+updated: '2026-08-20T07:35:48.190002Z'
 ---
 
 {% raw %}

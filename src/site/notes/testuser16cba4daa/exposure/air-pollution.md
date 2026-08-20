@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.75
-created: '2026-08-20T07:35:21.746809Z'
+created: '2026-08-20T07:35:49.691396Z'
 description: Exposure to ambient airborne pollutants including particulate matter
   (PM2.5, PM10), ozone (O3), nitrogen dioxide (NO2), and sulfur dioxide (SO2), driving
   systemic inflammation, oxidative stress, and increased risk of cardiovascular, respiratory,

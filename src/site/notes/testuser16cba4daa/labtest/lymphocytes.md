@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: lymphocytes
 type: labtest
-updated: '2026-08-20T07:35:22.716183Z'
+updated: '2026-08-20T07:35:50.537084Z'
 ---
 
 {% raw %}

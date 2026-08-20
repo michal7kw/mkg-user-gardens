@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Vitamin D
 type: supplement
-updated: '2026-08-20T07:35:25.149337Z'
+updated: '2026-08-20T07:35:52.754830Z'
 ---
 
 {% raw %}

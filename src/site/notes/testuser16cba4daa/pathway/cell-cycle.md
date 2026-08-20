@@ -3,7 +3,7 @@ aliases:
 - Cell Cycle Pathway
 - Cell Division Cycle
 confidence_score: 0.9
-created: '2026-08-20T07:35:23.894254Z'
+created: '2026-08-20T07:35:51.771942Z'
 description: The ordered sequence of events by which a cell duplicates its genome
   and divides into two daughter cells, progressing through G1, S (DNA synthesis),
   G2, and M (mitosis) phases under the control of cyclin-dependent kinases and checkpoints.
@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Cell Cycle
 type: pathway
-updated: '2026-08-20T07:35:23.894254Z'
+updated: '2026-08-20T07:35:51.771942Z'
 ---
 
 {% raw %}

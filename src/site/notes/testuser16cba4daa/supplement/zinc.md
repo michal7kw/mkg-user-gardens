@@ -2,7 +2,7 @@
 aliases:
 - Zinc Picolinate
 confidence_score: 0.9
-created: '2026-08-20T07:35:25.164451Z'
+created: '2026-08-20T07:35:52.777122Z'
 description: Essential trace mineral involved in 300+ enzymatic reactions, critical
   for immune function, testosterone synthesis, wound healing, DNA synthesis, and taste/smell
   perception. Second most abundant trace mineral in the body after iron. Deficiency
@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Zinc
 type: supplement
-updated: '2026-08-20T07:35:25.164451Z'
+updated: '2026-08-20T07:35:52.777122Z'
 ---
 
 {% raw %}

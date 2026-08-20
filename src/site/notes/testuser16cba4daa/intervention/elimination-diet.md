@@ -18,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Elimination Diet
 type: intervention
-updated: '2026-08-20T07:35:21.989502Z'
+updated: '2026-08-20T07:35:49.897968Z'
 ---
 
 {% raw %}

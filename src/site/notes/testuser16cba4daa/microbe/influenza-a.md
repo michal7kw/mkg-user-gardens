@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Influenza A
 type: microbe
-updated: '2026-08-20T07:35:23.440213Z'
+updated: '2026-08-20T07:35:51.433555Z'
 ---
 
 {% raw %}

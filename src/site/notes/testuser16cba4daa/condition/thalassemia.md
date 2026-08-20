@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Thalassemia
 type: condition
-updated: '2026-08-20T07:35:21.286120Z'
+updated: '2026-08-20T07:35:49.250947Z'
 ---
 
 {% raw %}
