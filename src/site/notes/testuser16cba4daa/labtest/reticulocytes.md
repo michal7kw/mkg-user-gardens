@@ -111,7 +111,7 @@ tags:
 templateEngineOverride: njk
 title: reticulocytes
 type: labtest
-updated: '2026-08-20T07:35:02.795350Z'
+updated: '2026-08-20T07:35:22.887320Z'
 ---
 
 {% raw %}

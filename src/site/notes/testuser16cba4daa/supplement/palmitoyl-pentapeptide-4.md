@@ -41,7 +41,7 @@ tags:
 templateEngineOverride: njk
 title: Palmitoyl Pentapeptide-4
 type: supplement
-updated: '2026-08-20T07:35:04.384948Z'
+updated: '2026-08-20T07:35:25.025392Z'
 ---
 
 {% raw %}

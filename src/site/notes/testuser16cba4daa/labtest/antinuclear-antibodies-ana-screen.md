@@ -114,7 +114,7 @@ tags:
 templateEngineOverride: njk
 title: antinuclear_antibodies_ana_screen
 type: labtest
-updated: '2026-08-20T07:35:02.164387Z'
+updated: '2026-08-20T07:35:22.224210Z'
 ---
 
 {% raw %}

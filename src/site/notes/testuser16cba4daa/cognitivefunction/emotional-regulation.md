@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Emotional Regulation
 type: cognitivefunction
-updated: '2026-08-20T07:34:59.915913Z'
+updated: '2026-08-20T07:35:19.793606Z'
 ---
 
 {% raw %}

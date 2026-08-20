@@ -1,7 +1,7 @@
 ---
 aliases:
 - systems
-created: '2026-08-20T07:35:04.685404Z'
+created: '2026-08-20T07:35:25.330262Z'
 description: Browse the knowledge graph by biological system
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Systems — Guide
 type: users_guide
-updated: '2026-08-20T07:35:04.685404Z'
+updated: '2026-08-20T07:35:25.330262Z'
 ---
 
 {% raw %}

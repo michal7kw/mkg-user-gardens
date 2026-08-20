@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: appearance_urine
 type: labtest
-updated: '2026-08-20T07:35:02.189993Z'
+updated: '2026-08-20T07:35:22.251059Z'
 ---
 
 {% raw %}

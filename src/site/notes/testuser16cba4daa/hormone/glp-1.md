@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: GLP-1
 type: hormone
-updated: '2026-08-20T07:35:01.934630Z'
+updated: '2026-08-20T07:35:21.922157Z'
 ---
 
 {% raw %}

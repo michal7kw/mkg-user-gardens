@@ -1,7 +1,7 @@
 ---
 aliases:
 - settings
-created: '2026-08-20T07:35:04.678831Z'
+created: '2026-08-20T07:35:25.325521Z'
 description: Manage profile, security, goals, display, AI, and privacy
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Settings — Guide
 type: users_guide
-updated: '2026-08-20T07:35:04.678831Z'
+updated: '2026-08-20T07:35:25.325521Z'
 ---
 
 {% raw %}

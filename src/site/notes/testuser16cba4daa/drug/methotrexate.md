@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Methotrexate
 type: drug
-updated: '2026-08-20T07:35:01.585857Z'
+updated: '2026-08-20T07:35:21.577357Z'
 ---
 
 {% raw %}

@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: arachidonic_acid_epa_ratio
 type: labtest
-updated: '2026-08-20T07:35:02.192504Z'
+updated: '2026-08-20T07:35:22.252562Z'
 ---
 
 {% raw %}

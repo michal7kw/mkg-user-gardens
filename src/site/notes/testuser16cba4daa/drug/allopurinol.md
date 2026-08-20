@@ -42,7 +42,7 @@ tags:
 templateEngineOverride: njk
 title: Allopurinol
 type: drug
-updated: '2026-08-20T07:35:01.398051Z'
+updated: '2026-08-20T07:35:21.409498Z'
 ---
 
 {% raw %}

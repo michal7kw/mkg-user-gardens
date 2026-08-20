@@ -1,7 +1,7 @@
 ---
 aliases:
 - network-analysis
-created: '2026-08-20T07:35:04.669573Z'
+created: '2026-08-20T07:35:25.319458Z'
 description: Explore BiomedKG interaction networks with propagation (experimental)
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Network Analysis — Guide
 type: users_guide
-updated: '2026-08-20T07:35:04.669573Z'
+updated: '2026-08-20T07:35:25.319458Z'
 ---
 
 {% raw %}

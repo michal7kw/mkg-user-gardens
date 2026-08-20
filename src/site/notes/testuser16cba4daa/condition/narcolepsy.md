@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Narcolepsy
 type: condition
-updated: '2026-08-20T07:35:00.832635Z'
+updated: '2026-08-20T07:35:20.523034Z'
 ---
 
 {% raw %}

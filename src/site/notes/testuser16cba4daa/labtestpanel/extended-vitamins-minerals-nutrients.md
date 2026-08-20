@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: extended_vitamins_minerals_nutrients
 type: labtestpanel
-updated: '2026-08-20T07:35:03.042543Z'
+updated: '2026-08-20T07:35:23.129469Z'
 ---
 
 {% raw %}

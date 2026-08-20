@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: apoe_genotype
 type: labtest
-updated: '2026-08-20T07:35:02.181060Z'
+updated: '2026-08-20T07:35:22.241973Z'
 ---
 
 {% raw %}

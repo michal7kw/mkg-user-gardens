@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: thyroglobulin_antibodies_tgab
 type: labtest
-updated: '2026-08-20T07:35:02.862498Z'
+updated: '2026-08-20T07:35:22.949970Z'
 ---
 
 {% raw %}

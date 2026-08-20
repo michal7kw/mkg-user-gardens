@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Bursitis
 type: condition
-updated: '2026-08-20T07:35:00.162420Z'
+updated: '2026-08-20T07:35:19.993775Z'
 ---
 
 {% raw %}

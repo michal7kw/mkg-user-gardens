@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: food_allergies_ige
 type: labtestpanel
-updated: '2026-08-20T07:35:03.045609Z'
+updated: '2026-08-20T07:35:23.132485Z'
 ---
 
 {% raw %}

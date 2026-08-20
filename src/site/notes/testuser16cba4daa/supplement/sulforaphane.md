@@ -30,7 +30,7 @@ tags:
 templateEngineOverride: njk
 title: Sulforaphane
 type: supplement
-updated: '2026-08-20T07:35:04.444135Z'
+updated: '2026-08-20T07:35:25.107951Z'
 ---
 
 {% raw %}

@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Pancreatic Cancer
 type: condition
-updated: '2026-08-20T07:35:00.940360Z'
+updated: '2026-08-20T07:35:20.631558Z'
 ---
 
 {% raw %}
