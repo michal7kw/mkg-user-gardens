@@ -17,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: whole_exome_sequencing
 type: labtest
-updated: '2026-08-20T07:34:22.293725Z'
+updated: '2026-08-20T07:34:42.800933Z'
 ---
 
 {% raw %}

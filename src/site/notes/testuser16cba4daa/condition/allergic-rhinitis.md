@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Allergic Rhinitis
 type: condition
-updated: '2026-08-20T07:34:19.341448Z'
+updated: '2026-08-20T07:34:39.992646Z'
 ---
 
 {% raw %}

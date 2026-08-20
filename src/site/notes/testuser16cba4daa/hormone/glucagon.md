@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Glucagon
 type: hormone
-updated: '2026-08-20T07:34:21.043811Z'
+updated: '2026-08-20T07:34:41.780168Z'
 ---
 
 {% raw %}

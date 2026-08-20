@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Isocitrate Dehydrogenase
 type: protein
-updated: '2026-08-20T07:34:23.337001Z'
+updated: '2026-08-20T07:34:43.750317Z'
 ---
 
 {% raw %}

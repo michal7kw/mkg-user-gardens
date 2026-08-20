@@ -35,7 +35,7 @@ tags:
 templateEngineOverride: njk
 title: Lions Mane
 type: supplement
-updated: '2026-08-20T07:34:23.790224Z'
+updated: '2026-08-20T07:34:44.261767Z'
 ---
 
 {% raw %}

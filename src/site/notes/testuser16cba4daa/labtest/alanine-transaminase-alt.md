@@ -110,7 +110,7 @@ tags:
 templateEngineOverride: njk
 title: alanine_transaminase_alt
 type: labtest
-updated: '2026-08-20T07:34:21.193700Z'
+updated: '2026-08-20T07:34:41.917491Z'
 ---
 
 {% raw %}

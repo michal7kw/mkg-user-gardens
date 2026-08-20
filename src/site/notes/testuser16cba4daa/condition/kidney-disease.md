@@ -21,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Kidney Disease
 type: condition
-updated: '2026-08-20T07:34:19.923810Z'
+updated: '2026-08-20T07:34:40.694081Z'
 ---
 
 {% raw %}

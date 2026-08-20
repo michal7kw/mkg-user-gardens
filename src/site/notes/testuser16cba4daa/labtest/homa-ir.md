@@ -16,7 +16,7 @@ tags:
 templateEngineOverride: njk
 title: homa_ir
 type: labtest
-updated: '2026-08-20T07:34:21.558883Z'
+updated: '2026-08-20T07:34:42.267391Z'
 ---
 
 {% raw %}

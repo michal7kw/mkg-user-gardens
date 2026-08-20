@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: eosinophils
 type: labtest
-updated: '2026-08-20T07:34:21.443017Z'
+updated: '2026-08-20T07:34:42.158595Z'
 ---
 
 {% raw %}

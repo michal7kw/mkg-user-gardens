@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: STAT3
 type: protein
-updated: '2026-08-20T07:34:23.395152Z'
+updated: '2026-08-20T07:34:43.818966Z'
 ---
 
 {% raw %}

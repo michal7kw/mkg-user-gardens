@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Mitochondrial Biogenesis
 type: pathway
-updated: '2026-08-20T07:34:23.095265Z'
+updated: '2026-08-20T07:34:43.494924Z'
 ---
 
 {% raw %}

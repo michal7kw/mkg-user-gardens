@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Lymphocytes
 type: biomarker
-updated: '2026-08-20T07:34:18.761285Z'
+updated: '2026-08-20T07:34:39.341300Z'
 ---
 
 {% raw %}

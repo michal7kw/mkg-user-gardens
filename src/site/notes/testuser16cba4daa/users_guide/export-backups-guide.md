@@ -1,7 +1,7 @@
 ---
 aliases:
 - import-export
-created: '2026-08-20T07:34:24.166442Z'
+created: '2026-08-20T07:34:44.729158Z'
 description: Import data, export in multiple formats, and manage backups
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Export & Backups — Guide
 type: users_guide
-updated: '2026-08-20T07:34:24.166442Z'
+updated: '2026-08-20T07:34:44.729158Z'
 ---
 
 {% raw %}

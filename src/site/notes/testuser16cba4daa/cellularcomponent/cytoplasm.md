@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Cytoplasm
 type: cellularcomponent
-updated: '2026-08-20T07:34:19.152862Z'
+updated: '2026-08-20T07:34:39.776226Z'
 ---
 
 {% raw %}

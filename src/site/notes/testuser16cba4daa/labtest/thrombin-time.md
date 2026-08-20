@@ -112,7 +112,7 @@ tags:
 templateEngineOverride: njk
 title: thrombin_time
 type: labtest
-updated: '2026-08-20T07:34:22.173656Z'
+updated: '2026-08-20T07:34:42.648356Z'
 ---
 
 {% raw %}

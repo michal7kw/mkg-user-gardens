@@ -1,5 +1,5 @@
 ---
-created: '2026-08-20T07:34:21.002823Z'
+created: '2026-08-20T07:34:41.747204Z'
 description: A foundational cardiovascular stack targeting key lipid markers and inflammation.
   Omega-3 fatty acids reduce triglycerides and inflammation, CoQ10 supports mitochondrial
   energy in cardiac cells, magnesium helps regulate heart rhythm, and garlic extract
@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Heart Health
 type: healthstack
-updated: '2026-08-20T07:34:21.002823Z'
+updated: '2026-08-20T07:34:41.747204Z'
 ---
 
 {% raw %}

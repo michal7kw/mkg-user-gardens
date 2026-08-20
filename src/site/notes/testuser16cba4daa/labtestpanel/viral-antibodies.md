@@ -32,7 +32,7 @@ tags:
 templateEngineOverride: njk
 title: viral_antibodies
 type: labtestpanel
-updated: '2026-08-20T07:34:22.392693Z'
+updated: '2026-08-20T07:34:42.907402Z'
 ---
 
 {% raw %}

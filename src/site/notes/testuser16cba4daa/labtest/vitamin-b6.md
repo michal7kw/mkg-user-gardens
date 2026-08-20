@@ -50,7 +50,7 @@ tags:
 templateEngineOverride: njk
 title: vitamin_b6
 type: labtest
-updated: '2026-08-20T07:34:22.277560Z'
+updated: '2026-08-20T07:34:42.783107Z'
 ---
 
 {% raw %}

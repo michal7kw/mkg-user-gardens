@@ -18,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: color_urine
 type: labtest
-updated: '2026-08-20T07:34:21.363675Z'
+updated: '2026-08-20T07:34:42.085532Z'
 ---
 
 {% raw %}

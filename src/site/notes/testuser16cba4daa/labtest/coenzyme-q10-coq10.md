@@ -18,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: coenzyme_q10_coq10
 type: labtest
-updated: '2026-08-20T07:34:21.362445Z'
+updated: '2026-08-20T07:34:42.084515Z'
 ---
 
 {% raw %}

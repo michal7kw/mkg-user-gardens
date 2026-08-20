@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: ATP Synthase
 type: protein
-updated: '2026-08-20T07:34:23.245862Z'
+updated: '2026-08-20T07:34:43.661962Z'
 ---
 
 {% raw %}

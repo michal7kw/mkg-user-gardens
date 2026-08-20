@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: APP
 type: protein
-updated: '2026-08-20T07:34:23.240839Z'
+updated: '2026-08-20T07:34:43.656384Z'
 ---
 
 {% raw %}

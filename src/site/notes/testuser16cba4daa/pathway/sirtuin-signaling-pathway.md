@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Sirtuin Signaling Pathway
 type: pathway
-updated: '2026-08-20T07:34:23.154259Z'
+updated: '2026-08-20T07:34:43.565016Z'
 ---
 
 {% raw %}

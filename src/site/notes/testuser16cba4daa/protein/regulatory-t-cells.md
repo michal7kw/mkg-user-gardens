@@ -27,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Regulatory T Cells
 type: protein
-updated: '2026-08-20T07:34:23.381328Z'
+updated: '2026-08-20T07:34:43.798368Z'
 ---
 
 {% raw %}

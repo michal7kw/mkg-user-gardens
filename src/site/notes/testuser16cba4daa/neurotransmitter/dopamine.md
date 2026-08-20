@@ -31,7 +31,7 @@ tags:
 templateEngineOverride: njk
 title: Dopamine
 type: neurotransmitter
-updated: '2026-08-20T07:34:22.652170Z'
+updated: '2026-08-20T07:34:43.179678Z'
 ---
 
 {% raw %}

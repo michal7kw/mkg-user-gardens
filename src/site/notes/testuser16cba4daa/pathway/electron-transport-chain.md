@@ -28,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Electron Transport Chain
 type: pathway
-updated: '2026-08-20T07:34:23.025017Z'
+updated: '2026-08-20T07:34:43.442959Z'
 ---
 
 {% raw %}

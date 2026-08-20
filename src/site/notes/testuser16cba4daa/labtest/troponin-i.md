@@ -20,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: troponin_i
 type: labtest
-updated: '2026-08-20T07:34:22.237609Z'
+updated: '2026-08-20T07:34:42.732176Z'
 ---
 
 {% raw %}
