@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Immune System
 type: organ
-updated: '2026-08-20T07:34:43.347740Z'
+updated: '2026-08-20T07:35:03.442052Z'
 ---
 
 {% raw %}

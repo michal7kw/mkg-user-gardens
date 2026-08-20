@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Selenium
 type: supplement
-updated: '2026-08-20T07:34:44.420240Z'
+updated: '2026-08-20T07:35:04.422133Z'
 ---
 
 {% raw %}

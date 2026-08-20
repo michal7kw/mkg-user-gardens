@@ -1,7 +1,7 @@
 ---
 aliases:
 - 06_Exploring_the_Knowledge_Graph
-created: '2026-08-20T07:34:44.642302Z'
+created: '2026-08-20T07:35:04.586032Z'
 description: Visual graph exploration, search, BodyMap anatomy view, entity detail
   pages, and PathFinder
 dg-home: false
@@ -16,7 +16,7 @@ tags:
 templateEngineOverride: njk
 title: Exploring the Knowledge Graph
 type: users_guide
-updated: '2026-08-20T07:34:44.642302Z'
+updated: '2026-08-20T07:35:04.586032Z'
 ---
 
 {% raw %}

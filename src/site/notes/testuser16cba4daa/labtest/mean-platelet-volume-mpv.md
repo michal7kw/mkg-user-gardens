@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: mean_platelet_volume_mpv
 type: labtest
-updated: '2026-08-20T07:34:42.400862Z'
+updated: '2026-08-20T07:35:02.654269Z'
 ---
 
 {% raw %}

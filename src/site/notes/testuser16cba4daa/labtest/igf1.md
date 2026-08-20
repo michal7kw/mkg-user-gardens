@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: igf1
 type: labtest
-updated: '2026-08-20T07:34:42.288619Z'
+updated: '2026-08-20T07:35:02.509869Z'
 ---
 
 {% raw %}

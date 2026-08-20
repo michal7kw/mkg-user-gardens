@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: red_cell_distribution_width_rdw
 type: labtest
-updated: '2026-08-20T07:34:42.574136Z'
+updated: '2026-08-20T07:35:02.792838Z'
 ---
 
 {% raw %}

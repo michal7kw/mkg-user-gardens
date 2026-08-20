@@ -25,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Kynurenic Acid
 type: metabolite
-updated: '2026-08-20T07:34:43.042033Z'
+updated: '2026-08-20T07:35:03.166981Z'
 ---
 
 {% raw %}

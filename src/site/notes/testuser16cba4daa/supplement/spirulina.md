@@ -29,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Spirulina
 type: supplement
-updated: '2026-08-20T07:34:44.439995Z'
+updated: '2026-08-20T07:35:04.439986Z'
 ---
 
 {% raw %}

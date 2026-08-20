@@ -24,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: mercury
 type: labtest
-updated: '2026-08-20T07:34:42.403594Z'
+updated: '2026-08-20T07:35:02.657289Z'
 ---
 
 {% raw %}

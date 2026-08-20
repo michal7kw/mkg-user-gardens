@@ -47,7 +47,7 @@ tags:
 templateEngineOverride: njk
 title: Dulaglutide
 type: drug
-updated: '2026-08-20T07:34:41.443827Z'
+updated: '2026-08-20T07:35:01.470010Z'
 ---
 
 {% raw %}

@@ -112,7 +112,7 @@ tags:
 templateEngineOverride: njk
 title: iron_binding_capacity
 type: labtest
-updated: '2026-08-20T07:34:42.306683Z'
+updated: '2026-08-20T07:35:02.536545Z'
 ---
 
 {% raw %}

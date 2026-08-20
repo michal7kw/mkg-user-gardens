@@ -32,7 +32,7 @@ tags:
 templateEngineOverride: njk
 title: GABA
 type: neurotransmitter
-updated: '2026-08-20T07:34:43.197587Z'
+updated: '2026-08-20T07:35:03.303582Z'
 ---
 
 {% raw %}

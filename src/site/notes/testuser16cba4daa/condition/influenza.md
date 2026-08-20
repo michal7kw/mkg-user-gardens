@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Influenza
 type: condition
-updated: '2026-08-20T07:34:40.655755Z'
+updated: '2026-08-20T07:35:00.611762Z'
 ---
 
 {% raw %}

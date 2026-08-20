@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Adiponectin
 type: biomarker
-updated: '2026-08-20T07:34:38.756578Z'
+updated: '2026-08-20T07:34:58.579576Z'
 ---
 
 {% raw %}

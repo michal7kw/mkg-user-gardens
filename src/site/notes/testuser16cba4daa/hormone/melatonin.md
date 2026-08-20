@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Melatonin
 type: hormone
-updated: '2026-08-20T07:34:41.790387Z'
+updated: '2026-08-20T07:35:01.952241Z'
 ---
 
 {% raw %}

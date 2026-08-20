@@ -1,7 +1,7 @@
 ---
 aliases:
 - chat
-created: '2026-08-20T07:34:44.720867Z'
+created: '2026-08-20T07:35:04.657928Z'
 description: Ask the knowledge-graph-grounded health assistant
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: AI Assistant — Guide
 type: users_guide
-updated: '2026-08-20T07:34:44.720867Z'
+updated: '2026-08-20T07:35:04.657928Z'
 ---
 
 {% raw %}

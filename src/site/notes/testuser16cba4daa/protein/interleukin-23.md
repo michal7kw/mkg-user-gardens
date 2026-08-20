@@ -22,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Interleukin-23
 type: protein
-updated: '2026-08-20T07:34:43.749242Z'
+updated: '2026-08-20T07:35:03.892107Z'
 ---
 
 {% raw %}

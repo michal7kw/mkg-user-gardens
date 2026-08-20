@@ -26,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Histamine H1 Receptor
 type: protein
-updated: '2026-08-20T07:34:43.746071Z'
+updated: '2026-08-20T07:35:03.885992Z'
 ---
 
 {% raw %}

@@ -18,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: immunoglobulin_a_iga
 type: labtest
-updated: '2026-08-20T07:34:42.291624Z'
+updated: '2026-08-20T07:35:02.513382Z'
 ---
 
 {% raw %}

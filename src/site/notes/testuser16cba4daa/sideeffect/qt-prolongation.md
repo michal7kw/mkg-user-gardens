@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-08-20T07:34:43.919093Z'
+created: '2026-08-20T07:35:04.031489Z'
 description: Drug-induced delay in cardiac ventricular repolarization measured as
   prolonged QTc interval on electrocardiogram, carrying risk of torsades de pointes
   ventricular tachycardia and sudden cardiac death.

@@ -114,7 +114,7 @@ tags:
 templateEngineOverride: njk
 title: thyroid_peroxidase_antibodies_tpo
 type: labtest
-updated: '2026-08-20T07:34:42.666659Z'
+updated: '2026-08-20T07:35:02.871088Z'
 ---
 
 {% raw %}

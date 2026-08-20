@@ -23,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: omega_6_omega_3_ratio
 type: labtest
-updated: '2026-08-20T07:34:42.455584Z'
+updated: '2026-08-20T07:35:02.719001Z'
 ---
 
 {% raw %}
