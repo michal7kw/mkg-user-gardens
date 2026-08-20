@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:14.119231Z'
+created: '2026-04-01T19:57:06.089886+00:00'
 description: Cytochrome P450 2D6, a highly polymorphic drug-metabolizing enzyme responsible
   for the metabolism of approximately 25% of clinically used drugs including SSRIs,
   beta-blockers, opioids, and antipsychotics. Genetic polymorphisms create poor, intermediate,
@@ -11,6 +11,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: cyp2d6
 permalink: /garden/demo_user/protein/cyp2d6/
+provenance: curated
 slug: cyp2d6
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: CYP2D6
 type: protein
-updated: '2026-06-13T17:47:14.119231Z'
+updated: '2026-08-20T04:08:31.656368Z'
 ---
 
 {% raw %}
@@ -97,7 +98,7 @@ INHIBITED_BY::<a href="/garden/demo_user/drug/fluoxetine/" class="internal-link"
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/peripheral-neuropathy/" class="internal-link">Peripheral Neuropathy</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a></p>
 <h3>Interacts With</h3>
-<p>INTERACTS_WITH::<a href="/garden/demo_user/gene/cyp3a4/" class="internal-link">CYP3A4</a></p>
+<p>INTERACTS_WITH::<a href="/garden/demo_user/protein/cyp3a4/" class="internal-link">CYP3A4</a></p>
 <h2>References</h2>
 <ul>
 <li>Gaedigk A et al. The Pharmacogene Variation Consortium: CYP2D6. Clin Pharmacol Ther. 2018;103(3):399-401. PMID:29134625</li>

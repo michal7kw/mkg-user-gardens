@@ -1,13 +1,18 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.270187Z'
+aliases:
+- Cardiovascular Diseases
+confidence_score: 0.95
+created: 2026-01-18T16:02:34+0000
 description: A broad group of disorders of the heart and blood vessels, often caused
   by atherosclerosis and leading to events such as heart attacks and strokes.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: cardiovascular_disease
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/cardiovascular-disease/
+provenance: curated
 slug: cardiovascular-disease
 source: Manual
 tags:
@@ -19,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Cardiovascular Disease
 type: condition
-updated: '2026-06-13T17:47:11.270187Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -52,27 +57,16 @@ updated: '2026-06-13T17:47:11.270187Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/labtest/hdl-cholesterol/" class="internal-link">HDL Cholesterol</a><br />
-RELATED::<a href="/garden/demo_user/labtest/non-hdl-cholesterol/" class="internal-link">non hdl cholesterol</a><br />
-RELATED::<a href="/garden/demo_user/labtest/ldl-pattern/" class="internal-link">ldl pattern</a><br />
-RELATED::<a href="/garden/demo_user/labtest/ldl-medium/" class="internal-link">ldl medium</a><br />
-RELATED::<a href="/garden/demo_user/condition/thyroid-dysfunction/" class="internal-link">Thyroid Dysfunction</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/thyroid-dysfunction/" class="internal-link">Thyroid Dysfunction</a><br />
 RELATED::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="internal-link">LDL Cholesterol</a><br />
-RELATED::<a href="/garden/demo_user/labtest/ldl-particle-number/" class="internal-link">ldl particle number</a><br />
-RELATED::<a href="/garden/demo_user/labtest/ldl-small/" class="internal-link">ldl small</a><br />
-RELATED::<a href="/garden/demo_user/labtest/ldl-peak-size/" class="internal-link">ldl peak size</a><br />
-RELATED::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
-RELATED::<a href="/garden/demo_user/labtest/hdl-large/" class="internal-link">hdl large</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/mediterranean-diet/" class="internal-link">Mediterranean Diet</a><br />
 RELATED::<a href="/garden/demo_user/labtest/total-cholesterol/" class="internal-link">Total Cholesterol</a><br />
-RELATED::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
-RELATED::<a href="/garden/demo_user/labtest/total-cholesterol-hdl-ratio/" class="internal-link">total cholesterol hdl ratio</a><br />
-RELATED::<a href="/garden/demo_user/labtest/high-sensitivity-c-reactive-protein-hs-crp/" class="internal-link">high sensitivity c reactive protein hs crp</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+RELATED::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">high sensitivity c reactive protein hs crp</a><br />
 RELATED::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a><br />
 RELATED::<a href="/garden/demo_user/labtest/uric-acid/" class="internal-link">Uric Acid</a><br />
-RELATED::<a href="/garden/demo_user/labtest/mean-platelet-volume-mpv/" class="internal-link">mean platelet volume mpv</a><br />
-RELATED::<a href="/garden/demo_user/clinicalpattern/kidney-stress-pattern/" class="internal-link">Kidney Stress Pattern</a><br />
-RELATED::<a href="/garden/demo_user/labtest/arachidonic-acid-epa-ratio/" class="internal-link">arachidonic acid epa ratio</a><br />
-RELATED::<a href="/garden/demo_user/labtest/apolipoprotein-b-apob/" class="internal-link">apolipoprotein b apob</a></p>
+RELATED::<a href="/garden/demo_user/clinicalpattern/kidney-stress-pattern/" class="internal-link">Kidney Stress Pattern</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/ldl-cholesterol/" class="internal-link">Ldl</a><br />
@@ -87,5 +81,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/coenzyme-q10/" cla
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-k2/" class="internal-link">Vitamin K2</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/berberine/" class="internal-link">Berberine</a></p>
+<h2>References</h2>
+<ul>
+<li>Arnett DK, Blumenthal RS, Albert MA, et al. Circulation. 2019;140(11):e563-e595. ACC/AHA Guideline on the Primary Prevention of Cardiovascular Disease (PMID: 30879355)</li>
+<li>Yusuf S, Hawken S, Ounpuu S, et al. Lancet. 2004;364(9438):937-952. Effect of potentially modifiable risk factors on MI (INTERHEART) (PMID: 15364185)</li>
+<li>Mach F, Baigent C, Catapano AL, et al. Eur Heart J. 2020;41(1):111-188. ESC/EAS Guidelines for the management of dyslipidaemias (PMID: 31504418)</li>
+</ul>
 
 {% endraw %}

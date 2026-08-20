@@ -1,6 +1,28 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:11.766415Z'
+country_regulatory:
+  it:
+    agency_status: approved
+    atc_code: A10BJ05
+    notes: AIFA-approved for type 2 diabetes (Trulicity).
+    prescription_type: RR
+    reimbursement_class: A
+  pl:
+    agency_status: approved
+    atc_code: A10BJ05
+    notes: URPL/EMA-dopuszczony agonista GLP-1 raz w tygodniu w cukrzycy typu 2 (Trulicity).
+      Częściowo refundowany przez NFZ w cukrzycy typu 2 wg kryteriów. Status refundacji
+      zmienia się — sprawdź aktualne obwieszczenie MZ.
+    prescription_type: Rp
+    reimbursement_class: refundowany
+  uk:
+    agency_status: approved
+    atc_code: A10BJ05
+    notes: MHRA/EMA-approved once-weekly GLP-1 receptor agonist for type 2 diabetes
+      (Trulicity).
+    prescription_type: POM
+    reimbursement_class: NHS
+created: 2026-04-14T00:00:00+0000
 description: GLP-1 receptor agonist for type 2 diabetes. Once-weekly injection providing
   convenient glycemic control with cardiovascular benefit. Available as Trulicity.
   Demonstrated cardiovascular safety in REWIND trial.
@@ -10,6 +32,7 @@ drugbank_id: DB09045
 gardenUsername: demo_user
 id: dulaglutide
 permalink: /garden/demo_user/drug/dulaglutide/
+provenance: curated
 pubchem_id: 139193804
 slug: dulaglutide
 source: Manual
@@ -24,7 +47,7 @@ tags:
 templateEngineOverride: njk
 title: Dulaglutide
 type: drug
-updated: '2026-06-13T17:47:11.766415Z'
+updated: '2026-08-20T04:08:30.084280Z'
 ---
 
 {% raw %}
@@ -92,11 +115,11 @@ TREATS::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="int
 <h3>Affects Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a> (reduces by 0.8-1.6%, Evidence Level 1a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/metabolite/glucose/" class="internal-link">Glucose</a> (reduces fasting glucose, Evidence Level 1a)<br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Blood Pressure</a> (reduces systolic BP, Evidence Level 2a)<br />
-AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/crp-hs/" class="internal-link">CRP (hs)</a> (reduces inflammation, Evidence Level 2a)</p>
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/examination/blood-pressure/" class="internal-link">Blood Pressure</a> (reduces systolic BP, Evidence Level 2a)<br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">CRP (hs)</a> (reduces inflammation, Evidence Level 2a)</p>
 <h3>Modulates Hormone</h3>
 <p>MODULATES_HORMONE::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a> (enhances glucose-dependent secretion, Evidence Level 1a)<br />
-MODULATES_HORMONE::<a class="internal-link is-unresolved" href="/404">Glucagon</a> (suppresses, Evidence Level 1a)</p>
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/glucagon/" class="internal-link">Glucagon</a> (suppresses, Evidence Level 1a)</p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/pancreas/" class="internal-link">Pancreas</a> (beta-cell stimulation, Evidence Level 1a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a> (cardioprotective effects, Evidence Level 1a)<br />

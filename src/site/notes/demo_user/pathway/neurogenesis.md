@@ -1,5 +1,6 @@
 ---
-created: '2026-06-13T17:47:13.937648Z'
+confidence_score: 0.85
+created: '2026-08-20T04:08:31.536783Z'
 description: Generation of new neurons from neural stem and progenitor cells, occurring
   primarily in the hippocampal dentate gyrus and subventricular zone in the adult
   brain, with implications for memory, mood, and neurodegenerative disease.
@@ -8,7 +9,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: neurogenesis
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/neurogenesis/
+provenance: curated
 slug: neurogenesis
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Neurogenesis
 type: pathway
-updated: '2026-06-13T17:47:13.937648Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -87,11 +90,15 @@ updated: '2026-06-13T17:47:13.937648Z'
 REGULATED_BY::<a class="internal-link is-unresolved" href="/404">BDNF Gene</a><br />
 ENHANCED_BY::<a href="/garden/demo_user/intervention/exercise/" class="internal-link">Exercise</a><br />
 ENHANCED_BY::<a href="/garden/demo_user/supplement/lions-mane/" class="internal-link">Lion's Mane</a><br />
-DECLINES_WITH::<a class="internal-link is-unresolved" href="/404">Aging</a><br />
+DECLINES_WITH::<a href="/garden/demo_user/pathway/aging/" class="internal-link">Aging</a><br />
 IMPAIRED_IN::<a href="/garden/demo_user/condition/depressive-disorder/" class="internal-link">Depressive Disorder</a><br />
 IMPAIRED_IN::<a href="/garden/demo_user/condition/memory-disorders/" class="internal-link">Memory Disorders</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
 ENHANCED_BY::<a href="/garden/demo_user/drug/fluoxetine/" class="internal-link">Fluoxetine</a><br />
 ENHANCED_BY::<a href="/garden/demo_user/drug/sertraline/" class="internal-link">Sertraline</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

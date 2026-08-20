@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.545985Z'
+confidence_score: 0.9
+created: 2026-01-03T17:55:38+0000
 description: Polycystic Ovary Syndrome, a complex hormonal and metabolic disorder
   affecting women of reproductive age.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: pcos
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/pcos/
+provenance: curated
 slug: pcos
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: PCOS
 type: condition
-updated: '2026-06-13T17:47:11.545985Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -59,5 +62,12 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/berberine/" class=
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a></p>
+<h2>References</h2>
+<ul>
+<li>Teede HJ, Misso ML, Costello MF, et al. Hum Reprod Update. 2018;24(6):774-803. International Evidence-Based Guideline for PCOS (PMID: 30052961)</li>
+<li>Rotterdam ESHRE/ASRM-Sponsored PCOS Consensus Workshop Group. Fertil Steril. 2004;81(1):19-25. Revised 2003 consensus on diagnostic criteria (PMID: 14711538)</li>
+<li>Legro RS, Arslanian SA, Ehrmann DA, et al. J Clin Endocrinol Metab. 2013;98(12):4565-4592. Diagnosis and treatment of PCOS (Endocrine Society guideline) (PMID: 24151290)</li>
+<li>Unuane D, Velkeniers B. Best Pract Res Clin Endocrinol Metab. 2020;34(1):100380. PCOS and autoimmune thyroid disease (review) (PMID: 31864980)</li>
+</ul>
 
 {% endraw %}

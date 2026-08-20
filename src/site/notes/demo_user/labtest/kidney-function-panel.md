@@ -2,7 +2,7 @@
 aliases:
 - kidney function panel
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.455728Z'
+created: 2025-12-10T09:07:56+0000
 description: Measures BUN, creatinine, eGFR, cystatin C, and electrolytes to assess
   kidney health.
 dg-home: false
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: test-kidney-001
 permalink: /garden/demo_user/labtest/kidney-function-panel/
+provenance: curated
 slug: kidney-function-panel
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: kidney_function_panel
 type: labtest
-updated: '2026-06-13T17:47:12.455728Z'
+updated: '2026-08-20T04:08:30.732013Z'
 ---
 
 {% raw %}
@@ -44,6 +45,10 @@ updated: '2026-06-13T17:47:12.455728Z'
 <td>Kidney Function</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -55,6 +60,18 @@ updated: '2026-06-13T17:47:12.455728Z'
 <td><strong>Turnaround Time</strong></td>
 <td>1-3 days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$30-$75</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Biomarkers Measured</h2>
@@ -63,7 +80,7 @@ updated: '2026-06-13T17:47:12.455728Z'
 <li><a class="internal-link is-unresolved" href="/404">bun</a></li>
 <li><a href="/garden/demo_user/labtest/creatinine/" class="internal-link">creatinine</a></li>
 <li><a href="/garden/demo_user/biomarker/egfr/" class="internal-link">EGFR</a></li>
-<li><a href="/garden/demo_user/biomarker/cystatin-c/" class="internal-link">Cystatin C</a></li>
+<li><a href="/garden/demo_user/labtest/cystatin-c/" class="internal-link">Cystatin C</a></li>
 </ul>
 <h2>Recommended For</h2>
 <h3>Supplement Monitoring</h3>
@@ -73,11 +90,11 @@ updated: '2026-06-13T17:47:12.455728Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
-<h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/labtest/creatinine/" class="internal-link">creatinine</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/cystatin-c/" class="internal-link">Cystatin C</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">bun</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/egfr/" class="internal-link">EGFR</a></p>
+<h3>Includes Test</h3>
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/blood-urea-nitrogen/" class="internal-link">blood_urea_nitrogen</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/creatinine/" class="internal-link">creatinine</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/creatinine-based-estimated-glomerular-filtration-rate-egfr/" class="internal-link">creatinine_based_estimated_glomerular_filtration_rate_egfr</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/cystatin-c/" class="internal-link">cystatin_c</a></p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

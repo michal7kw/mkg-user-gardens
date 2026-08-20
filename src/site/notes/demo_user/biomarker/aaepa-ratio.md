@@ -3,7 +3,7 @@ aliases:
 - AAEPA Ratio
 - aa epa ratio
 confidence_score: 0.88
-created: '2026-06-13T17:47:10.662062Z'
+created: '2026-02-14T12:00:00+00:00'
 description: The AA/EPA ratio quantifies the balance between arachidonic acid (AA),
   a pro-inflammatory omega-6 fatty acid, and eicosapentaenoic acid (EPA), an anti-inflammatory
   omega-3 fatty acid in blood. It is one of the most clinically validated biomarkers
@@ -11,9 +11,12 @@ description: The AA/EPA ratio quantifies the balance between arachidonic acid (A
   higher ratios indicating a pro-inflammatory state.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: aa_epa_ratio
+last_modified: 2026-06-21T00:00:00+0000
 permalink: /garden/demo_user/biomarker/aaepa-ratio/
+provenance: curated
 slug: aaepa-ratio
 source: Manual
 tags:
@@ -26,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: AA/EPA Ratio
 type: biomarker
-updated: '2026-06-13T17:47:10.662062Z'
+updated: 2026-06-21T00:00:00+0000
 ---
 
 {% raw %}

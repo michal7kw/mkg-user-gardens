@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:14.424192Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:35+0000
 description: N-Acetyl Cysteine, a powerful antioxidant precursor that boosts glutathione
   production. Supports liver detoxification, respiratory health, and has emerging
   applications for mental health.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: nac
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/nac/
+provenance: curated
 pubchem_id: '12035'
 slug: nac
 source: Manual
@@ -23,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: NAC
 type: supplement
-updated: '2026-06-13T17:47:14.424192Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -81,5 +83,12 @@ TARGETS_BIOMARKER::<a href="/garden/demo_user/biomarker/alanine-transaminase/" c
 TARGETS_BIOMARKER::<a href="/garden/demo_user/biomarker/aspartate-aminotransferase/" class="internal-link">Aspartate Aminotransferase</a><br />
 TARGETS_BIOMARKER::<a href="/garden/demo_user/supplement/glutathione/" class="internal-link">Glutathione</a><br />
 TARGETS_BIOMARKER::<a href="/garden/demo_user/biomarker/mpo/" class="internal-link">MPO</a></p>
+<h2>References</h2>
+<ul>
+<li>Aldini G, et al. Free Radic Res. 2018;52(7):751-762. NAC as antioxidant and GSH precursor (PMID: 29589730)</li>
+<li>Tardiolo G, et al. Int J Mol Sci. 2018;19(11):3672. NAC in psychiatric disorders (PMID: 30501008)</li>
+<li>Szlachta N, et al. Pol Merkur Lekarski. 2022. NAC in COPD and chronic bronchitis (review)</li>
+<li>Atkuri KR, et al. Curr Opin Pharmacol. 2007;7(4):355-359. NAC and glutathione (PMID: 17604651)</li>
+</ul>
 
 {% endraw %}

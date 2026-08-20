@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.179535Z'
+created: 2026-03-28T12:00:00+0000
 description: L-3-Hydroxyacyl-CoA is the hydroxylated intermediate of the beta-oxidation
   spiral, formed by stereospecific hydration of trans-2-enoyl-CoA. Its oxidation by
   3-hydroxyacyl-CoA dehydrogenase generates NADH and produces 3-ketoacyl-CoA, making
@@ -12,6 +12,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: 3_hydroxyacyl_coa
 permalink: /garden/demo_user/metabolite/3-hydroxyacyl-coa/
+provenance: curated
 slug: 3-hydroxyacyl-coa
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: 3-Hydroxyacyl-CoA
 type: metabolite
-updated: '2026-06-13T17:47:13.179535Z'
+updated: '2026-08-20T04:08:31.086559Z'
 ---
 
 {% raw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.888429Z'
+created: 2026-01-03T17:55:41+0000
 description: Gluconeogenesis is the metabolic pathway that synthesizes glucose from
   non-carbohydrate precursors, essential for maintaining blood glucose during fasting
   and providing glucose to glucose-dependent tissues.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: gluconeogenesis
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/gluconeogenesis/
+provenance: curated
 slug: gluconeogenesis
 source: Manual
 tags:
@@ -21,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Gluconeogenesis
 type: pathway
-updated: '2026-06-13T17:47:13.888429Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -49,10 +51,14 @@ MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/homa-ir/" class="internal-link">Homa Ir</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/diabetes/" class="internal-link">Diabetes</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/weight-gain/" class="internal-link">Weight Gain</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/nafld/" class="internal-link">NAFLD</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

@@ -1,12 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.934585Z'
-description: '...'
+confidence_score: 0.8
+created: 2025-12-26T00:00:00+0000
+description: HSP90AB1 (Heat Shock Protein 90 Alpha Family Class B Member 1) encodes
+  HSP90beta, the constitutively expressed cytoplasmic isoform of the HSP90 molecular
+  chaperone family.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: hsp90ab1
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/gene/hsp90ab1/
+provenance: curated
 slug: hsp90ab1
 source: Manual
 tags:
@@ -16,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: HSP90AB1
 type: gene
-updated: '2026-06-13T17:47:11.934585Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -45,19 +50,24 @@ updated: '2026-06-13T17:47:11.934585Z'
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/cellularcomponent/proteasome/" class="internal-link">Proteasome</a><br />
 RELATED::<a href="/garden/demo_user/protein/nrf2/" class="internal-link">NRF2</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Cytoplasm</a></p>
+RELATED::<a href="/garden/demo_user/cellularcomponent/cytoplasm/" class="internal-link">Cytoplasm</a></p>
 <h3>Interacts With</h3>
-<p>INTERACTS_WITH::<a href="/garden/demo_user/gene/ubc/" class="internal-link">UBC</a><br />
-INTERACTS_WITH::<a href="/garden/demo_user/gene/src/" class="internal-link">SRC</a><br />
-INTERACTS_WITH::<a href="/garden/demo_user/gene/grb2/" class="internal-link">GRB2</a><br />
-INTERACTS_WITH::<a class="internal-link is-unresolved" href="/404">p53</a></p>
+<p>INTERACTS_WITH::<a href="/garden/demo_user/protein/ubc/" class="internal-link">UBC</a><br />
+INTERACTS_WITH::<a href="/garden/demo_user/protein/src/" class="internal-link">SRC</a><br />
+INTERACTS_WITH::<a href="/garden/demo_user/protein/grb2/" class="internal-link">GRB2</a><br />
+INTERACTS_WITH::<a href="/garden/demo_user/protein/tp53/" class="internal-link">p53</a></p>
 <h3>Participates In Pathway</h3>
 <p>PARTICIPATES_IN_PATHWAY::<a href="/garden/demo_user/pathway/nf-kb-pathway/" class="internal-link">NF-kB Pathway</a><br />
-PARTICIPATES_IN_PATHWAY::<a class="internal-link is-unresolved" href="/404">PI3K-Akt Pathway</a><br />
+PARTICIPATES_IN_PATHWAY::<a href="/garden/demo_user/pathway/pi3k-akt-pathway/" class="internal-link">PI3K-Akt Pathway</a><br />
 PARTICIPATES_IN_PATHWAY::<a class="internal-link is-unresolved" href="/404">Protein Folding Pathway</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cancer/" class="internal-link">Cancer</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimer's Disease</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/autoimmune-disease/" class="internal-link">Autoimmune Disease</a></p>
+<h2>References</h2>
+<ul>
+<li>Stelzer G, et al. Nucleic Acids Res. 2016;44(D1):D978-D985. The GeneCards Suite (PMID: 26400158)</li>
+<li>Safran M, et al. Nucleic Acids Res. 2010;38(Suppl 1):D740-D744. GeneCards (PMID: 19906715)</li>
+</ul>
 
 {% endraw %}

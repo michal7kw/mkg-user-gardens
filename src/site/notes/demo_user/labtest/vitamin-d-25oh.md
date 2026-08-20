@@ -7,8 +7,8 @@ country_availability:
       steps:
       - Vitamin D is excluded from the SSN LEA for most adults
       - Pay out-of-pocket at a private lab
-      - 'Exception: documented risk factors (osteoporosis etc.) qualify for SSN coverage
-        with a specialist''s referral'
+      - '''Exception: documented risk factors (osteoporosis etc.) qualify for SSN
+        coverage with a specialist''''s referral'''
       type: private_walk_in
     coverage_tier: private_only_moderate
     exemptions:
@@ -87,7 +87,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.985513Z'
+created: 2025-12-10T09:07:57+0000
 description: Primary vitamin D status marker. Important for bone health, immune function,
   and overall wellness.
 dg-home: false
@@ -96,6 +96,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: test-vitd-001
 permalink: /garden/demo_user/labtest/vitamin-d-25oh/
+provenance: curated
 slug: vitamin-d-25oh
 source: Manual
 tags:
@@ -103,7 +104,7 @@ tags:
 templateEngineOverride: njk
 title: vitamin_d_25oh
 type: labtest
-updated: '2026-06-13T17:47:12.985513Z'
+updated: '2026-08-20T04:08:31.003271Z'
 ---
 
 {% raw %}
@@ -129,6 +130,10 @@ updated: '2026-06-13T17:47:12.985513Z'
 <td>Other</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -139,6 +144,18 @@ updated: '2026-06-13T17:47:12.985513Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>2-5 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$35-$85</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>

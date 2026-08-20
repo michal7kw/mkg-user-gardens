@@ -1,13 +1,14 @@
 ---
 aliases:
 - 01_Getting_Started
-created: '2026-06-13T17:47:14.560765Z'
+created: '2026-08-20T04:08:32.141519Z'
 description: 'Step-by-step setup guide: download the vault, install the plugin, configure
   settings, and first login'
 dg-home: false
 dg-publish: true
 gardenUsername: demo_user
 permalink: /garden/demo_user/users_guide/getting-started/
+provenance: curated
 slug: getting-started
 tags:
 - users_guide
@@ -15,7 +16,7 @@ tags:
 templateEngineOverride: njk
 title: Getting Started
 type: users_guide
-updated: '2026-06-13T17:47:14.560765Z'
+updated: '2026-08-20T04:08:32.141519Z'
 ---
 
 {% raw %}

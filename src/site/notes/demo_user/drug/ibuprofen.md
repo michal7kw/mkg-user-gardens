@@ -1,5 +1,5 @@
 ---
-confidence_score: 0.0
+confidence_score: 0.8
 country_regulatory:
   it:
     agency_status: approved
@@ -8,6 +8,14 @@ country_regulatory:
       may be class A with a note
     prescription_type: OTC/SOP
     reimbursement_class: C
+  pl:
+    agency_status: approved
+    atc_code: M01AE01
+    notes: URPL/EMA-approved; sold OTC at common strengths (up to 400 mg; brands Ibuprom,
+      Nurofen, Ibum), higher-strength/prescription packs are Rp and may be reimbursed;
+      Polish name ibuprofen
+    prescription_type: OTC/Rp
+    reimbursement_class: 100% (OTC) / refundowany for prescription packs
   uk:
     agency_status: MHRA-approved
     atc_code: M01AE01
@@ -15,15 +23,18 @@ country_regulatory:
       NHS-prescribable
     prescription_type: GSL/P
     reimbursement_class: NHS
-created: '2026-06-13T17:47:11.800420Z'
+created: 2026-01-03T17:55:40+0000
 description: Nonsteroidal anti-inflammatory drug (NSAID) for pain, fever, and inflammation.
   Reversibly inhibits COX-1 and COX-2 enzymes. One of the most widely used OTC pain
   relievers.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: ibuprofen
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/ibuprofen/
+provenance: curated
 slug: ibuprofen
 source: Manual
 tags:
@@ -36,7 +47,7 @@ tags:
 templateEngineOverride: njk
 title: Ibuprofen
 type: drug
-updated: '2026-06-13T17:47:11.800420Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -53,7 +64,7 @@ RELATED::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="inte
 <h3>Treats</h3>
 <p>TREATS::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a></p>
 <h3>Affects Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/stomach/" class="internal-link">Stomach</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/kidneys/" class="internal-link">Kidneys</a></p>
@@ -61,5 +72,9 @@ AFFECTS_ORGAN::<a href="/garden/demo_user/organ/kidneys/" class="internal-link">
 <p>INTERACTS_WITH::<a href="/garden/demo_user/supplement/ginkgo-biloba/" class="internal-link">Ginkgo Biloba</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/drug/aspirin/" class="internal-link">Aspirin</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.372990Z'
+confidence_score: 0.85
+created: 2026-01-18T16:02:34+0000
 description: A range of conditions affecting the gallbladder, most commonly involving
   gallstones or inflammation (cholecystitis).
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: gallbladder_disease
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/gallbladder-disease/
+provenance: curated
 slug: gallbladder-disease
 source: Manual
 tags:
@@ -17,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Gallbladder Disease
 type: condition
-updated: '2026-06-13T17:47:11.372990Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -46,9 +49,8 @@ updated: '2026-06-13T17:47:11.372990Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/labtest/amylase/" class="internal-link">amylase</a><br />
-RELATED::<a href="/garden/demo_user/labtest/bilirubin-urine/" class="internal-link">bilirubin urine</a><br />
 RELATED::<a href="/garden/demo_user/labtest/lipase/" class="internal-link">lipase</a><br />
-AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Gallbladder</a><br />
+AFFECTS_ORGAN::<a href="/garden/demo_user/organ/gallbladder/" class="internal-link">Gallbladder</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">Bilirubin</a><br />
@@ -61,5 +63,11 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/triglycerides/" class="inter
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/probiotics/" class="internal-link">Probiotics</a></p>
+<h2>References</h2>
+<ul>
+<li>Portincasa P, Moschetta A, Palasciano G. Lancet. 2006;368(9531):230-239. Cholesterol gallstone disease (review) (PMID: 16844493)</li>
+<li>Everhart JE, Khare M, Hill M, Maurer KR. Gastroenterology. 1999;116(3):629-634. Prevalence and ethnic differences in gallbladder disease (PMID: 10029622)</li>
+<li>Overby DW, Apelgren KN, Richardson W, Fanelli R. Surg Endosc. 2010;24(10):2364-2386. SAGES guidelines for laparoscopic cholecystectomy (PMID: 20490993)</li>
+</ul>
 
 {% endraw %}

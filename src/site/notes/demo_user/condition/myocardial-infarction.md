@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.503585Z'
+confidence_score: 0.95
+created: 2026-01-18T16:02:34+0000
 description: A life-threatening condition where blood flow to the heart muscle is
   abruptly cut off, causing tissue death, usually due to a blood clot in a coronary
   artery.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: myocardial_infarction
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/myocardial-infarction/
+provenance: curated
 slug: myocardial-infarction
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Myocardial Infarction
 type: condition
-updated: '2026-06-13T17:47:11.503585Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -43,7 +46,6 @@ updated: '2026-06-13T17:47:11.503585Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/clinicalpattern/cardiovascular-risk-pattern/" class="internal-link">Cardiovascular Risk Pattern</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/ldl-cholesterol/" class="internal-link">Ldl</a><br />
@@ -56,5 +58,13 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/coenzyme-q10/" cla
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a></p>
+<h2>References</h2>
+<ul>
+<li>Ibanez B, James S, Agewall S, et al. Eur Heart J. 2018;39(2):119-177. ESC Guidelines for the management of acute myocardial infarction (PMID: 28886621)</li>
+<li>O'Gara PT, Kushner FG, Ascheim DD, et al. Circulation. 2013;127(4):e362-e425. ACC/AHA Guideline for the Management of STEMI (PMID: 23247304)</li>
+<li>Anderson JL, Adams CD, Antman EM, et al. J Am Coll Cardiol. 2007;50(7):e1-e157. ACC/AHA Guidelines for the Management of UA/NSTEMI (PMID: 17692738)</li>
+<li>Bhatt DL, Steg PG, Miller M, et al. N Engl J Med. 2019;380(1):11-22. REDUCE-IT: Icosapent ethyl in high-risk patients (PMID: 30415628)</li>
+<li>Morrow DA, de Lemos JA. N Engl J Med. 2017;376(21):2053-2064. Acute myocardial infarction (review) (PMID: 28528557)</li>
+</ul>
 
 {% endraw %}

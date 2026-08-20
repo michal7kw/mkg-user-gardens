@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:11.509945Z'
+created: 2026-05-27T12:00:00+0000
 description: Narcolepsy is a chronic neurological disorder of unstable sleep-wake
   regulation. Type 1 narcolepsy is caused by selective loss of orexin (hypocretin)-producing
   neurons in the lateral hypothalamus, producing excessive daytime sleepiness, cataplexy,
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: narcolepsy
 permalink: /garden/demo_user/condition/narcolepsy/
+provenance: curated
 slug: narcolepsy
 source: PubMed
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Narcolepsy
 type: condition
-updated: '2026-06-13T17:47:11.509945Z'
+updated: '2026-08-20T04:08:29.731722Z'
 ---
 
 {% raw %}

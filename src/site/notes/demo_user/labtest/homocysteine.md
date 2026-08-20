@@ -84,7 +84,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.415436Z'
+created: 2025-12-10T09:07:57+0000
 description: Amino acid linked to cardiovascular disease and B-vitamin deficiency.
   Elevated levels associated with increased CVD risk.
 dg-home: false
@@ -93,6 +93,7 @@ evidence_level: 0
 gardenUsername: demo_user
 id: test-homocysteine-001
 permalink: /garden/demo_user/labtest/homocysteine/
+provenance: curated
 slug: homocysteine
 source: Manual
 tags:
@@ -100,7 +101,7 @@ tags:
 templateEngineOverride: njk
 title: homocysteine
 type: labtest
-updated: '2026-06-13T17:47:12.415436Z'
+updated: '2026-08-20T04:08:30.700020Z'
 ---
 
 {% raw %}
@@ -125,6 +126,10 @@ updated: '2026-06-13T17:47:12.415436Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -136,6 +141,10 @@ updated: '2026-06-13T17:47:12.415436Z'
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -146,6 +155,8 @@ updated: '2026-06-13T17:47:12.415436Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/labtest/homocysteine/" class="internal-link">Homocysteine</a></p>
 <h3>Enriched</h3>
 <p>INDICATES::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />
 INDICATES::<a href="/garden/demo_user/condition/b-vitamin-deficiency/" class="internal-link">B Vitamin Deficiency</a></p>

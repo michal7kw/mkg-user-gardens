@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:12.658898Z'
+created: '2026-05-03'
 description: 'Comprehensive fatty acid profile measuring EPA, DHA, ALA, DPA, and key
   omega-6 species (arachidonic acid, linoleic acid). Used to derive the Omega-3 Index
   (EPA+DHA as % of total RBC fatty acids), arachidonic acid:EPA ratio, and omega-6:omega-3
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: omega_3_profile
 permalink: /garden/demo_user/labtest/omega-3-profile/
+provenance: curated
 slug: omega-3-profile
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: omega_3_profile
 type: labtest
-updated: '2026-06-13T17:47:12.658898Z'
+updated: '2026-08-20T04:08:30.818733Z'
 ---
 
 {% raw %}
@@ -36,11 +37,9 @@ updated: '2026-06-13T17:47:12.658898Z'
 </ul>
 <p>Common branded versions include Quest OmegaCheck, LabCorp Omega-3 Index Plus, and OmegaQuant Omega-3 Index. Most use HS-GC analysis on RBC membranes (more stable than plasma, reflects 4-month average intake).</p>
 <h2>Relationships</h2>
-<ul>
-<li>MEASURES <a href="/garden/demo_user/nutrient/omega-3-epa/" class="internal-link">Omega-3 (EPA)</a></li>
-<li>MEASURES <a href="/garden/demo_user/nutrient/omega-3-dha/" class="internal-link">Omega-3 (DHA)</a></li>
-<li>MEASURES <a href="/garden/demo_user/labtest/omega3-index/" class="internal-link">Omega3 Index</a></li>
-<li>MEASURES <a href="/garden/demo_user/biomarker/aaepa-ratio/" class="internal-link">AAEPA Ratio</a></li>
-</ul>
+<p>MEASURES::<a href="/garden/demo_user/nutrient/omega-3-epa/" class="internal-link">Omega-3 (EPA)</a><br />
+MEASURES::<a href="/garden/demo_user/nutrient/omega-3-dha/" class="internal-link">Omega-3 (DHA)</a><br />
+MEASURES::<a href="/garden/demo_user/labtest/omega3-index/" class="internal-link">Omega3 Index</a><br />
+MEASURES::<a href="/garden/demo_user/biomarker/aaepa-ratio/" class="internal-link">AAEPA Ratio</a></p>
 
 {% endraw %}

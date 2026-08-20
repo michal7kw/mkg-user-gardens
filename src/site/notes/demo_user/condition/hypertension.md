@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.416804Z'
+created: 2026-01-03T17:55:38+0000
 description: Persistently elevated blood pressure (≥130/80 mmHg) that increases risk
   of heart disease, stroke, kidney disease, and premature death. Often called the
   "silent killer" due to lack of symptoms. Affects nearly half of U.S. adults.
@@ -10,6 +10,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: hypertension
 permalink: /garden/demo_user/condition/hypertension/
+provenance: curated
 slug: hypertension
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Hypertension
 type: condition
-updated: '2026-06-13T17:47:11.416804Z'
+updated: '2026-08-20T04:08:29.603806Z'
 ---
 
 {% raw %}
@@ -104,7 +105,7 @@ updated: '2026-06-13T17:47:11.416804Z'
 RELATED::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
 RELATED::<a href="/garden/demo_user/condition/vascular-dementia/" class="internal-link">Vascular Dementia</a></p>
 <h3>Risk Biomarkers</h3>
-<p>ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">hs-CRP</a><br />
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/creatinine/" class="internal-link">creatinine</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/nutrient/sodium/" class="internal-link">Sodium</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/nutrient/potassium/" class="internal-link">Potassium</a><br />

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.171539Z'
+created: 2025-12-10T09:07:57+0000
 description: Measures 20+ amino acids. Useful for protein metabolism, neurotransmitter
   synthesis, and metabolic disorders.
 dg-home: false
@@ -9,6 +9,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: test-aa-plasma-001
 permalink: /garden/demo_user/labtest/amino-acids-plasma/
+provenance: curated
 slug: amino-acids-plasma
 source: Manual
 tags:
@@ -16,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: amino_acids_plasma
 type: labtest
-updated: '2026-06-13T17:47:12.171539Z'
+updated: '2026-08-20T04:08:30.470050Z'
 ---
 
 {% raw %}
@@ -42,6 +43,10 @@ updated: '2026-06-13T17:47:12.171539Z'
 <td>Amino Acids</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -52,6 +57,18 @@ updated: '2026-06-13T17:47:12.171539Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>7-14 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$199-$349</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>

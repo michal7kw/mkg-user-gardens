@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.804797Z'
+created: 2026-04-01T10:00:00+0000
 description: Chimeric (mouse/human) monoclonal antibody against TNF-alpha (brand Remicade).
   First anti-TNF biologic approved for RA. Given IV in combination with methotrexate.
   Effective in granulomatous diseases unlike etanercept.
@@ -10,6 +10,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: infliximab
 permalink: /garden/demo_user/drug/infliximab/
+provenance: curated
 slug: infliximab
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Infliximab
 type: drug
-updated: '2026-06-13T17:47:11.804797Z'
+updated: '2026-08-20T04:08:30.124791Z'
 ---
 
 {% raw %}
@@ -43,7 +44,7 @@ TREATS::<a href="/garden/demo_user/condition/psoriasis/" class="internal-link">P
 <h3>Modulates Pathway</h3>
 <p>MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/nf-kb-pathway/" class="internal-link">NF-kB Pathway</a></p>
 <h3>Decreases Biomarker</h3>
-<p>DECREASES_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h2>References</h2>
 <ul>
 <li>PMID:10403263</li>

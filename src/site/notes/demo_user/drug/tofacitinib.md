@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.903195Z'
+created: 2026-04-01T10:00:00+0000
 description: First-in-class oral Janus kinase (JAK) inhibitor approved for RA. Preferentially
   inhibits JAK1 and JAK3, blocking signaling from multiple cytokines (IL-2, IL-4,
   IL-6, IL-7, IL-9, IL-15, IL-21). Oral small molecule alternative to biologic DMARDs.
@@ -10,6 +10,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: tofacitinib
 permalink: /garden/demo_user/drug/tofacitinib/
+provenance: curated
 slug: tofacitinib
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Tofacitinib
 type: drug
-updated: '2026-06-13T17:47:11.903195Z'
+updated: '2026-08-20T04:08:30.209515Z'
 ---
 
 {% raw %}
@@ -38,7 +39,7 @@ updated: '2026-06-13T17:47:11.903195Z'
 <h3>Modulates Pathway</h3>
 <p>MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/jak-stat-signaling-pathway/" class="internal-link">JAK-STAT Signaling Pathway</a></p>
 <h3>Decreases Biomarker</h3>
-<p>DECREASES_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a><br />
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a><br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/esr/" class="internal-link">esr</a></p>
 <h2>References</h2>
 <ul>

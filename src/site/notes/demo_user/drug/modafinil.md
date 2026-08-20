@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.846926Z'
+created: 2026-01-03T17:55:41+0000
 description: Wakefulness-promoting agent used for narcolepsy, sleep apnea, and shift
   work disorder. Popular off-label as a cognitive enhancer. Mechanism distinct from
   traditional stimulants.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: modafinil
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/modafinil/
+provenance: curated
 slug: modafinil
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Modafinil
 type: drug
-updated: '2026-06-13T17:47:11.846926Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -59,5 +62,9 @@ AFFECTS_BRAIN_REGION::<a class="internal-link is-unresolved" href="/404">Hypotha
 <h3>Improves Function</h3>
 <p>IMPROVES_FUNCTION::<a href="/garden/demo_user/cognitivefunction/attention-and-focus/" class="internal-link">Attention and Focus</a><br />
 IMPROVES_FUNCTION::<a href="/garden/demo_user/cognitivefunction/executive-function/" class="internal-link">Executive Function</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

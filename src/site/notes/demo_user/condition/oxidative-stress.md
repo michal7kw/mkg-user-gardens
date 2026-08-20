@@ -1,15 +1,18 @@
 ---
-confidence_score: 0.9
-created: '2026-06-13T17:47:11.542959Z'
+confidence_score: 0.75
+created: 2025-01-03T00:00:00+0000
 description: Oxidative stress is an imbalance between the production of reactive oxygen
   species (ROS) and the biological system's ability to detoxify or repair the resulting
   damage. It is implicated in many pathological conditions including neurodegeneration,
   cardiovascular diseases, and metabolic disorders.
 dg-home: false
 dg-publish: true
+evidence_level: 3
 gardenUsername: demo_user
 id: oxidative_stress
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/oxidative-stress/
+provenance: curated
 slug: oxidative-stress
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Oxidative Stress
 type: condition
-updated: '2026-06-13T17:47:11.542959Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -76,5 +79,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-e/" class=
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/alpha-lipoic-acid/" class="internal-link">Alpha Lipoic Acid</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/sulforaphane/" class="internal-link">Sulforaphane</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/resveratrol/" class="internal-link">Resveratrol</a></p>
+<h2>References</h2>
+<ul>
+<li>Betteridge DJ. Metab Syndr Relat Disord. 2000;18(3):121-126. What is oxidative stress? (review)</li>
+<li>Pizzino G, Irrera N, Cucinotta M, et al. Oxid Med Cell Longev. 2017;2017:8416763. Oxidative stress (review) (PMID: 28819546)</li>
+<li>Sies H, Berndt C, Jones DP. Annu Rev Biochem. 2017;86:715-748. Oxidative stress (review) (PMID: 28441057)</li>
+</ul>
 
 {% endraw %}

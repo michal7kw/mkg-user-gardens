@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.617520Z'
+created: '2026-01-19T08:30:04.956408+00:00'
 description: Tested twice a year Nitrites in urine can form when bacteria in the urinary
   tract convert naturally occurring nitrates into nitrites. Because nitrites in urine
   are not normally present in healthy individuals, their presence can serve as a marker
@@ -12,6 +12,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-nitrite-urine
 permalink: /garden/demo_user/labtest/nitrite-urine/
+provenance: curated
 slug: nitrite-urine
 source: Manual
 tags:
@@ -19,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: nitrite_urine
 type: labtest
-updated: '2026-06-13T17:47:12.617520Z'
+updated: '2026-08-20T04:08:30.804709Z'
 ---
 
 {% raw %}
@@ -45,6 +46,10 @@ updated: '2026-06-13T17:47:12.617520Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -55,6 +60,18 @@ updated: '2026-06-13T17:47:12.617520Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>

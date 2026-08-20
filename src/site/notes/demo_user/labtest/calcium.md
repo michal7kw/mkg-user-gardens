@@ -90,7 +90,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.242410Z'
+created: 2026-01-18T16:02:30+0000
 description: Tested twice a year Calcium levels help understand symptoms related to
   the kidneys, bones, thyroid, parathyroid, or nerves. Calcium is a mineral the body
   uses to build and maintain strong bones, teeth, muscle control, and blood circulation.
@@ -102,6 +102,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-calcium
 permalink: /garden/demo_user/labtest/calcium/
+provenance: curated
 slug: calcium
 source: Manual
 tags:
@@ -111,7 +112,7 @@ tags:
 templateEngineOverride: njk
 title: calcium
 type: labtest
-updated: '2026-06-13T17:47:12.242410Z'
+updated: '2026-08-20T04:08:30.551895Z'
 ---
 
 {% raw %}
@@ -137,6 +138,10 @@ updated: '2026-06-13T17:47:12.242410Z'
 <td>Nutrient Panel</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -148,6 +153,18 @@ updated: '2026-06-13T17:47:12.242410Z'
 <td><strong>Turnaround Time</strong></td>
 <td>3-7 days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -158,18 +175,18 @@ updated: '2026-06-13T17:47:12.242410Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a></p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/labtest/comprehensive-metabolic-panel/" class="internal-link">comprehensive metabolic panel</a><br />
 RELATED::<a href="/garden/demo_user/condition/chronic-kidney-disease/" class="internal-link">Chronic Kidney Disease</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Malignancy</a><br />
-RELATED::<a href="/garden/demo_user/labtestpanel/mthfr-gene/" class="internal-link">mthfr gene</a><br />
 RELATED::<a href="/garden/demo_user/condition/vitamin-d-deficiency/" class="internal-link">Vitamin D Deficiency</a><br />
-RELATED::<a href="/garden/demo_user/labtestpanel/extended-vitamins-minerals-nutrients/" class="internal-link">extended vitamins minerals nutrients</a><br />
+RELATED::<br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Hyperparathyroidism</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Hypoparathyroidism</a></p>
 <h3>Included In</h3>
-<p>INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/extended-vitamins-minerals-nutrients/" class="internal-link">extended vitamins minerals nutrients</a><br />
-INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/mthfr-gene/" class="internal-link">mthfr gene</a></p>
+<p>INCLUDED_IN::</p>
 <h3>May Detect</h3>
 <p>MAY_DETECT::<a href="/garden/demo_user/condition/chronic-kidney-disease/" class="internal-link">Chronic Kidney Disease</a></p>
 <h3>Associated With Condition</h3>

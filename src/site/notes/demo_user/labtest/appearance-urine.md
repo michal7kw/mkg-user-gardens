@@ -2,7 +2,7 @@
 aliases:
 - appearance urine
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.201679Z'
+created: '2026-01-19T08:30:04.506887+00:00'
 description: Tested twice a year The appearance of urine—its color, clarity, and presence
   of foam—can provide simple but valuable clues about hydration, diet, and overall
   metabolic balance. Possible symptoms CLOUDY URINE FOAMY URINE DARK URINE PINK OR
@@ -13,6 +13,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-appearance-urine
 permalink: /garden/demo_user/labtest/appearance-urine/
+provenance: curated
 slug: appearance-urine
 source: Manual
 tags:
@@ -20,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: appearance_urine
 type: labtest
-updated: '2026-06-13T17:47:12.201679Z'
+updated: '2026-08-20T04:08:30.513054Z'
 ---
 
 {% raw %}
@@ -46,6 +47,10 @@ updated: '2026-06-13T17:47:12.201679Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -56,6 +61,18 @@ updated: '2026-06-13T17:47:12.201679Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -69,10 +86,10 @@ updated: '2026-06-13T17:47:12.201679Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a class="internal-link is-unresolved" href="/404">Kidney Stone Disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Liver Dysfunction</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Kidney Disease</a><br />
+RELATED::<a href="/garden/demo_user/condition/liver-dysfunction/" class="internal-link">Liver Dysfunction</a><br />
+RELATED::<a href="/garden/demo_user/condition/kidney-disease/" class="internal-link">Kidney Disease</a><br />
 RELATED::<a href="/garden/demo_user/condition/bladder-disease/" class="internal-link">Bladder Disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Urinary Tract Infection Uti</a></p>
+RELATED::<a href="/garden/demo_user/condition/urinary-tract-infection/" class="internal-link">Urinary Tract Infection Uti</a></p>
 <h3>May Detect</h3>
 <p>MAY_DETECT::<a href="/garden/demo_user/condition/bladder-disease/" class="internal-link">Bladder Disease</a></p>
 <h3>Associated With Condition</h3>

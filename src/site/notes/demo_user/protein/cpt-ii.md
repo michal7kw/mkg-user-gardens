@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.92
-created: '2026-06-13T17:47:14.095236Z'
+created: 2026-03-28T12:00:00+0000
 description: Carnitine palmitoyltransferase II, located on the inner mitochondrial
   membrane matrix side. Regenerates fatty acyl-CoA from acylcarnitine inside the mitochondrial
   matrix, completing the carnitine shuttle for beta-oxidation.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: cpt_ii
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/protein/cpt-ii/
+provenance: curated
 slug: cpt-ii
 source: Manual
 tags:
@@ -20,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: CPT-II
 type: protein
-updated: '2026-06-13T17:47:14.095236Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -50,5 +52,10 @@ RELATED::<a href="/garden/demo_user/cellularcomponent/mitochondria/" class="inte
 <h3>Catalyzes</h3>
 <p>CATALYZES::<a href="/garden/demo_user/metabolite/fatty-acyl-coa/" class="internal-link">Fatty Acyl-CoA</a><br />
 CATALYZES::<a href="/garden/demo_user/metabolite/acylcarnitine/" class="internal-link">Acylcarnitine</a></p>
+<h2>References</h2>
+<ul>
+<li>UniProt Consortium. Nucleic Acids Res. 2023;51(D1):D523-D531. UniProt (PMID: 36408955)</li>
+<li>Uhlén M, et al. Science. 2015;347(6220):1260419. The Human Protein Atlas (PMID: 25613900)</li>
+</ul>
 
 {% endraw %}

@@ -1,13 +1,14 @@
 ---
 aliases:
 - 09_AI_Research_Tools
-created: '2026-06-13T17:47:14.606734Z'
+created: '2026-08-20T04:08:32.175630Z'
 description: AI chat, deep research, PubMed search, entity extraction, note analysis,
   and citation suggestions
 dg-home: false
 dg-publish: true
 gardenUsername: demo_user
 permalink: /garden/demo_user/users_guide/ai-research-tools/
+provenance: curated
 slug: ai-research-tools
 tags:
 - users_guide
@@ -15,7 +16,7 @@ tags:
 templateEngineOverride: njk
 title: AI Research Tools
 type: users_guide
-updated: '2026-06-13T17:47:14.606734Z'
+updated: '2026-08-20T04:08:32.175630Z'
 ---
 
 {% raw %}

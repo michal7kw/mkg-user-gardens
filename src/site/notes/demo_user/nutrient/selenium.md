@@ -1,13 +1,16 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.733048Z'
+created: '2026-04-05T16:16:21.034136+00:00'
 description: Trace mineral essential for thyroid hormone metabolism (deiodinase enzymes),
   antioxidant defense (glutathione peroxidase), and immune function.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_selenium
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/selenium/
+provenance: curated
 slug: selenium
 source: dev_seeder
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Selenium
 type: nutrient
-updated: '2026-06-13T17:47:13.733048Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -52,11 +55,11 @@ updated: '2026-06-13T17:47:13.733048Z'
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/thyroid/" class="internal-link">Thyroid</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a></li>
-<li>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Prostate</a></li>
+<li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/prostate/" class="internal-link">Prostate</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/free-t3/" class="internal-link">Free T3</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/tsh/" class="internal-link">tsh</a></li>
 <li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Glutathione Peroxidase</a></li>
-<li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Hypothyroidism</a></li>
+<li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/hypothyroidism/" class="internal-link">Hypothyroidism</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/hashimotos-thyroiditis/" class="internal-link">Hashimoto's Thyroiditis</a></li>
 <li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Infertility</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/iodine/" class="internal-link">Iodine</a></li>
@@ -65,6 +68,10 @@ updated: '2026-06-13T17:47:13.733048Z'
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a></li>
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/iodine/" class="internal-link">Iodine</a></li>
 <li>RELATED::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

@@ -1,6 +1,9 @@
 ---
+aliases:
+- Osteoporosis Hyperparathyroidism And Myeloma
+- osteoporosis hyperparathyroidism and myeloma
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.162079Z'
+created: 2026-01-18T16:48:42+0000
 description: Assess bone health and screen for conditions like osteoporosis, hyperparathyroidism,
   and multiple myeloma. These advanced markers measure ionized calcium levels, proteins
   involved in bone turnover, and signs of abnormal immune activity, which may indicate
@@ -14,6 +17,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-osteoporosis-hyperparathyroidism-and-myeloma
 permalink: /garden/demo_user/labtestpanel/osteoporosis-hyperparathyroidism-and-myeloma/
+provenance: curated
 slug: osteoporosis-hyperparathyroidism-and-myeloma
 source: Manual
 tags:
@@ -21,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: osteoporosis_hyperparathyroidism_and_myeloma
 type: labtestpanel
-updated: '2026-06-13T17:47:13.162079Z'
+updated: '2026-08-20T04:08:31.077538Z'
 ---
 
 {% raw %}
@@ -48,8 +52,8 @@ updated: '2026-06-13T17:47:13.162079Z'
 <li>Advanced osteoporosis evaluation beyond standard bone health panel</li>
 </ul>
 <h2>Relationships</h2>
-<p>INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Ionized Calcium</a><br />
-INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Parathyroid Hormone, Intact (PTH)</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/ionized-calcium/" class="internal-link">ionized_calcium</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/parathyroid-hormone-intact-pth/" class="internal-link">parathyroid_hormone_intact_pth</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/osteoporosis/" class="internal-link">Osteoporosis</a><br />
 USED_FOR::<a class="internal-link is-unresolved" href="/404">Hyperparathyroidism</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/multiple-myeloma/" class="internal-link">Multiple Myeloma</a><br />

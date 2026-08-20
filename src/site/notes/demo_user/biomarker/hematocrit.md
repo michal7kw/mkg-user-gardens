@@ -1,15 +1,18 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:10.914860Z'
+created: 2026-01-03T17:55:36+0000
 description: Hematocrit (Hct) is the proportion of whole blood volume occupied by
   red blood cells, expressed as a percentage. It is a core component of the complete
   blood count and reflects the balance between red blood cell production and destruction.
   Clinically, it is used to screen for, diagnose, and monitor anemia and polycythemia.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: hematocrit
+last_modified: 2026-06-21T00:00:00+0000
 permalink: /garden/demo_user/biomarker/hematocrit/
+provenance: curated
 slug: hematocrit
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Hematocrit
 type: biomarker
-updated: '2026-06-13T17:47:10.914860Z'
+updated: 2026-06-21T00:00:00+0000
 ---
 
 {% raw %}

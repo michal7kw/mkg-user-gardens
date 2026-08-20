@@ -2,7 +2,7 @@
 aliases:
 - cancer screening panel
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.051949Z'
+created: 2026-02-07T00:00:00+0000
 description: Panel of tumor markers used for cancer screening and monitoring. Includes
   PSA for prostate, CEA for colorectal, CA-125 for ovarian, and AFP for liver/testicular
   cancers. Best used in conjunction with imaging and clinical evaluation.
@@ -11,6 +11,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-cancer-screening
 permalink: /garden/demo_user/labtestpanel/cancer-screening-panel/
+provenance: curated
 slug: cancer-screening-panel
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: cancer_screening_panel
 type: labtestpanel
-updated: '2026-06-13T17:47:13.051949Z'
+updated: '2026-08-20T04:08:31.029482Z'
 ---
 
 {% raw %}
@@ -31,7 +32,7 @@ updated: '2026-06-13T17:47:13.051949Z'
 <li><a href="/garden/demo_user/labtest/afp/" class="internal-link">afp</a> -- Alpha-fetoprotein for liver and testicular cancer screening</li>
 <li><a href="/garden/demo_user/labtest/cea/" class="internal-link">cea</a> -- Carcinoembryonic antigen for colorectal and GI cancer monitoring</li>
 <li><a href="/garden/demo_user/labtest/prostate-specific-antigen-psa-total/" class="internal-link">prostate specific antigen psa total</a> -- Total PSA for prostate cancer screening</li>
-<li><a class="internal-link is-unresolved" href="/404">ca-125</a> -- Cancer antigen 125 for ovarian cancer screening</li>
+<li><a href="/garden/demo_user/labtest/ca-125/" class="internal-link">ca-125</a> -- Cancer antigen 125 for ovarian cancer screening</li>
 </ul>
 <h2>Clinical Indications</h2>
 <ul>
@@ -44,10 +45,10 @@ updated: '2026-06-13T17:47:13.051949Z'
 <h2>Relationships</h2>
 <p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/afp/" class="internal-link">afp</a><br />
 INCLUDES_TEST::<a href="/garden/demo_user/labtest/cea/" class="internal-link">cea</a><br />
-INCLUDES_TEST::<a href="/garden/demo_user/labtest/prostate-specific-antigen-psa-total/" class="internal-link">prostate specific antigen psa total</a><br />
-INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">ca-125</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/prostate-specific-antigen-psa-total/" class="internal-link">prostate_specific_antigen_psa_total</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/ca-125/" class="internal-link">ca_125</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/cancer/" class="internal-link">Cancer</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">Prostate</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/organ/prostate/" class="internal-link">Prostate</a></p>
 
 {% endraw %}

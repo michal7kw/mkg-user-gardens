@@ -2,7 +2,7 @@
 aliases:
 - specific gravity urine
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.813765Z'
+created: '2026-01-19T08:30:05.223601+00:00'
 description: Tested twice a year Urine specific gravity measures how concentrated
   or diluted urine is compared to water, providing insight into hydration status and
   kidney function. Abnormal readings—either too low or too high—can be associated
@@ -13,6 +13,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-specific-gravity-urine
 permalink: /garden/demo_user/labtest/specific-gravity-urine/
+provenance: curated
 slug: specific-gravity-urine
 source: Manual
 tags:
@@ -20,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: specific_gravity_urine
 type: labtest
-updated: '2026-06-13T17:47:12.813765Z'
+updated: '2026-08-20T04:08:30.902533Z'
 ---
 
 {% raw %}
@@ -46,6 +47,10 @@ updated: '2026-06-13T17:47:12.813765Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -56,6 +61,18 @@ updated: '2026-06-13T17:47:12.813765Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -71,8 +88,8 @@ updated: '2026-06-13T17:47:12.813765Z'
 <p>RELATED::<a href="/garden/demo_user/condition/urinary-concentration-imbalance/" class="internal-link">Urinary Concentration Imbalance</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Overhydration</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Metabolic Dysfunction</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Dehydration</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Kidney Dysfunction</a></p>
+RELATED::<a href="/garden/demo_user/condition/dehydration/" class="internal-link">Dehydration</a><br />
+RELATED::<a href="/garden/demo_user/condition/kidney-dysfunction/" class="internal-link">Kidney Dysfunction</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/urinary-concentration-imbalance/" class="internal-link">Urinary Concentration Imbalance</a></p>
 <h3>May Detect</h3>

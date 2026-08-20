@@ -89,7 +89,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.146967Z'
+created: 2026-02-07T00:00:00+0000
 description: Alpha-Fetoprotein (AFP) test. Tumor marker used for hepatocellular carcinoma
   surveillance in high-risk patients and monitoring of testicular germ cell tumors.
   Also used in prenatal screening for neural tube defects.
@@ -99,6 +99,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: test-afp-001
 permalink: /garden/demo_user/labtest/afp/
+provenance: curated
 slug: afp
 source: Manual
 tags:
@@ -106,7 +107,7 @@ tags:
 templateEngineOverride: njk
 title: afp
 type: labtest
-updated: '2026-06-13T17:47:12.146967Z'
+updated: '2026-08-20T04:08:30.452942Z'
 ---
 
 {% raw %}
@@ -132,6 +133,10 @@ updated: '2026-06-13T17:47:12.146967Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -142,6 +147,18 @@ updated: '2026-06-13T17:47:12.146967Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -158,6 +175,8 @@ updated: '2026-06-13T17:47:12.146967Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/labtest/afp/" class="internal-link">AFP</a></p>
 <h3>Included In</h3>
 <p>INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/cancer-screening-panel/" class="internal-link">cancer screening panel</a></p>
 <h3>Enriched</h3>

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.381641Z'
+created: 2026-03-06T12:00:00+0000
 description: Glucose-6-phosphate (G6P) is the phosphorylated ester of glucose formed
   by hexokinase/glucokinase in the first committed step of glycolysis. It is a central
   metabolic branch point that directs carbon flux toward glycolysis for energy production,
@@ -13,6 +13,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: glucose_6_phosphate
 permalink: /garden/demo_user/metabolite/glucose-6-phosphate/
+provenance: curated
 pubchem_id: '439284'
 slug: glucose-6-phosphate
 source: Manual
@@ -27,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Glucose-6-Phosphate
 type: metabolite
-updated: '2026-06-13T17:47:13.381641Z'
+updated: '2026-08-20T04:08:31.158941Z'
 ---
 
 {% raw %}

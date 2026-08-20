@@ -93,7 +93,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.177894Z'
+created: 2026-05-28T00:00:00+0000
 description: Screening antibody test for hepatitis C virus (HCV) exposure. A reactive
   result indicates past or present infection and is confirmed with HCV RNA. Part of
   the risk-based panel in Poland's Moje Zdrowie preventive programme.
@@ -103,6 +103,7 @@ evidence_level: 0
 gardenUsername: demo_user
 id: test-anti-hcv-001
 permalink: /garden/demo_user/labtest/anti-hcv/
+provenance: curated
 slug: anti-hcv
 source: Manual
 tags:
@@ -110,7 +111,7 @@ tags:
 templateEngineOverride: njk
 title: anti_hcv
 type: labtest
-updated: '2026-06-13T17:47:12.177894Z'
+updated: '2026-08-20T04:08:30.490100Z'
 ---
 
 {% raw %}
@@ -154,6 +155,7 @@ updated: '2026-06-13T17:47:12.177894Z'
 <h2>Reference Ranges</h2>
 <p>Reported as non-reactive (negative) or reactive (positive). Reactive results require HCV RNA confirmation. Reference interpretation varies by laboratory and assay.</p>
 <h2>Relationships</h2>
+<p>USED_FOR::<a href="/garden/demo_user/condition/hepatitis-c/" class="internal-link">Hepatitis C</a></p>
 <h3>Enriched</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a></p>
 <h2>Notes</h2>

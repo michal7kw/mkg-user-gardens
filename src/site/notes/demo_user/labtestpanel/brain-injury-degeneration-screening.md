@@ -1,6 +1,9 @@
 ---
+aliases:
+- Brain Injury Degeneration Screening
+- brain injury degeneration screening
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.047730Z'
+created: 2026-01-18T16:48:42+0000
 description: Neurofilament light chain (NfL) is a protein biomarker released during
   nerve cell damage and is a valuable tool for detecting active neuronal injury. It
   is used in the evaluation of conditions such as amyotrophic lateral sclerosis (ALS),
@@ -13,6 +16,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-brain-injury-degeneration-screening
 permalink: /garden/demo_user/labtestpanel/brain-injury-degeneration-screening/
+provenance: curated
 slug: brain-injury-degeneration-screening
 source: Manual
 tags:
@@ -20,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: brain_injury_degeneration_screening
 type: labtestpanel
-updated: '2026-06-13T17:47:13.047730Z'
+updated: '2026-08-20T04:08:31.028976Z'
 ---
 
 {% raw %}
@@ -41,7 +45,7 @@ updated: '2026-06-13T17:47:13.047730Z'
 <li>Baseline assessment for individuals in high-impact sports or occupations</li>
 </ul>
 <h2>Relationships</h2>
-<p>INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Neurofilament Light Chain (NfL)</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/neurofilament-light-chain-nfl/" class="internal-link">neurofilament_light_chain_nfl</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimer's Disease</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/multiple-sclerosis/" class="internal-link">Multiple Sclerosis</a><br />
 USED_FOR::<a class="internal-link is-unresolved" href="/404">Traumatic Brain Injury</a><br />

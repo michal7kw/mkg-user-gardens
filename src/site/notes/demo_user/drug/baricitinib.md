@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:11.736748Z'
+created: 2026-04-01T10:00:00+0000
 description: Oral JAK1/JAK2 inhibitor for RA. Selectively blocks JAK1 and JAK2, interfering
   with signaling from IL-6, IFN-gamma, and IL-12/23. FDA-approved for moderate-to-severe
   RA after DMARD failure.
@@ -10,6 +10,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: baricitinib
 permalink: /garden/demo_user/drug/baricitinib/
+provenance: curated
 slug: baricitinib
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Baricitinib
 type: drug
-updated: '2026-06-13T17:47:11.736748Z'
+updated: '2026-08-20T04:08:30.049167Z'
 ---
 
 {% raw %}
@@ -38,7 +39,7 @@ updated: '2026-06-13T17:47:11.736748Z'
 <h3>Modulates Pathway</h3>
 <p>MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/jak-stat-signaling-pathway/" class="internal-link">JAK-STAT Signaling Pathway</a></p>
 <h3>Decreases Biomarker</h3>
-<p>DECREASES_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h2>References</h2>
 <ul>
 <li>PMID:28973824</li>

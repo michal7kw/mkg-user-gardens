@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:13.764869Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:39+0000
 description: Fluid connective tissue transporting oxygen, nutrients, hormones, and
   waste products throughout the body. Contains red cells, white cells, platelets,
   and plasma.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: blood
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/organ/blood/
+provenance: curated
 slug: blood
 source: Manual
 tags:
@@ -16,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Blood
 type: organ
-updated: '2026-06-13T17:47:13.764869Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -47,7 +50,11 @@ REQUIRES_NUTRIENT::<a href="/garden/demo_user/supplement/iron/" class="internal-
 REQUIRES_NUTRIENT::<a class="internal-link is-unresolved" href="/404">Vitamin K</a> (Essential cofactor for hepatic synthesis of clotting factors II VII IX and X, Evidence Level 1a)<br />
 FILTERED_BY::<a href="/garden/demo_user/organ/spleen/" class="internal-link">Spleen</a> (Spleen removes senescent erythrocytes and recycles iron from hemoglobin, Evidence Level 1a)<br />
 RELATED::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a> (Enhances non-heme iron absorption and supports collagen in blood vessel walls, Evidence Level 1a)<br />
-RELATED::<a href="/garden/demo_user/biomarker/copper/" class="internal-link">Copper</a> (Required for ceruloplasmin which mobilizes iron for hemoglobin synthesis, Evidence Level 2a)<br />
+RELATED::<a href="/garden/demo_user/supplement/copper/" class="internal-link">Copper</a> (Required for ceruloplasmin which mobilizes iron for hemoglobin synthesis, Evidence Level 2a)<br />
 RELATED::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a> (Modulates platelet aggregation and blood viscosity, Evidence Level 1b)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (textbook reference)</li>
+</ul>
 
 {% endraw %}

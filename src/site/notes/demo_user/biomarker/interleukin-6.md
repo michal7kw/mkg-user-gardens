@@ -1,6 +1,10 @@
 ---
+aliases:
+- IL-6
+- IL6
+- Interleukin-6
 confidence_score: 0.9
-created: '2026-06-13T17:47:10.943793Z'
+created: 2026-02-07T00:00:00+0000
 description: Interleukin-6 (IL-6) is a pleiotropic cytokine with both pro- and anti-inflammatory
   properties, serving as a central mediator of the acute-phase response. It signals
   through classical signaling (via membrane-bound IL-6R) and trans-signaling (via
@@ -12,6 +16,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: interleukin_6
 permalink: /garden/demo_user/biomarker/interleukin-6/
+provenance: curated
 slug: interleukin-6
 source: Manual
 tags:
@@ -23,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Interleukin 6
 type: biomarker
-updated: '2026-06-13T17:47:10.943793Z'
+updated: '2026-08-20T04:08:28.801585Z'
 ---
 
 {% raw %}
@@ -168,7 +173,7 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/depression/" cla
 <h3>Indicates Organ Health</h3>
 <p>INDICATES_ORGAN_HEALTH::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a></p>
 <h3>Predicts Risk</h3>
-<p>PREDICTS_RISK::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+<p>PREDICTS_RISK::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
 PREDICTS_RISK::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a></p>
 <h3>Correlated With</h3>
 <p>CORRELATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />
@@ -189,6 +194,9 @@ AFFECTED_BY_DRUG::<a href="/garden/demo_user/drug/sarilumab/" class="internal-li
 <h3>Participates In Pathway</h3>
 <p>PARTICIPATES_IN_PATHWAY::<a href="/garden/demo_user/pathway/il-6-signaling-pathway/" class="internal-link">IL-6 Signaling Pathway</a><br />
 PARTICIPATES_IN_PATHWAY::<a href="/garden/demo_user/pathway/jak-stat-signaling-pathway/" class="internal-link">JAK-STAT Signaling Pathway</a></p>
+<h3>Improved By Intervention</h3>
+<p>IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/exercise/" class="internal-link">Exercise</a> - regular exercise lowers circulating IL-6 over time<br />
+IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/anti-inflammatory-diet/" class="internal-link">Anti-Inflammatory Diet</a> - reduces systemic inflammatory cytokines</p>
 <h2>References</h2>
 <ul>
 <li>Scheller J et al. <em>Biochim Biophys Acta.</em> 2011;1813(5):878-88 -- The pro- and anti-inflammatory properties of the cytokine interleukin-6 (PMID: 21296109)</li>

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:12.121868Z'
+created: 2026-03-05T00:00:00+0000
 description: Resistance exercise using progressive overload to increase muscular strength,
   mass, and endurance. Foundational for metabolic health, bone density, functional
   independence, and longevity. Stimulates muscle protein synthesis, growth hormone
@@ -11,7 +11,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: strength_training
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/intervention/strength-training/
+provenance: curated
 slug: strength-training
 source: Manual
 tags:
@@ -24,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Strength Training
 type: intervention
-updated: '2026-06-13T17:47:12.121868Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -61,7 +63,9 @@ updated: '2026-06-13T17:47:12.121868Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Affects Biomarker</h3>
-<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/glucose-fasting/" class="internal-link">Glucose Fasting</a> (Evidence Level 4)<br />
+<p>INCREASES_BIOMARKER::<a href="/garden/demo_user/labtest/testosterone-free/" class="internal-link">Testosterone Free</a> (Evidence Level 3)<br />
+INCREASES_BIOMARKER::<a href="/garden/demo_user/labtest/testosterone-total/" class="internal-link">Testosterone Total</a> (Evidence Level 3)<br />
+DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/glucose-fasting/" class="internal-link">Glucose Fasting</a> (Evidence Level 4)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hemoglobin-a1c/" class="internal-link">Hemoglobin A1c</a> (Evidence Level 4)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/insulin-fasting/" class="internal-link">Insulin Fasting</a> (Evidence Level 4)<br />
 INCREASES_BIOMARKER::<a href="/garden/demo_user/hormone/testosterone/" class="internal-link">Testosterone</a> (Evidence Level 3)</p>
@@ -82,7 +86,7 @@ MODULATES_HORMONE::<a href="/garden/demo_user/hormone/testosterone/" class="inte
 <h3>Modulates Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a> (myokine-mediated BDNF release supports neuroprotection, Evidence Level 2a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a> (improved glycemic control via muscle glucose uptake, Evidence Level 1b)<br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a> (chronic anti-inflammatory effect with regular training, Evidence Level 1b)</p>
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (chronic anti-inflammatory effect with regular training, Evidence Level 1b)</p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/muscles/" class="internal-link">Muscles</a> (primary target: hypertrophy, strength, and myokine production, Evidence Level 1a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/bones/" class="internal-link">Bones</a> (increased BMD via Wolff's law mechanical loading, Evidence Level 1a)</p>
@@ -90,5 +94,9 @@ AFFECTS_ORGAN::<a href="/garden/demo_user/organ/bones/" class="internal-link">Bo
 <p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/type-2-diabetes/" class="internal-link">Type 2 Diabetes</a> (insulin sensitivity improvement comparable to metformin, Evidence Level 1a)<br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a> (antidepressant effect comparable to SSRIs, Evidence Level 1a)<br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/sarcopenia/" class="internal-link">Sarcopenia</a> (only Level 1a intervention for sarcopenia prevention, Evidence Level 1a)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

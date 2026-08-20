@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:14.084303Z'
+confidence_score: 0.75
+created: 2026-01-24T12:00:00+0000
 description: Beta-secretase 1. The rate-limiting enzyme in the production of Amyloid
   Beta (Aβ).
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: bace1
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/protein/bace1/
+provenance: curated
 slug: bace1
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: BACE1
 type: protein
-updated: '2026-06-13T17:47:14.084303Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -42,5 +45,10 @@ PARTICIPATES_IN_PATHWAY::<a class="internal-link is-unresolved" href="/404">Amyl
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimers Disease</a> (Elevated activity correlates with Aβ plaque burden, Evidence Level 1b)<br />
 INTERACTS_WITH::<a href="/garden/demo_user/protein/presenilin-1/" class="internal-link">Presenilin-1</a> (Sequential processing of APP: BACE1 then gamma-secretase, Evidence Level 1a)<br />
 LOCATED_IN::<a class="internal-link is-unresolved" href="/404">Endosome</a> (Primary site of APP cleavage by BACE1, Evidence Level 2a)</p>
+<h2>References</h2>
+<ul>
+<li>UniProt Consortium. Nucleic Acids Res. 2023;51(D1):D523-D531. UniProt (PMID: 36408955)</li>
+<li>Uhlén M, et al. Science. 2015;347(6220):1260419. The Human Protein Atlas (PMID: 25613900)</li>
+</ul>
 
 {% endraw %}

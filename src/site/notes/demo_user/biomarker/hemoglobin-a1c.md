@@ -4,7 +4,7 @@ aliases:
 - HbA1c
 - Hba1C
 confidence_score: 0.95
-created: '2026-06-13T17:47:10.921368Z'
+created: 2026-01-03T17:55:37+0000
 description: Hemoglobin A1c (HbA1c, glycated hemoglobin) measures the percentage of
   hemoglobin with irreversibly attached glucose, reflecting average blood glucose
   over the preceding 2-3 months (the erythrocyte lifespan). It is the gold-standard
@@ -16,6 +16,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: hba1c
 permalink: /garden/demo_user/biomarker/hemoglobin-a1c/
+provenance: curated
 slug: hemoglobin-a1c
 source: Manual
 tags:
@@ -28,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Hemoglobin A1c
 type: biomarker
-updated: '2026-06-13T17:47:10.921368Z'
+updated: '2026-08-20T04:08:28.751531Z'
 ---
 
 {% raw %}
@@ -209,7 +210,7 @@ AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/chromium/" class="
 AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a></p>
 <h3>Measured By Test</h3>
-<p>MEASURED_BY_TEST::<a href="/garden/demo_user/labtest/hemoglobin-a1c-hba1c/" class="internal-link">hemoglobin_a1c_hba1c</a></p>
+<p>MEASURED_BY_TEST::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a></p>
 <h2>References</h2>
 <ul>
 <li>Henning RJ. <em>Future Cardiol.</em> 2018;14(6):491-509 -- Type-2 diabetes mellitus and cardiovascular disease (PMID: 30409037)</li>

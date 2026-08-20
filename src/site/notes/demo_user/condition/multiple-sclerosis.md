@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.496075Z'
+created: '2026-04-01T19:57:52.746987+00:00'
 description: Chronic autoimmune demyelinating disease of the central nervous system.
   Immune cells attack the myelin sheath surrounding nerve fibers, causing inflammation,
   demyelination, and progressive neurodegeneration. Affects 2.8 million people worldwide.
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: multiple_sclerosis
 permalink: /garden/demo_user/condition/multiple-sclerosis/
+provenance: curated
 slug: multiple-sclerosis
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Multiple Sclerosis
 type: condition
-updated: '2026-06-13T17:47:11.496075Z'
+updated: '2026-08-20T04:08:29.719169Z'
 ---
 
 {% raw %}
@@ -66,8 +67,8 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acid
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/alpha-lipoic-acid/" class="internal-link">Alpha Lipoic Acid</a></p>
 <h3>Associated With</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/interleukin-6/" class="internal-link">interleukin 6</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">hs-CRP</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">Vitamin_D_25-OH</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin_D_25-OH</a></p>
 <h2>References</h2>
 <ul>
 <li>PMID:29275977</li>

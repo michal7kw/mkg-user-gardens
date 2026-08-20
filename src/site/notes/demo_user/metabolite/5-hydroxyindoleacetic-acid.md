@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:13.197875Z'
+created: 2026-05-27T12:00:00+0000
 description: 5-Hydroxyindoleacetic acid (5-HIAA) is the major end-metabolite of serotonin,
   produced by monoamine oxidase. CSF and urinary 5-HIAA index central and peripheral
   serotonin turnover; low CSF 5-HIAA is associated with impulsive aggression and suicide
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: 5_hydroxyindoleacetic_acid
 permalink: /garden/demo_user/metabolite/5-hydroxyindoleacetic-acid/
+provenance: curated
 pubchem_id: '1826'
 slug: 5-hydroxyindoleacetic-acid
 source: PubMed
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: 5-Hydroxyindoleacetic Acid
 type: metabolite
-updated: '2026-06-13T17:47:13.197875Z'
+updated: '2026-08-20T04:08:31.094426Z'
 ---
 
 {% raw %}

@@ -1,6 +1,9 @@
 ---
+aliases:
+- Mri Scan With Skeletal Neurological Assessment
+- mri scan with skeletal neurological assessment
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.150003Z'
+created: 2026-01-18T16:48:42+0000
 description: Everything in the MRI Scan with Spine, plus scans for signs of neurodegeneration
   in the brain and narrowing in the arteries of the head and neck, and provides a
   brain age analysis. Also includes body composition assessment (fat and muscle volume),
@@ -11,6 +14,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-mri-scan-with-skeletal-neurological-assessment
 permalink: /garden/demo_user/labtestpanel/mri-scan-with-skeletal-neurological-assessment/
+provenance: curated
 slug: mri-scan-with-skeletal-neurological-assessment
 source: Manual
 tags:
@@ -18,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: mri_scan_with_skeletal_neurological_assessment
 type: labtestpanel
-updated: '2026-06-13T17:47:13.150003Z'
+updated: '2026-08-20T04:08:31.074032Z'
 ---
 
 {% raw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.659459Z'
+created: 2026-03-05T00:00:00+0000
 description: The simplest amino acid and a major inhibitory neurotransmitter in the
   spinal cord and brainstem. Also serves as an obligatory co-agonist at NMDA glutamate
   receptors, giving it a dual inhibitory/excitatory role. Key precursor for glutathione,
@@ -11,6 +11,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: glycine_nt
 permalink: /garden/demo_user/neurotransmitter/glycine/
+provenance: curated
 pubchem_id: '750'
 slug: glycine
 source: Manual
@@ -28,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Glycine
 type: neurotransmitter
-updated: '2026-06-13T17:47:13.659459Z'
+updated: '2026-08-20T04:08:31.311585Z'
 ---
 
 {% raw %}
@@ -111,7 +112,7 @@ updated: '2026-06-13T17:47:13.659459Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Neurotransmitter Interactions</h3>
-<p>RELATED::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a> - Both are major inhibitory neurotransmitters; GlyR and GABA-A receptors colocalize at some hippocampal synapses<br />
+<p>RELATED::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a> - Both are major inhibitory neurotransmitters; GlyR and GABA-A receptors colocalize at some hippocampal synapses<br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a> - Glycine is an obligatory co-agonist at NMDA glutamate receptors; dual inhibitory/excitatory balance</p>
 <h3>Conditions</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/sleep-disorder/" class="internal-link">Sleep Disorder</a> - Glycine supplementation (3g) improves sleep quality and reduces sleep onset latency<br />

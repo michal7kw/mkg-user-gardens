@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:10.889310Z'
+created: 2026-01-03T17:55:38+0000
 description: GlycanAge is a biological aging biomarker that measures IgG glycosylation
   patterns to estimate systemic inflammation and biological age. IgG glycans shift
   predictably with age toward pro-inflammatory profiles, and deviations from expected
@@ -12,6 +12,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: glycanage
 permalink: /garden/demo_user/biomarker/glycanage/
+provenance: curated
 slug: glycanage
 source: Manual
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: GlycanAge
 type: biomarker
-updated: '2026-06-13T17:47:10.889310Z'
+updated: '2026-08-20T04:08:28.725050Z'
 ---
 
 {% raw %}
@@ -165,7 +166,7 @@ updated: '2026-06-13T17:47:10.889310Z'
 <h2>Relationships</h2>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a><br />
-ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
+ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
 <h3>Correlated With</h3>
 <p>CORRELATED_WITH::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a></p>
 <h3>Affected By Supplement</h3>

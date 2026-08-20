@@ -2,7 +2,7 @@
 aliases:
 - celiac gluten intolerance
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.061101Z'
+created: 2026-01-18T16:48:42+0000
 description: Celiac disease is an autoimmune disorder in which the immune system attacks
   the intestinal lining in response to gluten, a protein found in wheat, barley, and
   rye, affecting an estimated 1 in 141 Americans, though most cases go undiagnosed.
@@ -19,6 +19,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-celiac-gluten-intolerance
 permalink: /garden/demo_user/labtestpanel/celiac-gluten-intolerance/
+provenance: curated
 slug: celiac-gluten-intolerance
 source: Manual
 tags:
@@ -26,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: celiac_gluten_intolerance
 type: labtestpanel
-updated: '2026-06-13T17:47:13.061101Z'
+updated: '2026-08-20T04:08:31.037307Z'
 ---
 
 {% raw %}
@@ -51,9 +52,9 @@ updated: '2026-06-13T17:47:13.061101Z'
 <li>Monitoring dietary compliance in diagnosed celiac patients</li>
 </ul>
 <h2>Relationships</h2>
-<p>INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Tissue Transglutaminase (IgA)</a><br />
-INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Deamidated Gliadin (IgG)</a><br />
-INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Immunoglobulin A (IgA)</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/tissue-transglutaminase-iga/" class="internal-link">tissue_transglutaminase_iga</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/deamidated-gliadin-igg/" class="internal-link">deamidated_gliadin_igg</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/immunoglobulin-a-iga/" class="internal-link">immunoglobulin_a_iga</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/celiac-disease/" class="internal-link">Celiac Disease</a><br />
 RELATED::<a href="/garden/demo_user/labtest/antinuclear-antibodies-ana-pattern/" class="internal-link">antinuclear antibodies ana pattern</a><br />
 RELATED::<a href="/garden/demo_user/labtest/rheumatoid-factor-rf/" class="internal-link">rheumatoid factor rf</a><br />

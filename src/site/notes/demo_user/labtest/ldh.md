@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.460124Z'
+created: 2026-02-07T00:00:00+0000
 description: Lactate Dehydrogenase (LDH) test. Non-specific tissue damage marker present
   in nearly all body tissues. Elevated in hemolytic anemia, liver disease, lymphoma,
   and myocardial infarction. Also a prognostic marker in oncology.
@@ -10,6 +10,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: test-ldh-001
 permalink: /garden/demo_user/labtest/ldh/
+provenance: curated
 slug: ldh
 source: Manual
 tags:
@@ -17,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: ldh
 type: labtest
-updated: '2026-06-13T17:47:12.460124Z'
+updated: '2026-08-20T04:08:30.735091Z'
 ---
 
 {% raw %}
@@ -43,6 +44,10 @@ updated: '2026-06-13T17:47:12.460124Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -53,6 +58,18 @@ updated: '2026-06-13T17:47:12.460124Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>

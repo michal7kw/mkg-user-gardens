@@ -2,7 +2,7 @@
 aliases:
 - leukocyte esterase urine
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.498455Z'
+created: '2026-01-19T08:30:04.852829+00:00'
 description: Leukocyte esterase in urine is an enzyme released by white blood cells
   (WBCs), and its presence in urine often signals the body is responding to infection
   or inflammation in the urinary tract. A positive result suggests a possible urinary
@@ -13,6 +13,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-leukocyte-esterase-urine
 permalink: /garden/demo_user/labtest/leukocyte-esterase-urine/
+provenance: curated
 slug: leukocyte-esterase-urine
 source: Manual
 tags:
@@ -20,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: leukocyte_esterase_urine
 type: labtest
-updated: '2026-06-13T17:47:12.498455Z'
+updated: '2026-08-20T04:08:30.752013Z'
 ---
 
 {% raw %}
@@ -46,6 +47,10 @@ updated: '2026-06-13T17:47:12.498455Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -56,6 +61,18 @@ updated: '2026-06-13T17:47:12.498455Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -72,7 +89,7 @@ updated: '2026-06-13T17:47:12.498455Z'
 RELATED::<a class="internal-link is-unresolved" href="/404">Kidney Infection</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Urinary Tract Inflammation</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Bladder Inflammation</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Urinary Tract Infection Uti</a></p>
+RELATED::<a href="/garden/demo_user/condition/urinary-tract-infection/" class="internal-link">Urinary Tract Infection Uti</a></p>
 <h3>May Detect</h3>
 <p>MAY_DETECT::<a href="/garden/demo_user/condition/interstitial-cystitis/" class="internal-link">Interstitial Cystitis</a></p>
 <h3>Associated With Condition</h3>

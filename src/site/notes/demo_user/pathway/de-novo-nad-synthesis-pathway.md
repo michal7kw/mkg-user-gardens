@@ -2,15 +2,18 @@
 aliases:
 - De_Novo_NAD_Synthesis_Pathway
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.870902Z'
+created: 2026-01-22T12:00:00+0000
 description: The biosynthetic pathway that converts dietary tryptophan to NAD+ through
   a series of enzymatic reactions. Also known as the kynurenine pathway, this route
   provides a mechanism for producing NAD+ from an essential amino acid.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: de_novo_nad_synthesis_pathway
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/de-novo-nad-synthesis-pathway/
+provenance: curated
 slug: de-novo-nad-synthesis-pathway
 source: Manual
 tags:
@@ -23,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: De Novo NAD+ Synthesis Pathway
 type: pathway
-updated: '2026-06-13T17:47:13.870902Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -44,5 +47,9 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-lin
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

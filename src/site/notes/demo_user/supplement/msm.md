@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.6
-created: '2026-06-13T17:47:14.399602Z'
+created: 2026-04-01T10:00:00+0000
 description: Methylsulfonylmethane is an organic sulfur compound found naturally in
   foods. Provides bioavailable sulfur for connective tissue maintenance. Anti-inflammatory
   properties via NF-kB inhibition. Clinical trials show modest benefit for knee OA
@@ -11,6 +11,7 @@ evidence_level: 2
 gardenUsername: demo_user
 id: msm
 permalink: /garden/demo_user/supplement/msm/
+provenance: curated
 slug: msm
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: MSM
 type: supplement
-updated: '2026-06-13T17:47:14.399602Z'
+updated: '2026-08-20T04:08:31.988795Z'
 ---
 
 {% raw %}
@@ -43,7 +44,7 @@ updated: '2026-06-13T17:47:14.399602Z'
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/knee-osteoarthritis/" class="internal-link">Knee Osteoarthritis</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/osteoarthritis/" class="internal-link">Osteoarthritis</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/glucosamine-sulfate/" class="internal-link">Glucosamine Sulfate</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/joints/" class="internal-link">Joints</a> (Provides bioavailable sulfur for GAG and collagen synthesis; NF-kB inhibition reduces joint inflammation, Evidence Level 2a)</li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/skin/" class="internal-link">Skin</a> (Sulfur donor for keratin and collagen synthesis supporting skin structural integrity, Evidence Level 2a)</li>
 </ul>

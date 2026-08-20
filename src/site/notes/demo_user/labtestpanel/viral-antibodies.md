@@ -1,6 +1,9 @@
 ---
+aliases:
+- Viral Antibodies
+- viral antibodies
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.174179Z'
+created: 2026-01-18T16:48:42+0000
 description: Tests for latent viruses like Epstein-Barr virus (EBV), herpesviruses,
   cytomegalovirus (CMV), and hepatitis B and C, which helps identify infections that
   can remain dormant in the body and reactivate under certain conditions, particularly
@@ -21,6 +24,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-viral-antibodies
 permalink: /garden/demo_user/labtestpanel/viral-antibodies/
+provenance: curated
 slug: viral-antibodies
 source: Manual
 tags:
@@ -28,7 +32,7 @@ tags:
 templateEngineOverride: njk
 title: viral_antibodies
 type: labtestpanel
-updated: '2026-06-13T17:47:13.174179Z'
+updated: '2026-08-20T04:08:31.083193Z'
 ---
 
 {% raw %}
@@ -60,7 +64,10 @@ updated: '2026-06-13T17:47:13.174179Z'
 <li>Autoimmune disease workup (EBV association with MS, lupus)</li>
 </ul>
 <h2>Relationships</h2>
-<p>USED_FOR::<a href="/garden/demo_user/condition/immune-system-disorder/" class="internal-link">Immune System Disorder</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/epstein-barr-virus-antibodies/" class="internal-link">epstein_barr_virus_antibodies</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/cytomegalovirus-antibodies/" class="internal-link">cytomegalovirus_antibodies</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/anti-hcv/" class="internal-link">anti_hcv</a><br />
+USED_FOR::<a href="/garden/demo_user/condition/immune-system-disorder/" class="internal-link">Immune System Disorder</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/chronic-fatigue-syndrome/" class="internal-link">Chronic Fatigue Syndrome</a><br />
 USED_FOR::<a class="internal-link is-unresolved" href="/404">Hepatitis</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a><br />

@@ -1,13 +1,16 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.753440Z'
+created: '2026-04-05T16:16:08.014524+00:00'
 description: Essential trace mineral involved in 300+ enzymatic reactions, immune
   function, wound healing, DNA synthesis, and reproductive health.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_zinc
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/zinc/
+provenance: curated
 slug: zinc
 source: dev_seeder
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Zinc
 type: nutrient
-updated: '2026-06-13T17:47:13.753440Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -51,9 +54,9 @@ updated: '2026-06-13T17:47:13.753440Z'
 <ul>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/skin/" class="internal-link">Skin</a></li>
-<li>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Prostate</a></li>
+<li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/prostate/" class="internal-link">Prostate</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/thymus/" class="internal-link">Thymus</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Serum Zinc</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/zinc/" class="internal-link">Serum Zinc</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/white-blood-cell-count/" class="internal-link">White Blood Cell Count</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/hormone/testosterone/" class="internal-link">Testosterone</a></li>
 <li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Common Cold</a></li>
@@ -64,9 +67,13 @@ updated: '2026-06-13T17:47:13.753440Z'
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/selenium/" class="internal-link">Selenium</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/nutrient/protein/" class="internal-link">Protein</a></li>
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a></li>
-<li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a></li>
+<li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a></li>
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/chromium/" class="internal-link">Chromium</a></li>
 <li>RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

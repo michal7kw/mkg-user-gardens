@@ -1,13 +1,16 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.727658Z'
+created: '2026-04-05T16:16:18.382597+00:00'
 description: Essential macronutrient providing amino acids for tissue repair, enzyme
   production, and immune function
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_protein
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/protein/
+provenance: curated
 slug: protein
 source: dev_seeder
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Protein
 type: nutrient
-updated: '2026-06-13T17:47:13.727658Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -57,12 +60,16 @@ updated: '2026-06-13T17:47:13.727658Z'
 <li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">BUN (Blood Urea Nitrogen)</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/creatinine/" class="internal-link">creatinine</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/sarcopenia/" class="internal-link">Sarcopenia</a></li>
-<li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Obesity</a></li>
+<li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/obesity/" class="internal-link">Obesity</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-b12/" class="internal-link">Vitamin B12</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/carbohydrate/" class="internal-link">Carbohydrate</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/dietary-fat/" class="internal-link">Dietary Fat</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

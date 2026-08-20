@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.279118Z'
+created: 2025-12-10T09:07:57+0000
 description: Cellular antioxidant important for energy production. Often depleted
   by statins.
 dg-home: false
@@ -9,6 +9,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: test-coq10-001
 permalink: /garden/demo_user/labtest/coq10-blood/
+provenance: curated
 slug: coq10-blood
 source: Manual
 tags:
@@ -16,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: coq10_blood
 type: labtest
-updated: '2026-06-13T17:47:12.279118Z'
+updated: '2026-08-20T04:08:30.585688Z'
 ---
 
 {% raw %}
@@ -42,6 +43,10 @@ updated: '2026-06-13T17:47:12.279118Z'
 <td>Other</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -53,12 +58,24 @@ updated: '2026-06-13T17:47:12.279118Z'
 <td><strong>Turnaround Time</strong></td>
 <td>5-10 days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$75-$150</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Biomarkers Measured</h2>
 <p>This test measures the following biomarkers:</p>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404">coq10</a></li>
+<li><a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">coq10</a></li>
 </ul>
 <h2>Recommended For</h2>
 <h3>Supplement Monitoring</h3>
@@ -68,8 +85,10 @@ updated: '2026-06-13T17:47:12.279118Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/biomarker/coq10-serum/" class="internal-link">CoQ10 (Serum)</a></p>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">coq10</a></p>
+<p>RELATED::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">coq10</a></p>
 <h3>Enriched</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/cellularcomponent/mitochondria/" class="internal-link">Mitochondria</a></p>

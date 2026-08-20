@@ -2,7 +2,7 @@
 aliases:
 - ph urine
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.701584Z'
+created: '2026-01-19T08:30:05.075003+00:00'
 description: Tested twice a year Urine pH reflects how acidic or alkaline the urine
   is, and it plays a key role in helping the body maintain overall acid–base balance.
   Abnormal urine pH can increase the risk of kidney stones, or indicate metabolic
@@ -13,6 +13,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-ph-urine
 permalink: /garden/demo_user/labtest/ph-urine/
+provenance: curated
 slug: ph-urine
 source: Manual
 tags:
@@ -20,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: ph_urine
 type: labtest
-updated: '2026-06-13T17:47:12.701584Z'
+updated: '2026-08-20T04:08:30.846123Z'
 ---
 
 {% raw %}
@@ -46,6 +47,10 @@ updated: '2026-06-13T17:47:12.701584Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -56,6 +61,18 @@ updated: '2026-06-13T17:47:12.701584Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -68,9 +85,9 @@ updated: '2026-06-13T17:47:12.701584Z'
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Urinary Tract Infection Uti</a><br />
+<p>RELATED::<a href="/garden/demo_user/condition/urinary-tract-infection/" class="internal-link">Urinary Tract Infection Uti</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Dietary Or Medication Effect</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Dehydration</a><br />
+RELATED::<a href="/garden/demo_user/condition/dehydration/" class="internal-link">Dehydration</a><br />
 RELATED::<a href="/garden/demo_user/condition/kidney-stones/" class="internal-link">Kidney Stones</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Metabolic Dysfunction</a></p>
 <h3>May Detect</h3>

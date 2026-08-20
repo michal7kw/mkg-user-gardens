@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.7
-created: '2026-06-13T17:47:14.301090Z'
+confidence_score: 0.6
+created: 2026-01-03T17:55:41+0000
 description: Trace mineral important for bone health, hormone balance, and cognitive
   function. May support testosterone levels and reduce inflammatory markers. Essential
   for calcium, magnesium, and vitamin D metabolism.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 2
 gardenUsername: demo_user
 id: boron
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/boron/
+provenance: curated
 pubchem_id: '5462311'
 slug: boron
 source: Manual
@@ -24,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Boron
 type: supplement
-updated: '2026-06-13T17:47:14.301090Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -47,7 +49,7 @@ updated: '2026-06-13T17:47:14.301090Z'
 <h3>Affects Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/hormone/testosterone/" class="internal-link">Testosterone</a><br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a><br />
-AFFECTS_BIOMARKER::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a><br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a><br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/magnesium-rbc/" class="internal-link">Magnesium Rbc</a></p>
 <h3>May Improve Condition</h3>
 <p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/osteoporosis/" class="internal-link">Osteoporosis</a><br />
@@ -57,13 +59,18 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/gouty-arthritis/" cl
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a></p>
 <h3>Synergistic With</h3>
 <p>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a> (boron extends vitamin D half-life by inhibiting 24-hydroxylase, Evidence Level 2b)<br />
-SYNERGISTIC_WITH::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a> (boron reduces urinary calcium excretion, Evidence Level 2b)<br />
+SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a> (boron reduces urinary calcium excretion, Evidence Level 2b)<br />
 SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a> (boron reduces urinary magnesium excretion, Evidence Level 2b)</p>
 <h3>Affects Organ</h3>
-<p>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Bone</a><br />
+<p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/bones/" class="internal-link">Bone</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></p>
 <h3>Modulates Hormone</h3>
 <p>MODULATES_HORMONE::<a href="/garden/demo_user/hormone/testosterone/" class="internal-link">Testosterone</a> (may increase free testosterone by reducing SHBG, Evidence Level 2b)<br />
 MODULATES_HORMONE::<a href="/garden/demo_user/labtest/estradiol/" class="internal-link">estradiol</a></p>
+<h2>References</h2>
+<ul>
+<li>Nielsen FH. J Trace Elem Med Biol. 2014;28(4):382-391. Boron in human nutrition (review) (PMID: 25195178)</li>
+<li>Hunt CD. Environ Health Perspect. 1994;102(Suppl 7):59-63. Boron and bone (PMID: 7889861)</li>
+</ul>
 
 {% endraw %}

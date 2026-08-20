@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.517950Z'
+created: 2026-01-22T12:00:00+0000
 description: High-energy phosphate compound that serves as a rapidly mobilizable reserve
   of high-energy phosphates in skeletal muscle, myocardium, and brain. The phosphocreatine-creatine
   kinase system provides immediate ATP regeneration during the first 5-8 seconds of
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: phosphocreatine
 permalink: /garden/demo_user/metabolite/phosphocreatine/
+provenance: curated
 pubchem_id: '587'
 slug: phosphocreatine
 source: Manual
@@ -27,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Phosphocreatine
 type: metabolite
-updated: '2026-06-13T17:47:13.517950Z'
+updated: '2026-08-20T04:08:31.207272Z'
 ---
 
 {% raw %}
@@ -57,7 +58,7 @@ PARTICIPATES_IN_PATHWAY::<a href="/garden/demo_user/pathway/glycolysis/" class="
 PARTICIPATES_IN_PATHWAY::<a href="/garden/demo_user/pathway/oxidative-phosphorylation/" class="internal-link">Oxidative Phosphorylation</a> - PCr is recharged by mitochondrial ATP production<br />
 PARTICIPATES_IN_PATHWAY::<a href="/garden/demo_user/pathway/citric-acid-cycle/" class="internal-link">Citric Acid Cycle</a> - TCA cycle generates the ATP needed to replenish PCr stores</p>
 <h3>Biomarkers and Enzymes</h3>
-<p>METABOLIZED_BY::<a href="/garden/demo_user/biomarker/creatine-kinase/" class="internal-link">Creatine Kinase</a> - Enzyme that catalyzes the reversible transfer of phosphate between PCr and ATP<br />
+<p>METABOLIZED_BY::<a href="/garden/demo_user/labtest/creatine-kinase/" class="internal-link">Creatine Kinase</a> - Enzyme that catalyzes the reversible transfer of phosphate between PCr and ATP<br />
 DEGRADED_TO::<a href="/garden/demo_user/labtest/creatinine/" class="internal-link">Creatinine</a> - Non-enzymatic breakdown product excreted in urine (1-2% daily turnover)</p>
 <h3>Organs and Tissues</h3>
 <p>CONCENTRATED_IN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a> - Critical for neuronal energy buffering and neurotransmission<br />

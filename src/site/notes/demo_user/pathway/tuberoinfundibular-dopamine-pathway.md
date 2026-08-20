@@ -1,11 +1,16 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.978030Z'
+created: '2026-03-11T11:39:49.011170+00:00'
+description: The Central Nervous System contains exactly four cardinal dopamine pathways
+  heavily regulating human biology.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: tuberoinfundibular_dopamine_pathway
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/tuberoinfundibular-dopamine-pathway/
+provenance: curated
 slug: tuberoinfundibular-dopamine-pathway
 source: Manual
 tags:
@@ -13,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Tuberoinfundibular Dopamine Pathway
 type: pathway
-updated: '2026-06-13T17:47:13.978030Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -35,5 +40,9 @@ MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

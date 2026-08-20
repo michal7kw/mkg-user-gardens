@@ -1,6 +1,8 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:14.434243Z'
+aliases:
+- Omega-3 (High DHA)
+confidence_score: 0.85
+created: 2026-01-24T12:00:00+0000
 description: Docosahexaenoic acid, a long-chain omega-3 fatty acid that is the primary
   structural component of brain cell membranes. Essential for brain development, cognitive
   function, and neuroprotection throughout life.
@@ -9,7 +11,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: omega3_dha
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/omega-3-dha/
+provenance: curated
 pubchem_id: '445580'
 slug: omega-3-dha
 source: Manual
@@ -22,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Omega-3 DHA
 type: supplement
-updated: '2026-06-13T17:47:14.434243Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -43,23 +47,23 @@ updated: '2026-06-13T17:47:14.434243Z'
 <li><strong>Timing</strong>: Take with a fat-containing meal for optimal absorption</li>
 </ul>
 <h2>Relationships</h2>
+<h3>Provides Nutrient</h3>
+<p>PROVIDES_NUTRIENT::<a href="/garden/demo_user/nutrient/omega-3-dha/" class="internal-link">Omega-3 (DHA)</a></p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a><br />
 RELATED::<a href="/garden/demo_user/supplement/vitamin-e/" class="internal-link">Vitamin E</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">ADHD</a><br />
+RELATED::<a href="/garden/demo_user/condition/attention-deficit-hyperactivity-disorder/" class="internal-link">Attention Deficit Hyperactivity Disorder</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/mild-cognitive-impairment/" class="internal-link">Mild Cognitive Impairment</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Omega-3 Index</a><br />
+RELATED::<a href="/garden/demo_user/biomarker/omega3-index/" class="internal-link">Omega-3 Index</a><br />
 RELATED::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimers Disease</a><br />
 RELATED::<a href="/garden/demo_user/condition/parkinsons-disease/" class="internal-link">Parkinsons Disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">BDNF Signaling</a><br />
+RELATED::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Prefrontal Cortex</a><br />
 RELATED::<a href="/garden/demo_user/intervention/mediterranean-diet/" class="internal-link">Mediterranean Diet</a><br />
 RELATED::<a href="/garden/demo_user/supplement/phosphatidylserine/" class="internal-link">Phosphatidylserine</a><br />
-RELATED::<a href="/garden/demo_user/intervention/cognitive-training/" class="internal-link">Cognitive Training</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Retina</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">CRP</a><br />
+RELATED::<a href="/garden/demo_user/intervention/cognitive-training/" class="internal-link">Cognitive Training</a>RELATED::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a><br />
 MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/neuroinflammation/" class="internal-link">Neuroinflammation</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Hippocampus</a><br />
 RELATED::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a></p>
@@ -74,5 +78,12 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/omega-fatty-acid-imb
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a> (Constitutes 40% of brain membrane PUFAs; supports synaptic plasticity via BDNF and resolvin/protectin synthesis, Evidence Level 4a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/eyes/" class="internal-link">Eyes</a> (Constitutes 60% of retinal PUFAs; neuroprotectin D1 protects photoreceptors from oxidative damage, Evidence Level 4a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a> (Reduces triglycerides and inflammation via specialized pro-resolving mediators; cardiovascular mortality reduction, Evidence Level 4a)</p>
+<h2>References</h2>
+<ul>
+<li>Swanson D, et al. Adv Nutr. 2012;3(1):1-8. Omega-3 fatty acids (review) (PMID: 22332096)</li>
+<li>Siscovick DS, et al. Circulation. 2017;135(15):e867-e884. Omega-3s in CVD (science advisory) (PMID: 28264641)</li>
+<li>Bhatt DL, et al. N Engl J Med. 2019;380(1):11-22. REDUCE-IT (PMID: 30415628)</li>
+<li>Manson JE, et al. N Engl J Med. 2019;380(1):23-32. VITAL: Omega-3 and vitamin D (PMID: 30415637)</li>
+</ul>
 
 {% endraw %}

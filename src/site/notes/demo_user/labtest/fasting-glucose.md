@@ -92,7 +92,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.327399Z'
+created: 2025-12-10T09:07:57+0000
 description: Blood sugar after fasting. Used for diabetes screening and metabolic
   health assessment.
 dg-home: false
@@ -101,6 +101,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: test-glucose-fasting-001
 permalink: /garden/demo_user/labtest/fasting-glucose/
+provenance: curated
 slug: fasting-glucose
 source: Manual
 tags:
@@ -108,7 +109,7 @@ tags:
 templateEngineOverride: njk
 title: fasting_glucose
 type: labtest
-updated: '2026-06-13T17:47:12.327399Z'
+updated: '2026-08-20T04:08:30.631800Z'
 ---
 
 {% raw %}
@@ -134,6 +135,10 @@ updated: '2026-06-13T17:47:12.327399Z'
 <td>Bmp</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -144,6 +149,18 @@ updated: '2026-06-13T17:47:12.327399Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>1-2 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$10-$25</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -167,6 +184,8 @@ updated: '2026-06-13T17:47:12.327399Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/biomarker/glucose-fasting/" class="internal-link">Glucose Fasting</a></p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/biomarker/glucose-fasting/" class="internal-link">Glucose Fasting</a></p>
 <h2>Notes</h2>

@@ -1,6 +1,9 @@
 ---
+aliases:
+- Mri Scan
+- mri scan
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.146467Z'
+created: 2026-01-18T16:48:42+0000
 description: Scans for a broad spectrum of conditions, including cancers of the brain,
   thyroid, liver, gallbladder, pancreas, spleen, kidneys, adrenal glands, bladder,
   ovaries, uterus, and prostate. Also scans for signs of stroke, sinus inflammation,
@@ -10,6 +13,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-mri-scan
 permalink: /garden/demo_user/labtestpanel/mri-scan/
+provenance: curated
 slug: mri-scan
 source: Manual
 tags:
@@ -17,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: mri_scan
 type: labtestpanel
-updated: '2026-06-13T17:47:13.146467Z'
+updated: '2026-08-20T04:08:31.072657Z'
 ---
 
 {% raw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.685440Z'
+created: 2026-02-07T00:00:00+0000
 description: Osteocalcin test. Bone-specific protein produced by osteoblasts during
   bone formation. Serves as a marker of bone turnover and osteoblast activity. Used
   in monitoring osteoporosis treatment and assessing bone metabolic disorders.
@@ -10,6 +10,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: test-osteocalcin-001
 permalink: /garden/demo_user/labtest/osteocalcin/
+provenance: curated
 slug: osteocalcin
 source: Manual
 tags:
@@ -17,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: osteocalcin
 type: labtest
-updated: '2026-06-13T17:47:12.685440Z'
+updated: '2026-08-20T04:08:30.833071Z'
 ---
 
 {% raw %}
@@ -43,6 +44,10 @@ updated: '2026-06-13T17:47:12.685440Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -53,6 +58,18 @@ updated: '2026-06-13T17:47:12.685440Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -76,6 +93,8 @@ updated: '2026-06-13T17:47:12.685440Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/labtest/osteocalcin/" class="internal-link">Osteocalcin</a></p>
 <h3>Included In</h3>
 <p>INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/bone-health-panel/" class="internal-link">bone health panel</a></p>
 <h3>Enriched</h3>

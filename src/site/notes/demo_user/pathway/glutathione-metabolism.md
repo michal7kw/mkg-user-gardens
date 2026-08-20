@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:13.895478Z'
+created: 2026-04-01T00:00:00+0000
 description: The metabolic pathway governing synthesis, recycling, and utilization
   of glutathione (GSH), the cell's primary intracellular antioxidant. Includes de
   novo synthesis from cysteine, glycine, and glutamate via gamma-glutamylcysteine
@@ -8,9 +8,12 @@ description: The metabolic pathway governing synthesis, recycling, and utilizati
   mediated by glutathione peroxidase and glutathione reductase.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: glutathione_metabolism
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/glutathione-metabolism/
+provenance: curated
 slug: glutathione-metabolism
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Glutathione Metabolism
 type: pathway
-updated: '2026-06-13T17:47:13.895478Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -54,5 +57,9 @@ MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/alpha-lipoic-acid
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a><br />
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/selenium/" class="internal-link">Selenium</a><br />
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:14.315487Z'
+created: 2026-01-03T17:55:41+0000
 description: CDP-choline, a naturally occurring compound that provides both choline
   and cytidine. Superior nootropic supporting phosphatidylcholine synthesis, dopamine
   signaling, and neuroprotection.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 3
 gardenUsername: demo_user
 id: citicoline
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/citicoline/
+provenance: curated
 pubchem_id: '13804'
 slug: citicoline
 source: Manual
@@ -23,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Citicoline
 type: supplement
-updated: '2026-06-13T17:47:14.315487Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -61,5 +63,11 @@ MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">ADHD</
 <h3>Synergistic With</h3>
 <p>SYNERGISTIC_WITH::<a class="internal-link is-unresolved" href="/404">Omega-3</a> (both support neuronal membrane phospholipid composition, Evidence Level 2b)<br />
 SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/phosphatidylserine/" class="internal-link">Phosphatidylserine</a> (complementary phospholipid support for cognitive function, Evidence Level 3)</p>
+<h2>References</h2>
+<ul>
+<li>Secades JJ, Garces E. Rev Neurol. 2011;53(Suppl 2):S41-S48. Citicoline (review)</li>
+<li>Davalos A, et al. Stroke. 2012;43(9):2369-2370. Citicoline in stroke (ICTUS trial) (PMID: 22811456)</li>
+<li>Garces E, et al. Methods Find Exp Clin Pharmacol. 2009;31(8):523-529. Citicoline and cognitive function (PMID: 20091464)</li>
+</ul>
 
 {% endraw %}

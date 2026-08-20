@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.92
-created: '2026-06-13T17:47:14.081901Z'
+created: 2026-03-28T12:00:00+0000
 description: Family of FAD-dependent enzymes catalyzing the first step of each beta-oxidation
   cycle. Introduces a trans double bond in the fatty acyl-CoA chain, producing enoyl-CoA
   and transferring electrons to the ETC via ETF/ETFQO.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: acyl_coa_dehydrogenase
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/protein/acyl-coa-dehydrogenase/
+provenance: curated
 slug: acyl-coa-dehydrogenase
 source: Manual
 tags:
@@ -20,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Acyl-CoA Dehydrogenase
 type: protein
-updated: '2026-06-13T17:47:14.081901Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -88,5 +90,10 @@ CATALYZES::<a href="/garden/demo_user/metabolite/enoyl-coa/" class="internal-lin
 <p>PARTICIPATES_IN::<a href="/garden/demo_user/pathway/beta-oxidation/" class="internal-link">Beta-Oxidation</a></p>
 <h3>Produces</h3>
 <p>PRODUCES::<a href="/garden/demo_user/metabolite/fadh2/" class="internal-link">FADH2</a></p>
+<h2>References</h2>
+<ul>
+<li>UniProt Consortium. Nucleic Acids Res. 2023;51(D1):D523-D531. UniProt (PMID: 36408955)</li>
+<li>Uhlén M, et al. Science. 2015;347(6220):1260419. The Human Protein Atlas (PMID: 25613900)</li>
+</ul>
 
 {% endraw %}

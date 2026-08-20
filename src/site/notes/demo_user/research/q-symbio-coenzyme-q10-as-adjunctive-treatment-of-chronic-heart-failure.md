@@ -2,7 +2,7 @@
 aliases:
 - Q-SYMBIO Coenzyme Q10 as adjunctive treatment of chronic heart failure
 confidence_score: 0.96
-created: '2026-06-13T17:47:14.230560Z'
+created: '2025-01-22'
 description: The Q-SYMBIO trial was a landmark multicenter, randomized, double-blind,
   placebo-controlled study demonstrating that CoQ10 supplementation (300 mg/day for
   2 years) significantly reduced cardiovascular mortality and hospitalizations in
@@ -14,8 +14,10 @@ doi: 10.1016/j.jchf.2014.06.008
 evidence_level: 5
 gardenUsername: demo_user
 id: pmid_25282031
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/research/q-symbio-coenzyme-q10-as-adjunctive-treatment-of-chronic-heart-failure/
 pmid: '25282031'
+provenance: curated
 slug: q-symbio-coenzyme-q10-as-adjunctive-treatment-of-chronic-heart-failure
 source: Manual
 tags:
@@ -30,7 +32,7 @@ tags:
 templateEngineOverride: njk
 title: 'Q-SYMBIO: Coenzyme Q10 as adjunctive treatment of chronic heart failure'
 type: research
-updated: '2026-06-13T17:47:14.230560Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -62,5 +64,9 @@ RELATED::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a
 <h3>Studied Topic</h3>
 <p>STUDIED_TOPIC::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a><br />
 STUDIED_TOPIC::<a href="/garden/demo_user/condition/heart-failure/" class="internal-link">Heart Failure</a></p>
+<h2>References</h2>
+<ul>
+<li>Q-SYMBIO Coenzyme Q10 as adjunctive treatment of chronic heart failure — original research publication indexed in this knowledge base.</li>
+</ul>
 
 {% endraw %}

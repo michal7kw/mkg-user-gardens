@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.276896Z'
+created: 2026-02-07T00:00:00+0000
 description: Serum copper test measures the total copper concentration in blood. Copper
   is an essential trace mineral required as a cofactor for over 30 enzymes. The test
   helps diagnose copper deficiency, Wilson's disease, and monitor copper supplementation.
@@ -11,6 +11,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-copper-serum
 permalink: /garden/demo_user/labtest/copper-serum/
+provenance: curated
 slug: copper-serum
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: copper_serum
 type: labtest
-updated: '2026-06-13T17:47:12.276896Z'
+updated: '2026-08-20T04:08:30.584171Z'
 ---
 
 {% raw %}
@@ -44,6 +45,10 @@ updated: '2026-06-13T17:47:12.276896Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -55,12 +60,24 @@ updated: '2026-06-13T17:47:12.276896Z'
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Biomarkers Measured</h2>
 <p>This test measures the following biomarkers:</p>
 <ul>
-<li><a href="/garden/demo_user/biomarker/copper/" class="internal-link">Copper</a></li>
+<li><a href="/garden/demo_user/supplement/copper/" class="internal-link">Copper</a></li>
 </ul>
 <h2>Recommended For</h2>
 <h3>Supplement Monitoring</h3>
@@ -75,7 +92,7 @@ updated: '2026-06-13T17:47:12.276896Z'
 RELATED_TESTS::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a><br />
 RELATED_TESTS::<a href="/garden/demo_user/labtest/zinc-serum/" class="internal-link">zinc serum</a></p>
 <h3>Measures</h3>
-<p>MEASURES::<a href="/garden/demo_user/biomarker/copper/" class="internal-link">Copper</a></p>
+<p>MEASURES::<a href="/garden/demo_user/supplement/copper/" class="internal-link">Copper</a></p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

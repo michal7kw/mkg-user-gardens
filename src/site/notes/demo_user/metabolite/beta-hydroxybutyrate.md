@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.251766Z'
+created: 2026-03-05T00:00:00+0000
 description: 'Beta-hydroxybutyrate (BHB) is the most abundant circulating ketone body,
 
   produced by hepatic ketogenesis during fasting, prolonged exercise, or ketogenic
@@ -20,6 +20,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: beta_hydroxybutyrate
 permalink: /garden/demo_user/metabolite/beta-hydroxybutyrate/
+provenance: curated
 pubchem_id: '441'
 slug: beta-hydroxybutyrate
 source: Manual
@@ -34,7 +35,7 @@ tags:
 templateEngineOverride: njk
 title: Beta-Hydroxybutyrate
 type: metabolite
-updated: '2026-06-13T17:47:13.251766Z'
+updated: '2026-08-20T04:08:31.119426Z'
 ---
 
 {% raw %}

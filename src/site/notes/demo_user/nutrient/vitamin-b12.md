@@ -1,13 +1,16 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.738577Z'
+created: '2026-04-05T16:16:24.719548+00:00'
 description: Essential cobalt-containing vitamin required for DNA synthesis, red blood
   cell formation, and neurological function. Exclusively from animal sources or supplementation.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_vitamin_b12
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/vitamin-b12/
+provenance: curated
 slug: vitamin-b12
 source: dev_seeder
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Vitamin B12
 type: nutrient
-updated: '2026-06-13T17:47:13.738577Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -57,14 +60,18 @@ updated: '2026-06-13T17:47:13.738577Z'
 <li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Methylmalonic Acid (MMA)</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/red-blood-cell-count/" class="internal-link">Red Blood Cell Count</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/mean-corpuscular-volume-mcv/" class="internal-link">Mean Corpuscular Volume (MCV)</a></li>
-<li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Anemia</a></li>
+<li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/anemia/" class="internal-link">Anemia</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/peripheral-neuropathy/" class="internal-link">Peripheral Neuropathy</a></li>
-<li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Cognitive Decline</a></li>
+<li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/cognitivefunction/cognitive-decline/" class="internal-link">Cognitive Decline</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/nutrient/folate-b9/" class="internal-link">Folate (B9)</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/protein/" class="internal-link">Protein</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

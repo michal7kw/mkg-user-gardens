@@ -1,5 +1,6 @@
 ---
-created: '2026-06-13T17:47:14.243543Z'
+confidence_score: 0.7
+created: '2026-08-20T04:08:31.765606Z'
 description: Drug-induced delay in cardiac ventricular repolarization measured as
   prolonged QTc interval on electrocardiogram, carrying risk of torsades de pointes
   ventricular tachycardia and sudden cardiac death.
@@ -8,7 +9,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: qt_prolongation
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/sideeffect/qt-prolongation/
+provenance: curated
 slug: qt-prolongation
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: QT Prolongation
 type: sideeffect
-updated: '2026-06-13T17:47:14.243543Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -91,5 +94,9 @@ MONITORED_BY::<a class="internal-link is-unresolved" href="/404">Electrocardiogr
 RISK_FACTOR::<a class="internal-link is-unresolved" href="/404">Bradycardia</a><br />
 CAUSED_BY::<a href="/garden/demo_user/drug/citalopram/" class="internal-link">Citalopram</a><br />
 CAUSED_BY::<a href="/garden/demo_user/drug/escitalopram/" class="internal-link">Escitalopram</a></p>
+<h2>References</h2>
+<ul>
+<li>MedDRA. Medical Dictionary for Regulatory Activities. https://www.meddra.org (adverse event classification)</li>
+</ul>
 
 {% endraw %}

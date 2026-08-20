@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.619818Z'
+created: 2026-01-03T17:55:39+0000
 description: Dopamine is a catecholamine neurotransmitter central to reward processing,
   motivation, motor control, and executive function. Often called the "motivation
   molecule," it drives goal-directed behavior, reinforcement learning, and voluntary
@@ -15,6 +15,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: dopamine
 permalink: /garden/demo_user/neurotransmitter/dopamine/
+provenance: curated
 pubchem_id: '681'
 slug: dopamine
 source: Manual
@@ -30,7 +31,7 @@ tags:
 templateEngineOverride: njk
 title: Dopamine
 type: neurotransmitter
-updated: '2026-06-13T17:47:13.619818Z'
+updated: '2026-08-20T04:08:31.276781Z'
 ---
 
 {% raw %}
@@ -443,7 +444,7 @@ Dopamine ───┤                                              (measured in 
 REQUIRES_COFACTOR::<a href="/garden/demo_user/supplement/vitamin-b6/" class="internal-link">Vitamin B6</a><br />
 METABOLIZED_TO::<a href="/garden/demo_user/neurotransmitter/norepinephrine/" class="internal-link">Norepinephrine</a></p>
 <h3>Neurotransmitter Interactions</h3>
-<p>INTERACTS_WITH::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a><br />
+<p>INTERACTS_WITH::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/neurotransmitter/norepinephrine/" class="internal-link">Norepinephrine</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a><br />

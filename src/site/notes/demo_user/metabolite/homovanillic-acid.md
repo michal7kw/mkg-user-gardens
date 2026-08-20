@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:13.397792Z'
+created: 2026-05-27T12:00:00+0000
 description: Homovanillic acid (HVA) is the principal end-metabolite of dopamine,
   produced by the sequential action of monoamine oxidase (MAO) and catechol-O-methyltransferase
   (COMT). CSF and urinary HVA are classic indices of central dopamine turnover, reduced
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: homovanillic_acid
 permalink: /garden/demo_user/metabolite/homovanillic-acid/
+provenance: curated
 pubchem_id: '1738'
 slug: homovanillic-acid
 source: PubMed
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Homovanillic Acid
 type: metabolite
-updated: '2026-06-13T17:47:13.397792Z'
+updated: '2026-08-20T04:08:31.165245Z'
 ---
 
 {% raw %}

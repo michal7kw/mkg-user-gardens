@@ -1,13 +1,16 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.688797Z'
+created: '2026-04-05T16:16:18.631139+00:00'
 description: Primary energy macronutrient — provides glucose for brain, muscles, and
   cellular metabolism
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_carbohydrate
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/carbohydrate/
+provenance: curated
 slug: carbohydrate
 source: dev_seeder
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Carbohydrate
 type: nutrient
-updated: '2026-06-13T17:47:13.688797Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -61,6 +64,10 @@ updated: '2026-06-13T17:47:13.688797Z'
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/nutrient/saturated-fat/" class="internal-link">Saturated Fat</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/protein/" class="internal-link">Protein</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/dietary-fat/" class="internal-link">Dietary Fat</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

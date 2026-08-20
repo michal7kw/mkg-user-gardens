@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.837199Z'
+created: 2026-04-01T10:00:00+0000
 description: Anchor DMARD and first-line treatment for rheumatoid arthritis. Folate
   antimetabolite that inhibits dihydrofolate reductase, suppressing lymphocyte proliferation
   and reducing inflammatory cytokine production.
@@ -10,6 +10,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: methotrexate
 permalink: /garden/demo_user/drug/methotrexate/
+provenance: curated
 slug: methotrexate
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Methotrexate
 type: drug
-updated: '2026-06-13T17:47:11.837199Z'
+updated: '2026-08-20T04:08:30.150788Z'
 ---
 
 {% raw %}
@@ -38,7 +39,7 @@ updated: '2026-06-13T17:47:11.837199Z'
 <p>TREATS::<a href="/garden/demo_user/condition/rheumatoid-arthritis/" class="internal-link">Rheumatoid Arthritis</a><br />
 TREATS::<a href="/garden/demo_user/condition/psoriasis/" class="internal-link">Psoriasis</a></p>
 <h3>Affects Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a><br />
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a><br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/esr/" class="internal-link">esr</a></p>
 <h3>Modulates Pathway</h3>
 <p>MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/nf-kb-pathway/" class="internal-link">NF-kB Pathway</a></p>

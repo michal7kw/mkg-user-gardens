@@ -1,13 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:14.323870Z'
+aliases:
+- Creatine Monohydrate
+confidence_score: 0.95
+created: '2026-03-23T03:06:42.742402+00:00'
 description: Amino acid derivative supporting ATP regeneration in muscles and brain
 dg-home: false
 dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: creatine
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/creatine/
+provenance: curated
 pubchem_id: '586'
 slug: creatine
 source: dev_seeder
@@ -16,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Creatine
 type: supplement
-updated: '2026-06-13T17:47:14.323870Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -37,7 +41,7 @@ updated: '2026-06-13T17:47:14.323870Z'
 <h2>Relationships</h2>
 <h3>Affects Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/creatinine/" class="internal-link">creatinine</a><br />
-AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/creatine-kinase/" class="internal-link">Creatine Kinase</a></p>
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/creatine-kinase/" class="internal-link">Creatine Kinase</a></p>
 <h3>May Improve Condition</h3>
 <p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/sarcopenia/" class="internal-link">Sarcopenia</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a><br />
@@ -50,7 +54,7 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/neuromuscular-disord
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/homocysteine/" class="internal-link">homocysteine</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a><br />
-AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Muscle</a><br />
+AFFECTS_ORGAN::<a href="/garden/demo_user/organ/muscles/" class="internal-link">Muscle</a><br />
 INCREASES_METABOLITE::<a href="/garden/demo_user/metabolite/atp/" class="internal-link">ATP</a><br />
 INCREASES_METABOLITE::<a href="/garden/demo_user/metabolite/phosphocreatine/" class="internal-link">Phosphocreatine</a><br />
 PARTICIPATES_IN_PATHWAY::<a href="/garden/demo_user/pathway/oxidative-phosphorylation/" class="internal-link">Oxidative Phosphorylation</a><br />
@@ -62,5 +66,12 @@ SUPPORTS_FUNCTION::<a href="/garden/demo_user/cognitivefunction/memory-and-learn
 SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/beta-alanine/" class="internal-link">Beta-Alanine</a><br />
 SYNERGISTIC_WITH::<a class="internal-link is-unresolved" href="/404">Carbohydrates</a><br />
 SYNERGISTIC_WITH::<a class="internal-link is-unresolved" href="/404">HMB</a></p>
+<h2>References</h2>
+<ul>
+<li>Kreider RB, et al. J Int Soc Sports Nutr. 2017;14:18. International Society of Sports Nutrition position stand on creatine (PMID: 28615996)</li>
+<li>Phillips SM, Van Loon LJC. J Sports Sci. 2011;29(Suppl 1):S29-S38. Creatine and exercise performance (PMID: 21836222)</li>
+<li>Balestrino M, et al. Neurology. 2022. Creatine in neurodegenerative disease (review)</li>
+<li>Forbes SC, et al. Nutrients. 2022;14(18):3712. Creatine and cognitive function (PMID: 36145136)</li>
+</ul>
 
 {% endraw %}

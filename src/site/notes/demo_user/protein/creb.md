@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:14.097242Z'
+created: 2026-03-19T00:00:00+0000
 description: cAMP response element-binding protein, a master transcription factor
   for long-term memory formation and neuronal survival. Activated by phosphorylation
   at Ser133 via PKA, CaMKIV, and MAPK/RSK cascades in response to synaptic activity,
@@ -14,6 +14,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: creb
 permalink: /garden/demo_user/protein/creb/
+provenance: curated
 slug: creb
 source: Manual
 tags:
@@ -26,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: CREB
 type: protein
-updated: '2026-06-13T17:47:14.097242Z'
+updated: '2026-08-20T04:08:31.642986Z'
 ---
 
 {% raw %}
@@ -87,7 +88,7 @@ updated: '2026-06-13T17:47:14.097242Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>INTERACTS_WITH::<a href="/garden/demo_user/gene/crebbp/" class="internal-link">CREBBP</a><br />
+<p>INTERACTS_WITH::<a href="/garden/demo_user/protein/crebbp/" class="internal-link">CREBBP</a><br />
 RELATED::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimer's Disease</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/protein/pgc-1alpha/" class="internal-link">PGC-1alpha</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/protein/nerve-growth-factor/" class="internal-link">Nerve Growth Factor</a><br />

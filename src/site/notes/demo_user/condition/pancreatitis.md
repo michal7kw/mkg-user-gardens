@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.554056Z'
+confidence_score: 0.9
+created: 2026-01-18T16:48:42+0000
 description: Inflammation of the pancreas, which can be acute (sudden and severe)
   or chronic (long-term and progressive).
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: pancreatitis
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/pancreatitis/
+provenance: curated
 slug: pancreatitis
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Pancreatitis
 type: condition
-updated: '2026-06-13T17:47:11.554056Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -49,7 +52,7 @@ updated: '2026-06-13T17:47:11.554056Z'
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/glucose-fasting/" class="internal-link">Glucose Fasting</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/alanine-transaminase/" class="internal-link">Alanine Transaminase</a></p>
 <h3>Improved By Supplement</h3>
@@ -57,5 +60,12 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/alanine-transaminase/" cla
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/probiotics/" class="internal-link">Probiotics</a></p>
+<h2>References</h2>
+<ul>
+<li>Tenner S, Baillie J, DeWitt J, Vege SS. Am J Gastroenterol. 2013;108(9):1402-1415. American College of Gastroenterology Guideline: Management of Acute Pancreatitis (PMID: 23896955)</li>
+<li>Working Group IAP/APA Acute Pancreatitis Guidelines. Pancreatology. 2013;13(4 Suppl 2):e1-e15. Revised Atlanta classification (PMID: 24054878)</li>
+<li>Whitcomb DC, Frulloni L, Garg P, et al. Nat Rev Dis Primers. 2024. Chronic pancreatitis (review)</li>
+<li>Lankisch PG, Apte M, Banks PA. Nat Rev Dis Primers. 2015;1:15011. Acute pancreatitis (review) (PMID: 27188158)</li>
+</ul>
 
 {% endraw %}

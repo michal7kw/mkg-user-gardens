@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.483210Z'
+confidence_score: 0.9
+created: 2026-01-18T16:02:34+0000
 description: A natural biological process marking the end of a woman's reproductive
   years, defined as 12 consecutive months without a menstrual period.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: menopause
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/menopause/
+provenance: curated
 slug: menopause
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Menopause
 type: condition
-updated: '2026-06-13T17:47:11.483210Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -49,8 +52,8 @@ updated: '2026-06-13T17:47:11.483210Z'
 <li><strong>Bone protection</strong>: DEXA screening, ensure adequate calcium (1200 mg/day) and vitamin D (target &gt;40 ng/mL), weight-bearing exercise, consider bisphosphonates if osteoporotic</li>
 </ul>
 <h2>Relationships</h2>
-<p>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Ovaries</a><br />
-AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Bone</a></p>
+<p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/ovaries/" class="internal-link">Ovaries</a><br />
+AFFECTS_ORGAN::<a href="/garden/demo_user/organ/bones/" class="internal-link">Bone</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/estradiol/" class="internal-link">estradiol</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin D (25-OH)</a><br />
@@ -63,5 +66,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acid
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/black-seed-oil/" class="internal-link">Black Seed Oil</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-k2/" class="internal-link">Vitamin K2</a></p>
+<h2>References</h2>
+<ul>
+<li>NAMS Position Statement. Menopause. 2022;29(7):767-794. The 2022 hormone therapy position statement of The North American Menopause Society (PMID: 35763429)</li>
+<li>Davis SR, Lambrinoudaki I, Lumsden M, et al. Climacteric. 2015;18(3):315-328. Menopause (review) (PMID: 25746029)</li>
+<li>Manson JE, Aragaki AK, Rossouw JE, et al. N Engl J Med. 2017;377(12):1158-1168. Menopausal hormone therapy and long-term health outcomes (WHI) (PMID: 28899865)</li>
+</ul>
 
 {% endraw %}

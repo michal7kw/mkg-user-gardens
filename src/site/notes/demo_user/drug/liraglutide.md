@@ -1,6 +1,30 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:11.810994Z'
+country_regulatory:
+  it:
+    agency_status: approved
+    atc_code: A10BJ02
+    notes: AIFA-approved for type 2 diabetes; obesity indication (Saxenda) largely
+      out-of-pocket.
+    prescription_type: RR
+    reimbursement_class: A
+  pl:
+    agency_status: approved
+    atc_code: A10BJ02
+    notes: URPL/EMA-dopuszczony (Victoza w cukrzycy typu 2, Saxenda w otyłości). Refundowany
+      przez NFZ w cukrzycy typu 2 wg kryteriów; Saxenda (otyłość) nierefundowana i
+      pełnopłatna. Status refundacji zmienia się — sprawdź aktualne obwieszczenie
+      MZ.
+    prescription_type: Rp
+    reimbursement_class: refundowany
+  uk:
+    agency_status: approved
+    atc_code: A10BJ02
+    notes: MHRA/EMA-approved GLP-1 receptor agonist (Victoza for type 2 diabetes;
+      Saxenda for obesity).
+    prescription_type: POM
+    reimbursement_class: NHS
+created: 2026-04-14T00:00:00+0000
 description: GLP-1 receptor agonist for type 2 diabetes and obesity. Once-daily injection
   providing glycemic control and weight loss. Available as Victoza (T2DM) and Saxenda
   (obesity). Pioneer GLP-1 agonist with extensive long-term safety data.
@@ -10,6 +34,7 @@ drugbank_id: DB06655
 gardenUsername: demo_user
 id: liraglutide
 permalink: /garden/demo_user/drug/liraglutide/
+provenance: curated
 pubchem_id: 16134956
 slug: liraglutide
 source: Manual
@@ -25,7 +50,7 @@ tags:
 templateEngineOverride: njk
 title: Liraglutide
 type: drug
-updated: '2026-06-13T17:47:11.810994Z'
+updated: '2026-08-20T04:08:30.131815Z'
 ---
 
 {% raw %}
@@ -99,11 +124,11 @@ TREATS::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="int
 <h3>Affects Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a> (reduces by 1.0-1.5%, Evidence Level 1a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/metabolite/glucose/" class="internal-link">Glucose</a> (reduces fasting glucose, Evidence Level 1a)<br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Blood Pressure</a> (reduces systolic BP by 2-3 mmHg, Evidence Level 2a)<br />
-AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/crp-hs/" class="internal-link">CRP (hs)</a> (reduces inflammation, Evidence Level 2a)</p>
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/examination/blood-pressure/" class="internal-link">Blood Pressure</a> (reduces systolic BP by 2-3 mmHg, Evidence Level 2a)<br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">CRP (hs)</a> (reduces inflammation, Evidence Level 2a)</p>
 <h3>Modulates Hormone</h3>
 <p>MODULATES_HORMONE::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a> (enhances glucose-dependent secretion, Evidence Level 1a)<br />
-MODULATES_HORMONE::<a class="internal-link is-unresolved" href="/404">Glucagon</a> (suppresses postprandial, Evidence Level 1a)<br />
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/glucagon/" class="internal-link">Glucagon</a> (suppresses postprandial, Evidence Level 1a)<br />
 MODULATES_HORMONE::<a href="/garden/demo_user/hormone/ghrelin/" class="internal-link">Ghrelin</a> (suppresses hunger, Evidence Level 2b)</p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/pancreas/" class="internal-link">Pancreas</a> (beta-cell stimulation, Evidence Level 1a)<br />

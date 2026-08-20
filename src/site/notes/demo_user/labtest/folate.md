@@ -90,7 +90,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.348010Z'
+created: 2025-12-10T09:07:57+0000
 description: B-vitamin essential for DNA synthesis. Important for pregnancy and cardiovascular
   health.
 dg-home: false
@@ -99,6 +99,7 @@ evidence_level: 0
 gardenUsername: demo_user
 id: test-folate-001
 permalink: /garden/demo_user/labtest/folate/
+provenance: curated
 slug: folate
 source: Manual
 tags:
@@ -106,7 +107,7 @@ tags:
 templateEngineOverride: njk
 title: folate
 type: labtest
-updated: '2026-06-13T17:47:12.348010Z'
+updated: '2026-08-20T04:08:30.647493Z'
 ---
 
 {% raw %}
@@ -131,6 +132,10 @@ updated: '2026-06-13T17:47:12.348010Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -141,6 +146,10 @@ updated: '2026-06-13T17:47:12.348010Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
 </tr>
 </tbody>
 </table>

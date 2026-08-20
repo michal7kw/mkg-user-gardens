@@ -1,13 +1,16 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.699645Z'
+created: '2026-04-05T16:16:10.331336+00:00'
 description: B-vitamin essential for one-carbon metabolism, DNA synthesis, methylation,
   and neural tube development. Critical for homocysteine remethylation.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_folate
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/folate-b9/
+provenance: curated
 slug: folate-b9
 source: dev_seeder
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Folate (B9)
 type: nutrient
-updated: '2026-06-13T17:47:13.699645Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -55,7 +58,7 @@ updated: '2026-06-13T17:47:13.699645Z'
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/homocysteine/" class="internal-link">homocysteine</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/red-blood-cell-count/" class="internal-link">Red Blood Cell Count</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/mean-corpuscular-volume-mcv/" class="internal-link">Mean Corpuscular Volume (MCV)</a></li>
-<li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Anemia</a></li>
+<li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/anemia/" class="internal-link">Anemia</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-b12/" class="internal-link">Vitamin B12</a></li>
@@ -63,6 +66,10 @@ updated: '2026-06-13T17:47:13.699645Z'
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a></li>
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-b12/" class="internal-link">Vitamin B12</a></li>
 <li>RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

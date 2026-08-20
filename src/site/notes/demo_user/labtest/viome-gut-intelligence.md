@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.970229Z'
+created: 2025-12-10T09:07:57+0000
 description: RNA-based gut microbiome analysis providing functional insights and personalized
   recommendations.
 dg-home: false
@@ -9,6 +9,7 @@ evidence_level: 2
 gardenUsername: demo_user
 id: test-viome-gut-001
 permalink: /garden/demo_user/labtest/viome-gut-intelligence/
+provenance: curated
 slug: viome-gut-intelligence
 source: Manual
 tags:
@@ -16,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: viome_gut_intelligence
 type: labtest
-updated: '2026-06-13T17:47:12.970229Z'
+updated: '2026-08-20T04:08:30.996192Z'
 ---
 
 {% raw %}
@@ -42,6 +43,10 @@ updated: '2026-06-13T17:47:12.970229Z'
 <td>Gut Microbiome</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -52,6 +57,18 @@ updated: '2026-06-13T17:47:12.970229Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>21-35 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$199-$299</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>

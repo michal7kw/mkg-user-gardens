@@ -1,13 +1,19 @@
 ---
+aliases:
+- Vitamin D3
+- Cholecalciferol
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.744518Z'
+created: '2026-04-05T16:16:24.553125+00:00'
 description: Fat-soluble secosteroid hormone precursor essential for calcium metabolism,
   immune regulation, and gene expression. Synthesized in skin via UVB exposure.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_vitamin_d
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/vitamin-d/
+provenance: curated
 slug: vitamin-d
 source: dev_seeder
 tags:
@@ -15,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Vitamin D
 type: nutrient
-updated: '2026-06-13T17:47:13.744518Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -49,12 +55,12 @@ updated: '2026-06-13T17:47:13.744518Z'
 <p>Vitamin D toxicity is rare but serious, occurring with chronic supplementation exceeding 10,000 IU/day or serum 25(OH)D above 150 ng/mL. Toxicity causes hypercalcemia (nausea, vomiting, weakness, confusion), hypercalciuria, kidney stones, nephrocalcinosis, and vascular calcification. Importantly, sun exposure cannot cause vitamin D toxicity because excess previtamin D3 is photodegraded in the skin. Co-supplementation with vitamin K2 may help prevent vascular calcification associated with high vitamin D intake.</p>
 <h2>Relationships</h2>
 <ul>
-<li>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Bone</a></li>
+<li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/bones/" class="internal-link">Bone</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/kidneys/" class="internal-link">Kidneys</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/pancreas/" class="internal-link">Pancreas</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></li>
-<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">25-Hydroxy Vitamin D</a></li>
+<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">25-Hydroxy Vitamin D</a></li>
 <li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Serum Calcium</a></li>
 <li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Parathyroid Hormone (PTH)</a></li>
 <li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Bone Density (DEXA)</a></li>
@@ -62,12 +68,16 @@ updated: '2026-06-13T17:47:13.744518Z'
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/autoimmune-disease/" class="internal-link">Autoimmune Disease</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/type-2-diabetes/" class="internal-link">Type 2 Diabetes</a></li>
-<li>SYNERGISTIC_WITH::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a></li>
+<li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-k2/" class="internal-link">Vitamin K2</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/nutrient/omega-3-dha/" class="internal-link">Omega-3 (DHA)</a></li>
 <li>RELATED::<a href="/garden/demo_user/supplement/iodine/" class="internal-link">Iodine</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/dietary-fat/" class="internal-link">Dietary Fat</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

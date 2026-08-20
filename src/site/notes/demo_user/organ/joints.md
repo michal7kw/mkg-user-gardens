@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:13.792545Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:39+0000
 description: Articulations between bones enabling movement. Include synovial joints
   with cartilage, synovial fluid, and ligaments.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: joints
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/organ/joints/
+provenance: curated
 slug: joints
 source: Manual
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Joints
 type: organ
-updated: '2026-06-13T17:47:13.792545Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -40,11 +43,15 @@ updated: '2026-06-13T17:47:13.792545Z'
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
 RELATED::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a><br />
-AFFECTED_BY::<a href="/garden/demo_user/condition/arthralgia/" class="internal-link">Arthralgia</a> (Joint pain is the primary symptom of joint dysfunction, Evidence Level 1a)<br />
+AFFECTED_BY::<a href="/garden/demo_user/phenotype/arthralgia/" class="internal-link">Arthralgia</a> (Joint pain is the primary symptom of joint dysfunction, Evidence Level 1a)<br />
 REQUIRES_NUTRIENT::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a> (Essential cofactor for collagen synthesis in cartilage and ligaments, Evidence Level 1b)<br />
 REQUIRES_NUTRIENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a> (Supports cartilage matrix integrity and reduces inflammatory joint degradation, Evidence Level 2b)<br />
 RELATED::<a href="/garden/demo_user/organ/muscles/" class="internal-link">Muscles</a> (Periarticular muscle strength is critical for joint stability and load distribution, Evidence Level 1a)<br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a> (Chronic synovial inflammation drives osteoarthritis and rheumatoid arthritis progression, Evidence Level 1a)<br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Collagen Supplement</a> (Type II collagen supplementation supports cartilage repair and reduces joint pain, Evidence Level 2a)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (textbook reference)</li>
+</ul>
 
 {% endraw %}

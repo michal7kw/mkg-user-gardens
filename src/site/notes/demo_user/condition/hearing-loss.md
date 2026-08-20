@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.398287Z'
+confidence_score: 0.85
+created: 2026-01-18T16:48:42+0000
 description: A partial or total inability to hear sound in one or both ears, ranging
   from mild to profound.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: hearing_loss
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/hearing-loss/
+provenance: curated
 slug: hearing-loss
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Hearing Loss
 type: condition
-updated: '2026-06-13T17:47:11.398287Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -42,9 +45,7 @@ updated: '2026-06-13T17:47:11.398287Z'
 <li><strong>Assistive listening devices</strong>: FM systems, captioning, vibrating/visual alerts</li>
 <li><strong>Lifestyle</strong>: Noise avoidance and ear protection (limit exposure &gt; 85 dB), cardiovascular fitness (improves cochlear blood flow), manage ototoxic medications</li>
 <li><strong>Supplements</strong>: Magnesium (protects against noise-induced damage), NAC (antioxidant cochlear protection), alpha-lipoic acid, omega-3 fatty acids, folate (homocysteine reduction)</li>
-<li><strong>Emerging</strong>: Gene therapy, hair cell regeneration research (FX-322), OTC hearing aids now available<br />
-AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Cochlea</a><br />
-AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Auditory Nerve</a></li>
+<li><strong>Emerging</strong>: Gene therapy, hair cell regeneration research (FX-322), OTC hearing aids now available</li>
 </ul>
 <h2>Relationships</h2>
 <h3>Risk Biomarkers</h3>
@@ -58,5 +59,12 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="inter
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/alpha-lipoic-acid/" class="internal-link">Alpha Lipoic Acid</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/folate/" class="internal-link">Folate</a></p>
+<h2>References</h2>
+<ul>
+<li>Livingston G, Huntley J, Sommerlad A, et al. Lancet. 2020;396(10248):413-446. Dementia prevention, intervention, and care (Lancet Commission) (PMID: 32738937)</li>
+<li>Davis A, Smith P, Ferguson M, Stephens D, Gianopoulos I. Int J Audiol. 2007;46(1):9-40. Acceptability, benefit and costs of early screening for hearing disability (PMID: 17365058)</li>
+<li>Goman AM, Lin FR. Age Ageing. 2018;47(1):8-13. Prevalence of hearing loss (review) (PMID: 29024966)</li>
+<li>Gates GA, Mills JH. Lancet. 2005;366(9491):1111-1120. Presbycusis (review) (PMID: 16182900)</li>
+</ul>
 
 {% endraw %}

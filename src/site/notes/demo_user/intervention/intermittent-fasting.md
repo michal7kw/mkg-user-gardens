@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:12.075607Z'
+created: 2026-01-03T17:55:39+0000
 description: Dietary pattern that cycles between periods of eating and voluntary fasting
   on a regular schedule. Improves metabolic health, promotes autophagy, enhances insulin
   sensitivity, and supports weight management. Multiple protocols ranging from 12-hour
@@ -10,7 +10,9 @@ dg-publish: true
 evidence_level: 3
 gardenUsername: demo_user
 id: intermittent_fasting
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/intervention/intermittent-fasting/
+provenance: curated
 slug: intermittent-fasting
 source: Manual
 tags:
@@ -23,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Intermittent Fasting
 type: intervention
-updated: '2026-06-13T17:47:12.075607Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -83,16 +85,20 @@ RELATED::<a href="/garden/demo_user/cellularcomponent/mitochondria/" class="inte
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/type-2-diabetes/" class="internal-link">Type 2 Diabetes</a> (improved insulin sensitivity and HbA1c, Evidence Level 1b)<br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a> (improved lipid and inflammatory markers, Evidence Level 2a)</p>
 <h3>Modulates Pathway</h3>
-<p>MODULATES_PATHWAY::<a class="internal-link is-unresolved" href="/404">Autophagy-Lysosomal Pathway</a> (activated at 16-24h fasting via mTOR suppression, Evidence Level 2b)</p>
+<p>MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/autophagy-lysosomal-pathway/" class="internal-link">Autophagy-Lysosomal Pathway</a> (activated at 16-24h fasting via mTOR suppression, Evidence Level 2b)</p>
 <h3>Modulates Hormone</h3>
 <p>MODULATES_HORMONE::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a> (fasting insulin reduced 20-31%, Evidence Level 1a)<br />
 MODULATES_HORMONE::<a href="/garden/demo_user/hormone/growth-hormone/" class="internal-link">Growth Hormone</a> (200-300% increase during extended fasts, Evidence Level 2a)<br />
-MODULATES_HORMONE::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a> (mild transient increase during adaptation, Evidence Level 2b)</p>
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a> (mild transient increase during adaptation, Evidence Level 2b)</p>
 <h3>Modulates Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a> (increased production supports neuroprotection, Evidence Level 3a)<br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a> (reduced systemic inflammation, Evidence Level 2a)<br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (reduced systemic inflammation, Evidence Level 2a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a> (improved glycemic control in T2D, Evidence Level 1b)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a> (reduced with regular IF, Evidence Level 1b)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="internal-link">LDL Cholesterol</a> (modest reduction in metabolically unhealthy, Evidence Level 2a)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

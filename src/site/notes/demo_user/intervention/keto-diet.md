@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:12.079531Z'
+created: 2026-01-03T17:55:39+0000
 description: The ketogenic diet is a very low-carb, high-fat diet that involves drastically
   reducing carbohydrate intake and replacing it with fat. This reduction in carbs
   puts your body into a metabolic state called ketosis.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: keto_diet
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/intervention/keto-diet/
+provenance: curated
 slug: keto-diet
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Keto Diet
 type: intervention
-updated: '2026-06-13T17:47:12.079531Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -61,6 +64,9 @@ updated: '2026-06-13T17:47:12.079531Z'
 <li>Halitosis (acetone breath)</li>
 </ul>
 <h2>Relationships</h2>
+<h3>Diet Nutrients</h3>
+<p>EMPHASIZES::<a href="/garden/demo_user/nutrient/dietary-fat/" class="internal-link">Dietary Fat</a><br />
+RESTRICTS::<a href="/garden/demo_user/nutrient/dietary-fiber/" class="internal-link">Dietary Fiber</a></p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/cellularcomponent/mitochondria/" class="internal-link">Mitochondria</a><br />
 RELATED::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a> (anti-inflammatory fats complement keto)<br />
@@ -80,7 +86,11 @@ AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="i
 <p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/diabetes/" class="internal-link">Diabetes</a> (T2D management with medication reduction, Evidence Level 1b)<br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/epilepsy/" class="internal-link">Epilepsy</a> (established therapy for drug-resistant epilepsy, Evidence Level 1a)</p>
 <h3>Requires Supplement</h3>
-<p>REQUIRES_SUPPLEMENT::<a href="/garden/demo_user/drug/mct8-oil/" class="internal-link">MCT8 Oil</a> (provides readily ketogenic medium-chain triglycerides)<br />
+<p>REQUIRES_SUPPLEMENT::<a href="/garden/demo_user/supplement/mct-oil/" class="internal-link">MCT8 Oil</a> (provides readily ketogenic medium-chain triglycerides)<br />
 REQUIRES_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a> (electrolyte depletion common on keto)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

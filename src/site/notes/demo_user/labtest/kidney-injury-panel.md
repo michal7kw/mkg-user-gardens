@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:12.458203Z'
+created: '2026-05-03'
 description: Composite panel for early acute kidney injury detection, typically combining
   urinary NGAL, urinary KIM-1, urinary IL-18, and urinary cystatin C. Used in research
   and select critical-care settings to detect tubular injury hours before serum creatinine
@@ -11,6 +11,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: kidney_injury_panel
 permalink: /garden/demo_user/labtest/kidney-injury-panel/
+provenance: curated
 slug: kidney-injury-panel
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: kidney_injury_panel
 type: labtest
-updated: '2026-06-13T17:47:12.458203Z'
+updated: '2026-08-20T04:08:30.733523Z'
 ---
 
 {% raw %}
@@ -43,8 +44,8 @@ updated: '2026-06-13T17:47:12.458203Z'
 </ul>
 <p>Adds value over creatinine when early intervention is feasible (fluid management, nephrotoxin avoidance).</p>
 <h2>Relationships</h2>
+<p>MEASURES_RISK_OF::<a href="/garden/demo_user/condition/acute-kidney-injury/" class="internal-link">Acute Kidney Injury</a></p>
 <ul>
-<li>MEASURES_RISK_OF <a href="/garden/demo_user/condition/acute-kidney-injury/" class="internal-link">Acute Kidney Injury</a></li>
 <li>INDICATES <a class="internal-link is-unresolved" href="/404">Renal Tubular Injury</a></li>
 </ul>
 

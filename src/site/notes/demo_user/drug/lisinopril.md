@@ -7,21 +7,31 @@ country_regulatory:
     notes: Fully reimbursed ACE-inhibitor antihypertensive
     prescription_type: RR
     reimbursement_class: A
+  pl:
+    agency_status: approved
+    atc_code: C09AA03
+    notes: URPL/EMA-approved; reimbursed ACE-inhibitor antihypertensive on the NFZ
+      list (odpłatność ryczałtowa); Polish name lizynopryl
+    prescription_type: Rp
+    reimbursement_class: refundowany
   uk:
     agency_status: MHRA-approved
     atc_code: C09AA03
     notes: BNF; ACE-inhibitor antihypertensive
     prescription_type: POM
     reimbursement_class: NHS
-created: '2026-06-13T17:47:11.816962Z'
+created: 2026-01-03T17:55:40+0000
 description: ACE inhibitor for hypertension, heart failure, and diabetic nephropathy.
   Reduces angiotensin II formation, lowering blood pressure and providing cardio-renal
   protection.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: lisinopril
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/lisinopril/
+provenance: curated
 slug: lisinopril
 source: Manual
 tags:
@@ -34,7 +44,7 @@ tags:
 templateEngineOverride: njk
 title: Lisinopril
 type: drug
-updated: '2026-06-13T17:47:11.816962Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -55,5 +65,9 @@ updated: '2026-06-13T17:47:11.816962Z'
 <h3>Related</h3>
 <p>INTERACTS_WITH::<a href="/garden/demo_user/drug/quetiapine/" class="internal-link">Quetiapine</a></p>
 <h3>Interacts With</h3>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

@@ -2,7 +2,7 @@
 aliases:
 - glucose urine
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.374620Z'
+created: '2026-01-19T08:30:04.726814+00:00'
 description: Tested twice a year Glucose is normally reabsorbed by the kidneys, so
   urine is typically free of it under healthy conditions. When glucose spills into
   the urine (glucosuria), it usually means blood sugar levels are higher than the
@@ -14,6 +14,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-glucose-urine
 permalink: /garden/demo_user/labtest/glucose-urine/
+provenance: curated
 slug: glucose-urine
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: glucose_urine
 type: labtest
-updated: '2026-06-13T17:47:12.374620Z'
+updated: '2026-08-20T04:08:30.668126Z'
 ---
 
 {% raw %}
@@ -47,6 +48,10 @@ updated: '2026-06-13T17:47:12.374620Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -57,6 +62,18 @@ updated: '2026-06-13T17:47:12.374620Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -69,16 +86,16 @@ updated: '2026-06-13T17:47:12.374620Z'
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Prediabetes</a><br />
-RELATED::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Kidney Dysfunction</a><br />
+<p>RELATED::<a href="/garden/demo_user/condition/prediabetes/" class="internal-link">Prediabetes</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+RELATED::<a href="/garden/demo_user/condition/kidney-dysfunction/" class="internal-link">Kidney Dysfunction</a><br />
 RELATED::<a href="/garden/demo_user/condition/diabetes/" class="internal-link">Diabetes</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Hyperglycemia</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/diabetes/" class="internal-link">Diabetes</a></p>
 <h3>May Detect</h3>
 <p>MAY_DETECT::<a href="/garden/demo_user/condition/diabetes/" class="internal-link">Diabetes</a><br />
-MAY_DETECT::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
+MAY_DETECT::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

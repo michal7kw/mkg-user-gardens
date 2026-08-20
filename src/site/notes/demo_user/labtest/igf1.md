@@ -1,14 +1,20 @@
 ---
+aliases:
+- Insulin-like Growth Factor (IGF-1)
+- IGF-1
+- IGF1
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.424956Z'
-description: Growth hormone mediator. Marker for GH deficiency/excess and biological
-  aging research.
+created: 2025-12-10T09:07:57+0000
+description: Measures insulin-like growth factor 1 (IGF-1), reflecting integrated
+  growth hormone activity; used to evaluate acromegaly, growth hormone deficiency,
+  and in biological-aging research.
 dg-home: false
 dg-publish: true
 evidence_level: 0
 gardenUsername: demo_user
 id: test-igf1-001
 permalink: /garden/demo_user/labtest/igf1/
+provenance: curated
 slug: igf1
 source: Manual
 tags:
@@ -16,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: igf1
 type: labtest
-updated: '2026-06-13T17:47:12.424956Z'
+updated: '2026-08-20T04:08:30.710152Z'
 ---
 
 {% raw %}
@@ -41,6 +47,10 @@ updated: '2026-06-13T17:47:12.424956Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -51,6 +61,10 @@ updated: '2026-06-13T17:47:12.424956Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
 </tr>
 </tbody>
 </table>

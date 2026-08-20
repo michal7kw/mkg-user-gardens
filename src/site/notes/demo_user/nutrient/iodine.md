@@ -1,13 +1,16 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.702375Z'
+created: '2026-04-05T16:16:18.455210+00:00'
 description: Essential trace element required for thyroid hormone synthesis (T3 and
   T4). Critical for metabolic rate regulation, neurodevelopment, and growth.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_iodine
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/iodine/
+provenance: curated
 slug: iodine
 source: dev_seeder
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Iodine
 type: nutrient
-updated: '2026-06-13T17:47:13.702375Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -54,12 +57,16 @@ updated: '2026-06-13T17:47:13.702375Z'
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/tsh/" class="internal-link">tsh</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/free-t4/" class="internal-link">Free T4</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/free-t3/" class="internal-link">Free T3</a></li>
-<li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Hypothyroidism</a></li>
+<li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/hypothyroidism/" class="internal-link">Hypothyroidism</a></li>
 <li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Goiter</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/selenium/" class="internal-link">Selenium</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a></li>
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/selenium/" class="internal-link">Selenium</a></li>
 <li>RELATED::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

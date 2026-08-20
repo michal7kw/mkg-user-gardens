@@ -8,6 +8,14 @@ country_regulatory:
       Torvast plus generics
     prescription_type: RR
     reimbursement_class: A
+  pl:
+    agency_status: approved
+    atc_code: C10AA05
+    notes: URPL/EMA-approved; on the NFZ reimbursement list (lista leków refundowanych)
+      with patient co-payment (odpłatność ryczałtowa/częściowa by indication); Polish
+      name atorwastatyna
+    prescription_type: Rp
+    reimbursement_class: refundowany
   uk:
     agency_status: MHRA-approved
     atc_code: C10AA05
@@ -15,15 +23,18 @@ country_regulatory:
       risk
     prescription_type: POM
     reimbursement_class: NHS
-created: '2026-06-13T17:47:11.734108Z'
+created: 2026-01-03T17:55:40+0000
 description: High-intensity HMG-CoA reductase inhibitor (statin) for cholesterol management.
   The most prescribed statin worldwide, effective for LDL reduction and cardiovascular
   risk reduction.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: atorvastatin
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/atorvastatin/
+provenance: curated
 slug: atorvastatin
 source: Manual
 tags:
@@ -35,7 +46,7 @@ tags:
 templateEngineOverride: njk
 title: Atorvastatin
 type: drug
-updated: '2026-06-13T17:47:11.734108Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -60,14 +71,18 @@ RELATED::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="inte
 <p>INTERACTS_WITH::<a href="/garden/demo_user/supplement/niacin/" class="internal-link">Niacin</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a></p>
 <h3>Treats</h3>
-<p>TREATS::<a class="internal-link is-unresolved" href="/404">Hyperlipidemia</a><br />
+<p>TREATS::<a href="/garden/demo_user/condition/hyperlipidemia/" class="internal-link">Hyperlipidemia</a><br />
 TREATS::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a></p>
 <h3>Affects Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="internal-link">LDL Cholesterol</a><br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hdl-cholesterol/" class="internal-link">HDL Cholesterol</a><br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a><br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

@@ -1,6 +1,10 @@
 ---
+aliases:
+- MCT8 Oil
+- Caprylic Acid MCT
+- C8 MCT Oil
 confidence_score: 0.82
-created: '2026-06-13T17:47:14.391446Z'
+created: 2026-01-03T17:55:41+0000
 description: Medium-chain triglycerides (MCTs) are saturated fats with 6-12 carbon
   chains found in coconut oil, palm kernel oil, and dairy products. Unlike long-chain
   triglycerides, MCTs are rapidly absorbed into portal circulation and converted to
@@ -14,6 +18,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: mct_oil
 permalink: /garden/demo_user/supplement/mct-oil/
+provenance: curated
 pubchem_id: '379'
 slug: mct-oil
 source: Manual
@@ -31,7 +36,7 @@ tags:
 templateEngineOverride: njk
 title: MCT Oil
 type: supplement
-updated: '2026-06-13T17:47:14.391446Z'
+updated: '2026-08-20T04:08:31.972673Z'
 ---
 
 {% raw %}
@@ -192,7 +197,7 @@ AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/ldl-cholesterol/" class=
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/intervention/keto-diet/" class="internal-link">Keto Diet</a><br />
 RELATED::<a href="/garden/demo_user/intervention/intermittent-fasting/" class="internal-link">Intermittent Fasting</a><br />
-RELATED::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 RELATED::<a href="/garden/demo_user/condition/diabetes/" class="internal-link">Diabetes</a></p>
 <h3>Targets</h3>
 <p>TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a><br />

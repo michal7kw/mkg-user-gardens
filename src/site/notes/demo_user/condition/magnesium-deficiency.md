@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.473219Z'
+confidence_score: 0.85
+created: 2026-01-18T16:02:34+0000
 description: A condition where the body does not have enough magnesium, an essential
   mineral involved in over 300 biochemical reactions.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: magnesium_deficiency
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/magnesium-deficiency/
+provenance: curated
 slug: magnesium-deficiency
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Magnesium Deficiency
 type: condition
-updated: '2026-06-13T17:47:11.473219Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -52,7 +55,7 @@ updated: '2026-06-13T17:47:11.473219Z'
 <p>RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/magnesium-rbc/" class="internal-link">Magnesium Rbc</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/nutrient/potassium/" class="internal-link">Potassium</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin D (25-OH)</a></p>
 <h3>Improved By Supplement</h3>
@@ -60,5 +63,11 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="i
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-b6/" class="internal-link">Vitamin B6</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/taurine/" class="internal-link">Taurine</a></p>
+<h2>References</h2>
+<ul>
+<li>Ayuk J, Gittoes NJ. Clin Med (Lond). 2014;14(3):296-300. Magnesium metabolism (review) (PMID: 24942730)</li>
+<li>Finesmith HC, Judd FK. J Clin Psychiatry. 1992;53(5):149. Magnesium and depression (review)</li>
+<li>Gröber U, Schmidt J, Kisters K. Nutrients. 2015;7(9):8199-8226. Magnesium in prevention and therapy (review) (PMID: 26404370)</li>
+</ul>
 
 {% endraw %}

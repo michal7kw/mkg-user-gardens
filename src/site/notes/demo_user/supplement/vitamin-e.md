@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:14.536256Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:42+0000
 description: Fat-soluble antioxidant family consisting of tocopherols and tocotrienols.
   Protects cell membranes from oxidative damage. Full-spectrum forms preferred over
   synthetic alpha-tocopherol.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: vitamin_e
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/vitamin-e/
+provenance: curated
 pubchem_id: '14985'
 slug: vitamin-e
 source: Manual
@@ -23,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Vitamin E
 type: supplement
-updated: '2026-06-13T17:47:14.536256Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -58,5 +60,11 @@ TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/oxidized-ldl/" class="inte
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/skin/" class="internal-link">Skin</a> (Protects dermal membrane lipids from UV-induced peroxidation; supports skin barrier integrity, Evidence Level 4a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a> (Lipid-soluble antioxidant reduces LDL oxidation; tocotrienols may inhibit HMG-CoA reductase, Evidence Level 3a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/eyes/" class="internal-link">Eyes</a> (Protects retinal photoreceptor membranes from oxidative damage; component of AREDS2 formula for macular degeneration, Evidence Level 3a)</p>
+<h2>References</h2>
+<ul>
+<li>Brigelius-Flohe R, Galli F. Biochim Biophys Acta. 2010;1801(3):389-400. Vitamin E (review) (PMID: 19840790)</li>
+<li>Traber MG, Stevens JF. Free Radic Biol Med. 2011;51(5):1000-1013. Vitamins C and E (PMID: 21664257)</li>
+<li>Pryor WA. Free Radic Biol Med. 2000;28(6):941-943. Vitamin E and heart disease (PMID: 10832067)</li>
+</ul>
 
 {% endraw %}

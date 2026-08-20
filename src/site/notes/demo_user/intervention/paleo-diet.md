@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.103418Z'
+created: '2026-04-05T16:16:24.573912+00:00'
 description: 'Ancestral eating pattern emphasizing whole foods available to Paleolithic
   humans: meat, fish, vegetables, fruits, nuts, and seeds. Excludes grains, legumes,
   dairy, refined sugar, and processed foods.'
@@ -9,6 +9,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: intervention_paleo
 permalink: /garden/demo_user/intervention/paleo-diet/
+provenance: curated
 slug: paleo-diet
 source: dev_seeder
 tags:
@@ -17,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Paleo Diet
 type: intervention
-updated: '2026-06-13T17:47:12.103418Z'
+updated: '2026-08-20T04:08:30.408036Z'
 ---
 
 {% raw %}

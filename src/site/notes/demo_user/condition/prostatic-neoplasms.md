@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.602478Z'
+confidence_score: 0.9
+created: 2026-01-18T16:48:42+0000
 description: Cancer of the prostate gland, a small walnut-shaped gland in males that
   produces seminal fluid. It is one of the most common types of cancer in men.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: prostatic_neoplasms
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/prostatic-neoplasms/
+provenance: curated
 slug: prostatic-neoplasms
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Prostatic Neoplasms
 type: condition
-updated: '2026-06-13T17:47:11.602478Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -43,9 +46,7 @@ updated: '2026-06-13T17:47:11.602478Z'
 <li><strong>Androgen deprivation therapy (ADT)</strong>: GnRH agonists (leuprolide) or antagonists (degarelix) for advanced/metastatic disease</li>
 <li><strong>Novel agents</strong>: Enzalutamide, abiraterone (CYP17 inhibitor), PARP inhibitors (olaparib for BRCA2+), Lu-177 PSMA for mCRPC</li>
 <li><strong>Lifestyle</strong>: Regular exercise (reduces mortality 30-40%), plant-rich diet, maintain healthy weight, lycopene-rich foods (tomatoes)</li>
-<li><strong>Supplements</strong>: Vitamin D (if deficient), selenium, zinc, omega-3 fatty acids, curcumin (anti-inflammatory, preclinical evidence)<br />
-AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Prostate Gland</a><br />
-AFFECTS_ORGAN::<a href="/garden/demo_user/organ/bladder/" class="internal-link">Bladder</a></li>
+<li><strong>Supplements</strong>: Vitamin D (if deficient), selenium, zinc, omega-3 fatty acids, curcumin (anti-inflammatory, preclinical evidence)</li>
 </ul>
 <h2>Relationships</h2>
 <h3>Risk Biomarkers</h3>
@@ -60,5 +61,12 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/selenium/" class="
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a></p>
+<h2>References</h2>
+<ul>
+<li>NCCN Clinical Practice Guidelines in Oncology: Prostate Cancer. Version 4.2024 (guideline)</li>
+<li>Sanda MG, Cadeddu JA, Kirkby E, et al. J Urol. 2018;200(3):594-608. Clinically Localized Prostate Cancer (AUA/ASTRO/SUO Guideline) (PMID: 29601933)</li>
+<li>de Bono J, Mateo J, Fizazi K, et al. N Engl J Med. 2020;382(22):2091-2102. Olaparib for metastatic castration-resistant prostate cancer (PROfound) (PMID: 32343904)</li>
+<li>Sartor O, de Bono J, Chi KN, et al. N Engl J Med. 2021;385(12):1091-1103. Lu-177-PSMA-617 for metastatic castration-resistant prostate cancer (VISION) (PMID: 34407424)</li>
+</ul>
 
 {% endraw %}

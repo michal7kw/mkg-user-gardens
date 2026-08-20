@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.584797Z'
+created: 2026-03-05T00:00:00+0000
 description: Urea is the primary end product of nitrogen metabolism in mammals, synthesized
   by the urea cycle (ornithine cycle) in the liver. It converts highly toxic ammonia
   — generated from amino acid catabolism and intestinal bacterial metabolism — into
@@ -14,6 +14,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: urea
 permalink: /garden/demo_user/metabolite/urea/
+provenance: curated
 pubchem_id: '1176'
 slug: urea
 source: Manual
@@ -27,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Urea
 type: metabolite
-updated: '2026-06-13T17:47:13.584797Z'
+updated: '2026-08-20T04:08:31.231178Z'
 ---
 
 {% raw %}

@@ -1,14 +1,17 @@
 ---
 confidence_score: 1.0
-created: '2026-06-13T17:47:14.212494Z'
+created: 2026-01-25T18:45:00+0000
 description: Uncoupling Protein 1 (Thermogenin), a mitochondrial transporter found
   in brown adipose tissue that uncouples respiration from ATP synthesis to generate
   heat.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: ucp1
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/protein/ucp1/
+provenance: curated
 slug: ucp1
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: UCP1
 type: protein
-updated: '2026-06-13T17:47:14.212494Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -39,7 +42,12 @@ ACTIVATED_BY::<a href="/garden/demo_user/intervention/cold-exposure/" class="int
 <h3>Participates In Pathway</h3>
 <p>PARTICIPATES_IN_PATHWAY::<a class="internal-link is-unresolved" href="/404">Thermogenesis</a></p>
 <h3>Associated With Condition</h3>
-<p>ASSOCIATED_WITH_CONDITION::<a class="internal-link is-unresolved" href="/404">Obesity</a><br />
-ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
+<p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/obesity/" class="internal-link">Obesity</a><br />
+ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
+<h2>References</h2>
+<ul>
+<li>UniProt Consortium. Nucleic Acids Res. 2023;51(D1):D523-D531. UniProt (PMID: 36408955)</li>
+<li>Uhlén M, et al. Science. 2015;347(6220):1260419. The Human Protein Atlas (PMID: 25613900)</li>
+</ul>
 
 {% endraw %}

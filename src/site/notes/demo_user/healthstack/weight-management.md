@@ -1,5 +1,5 @@
 ---
-created: '2026-06-13T17:47:12.007877Z'
+created: '2026-08-20T04:08:30.326575Z'
 description: Support healthy metabolism and weight management. Green tea EGCG enhances
   thermogenesis and fat oxidation, chromium improves insulin sensitivity, omega-3
   reduces metabolic inflammation, and psyllium fiber promotes satiety and healthy
@@ -10,6 +10,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: 19811920-af33-4620-a511-e4ebd105b6e9
 permalink: /garden/demo_user/healthstack/weight-management/
+provenance: curated
 slug: weight-management
 source: Manual
 tags:
@@ -19,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Weight Management
 type: healthstack
-updated: '2026-06-13T17:47:12.007877Z'
+updated: '2026-08-20T04:08:30.326575Z'
 ---
 
 {% raw %}
@@ -47,21 +48,21 @@ updated: '2026-06-13T17:47:12.007877Z'
 <td>Enhances thermogenesis and fat oxidation via catecholamine pathways</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Chromium Picolinate</a></td>
+<td><a href="/garden/demo_user/supplement/chromium/" class="internal-link">Chromium Picolinate</a></td>
 <td>500mcg</td>
 <td>once daily</td>
 <td>with meals</td>
 <td>Enhances insulin receptor sensitivity</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Omega-3 Fish Oil</a></td>
+<td><a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fish Oil</a></td>
 <td>2000mg</td>
 <td>once daily</td>
 <td>with meals</td>
 <td>Reduces metabolic inflammation and improves insulin sensitivity</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Psyllium Husk</a></td>
+<td><a href="/garden/demo_user/supplement/soluble-fiber/" class="internal-link">Psyllium Husk</a></td>
 <td>5g</td>
 <td>twice daily</td>
 <td>before meals</td>
@@ -118,12 +119,12 @@ updated: '2026-06-13T17:47:12.007877Z'
 </ul>
 <h3>Contains Supplement</h3>
 <p>CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Green Tea Extract (EGCG)</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Chromium Picolinate</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Omega-3 Fish Oil</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Psyllium Husk</a></p>
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/chromium/" class="internal-link">Chromium Picolinate</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fish Oil</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/soluble-fiber/" class="internal-link">Psyllium Husk</a></p>
 <h2>Relationships</h2>
 <h3>Enriched</h3>
-<p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+<p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/diabetes/" class="internal-link">Diabetes</a><br />
 INCLUDES_SUPPLEMENT::<a href="/garden/demo_user/supplement/berberine/" class="internal-link">Berberine</a><br />
 INCLUDES_SUPPLEMENT::<a href="/garden/demo_user/supplement/chromium/" class="internal-link">Chromium</a><br />

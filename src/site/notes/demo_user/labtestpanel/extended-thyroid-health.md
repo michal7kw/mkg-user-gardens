@@ -2,7 +2,7 @@
 aliases:
 - extended thyroid health
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.099993Z'
+created: 2026-01-18T16:48:42+0000
 description: Comprehensive thyroid testing that goes beyond standard panels to detect
   subtle abnormalities or early signs of dysfunction, even when routine tests appear
   normal. The thyroid gland plays a central role in regulating metabolism, energy
@@ -19,6 +19,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-extended-thyroid-health
 permalink: /garden/demo_user/labtestpanel/extended-thyroid-health/
+provenance: curated
 slug: extended-thyroid-health
 source: Manual
 tags:
@@ -26,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: extended_thyroid_health
 type: labtestpanel
-updated: '2026-06-13T17:47:13.099993Z'
+updated: '2026-08-20T04:08:31.053695Z'
 ---
 
 {% raw %}
@@ -36,9 +37,9 @@ updated: '2026-06-13T17:47:13.099993Z'
 <p>Thyroid Stimulating Immunoglobulin (TSI) is the hallmark marker for Graves' disease, while TRAb (TSH receptor antibodies) can indicate either stimulatory or blocking autoimmunity affecting the thyroid. Thyroxine-Binding Globulin (TBG) abnormalities can cause discrepancies between total and free thyroid hormone levels, explaining symptoms in patients with apparently normal free hormone concentrations.</p>
 <h2>Included Tests</h2>
 <ul>
-<li>Thyroid Stimulating Immunoglobulin (TSI) -- Diagnostic marker for Graves' disease</li>
-<li>Thyroid-Stimulating Hormone Receptor Binding Antibody (TRAb) -- TSH receptor autoantibodies</li>
-<li>Thyroxine-Binding Globulin (TBG) -- Carrier protein affecting thyroid hormone availability</li>
+<li><a href="/garden/demo_user/labtest/thyroid-stimulating-immunoglobulin-tsi/" class="internal-link">Thyroid Stimulating Immunoglobulin (TSI)</a> -- Diagnostic marker for Graves' disease</li>
+<li><a href="/garden/demo_user/labtest/tsh-receptor-antibody-trab/" class="internal-link">Thyroid-Stimulating Hormone Receptor Binding Antibody (TRAb)</a> -- TSH receptor autoantibodies</li>
+<li><a href="/garden/demo_user/labtest/thyroxine-binding-globulin-tbg/" class="internal-link">Thyroxine-Binding Globulin (TBG)</a> -- Carrier protein affecting thyroid hormone availability</li>
 </ul>
 <h2>Clinical Indications</h2>
 <ul>
@@ -49,14 +50,14 @@ updated: '2026-06-13T17:47:13.099993Z'
 <li>Thyroid symptoms with normal standard panel results</li>
 </ul>
 <h2>Relationships</h2>
-<p>INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Thyroid Stimulating Immunoglobulin (TSI)</a><br />
-INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Thyroid-Stimulating Hormone Receptor Binding Antibody (TRAb)</a><br />
-INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Thyroxine-Binding Globulin (TBG)</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/thyroid-stimulating-immunoglobulin-tsi/" class="internal-link">thyroid_stimulating_immunoglobulin_tsi</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/tsh-receptor-antibody-trab/" class="internal-link">tsh_receptor_antibody_trab</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/thyroxine-binding-globulin-tbg/" class="internal-link">thyroxine_binding_globulin_tbg</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/subclinical-hypothyroidism/" class="internal-link">Subclinical Hypothyroidism</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/graves-disease/" class="internal-link">Graves' Disease</a><br />
 RELATED::<a href="/garden/demo_user/labtest/thyroxine-t4-free/" class="internal-link">thyroxine t4 free</a><br />
 RELATED::<a href="/garden/demo_user/labtest/triiodothyronine-t3-free/" class="internal-link">triiodothyronine t3 free</a><br />
-RELATED::<a href="/garden/demo_user/labtest/thyroid-stimulating-hormone-tsh/" class="internal-link">thyroid stimulating hormone tsh</a><br />
+RELATED::<a href="/garden/demo_user/labtest/tsh/" class="internal-link">thyroid stimulating hormone tsh</a><br />
 RELATED::<a href="/garden/demo_user/labtest/thyroid-peroxidase-antibodies-tpo/" class="internal-link">thyroid peroxidase antibodies tpo</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/thyroid/" class="internal-link">Thyroid</a></p>
 

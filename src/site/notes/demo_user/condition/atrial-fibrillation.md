@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.225985Z'
+confidence_score: 0.95
+created: 2026-01-18T16:48:41+0000
 description: A common heart rhythm disorder (arrhythmia) characterized by rapid and
   irregular beating of the atrial chambers of the heart.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: atrial_fibrillation
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/atrial-fibrillation/
+provenance: curated
 slug: atrial-fibrillation
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Atrial Fibrillation
 type: condition
-updated: '2026-06-13T17:47:11.225985Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -61,5 +64,12 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/d-dimer/" class="internal-
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/taurine/" class="internal-link">Taurine</a></p>
+<h2>References</h2>
+<ul>
+<li>Hindricks G, Potpara T, Dagres N, et al. Eur Heart J. 2021;42(5):373-498. ESC Guidelines for the diagnosis and management of atrial fibrillation (PMID: 32860505)</li>
+<li>January CT, Wann LS, Calkins H, et al. Circulation. 2019;140(2):e125-e151. AHA/ACC/HRS Focused Update on AF Management (PMID: 30683241)</li>
+<li>Connolly SJ, Ezekowitz MD, Yusuf S, et al. N Engl J Med. 2009;361(12):1139-1151. RE-LY: Dabigatran vs warfarin in AF (PMID: 19717844)</li>
+<li>Kirchhof P, Camm AJ, Goette A, et al. N Engl J Med. 2020;383(14):1305-1316. EAST-AFNET 4: Early rhythm control in AF (PMID: 32865380)</li>
+</ul>
 
 {% endraw %}

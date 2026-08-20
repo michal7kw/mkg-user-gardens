@@ -2,7 +2,7 @@
 aliases:
 - hyaline casts urine
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.422130Z'
+created: '2026-01-19T08:30:04.782088+00:00'
 description: Tested twice a year Hyaline casts are the most common type of urinary
   casts and can appear in small numbers in healthy people. When found in larger amounts,
   hyaline casts may point to underlying kidney strain or indicate an underlying kidney
@@ -13,6 +13,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-hyaline-casts-urine
 permalink: /garden/demo_user/labtest/hyaline-casts-urine/
+provenance: curated
 slug: hyaline-casts-urine
 source: Manual
 tags:
@@ -20,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: hyaline_casts_urine
 type: labtest
-updated: '2026-06-13T17:47:12.422130Z'
+updated: '2026-08-20T04:08:30.708647Z'
 ---
 
 {% raw %}
@@ -46,6 +47,10 @@ updated: '2026-06-13T17:47:12.422130Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -56,6 +61,18 @@ updated: '2026-06-13T17:47:12.422130Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -69,8 +86,8 @@ updated: '2026-06-13T17:47:12.422130Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/condition/chronic-kidney-disease/" class="internal-link">Chronic Kidney Disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Dehydration</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Kidney Dysfunction</a><br />
+RELATED::<a href="/garden/demo_user/condition/dehydration/" class="internal-link">Dehydration</a><br />
+RELATED::<a href="/garden/demo_user/condition/kidney-dysfunction/" class="internal-link">Kidney Dysfunction</a><br />
 RELATED::<a href="/garden/demo_user/condition/heart-failure/" class="internal-link">Heart Failure</a><br />
 RELATED::<a href="/garden/demo_user/condition/exercise-induced-proteinuria/" class="internal-link">Exercise-Induced Proteinuria</a></p>
 <h3>Associated With Condition</h3>

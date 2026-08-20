@@ -2,7 +2,7 @@
 aliases:
 - gi map
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.367313Z'
+created: 2025-12-10T09:07:57+0000
 description: Comprehensive stool DNA test for gut microbiome, pathogens, parasites,
   and digestive markers.
 dg-home: false
@@ -11,6 +11,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: test-gimap-001
 permalink: /garden/demo_user/labtest/gi-map/
+provenance: curated
 slug: gi-map
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: gi_map
 type: labtest
-updated: '2026-06-13T17:47:12.367313Z'
+updated: '2026-08-20T04:08:30.663588Z'
 ---
 
 {% raw %}
@@ -44,6 +45,10 @@ updated: '2026-06-13T17:47:12.367313Z'
 <td>Gut Microbiome</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -54,6 +59,18 @@ updated: '2026-06-13T17:47:12.367313Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>14-21 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$359-$499</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>

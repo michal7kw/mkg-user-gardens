@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.599904Z'
+created: 2026-01-18T16:02:29+0000
 description: Tested twice a year Monocytes are immune cells important for defense,
   inflammation regulation, and tissue repair. These white blood cells can transform
   into macrophages or dendritic cells to fight infections, clear debris, and promote
@@ -11,6 +11,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-monocytes
 permalink: /garden/demo_user/labtest/monocytes/
+provenance: curated
 slug: monocytes
 source: Manual
 tags:
@@ -20,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: monocytes
 type: labtest
-updated: '2026-06-13T17:47:12.599904Z'
+updated: '2026-08-20T04:08:30.795153Z'
 ---
 
 {% raw %}
@@ -46,6 +47,10 @@ updated: '2026-06-13T17:47:12.599904Z'
 <td>Inflammation Markers</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -57,6 +62,18 @@ updated: '2026-06-13T17:47:12.599904Z'
 <td><strong>Turnaround Time</strong></td>
 <td>3-7 days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -67,24 +84,26 @@ updated: '2026-06-13T17:47:12.599904Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/labtest/monocytes/" class="internal-link">Monocytes</a></p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/condition/chronic-infection/" class="internal-link">Chronic Infection</a><br />
-RELATED::<a href="/garden/demo_user/labtestpanel/chronic-inflammatory-response-mold-response/" class="internal-link">chronic inflammatory response mold response</a><br />
-RELATED::<a href="/garden/demo_user/labtestpanel/extended-immune-regulation/" class="internal-link">extended immune regulation</a><br />
-RELATED::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+RELATED::<br />
+RELATED::<br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
 RELATED::<a href="/garden/demo_user/condition/autoimmune-disease/" class="internal-link">Autoimmune Disease</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Impaired Immune Function</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/chronic-infection/" class="internal-link">Chronic Infection</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/autoimmune-disease/" class="internal-link">Autoimmune Disease</a><br />
-ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
+ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
 <h3>May Detect</h3>
 <p>MAY_DETECT::<a href="/garden/demo_user/condition/autoimmune-disease/" class="internal-link">Autoimmune Disease</a><br />
-MAY_DETECT::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+MAY_DETECT::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
 MAY_DETECT::<a href="/garden/demo_user/condition/chronic-infection/" class="internal-link">Chronic Infection</a></p>
 <h3>Included In</h3>
-<p>INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/extended-immune-regulation/" class="internal-link">extended immune regulation</a><br />
-INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/chronic-inflammatory-response-mold-response/" class="internal-link">chronic inflammatory response mold response</a></p>
+<p>INCLUDED_IN::<br />
+INCLUDED_IN::</p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

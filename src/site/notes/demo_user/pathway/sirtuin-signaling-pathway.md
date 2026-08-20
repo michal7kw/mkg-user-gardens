@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.92
-created: '2026-06-13T17:47:13.966440Z'
+created: 2026-05-26T12:00:00+0000
 description: NAD+-dependent protein deacylase signaling mediated by the seven mammalian
   sirtuins (SIRT1-7). By coupling deacetylation of metabolic and chromatin targets
   to cellular NAD+ availability, sirtuins regulate mitochondrial biogenesis, genome
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: sirtuin_signaling_pathway
 permalink: /garden/demo_user/pathway/sirtuin-signaling-pathway/
+provenance: curated
 slug: sirtuin-signaling-pathway
 source: PubMed
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Sirtuin Signaling Pathway
 type: pathway
-updated: '2026-06-13T17:47:13.966440Z'
+updated: '2026-08-20T04:08:31.563519Z'
 ---
 
 {% raw %}

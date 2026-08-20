@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.224161Z'
+created: 2026-03-28T12:00:00+0000
 description: Acylcarnitines are the transport form of activated fatty acids across
   the inner mitochondrial membrane. Formed by CPT-I from fatty acyl-CoA and carnitine,
   acylcarnitines are essential for long-chain fatty acid entry into the mitochondrial
@@ -12,6 +12,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: acylcarnitine
 permalink: /garden/demo_user/metabolite/acylcarnitine/
+provenance: curated
 slug: acylcarnitine
 source: Manual
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Acylcarnitine
 type: metabolite
-updated: '2026-06-13T17:47:13.224161Z'
+updated: '2026-08-20T04:08:31.099287Z'
 ---
 
 {% raw %}

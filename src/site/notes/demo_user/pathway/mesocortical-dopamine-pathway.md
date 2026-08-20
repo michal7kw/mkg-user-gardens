@@ -1,11 +1,18 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.922286Z'
+created: '2026-03-11T11:39:49.531644+00:00'
+description: The Mesocortical Dopamine Pathway is an incredibly sophisticated, highly
+  specialized neural projection entirely responsible for structurally executing massive
+  higher-order cognitive processing, complex executive functioning, and intense motivational
+  drive.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: mesocortical_dopamine_pathway
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/mesocortical-dopamine-pathway/
+provenance: curated
 slug: mesocortical-dopamine-pathway
 source: Manual
 tags:
@@ -16,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Mesocortical Dopamine Pathway
 type: pathway
-updated: '2026-06-13T17:47:13.922286Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -39,10 +46,14 @@ MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class
 <h3>Associated Biomarker</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/parkinsons-disease/" class="internal-link">Parkinson's Disease</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.264953Z'
+confidence_score: 0.9
+created: 2026-01-18T16:48:41+0000
 description: A large group of diseases characterized by the uncontrolled growth and
   spread of abnormal cells, which can invade nearby tissues and metastasize to distant
   organs.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: cancer
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/cancer/
+provenance: curated
 slug: cancer
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Cancer
 type: condition
-updated: '2026-06-13T17:47:11.264953Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -43,11 +46,11 @@ updated: '2026-06-13T17:47:11.264953Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/gene/akt1/" class="internal-link">AKT1</a><br />
-RELATED::<a href="/garden/demo_user/gene/cdk2/" class="internal-link">CDK2</a><br />
-RELATED::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
-RELATED::<a href="/garden/demo_user/gene/ctcf/" class="internal-link">CTCF</a><br />
-RELATED::<a href="/garden/demo_user/gene/src/" class="internal-link">SRC</a></p>
+<p>RELATED::<a href="/garden/demo_user/protein/akt1/" class="internal-link">AKT1</a><br />
+RELATED::<a href="/garden/demo_user/protein/cdk2/" class="internal-link">CDK2</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+RELATED::<a href="/garden/demo_user/protein/ctcf/" class="internal-link">CTCF</a><br />
+RELATED::<a href="/garden/demo_user/protein/src/" class="internal-link">SRC</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/lactate-dehydrogenase/" class="internal-link">Lactate Dehydrogenase</a><br />
@@ -60,5 +63,13 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/selenium/" class="internal-link">Selenium</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/sulforaphane/" class="internal-link">Sulforaphane</a></p>
+<h2>References</h2>
+<ul>
+<li>Hanahan D, Weinberg RA. Cell. 2011;144(5):646-674. Hallmarks of cancer: the next generation (PMID: 21376230)</li>
+<li>Vogelstein B, Papadopoulos N, Velculescu VE, Zhou S, Diaz LA Jr, Kinzler KW. Science. 2013;339(6127):1546-1558. Cancer genome landscapes (PMID: 23539594)</li>
+<li>Bardia A, Nanda RH. JAMA Oncol. 2017;3(10):1400. Cancer immunotherapy (review)</li>
+<li>Sun YS, Zhao Z, Yang ZN, et al. Int J Biol Sci. 2017;13(10):1303-1316. Risk factors and preventions of breast cancer (PMID: 29109915)</li>
+<li>Bray F, Ferlay J, Soerjomataram I, Siegel RL, Torre LA, Jemal A. CA Cancer J Clin. 2018;68(6):394-424. Global cancer statistics 2018 (PMID: 30207593)</li>
+</ul>
 
 {% endraw %}

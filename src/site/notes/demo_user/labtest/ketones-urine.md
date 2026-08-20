@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.453033Z'
+created: '2026-01-19T08:30:04.818088+00:00'
 description: Tested twice a year Ketones are energy molecules the body makes when
   it burns fat for fuel — for example, during fasting, ketogenic diets, or prolonged
   exercise. This can be a normal response, but high levels of ketones in urine (ketonuria)
@@ -11,6 +11,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-ketones-urine
 permalink: /garden/demo_user/labtest/ketones-urine/
+provenance: curated
 slug: ketones-urine
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: ketones_urine
 type: labtest
-updated: '2026-06-13T17:47:12.453033Z'
+updated: '2026-08-20T04:08:30.730970Z'
 ---
 
 {% raw %}
@@ -44,6 +45,10 @@ updated: '2026-06-13T17:47:12.453033Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -54,6 +59,18 @@ updated: '2026-06-13T17:47:12.453033Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -67,9 +84,9 @@ updated: '2026-06-13T17:47:12.453033Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a class="internal-link is-unresolved" href="/404">Low-Carbohydrate Diet State Ketosis</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Dehydration</a><br />
+RELATED::<a href="/garden/demo_user/condition/dehydration/" class="internal-link">Dehydration</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Type 1 Or Type 2 Diabetes</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Prediabetes</a><br />
+RELATED::<a href="/garden/demo_user/condition/prediabetes/" class="internal-link">Prediabetes</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Prolonged Fasting</a></p>
 <h3>Enriched</h3>
 <p>INDICATES::<a href="/garden/demo_user/condition/diabetes/" class="internal-link">Diabetes</a><br />

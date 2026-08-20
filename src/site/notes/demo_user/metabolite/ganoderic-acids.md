@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.88
-created: '2026-06-13T17:47:13.370474Z'
+created: 2026-04-14T00:00:00+0000
 description: Ganoderic acids are highly oxygenated lanostane-type triterpenoids found
   exclusively in Ganoderma lucidum (Reishi mushroom), with over 130 structurally distinct
   compounds identified. They are the primary bioactive compounds responsible for Reishi's
@@ -13,6 +13,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: ganoderic_acids
 permalink: /garden/demo_user/metabolite/ganoderic-acids/
+provenance: curated
 pubchem_id: '122178'
 slug: ganoderic-acids
 source: Manual
@@ -27,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Ganoderic Acids
 type: metabolite
-updated: '2026-06-13T17:47:13.370474Z'
+updated: '2026-08-20T04:08:31.155400Z'
 ---
 
 {% raw %}
@@ -214,7 +215,7 @@ RELATED::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">
 <h3>Related Proteins</h3>
 <p>RELATED::<a href="/garden/demo_user/protein/cox-2/" class="internal-link">COX-2</a></p>
 <h3>Related Neurotransmitters</h3>
-<p>RELATED::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a><br />
+<p>RELATED::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a><br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/histamine/" class="internal-link">Histamine</a></p>
 <h2>References</h2>
 <ul>

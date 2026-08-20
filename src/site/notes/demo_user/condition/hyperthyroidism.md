@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.420590Z'
+confidence_score: 0.9
+created: 2026-01-18T16:02:34+0000
 description: A condition where the thyroid gland produces and releases excessive amounts
   of thyroid hormones (T3 and T4), accelerating the body's metabolism.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: hyperthyroidism
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/hyperthyroidism/
+provenance: curated
 slug: hyperthyroidism
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Hyperthyroidism
 type: condition
-updated: '2026-06-13T17:47:11.420590Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -49,19 +52,25 @@ updated: '2026-06-13T17:47:11.420590Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/condition/thyroid-dysfunction/" class="internal-link">Thyroid Dysfunction</a><br />
+<p>RELATED::<a href="/garden/demo_user/clinicalpattern/thyroid-dysfunction/" class="internal-link">Thyroid Dysfunction</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/thyroid/" class="internal-link">Thyroid</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/tsh/" class="internal-link">tsh</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/free-t3/" class="internal-link">Free T3</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/free-t4/" class="internal-link">Free T4</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/alkaline-phosphatase/" class="internal-link">Alkaline Phosphatase</a></p>
 <h3>Improved By Supplement</h3>
 <p>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/selenium/" class="internal-link">Selenium</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/l-carnitine/" class="internal-link">L-Carnitine</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a></p>
+<h2>References</h2>
+<ul>
+<li>Ross DS, Burch HB, Cooper DS, et al. Thyroid. 2016;26(10):1343-1421. 2016 ATA Guidelines for Diagnosis and Management of Hyperthyroidism (PMID: 27575920)</li>
+<li>De Leo S, Lee SY, Braverman LE. Lancet. 2016;388(10047):906-918. Hyperthyroidism (review) (PMID: 27038492)</li>
+<li>Bahn RS, Burch HB, Cooper DS, et al. Thyroid. 2011;21(6):593-646. Hyperthyroidism and other causes of thyrotoxicosis (ATA/AACE guideline) (PMID: 21510801)</li>
+</ul>
 
 {% endraw %}

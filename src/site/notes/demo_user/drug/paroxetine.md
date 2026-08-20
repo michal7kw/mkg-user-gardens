@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.862552Z'
+created: 2026-04-01T12:00:00+0000
 description: SSRI antidepressant (Paxil) with the most potent SERT inhibition of all
   SSRIs. Also a potent CYP2D6 inhibitor, causing significant drug-drug interactions.
   Has the highest rates of sexual dysfunction, weight gain, and discontinuation syndrome
@@ -13,6 +13,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: paroxetine
 permalink: /garden/demo_user/drug/paroxetine/
+provenance: curated
 slug: paroxetine
 source: Manual
 tags:
@@ -25,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Paroxetine
 type: drug
-updated: '2026-06-13T17:47:11.862552Z'
+updated: '2026-08-20T04:08:30.165942Z'
 ---
 
 {% raw %}
@@ -68,7 +69,7 @@ TREATS::<a href="/garden/demo_user/condition/post-traumatic-stress-disorder/" cl
 TREATS::<a href="/garden/demo_user/condition/pmdd/" class="internal-link">PMDD</a></p>
 <h3>Metabolized By</h3>
 <p>METABOLIZED_BY::<a href="/garden/demo_user/protein/cyp2d6/" class="internal-link">CYP2D6</a><br />
-METABOLIZED_BY::<a href="/garden/demo_user/gene/cyp3a4/" class="internal-link">CYP3A4</a></p>
+METABOLIZED_BY::<a href="/garden/demo_user/protein/cyp3a4/" class="internal-link">CYP3A4</a></p>
 <h3>Inhibits Enzyme</h3>
 <p>INHIBITS::<a href="/garden/demo_user/protein/cyp2d6/" class="internal-link">CYP2D6</a></p>
 <h3>Modulates Neurotransmitter</h3>

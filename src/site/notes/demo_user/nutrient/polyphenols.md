@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.721970Z'
+created: '2026-04-05T16:16:19.770897+00:00'
 description: Large family of plant-derived antioxidant compounds (flavonoids, phenolic
   acids, stilbenes, lignans) with anti-inflammatory, cardioprotective, and neuroprotective
   properties.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_polyphenols
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/polyphenols/
+provenance: curated
 slug: polyphenols
 source: dev_seeder
 tags:
@@ -16,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Polyphenols
 type: nutrient
-updated: '2026-06-13T17:47:13.721970Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -53,19 +56,23 @@ updated: '2026-06-13T17:47:13.721970Z'
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a></li>
-<li>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Colon</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">CRP (C-Reactive Protein)</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Blood Pressure</a></li>
+<li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/colon/" class="internal-link">Colon</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">CRP (C-Reactive Protein)</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/examination/blood-pressure/" class="internal-link">Blood Pressure</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="internal-link">LDL Cholesterol</a></li>
 <li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Blood Glucose</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/type-2-diabetes/" class="internal-link">Type 2 Diabetes</a></li>
-<li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Cognitive Decline</a></li>
+<li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/cognitivefunction/cognitive-decline/" class="internal-link">Cognitive Decline</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/nutrient/dietary-fiber/" class="internal-link">Dietary Fiber</a></li>
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a></li>
 <li>RELATED::<a href="/garden/demo_user/supplement/vitamin-e/" class="internal-link">Vitamin E</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

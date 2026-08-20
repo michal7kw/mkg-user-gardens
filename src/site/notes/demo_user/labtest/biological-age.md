@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.220998Z'
+created: '2026-01-19T08:30:02.240431+00:00'
 description: Tested twice a year Biological age reflects how one's body is aging at
   the cellular and molecular levels, which can determine the risk of age-related conditions
   like cardiovascular diseases and cognitive decline. Unlike calendar age (number
@@ -15,6 +15,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-biological-age
 permalink: /garden/demo_user/labtest/biological-age/
+provenance: curated
 slug: biological-age
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: biological_age
 type: labtest
-updated: '2026-06-13T17:47:12.220998Z'
+updated: '2026-08-20T04:08:30.528998Z'
 ---
 
 {% raw %}
@@ -48,6 +49,10 @@ updated: '2026-06-13T17:47:12.220998Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -59,6 +64,18 @@ updated: '2026-06-13T17:47:12.220998Z'
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -69,7 +86,7 @@ updated: '2026-06-13T17:47:12.220998Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Aging</a><br />
+<p>RELATED::<a href="/garden/demo_user/pathway/aging/" class="internal-link">Aging</a><br />
 RELATED::<a href="/garden/demo_user/healthstack/longevity/" class="internal-link">Longevity</a></p>
 <h2>Notes</h2>
 <ul>

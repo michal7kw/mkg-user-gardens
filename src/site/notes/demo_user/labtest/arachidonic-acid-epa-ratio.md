@@ -2,7 +2,7 @@
 aliases:
 - arachidonic acid epa ratio
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.203935Z'
+created: '2026-01-19T08:30:02.288225+00:00'
 description: uh-rak-ih-don-ik as-id / e-p-a ray-shee-oh The AA/EPA ratio measures
   the balance between arachidonic acid (AA), a pro-inflammatory omega-6 fatty acid,
   and eicosapentaenoic acid (EPA), an anti-inflammatory omega-3 fatty acid. A higher
@@ -14,6 +14,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-arachidonic-acid-epa-ratio
 permalink: /garden/demo_user/labtest/arachidonic-acid-epa-ratio/
+provenance: curated
 slug: arachidonic-acid-epa-ratio
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: arachidonic_acid_epa_ratio
 type: labtest
-updated: '2026-06-13T17:47:12.203935Z'
+updated: '2026-08-20T04:08:30.513562Z'
 ---
 
 {% raw %}
@@ -47,6 +48,10 @@ updated: '2026-06-13T17:47:12.203935Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -57,6 +62,18 @@ updated: '2026-06-13T17:47:12.203935Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -69,21 +86,19 @@ updated: '2026-06-13T17:47:12.203935Z'
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
-RELATED::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+<p>RELATED::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 RELATED::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Atherosclerosis</a><br />
-RELATED::<a href="/garden/demo_user/labtestpanel/mthfr-gene/" class="internal-link">mthfr gene</a><br />
-RELATED::<a href="/garden/demo_user/labtestpanel/extended-vitamins-minerals-nutrients/" class="internal-link">extended vitamins minerals nutrients</a></p>
+RELATED::<a href="/garden/demo_user/condition/atherosclerosis/" class="internal-link">Atherosclerosis</a><br />
+RELATED::</p>
 <h3>Associated With Condition</h3>
-<p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
+<p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
 <h3>Included In</h3>
-<p>INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/extended-vitamins-minerals-nutrients/" class="internal-link">extended vitamins minerals nutrients</a><br />
-INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/mthfr-gene/" class="internal-link">mthfr gene</a></p>
+<p>INCLUDED_IN::</p>
 <h3>May Detect</h3>
 <p>MAY_DETECT::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />
-MAY_DETECT::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
-MAY_DETECT::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
+MAY_DETECT::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+MAY_DETECT::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

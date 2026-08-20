@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:11.906727Z'
+created: 2026-04-01T10:00:00+0000
 description: Selective JAK1 inhibitor with improved selectivity over earlier JAK inhibitors.
   Approved for RA, psoriatic arthritis, ankylosing spondylitis, atopic dermatitis,
   ulcerative colitis, and Crohn's disease. Once-daily oral dosing.
@@ -10,6 +10,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: upadacitinib
 permalink: /garden/demo_user/drug/upadacitinib/
+provenance: curated
 slug: upadacitinib
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Upadacitinib
 type: drug
-updated: '2026-06-13T17:47:11.906727Z'
+updated: '2026-08-20T04:08:30.211034Z'
 ---
 
 {% raw %}

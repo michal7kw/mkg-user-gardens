@@ -1,11 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:14.108508Z'
+confidence_score: 0.75
+created: 2026-01-03T17:55:38+0000
+description: CXCR4 (C-X-C Motif Chemokine Receptor 4) is a seven-transmembrane G-protein-coupled
+  receptor (GPCR) that serves as the primary receptor for the chemokine CXCL12 (also
+  known as SDF-1, Stromal Cell-Derived Factor 1).
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: cxcr4
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/protein/cxcr4/
+provenance: curated
 slug: cxcr4
 source: Manual
 tags:
@@ -13,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: CXCR4
 type: protein
-updated: '2026-06-13T17:47:14.108508Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -43,16 +49,21 @@ updated: '2026-06-13T17:47:14.108508Z'
 <p>RELATED::<a href="/garden/demo_user/organ/bone-marrow/" class="internal-link">Bone Marrow</a><br />
 RELATED::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a></p>
 <h3>Interacts With</h3>
-<p>INTERACTS_WITH::<a href="/garden/demo_user/gene/myc/" class="internal-link">MYC</a><br />
-INTERACTS_WITH::<a href="/garden/demo_user/gene/ctnnb1/" class="internal-link">CTNNB1</a><br />
-INTERACTS_WITH::<a href="/garden/demo_user/gene/src/" class="internal-link">SRC</a><br />
-INTERACTS_WITH::<a href="/garden/demo_user/gene/grb2/" class="internal-link">GRB2</a></p>
+<p>INTERACTS_WITH::<a href="/garden/demo_user/protein/myc/" class="internal-link">MYC</a><br />
+INTERACTS_WITH::<a href="/garden/demo_user/protein/ctnnb1/" class="internal-link">CTNNB1</a><br />
+INTERACTS_WITH::<a href="/garden/demo_user/protein/src/" class="internal-link">SRC</a><br />
+INTERACTS_WITH::<a href="/garden/demo_user/protein/grb2/" class="internal-link">GRB2</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cancer/" class="internal-link">Cancer</a><br />
 ASSOCIATED_WITH_CONDITION::<a class="internal-link is-unresolved" href="/404">HIV-AIDS</a><br />
 ASSOCIATED_WITH_CONDITION::<a class="internal-link is-unresolved" href="/404">WHIM Syndrome</a></p>
 <h3>Participates In Pathway</h3>
-<p>PARTICIPATES_IN_PATHWAY::<a class="internal-link is-unresolved" href="/404">PI3K-Akt Pathway</a><br />
-PARTICIPATES_IN_PATHWAY::<a class="internal-link is-unresolved" href="/404">MAPK Pathway</a></p>
+<p>PARTICIPATES_IN_PATHWAY::<a href="/garden/demo_user/pathway/pi3k-akt-pathway/" class="internal-link">PI3K-Akt Pathway</a><br />
+PARTICIPATES_IN_PATHWAY::<a href="/garden/demo_user/pathway/mapk-pathway/" class="internal-link">MAPK Pathway</a></p>
+<h2>References</h2>
+<ul>
+<li>UniProt Consortium. Nucleic Acids Res. 2023;51(D1):D523-D531. UniProt (PMID: 36408955)</li>
+<li>Uhlén M, et al. Science. 2015;347(6220):1260419. The Human Protein Atlas (PMID: 25613900)</li>
+</ul>
 
 {% endraw %}

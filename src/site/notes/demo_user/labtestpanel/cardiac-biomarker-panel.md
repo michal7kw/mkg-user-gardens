@@ -2,7 +2,7 @@
 aliases:
 - cardiac biomarker panel
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.056651Z'
+created: 2026-02-07T00:00:00+0000
 description: Evaluates cardiac injury and heart failure through key biomarkers including
   troponins for myocardial damage and natriuretic peptides for ventricular stress.
   Essential for emergency chest pain evaluation and heart failure monitoring.
@@ -11,6 +11,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-cardiac-biomarker
 permalink: /garden/demo_user/labtestpanel/cardiac-biomarker-panel/
+provenance: curated
 slug: cardiac-biomarker-panel
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: cardiac_biomarker_panel
 type: labtestpanel
-updated: '2026-06-13T17:47:13.056651Z'
+updated: '2026-08-20T04:08:31.033584Z'
 ---
 
 {% raw %}
@@ -30,7 +31,7 @@ updated: '2026-06-13T17:47:13.056651Z'
 <ul>
 <li><a href="/garden/demo_user/labtest/nt-probnp/" class="internal-link">nt probnp</a> -- N-terminal pro-B-type natriuretic peptide for heart failure assessment</li>
 <li><a href="/garden/demo_user/labtest/bnp/" class="internal-link">bnp</a> -- B-type natriuretic peptide for ventricular stress evaluation</li>
-<li><a href="/garden/demo_user/biomarker/creatine-kinase/" class="internal-link">Creatine Kinase</a> -- Enzyme released during muscle and cardiac tissue damage</li>
+<li><a href="/garden/demo_user/labtest/creatine-kinase/" class="internal-link">Creatine Kinase</a> -- Enzyme released during muscle and cardiac tissue damage</li>
 <li><a href="/garden/demo_user/labtest/troponin-t-high-sensitivity/" class="internal-link">troponin t high sensitivity</a> -- High-sensitivity marker of myocardial injury</li>
 <li><a href="/garden/demo_user/labtest/troponin-i/" class="internal-link">troponin i</a> -- Cardiac-specific marker of myocardial necrosis</li>
 </ul>
@@ -43,11 +44,11 @@ updated: '2026-06-13T17:47:13.056651Z'
 <li>Monitoring cardiotoxicity from chemotherapy agents</li>
 </ul>
 <h2>Relationships</h2>
-<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/nt-probnp/" class="internal-link">nt probnp</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/nt-probnp/" class="internal-link">nt_probnp</a><br />
 INCLUDES_TEST::<a href="/garden/demo_user/labtest/bnp/" class="internal-link">bnp</a><br />
-INCLUDES_TEST::<a href="/garden/demo_user/biomarker/creatine-kinase/" class="internal-link">Creatine Kinase</a><br />
-INCLUDES_TEST::<a href="/garden/demo_user/labtest/troponin-t-high-sensitivity/" class="internal-link">troponin t high sensitivity</a><br />
-INCLUDES_TEST::<a href="/garden/demo_user/labtest/troponin-i/" class="internal-link">troponin i</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/creatine-kinase/" class="internal-link">creatine_kinase</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/troponin-t-high-sensitivity/" class="internal-link">troponin_t_high_sensitivity</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/troponin-i/" class="internal-link">troponin_i</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/heart-failure/" class="internal-link">Heart Failure</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a></p>

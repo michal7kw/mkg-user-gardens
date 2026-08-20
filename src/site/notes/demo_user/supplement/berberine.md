@@ -1,6 +1,9 @@
 ---
+aliases:
+- Berberine HCl
+- Berberine Hydrochloride
 confidence_score: 0.85
-created: '2026-06-13T17:47:14.281421Z'
+created: 2026-01-03T17:55:35+0000
 description: Berberine is a benzylisoquinoline plant alkaloid found in Coptis chinensis,
   Berberis vulgaris, and other medicinal plants. It is one of the most extensively
   studied natural compounds for metabolic health, with robust clinical evidence demonstrating
@@ -13,6 +16,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: berberine_supplement
 permalink: /garden/demo_user/supplement/berberine/
+provenance: curated
 pubchem_id: '2353'
 slug: berberine
 source: Manual
@@ -32,7 +36,7 @@ tags:
 templateEngineOverride: njk
 title: Berberine
 type: supplement
-updated: '2026-06-13T17:47:14.281421Z'
+updated: '2026-08-20T04:08:31.869677Z'
 ---
 
 {% raw %}
@@ -181,7 +185,7 @@ AFFECTS_ORGAN::<a href="/garden/demo_user/organ/gut/" class="internal-link">Gut<
 RELATED::<a href="/garden/demo_user/supplement/chromium/" class="internal-link">Chromium</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a><br />
 RELATED::<a href="/garden/demo_user/supplement/alpha-lipoic-acid/" class="internal-link">Alpha Lipoic Acid</a><br />
-RELATED::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/pcos/" class="internal-link">PCOS</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/pancreas/" class="internal-link">Pancreas</a><br />
 RELATED::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a><br />
@@ -202,7 +206,7 @@ AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="int
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/homa-ir/" class="internal-link">Homa Ir</a></p>
 <h3>May Improve Condition</h3>
-<p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+<p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/nafld/" class="internal-link">NAFLD</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a></p>
 <h3>Targets Biomarker</h3>
@@ -221,7 +225,7 @@ ACTIVATES_PATHWAY::<a href="/garden/demo_user/pathway/nrf2-pathway/" class="inte
 <h3>Inhibits Pathway</h3>
 <p>INHIBITS_PATHWAY::<a href="/garden/demo_user/pathway/nf-kb-pathway/" class="internal-link">NF-kB Pathway</a></p>
 <h3>Interacts With</h3>
-<p>INTERACTS_WITH::<a href="/garden/demo_user/gene/cyp3a4/" class="internal-link">CYP3A4</a></p>
+<p>INTERACTS_WITH::<a href="/garden/demo_user/protein/cyp3a4/" class="internal-link">CYP3A4</a></p>
 <h3>Merged from drug</h3>
 <p>RELATED::<a href="/garden/demo_user/protein/ampk/" class="internal-link">AMPK</a><br />
 RELATED::<a href="/garden/demo_user/pathway/gluconeogenesis/" class="internal-link">Gluconeogenesis</a><br />

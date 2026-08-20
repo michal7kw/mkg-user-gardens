@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.743715Z'
+created: 2026-01-03T17:55:38+0000
 description: Anticonvulsant and mood stabilizer used primarily for epilepsy, trigeminal
   neuralgia, and bipolar disorder. Acts by blocking voltage-gated sodium channels.
 dg-home: false
@@ -8,7 +8,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: carbamazepine
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/carbamazepine/
+provenance: curated
 slug: carbamazepine
 source: Manual
 tags:
@@ -22,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Carbamazepine
 type: drug
-updated: '2026-06-13T17:47:11.743715Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -42,19 +44,19 @@ updated: '2026-06-13T17:47:11.743715Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a class="internal-link is-unresolved" href="/404">Ebola Zaire vaccine live attenuated</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Warfarin</a><br />
+RELATED::<a href="/garden/demo_user/drug/warfarin/" class="internal-link">Warfarin</a><br />
 RELATED::<a href="/garden/demo_user/condition/epilepsy/" class="internal-link">Epilepsy</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Zinc Substituted Heme C</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Dichlorobenzyl alcohol</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Trastuzumab emtansine</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Acetylsalicylic acid</a><br />
-RELATED::<a href="/garden/demo_user/gene/cyp3a4/" class="internal-link">CYP3A4</a><br />
+RELATED::<a href="/garden/demo_user/protein/cyp3a4/" class="internal-link">CYP3A4</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Trigeminal Neuralgia</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Influenza A virus AVictoria2102009 X-187 H3N2 hemagglutinin antigen formaldehyde inactivated</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">SRP 299</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Chromic chloride</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Emetonium iodide</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Neuropathic Pain</a><br />
+RELATED::<a href="/garden/demo_user/condition/neuropathic-pain/" class="internal-link">Neuropathic Pain</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Tiludronic acid</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Oral Contraceptives</a><br />
 RELATED::<a href="/garden/demo_user/condition/bipolar-disorder/" class="internal-link">Bipolar Disorder</a><br />
@@ -66,5 +68,9 @@ RELATED::<a href="/garden/demo_user/labtest/uric-acid/" class="internal-link">Ur
 RELATED::<a class="internal-link is-unresolved" href="/404">Adenovirus type 7 vaccine live</a></p>
 <h3>Interacts With</h3>
 <p>INTERACTS_WITH::<a href="/garden/demo_user/drug/clomipramine/" class="internal-link">Clomipramine</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

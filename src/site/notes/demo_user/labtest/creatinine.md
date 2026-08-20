@@ -90,7 +90,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.288238Z'
+created: 2026-01-18T16:02:31+0000
 description: Tested twice a year Creatinine is a waste product made as muscles use
   energy, both during everyday activity and exercise. Because muscles are always active
   to some degree, creatinine is produced at a steady rate. Healthy kidneys filter
@@ -104,6 +104,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-creatinine
 permalink: /garden/demo_user/labtest/creatinine/
+provenance: curated
 slug: creatinine
 source: Manual
 tags:
@@ -113,7 +114,7 @@ tags:
 templateEngineOverride: njk
 title: creatinine
 type: labtest
-updated: '2026-06-13T17:47:12.288238Z'
+updated: '2026-08-20T04:08:30.590219Z'
 ---
 
 {% raw %}
@@ -139,6 +140,10 @@ updated: '2026-06-13T17:47:12.288238Z'
 <td>Kidney Function</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -149,6 +154,18 @@ updated: '2026-06-13T17:47:12.288238Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>3-7 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -165,11 +182,13 @@ updated: '2026-06-13T17:47:12.288238Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/labtest/creatinine/" class="internal-link">Creatinine</a></p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/labtest/comprehensive-metabolic-panel/" class="internal-link">comprehensive metabolic panel</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Dehydration</a><br />
+RELATED::<a href="/garden/demo_user/condition/dehydration/" class="internal-link">Dehydration</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Muscle Loss</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Kidney Dysfunction</a><br />
+RELATED::<a href="/garden/demo_user/condition/kidney-dysfunction/" class="internal-link">Kidney Dysfunction</a><br />
 RELATED::<a href="/garden/demo_user/condition/urinary-tract-obstruction/" class="internal-link">Urinary Tract Obstruction</a><br />
 RELATED::<a href="/garden/demo_user/labtest/kidney-function-panel/" class="internal-link">kidney function panel</a></p>
 <h3>May Detect</h3>

@@ -2,7 +2,7 @@
 aliases:
 - chronic inflammatory response mold response
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.065889Z'
+created: 2026-01-18T16:48:42+0000
 description: Testing for Chronic Inflammatory Response Syndrome (CIRS), often associated
   with mold illness, offers insights into the body’s inflammatory response to mold
   and other environmental toxins. However, it does not directly detect mold exposure
@@ -15,6 +15,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-chronic-inflammatory-response-mold-response
 permalink: /garden/demo_user/labtestpanel/chronic-inflammatory-response-mold-response/
+provenance: curated
 slug: chronic-inflammatory-response-mold-response
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: chronic_inflammatory_response_mold_response
 type: labtestpanel
-updated: '2026-06-13T17:47:13.065889Z'
+updated: '2026-08-20T04:08:31.039333Z'
 ---
 
 {% raw %}
@@ -46,13 +47,13 @@ updated: '2026-06-13T17:47:13.065889Z'
 <li>Differentiating CIRS from fibromyalgia, chronic fatigue syndrome, or autoimmune disease</li>
 </ul>
 <h2>Relationships</h2>
-<p>INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Matrix Metalloproteinase-9 (MMP-9)</a><br />
-INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Complement Component C4a</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/matrix-metalloproteinase-9-mmp9/" class="internal-link">matrix_metalloproteinase_9_mmp9</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/complement-component-c4a/" class="internal-link">complement_component_c4a</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a><br />
 RELATED::<a href="/garden/demo_user/labtest/monocytes/" class="internal-link">monocytes</a><br />
 RELATED::<a href="/garden/demo_user/labtest/eosinophils/" class="internal-link">eosinophils</a><br />
 RELATED::<a href="/garden/demo_user/labtest/white-blood-cell-count/" class="internal-link">white blood cell count</a><br />
-RELATED::<a href="/garden/demo_user/labtest/high-sensitivity-c-reactive-protein-hs-crp/" class="internal-link">high sensitivity c reactive protein hs crp</a><br />
+RELATED::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">high sensitivity c reactive protein hs crp</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/lungs/" class="internal-link">Lungs</a></p>
 

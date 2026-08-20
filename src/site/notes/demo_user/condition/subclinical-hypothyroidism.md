@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.669216Z'
+confidence_score: 0.85
+created: 2026-01-18T16:02:34+0000
 description: A mild form of hypothyroidism characterized by slightly elevated TSH
   levels despite normal free T4 levels, often asymptomatic but carrying risks for
   progression.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: subclinical_hypothyroidism
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/subclinical-hypothyroidism/
+provenance: curated
 slug: subclinical-hypothyroidism
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Subclinical Hypothyroidism
 type: condition
-updated: '2026-06-13T17:47:11.669216Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -46,8 +49,6 @@ updated: '2026-06-13T17:47:11.669216Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/labtest/thyroglobulin-antibodies-tgab/" class="internal-link">thyroglobulin antibodies tgab</a><br />
-RELATED::<a href="/garden/demo_user/labtest/thyroid-stimulating-hormone-tsh/" class="internal-link">thyroid stimulating hormone tsh</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/tsh/" class="internal-link">tsh</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/free-t4/" class="internal-link">Free T4</a><br />
@@ -60,5 +61,12 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/iodine/" class="in
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a></p>
+<h2>References</h2>
+<ul>
+<li>Bekkering GE, Agoritsas T, Lytvyn L, et al. BMJ. 2019;365:l2006. Thyroid hormones treatment for subclinical hypothyroidism (review) (PMID: 31189531)</li>
+<li>Peeters RP. Nat Rev Endocrinol. 2017;13(4):212. Subclinical hypothyroidism (editorial) (PMID: 28112791)</li>
+<li>Stott DJ, Rodondi N, Kearney PM, et al. N Engl J Med. 2017;376(25):2464-2474. TRUST trial: Thyroid hormone therapy in older adults with subclinical hypothyroidism (PMID: 28402245)</li>
+<li>Rotondi M, Cappelli C, Persani L, Chiovato L. Endocr Rev. 2021;42(5):841-861. Selenium supplementation in autoimmune thyroid disease (review) (PMID: 34106274)</li>
+</ul>
 
 {% endraw %}

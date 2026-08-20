@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.75
-created: '2026-06-13T17:47:11.881654Z'
+created: 2026-04-01T10:00:00+0000
 description: Fully human monoclonal antibody against IL-6 receptor alpha. Higher binding
   affinity for IL-6R than tocilizumab. Subcutaneous administration every 2 weeks.
   Effective as monotherapy in patients intolerant of methotrexate.
@@ -10,6 +10,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: sarilumab
 permalink: /garden/demo_user/drug/sarilumab/
+provenance: curated
 slug: sarilumab
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Sarilumab
 type: drug
-updated: '2026-06-13T17:47:11.881654Z'
+updated: '2026-08-20T04:08:30.186815Z'
 ---
 
 {% raw %}
@@ -39,7 +40,7 @@ updated: '2026-06-13T17:47:11.881654Z'
 <h3>Targets</h3>
 <p>TARGETS::<a href="/garden/demo_user/labtest/interleukin-6/" class="internal-link">Interleukin 6</a></p>
 <h3>Decreases Biomarker</h3>
-<p>DECREASES_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h2>References</h2>
 <ul>
 <li>PMID:28061530</li>

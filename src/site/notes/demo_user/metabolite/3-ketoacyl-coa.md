@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.190270Z'
+created: 2026-03-28T12:00:00+0000
 description: 3-Ketoacyl-CoA is the final intermediate of the mitochondrial beta-oxidation
   cycle before thiolytic cleavage by beta-ketothiolase. This reaction releases acetyl-CoA
   and a fatty acyl-CoA shortened by two carbons, which re-enters the beta-oxidation
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: 3_ketoacyl_coa
 permalink: /garden/demo_user/metabolite/3-ketoacyl-coa/
+provenance: curated
 slug: 3-ketoacyl-coa
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: 3-Ketoacyl-CoA
 type: metabolite
-updated: '2026-06-13T17:47:13.190270Z'
+updated: '2026-08-20T04:08:31.091415Z'
 ---
 
 {% raw %}

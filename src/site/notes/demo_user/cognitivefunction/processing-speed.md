@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.176685Z'
+created: 2026-05-27T12:00:00+0000
 description: Processing speed is the rate at which an individual can carry out simple
   cognitive operations and respond to information. It is a foundational cognitive
   resource that constrains working memory and reasoning, depends heavily on white-matter
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: processing_speed
 permalink: /garden/demo_user/cognitivefunction/processing-speed/
+provenance: curated
 slug: processing-speed
 source: PubMed
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Processing Speed
 type: cognitivefunction
-updated: '2026-06-13T17:47:11.176685Z'
+updated: '2026-08-20T04:08:29.241032Z'
 ---
 
 {% raw %}

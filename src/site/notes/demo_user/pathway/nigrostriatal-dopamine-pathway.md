@@ -1,11 +1,17 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.943626Z'
+created: '2026-03-11T11:39:49.132289+00:00'
+description: The Human brain houses four core dopamine pathways, but the Nigrostriatal
+  Pathway is anatomically the most massive, officially utilizing over 80% of the entire
+  brain's available dopamine supply.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nigrostriatal_dopamine_pathway
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/nigrostriatal-dopamine-pathway/
+provenance: curated
 slug: nigrostriatal-dopamine-pathway
 source: Manual
 tags:
@@ -16,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Nigrostriatal Dopamine Pathway
 type: pathway
-updated: '2026-06-13T17:47:13.943626Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -42,5 +48,9 @@ MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class=
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/parkinsons-disease/" class="internal-link">Parkinson's Disease</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

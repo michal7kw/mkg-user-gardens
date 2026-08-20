@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.330060Z'
+created: 2026-01-22T12:00:00+0000
 description: FADH2 (1,5-dihydroflavin adenine dinucleotide) is the reduced form of
   FAD and a critical electron carrier in cellular respiration. It delivers electrons
   to Complex II (succinate dehydrogenase) of the electron transport chain, bypassing
@@ -13,6 +13,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: fadh2
 permalink: /garden/demo_user/metabolite/fadh2/
+provenance: curated
 pubchem_id: '643975'
 slug: fadh2
 source: Manual
@@ -26,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: FADH2
 type: metabolite
-updated: '2026-06-13T17:47:13.330060Z'
+updated: '2026-08-20T04:08:31.139104Z'
 ---
 
 {% raw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:14.206390Z'
+created: 2026-03-19T00:00:00+0000
 description: Rate-limiting enzyme in catecholamine biosynthesis, catalyzing the hydroxylation
   of L-Tyrosine to L-DOPA. Requires iron (Fe2+) and tetrahydrobiopterin (BH4) as essential
   cofactors. Regulated by phosphorylation-dependent activation and end-product feedback
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: tyrosine_hydroxylase
 permalink: /garden/demo_user/protein/tyrosine-hydroxylase/
+provenance: curated
 slug: tyrosine-hydroxylase
 source: Manual
 tags:
@@ -25,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Tyrosine Hydroxylase
 type: protein
-updated: '2026-06-13T17:47:14.206390Z'
+updated: '2026-08-20T04:08:31.732231Z'
 ---
 
 {% raw %}

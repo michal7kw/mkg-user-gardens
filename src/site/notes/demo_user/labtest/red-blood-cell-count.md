@@ -2,7 +2,7 @@
 aliases:
 - red blood cell count
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.763065Z'
+created: '2026-01-19T08:30:03.892699+00:00'
 description: red blud sell kownt Tested twice a year Red blood cell (RBC) count is
   a key marker of health that reflects how well the body can carry oxygen to tissues,
   which is essential for energy and overall function. Abnormal RBC levels—too low
@@ -14,6 +14,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-red-blood-cell-count
 permalink: /garden/demo_user/labtest/red-blood-cell-count/
+provenance: curated
 slug: red-blood-cell-count
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: red_blood_cell_count
 type: labtest
-updated: '2026-06-13T17:47:12.763065Z'
+updated: '2026-08-20T04:08:30.879752Z'
 ---
 
 {% raw %}
@@ -47,6 +48,10 @@ updated: '2026-06-13T17:47:12.763065Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -57,6 +62,18 @@ updated: '2026-06-13T17:47:12.763065Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -69,15 +86,15 @@ updated: '2026-06-13T17:47:12.763065Z'
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+<p>RELATED::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 RELATED::<a href="/garden/demo_user/condition/chronic-kidney-disease/" class="internal-link">Chronic Kidney Disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Anemia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Dehydration</a><br />
+RELATED::<a href="/garden/demo_user/condition/anemia/" class="internal-link">Anemia</a><br />
+RELATED::<a href="/garden/demo_user/condition/dehydration/" class="internal-link">Dehydration</a><br />
 RELATED::<a href="/garden/demo_user/condition/polycythemia-vera/" class="internal-link">Polycythemia Vera</a></p>
 <h3>May Detect</h3>
 <p>MAY_DETECT::<a href="/garden/demo_user/condition/polycythemia-vera/" class="internal-link">Polycythemia Vera</a><br />
 MAY_DETECT::<a href="/garden/demo_user/condition/chronic-kidney-disease/" class="internal-link">Chronic Kidney Disease</a><br />
-MAY_DETECT::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
+MAY_DETECT::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/polycythemia-vera/" class="internal-link">Polycythemia Vera</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/chronic-kidney-disease/" class="internal-link">Chronic Kidney Disease</a></p>

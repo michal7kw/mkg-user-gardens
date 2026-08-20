@@ -1,6 +1,9 @@
 ---
+aliases:
+- Sexual Health Panel
+- sexual health panel
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.169731Z'
+created: 2026-01-18T16:48:42+0000
 description: These tests screen for the most common sexually transmitted infections
   (STIs) in the United States. STIs often go undiagnosed and untreated, potentially
   leading to serious complications such as pelvic inflammatory disease, genital tract
@@ -15,6 +18,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-sexual-health-panel
 permalink: /garden/demo_user/labtestpanel/sexual-health-panel/
+provenance: curated
 slug: sexual-health-panel
 source: Manual
 tags:
@@ -22,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: sexual_health_panel
 type: labtestpanel
-updated: '2026-06-13T17:47:13.169731Z'
+updated: '2026-08-20T04:08:31.080552Z'
 ---
 
 {% raw %}
@@ -51,7 +55,12 @@ updated: '2026-06-13T17:47:13.169731Z'
 <li>Post-exposure assessment following high-risk sexual contact</li>
 </ul>
 <h2>Relationships</h2>
-<p>USED_FOR::<a class="internal-link is-unresolved" href="/404">Sexually Transmitted Infections</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/hiv-antigen-antibody/" class="internal-link">hiv_antigen_antibody</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/syphilis-rpr/" class="internal-link">syphilis_rpr</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/herpes-simplex-virus-igg/" class="internal-link">herpes_simplex_virus_igg</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/trichomoniasis-naat/" class="internal-link">trichomoniasis_naat</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/anti-hcv/" class="internal-link">anti_hcv</a><br />
+USED_FOR::<a class="internal-link is-unresolved" href="/404">Sexually Transmitted Infections</a><br />
 RELATED::<a href="/garden/demo_user/hormone/testosterone/" class="internal-link">Testosterone</a><br />
 RELATED::<a href="/garden/demo_user/hormone/estrogen/" class="internal-link">Estrogen</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a><br />

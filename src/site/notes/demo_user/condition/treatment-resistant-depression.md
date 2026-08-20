@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.685872Z'
+created: 2026-04-01T12:00:00+0000
 description: Major depressive disorder that fails to respond adequately to at least
   two trials of antidepressants of adequate dose and duration (typically ≥6 weeks
   each). Affects approximately 30% of MDD patients. Associated with greater disability,
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: treatment_resistant_depression
 permalink: /garden/demo_user/condition/treatment-resistant-depression/
+provenance: curated
 slug: treatment-resistant-depression
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Treatment-Resistant Depression
 type: condition
-updated: '2026-06-13T17:47:11.685872Z'
+updated: '2026-08-20T04:08:29.977303Z'
 ---
 
 {% raw %}
@@ -166,7 +167,7 @@ updated: '2026-06-13T17:47:11.685872Z'
 RELATED::<a href="/garden/demo_user/condition/depressive-disorder/" class="internal-link">Depressive Disorder</a></p>
 <h3>Associated Biomarker</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
 <h3>Associated Neurotransmitter</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a></p>
 <h3>Associated Gene</h3>

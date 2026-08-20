@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.251313Z'
+confidence_score: 0.8
+created: 2026-01-18T16:02:34+0000
 description: A group of disorders affecting the bone marrow's ability to produce healthy
   blood cells (red cells, white cells, or platelets).
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: bone_marrow_disorder
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/bone-marrow-disorder/
+provenance: curated
 slug: bone-marrow-disorder
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Bone Marrow Disorder
 type: condition
-updated: '2026-06-13T17:47:11.251313Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -49,8 +52,6 @@ updated: '2026-06-13T17:47:11.251313Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/labtest/platelet-count/" class="internal-link">platelet count</a><br />
-RELATED::<a href="/garden/demo_user/labtest/mean-platelet-volume-mpv/" class="internal-link">mean platelet volume mpv</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/wbc/" class="internal-link">Wbc</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/rbc/" class="internal-link">Rbc</a><br />
@@ -62,5 +63,11 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/ferritin/" class="internal-l
 <p>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/folate/" class="internal-link">Folate</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-b12/" class="internal-link">Vitamin B12</a></p>
+<h2>References</h2>
+<ul>
+<li>Cazzola M. Lancet. 2020;396(10253):733-743. Myelodysplastic syndromes (review) (PMID: 32333904)</li>
+<li>Killick SB, Carter C, Culligan D, et al. Br J Haematol. 2016;174(1):45-61. Diagnosis and management of aplastic anemia (BSC guideline) (PMID: 27038357)</li>
+<li>Young NS, Bacigalupo A, Marsh JC. Blood. 2010;116(16):2840-2853. Aplastic anemia (review) (PMID: 20570858)</li>
+</ul>
 
 {% endraw %}

@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.698676Z'
+confidence_score: 0.85
+created: 2026-01-24T12:00:00+0000
 description: Cognitive impairment caused by cerebrovascular disease, including strokes
   and small vessel disease. The second most common cause of dementia after Alzheimer's
   disease, often occurring in combination (mixed dementia).
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: vascular_dementia
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/vascular-dementia/
+provenance: curated
 slug: vascular-dementia
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Vascular Dementia
 type: condition
-updated: '2026-06-13T17:47:11.698676Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -52,28 +55,19 @@ AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Cerebral Vascu
 <p>RELATED::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimers Disease</a><br />
 RELATED::<a href="/garden/demo_user/condition/mild-cognitive-impairment/" class="internal-link">Mild Cognitive Impairment</a><br />
 IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/mediterranean-diet/" class="internal-link">Mediterranean Diet</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Statin Therapy</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/phospho-tau/" class="internal-link">Phospho-Tau</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Retinal Imaging for Neurodegeneration</a><br />
 IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/exercise/" class="internal-link">Exercise</a><br />
 RELATED::<a href="/garden/demo_user/labtest/homocysteine/" class="internal-link">homocysteine</a><br />
 RELATED::<a href="/garden/demo_user/labtest/fibrinogen/" class="internal-link">fibrinogen</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Neuropsychological Testing</a><br />
 RELATED::<a href="/garden/demo_user/condition/atrial-fibrillation/" class="internal-link">Atrial Fibrillation</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/amyloid-beta-4240-ratio/" class="internal-link">Amyloid-Beta 4240 Ratio</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">CT Angiography</a><br />
 IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/sleep-optimization/" class="internal-link">Sleep Optimization</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Blood Pressure Control</a><br />
 RELATED::<a href="/garden/demo_user/condition/smoking-cessation/" class="internal-link">Smoking Cessation</a><br />
 RELATED::<a href="/garden/demo_user/condition/hypertension/" class="internal-link">Hypertension</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Echocardiogram</a><br />
+RELATED::<a href="/garden/demo_user/examination/echocardiogram-transthoracic/" class="internal-link">Echocardiogram</a><br />
 RELATED::<a href="/garden/demo_user/condition/stroke/" class="internal-link">Stroke</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">MRI Brain</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">FDG-PET</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">CRP</a><br />
 RELATED::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Lipid Panel</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Carotid Ultrasound</a><br />
 RELATED::<a href="/garden/demo_user/condition/type-2-diabetes/" class="internal-link">Type 2 Diabetes</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/homocysteine/" class="internal-link">homocysteine</a><br />
@@ -87,5 +81,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/b-complex-vitamins
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/phosphatidylserine/" class="internal-link">Phosphatidylserine</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/resveratrol/" class="internal-link">Resveratrol</a></p>
+<h2>References</h2>
+<ul>
+<li>O'Brien JT, Thomas A. Lancet. 2015;386(10004):1698-1706. Vascular dementia (review) (PMID: 26595643)</li>
+<li>Gorelick PB, Scuteri A, Black SE, et al. Stroke. 2011;42(9):2672-2713. Vascular contributions to cognitive impairment and dementia (AHA/ASA) (PMID: 21778438)</li>
+<li>Pendlebury ST, Rothwell PM. Lancet Neurol. 2009;8(11):1006-1018. Prevalence, incidence, and factors associated with pre-stroke and post-stroke dementia (PMID: 19782003)</li>
+</ul>
 
 {% endraw %}

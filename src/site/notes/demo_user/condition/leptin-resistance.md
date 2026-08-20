@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.456534Z'
+confidence_score: 0.8
+created: 2026-01-18T16:02:34+0000
 description: A hormonal imbalance where the brain fails to respond effectively to
   leptin, the "satiety hormone," leading to increased appetite and difficulty losing
   weight.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: leptin_resistance
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/leptin-resistance/
+provenance: curated
 slug: leptin-resistance
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Leptin Resistance
 type: condition
-updated: '2026-06-13T17:47:11.456534Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -58,5 +61,11 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/adiponectin/" class="interna
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/alpha-lipoic-acid/" class="internal-link">Alpha Lipoic Acid</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/berberine/" class="internal-link">Berberine</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a></p>
+<h2>References</h2>
+<ul>
+<li>Myers MG Jr, Leibel RL, Seeley RJ, Schwartz MW. Trends Endocrinol Metab. 2010;21(11):643-651. Obesity and leptin resistance (review) (PMID: 20846887)</li>
+<li>Pan H, Guo J, Su Z. Adv Exp Med Biol. 2014;781:217-226. Advances in understanding the interrelations between leptin resistance and obesity (PMID: 24664807)</li>
+<li>Marti A, Martinez-Gonzalez MA, Martinez JA. Nutr Metab Cardiovasc Dis. 2008;18(5):332-336. Leptin and obesity (review)</li>
+</ul>
 
 {% endraw %}

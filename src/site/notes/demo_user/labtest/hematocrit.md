@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.397822Z'
+created: 2026-01-18T16:02:30+0000
 description: Tested twice a year Hematocrit measures the percentage of red blood cells
   in the blood—the cells responsible for carrying oxygen throughout the body. Low
   levels are most often linked to anemia or blood loss, while high levels may reflect
@@ -13,6 +13,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-hematocrit
 permalink: /garden/demo_user/labtest/hematocrit/
+provenance: curated
 slug: hematocrit
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: hematocrit
 type: labtest
-updated: '2026-06-13T17:47:12.397822Z'
+updated: '2026-08-20T04:08:30.692988Z'
 ---
 
 {% raw %}
@@ -48,6 +49,10 @@ updated: '2026-06-13T17:47:12.397822Z'
 <td>Cbc</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -59,6 +64,18 @@ updated: '2026-06-13T17:47:12.397822Z'
 <td><strong>Turnaround Time</strong></td>
 <td>3-7 days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -69,10 +86,12 @@ updated: '2026-06-13T17:47:12.397822Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/labtest/hematocrit/" class="internal-link">Hematocrit</a></p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/condition/chronic-lung-disease/" class="internal-link">Chronic Lung Disease</a><br />
 RELATED::<a href="/garden/demo_user/condition/iron-deficiency-anemia/" class="internal-link">Iron Deficiency Anemia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Dehydration</a><br />
+RELATED::<a href="/garden/demo_user/condition/dehydration/" class="internal-link">Dehydration</a><br />
 RELATED::<a href="/garden/demo_user/labtest/complete-blood-count/" class="internal-link">complete blood count</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Anemia Of Chronic Disease</a><br />
 RELATED::<a href="/garden/demo_user/condition/polycythemia-vera/" class="internal-link">Polycythemia Vera</a></p>

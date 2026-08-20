@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:12.136163Z'
+created: 2026-01-03T17:55:38+0000
 description: Moderate-intensity aerobic exercise performed at a pace that allows for
   steady-state fat oxidation and mitochondrial development.
 dg-home: false
@@ -8,7 +8,9 @@ dg-publish: true
 evidence_level: 3
 gardenUsername: demo_user
 id: zone_2_training
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/intervention/zone-2-training/
+provenance: curated
 slug: zone-2-training
 source: Manual
 tags:
@@ -19,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Zone 2 Training
 type: intervention
-updated: '2026-06-13T17:47:12.136163Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -59,7 +61,8 @@ updated: '2026-06-13T17:47:12.136163Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Affects Biomarker</h3>
-<p>INCREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hdl-cholesterol/" class="internal-link">Hdl</a> (Evidence Level 3)</p>
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/insulin-fasting/" class="internal-link">Insulin Fasting</a> (Evidence Level 3)<br />
+INCREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hdl-cholesterol/" class="internal-link">Hdl</a> (Evidence Level 3)</p>
 <!-- seeded: intervention coverage (mirror_intervention_edges_to_markdown.py) -->
 <p>INCREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a> (Evidence Level 3)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/metabolite/glucose/" class="internal-link">Glucose</a> (Evidence Level 3)<br />
@@ -72,7 +75,7 @@ RELATED::<a href="/garden/demo_user/intervention/strength-training/" class="inte
 RELATED::<a href="/garden/demo_user/intervention/intermittent-fasting/" class="internal-link">Intermittent Fasting</a> (fasted Zone 2 may enhance fat oxidation adaptation)<br />
 RELATED::<a href="/garden/demo_user/cellularcomponent/mitochondria/" class="internal-link">Mitochondria</a> (Zone 2 is the most potent stimulus for mitochondrial biogenesis)</p>
 <h3>Modulates Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a> (chronic anti-inflammatory effect, Evidence Level 1b)<br />
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (chronic anti-inflammatory effect, Evidence Level 1b)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a> (improved glycemic control via enhanced fat oxidation, Evidence Level 1a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a> (increased lipid oxidation reduces circulating triglycerides, Evidence Level 1a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a> (aerobic exercise increases BDNF for neuroplasticity, Evidence Level 2a)</p>
@@ -83,5 +86,9 @@ AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-l
 <h3>May Improve Condition</h3>
 <p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/type-2-diabetes/" class="internal-link">Type 2 Diabetes</a> (improved metabolic flexibility and insulin sensitivity, Evidence Level 1a)<br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a> (VO2max improvement reduces CV mortality, Evidence Level 1a)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

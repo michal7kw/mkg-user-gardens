@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:14.303845Z'
+created: 2026-04-01T10:00:00+0000
 description: Gum resin extract containing boswellic acids (AKBA is the most potent).
   Inhibits 5-lipoxygenase (5-LOX), reducing leukotriene synthesis. Also inhibits NF-kB
   and MMP activity. Clinical trials show benefit in osteoarthritis and RA with fewer
@@ -11,6 +11,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: boswellia_serrata
 permalink: /garden/demo_user/supplement/boswellia-serrata/
+provenance: curated
 slug: boswellia-serrata
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Boswellia Serrata
 type: supplement
-updated: '2026-06-13T17:47:14.303845Z'
+updated: '2026-08-20T04:08:31.888270Z'
 ---
 
 {% raw %}
@@ -44,7 +45,7 @@ updated: '2026-06-13T17:47:14.303845Z'
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/knee-osteoarthritis/" class="internal-link">Knee Osteoarthritis</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/osteoarthritis/" class="internal-link">Osteoarthritis</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/rheumatoid-arthritis/" class="internal-link">Rheumatoid Arthritis</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></li>
 <li>MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/nf-kb-pathway/" class="internal-link">NF-kB Pathway</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/joints/" class="internal-link">Joints</a> (Inhibits 5-LOX and MMP activity reducing leukotriene-mediated joint inflammation; clinical benefit in osteoarthritis and RA, Evidence Level 3a)</li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/gut/" class="internal-link">Gut</a> (Anti-inflammatory effects on intestinal mucosa via NF-kB and leukotriene suppression; traditional use for GI complaints, Evidence Level 2a)</li>

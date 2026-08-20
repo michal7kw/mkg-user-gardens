@@ -3,7 +3,7 @@ aliases:
 - Zinc (Serum)
 - zinc serum
 confidence_score: 0.0
-created: '2026-06-13T17:47:13.017407Z'
+created: 2025-12-10T09:07:57+0000
 description: Essential mineral for immune function, wound healing, and enzyme activity.
 dg-home: false
 dg-publish: true
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: test-zinc-001
 permalink: /garden/demo_user/labtest/zinc-serum/
+provenance: curated
 slug: zinc-serum
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: zinc_serum
 type: labtest
-updated: '2026-06-13T17:47:13.017407Z'
+updated: '2026-08-20T04:08:31.016923Z'
 ---
 
 {% raw %}
@@ -44,6 +45,10 @@ updated: '2026-06-13T17:47:13.017407Z'
 <td>Other</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -54,6 +59,18 @@ updated: '2026-06-13T17:47:13.017407Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>2-5 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$35-$75</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -77,6 +94,8 @@ updated: '2026-06-13T17:47:13.017407Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a></p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a></p>
 <h2>Notes</h2>

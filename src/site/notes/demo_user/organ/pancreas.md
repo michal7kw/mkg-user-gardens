@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:13.811144Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:40+0000
 description: Dual-function organ with exocrine (digestive enzymes) and endocrine (insulin,
   glucagon) roles. Central to blood sugar regulation and digestion.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: pancreas
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/organ/pancreas/
+provenance: curated
 slug: pancreas
 source: Manual
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Pancreas
 type: organ
-updated: '2026-06-13T17:47:13.811144Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -46,7 +49,7 @@ updated: '2026-06-13T17:47:13.811144Z'
 <p>Pancreatic function is assessed through fasting glucose, HbA1c, and oral glucose tolerance testing (endocrine function), as well as fecal elastase-1 and 72-hour fecal fat collection (exocrine function). Serum lipase is the preferred marker for acute pancreatitis (more specific than amylase). Imaging modalities include abdominal ultrasound and CT for pancreatitis staging, endoscopic ultrasound (EUS) for small lesions and tissue sampling, and MRCP for ductal anatomy. Berberine has demonstrated hypoglycemic effects comparable to metformin in some studies, and chromium, alpha-lipoic acid, and cinnamon extract are commonly investigated for glycemic support.</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+<p>RELATED::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 RELATED::<a href="/garden/demo_user/condition/insulin-resistance/" class="internal-link">Insulin Resistance</a><br />
 RELATED::<a href="/garden/demo_user/supplement/berberine/" class="internal-link">Berberine</a><br />
 RELATED::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a><br />
@@ -54,6 +57,10 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/type-2-diabetes/
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/type-1-diabetes/" class="internal-link">Type 1 Diabetes</a><br />
 ASSOCIATED_WITH_CONDITION::<a class="internal-link is-unresolved" href="/404">Acute Pancreatitis</a><br />
 ASSOCIATED_WITH_CONDITION::<a class="internal-link is-unresolved" href="/404">Chronic Pancreatitis</a><br />
-ASSOCIATED_WITH_CONDITION::<a class="internal-link is-unresolved" href="/404">Pancreatic Cancer</a></p>
+ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/pancreatic-cancer/" class="internal-link">Pancreatic Cancer</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (textbook reference)</li>
+</ul>
 
 {% endraw %}

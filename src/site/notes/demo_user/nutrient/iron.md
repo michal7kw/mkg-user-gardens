@@ -1,13 +1,16 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.704796Z'
+created: '2026-04-05T16:16:23.601748+00:00'
 description: Essential mineral for oxygen transport (hemoglobin), energy metabolism
   (cytochromes), and DNA synthesis. Most common nutritional deficiency worldwide.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_iron
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/iron/
+provenance: curated
 slug: iron
 source: dev_seeder
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Iron
 type: nutrient
-updated: '2026-06-13T17:47:13.704796Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -57,14 +60,18 @@ updated: '2026-06-13T17:47:13.704796Z'
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hemoglobin/" class="internal-link">hemoglobin</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/transferrin-saturation/" class="internal-link">Transferrin Saturation</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/red-blood-cell-count/" class="internal-link">Red Blood Cell Count</a></li>
-<li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Anemia</a></li>
+<li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/anemia/" class="internal-link">Anemia</a></li>
 <li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Restless Legs Syndrome</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/nutrient/folate-b9/" class="internal-link">Folate (B9)</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-b12/" class="internal-link">Vitamin B12</a></li>
-<li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a></li>
+<li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a></li>
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a></li>
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/nutrient/polyphenols/" class="internal-link">Polyphenols</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

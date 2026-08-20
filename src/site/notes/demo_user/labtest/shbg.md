@@ -1,4 +1,7 @@
 ---
+aliases:
+- sex_hormone_binding_globulin_shbg
+- Sex Hormone Binding Globulin (SHBG)
 confidence_score: 0.0
 country_availability:
   it:
@@ -93,7 +96,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.790295Z'
+created: 2025-12-10T09:07:56+0000
 description: Binds testosterone and estrogen. Important for calculating free hormone
   levels and assessing metabolic health.
 dg-home: false
@@ -102,6 +105,7 @@ evidence_level: 0
 gardenUsername: demo_user
 id: test-shbg-001
 permalink: /garden/demo_user/labtest/shbg/
+provenance: curated
 slug: shbg
 source: Manual
 tags:
@@ -109,7 +113,7 @@ tags:
 templateEngineOverride: njk
 title: shbg
 type: labtest
-updated: '2026-06-13T17:47:12.790295Z'
+updated: '2026-08-20T04:08:30.896002Z'
 ---
 
 {% raw %}
@@ -134,6 +138,10 @@ updated: '2026-06-13T17:47:12.790295Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -144,6 +152,10 @@ updated: '2026-06-13T17:47:12.790295Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
 </tr>
 </tbody>
 </table>

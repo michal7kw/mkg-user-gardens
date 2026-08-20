@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:10.953143Z'
+created: 2026-01-03T17:55:38+0000
 description: The Kraft Test is an oral glucose tolerance test with serial insulin
   measurements (GTIR) that classifies insulin response into five distinct patterns.
   It detects hyperinsulinemia and insulin resistance earlier than fasting glucose
@@ -12,6 +12,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: kraft_test
 permalink: /garden/demo_user/biomarker/kraft-test/
+provenance: curated
 slug: kraft-test
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Kraft Test
 type: biomarker
-updated: '2026-06-13T17:47:10.953143Z'
+updated: '2026-08-20T04:08:28.811592Z'
 ---
 
 {% raw %}

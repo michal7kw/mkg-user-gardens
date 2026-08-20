@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.644146Z'
+created: 2025-12-10T09:07:57+0000
 description: EPA+DHA as percentage of red blood cell membranes. Target >8% for cardiovascular
   protection.
 dg-home: false
@@ -9,6 +9,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: test-omega3-index-001
 permalink: /garden/demo_user/labtest/omega3-index/
+provenance: curated
 slug: omega3-index
 source: Manual
 tags:
@@ -16,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: omega3_index
 type: labtest
-updated: '2026-06-13T17:47:12.644146Z'
+updated: '2026-08-20T04:08:30.813268Z'
 ---
 
 {% raw %}
@@ -42,6 +43,10 @@ updated: '2026-06-13T17:47:12.644146Z'
 <td>Fatty Acids</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -52,6 +57,18 @@ updated: '2026-06-13T17:47:12.644146Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>5-10 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$75-$150</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -78,7 +95,7 @@ RELATED::<a href="/garden/demo_user/biomarker/epa/" class="internal-link">Epa</a
 <h3>Enriched</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
 INDICATES::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />
-INDICATES::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
+INDICATES::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

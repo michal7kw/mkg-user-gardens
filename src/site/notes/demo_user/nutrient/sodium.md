@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.736017Z'
+created: '2026-04-05T16:16:22.878056+00:00'
 description: Essential electrolyte for fluid balance, nerve signaling, and muscle
   contraction. Excess intake is a primary driver of hypertension in sodium-sensitive
   individuals.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_sodium
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/sodium/
+provenance: curated
 slug: sodium
 source: dev_seeder
 tags:
@@ -16,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Sodium
 type: nutrient
-updated: '2026-06-13T17:47:13.736017Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -53,13 +56,17 @@ updated: '2026-06-13T17:47:13.736017Z'
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/kidneys/" class="internal-link">Kidneys</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></li>
-<li>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Blood Vessels</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Blood Pressure</a></li>
+<li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/blood-vessels/" class="internal-link">Blood Vessels</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/examination/blood-pressure/" class="internal-link">Blood Pressure</a></li>
 <li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Serum Sodium</a></li>
 <li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Hyponatremia</a></li>
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/nutrient/potassium/" class="internal-link">Potassium</a></li>
-<li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a></li>
+<li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a></li>
 <li>RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

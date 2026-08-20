@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:11.095798Z'
+created: '2026-04-01T19:57:52.302641+00:00'
 description: Dense, non-membrane-bound structure within the nucleus responsible for
   ribosomal RNA (rRNA) transcription and ribosome biogenesis. Emerging as a sensor
   of cellular stress and regulator of aging — nucleolar size inversely correlates
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: nucleolus
 permalink: /garden/demo_user/cellularcomponent/nucleolus/
+provenance: curated
 slug: nucleolus
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Nucleolus
 type: cellularcomponent
-updated: '2026-06-13T17:47:11.095798Z'
+updated: '2026-08-20T04:08:29.168022Z'
 ---
 
 {% raw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.631437Z'
+created: 2026-03-05T00:00:00+0000
 description: Family of endogenous opioid neuropeptides (beta-endorphin, enkephalins,
   dynorphins) produced primarily in the hypothalamus and pituitary gland. They bind
   to mu, delta, and kappa opioid receptors to modulate pain perception, reward, stress
@@ -14,6 +14,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: endorphins
 permalink: /garden/demo_user/neurotransmitter/endorphins/
+provenance: curated
 slug: endorphins
 source: Manual
 tags:
@@ -28,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Endorphins
 type: neurotransmitter
-updated: '2026-06-13T17:47:13.631437Z'
+updated: '2026-08-20T04:08:31.285372Z'
 ---
 
 {% raw %}
@@ -360,10 +361,10 @@ Prodynorphin Gene → Prodynorphin → Dynorphin A + Dynorphin B + Alpha-neoendo
 </table>
 <h2>Relationships</h2>
 <h3>Synthesis and Metabolism</h3>
-<p>SYNTHESIZED_FROM::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">Cortisol</a></p>
+<p>SYNTHESIZED_FROM::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">Cortisol</a></p>
 <h3>Neurotransmitter Interactions</h3>
 <p>INTERACTS_WITH::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a><br />
-INTERACTS_WITH::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a><br />
+INTERACTS_WITH::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/neurotransmitter/norepinephrine/" class="internal-link">Norepinephrine</a></p>
 <h3>Conditions</h3>

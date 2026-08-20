@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.377409Z'
+created: 2026-02-07T00:00:00+0000
 description: Glutathione test measures the body's master antioxidant in blood. Glutathione
   (GSH) is a tripeptide (glutamate-cysteine-glycine) critical for detoxification,
   immune function, and protection against oxidative damage. Both total glutathione
@@ -11,6 +11,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-glutathione
 permalink: /garden/demo_user/labtest/glutathione/
+provenance: curated
 slug: glutathione
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: glutathione
 type: labtest
-updated: '2026-06-13T17:47:12.377409Z'
+updated: '2026-08-20T04:08:30.669127Z'
 ---
 
 {% raw %}
@@ -44,6 +45,10 @@ updated: '2026-06-13T17:47:12.377409Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -54,6 +59,14 @@ updated: '2026-06-13T17:47:12.377409Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -81,6 +94,8 @@ updated: '2026-06-13T17:47:12.377409Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/supplement/glutathione/" class="internal-link">Glutathione</a></p>
 <h3>Related Tests</h3>
 <p>RELATED_TESTS::<a href="/garden/demo_user/labtest/nutreval-fmv/" class="internal-link">nutreval fmv</a><br />
 RELATED_TESTS::<a href="/garden/demo_user/labtest/organic-acids-test/" class="internal-link">organic acids test</a></p>

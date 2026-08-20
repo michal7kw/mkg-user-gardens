@@ -1,5 +1,6 @@
 ---
-created: '2026-06-13T17:47:11.925397Z'
+confidence_score: 0.75
+created: '2026-08-20T04:08:30.252697Z'
 description: Exposure to mycotoxins (aflatoxin, ochratoxin A, trichothecenes) and
   mold-derived volatile organic compounds from water-damaged buildings and contaminated
   food, causing immune dysregulation, oxidative stress, neuroinflammation, and multi-system
@@ -9,7 +10,9 @@ dg-publish: true
 evidence_level: 3
 gardenUsername: demo_user
 id: mold_exposure
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/exposure/mold-exposure/
+provenance: curated
 slug: mold-exposure
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Mold Exposure
 type: exposure
-updated: '2026-06-13T17:47:11.925397Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -98,5 +101,9 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/condition/cognitive-dysfunction/" cl
 ASSOCIATED_WITH::<a href="/garden/demo_user/condition/allergy/" class="internal-link">Allergy</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/condition/chronic-infection/" class="internal-link">Chronic Infection</a><br />
 RISK_FACTOR::<a href="/garden/demo_user/condition/carcinoma/" class="internal-link">Carcinoma</a></p>
+<h2>References</h2>
+<ul>
+<li>CDC. https://www.cdc.gov/niosh Environmental hazard references</li>
+</ul>
 
 {% endraw %}

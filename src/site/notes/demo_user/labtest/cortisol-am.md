@@ -93,7 +93,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.283444Z'
+created: 2025-12-10T09:07:57+0000
 description: Morning cortisol measurement. Important for adrenal function assessment
   and Cushing's/Addison's disease screening.
 dg-home: false
@@ -102,6 +102,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: test-cortisol-001
 permalink: /garden/demo_user/labtest/cortisol-am/
+provenance: curated
 slug: cortisol-am
 source: Manual
 tags:
@@ -109,7 +110,7 @@ tags:
 templateEngineOverride: njk
 title: cortisol_am
 type: labtest
-updated: '2026-06-13T17:47:12.283444Z'
+updated: '2026-08-20T04:08:30.586691Z'
 ---
 
 {% raw %}
@@ -135,6 +136,10 @@ updated: '2026-06-13T17:47:12.283444Z'
 <td>Adrenal</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -146,6 +151,18 @@ updated: '2026-06-13T17:47:12.283444Z'
 <td><strong>Turnaround Time</strong></td>
 <td>1-3 days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$30-$65</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Preparation Instructions</h2>
@@ -156,7 +173,7 @@ updated: '2026-06-13T17:47:12.283444Z'
 <h2>Biomarkers Measured</h2>
 <p>This test measures the following biomarkers:</p>
 <ul>
-<li><a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></li>
+<li><a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></li>
 </ul>
 <h2>Recommended For</h2>
 <h3>Supplement Monitoring</h3>
@@ -167,7 +184,7 @@ updated: '2026-06-13T17:47:12.283444Z'
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+<p>RELATED::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

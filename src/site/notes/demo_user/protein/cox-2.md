@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:14.091117Z'
+created: 2026-04-01T10:00:00+0000
 description: Cyclooxygenase-2 is the inducible isoform of prostaglandin-endoperoxide
   synthase. Upregulated by inflammatory stimuli (TNF-alpha, IL-1beta, LPS). Converts
   arachidonic acid to PGH2, the precursor of pro-inflammatory prostaglandins. Primary
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: cox_2
 permalink: /garden/demo_user/protein/cox-2/
+provenance: curated
 slug: cox-2
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: COX-2
 type: protein
-updated: '2026-06-13T17:47:14.091117Z'
+updated: '2026-08-20T04:08:31.638912Z'
 ---
 
 {% raw %}

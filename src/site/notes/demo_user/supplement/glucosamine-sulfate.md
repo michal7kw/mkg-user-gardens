@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.65
-created: '2026-06-13T17:47:14.345722Z'
+created: 2026-04-01T10:00:00+0000
 description: Amino sugar and natural precursor for glycosaminoglycans in articular
   cartilage. Crystalline glucosamine sulfate (Rottapharm formulation) has the strongest
   evidence -- efficacy comparable to celecoxib. Must be sulfate salt form, not HCl.
@@ -10,6 +10,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: glucosamine_sulfate
 permalink: /garden/demo_user/supplement/glucosamine-sulfate/
+provenance: curated
 slug: glucosamine-sulfate
 source: Manual
 tags:
@@ -20,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Glucosamine Sulfate
 type: supplement
-updated: '2026-06-13T17:47:14.345722Z'
+updated: '2026-08-20T04:08:31.930021Z'
 ---
 
 {% raw %}
@@ -44,7 +45,7 @@ updated: '2026-06-13T17:47:14.345722Z'
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/osteoarthritis/" class="internal-link">Osteoarthritis</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/chondroitin-sulfate/" class="internal-link">Chondroitin Sulfate</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/msm/" class="internal-link">MSM</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/joints/" class="internal-link">Joints</a> (Provides substrate for GAG and proteoglycan synthesis in articular cartilage; ESCEO-recommended first-line treatment for knee OA, Evidence Level 3a)</li>
 </ul>
 <h2>References</h2>

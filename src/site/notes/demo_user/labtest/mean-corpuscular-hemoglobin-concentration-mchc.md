@@ -2,7 +2,7 @@
 aliases:
 - mean corpuscular hemoglobin concentration mchc
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.557506Z'
+created: '2026-01-19T08:30:03.730477+00:00'
 description: meen kor-pus-kyoo-lur hee-muh-gloh-bin kon-sen-tray-shun (m-c-h-c) Tested
   twice a year Mean corpuscular hemoglobin (MCH) measures the average amount of hemoglobin—the
   protein that carries oxygen—in each red blood cell. Low MCH often points to iron
@@ -15,6 +15,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-mean-corpuscular-hemoglobin-concentration-mchc
 permalink: /garden/demo_user/labtest/mean-corpuscular-hemoglobin-concentration-mchc/
+provenance: curated
 slug: mean-corpuscular-hemoglobin-concentration-mchc
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: mean_corpuscular_hemoglobin_concentration_mchc
 type: labtest
-updated: '2026-06-13T17:47:12.557506Z'
+updated: '2026-08-20T04:08:30.781009Z'
 ---
 
 {% raw %}
@@ -48,6 +49,10 @@ updated: '2026-06-13T17:47:12.557506Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -59,6 +64,18 @@ updated: '2026-06-13T17:47:12.557506Z'
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -69,10 +86,12 @@ updated: '2026-06-13T17:47:12.557506Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/biomarker/mchc/" class="internal-link">MCHC</a></p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/condition/hereditary-spherocytosis/" class="internal-link">Hereditary Spherocytosis</a><br />
 RELATED::<a href="/garden/demo_user/condition/sickle-cell-disease/" class="internal-link">Sickle Cell Disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Thalassemia</a><br />
+RELATED::<a href="/garden/demo_user/condition/thalassemia/" class="internal-link">Thalassemia</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Autoimmune Hemolytic Anemia</a><br />
 RELATED::<a href="/garden/demo_user/condition/iron-deficiency-anemia/" class="internal-link">Iron Deficiency Anemia</a></p>
 <h3>May Detect</h3>

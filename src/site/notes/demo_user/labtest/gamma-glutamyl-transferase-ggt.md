@@ -92,7 +92,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.359971Z'
+created: '2026-01-19T08:30:03.406073+00:00'
 description: Gamma-glutamyl transferase (GGT) is an enzyme found in the liver and
   bile ducts that plays a role in processing toxins and medications. Elevated GGT
   levels in the blood can signal stress or damage to the liver or bile ducts, so this
@@ -104,6 +104,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-gamma-glutamyl-transferase-ggt
 permalink: /garden/demo_user/labtest/gamma-glutamyl-transferase-ggt/
+provenance: curated
 slug: gamma-glutamyl-transferase-ggt
 source: Manual
 tags:
@@ -111,7 +112,7 @@ tags:
 templateEngineOverride: njk
 title: gamma_glutamyl_transferase_ggt
 type: labtest
-updated: '2026-06-13T17:47:12.359971Z'
+updated: '2026-08-20T04:08:30.658558Z'
 ---
 
 {% raw %}
@@ -137,6 +138,10 @@ updated: '2026-06-13T17:47:12.359971Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -148,6 +153,18 @@ updated: '2026-06-13T17:47:12.359971Z'
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -158,6 +175,8 @@ updated: '2026-06-13T17:47:12.359971Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/biomarker/ggt/" class="internal-link">GGT</a></p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/condition/drug-induced-liver-injury/" class="internal-link">Drug-Induced Liver Injury</a><br />
 RELATED::<a href="/garden/demo_user/condition/alcohol-related-liver-injury/" class="internal-link">Alcohol-Related Liver Injury</a><br />

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:14.505215Z'
+created: 2026-01-03T17:55:42+0000
 description: Conditionally essential sulfur-containing amino acid and the most abundant
   free amino acid in the heart, retina, brain, and white blood cells. Not incorporated
   into proteins but acts as a free intracellular osmolyte, membrane stabilizer, and
@@ -13,6 +13,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: taurine
 permalink: /garden/demo_user/supplement/taurine/
+provenance: curated
 pubchem_id: '1123'
 slug: taurine
 source: Manual
@@ -30,7 +31,7 @@ tags:
 templateEngineOverride: njk
 title: Taurine
 type: supplement
-updated: '2026-06-13T17:47:14.505215Z'
+updated: '2026-08-20T04:08:32.069832Z'
 ---
 
 {% raw %}

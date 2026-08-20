@@ -1,15 +1,18 @@
 ---
 confidence_score: 0.92
-created: '2026-06-13T17:47:10.690805Z'
+created: '2026-02-14T12:00:00+00:00'
 description: Alanine Transaminase (ALT), also known as SGPT, is a pyridoxal phosphate-dependent
   enzyme found primarily in hepatocyte cytoplasm. It is the most sensitive and specific
   serum enzyme marker for hepatocellular injury, with elevations reflecting liver
   cell membrane damage or increased permeability.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: alt
+last_modified: 2026-06-21T00:00:00+0000
 permalink: /garden/demo_user/biomarker/alanine-transaminase/
+provenance: curated
 slug: alanine-transaminase
 source: Manual
 tags:
@@ -22,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Alanine Transaminase
 type: biomarker
-updated: '2026-06-13T17:47:10.690805Z'
+updated: 2026-06-21T00:00:00+0000
 ---
 
 {% raw %}
@@ -171,8 +174,8 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/alcohol-use-diso
 <p>INDICATES_ORGAN_HEALTH::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a> (most sensitive serum marker for hepatocellular injury, Evidence Level 1a)</p>
 <h3>Correlated With</h3>
 <p>CORRELATED_WITH::<a href="/garden/demo_user/biomarker/aspartate-aminotransferase/" class="internal-link">Aspartate Aminotransferase</a><br />
-CORRELATED_WITH::<a href="/garden/demo_user/labtest/homa-ir/" class="internal-link">Homa Ir</a><br />
-CORRELATED_WITH::<a class="internal-link is-unresolved" href="/404">Bilirubin</a><br />
+CORRELATED_WITH::<a href="/garden/demo_user/condition/insulin-resistance/" class="internal-link">Insulin Resistance</a><br />
+CORRELATED_WITH::<a href="/garden/demo_user/biomarker/bilirubin-total/" class="internal-link">Bilirubin Total</a><br />
 CORRELATED_WITH::<a href="/garden/demo_user/biomarker/bilirubin-total/" class="internal-link">Bilirubin Total</a><br />
 CORRELATED_WITH::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">Triglycerides</a></p>
 <h3>Predicts Risk</h3>

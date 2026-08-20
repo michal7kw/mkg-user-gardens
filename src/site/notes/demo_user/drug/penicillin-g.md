@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.866230Z'
+confidence_score: 0.8
+created: 2026-01-18T16:48:42+0000
 description: A narrow-spectrum antibiotic used to treat serious bacterial infections
   caused by susceptible organisms, typically administered by injection.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: penicillin_g
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/penicillin-g/
+provenance: curated
 slug: penicillin-g
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Penicillin G
 type: drug
-updated: '2026-06-13T17:47:11.866230Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -42,5 +45,9 @@ TREATS::<a class="internal-link is-unresolved" href="/404">Infective Endocarditi
 <p>TARGETS::<a class="internal-link is-unresolved" href="/404">Penicillin-Binding Proteins</a> (Irreversible inhibition of transpeptidases, Evidence Level 1a)<br />
 SAME_CLASS_AS::<a href="/garden/demo_user/drug/penicillin-v/" class="internal-link">Penicillin V</a> (Natural penicillins differing in acid stability and route, Evidence Level 1a)<br />
 CONTRAINDICATED_IN::<a class="internal-link is-unresolved" href="/404">Penicillin Allergy</a> (Risk of anaphylaxis in sensitized patients, Evidence Level 1a)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

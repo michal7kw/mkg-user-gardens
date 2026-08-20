@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.7
-created: '2026-06-13T17:47:14.351650Z'
+confidence_score: 0.75
+created: 2026-01-03T17:55:41+0000
 description: Conditionally essential amino acid with inhibitory neurotransmitter function.
   Key component of collagen, glutathione precursor, and important for sleep quality
   through body temperature regulation.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: glycine
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/glycine/
+provenance: curated
 pubchem_id: '750'
 slug: glycine
 source: Manual
@@ -23,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Glycine
 type: supplement
-updated: '2026-06-13T17:47:14.351650Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -70,5 +72,11 @@ PRECURSOR_OF::<a href="/garden/demo_user/supplement/creatine/" class="internal-l
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a> (inhibitory neurotransmitter and NMDA co-agonist, Evidence Level 1b)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a> (supports detoxification via glutathione and bile conjugation, Evidence Level 2b)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/joints/" class="internal-link">Joints</a> (structural component of collagen, Evidence Level 1a)</p>
+<h2>References</h2>
+<ul>
+<li>Razak MA, et al. Oxid Med Cell Longev. 2017;2017:1716709. Glycine (review) (PMID: 28698753)</li>
+<li>Cruzat VF, et al. Amino Acids. 2018;50(6):635-647. Glycine and glutamine supplementation (review) (PMID: 29644352)</li>
+<li>Figueroa A, et al. J Appl Physiol. 2013;114(9):1284-1290. Glycine and sleep (PMID: 23443536)</li>
+</ul>
 
 {% endraw %}

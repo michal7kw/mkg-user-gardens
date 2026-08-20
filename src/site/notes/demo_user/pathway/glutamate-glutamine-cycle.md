@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.890726Z'
+created: 2026-05-27T12:00:00+0000
 description: The glutamate-glutamine cycle is the astrocyte-neuron metabolic loop
   that recycles the neurotransmitter glutamate after synaptic release. Astrocytes
   take up synaptic glutamate via EAAT transporters, convert it to glutamine (glutamine
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: glutamate_glutamine_cycle
 permalink: /garden/demo_user/pathway/glutamate-glutamine-cycle/
+provenance: curated
 slug: glutamate-glutamine-cycle
 source: PubMed
 tags:
@@ -24,13 +25,13 @@ tags:
 templateEngineOverride: njk
 title: Glutamate-Glutamine Cycle
 type: pathway
-updated: '2026-06-13T17:47:13.890726Z'
+updated: '2026-08-20T04:08:31.499414Z'
 ---
 
 {% raw %}
 <h1>Glutamate-Glutamine Cycle</h1>
 <h2>Overview</h2>
-<p>The glutamate-glutamine cycle is the metabolic partnership between neurons and astrocytes that keeps excitatory neurotransmission both efficient and safe. After a neuron releases <a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a> — the brain's principal excitatory transmitter — surrounding astrocytes rapidly clear it from the synaptic cleft through the high-affinity excitatory amino acid transporters EAAT1/EAAT2. Inside the astrocyte, glutamine synthetase converts glutamate to electrically inert glutamine, which is exported back to neurons and reconverted to glutamate (or to <a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a>) by glutaminase. This shuttle accomplishes two things at once: it terminates the glutamate signal so synapses can fire again, and it prevents glutamate from accumulating to excitotoxic levels.</p>
+<p>The glutamate-glutamine cycle is the metabolic partnership between neurons and astrocytes that keeps excitatory neurotransmission both efficient and safe. After a neuron releases <a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a> — the brain's principal excitatory transmitter — surrounding astrocytes rapidly clear it from the synaptic cleft through the high-affinity excitatory amino acid transporters EAAT1/EAAT2. Inside the astrocyte, glutamine synthetase converts glutamate to electrically inert glutamine, which is exported back to neurons and reconverted to glutamate (or to <a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a>) by glutaminase. This shuttle accomplishes two things at once: it terminates the glutamate signal so synapses can fire again, and it prevents glutamate from accumulating to excitotoxic levels.</p>
 <p>Failure of astrocytic glutamate uptake is a unifying mechanism of neuronal injury, linking this cycle to the excitotoxicity driven by the kynurenine metabolite <a href="/garden/demo_user/metabolite/quinolinic-acid/" class="internal-link">Quinolinic Acid</a> and to multiple psychiatric and neurodegenerative diseases.</p>
 <h2>Key Steps</h2>
 <ol>
@@ -46,7 +47,7 @@ updated: '2026-06-13T17:47:13.890726Z'
 <h2>Relationships</h2>
 <h3>Regulates Neurotransmitter</h3>
 <p>REGULATES::<a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a><br />
-REGULATES::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a></p>
+REGULATES::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a></p>
 <h3>Related Pathway</h3>
 <p>RELATED_TO::<a href="/garden/demo_user/pathway/glutamatergic-pathways/" class="internal-link">Glutamatergic Pathways</a><br />
 RELATED_TO::<a href="/garden/demo_user/pathway/gabaergic-pathways/" class="internal-link">GABAergic Pathways</a></p>

@@ -1,13 +1,16 @@
 ---
 confidence_score: 1.0
-created: '2026-06-13T17:47:11.090851Z'
+created: 2026-01-25T20:00:00+0000
 description: Membrane-bound organelle containing hydrolytic enzymes. The cell's recycling
   center and a central hub for nutrient sensing via mTOR/AMPK.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: lysosome
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/cellularcomponent/lysosome/
+provenance: curated
 slug: lysosome
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Lysosome
 type: cellularcomponent
-updated: '2026-06-13T17:47:11.090851Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -44,5 +47,10 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/alzheimers-disea
 <p>REGULATED_BY::<a class="internal-link is-unresolved" href="/404">TFEB</a></p>
 <h3>Participates In Pathway</h3>
 <p>PARTICIPATES_IN_PATHWAY::<a href="/garden/demo_user/pathway/autophagy/" class="internal-link">Autophagy</a></p>
+<h2>References</h2>
+<ul>
+<li>Alberts B, et al. Molecular Biology of the Cell. 6th ed. Garland Science; 2014 (textbook reference)</li>
+<li>Lodish H, et al. Molecular Cell Biology. 8th ed. W.H. Freeman; 2016 (textbook reference)</li>
+</ul>
 
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:11.104439Z'
+created: 2026-05-27T12:00:00+0000
 description: The synapse is the specialized junction through which a neuron communicates
   with a target cell, converting an electrical impulse into a chemical signal via
   neurotransmitter release and reception. It is the structural site of synaptic plasticity
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: synapse
 permalink: /garden/demo_user/cellularcomponent/synapse/
+provenance: curated
 slug: synapse
 source: PubMed
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Synapse
 type: cellularcomponent
-updated: '2026-06-13T17:47:11.104439Z'
+updated: '2026-08-20T04:08:29.175292Z'
 ---
 
 {% raw %}
@@ -35,7 +36,7 @@ updated: '2026-06-13T17:47:11.104439Z'
 <ul>
 <li><strong>Presynaptic terminal:</strong> synaptic vesicles, active zone, Ca²⁺ channels, release machinery (SNAREs).</li>
 <li><strong>Synaptic cleft:</strong> ~20-40 nm gap across which transmitter diffuses.</li>
-<li><strong>Postsynaptic density (PSD):</strong> dense scaffold of receptors (<a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a> NMDA/AMPA, <a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a>, <a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a>, <a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a>, <a href="/garden/demo_user/neurotransmitter/acetylcholine/" class="internal-link">Acetylcholine</a> receptors), anchoring proteins, and signaling enzymes.</li>
+<li><strong>Postsynaptic density (PSD):</strong> dense scaffold of receptors (<a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a> NMDA/AMPA, <a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a>, <a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a>, <a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a>, <a href="/garden/demo_user/neurotransmitter/acetylcholine/" class="internal-link">Acetylcholine</a> receptors), anchoring proteins, and signaling enzymes.</li>
 </ul>
 <p>Receptor composition and PSD remodeling — driven by activity and by <a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a>/TrkB signaling — determine synaptic strength.</p>
 <h2>Clinical Relevance</h2>
@@ -50,7 +51,7 @@ updated: '2026-06-13T17:47:11.104439Z'
 RELATED_TO::<a href="/garden/demo_user/pathway/bdnf-trkb-signaling-pathway/" class="internal-link">BDNF-TrkB Signaling Pathway</a></p>
 <h3>Neurotransmitters Signaled</h3>
 <p>RELATED_TO::<a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a><br />
-RELATED_TO::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a><br />
+RELATED_TO::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a><br />
 RELATED_TO::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a><br />
 RELATED_TO::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
 RELATED_TO::<a href="/garden/demo_user/neurotransmitter/acetylcholine/" class="internal-link">Acetylcholine</a></p>

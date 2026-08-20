@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:12.064069Z'
+created: '2026-04-01T19:57:53.357625+00:00'
 description: Japanese practice of Shinrin-yoku — immersive, mindful exposure to forest
   environments. Documented to reduce cortisol, blood pressure, and sympathetic activity
   while boosting NK cell activity and immune function through inhalation of phytoncides
@@ -11,6 +11,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: forest_bathing
 permalink: /garden/demo_user/intervention/forest-bathing/
+provenance: curated
 slug: forest-bathing
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Forest Bathing
 type: intervention
-updated: '2026-06-13T17:47:12.064069Z'
+updated: '2026-08-20T04:08:30.377594Z'
 ---
 
 {% raw %}
@@ -54,9 +55,9 @@ updated: '2026-06-13T17:47:12.064069Z'
 <p>RELATED::<a href="/garden/demo_user/intervention/exercise/" class="internal-link">Exercise</a><br />
 RELATED::<a href="/garden/demo_user/intervention/walking/" class="internal-link">Walking</a><br />
 RELATED::<a href="/garden/demo_user/intervention/meditation/" class="internal-link">Meditation</a><br />
-MODULATES_HORMONE::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
 <h3>Modulates Hormone</h3>
-<p>MODULATES_HORMONE::<a href="/garden/demo_user/hormone/dhea/" class="internal-link">DHEA</a><br />
+<p>MODULATES_HORMONE::<a href="/garden/demo_user/supplement/dhea/" class="internal-link">DHEA</a><br />
 MODULATES_HORMONE::<a class="internal-link is-unresolved" href="/404">Epinephrine</a></p>
 <h3>Improves Function</h3>
 <p>IMPROVES_FUNCTION::<a href="/garden/demo_user/cognitivefunction/emotional-regulation/" class="internal-link">Emotional Regulation</a></p>

@@ -2,7 +2,7 @@
 aliases:
 - genetic heart risks
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.118182Z'
+created: 2026-01-18T16:48:42+0000
 description: 'Identify genetic markers linked to atrial fibrillation, heart attacks,
   strokes, and coronary artery disease to inform personalized heart health strategies.
   These genetic tests help assess the risk of developing serious heart-related conditions,
@@ -19,6 +19,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-genetic-heart-risks
 permalink: /garden/demo_user/labtestpanel/genetic-heart-risks/
+provenance: curated
 slug: genetic-heart-risks
 source: Manual
 tags:
@@ -26,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: genetic_heart_risks
 type: labtestpanel
-updated: '2026-06-13T17:47:13.118182Z'
+updated: '2026-08-20T04:08:31.062259Z'
 ---
 
 {% raw %}
@@ -51,12 +52,14 @@ updated: '2026-06-13T17:47:13.118182Z'
 <li>Young individuals with strong family history of coronary artery disease</li>
 </ul>
 <h2>Relationships</h2>
-<p>USED_FOR::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/apoe-genotype/" class="internal-link">apoe_genotype</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/lipoprotein-a/" class="internal-link">lipoprotein_a</a><br />
+USED_FOR::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/atrial-fibrillation/" class="internal-link">Atrial Fibrillation</a><br />
-RELATED::<a href="/garden/demo_user/labtest/high-sensitivity-c-reactive-protein-hs-crp/" class="internal-link">high sensitivity c reactive protein hs crp</a><br />
+RELATED::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">high sensitivity c reactive protein hs crp</a><br />
 RELATED::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="internal-link">LDL Cholesterol</a><br />
 RELATED::<a href="/garden/demo_user/labtest/hdl-cholesterol/" class="internal-link">HDL Cholesterol</a><br />
-RELATED::<a href="/garden/demo_user/labtest/apolipoprotein-b-apob/" class="internal-link">apolipoprotein b apob</a><br />
+RELATED::<a href="/garden/demo_user/labtest/apolipoprotein-b/" class="internal-link">apolipoprotein b apob</a><br />
 RELATED::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a><br />
 RELATED::<a href="/garden/demo_user/labtest/total-cholesterol/" class="internal-link">Total Cholesterol</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a></p>

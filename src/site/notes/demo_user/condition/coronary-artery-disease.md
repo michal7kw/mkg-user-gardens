@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.313554Z'
+confidence_score: 0.95
+created: 2026-01-18T16:02:34+0000
 description: A type of heart disease characterized by the narrowing or blockage of
   the coronary arteries, usually caused by atherosclerosis, which reduces blood flow
   to the heart muscle.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: coronary_artery_disease
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/coronary-artery-disease/
+provenance: curated
 slug: coronary-artery-disease
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Coronary Artery Disease
 type: condition
-updated: '2026-06-13T17:47:11.313554Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -43,7 +46,6 @@ updated: '2026-06-13T17:47:11.313554Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/clinicalpattern/cardiovascular-risk-pattern/" class="internal-link">Cardiovascular Risk Pattern</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/ldl-cholesterol/" class="internal-link">Ldl</a><br />
@@ -57,5 +59,12 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/coenzyme-q10/" cla
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-k2/" class="internal-link">Vitamin K2</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/niacin/" class="internal-link">Niacin</a></p>
+<h2>References</h2>
+<ul>
+<li>Knuuti J, Wijns W, Saraste A, et al. Eur Heart J. 2020;41(3):407-477. ESC Guidelines for the diagnosis and management of chronic coronary syndromes (PMID: 31504439)</li>
+<li>Smith SC Jr, Benjamin EJ, Bonow RO, et al. Circulation. 2011;124(22):2458-2473. AHA/ACCF Secondary prevention and risk reduction (PMID: 22082948)</li>
+<li>Sabatine MS, Giugliano RP, Keech AC, et al. N Engl J Med. 2017;376(18):1713-1722. FOURIER: Evolocumab and clinical outcomes in cardiovascular disease (PMID: 28304324)</li>
+<li>Bhatt DL, Steg PG, Miller M, et al. N Engl J Med. 2019;380(1):11-22. REDUCE-IT: Icosapent ethyl in high cardiovascular risk (PMID: 30415628)</li>
+</ul>
 
 {% endraw %}

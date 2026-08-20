@@ -2,7 +2,7 @@
 aliases:
 - organic acids test
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.682785Z'
+created: 2025-12-10T09:07:57+0000
 description: Comprehensive metabolic assessment measuring 70+ organic acids. Evaluates
   mitochondrial function, neurotransmitter metabolism, detoxification, and gut dysbiosis.
 dg-home: false
@@ -11,6 +11,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: test-oat-001
 permalink: /garden/demo_user/labtest/organic-acids-test/
+provenance: curated
 slug: organic-acids-test
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: organic_acids_test
 type: labtest
-updated: '2026-06-13T17:47:12.682785Z'
+updated: '2026-08-20T04:08:30.831565Z'
 ---
 
 {% raw %}
@@ -44,6 +45,10 @@ updated: '2026-06-13T17:47:12.682785Z'
 <td>Organic Acids</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -54,6 +59,18 @@ updated: '2026-06-13T17:47:12.682785Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>10-21 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$299-$399</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>

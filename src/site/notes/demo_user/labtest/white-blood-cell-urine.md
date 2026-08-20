@@ -2,7 +2,7 @@
 aliases:
 - white blood cell urine
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.998001Z'
+created: '2026-01-19T08:30:05.331316+00:00'
 description: Tested twice a year White blood cells (WBCs) in urine, known as leukocyturia,
   indicate the immune system is active in the urinary tract, often helping the body
   respond to infection or inflammation. When present in significant amounts, urinary
@@ -14,6 +14,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-white-blood-cell-urine
 permalink: /garden/demo_user/labtest/white-blood-cell-urine/
+provenance: curated
 slug: white-blood-cell-urine
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: white_blood_cell_urine
 type: labtest
-updated: '2026-06-13T17:47:12.998001Z'
+updated: '2026-08-20T04:08:31.010874Z'
 ---
 
 {% raw %}
@@ -47,6 +48,10 @@ updated: '2026-06-13T17:47:12.998001Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -57,6 +62,18 @@ updated: '2026-06-13T17:47:12.998001Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -70,7 +87,7 @@ updated: '2026-06-13T17:47:12.998001Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/condition/kidney-stones/" class="internal-link">Kidney Stones</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Urinary Tract Infection Uti</a><br />
+RELATED::<a href="/garden/demo_user/condition/urinary-tract-infection/" class="internal-link">Urinary Tract Infection Uti</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Bladder Inflammation</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Kidney Infection</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Inflammation Of The Urinary Tract Noninfectious</a></p>

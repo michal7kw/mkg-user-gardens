@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.458742Z'
+confidence_score: 0.85
+created: 2026-01-18T16:02:34+0000
 description: A broad range of conditions that damage the liver and impair its essential
   functions, including detoxification, metabolism, and bile production.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: liver_disease
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/liver-disease/
+provenance: curated
 slug: liver-disease
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Liver Disease
 type: condition
-updated: '2026-06-13T17:47:11.458742Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -47,10 +50,8 @@ AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Bile Ducts</a>
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/labtest/iron-saturation/" class="internal-link">iron saturation</a><br />
-RELATED::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a><br />
-RELATED::<a href="/garden/demo_user/labtest/total-protein/" class="internal-link">Total Protein</a><br />
-RELATED::<a href="/garden/demo_user/labtest/iron-binding-capacity/" class="internal-link">iron binding capacity</a></p>
+<p>RELATED::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a><br />
+RELATED::<a href="/garden/demo_user/labtest/total-protein/" class="internal-link">Total Protein</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/alanine-transaminase/" class="internal-link">Alanine Transaminase</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/alkaline-phosphatase/" class="internal-link">Alkaline Phosphatase</a><br />
@@ -63,5 +64,12 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/glutathione/" clas
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/alpha-lipoic-acid/" class="internal-link">Alpha Lipoic Acid</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-e/" class="internal-link">Vitamin E</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/sulforaphane/" class="internal-link">Sulforaphane</a></p>
+<h2>References</h2>
+<ul>
+<li>Gines P, Quintero E, Arroyo V, et al. Hepatology. 1987;7(1):122-128. Compensated cirrhosis natural history (classic reference)</li>
+<li>Tsochatzis EA, Bosch J, Burroughs AK. Lancet. 2014;383(9930):1749-1761. Liver cirrhosis (review) (PMID: 24480518)</li>
+<li>Younossi ZM, Koenig AB, Abdelatif D, Fazel Y, Henry L, Wymer M. Hepatology. 2016;64(1):73-84. Global epidemiology of nonalcoholic fatty liver disease (PMID: 26707365)</li>
+<li>European Association for the Study of the Liver. J Hepatol. 2018;69(1):182-236. EASL Clinical Practice Guidelines on compensated and decompensated cirrhosis (PMID: 29653741)</li>
+</ul>
 
 {% endraw %}

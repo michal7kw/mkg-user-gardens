@@ -1,5 +1,5 @@
 ---
-created: '2026-06-13T17:47:12.005283Z'
+created: '2026-08-20T04:08:30.324586Z'
 description: Improve sleep onset, duration, and quality. Magnesium glycinate promotes
   relaxation through GABA enhancement, L-theanine induces alpha brain waves, glycine
   lowers core body temperature to facilitate sleep, and vitamin D deficiency is associated
@@ -10,6 +10,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: 5ef7d02f-35c2-46bc-b150-7370e250098d
 permalink: /garden/demo_user/healthstack/sleep-quality/
+provenance: curated
 slug: sleep-quality
 source: Manual
 tags:
@@ -19,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Sleep Quality
 type: healthstack
-updated: '2026-06-13T17:47:12.005283Z'
+updated: '2026-08-20T04:08:30.324586Z'
 ---
 
 {% raw %}
@@ -40,7 +41,7 @@ updated: '2026-06-13T17:47:12.005283Z'
 </thead>
 <tbody>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Magnesium Glycinate</a></td>
+<td><a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium Glycinate</a></td>
 <td>400mg</td>
 <td>once daily</td>
 <td>before bed</td>
@@ -61,7 +62,7 @@ updated: '2026-06-13T17:47:12.005283Z'
 <td>Lowers core body temperature to facilitate sleep initiation</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Vitamin D3</a></td>
+<td><a href="/garden/demo_user/nutrient/vitamin-d/" class="internal-link">Vitamin D3</a></td>
 <td>4000IU</td>
 <td>once daily</td>
 <td>morning</td>
@@ -103,17 +104,17 @@ updated: '2026-06-13T17:47:12.005283Z'
 <li>Mood</li>
 </ul>
 <h3>Contains Supplement</h3>
-<p>CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Magnesium Glycinate</a><br />
+<p>CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium Glycinate</a><br />
 CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/l-theanine/" class="internal-link">L-Theanine</a><br />
 CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/glycine/" class="internal-link">Glycine</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Vitamin D3</a></p>
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/nutrient/vitamin-d/" class="internal-link">Vitamin D3</a></p>
 <h2>Relationships</h2>
 <h3>Enriched</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/insomnia/" class="internal-link">Insomnia</a><br />
 INCLUDES_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 INCLUDES_SUPPLEMENT::<a href="/garden/demo_user/supplement/glycine/" class="internal-link">Glycine</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/melatonin/" class="internal-link">Melatonin</a><br />
-AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
 <hr />
 <p><strong>Difficulty:</strong> Beginner | <strong>Evidence Level:</strong> ⭐⭐⭐ (3/5)</p>
 

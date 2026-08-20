@@ -2,7 +2,7 @@
 aliases:
 - extended vitamins minerals nutrients
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.104831Z'
+created: 2026-01-18T16:48:42+0000
 description: Evaluates key nutrient levels to ensure your body has the resources to
   support vital functions like energy production, antioxidant defense, immune health,
   thyroid function, and DNA synthesis. With 90% of Americans experiencing one or more
@@ -15,6 +15,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-extended-vitamins-minerals-nutrients
 permalink: /garden/demo_user/labtestpanel/extended-vitamins-minerals-nutrients/
+provenance: curated
 slug: extended-vitamins-minerals-nutrients
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: extended_vitamins_minerals_nutrients
 type: labtestpanel
-updated: '2026-06-13T17:47:13.104831Z'
+updated: '2026-08-20T04:08:31.055710Z'
 ---
 
 {% raw %}
@@ -34,8 +35,8 @@ updated: '2026-06-13T17:47:13.104831Z'
 <ul>
 <li>Vitamin E (Alpha Tocopherol) -- Primary antioxidant form of vitamin E</li>
 <li>Vitamin E (Beta-Gamma Tocopherol) -- Additional vitamin E isoforms with anti-inflammatory properties</li>
-<li>Vitamin A (Retinol) -- Essential for vision, immune function, and skin health</li>
-<li>Coenzyme Q10 (CoQ10) -- Mitochondrial energy production and antioxidant cofactor</li>
+<li><a href="/garden/demo_user/labtest/vitamin-a-retinol/" class="internal-link">Vitamin A (Retinol)</a> -- Essential for vision, immune function, and skin health</li>
+<li><a href="/garden/demo_user/labtest/coenzyme-q10-coq10/" class="internal-link">Coenzyme Q10 (CoQ10)</a> -- Mitochondrial energy production and antioxidant cofactor</li>
 </ul>
 <h2>Clinical Indications</h2>
 <ul>
@@ -46,14 +47,14 @@ updated: '2026-06-13T17:47:13.104831Z'
 <li>Antioxidant status evaluation in oxidative stress conditions</li>
 </ul>
 <h2>Relationships</h2>
-<p>INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Vitamin A (Retinol)</a><br />
-INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Coenzyme Q10 (CoQ10)</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/vitamin-a-retinol/" class="internal-link">vitamin_a_retinol</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/coenzyme-q10-coq10/" class="internal-link">coenzyme_q10_coq10</a><br />
 USED_FOR::<a class="internal-link is-unresolved" href="/404">Nutrient Deficiency</a><br />
 RELATED::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a><br />
 RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 RELATED::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a><br />
 RELATED::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a><br />
-RELATED::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a><br />
+RELATED::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a><br />
 RELATED::<a href="/garden/demo_user/labtest/omega-3-total/" class="internal-link">omega 3 total</a><br />
 RELATED::<a href="/garden/demo_user/labtest/omega-6-omega-3-ratio/" class="internal-link">omega 6 omega 3 ratio</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a></p>

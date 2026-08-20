@@ -1,15 +1,18 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.827426Z'
+created: 2026-01-03T17:55:40+0000
 description: Ultra-low dose opioid antagonist (1.5-4.5mg) with immunomodulatory and
   anti-inflammatory effects. Off-label use for autoimmune conditions, chronic pain,
   and cancer support. Distinct from standard naltrexone dosing.
 dg-home: false
 dg-publish: true
 drugbank_id: DB00704
+evidence_level: 4
 gardenUsername: demo_user
 id: low_dose_naltrexone
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/low-dose-naltrexone/
+provenance: curated
 slug: low-dose-naltrexone
 source: Manual
 tags:
@@ -23,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Low Dose Naltrexone
 type: drug
-updated: '2026-06-13T17:47:11.827426Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -48,13 +51,17 @@ updated: '2026-06-13T17:47:11.827426Z'
 <p>TREATS::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a><br />
 TREATS::<a href="/garden/demo_user/condition/immune-system-disorder/" class="internal-link">Immune System Disorder</a></p>
 <h3>Treats</h3>
-<p>TREATS::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+<p>TREATS::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
 TREATS::<a href="/garden/demo_user/condition/chronic-pain/" class="internal-link">Chronic Pain</a></p>
 <h3>Modulates Neurotransmitter</h3>
 <p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/endorphins/" class="internal-link">Endorphins</a></p>
 <h3>Affects Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

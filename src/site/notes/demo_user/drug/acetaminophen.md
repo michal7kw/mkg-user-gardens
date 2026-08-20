@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.721393Z'
+created: 2026-01-03T17:55:40+0000
 description: Analgesic and antipyretic with minimal anti-inflammatory effect. First-line
   for mild-moderate pain. Safe at recommended doses but hepatotoxic in overdose. Most
   common cause of acute liver failure.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: acetaminophen
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/acetaminophen/
+provenance: curated
 slug: acetaminophen
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Acetaminophen
 type: drug
-updated: '2026-06-13T17:47:11.721393Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -48,5 +51,9 @@ RELATED::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a></p>
 <h3>Interacts With</h3>
 <p>INTERACTS_WITH::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

@@ -2,7 +2,7 @@
 aliases:
 - mean corpuscular hemoglobin mch
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.563337Z'
+created: '2026-01-19T08:30:03.695524+00:00'
 description: meen kor-pus-kyoo-lur hee-muh-gloh-bin (m-c-h) Tested twice a year Mean
   corpuscular hemoglobin (MCH) measures the average amount of hemoglobin, the oxygen-carrying
   protein, in each red blood cell. Low MCH often points to iron deficiency anemia,
@@ -13,6 +13,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-mean-corpuscular-hemoglobin-mch
 permalink: /garden/demo_user/labtest/mean-corpuscular-hemoglobin-mch/
+provenance: curated
 slug: mean-corpuscular-hemoglobin-mch
 source: Manual
 tags:
@@ -20,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: mean_corpuscular_hemoglobin_mch
 type: labtest
-updated: '2026-06-13T17:47:12.563337Z'
+updated: '2026-08-20T04:08:30.782541Z'
 ---
 
 {% raw %}
@@ -46,6 +47,10 @@ updated: '2026-06-13T17:47:12.563337Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -57,6 +62,18 @@ updated: '2026-06-13T17:47:12.563337Z'
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -67,11 +84,13 @@ updated: '2026-06-13T17:47:12.563337Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/biomarker/mch/" class="internal-link">MCH</a></p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/condition/iron-deficiency-anemia/" class="internal-link">Iron Deficiency Anemia</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Vitamin B12 Or Folate Deficiency</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Thalassemia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Liver Dysfunction</a><br />
+RELATED::<a href="/garden/demo_user/condition/thalassemia/" class="internal-link">Thalassemia</a><br />
+RELATED::<a href="/garden/demo_user/condition/liver-dysfunction/" class="internal-link">Liver Dysfunction</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Anemia Of Chronic Disease</a></p>
 <h3>May Detect</h3>
 <p>MAY_DETECT::<a href="/garden/demo_user/condition/iron-deficiency-anemia/" class="internal-link">Iron Deficiency Anemia</a></p>

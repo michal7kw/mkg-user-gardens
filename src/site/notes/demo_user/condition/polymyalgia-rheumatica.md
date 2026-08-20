@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:11.587184Z'
+created: 2026-04-01T10:00:00+0000
 description: Inflammatory condition causing bilateral proximal muscle pain and stiffness
   in adults over 50. Dramatically elevated ESR and CRP. Strongly associated with giant
   cell arteritis (15-20% overlap). Responds dramatically to low-dose prednisone within
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: polymyalgia_rheumatica
 permalink: /garden/demo_user/condition/polymyalgia-rheumatica/
+provenance: curated
 slug: polymyalgia-rheumatica
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Polymyalgia Rheumatica
 type: condition
-updated: '2026-06-13T17:47:11.587184Z'
+updated: '2026-08-20T04:08:29.835907Z'
 ---
 
 {% raw %}
@@ -59,7 +60,7 @@ updated: '2026-06-13T17:47:11.587184Z'
 <h2>Relationships</h2>
 <ul>
 <li>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/esr/" class="internal-link">esr</a></li>
-<li>ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></li>
+<li>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></li>
 <li>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/interleukin-6/" class="internal-link">Interleukin 6</a></li>
 <li>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a></li>
 <li>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a></li>

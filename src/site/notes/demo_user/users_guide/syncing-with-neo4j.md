@@ -1,13 +1,14 @@
 ---
 aliases:
 - 05_Syncing_with_Neo4j
-created: '2026-06-13T17:47:14.584457Z'
+created: '2026-08-20T04:08:32.158669Z'
 description: Bidirectional synchronization between Obsidian notes and the Neo4j knowledge
   graph database
 dg-home: false
 dg-publish: true
 gardenUsername: demo_user
 permalink: /garden/demo_user/users_guide/syncing-with-neo4j/
+provenance: curated
 slug: syncing-with-neo4j
 tags:
 - users_guide
@@ -15,7 +16,7 @@ tags:
 templateEngineOverride: njk
 title: Syncing with Neo4j
 type: users_guide
-updated: '2026-06-13T17:47:14.584457Z'
+updated: '2026-08-20T04:08:32.158669Z'
 ---
 
 {% raw %}

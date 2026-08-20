@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.720427Z'
+created: 2026-02-07T00:00:00+0000
 description: Procalcitonin (PCT) test. Serum biomarker that rises specifically in
   response to bacterial infections. Used to guide initiation and discontinuation of
   antibiotic therapy, particularly in sepsis and lower respiratory tract infections.
@@ -10,6 +10,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: test-procalcitonin-001
 permalink: /garden/demo_user/labtest/procalcitonin/
+provenance: curated
 slug: procalcitonin
 source: Manual
 tags:
@@ -17,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: procalcitonin
 type: labtest
-updated: '2026-06-13T17:47:12.720427Z'
+updated: '2026-08-20T04:08:30.857553Z'
 ---
 
 {% raw %}
@@ -43,6 +44,10 @@ updated: '2026-06-13T17:47:12.720427Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -53,6 +58,18 @@ updated: '2026-06-13T17:47:12.720427Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -69,6 +86,8 @@ updated: '2026-06-13T17:47:12.720427Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/labtest/procalcitonin/" class="internal-link">Procalcitonin</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/urinary-tract-infection/" class="internal-link">Urinary Tract Infection</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/meningitis/" class="internal-link">Meningitis</a><br />

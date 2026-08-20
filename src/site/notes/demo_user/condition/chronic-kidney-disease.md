@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.288241Z'
+confidence_score: 0.95
+created: 2026-01-18T16:02:34+0000
 description: A long-term condition where the kidneys are damaged and gradually lose
   their ability to filter waste and excess fluid from the blood.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: chronic_kidney_disease
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/chronic-kidney-disease/
+provenance: curated
 slug: chronic-kidney-disease
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Chronic Kidney Disease
 type: condition
-updated: '2026-06-13T17:47:11.288241Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -46,21 +49,16 @@ updated: '2026-06-13T17:47:11.288241Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/labtest/creatinine-based-estimated-glomerular-filtration-rate-egfr/" class="internal-link">creatinine based estimated glomerular filtration rate egfr</a><br />
-RELATED::<a href="/garden/demo_user/labtest/chloride/" class="internal-link">chloride</a><br />
-RELATED::<a href="/garden/demo_user/labtest/red-blood-cell-count/" class="internal-link">red blood cell count</a><br />
-RELATED::<a href="/garden/demo_user/labtest/hyaline-casts-urine/" class="internal-link">hyaline casts urine</a><br />
+<p>RELATED::<a href="/garden/demo_user/labtest/chloride/" class="internal-link">chloride</a><br />
 RELATED::<a href="/garden/demo_user/labtest/mercury/" class="internal-link">mercury</a><br />
-RELATED::<a href="/garden/demo_user/labtest/albumin-microalbumin-urine/" class="internal-link">albumin microalbumin urine</a><br />
-RELATED::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a><br />
+RELATED::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a><br />
 RELATED::<a href="/garden/demo_user/clinicalpattern/kidney-stress-pattern/" class="internal-link">Kidney Stress Pattern</a><br />
-RELATED::<a href="/garden/demo_user/labtest/methylmalonic-acid/" class="internal-link">methylmalonic acid</a><br />
 RELATED::<a href="/garden/demo_user/labtest/lead/" class="internal-link">lead</a><br />
 RELATED::<a href="/garden/demo_user/labtest/uric-acid/" class="internal-link">Uric Acid</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/creatinine/" class="internal-link">creatinine</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/egfr/" class="internal-link">EGFR</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/cystatin-c/" class="internal-link">Cystatin C</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cystatin-c/" class="internal-link">Cystatin C</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/blood-urea-nitrogen/" class="internal-link">Blood Urea Nitrogen</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/albumin/" class="internal-link">albumin</a></p>
 <h3>Improved By Supplement</h3>
@@ -69,5 +67,12 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class=
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/probiotics/" class="internal-link">Probiotics</a></p>
+<h2>References</h2>
+<ul>
+<li>KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD. Kidney Int. 2024;105(4S):S117-S314 (guideline)</li>
+<li>Stevens PE, Levin A. Kidney Int Suppl. 2013;3(1):1-150. KDIGO guideline evaluation and management of CKD</li>
+<li>Bakris GL, Agarwal R, Anker SD, et al. N Engl J Med. 2020;383(23):2219-2229. FIDELIO-DKD: Finerenone in CKD and type 2 diabetes (PMID: 33264828)</li>
+<li>Wanner C, Inzucchi SE, Lachin JM, et al. N Engl J Med. 2016;375(4):323-334. EMPA-REG OUTCOME: Empagliflozin and kidney outcomes (PMID: 27292973)</li>
+</ul>
 
 {% endraw %}

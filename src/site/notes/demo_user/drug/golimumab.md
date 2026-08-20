@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.794502Z'
+created: 2026-04-01T10:00:00+0000
 description: Fully human monoclonal antibody against TNF-alpha. Once-monthly subcutaneous
   injection -- most convenient dosing among TNF inhibitors. Also available as IV formulation
   for RA.
@@ -10,6 +10,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: golimumab
 permalink: /garden/demo_user/drug/golimumab/
+provenance: curated
 slug: golimumab
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Golimumab
 type: drug
-updated: '2026-06-13T17:47:11.794502Z'
+updated: '2026-08-20T04:08:30.113720Z'
 ---
 
 {% raw %}
@@ -37,7 +38,7 @@ TREATS::<a href="/garden/demo_user/condition/ankylosing-spondylitis/" class="int
 <h3>Targets</h3>
 <p>TARGETS::<a href="/garden/demo_user/labtest/tnf-alpha/" class="internal-link">TNF Alpha</a></p>
 <h3>Decreases Biomarker</h3>
-<p>DECREASES_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h2>References</h2>
 <ul>
 <li>PMID:19404968</li>

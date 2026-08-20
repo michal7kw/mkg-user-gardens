@@ -1,6 +1,9 @@
 ---
+aliases:
+- Indoor And Outdoor Allergies Ige
+- indoor and outdoor allergies ige
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.134757Z'
+created: 2026-01-18T16:48:42+0000
 description: These tests help identify specific indoor and outdoor allergens that
   trigger allergic reactions or exacerbate underlying respiratory conditions like
   asthma. Identifying environmental allergens can help guide interventions to minimize
@@ -31,6 +34,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-indoor-and-outdoor-allergies-ige
 permalink: /garden/demo_user/labtestpanel/indoor-and-outdoor-allergies-ige/
+provenance: curated
 slug: indoor-and-outdoor-allergies-ige
 source: Manual
 tags:
@@ -38,7 +42,7 @@ tags:
 templateEngineOverride: njk
 title: indoor_and_outdoor_allergies_ige
 type: labtestpanel
-updated: '2026-06-13T17:47:13.134757Z'
+updated: '2026-08-20T04:08:31.068744Z'
 ---
 
 {% raw %}
@@ -66,9 +70,11 @@ updated: '2026-06-13T17:47:13.134757Z'
 <li>Atopic dermatitis trigger identification</li>
 </ul>
 <h2>Relationships</h2>
-<p>USED_FOR::<a href="/garden/demo_user/condition/allergy/" class="internal-link">Allergy</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/total-ige/" class="internal-link">total_ige</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/environmental-allergen-panel-ige/" class="internal-link">environmental_allergen_panel_ige</a><br />
+USED_FOR::<a href="/garden/demo_user/condition/allergy/" class="internal-link">Allergy</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/asthma/" class="internal-link">Asthma</a><br />
-USED_FOR::<a class="internal-link is-unresolved" href="/404">Allergic Rhinitis</a><br />
+USED_FOR::<a href="/garden/demo_user/condition/allergic-rhinitis/" class="internal-link">Allergic Rhinitis</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/lungs/" class="internal-link">Lungs</a></p>
 

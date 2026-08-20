@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.92
-created: '2026-06-13T17:47:13.457382Z'
+created: 2026-01-03T17:55:39+0000
 description: 5-Methyltetrahydrofolate (5-MTHF) is the biologically active, circulating
   form of folate (vitamin B9) that serves as the primary methyl donor for remethylation
   of homocysteine to methionine via the methionine synthase reaction. It is essential
@@ -13,6 +13,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: methylfolate
 permalink: /garden/demo_user/metabolite/methylfolate/
+provenance: curated
 pubchem_id: '446313'
 slug: methylfolate
 source: Manual
@@ -27,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Methylfolate
 type: metabolite
-updated: '2026-06-13T17:47:13.457382Z'
+updated: '2026-08-20T04:08:31.185004Z'
 ---
 
 {% raw %}

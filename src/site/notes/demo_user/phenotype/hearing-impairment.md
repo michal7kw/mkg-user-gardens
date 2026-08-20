@@ -1,12 +1,18 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:14.020275Z'
-description: '...'
+created: 2026-01-03T17:55:35+0000
+description: Hearing impairment (deafness or hypoacusis) represents a massive phenotypic
+  spectrum spanning a mild dampening of specific high-pitch frequencies to absolute
+  profound deafness across all decibels. As a phenotype, it represents the hard failure
+  of the auditory mechanical-neural transduction pathway.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: hearing_impairment
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/phenotype/hearing-impairment/
+provenance: curated
 slug: hearing-impairment
 source: Manual
 tags:
@@ -16,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Hearing impairment
 type: phenotype
-updated: '2026-06-13T17:47:14.020275Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -31,36 +37,12 @@ updated: '2026-06-13T17:47:14.020275Z'
 <h2>Clinical Pathologies</h2>
 <p>Assessing whether a hearing impairment is conductive or sensorineural relies heavily on the <strong>Weber and Rinne tuning fork tests</strong>. If bone conduction heavily outperforms air conduction, the block is strictly structural (outer/middle ear).</p>
 <h2>Relationships</h2>
-<h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Progressive hearing impairment</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">High-frequency hearing impairment</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Mid-frequency hearing loss</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Transient hearing impairment</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Low-frequency hearing loss</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Unilateral deafness</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Moderate hearing impairment</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Hearing abnormality</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Mild hearing impairment</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Aminoglycoside-induced hearing loss</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Conductive hearing impairment</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Severe hearing impairment</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Profound hearing impairment</a></p>
-<h3>Related To Phenotype</h3>
-<p>RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Transient hearing impairment</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Severe hearing impairment</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Profound hearing impairment</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Hearing abnormality</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Unilateral deafness</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Mild hearing impairment</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Mid-frequency hearing loss</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Aminoglycoside-induced hearing loss</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Moderate hearing impairment</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">High-frequency hearing impairment</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Progressive hearing impairment</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Low-frequency hearing loss</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Conductive hearing impairment</a></p>
 <h3>Enriched</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/nerves/" class="internal-link">Nerves</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></p>
+<h2>References</h2>
+<ul>
+<li>Kohler S, et al. Nucleic Acids Res. 2021;49(D1):D1207-D1217. The Human Phenotype Ontology (HPO) (PMID: 33264411)</li>
+</ul>
 
 {% endraw %}

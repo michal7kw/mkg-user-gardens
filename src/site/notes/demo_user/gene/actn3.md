@@ -2,7 +2,7 @@
 aliases:
 - Alpha-actinin-3
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.931487Z'
+created: 2026-05-27T12:00:00+0000
 description: Encodes alpha-actinin-3, a structural protein of the Z-disc expressed
   specifically in fast-twitch (type II) muscle fibers. The common R577X nonsense variant
   (rs1815739) produces a completely null genotype (XX) in roughly 18% of people; the
@@ -14,6 +14,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: actn3
 permalink: /garden/demo_user/gene/actn3/
+provenance: curated
 slug: actn3
 source: PubMed
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: ACTN3
 type: gene
-updated: '2026-06-13T17:47:11.931487Z'
+updated: '2026-08-20T04:08:30.271179Z'
 ---
 
 {% raw %}

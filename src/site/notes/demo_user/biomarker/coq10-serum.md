@@ -1,15 +1,18 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:10.807828Z'
+confidence_score: 0.85
+created: '2026-04-05T16:16:25+00:00'
 description: Serum CoQ10 (ubiquinone/ubiquinol) concentration reflects endogenous
   synthesis, dietary intake, and supplementation status. It is a critical biomarker
   for mitochondrial function, cardiovascular health, and monitoring patients on statin
   therapy.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: coq10_serum
+last_modified: 2026-06-21T00:00:00+0000
 permalink: /garden/demo_user/biomarker/coq10-serum/
+provenance: curated
 slug: coq10-serum
 source: dev_seeder
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: CoQ10 (Serum)
 type: biomarker
-updated: '2026-06-13T17:47:10.807828Z'
+updated: 2026-06-21T00:00:00+0000
 ---
 
 {% raw %}
@@ -92,20 +95,18 @@ updated: '2026-06-13T17:47:10.807828Z'
 <h2>Relationships</h2>
 <h3>Affected By Supplement</h3>
 <p>AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a> (directly increases serum CoQ10 levels, Evidence Level 1a)</p>
-<h3>Reduced By Drug</h3>
-<p>REDUCED_BY_DRUG::<a href="/garden/demo_user/drug/atorvastatin/" class="internal-link">Atorvastatin</a> (inhibits HMG-CoA reductase, reducing endogenous CoQ10 synthesis by up to 40%, Evidence Level 1a)</p>
+<h3>Affected By Drug</h3>
+<p>AFFECTED_BY_DRUG::<a href="/garden/demo_user/drug/atorvastatin/" class="internal-link">Atorvastatin</a> (inhibits HMG-CoA reductase, reducing endogenous CoQ10 synthesis by up to 40%, Evidence Level 1a)</p>
 <h3>Indicates Organ Health</h3>
 <p>INDICATES_ORGAN_HEALTH::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a> (essential for mitochondrial energy production in cardiac tissue, Evidence Level 2a)<br />
 INDICATES_ORGAN_HEALTH::<a href="/garden/demo_user/organ/muscles/" class="internal-link">Muscles</a> (cofactor in electron transport chain critical for skeletal muscle function, Evidence Level 2b)<br />
 INDICATES_ORGAN_HEALTH::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a> (important for neuronal mitochondrial function and neuroprotection, Evidence Level 2b)</p>
-<h3>Associated With Biomarker</h3>
-<p>ASSOCIATED_WITH_BIOMARKER::<a href="/garden/demo_user/labtest/bnp/" class="internal-link">BNP</a> (both elevated in heart failure; CoQ10 depletion correlates with disease severity, Evidence Level 2a)<br />
-ASSOCIATED_WITH_BIOMARKER::<a href="/garden/demo_user/biomarker/creatine-kinase/" class="internal-link">Creatine Kinase</a> (both affected by statin therapy; CoQ10 depletion and CK elevation co-occur in statin myopathy, Evidence Level 2a)<br />
-ASSOCIATED_WITH_BIOMARKER::<a href="/garden/demo_user/labtest/oxidized-ldl/" class="internal-link">Oxidized LDL</a> (inverse relationship; adequate CoQ10 reduces LDL oxidation, Evidence Level 2b)</p>
-<h3>Predicts Risk</h3>
-<p>PREDICTS_RISK::<a href="/garden/demo_user/condition/heart-failure/" class="internal-link">Heart Failure</a> (low CoQ10 associated with worse outcomes; Q-SYMBIO trial showed supplementation reduces mortality, Evidence Level 1b)<br />
-PREDICTS_RISK::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a> (low levels independently predict cardiovascular events, Evidence Level 2a)<br />
-PREDICTS_RISK::<a href="/garden/demo_user/condition/mitochondrial-dysfunction/" class="internal-link">Mitochondrial Dysfunction</a> (low serum CoQ10 is a hallmark of impaired mitochondrial electron transport, Evidence Level 2a)</p>
+<h3>Correlated With</h3>
+<p>CORRELATED_WITH::<a href="/garden/demo_user/labtest/bnp/" class="internal-link">BNP</a> (both elevated in heart failure; CoQ10 depletion correlates with disease severity, Evidence Level 2a)<br />
+CORRELATED_WITH::<a href="/garden/demo_user/labtest/creatine-kinase/" class="internal-link">Creatine Kinase</a> (both affected by statin therapy; CoQ10 depletion and CK elevation co-occur in statin myopathy, Evidence Level 2a)<br />
+CORRELATED_WITH::<a href="/garden/demo_user/labtest/oxidized-ldl/" class="internal-link">Oxidized LDL</a> (inverse relationship; adequate CoQ10 reduces LDL oxidation, Evidence Level 2b)</p>
+<h3>Measured By Test</h3>
+<p>MEASURED_BY_TEST::<a href="/garden/demo_user/labtest/coq10-blood/" class="internal-link">coq10_blood</a></p>
 <h2>References</h2>
 <ol>
 <li>Mortensen SA, Rosenfeldt F, Kumar A, et al. The effect of coenzyme Q10 on morbidity and mortality in chronic heart failure: results from Q-SYMBIO. <em>J Am Coll Cardiol</em>. 2014;64(21):e1-e78. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/25257605/">25257605</a></li>
@@ -113,11 +114,6 @@ PREDICTS_RISK::<a href="/garden/demo_user/condition/mitochondrial-dysfunction/" 
 <li>Marcoff L, Thompson PD. The role of coenzyme Q10 in statin-associated myopathy. <em>J Am Coll Cardiol</em>. 2007;49(23):2231-2237. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/17493453/">17493453</a></li>
 <li>Examine.com. Coenzyme Q10 — Evidence-based analysis. Updated 2026. Available at: <a href="https://examine.com/supplements/coenzyme-q10/">examine.com/supplements/coenzyme-q10</a></li>
 </ol>
-<h2>Dataview Queries</h2>
-<pre><code class="language-dataview">LIST
-FROM [[CoQ10 (Serum)]]
-WHERE contains(type, &quot;Intervention&quot;)
-SORT confidence_score DESC
-</code></pre>
+<p>needs_review: false</p>
 
 {% endraw %}

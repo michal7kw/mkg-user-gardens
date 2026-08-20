@@ -1,5 +1,6 @@
 ---
-created: '2026-06-13T17:47:14.250064Z'
+confidence_score: 0.7
+created: '2026-08-20T04:08:31.766617Z'
 description: Potentially life-threatening condition caused by excess serotonergic
   activity in the central and peripheral nervous system, typically from drug combinations
   that increase serotonin synthesis, decrease reuptake, or directly stimulate serotonin
@@ -9,7 +10,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: serotonin_syndrome
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/sideeffect/serotonin-syndrome/
+provenance: curated
 slug: serotonin-syndrome
 source: Manual
 tags:
@@ -22,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Serotonin Syndrome
 type: sideeffect
-updated: '2026-06-13T17:47:14.250064Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -100,5 +103,9 @@ CAUSED_BY::<a href="/garden/demo_user/drug/vilazodone/" class="internal-link">Vi
 CAUSED_BY::<a href="/garden/demo_user/drug/vortioxetine/" class="internal-link">Vortioxetine</a><br />
 INVOLVES::<a href="/garden/demo_user/protein/5-ht2a-receptor/" class="internal-link">5-HT2A Receptor</a><br />
 INVOLVES::<a href="/garden/demo_user/protein/sert/" class="internal-link">SERT</a></p>
+<h2>References</h2>
+<ul>
+<li>MedDRA. Medical Dictionary for Regulatory Activities. https://www.meddra.org (adverse event classification)</li>
+</ul>
 
 {% endraw %}

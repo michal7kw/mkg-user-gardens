@@ -92,7 +92,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.249622Z'
+created: '2026-01-19T08:30:04.426544+00:00'
 description: Tested twice a year Carbon dioxide levels monitor pH and are an indirect
   measure of bicarbonate, a key buffer involved in maintaining the body’s acid-base
   balance. When the body’s acid–base balance is thrown off—called acidosis or alkalosis—carbon
@@ -104,6 +104,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-carbon-dioxide
 permalink: /garden/demo_user/labtest/carbon-dioxide/
+provenance: curated
 slug: carbon-dioxide
 source: Manual
 tags:
@@ -111,7 +112,7 @@ tags:
 templateEngineOverride: njk
 title: carbon_dioxide
 type: labtest
-updated: '2026-06-13T17:47:12.249622Z'
+updated: '2026-08-20T04:08:30.556896Z'
 ---
 
 {% raw %}
@@ -137,6 +138,10 @@ updated: '2026-06-13T17:47:12.249622Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -147,6 +152,18 @@ updated: '2026-06-13T17:47:12.249622Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -162,7 +179,7 @@ updated: '2026-06-13T17:47:12.249622Z'
 <p>RELATED::<a class="internal-link is-unresolved" href="/404">Metabolic Alkalosis</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Metabolic Acidosis</a><br />
 RELATED::<a href="/garden/demo_user/condition/electrolyte-imbalance/" class="internal-link">Electrolyte Imbalance</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Kidney Dysfunction</a><br />
+RELATED::<a href="/garden/demo_user/condition/kidney-dysfunction/" class="internal-link">Kidney Dysfunction</a><br />
 RELATED::<a href="/garden/demo_user/condition/chronic-lung-disease/" class="internal-link">Chronic Lung Disease</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/chronic-lung-disease/" class="internal-link">Chronic Lung Disease</a><br />

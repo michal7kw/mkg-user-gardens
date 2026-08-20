@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.640474Z'
+created: 2025-12-10T09:07:57+0000
 description: Olink's high-throughput proteomics panel measuring 3000+ proteins with
   high specificity.
 dg-home: false
@@ -9,6 +9,7 @@ evidence_level: 2
 gardenUsername: demo_user
 id: test-olink-explore-001
 permalink: /garden/demo_user/labtest/olink-explore-3072/
+provenance: curated
 slug: olink-explore-3072
 source: Manual
 tags:
@@ -16,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: olink_explore_3072
 type: labtest
-updated: '2026-06-13T17:47:12.640474Z'
+updated: '2026-08-20T04:08:30.812267Z'
 ---
 
 {% raw %}
@@ -42,6 +43,10 @@ updated: '2026-06-13T17:47:12.640474Z'
 <td>Other</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -52,6 +57,18 @@ updated: '2026-06-13T17:47:12.640474Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>21-35 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$2000-$4000</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>

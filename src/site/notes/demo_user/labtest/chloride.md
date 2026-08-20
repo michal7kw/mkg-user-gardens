@@ -90,7 +90,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.261151Z'
+created: 2026-01-18T16:02:31+0000
 description: Tested twice a year Chloride is an electrolyte that partners with sodium
   to maintain fluid balance, blood pressure, and pH stability in the body. It plays
   a role in digestion by forming hydrochloric acid in the stomach and helps nerves
@@ -101,6 +101,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-chloride
 permalink: /garden/demo_user/labtest/chloride/
+provenance: curated
 slug: chloride
 source: Manual
 tags:
@@ -110,7 +111,7 @@ tags:
 templateEngineOverride: njk
 title: chloride
 type: labtest
-updated: '2026-06-13T17:47:12.261151Z'
+updated: '2026-08-20T04:08:30.563966Z'
 ---
 
 {% raw %}
@@ -136,6 +137,10 @@ updated: '2026-06-13T17:47:12.261151Z'
 <td>Kidney Function</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -147,6 +152,18 @@ updated: '2026-06-13T17:47:12.261151Z'
 <td><strong>Turnaround Time</strong></td>
 <td>3-7 days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -157,11 +174,13 @@ updated: '2026-06-13T17:47:12.261151Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/labtest/chloride/" class="internal-link">Chloride</a></p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/condition/adrenal-disease/" class="internal-link">Adrenal Disease</a><br />
 RELATED::<a href="/garden/demo_user/condition/chronic-kidney-disease/" class="internal-link">Chronic Kidney Disease</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Metabolic Acidosis Or Alkalosis</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Dehydration</a><br />
+RELATED::<a href="/garden/demo_user/condition/dehydration/" class="internal-link">Dehydration</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Gastroenteritis</a><br />
 RELATED::<a href="/garden/demo_user/labtest/comprehensive-metabolic-panel/" class="internal-link">comprehensive metabolic panel</a></p>
 <h3>May Detect</h3>

@@ -1,12 +1,16 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:14.058650Z'
-description: '...'
+created: 2026-01-03T17:55:35+0000
+description: Visual impairment acts as the absolute terminal phenotypic expression
+  of optic failure.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: visual_impairment
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/phenotype/visual-impairment/
+provenance: curated
 slug: visual-impairment
 source: Manual
 tags:
@@ -16,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Visual impairment
 type: phenotype
-updated: '2026-06-13T17:47:14.058650Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -30,47 +34,12 @@ updated: '2026-06-13T17:47:14.058650Z'
 <li><strong>Neurological/Cortical Impairment:</strong> Both the lens and the retina work perfectly, but the &quot;data-cables&quot; are violently severed. <strong>Glaucoma</strong> causes massive intraocular pressure that physically crushes the optic nerve, permanently destroying peripheral vision first. Alternatively, a massive stroke in the occipital lobe entirely burns out the brain's visual processing center, rendering a patient mathematically blind despite possessing completely functioning, healthy eyes (Cortical Blindness).</li>
 </ol>
 <h2>Relationships</h2>
-<h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">45X46XY mixed gonadal dysgenesis</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Vogt-Koyanagi-Harada disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Abnormality of vision</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">deafness autosomal recessive</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Visual loss</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Marshall syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Visual field defect</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Kallmann syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">spondyloepiphyseal dysplasia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Erdheim-Chester disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">fish eye disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">DYRK1A-related intellectual disability syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Cerebral visual impairment</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Mobius syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">cerebellar hypoplasia-tapetoretinal degeneration syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">autoimmune polyendocrine</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Reduced visual acuity</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">congenital nystagmus</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">neurodevelopmental disorder with dysmorphic facies and distal limb anomalies</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">X-linked intellectual disability-hypotonia-movement disorder syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Hallermann-Streiff syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">autosomal recessive nonsyndromic deafness</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">progressive external ophthalmoplegia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">cone-rod dystrophy</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">incontinentia pigmenti</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">familial benign flecked retina</a></p>
-<h3>Related To Phenotype</h3>
-<p>RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Cerebral visual impairment</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Visual loss</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Visual field defect</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Abnormality of vision</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Reduced visual acuity</a></p>
-<h3>Excludes Phenotype</h3>
-<p>EXCLUDES_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">congenital nystagmus</a><br />
-EXCLUDES_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">spondyloepiphyseal dysplasia</a><br />
-EXCLUDES_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">familial benign flecked retina</a><br />
-EXCLUDES_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">autosomal recessive nonsyndromic deafness</a><br />
-EXCLUDES_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">deafness autosomal recessive</a></p>
 <h3>Enriched</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/macular-degeneration/" class="internal-link">Macular Degeneration</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/eyes/" class="internal-link">Eyes</a></p>
+<h2>References</h2>
+<ul>
+<li>Kohler S, et al. Nucleic Acids Res. 2021;49(D1):D1207-D1217. The Human Phenotype Ontology (HPO) (PMID: 33264411)</li>
+</ul>
 
 {% endraw %}

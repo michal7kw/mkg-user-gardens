@@ -1,13 +1,14 @@
 ---
 aliases:
 - 10_Experiments
-created: '2026-06-13T17:47:14.615201Z'
+created: '2026-08-20T04:08:32.181665Z'
 description: Designing and running N-of-1 self-experiments with phases, biomarker
   tracking, and statistical analysis
 dg-home: false
 dg-publish: true
 gardenUsername: demo_user
 permalink: /garden/demo_user/users_guide/experiments/
+provenance: curated
 slug: experiments
 tags:
 - users_guide
@@ -15,7 +16,7 @@ tags:
 templateEngineOverride: njk
 title: Experiments
 type: users_guide
-updated: '2026-06-13T17:47:14.615201Z'
+updated: '2026-08-20T04:08:32.181665Z'
 ---
 
 {% raw %}

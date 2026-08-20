@@ -93,7 +93,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.232549Z'
+created: 2026-02-07T00:00:00+0000
 description: C-Peptide test. Measures endogenous insulin production by quantifying
   the connecting peptide released during proinsulin cleavage. Used to differentiate
   Type 1 from Type 2 diabetes and evaluate beta-cell function.
@@ -103,6 +103,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: test-c-peptide-001
 permalink: /garden/demo_user/labtest/c-peptide/
+provenance: curated
 slug: c-peptide
 source: Manual
 tags:
@@ -110,7 +111,7 @@ tags:
 templateEngineOverride: njk
 title: c_peptide
 type: labtest
-updated: '2026-06-13T17:47:12.232549Z'
+updated: '2026-08-20T04:08:30.537824Z'
 ---
 
 {% raw %}
@@ -136,6 +137,10 @@ updated: '2026-06-13T17:47:12.232549Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -146,6 +151,18 @@ updated: '2026-06-13T17:47:12.232549Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -169,7 +186,9 @@ updated: '2026-06-13T17:47:12.232549Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
-<p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/diabetes/" class="internal-link">Diabetes</a><br />
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/biomarker/c-peptide/" class="internal-link">C-Peptide</a><br />
+ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/diabetes/" class="internal-link">Diabetes</a><br />
 RELATED::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a></p>
 <h2>Notes</h2>
 <ul>

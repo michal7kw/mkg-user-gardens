@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.206635Z'
+created: 2026-01-03T17:55:39+0000
 description: Adenosine triphosphate (ATP) is the universal energy currency of all
   living cells, providing the free energy for virtually all cellular processes including
   muscle contraction, nerve transmission, active transport, and biosynthesis. ATP
@@ -13,6 +13,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: atp
 permalink: /garden/demo_user/metabolite/atp/
+provenance: curated
 pubchem_id: '5957'
 slug: atp
 source: Manual
@@ -26,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: ATP
 type: metabolite
-updated: '2026-06-13T17:47:13.206635Z'
+updated: '2026-08-20T04:08:31.108892Z'
 ---
 
 {% raw %}
@@ -213,7 +214,7 @@ RELATED::<a href="/garden/demo_user/metabolite/ketone-bodies/" class="internal-l
 RELATED::<a href="/garden/demo_user/supplement/creatine/" class="internal-link">Creatine</a><br />
 RELATED::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a><br />
 RELATED::<a href="/garden/demo_user/supplement/nmn/" class="internal-link">NMN</a><br />
-RELATED::<a href="/garden/demo_user/metabolite/nicotinamide-riboside/" class="internal-link">Nicotinamide Riboside</a><br />
+RELATED::<a href="/garden/demo_user/supplement/nicotinamide-riboside/" class="internal-link">Nicotinamide Riboside</a><br />
 RELATED::<a href="/garden/demo_user/supplement/l-carnitine/" class="internal-link">L-Carnitine</a></p>
 <h3>Related Proteins</h3>
 <p>RELATED::<a href="/garden/demo_user/protein/sirt1/" class="internal-link">SIRT1</a></p>

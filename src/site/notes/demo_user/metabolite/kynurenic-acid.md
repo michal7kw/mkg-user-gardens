@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.88
-created: '2026-06-13T17:47:13.418529Z'
+created: 2026-05-26T12:00:00+0000
 description: Kynurenic acid is the neuroprotective branch metabolite of the kynurenine
   pathway, produced from kynurenine by astrocytic aminotransferases. It antagonizes
   NMDA (glycine site) and alpha7-nicotinic acetylcholine receptors and acts as a GPR35/AhR
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: kynurenic_acid
 permalink: /garden/demo_user/metabolite/kynurenic-acid/
+provenance: curated
 pubchem_id: '3845'
 slug: kynurenic-acid
 source: PubMed
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Kynurenic Acid
 type: metabolite
-updated: '2026-06-13T17:47:13.418529Z'
+updated: '2026-08-20T04:08:31.170729Z'
 ---
 
 {% raw %}

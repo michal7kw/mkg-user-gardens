@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.974936Z'
+created: 2026-01-24T12:00:00+0000
 description: The pathological process of excessive tau protein phosphorylation leading
   to microtubule destabilization, tau aggregation, and neurofibrillary tangle formation.
   Central to Alzheimer's disease and other tauopathies.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: tau_phosphorylation
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/tau-phosphorylation/
+provenance: curated
 slug: tau-phosphorylation
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Tau Phosphorylation
 type: pathway
-updated: '2026-06-13T17:47:13.974936Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -45,7 +48,7 @@ RELATED::<a class="internal-link is-unresolved" href="/404">Corticobasal Degener
 RELATED::<a href="/garden/demo_user/pathway/amyloid-cascade/" class="internal-link">Amyloid Cascade</a><br />
 RELATED::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimers Disease</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Progressive Supranuclear Palsy</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Autophagy-Lysosomal Pathway</a><br />
+RELATED::<a href="/garden/demo_user/pathway/autophagy-lysosomal-pathway/" class="internal-link">Autophagy-Lysosomal Pathway</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/mtbr-tau243/" class="internal-link">MTBR-tau243</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/neuron-derived-exosome-biomarkers/" class="internal-link">Neuron-Derived Exosome Biomarkers</a><br />
 RELATED::<a href="/garden/demo_user/drug/lithium/" class="internal-link">Lithium</a><br />
@@ -71,5 +74,9 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-lin
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/vascular-dementia/" class="internal-link">Vascular Dementia</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

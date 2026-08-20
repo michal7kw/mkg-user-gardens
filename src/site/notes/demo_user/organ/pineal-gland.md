@@ -1,13 +1,16 @@
 ---
-confidence_score: 1.0
-created: '2026-06-13T17:47:13.817738Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:40+0000
 description: Small endocrine gland in the epithalamus responsible for producing melatonin
   and regulating circadian rhythms.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: pineal_gland
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/organ/pineal-gland/
+provenance: curated
 slug: pineal-gland
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Pineal Gland
 type: organ
-updated: '2026-06-13T17:47:13.817738Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -49,5 +52,9 @@ INTERACTS_WITH::<a href="/garden/demo_user/organ/eyes/" class="internal-link">Ey
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/insomnia/" class="internal-link">Insomnia</a> (Disrupted melatonin rhythm is a primary driver of circadian sleep disorders, Evidence Level 1a)<br />
 RELATED::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a> (Pineal melatonin and vitamin D share inverse circadian regulation patterns, Evidence Level 3a)<br />
 RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a> (Magnesium supports AANAT enzyme activity required for melatonin synthesis, Evidence Level 2b)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (textbook reference)</li>
+</ul>
 
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.88
-created: '2026-06-13T17:47:11.244178Z'
+created: 2026-05-27T12:00:00+0000
 description: Bipolar disorder is a chronic mood disorder defined by recurrent episodes
   of mania or hypomania alternating with depression. It is highly heritable and involves
   monoamine and dopamine dysregulation, mitochondrial and circadian dysfunction, and
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: bipolar_disorder
 permalink: /garden/demo_user/condition/bipolar-disorder/
+provenance: curated
 slug: bipolar-disorder
 source: PubMed
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Bipolar Disorder
 type: condition
-updated: '2026-06-13T17:47:11.244178Z'
+updated: '2026-08-20T04:08:29.365637Z'
 ---
 
 {% raw %}

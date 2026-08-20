@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.55
-created: '2026-06-13T17:47:14.333206Z'
+created: 2026-04-01T10:00:00+0000
 description: Harpagophytum procumbens root extract containing harpagoside as active
   iridoid glycoside. Anti-inflammatory via COX-2 and iNOS inhibition without significant
   COX-1 effects. Cochrane review found moderate evidence for musculoskeletal pain.
@@ -10,6 +10,7 @@ evidence_level: 2
 gardenUsername: demo_user
 id: devils_claw
 permalink: /garden/demo_user/supplement/devils-claw/
+provenance: curated
 slug: devils-claw
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Devils Claw
 type: supplement
-updated: '2026-06-13T17:47:14.333206Z'
+updated: '2026-08-20T04:08:31.914207Z'
 ---
 
 {% raw %}
@@ -42,7 +43,7 @@ updated: '2026-06-13T17:47:14.333206Z'
 <h2>Relationships</h2>
 <ul>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/osteoarthritis/" class="internal-link">Osteoarthritis</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/joints/" class="internal-link">Joints</a> (Selective COX-2 and iNOS inhibition reduces joint inflammation; Cochrane-reviewed evidence for osteoarthritis pain, Evidence Level 2a)</li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/muscles/" class="internal-link">Muscles</a> (Analgesic effects independent of prostaglandin pathway provide musculoskeletal pain relief; evidence for low back pain, Evidence Level 2a)</li>
 </ul>

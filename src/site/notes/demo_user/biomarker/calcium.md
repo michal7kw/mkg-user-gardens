@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:10.785950Z'
+created: '2026-02-14T12:00:00+00:00'
 description: Serum calcium measures the total concentration of calcium in blood, encompassing
   both ionized (free, biologically active) and protein-bound fractions. It is tightly
   regulated by the interplay of parathyroid hormone (PTH), vitamin D, and calcitonin,
@@ -11,6 +11,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: calcium
 permalink: /garden/demo_user/biomarker/calcium/
+provenance: curated
 slug: calcium
 source: Manual
 tags:
@@ -25,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Calcium
 type: biomarker
-updated: '2026-06-13T17:47:10.785950Z'
+updated: '2026-08-20T04:08:28.540913Z'
 ---
 
 {% raw %}

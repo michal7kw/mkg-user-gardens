@@ -1,8 +1,8 @@
 ---
 aliases:
 - Sam-E
-confidence_score: 0.7
-created: '2026-06-13T17:47:14.472149Z'
+confidence_score: 0.75
+created: 2026-01-03T17:55:42+0000
 description: S-Adenosyl-L-methionine - the body's universal methyl donor. Essential
   for neurotransmitter synthesis, DNA methylation, and cartilage formation. FDA-approved
   for osteoarthritis; used for depression in Europe.
@@ -11,7 +11,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: same
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/same/
+provenance: curated
 pubchem_id: '34755'
 slug: same
 source: Manual
@@ -25,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: SAMe
 type: supplement
-updated: '2026-06-13T17:47:14.472149Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -74,5 +76,11 @@ MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/norepine
 REQUIRES_COFACTOR::<a href="/garden/demo_user/supplement/folate/" class="internal-link">Folate</a> (5-MTHF provides methyl group for homocysteine remethylation, Evidence Level 1a)</p>
 <h3>Precursor Of</h3>
 <p>PRECURSOR_OF::<a href="/garden/demo_user/supplement/glutathione/" class="internal-link">Glutathione</a> (via transsulfuration pathway: SAMe to homocysteine to cysteine to GSH, Evidence Level 1a)</p>
+<h2>References</h2>
+<ul>
+<li>Sharma A, et al. Mol Psychiatry. 2017;22(3):358-369. SAMe in depression (review) (PMID: 27899535)</li>
+<li>Perez-Fernandez R, et al. J Clin Endocrinol Metab. 2021. SAMe and liver disease (review)</li>
+<li>Bottiglieri T. Biochimie. 2022;197:30-41. SAMe metabolism and disease (review)</li>
+</ul>
 
 {% endraw %}

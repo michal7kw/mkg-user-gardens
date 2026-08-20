@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.296745Z'
+confidence_score: 0.85
+created: 2026-03-28T12:00:00+0000
 description: Pain persisting beyond normal tissue healing time (typically > 3 months),
   driven by central sensitization and neuroplastic changes rather than ongoing tissue
   damage.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: chronic_pain
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/chronic-pain/
+provenance: curated
 slug: chronic-pain
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Chronic Pain
 type: condition
-updated: '2026-06-13T17:47:11.296745Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -65,10 +68,17 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/same/" class="inte
 <h3>Associated With</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/interleukin-6/" class="internal-link">interleukin 6</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">hs crp</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">Vitamin_D_25-OH</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin_D_25-OH</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Spinal_Cord</a><br />
 AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Central_Nervous_System</a></p>
+<h2>References</h2>
+<ul>
+<li>Treede RD, Rief W, Barke A, et al. Pain. 2019;160(1):13-19. Chronic pain as a symptom or a disease (ICD-11) (PMID: 30586076)</li>
+<li>Dowell D, Haegerich TM, Chou R. JAMA. 2016;315(15):1624-1645. CDC Guideline for Prescribing Opioids for Chronic Pain (PMID: 26975063)</li>
+<li>Turk DC, Wilson HD, Cahana A. Lancet. 2011;377(9784):2226-2235. Treatment of chronic non-cancer pain (review) (PMID: 21705050)</li>
+<li>Cohen SP, Vase L, Hooten WM. Lancet. 2021;397(10289):2082-2097. Chronic pain (review) (PMID: 33798673)</li>
+</ul>
 
 {% endraw %}

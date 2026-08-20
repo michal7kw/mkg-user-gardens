@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.75
-created: '2026-06-13T17:47:11.618108Z'
+created: 2026-04-01T10:00:00+0000
 description: 'Inflammatory arthritis triggered by infection elsewhere in the body,
   typically GI or GU infections (Chlamydia, Salmonella, Shigella, Yersinia, Campylobacter).
   Classic triad: arthritis, urethritis, conjunctivitis. HLA-B27 positive in 60-80%.
@@ -11,6 +11,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: reactive_arthritis
 permalink: /garden/demo_user/condition/reactive-arthritis/
+provenance: curated
 slug: reactive-arthritis
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Reactive Arthritis
 type: condition
-updated: '2026-06-13T17:47:11.618108Z'
+updated: '2026-08-20T04:08:29.884542Z'
 ---
 
 {% raw %}
@@ -67,12 +68,12 @@ updated: '2026-06-13T17:47:11.618108Z'
 <li>RELATED::<a href="/garden/demo_user/condition/ankylosing-spondylitis/" class="internal-link">Ankylosing Spondylitis</a></li>
 <li>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hla-b27/" class="internal-link">HLA-B27</a></li>
 <li>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/esr/" class="internal-link">esr</a></li>
-<li>ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></li>
+<li>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></li>
 <li>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a></li>
 <li>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a></li>
 <li>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a></li>
 <li>IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/exercise/" class="internal-link">Exercise</a></li>
-<li>IMPROVED_BY_INTERVENTION::<a class="internal-link is-unresolved" href="/404">Physical Therapy</a></li>
+<li>IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/physical-therapy/" class="internal-link">Physical Therapy</a></li>
 </ul>
 <h2>References</h2>
 <ul>

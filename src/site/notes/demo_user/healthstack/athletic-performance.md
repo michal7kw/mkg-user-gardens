@@ -1,5 +1,5 @@
 ---
-created: '2026-06-13T17:47:11.967100Z'
+created: '2026-08-20T04:08:30.298839Z'
 description: Optimize exercise performance, recovery, and adaptation. Creatine is
   the most studied ergogenic supplement, beta-alanine buffers muscle acidosis, citrulline
   enhances blood flow, electrolytes prevent exercise-induced depletion, and magnesium
@@ -10,6 +10,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: f91974df-7c63-4a67-ada6-0d459af894e6
 permalink: /garden/demo_user/healthstack/athletic-performance/
+provenance: curated
 slug: athletic-performance
 source: Manual
 tags:
@@ -19,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Athletic Performance
 type: healthstack
-updated: '2026-06-13T17:47:11.967100Z'
+updated: '2026-08-20T04:08:30.298839Z'
 ---
 
 {% raw %}
@@ -40,7 +41,7 @@ updated: '2026-06-13T17:47:11.967100Z'
 </thead>
 <tbody>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Creatine Monohydrate</a></td>
+<td><a href="/garden/demo_user/supplement/creatine/" class="internal-link">Creatine Monohydrate</a></td>
 <td>5g</td>
 <td>once daily</td>
 <td>morning</td>
@@ -68,7 +69,7 @@ updated: '2026-06-13T17:47:11.967100Z'
 <td>Replaces sodium, potassium, and magnesium lost in sweat</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Magnesium Glycinate</a></td>
+<td><a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium Glycinate</a></td>
 <td>400mg</td>
 <td>once daily</td>
 <td>evening</td>
@@ -124,17 +125,17 @@ updated: '2026-06-13T17:47:11.967100Z'
 <li>Energy</li>
 </ul>
 <h3>Contains Supplement</h3>
-<p>CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Creatine Monohydrate</a><br />
+<p>CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/creatine/" class="internal-link">Creatine Monohydrate</a><br />
 CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/beta-alanine/" class="internal-link">Beta-Alanine</a><br />
 CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Citrulline Malate</a><br />
 CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Electrolyte Complex</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Magnesium Glycinate</a></p>
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium Glycinate</a></p>
 <h2>Relationships</h2>
 <h3>Enriched</h3>
 <p>INCLUDES_SUPPLEMENT::<a href="/garden/demo_user/supplement/creatine/" class="internal-link">Creatine</a><br />
 INCLUDES_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 INCLUDES_SUPPLEMENT::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a><br />
-AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/creatine-kinase/" class="internal-link">Creatine Kinase</a><br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/creatine-kinase/" class="internal-link">Creatine Kinase</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/muscles/" class="internal-link">Muscles</a></p>
 <hr />
 <p><strong>Difficulty:</strong> Advanced | <strong>Evidence Level:</strong> ⭐⭐⭐⭐⭐ (5/5)</p>

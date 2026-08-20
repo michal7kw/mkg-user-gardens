@@ -1,15 +1,18 @@
 ---
 aliases:
 - Graves' Disease
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.390915Z'
+confidence_score: 0.9
+created: 2026-01-18T16:02:34+0000
 description: An autoimmune disorder that causes overactivity of the thyroid gland
   (hyperthyroidism) through the production of stimulating antibodies.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: graves_disease
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/graves-disease/
+provenance: curated
 slug: graves-disease
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Graves Disease
 type: condition
-updated: '2026-06-13T17:47:11.390915Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -65,5 +68,11 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-lin
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/l-carnitine/" class="internal-link">L-Carnitine</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a></p>
+<h2>References</h2>
+<ul>
+<li>Burch HB, Burman KD, Cooper DS. J Clin Endocrinol Metab. 2012;97(1):32-38. A 2011 survey of clinical practice patterns in Graves disease (PMID: 22031514)</li>
+<li>Smith TJ, Hegedus L. N Engl J Med. 2016;375(16):1552-1565. Graves' disease (review) (PMID: 27797318)</li>
+<li>Bartalena L, Baldeschi L, Boboridis K, et al. Eur Thyroid J. 2016;5(1):9-26. EUGOGO guidelines for Graves orbitopathy (PMID: 27099835)</li>
+</ul>
 
 {% endraw %}

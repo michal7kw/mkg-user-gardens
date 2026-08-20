@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.540720Z'
+created: 2026-01-18T16:02:29+0000
 description: Tested twice a year Lymphocytes are specialized white blood cells (WBCs)
   consisting of T cells, B cells, and natural killer (NK) cells, each orchestrating
   a different arm of immune defense. Their counts can rise or fall with various conditions,
@@ -12,6 +12,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-lymphocytes
 permalink: /garden/demo_user/labtest/lymphocytes/
+provenance: curated
 slug: lymphocytes
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: lymphocytes
 type: labtest
-updated: '2026-06-13T17:47:12.540720Z'
+updated: '2026-08-20T04:08:30.772912Z'
 ---
 
 {% raw %}
@@ -47,6 +48,10 @@ updated: '2026-06-13T17:47:12.540720Z'
 <td>Inflammation Markers</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -57,6 +62,18 @@ updated: '2026-06-13T17:47:12.540720Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>3-7 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -69,21 +86,21 @@ updated: '2026-06-13T17:47:12.540720Z'
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/labtestpanel/chronic-inflammatory-response-mold-response/" class="internal-link">chronic inflammatory response mold response</a><br />
-RELATED::<a href="/garden/demo_user/labtestpanel/extended-immune-regulation/" class="internal-link">extended immune regulation</a><br />
+<p>RELATED::<br />
+RELATED::<br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Viral Infection</a><br />
 RELATED::<a href="/garden/demo_user/condition/autoimmune-disease/" class="internal-link">Autoimmune Disease</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Impaired Immune Function</a><br />
-RELATED::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
+RELATED::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
 <h3>May Detect</h3>
 <p>MAY_DETECT::<a href="/garden/demo_user/condition/autoimmune-disease/" class="internal-link">Autoimmune Disease</a><br />
-MAY_DETECT::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
+MAY_DETECT::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/autoimmune-disease/" class="internal-link">Autoimmune Disease</a><br />
-ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
+ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
 <h3>Included In</h3>
-<p>INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/chronic-inflammatory-response-mold-response/" class="internal-link">chronic inflammatory response mold response</a><br />
-INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/extended-immune-regulation/" class="internal-link">extended immune regulation</a></p>
+<p>INCLUDED_IN::<br />
+INCLUDED_IN::</p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

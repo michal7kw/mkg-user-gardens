@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:12.029958Z'
+created: '2026-08-20T04:08:30.347171Z'
 description: Peptide hormone produced by pancreatic beta cells, essential for glucose
   uptake and metabolism. The master regulator of energy storage and anabolism. Insulin
   resistance is the central pathology of type 2 diabetes and metabolic syndrome, linking
@@ -9,8 +9,9 @@ dg-home: false
 dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
-id: insulin
+id: insulin_hormone
 permalink: /garden/demo_user/hormone/insulin/
+provenance: curated
 pubchem_id: '16129672'
 slug: insulin
 source: Manual
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Insulin
 type: hormone
-updated: '2026-06-13T17:47:12.029958Z'
+updated: '2026-08-20T04:08:30.347171Z'
 ---
 
 {% raw %}
@@ -59,7 +60,7 @@ updated: '2026-06-13T17:47:12.029958Z'
 <p>RELATED::<a href="/garden/demo_user/hormone/growth-hormone/" class="internal-link">Growth Hormone</a><br />
 RELATED::<a href="/garden/demo_user/labtest/leptin/" class="internal-link">leptin</a><br />
 RELATED::<a href="/garden/demo_user/hormone/ghrelin/" class="internal-link">Ghrelin</a><br />
-RELATED::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+RELATED::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 RELATED::<a href="/garden/demo_user/pathway/ampk-pathway/" class="internal-link">AMPK Pathway</a></p>
 <h3>Modulates Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/fasting-glucose/" class="internal-link">Fasting Glucose</a><br />
@@ -80,7 +81,7 @@ AFFECTED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/mediterranean-
 <h3>Merged From biomarker</h3>
 <p>INDICATES_FUNCTION_OF::<a href="/garden/demo_user/organ/pancreas/" class="internal-link">Pancreas</a><br />
 INDICATES_ORGAN_HEALTH::<a href="/garden/demo_user/organ/pancreas/" class="internal-link">Pancreas</a><br />
-RELATED::<a href="/garden/demo_user/gene/akt1/" class="internal-link">AKT1</a><br />
+RELATED::<a href="/garden/demo_user/protein/akt1/" class="internal-link">AKT1</a><br />
 RELATED::<a href="/garden/demo_user/supplement/alpha-lipoic-acid/" class="internal-link">Alpha Lipoic Acid</a><br />
 RELATED::<a href="/garden/demo_user/supplement/berberine/" class="internal-link">Berberine</a><br />
 RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />

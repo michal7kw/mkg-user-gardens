@@ -1,6 +1,9 @@
 ---
+aliases:
+- Grail Cancer Test
+- grail cancer test
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.123041Z'
+created: 2026-01-18T16:48:42+0000
 description: The GRAIL Cancer Test screens for signals associated with more than 50
   types of cancer using just one blood draw. The test may identify cancer signals
   before clinical symptoms appear, offering an opportunity to find cancer earlier
@@ -18,6 +21,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-grail-cancer-test
 permalink: /garden/demo_user/labtestpanel/grail-cancer-test/
+provenance: curated
 slug: grail-cancer-test
 source: Manual
 tags:
@@ -25,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: grail_cancer_test
 type: labtestpanel
-updated: '2026-06-13T17:47:13.123041Z'
+updated: '2026-08-20T04:08:31.063267Z'
 ---
 
 {% raw %}

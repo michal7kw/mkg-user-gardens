@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:14.378968Z'
+created: 2026-03-19T00:00:00+0000
 description: Conditionally essential amino acid and primary precursor to the catecholamine
   neurotransmitters (dopamine, norepinephrine, epinephrine) and thyroid hormones (T3,
   T4). Most effective for cognitive enhancement under conditions of stress, sleep
@@ -12,6 +12,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: l_tyrosine
 permalink: /garden/demo_user/supplement/l-tyrosine/
+provenance: curated
 pubchem_id: '6057'
 slug: l-tyrosine
 source: Manual
@@ -27,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: L-Tyrosine
 type: supplement
-updated: '2026-06-13T17:47:14.378968Z'
+updated: '2026-08-20T04:08:31.956565Z'
 ---
 
 {% raw %}

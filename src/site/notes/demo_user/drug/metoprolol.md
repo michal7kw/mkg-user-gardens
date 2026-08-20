@@ -7,21 +7,31 @@ country_regulatory:
     notes: Fully reimbursed beta-blocker
     prescription_type: RR
     reimbursement_class: A
+  pl:
+    agency_status: approved
+    atc_code: C07AB02
+    notes: URPL/EMA-approved; reimbursed beta-blocker on the NFZ list (odpłatność
+      ryczałtowa); Polish name metoprolol
+    prescription_type: Rp
+    reimbursement_class: refundowany
   uk:
     agency_status: MHRA-approved
     atc_code: C07AB02
     notes: BNF; beta-blocker (UK practice often favours bisoprolol or atenolol)
     prescription_type: POM
     reimbursement_class: NHS
-created: '2026-06-13T17:47:11.844444Z'
+created: 2026-01-03T17:55:41+0000
 description: Cardioselective beta-1 blocker for hypertension, angina, heart failure,
   and arrhythmias. Reduces heart rate and myocardial oxygen demand. One of the most
   prescribed cardiovascular medications.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: metoprolol
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/metoprolol/
+provenance: curated
 slug: metoprolol
 source: Manual
 tags:
@@ -33,7 +43,7 @@ tags:
 templateEngineOverride: njk
 title: Metoprolol
 type: drug
-updated: '2026-06-13T17:47:11.844444Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -65,5 +75,9 @@ TREATS::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="int
 <p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/norepinephrine/" class="internal-link">Norepinephrine</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

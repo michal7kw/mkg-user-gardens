@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:14.262654Z'
+confidence_score: 0.8
+created: 2025-12-17T00:00:00+0000
 description: Highly bioavailable choline compound that readily crosses the blood-brain
   barrier. Supports acetylcholine synthesis, cognitive function, and may enhance growth
   hormone release during exercise.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: alpha_gpc
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/alpha-gpc/
+provenance: curated
 pubchem_id: '657272'
 slug: alpha-gpc
 source: Manual
@@ -23,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Alpha-GPC
 type: supplement
-updated: '2026-06-13T17:47:14.262654Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -47,5 +49,11 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/memory-disorders/" c
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/mild-cognitive-impairment/" class="internal-link">Mild Cognitive Impairment</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a> (Primary cholinergic substrate; crosses BBB to support acetylcholine synthesis and neuronal membrane phospholipids, Evidence Level 4a)</p>
+<h2>References</h2>
+<ul>
+<li>Tayebati SK, et al. Clin Interv Aging. 2013;8:551-558. Choline-containing phospholipids in dementia (PMID: 23717034)</li>
+<li>Bellar A, et al. J Int Soc Sports Nutr. 2021;18(1):55. Alpha-GPC and growth hormone (PMID: 34404435)</li>
+<li>Parnetti L, et al. J Am Geriatr Soc. 2007;55(9):1394-1399. Choline alphoscerate in cognitive decline (PMID: 17727638)</li>
+</ul>
 
 {% endraw %}

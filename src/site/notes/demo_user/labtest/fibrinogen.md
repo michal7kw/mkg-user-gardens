@@ -90,7 +90,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.343743Z'
+created: 2025-12-10T09:07:57+0000
 description: Clotting factor and acute phase reactant. Elevated in inflammation and
   cardiovascular disease.
 dg-home: false
@@ -99,6 +99,7 @@ evidence_level: 0
 gardenUsername: demo_user
 id: test-fibrinogen-001
 permalink: /garden/demo_user/labtest/fibrinogen/
+provenance: curated
 slug: fibrinogen
 source: Manual
 tags:
@@ -106,7 +107,7 @@ tags:
 templateEngineOverride: njk
 title: fibrinogen
 type: labtest
-updated: '2026-06-13T17:47:12.343743Z'
+updated: '2026-08-20T04:08:30.643986Z'
 ---
 
 {% raw %}
@@ -131,6 +132,10 @@ updated: '2026-06-13T17:47:12.343743Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -142,6 +147,10 @@ updated: '2026-06-13T17:47:12.343743Z'
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -152,7 +161,9 @@ updated: '2026-06-13T17:47:12.343743Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
-<p>RELATED::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a></p>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/labtest/fibrinogen/" class="internal-link">Fibrinogen</a><br />
+RELATED::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a></p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

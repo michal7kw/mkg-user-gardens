@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.75
-created: '2026-06-13T17:47:12.045573Z'
+created: 2026-03-05T00:00:00+0000
 description: Deliberate control of breathing patterns to influence autonomic nervous
   system function, stress response, and cognitive state. Encompasses slow breathing
   (4-6 breaths/min for parasympathetic activation), cyclic hyperventilation (Wim Hof,
@@ -11,7 +11,9 @@ dg-publish: true
 evidence_level: 3
 gardenUsername: demo_user
 id: breathwork
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/intervention/breathwork/
+provenance: curated
 slug: breathwork
 source: Manual
 tags:
@@ -23,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Breathwork
 type: intervention
-updated: '2026-06-13T17:47:12.045573Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -57,24 +59,28 @@ updated: '2026-06-13T17:47:12.045573Z'
 <h2>Relationships</h2>
 <h3>Affects Biomarker</h3>
 <!-- seeded: intervention coverage (mirror_intervention_edges_to_markdown.py) -->
-<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">Cortisol</a> (Evidence Level 3)</p>
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">Cortisol</a> (Evidence Level 3)</p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a><br />
 RELATED::<a href="/garden/demo_user/intervention/yoga/" class="internal-link">Yoga</a> (pranayama is a core breathwork component of yoga)<br />
 RELATED::<a href="/garden/demo_user/intervention/cold-exposure/" class="internal-link">Cold Exposure</a> (Wim Hof combines breathwork with cold exposure)<br />
 RELATED::<a href="/garden/demo_user/intervention/sleep-optimization/" class="internal-link">Sleep Optimization</a> (slow breathing improves sleep onset latency)<br />
-RELATED::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a> (slow breathing increases GABAergic tone)<br />
+RELATED::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a> (slow breathing increases GABAergic tone)<br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/hypertension/" class="internal-link">Hypertension</a> (slow breathing reduces BP 4-6 mmHg, Evidence Level 1a)<br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/anxiety/" class="internal-link">Anxiety</a> (breathing interventions show moderate anxiolytic effect, Evidence Level 2a)</p>
 <h3>Modulates Hormone</h3>
-<p>MODULATES_HORMONE::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a> (slow breathing reduces cortisol via HPA axis downregulation, Evidence Level 1b)<br />
+<p>MODULATES_HORMONE::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a> (slow breathing reduces cortisol via HPA axis downregulation, Evidence Level 1b)<br />
 MODULATES_HORMONE::<a href="/garden/demo_user/neurotransmitter/norepinephrine/" class="internal-link">Norepinephrine</a> (cyclic hyperventilation increases norepinephrine 2-3x, Evidence Level 2b)<br />
 MODULATES_HORMONE::<a class="internal-link is-unresolved" href="/404">Epinephrine</a> (Wim Hof method acutely elevates epinephrine, Evidence Level 2b)</p>
 <h3>Modulates Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a> (anti-inflammatory effects via vagal tone enhancement, Evidence Level 2b)</p>
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (anti-inflammatory effects via vagal tone enhancement, Evidence Level 2b)</p>
 <h3>Affects Brain Region</h3>
 <p>AFFECTS_BRAIN_REGION::<a class="internal-link is-unresolved" href="/404">Prefrontal Cortex</a> (box breathing enhances prefrontal regulation of amygdala, Evidence Level 3a)</p>
 <h3>Improves Function</h3>
 <p>IMPROVES_FUNCTION::<a href="/garden/demo_user/cognitivefunction/emotional-regulation/" class="internal-link">Emotional Regulation</a> (vagal tone enhancement improves affect regulation, Evidence Level 2a)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

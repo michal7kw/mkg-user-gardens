@@ -1,14 +1,17 @@
 ---
 confidence_score: 1.0
-created: '2026-06-13T17:47:13.901920Z'
+created: 2026-01-25T18:00:00+0000
 description: A biological phenomenon where a beneficial effect results from exposure
   to low doses of an agent that is otherwise toxic or lethal at higher doses. The
   "what doesn't kill you makes you stronger" mechanism.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: hormesis
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/hormesis/
+provenance: curated
 slug: hormesis
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Hormesis
 type: pathway
-updated: '2026-06-13T17:47:13.901920Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -59,5 +62,9 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/metabolite/nad/" class="internal-lin
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/oxidative-stress/" class="internal-link">Oxidative Stress</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.243152Z'
+created: 2026-04-14T00:00:00+0000
 description: Beta-glucans are naturally occurring polysaccharides composed of D-glucose
   monomers linked by beta-glycosidic bonds, found in the cell walls of medicinal mushrooms,
   yeast, oats, and barley. Mushroom-derived (1,3)-(1,6)-beta-D-glucans are potent
@@ -13,6 +13,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: beta_glucans
 permalink: /garden/demo_user/metabolite/beta-glucans/
+provenance: curated
 slug: beta-glucans
 source: Manual
 tags:
@@ -26,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Beta-Glucans
 type: metabolite
-updated: '2026-06-13T17:47:13.243152Z'
+updated: '2026-08-20T04:08:31.114919Z'
 ---
 
 {% raw %}

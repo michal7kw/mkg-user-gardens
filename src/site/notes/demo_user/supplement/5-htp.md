@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.7
-created: '2026-06-13T17:47:14.256974Z'
+confidence_score: 0.75
+created: 2026-01-03T17:55:40+0000
 description: Direct precursor to serotonin that crosses the blood-brain barrier. Supports
   mood, sleep, and appetite regulation. Must be used carefully, especially with serotonergic
   medications.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 3
 gardenUsername: demo_user
 id: 5_htp
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/5-htp/
+provenance: curated
 pubchem_id: '144'
 slug: 5-htp
 source: Manual
@@ -23,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: 5-HTP
 type: supplement
-updated: '2026-06-13T17:47:14.256974Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -64,6 +66,12 @@ PRECURSOR_OF::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="int
 <h3>Requires Cofactor</h3>
 <p>REQUIRES_COFACTOR::<a href="/garden/demo_user/supplement/vitamin-b6/" class="internal-link">Vitamin B6</a></p>
 <h3>Affects Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
+<h2>References</h2>
+<ul>
+<li>Birdsall TC. Altern Med Rev. 1998;3(4):271-280. 5-HTP in depression (review) (PMID: 9727081)</li>
+<li>Turner EH, Loftis JM, Blackwell AD. Pharmacol Ther. 2006;109(3):325-338. Serotonin and 5-HTP (PMID: 16023217)</li>
+<li>Cangiano C, et al. Adv Exp Med Biol. 1991;294:575-579. 5-HTP and appetite (PMID: 1784496)</li>
+</ul>
 
 {% endraw %}

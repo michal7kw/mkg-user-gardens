@@ -1,5 +1,5 @@
 ---
-created: '2026-06-13T17:47:12.002483Z'
+created: '2026-08-20T04:08:30.322585Z'
 description: Support skin integrity, collagen production, and protection against UV
   damage and aging with targeted antioxidants, collagen precursors, and photoprotective
   compounds. Skin is the body's largest organ and a visible indicator of internal
@@ -10,6 +10,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: skin_health_stack
 permalink: /garden/demo_user/healthstack/skin-health/
+provenance: curated
 slug: skin-health
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Skin Health
 type: healthstack
-updated: '2026-06-13T17:47:12.002483Z'
+updated: '2026-08-20T04:08:30.322585Z'
 ---
 
 {% raw %}
@@ -63,7 +64,7 @@ updated: '2026-06-13T17:47:12.002483Z'
 <td>Carotenoid antioxidant 6000x stronger than vitamin C against singlet oxygen — provides internal UV photoprotection</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Omega-3 Fish Oil</a></td>
+<td><a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fish Oil</a></td>
 <td>2000mg</td>
 <td>once daily</td>
 <td>with meals</td>
@@ -98,7 +99,7 @@ updated: '2026-06-13T17:47:12.002483Z'
 <td>Vitamin D receptor expressed in keratinocytes — adequate levels support skin immune function and barrier integrity</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">hs-CRP</a></td>
+<td><a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></td>
 <td>0-3.0</td>
 <td>0-1.0</td>
 <td>mg/L</td>
@@ -116,7 +117,7 @@ updated: '2026-06-13T17:47:12.002483Z'
 <p>CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Collagen Peptides (Type I/III)</a><br />
 CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a><br />
 CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/astaxanthin/" class="internal-link">Astaxanthin</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Omega-3 Fish Oil</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fish Oil</a><br />
 CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a></p>
 <h2>Relationships</h2>
 <h3>Enriched</h3>

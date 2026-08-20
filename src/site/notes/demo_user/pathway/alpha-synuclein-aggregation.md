@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.845631Z'
+created: 2026-01-24T12:00:00+0000
 description: The pathological process by which alpha-synuclein protein misfolds and
   aggregates into oligomers, fibrils, and Lewy bodies. Central to Parkinson's disease
   and other synucleinopathies.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: alpha_synuclein_aggregation
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/alpha-synuclein-aggregation/
+provenance: curated
 slug: alpha-synuclein-aggregation
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Alpha-Synuclein Aggregation
 type: pathway
-updated: '2026-06-13T17:47:13.845631Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -38,7 +41,7 @@ RELATED::<a href="/garden/demo_user/biomarker/blood-nfl/" class="internal-link">
 RELATED::<a class="internal-link is-unresolved" href="/404">Enteric Nervous System</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/neuron-derived-exosome-biomarkers/" class="internal-link">Neuron-Derived Exosome Biomarkers</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">DAT-SPECT</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Autophagy-Lysosomal Pathway</a><br />
+RELATED::<a href="/garden/demo_user/pathway/autophagy-lysosomal-pathway/" class="internal-link">Autophagy-Lysosomal Pathway</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Multiple System Atrophy</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Substantia Nigra</a><br />
 RELATED::<a href="/garden/demo_user/pathway/mitophagy/" class="internal-link">Mitophagy</a><br />
@@ -65,5 +68,9 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/tnf-alpha/" class="internal-
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/parkinsons-disease/" class="internal-link">Parkinson's Disease</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

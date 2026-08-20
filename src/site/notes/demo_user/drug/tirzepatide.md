@@ -1,6 +1,25 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:11.895066Z'
+country_regulatory:
+  it:
+    agency_status: approved
+    notes: AIFA-approved dual GIP/GLP-1 agonist; weight-management use largely out-of-pocket.
+    prescription_type: RR
+    reimbursement_class: C
+  pl:
+    agency_status: approved
+    notes: URPL/EMA-dopuszczony podwójny agonista GIP/GLP-1 (Mounjaro w cukrzycy typu
+      2 i w kontroli masy ciała). Obecnie pełnopłatny i nierefundowany przez NFZ.
+      Status refundacji zmienia się — sprawdź aktualne obwieszczenie MZ.
+    prescription_type: Rp
+    reimbursement_class: nierefundowany
+  uk:
+    agency_status: approved
+    notes: MHRA/EMA-approved dual GIP/GLP-1 receptor agonist (Mounjaro for type 2
+      diabetes and weight management).
+    prescription_type: POM
+    reimbursement_class: NHS
+created: 2026-04-14T00:00:00+0000
 description: First-in-class dual GIP and GLP-1 receptor agonist ("twincretin") for
   type 2 diabetes and obesity. 39-amino acid linear peptide based on the GIP sequence
   with GLP-1 receptor agonist activity. Demonstrated superior glycemic control and
@@ -14,6 +33,7 @@ drugbank_id: DB12328
 gardenUsername: demo_user
 id: tirzepatide
 permalink: /garden/demo_user/drug/tirzepatide/
+provenance: curated
 pubchem_id: 219730521
 slug: tirzepatide
 source: Manual
@@ -30,7 +50,7 @@ tags:
 templateEngineOverride: njk
 title: Tirzepatide
 type: drug
-updated: '2026-06-13T17:47:11.895066Z'
+updated: '2026-08-20T04:08:30.203797Z'
 ---
 
 {% raw %}
@@ -102,12 +122,12 @@ TREATS::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="int
 <h3>Affects Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a> (reduces by up to 2.4%, highest in class, Evidence Level 1a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/metabolite/glucose/" class="internal-link">Glucose</a> (reduces fasting glucose, Evidence Level 1a)<br />
-AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/crp-hs/" class="internal-link">CRP (hs)</a> (reduces inflammation, Evidence Level 2a)<br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">CRP (hs)</a> (reduces inflammation, Evidence Level 2a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a> (reduces, Evidence Level 2b)<br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Blood Pressure</a> (reduces systolic BP, Evidence Level 2a)</p>
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/examination/blood-pressure/" class="internal-link">Blood Pressure</a> (reduces systolic BP, Evidence Level 2a)</p>
 <h3>Modulates Hormone</h3>
 <p>MODULATES_HORMONE::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a> (enhances glucose-dependent secretion via dual GIP/GLP-1, Evidence Level 1a)<br />
-MODULATES_HORMONE::<a class="internal-link is-unresolved" href="/404">Glucagon</a> (suppresses during hyperglycemia, stimulates during hypoglycemia via GIP, Evidence Level 1a)</p>
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/glucagon/" class="internal-link">Glucagon</a> (suppresses during hyperglycemia, stimulates during hypoglycemia via GIP, Evidence Level 1a)</p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/pancreas/" class="internal-link">Pancreas</a> (preserves beta cells, dual receptor activation, Evidence Level 2b)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a> (reduces hepatic steatosis, Evidence Level 2b)<br />

@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:14.455872Z'
+confidence_score: 0.8
+created: 2026-01-03T17:55:41+0000
 description: Powerful plant flavonoid with antioxidant, anti-inflammatory, and senolytic
   properties. Found in onions, apples, and berries. Activates Nrf2 and inhibits mast
   cell degranulation.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 3
 gardenUsername: demo_user
 id: quercetin
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/quercetin/
+provenance: curated
 pubchem_id: '5280343'
 slug: quercetin
 source: Manual
@@ -23,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Quercetin
 type: supplement
-updated: '2026-06-13T17:47:14.455872Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -62,5 +64,12 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/long-covid/" class="
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a> (Stabilizes mast cells inhibiting histamine and leukotriene release; modulates NF-kB inflammatory signaling, Evidence Level 3a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/lungs/" class="internal-link">Lungs</a> (Anti-inflammatory and antiviral properties protect pulmonary epithelium; mast cell stabilization reduces airway inflammation, Evidence Level 3a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a> (Reduces oxidized LDL and blood pressure; anti-inflammatory effects support cardiovascular protection, Evidence Level 3a)</p>
+<h2>References</h2>
+<ul>
+<li>Anand David AV, et al. Eur J Pharmacol. 2016;785:259-275. Quercetin (review) (PMID: 27348835)</li>
+<li>Xu D, et al. Nutrients. 2019;11(5):1188. Quercetin in metabolism (PMID: 31137755)</li>
+<li>Serban C, et al. J Hypertens. 2016;34(12):2377-2387. Quercetin and blood pressure (meta-analysis) (PMID: 27455514)</li>
+<li>Davis JM, et al. Int J Sport Nutr Exerc Metab. 2010;20(1):66-72. Quercetin and exercise performance (PMID: 20190348)</li>
+</ul>
 
 {% endraw %}

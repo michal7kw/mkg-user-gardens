@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.75
-created: '2026-06-13T17:47:11.893151Z'
+created: 2026-04-01T10:00:00+0000
 description: DMARD combining sulfapyridine and 5-aminosalicylic acid. Used in RA (especially
   seronegative), psoriatic arthritis, and ankylosing spondylitis. Mechanism involves
   NF-kB inhibition and reduction of B-cell function.
@@ -10,6 +10,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: sulfasalazine
 permalink: /garden/demo_user/drug/sulfasalazine/
+provenance: curated
 slug: sulfasalazine
 source: Manual
 tags:
@@ -20,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Sulfasalazine
 type: drug
-updated: '2026-06-13T17:47:11.893151Z'
+updated: '2026-08-20T04:08:30.198741Z'
 ---
 
 {% raw %}
@@ -38,7 +39,7 @@ updated: '2026-06-13T17:47:11.893151Z'
 TREATS::<a href="/garden/demo_user/condition/ankylosing-spondylitis/" class="internal-link">Ankylosing Spondylitis</a></p>
 <h3>Affects Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/esr/" class="internal-link">esr</a><br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h3>Modulates Pathway</h3>
 <p>MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/nf-kb-pathway/" class="internal-link">NF-kB Pathway</a></p>
 <h2>References</h2>

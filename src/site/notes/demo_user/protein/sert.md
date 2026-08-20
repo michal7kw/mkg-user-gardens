@@ -1,5 +1,5 @@
 ---
-created: '2026-06-13T17:47:14.185400Z'
+created: 2026-04-01T12:00:00+0000
 description: Serotonin transporter (5-HTT), a sodium-dependent monoamine transporter
   that clears serotonin from the synaptic cleft. Encoded by the SLC6A4 gene. Primary
   molecular target of all SSRI antidepressants. 12 transmembrane domain protein located
@@ -10,6 +10,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: sert
 permalink: /garden/demo_user/protein/sert/
+provenance: curated
 slug: sert
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: SERT
 type: protein
-updated: '2026-06-13T17:47:14.185400Z'
+updated: '2026-08-20T04:08:31.713793Z'
 ---
 
 {% raw %}

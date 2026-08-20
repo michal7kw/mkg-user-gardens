@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.706055Z'
+confidence_score: 0.85
+created: 2026-03-28T12:00:00+0000
 description: An illusory sensation of movement (typically spinning) caused by dysfunction
   of the vestibular system, either peripheral (inner ear) or central (brainstem/cerebellum).
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: vertigo
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/vertigo/
+provenance: curated
 slug: vertigo
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Vertigo
 type: condition
-updated: '2026-06-13T17:47:11.706055Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -53,13 +56,7 @@ AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Cerebellum</a>
 AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Vestibular System</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/ginkgo-biloba/" class="internal-link">Ginkgo Biloba</a><br />
-IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Meniere Disease</a><br />
-RELATED::<a href="/garden/demo_user/condition/hearing-loss/" class="internal-link">Hearing Loss</a></p>
-<h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/condition/hearing-loss/" class="internal-link">Hearing Loss</a><br />
-RELATED::<a href="/garden/demo_user/condition/migraine/" class="internal-link">Migraine</a><br />
-RELATED::<a href="/garden/demo_user/condition/tinnitus/" class="internal-link">Tinnitus</a></p>
+IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin D (25-OH)</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/homocysteine/" class="internal-link">homocysteine</a><br />
@@ -70,50 +67,13 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class=
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a></p>
 <h3>Merged From phenotype</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Addison disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Marchiafava-Bignami disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Meniere disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Naxos disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Paroxysmal vertigo</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Pendred syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Rift valley fever</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Sheehan syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Sneddon syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Susac syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">TSH-secreting pituitary adenoma</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Vestibular dysfunction</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">acquired polycythemia vera</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">acute promyelocytic leukemia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">alpha-N-acetylgalactosaminidase deficiency</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">autosomal dominant familial periodic fever</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">autosomal dominant nonsyndromic deafness</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">benign paroxysmal torticollis of infancy</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">catecholaminergic polymorphic ventricular tachycardia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">central nervous system vasculitis</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">childhood encephalopathy due to thiamine pyrophosphokinase deficiency</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">episodic ataxia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">familial hemiplegic migraine</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">familial or sporadic hemiplegic migraine</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">familial temporal lobe epilepsy</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">glycogen storage disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">hyperimmunoglobulinemia D with periodic fever</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">hypertrophic cardiomyopathy</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">late-onset isolated ACTH deficiency</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">mal de Debarquement</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">malignant atrophic papulosis</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">non-functioning pituitary adenoma</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">opsoclonus-myoclonus syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">optic pathway glioma</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">primary familial polycythemia due to EPO receptor mutation</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">progressive familial heart block</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">progressive multifocal leukoencephalopathy</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">prolactin producing pituitary gland tumor</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">pseudotumor cerebri</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">relapsing polychondritis</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">renal hypomagnesemia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">superficial siderosis</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">von Hippel-Lindau disease</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Paroxysmal vertigo</a><br />
+<p>RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Paroxysmal vertigo</a><br />
 RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Vestibular dysfunction</a></p>
+<h2>References</h2>
+<ul>
+<li>Bisdorff AR, Staab JP, Newman-Toker DE. J Vestib Res. 2017;27(2-3):69-76. Overview of the International Classification of Vestibular Disorders (PMID: 28685027)</li>
+<li>Strupp M, Dlugaiczyk J, Ertl-Wagner BB, Rujescu D, Westhofen M, Dieterich M. Dtsch Arztebl Int. 2020;117(17):300-310. Vertigo and dizziness (review) (PMID: 32518092)</li>
+<li>Bhattacharyya N, Gubbels SP, Schwartz SR, et al. Otolaryngol Head Neck Surg. 2017;156(3_suppl):S1-S47. Clinical Practice Guideline: BPPV (PMID: 28248609)</li>
+</ul>
 
 {% endraw %}

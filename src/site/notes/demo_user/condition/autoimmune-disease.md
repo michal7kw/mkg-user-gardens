@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.231108Z'
+confidence_score: 0.8
+created: 2026-01-18T16:02:34+0000
 description: A condition in which the immune system mistakenly attacks and damages
   the body's own healthy cells, tissues, and organs.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: autoimmune_disease
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/autoimmune-disease/
+provenance: curated
 slug: autoimmune-disease
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Autoimmune Disease
 type: condition
-updated: '2026-06-13T17:47:11.231108Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -51,9 +54,7 @@ updated: '2026-06-13T17:47:11.231108Z'
 <p>RELATED::<a href="/garden/demo_user/labtest/monocytes/" class="internal-link">monocytes</a><br />
 RELATED::<a href="/garden/demo_user/labtest/lymphocytes/" class="internal-link">lymphocytes</a><br />
 RELATED::<a href="/garden/demo_user/labtest/eosinophils/" class="internal-link">eosinophils</a><br />
-RELATED::<a href="/garden/demo_user/labtest/basophils/" class="internal-link">basophils</a><br />
-RELATED::<a href="/garden/demo_user/labtest/white-blood-cell-count/" class="internal-link">white blood cell count</a><br />
-RELATED::<a href="/garden/demo_user/labtest/high-sensitivity-c-reactive-protein-hs-crp/" class="internal-link">high sensitivity c reactive protein hs crp</a></p>
+RELATED::<a href="/garden/demo_user/labtest/basophils/" class="internal-link">basophils</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/esr/" class="internal-link">esr</a><br />
@@ -66,5 +67,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acid
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/glutathione/" class="internal-link">Glutathione</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/probiotics/" class="internal-link">Probiotics</a></p>
+<h2>References</h2>
+<ul>
+<li>Wang L, Wang FS, Gershwin ME. Nat Rev Dis Primers. 2015;1:15003. Human autoimmune diseases (review) (PMID: 27188578)</li>
+<li>Davidson A, Diamond B. N Engl J Med. 2001;345(5):340-350. Autoimmune diseases (review) (PMID: 11484692)</li>
+<li>Selmi C, Leung PS, Sherr DH, et al. Autoimmun Rev. 2012;11(6-7):A1-A9. Mechanisms of environmental influence (PMID: 22155201)</li>
+</ul>
 
 {% endraw %}

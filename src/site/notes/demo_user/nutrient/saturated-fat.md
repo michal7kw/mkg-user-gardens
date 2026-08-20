@@ -1,13 +1,16 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.730302Z'
+created: '2026-04-05T16:16:24.165451+00:00'
 description: Fatty acids with no double bonds — found in animal fats and tropical
   oils; excess linked to cardiovascular risk
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_saturated_fat
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/saturated-fat/
+provenance: curated
 slug: saturated-fat
 source: dev_seeder
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Saturated Fat
 type: nutrient
-updated: '2026-06-13T17:47:13.730302Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -51,18 +54,22 @@ updated: '2026-06-13T17:47:13.730302Z'
 <ul>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a></li>
-<li>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Blood Vessels</a></li>
+<li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/blood-vessels/" class="internal-link">Blood Vessels</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="internal-link">LDL Cholesterol</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hdl-cholesterol/" class="internal-link">HDL Cholesterol</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/total-cholesterol/" class="internal-link">Total Cholesterol</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">CRP (C-Reactive Protein)</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">CRP (C-Reactive Protein)</a></li>
 <li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Essential Fatty Acid Deficiency</a></li>
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/nutrient/omega-3-epa/" class="internal-link">Omega-3 (EPA)</a></li>
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/nutrient/omega-3-dha/" class="internal-link">Omega-3 (DHA)</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/dietary-fat/" class="internal-link">Dietary Fat</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/omega-6/" class="internal-link">Omega-6</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/carbohydrate/" class="internal-link">Carbohydrate</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

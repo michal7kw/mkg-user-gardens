@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:10.673072Z'
+created: '2026-02-14T12:00:00+00:00'
 description: The APOE genotype determines which combination of three common alleles
   (epsilon2, epsilon3, epsilon4) of the Apolipoprotein E gene an individual carries.
   This single genetic locus is the strongest known genetic risk factor for late-onset
@@ -8,9 +8,12 @@ description: The APOE genotype determines which combination of three common alle
   metabolism modulation.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: apoe_genotype
+last_modified: 2026-06-21T00:00:00+0000
 permalink: /garden/demo_user/biomarker/apoe-genotype/
+provenance: curated
 slug: apoe-genotype
 source: Manual
 tags:
@@ -23,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: APOE Genotype
 type: biomarker
-updated: '2026-06-13T17:47:10.673072Z'
+updated: 2026-06-21T00:00:00+0000
 ---
 
 {% raw %}
@@ -181,8 +184,8 @@ updated: '2026-06-13T17:47:10.673072Z'
 <h2>Relationships</h2>
 <h3>Defined By Variants</h3>
 <p>The APOE haplotype is determined by genotyping two single-nucleotide variants:<br />
-DEFINED_BY_VARIANT::<a class="internal-link is-unresolved" href="/404">rs429358</a> (T→C, APOE-e4 defining)<br />
-DEFINED_BY_VARIANT::<a class="internal-link is-unresolved" href="/404">rs7412</a> (C→T, APOE-e2 defining)</p>
+DEFINED_BY_VARIANT::<a href="/garden/demo_user/variant/rs429358-apoe-e4-defining/" class="internal-link">rs429358</a> (T→C, APOE-e4 defining)<br />
+DEFINED_BY_VARIANT::<a href="/garden/demo_user/variant/rs7412-apoe-e2-defining/" class="internal-link">rs7412</a> (C→T, APOE-e2 defining)</p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimer's Disease</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />

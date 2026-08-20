@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:12.052284Z'
+created: 2026-01-24T12:00:00+0000
 description: Structured mental exercises designed to maintain or improve cognitive
   function. Includes memory training, processing speed exercises, and computerized
   brain training programs for dementia prevention.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 3
 gardenUsername: demo_user
 id: cognitive_training
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/intervention/cognitive-training/
+provenance: curated
 slug: cognitive-training
 source: Manual
 tags:
@@ -21,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Cognitive Training
 type: intervention
-updated: '2026-06-13T17:47:12.052284Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -68,5 +70,9 @@ AFFECTS_BRAIN_REGION::<a class="internal-link is-unresolved" href="/404">Parieta
 <h3>May Improve Condition</h3>
 <p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/mild-cognitive-impairment/" class="internal-link">Mild Cognitive Impairment</a> (moderate effect on memory and executive function, Evidence Level 2a)<br />
 MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">ADHD</a> (working memory training shows small-moderate effects on attention, Evidence Level 2b)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

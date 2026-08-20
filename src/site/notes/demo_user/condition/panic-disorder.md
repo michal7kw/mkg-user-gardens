@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.556412Z'
+created: 2026-04-01T12:00:00+0000
 description: Anxiety disorder characterized by recurrent unexpected panic attacks
   — sudden surges of intense fear peaking within minutes, with physical symptoms (palpitations,
   shortness of breath, chest pain, dizziness) and cognitive symptoms (fear of dying,
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: panic_disorder
 permalink: /garden/demo_user/condition/panic-disorder/
+provenance: curated
 slug: panic-disorder
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Panic Disorder
 type: condition
-updated: '2026-06-13T17:47:11.556412Z'
+updated: '2026-08-20T04:08:29.792220Z'
 ---
 
 {% raw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:12.125735Z'
+created: 2026-03-05T00:00:00+0000
 description: Form of intermittent fasting that restricts daily food intake to a consistent
   window (typically 8-12 hours), aligning eating with circadian rhythms. Distinguished
   from general intermittent fasting by emphasis on meal timing rather than caloric
@@ -8,9 +8,12 @@ description: Form of intermittent fasting that restricts daily food intake to a 
   of caloric intake.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: time_restricted_eating
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/intervention/time-restricted-eating/
+provenance: curated
 slug: time-restricted-eating
 source: Manual
 tags:
@@ -22,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Time-Restricted Eating
 type: intervention
-updated: '2026-06-13T17:47:12.125735Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -68,15 +71,19 @@ RELATED::<a href="/garden/demo_user/intervention/walking/" class="internal-link"
 <h3>Modulates Hormone</h3>
 <p>MODULATES_HORMONE::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a> (extended fasting allows insulin levels to reach baseline, restoring sensitivity, Evidence Level 1b)<br />
 MODULATES_HORMONE::<a href="/garden/demo_user/hormone/melatonin/" class="internal-link">Melatonin</a> (avoiding late eating prevents melatonin-insulin conflict, Evidence Level 2b)<br />
-MODULATES_HORMONE::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a> (eating aligned with cortisol rhythm optimizes metabolic response, Evidence Level 2b)</p>
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a> (eating aligned with cortisol rhythm optimizes metabolic response, Evidence Level 2b)</p>
 <h3>Modulates Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a> (improved glycemic control with consistent eating window, Evidence Level 2a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a> (reduced with TRE, especially early TRE, Evidence Level 2a)<br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a> (reduced oxidative stress and inflammation, Evidence Level 2b)</p>
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (reduced oxidative stress and inflammation, Evidence Level 2b)</p>
 <h3>Modulates Pathway</h3>
-<p>MODULATES_PATHWAY::<a class="internal-link is-unresolved" href="/404">Autophagy-Lysosomal Pathway</a> (extended fasting window activates autophagy via mTOR suppression, Evidence Level 2b)</p>
+<p>MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/autophagy-lysosomal-pathway/" class="internal-link">Autophagy-Lysosomal Pathway</a> (extended fasting window activates autophagy via mTOR suppression, Evidence Level 2b)</p>
 <h3>May Improve Condition</h3>
 <p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/type-2-diabetes/" class="internal-link">Type 2 Diabetes</a> (improved insulin sensitivity and glycemic control, Evidence Level 1b)<br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/hypertension/" class="internal-link">Hypertension</a> (4-7 mmHg systolic reduction, Evidence Level 2a)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

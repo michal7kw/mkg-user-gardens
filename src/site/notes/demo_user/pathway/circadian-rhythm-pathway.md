@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.866700Z'
+created: 2026-01-03T17:55:41+0000
 description: The circadian rhythm pathway is the molecular clock system that generates
   ~24-hour oscillations in gene expression, metabolism, and physiology, synchronizing
   internal processes with the external light-dark cycle.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: circadian_rhythm_pathway
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/circadian-rhythm-pathway/
+provenance: curated
 slug: circadian-rhythm-pathway
 source: Manual
 tags:
@@ -21,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Circadian Rhythm Pathway
 type: pathway
-updated: '2026-06-13T17:47:13.866700Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -42,7 +44,7 @@ MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a><br />
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/glycine/" class="internal-link">Glycine</a></p>
 <h3>Associated Biomarker</h3>
-<p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/glucose-fasting/" class="internal-link">Glucose Fasting</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a></p>
@@ -51,5 +53,9 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/insulin/" class="internal-li
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/diabetes/" class="internal-link">Diabetes</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cancer/" class="internal-link">Cancer</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

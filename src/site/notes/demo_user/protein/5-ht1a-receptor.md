@@ -1,5 +1,5 @@
 ---
-created: '2026-06-13T17:47:14.064897Z'
+created: 2026-04-01T12:00:00+0000
 description: Serotonin 1A receptor, a Gi/Go-coupled GPCR that serves as both presynaptic
   autoreceptor on raphe neurons (inhibiting serotonin release) and postsynaptic heteroreceptor
   in cortex and hippocampus. Autoreceptor desensitization after chronic SSRI exposure
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: 5_ht1a_receptor
 permalink: /garden/demo_user/protein/5-ht1a-receptor/
+provenance: curated
 slug: 5-ht1a-receptor
 source: Manual
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: 5-HT1A Receptor
 type: protein
-updated: '2026-06-13T17:47:14.064897Z'
+updated: '2026-08-20T04:08:31.607164Z'
 ---
 
 {% raw %}

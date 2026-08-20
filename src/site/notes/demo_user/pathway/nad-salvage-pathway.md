@@ -2,15 +2,18 @@
 aliases:
 - NAD_Salvage_Pathway
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.934089Z'
+created: 2026-01-22T12:00:00+0000
 description: The primary route for NAD+ biosynthesis in mammals, recycling nicotinamide
   released by NAD+-consuming enzymes back into NAD+. Accounts for approximately 85%
   of NAD+ production and is essential for maintaining cellular NAD+ homeostasis.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nad_salvage_pathway
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/nad-salvage-pathway/
+provenance: curated
 slug: nad-salvage-pathway
 source: Manual
 tags:
@@ -23,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: NAD+ Salvage Pathway
 type: pathway
-updated: '2026-06-13T17:47:13.934089Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -42,5 +45,9 @@ MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/quercetin/" class
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/mitochondrial-dysfunction/" class="internal-link">Mitochondrial Dysfunction</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

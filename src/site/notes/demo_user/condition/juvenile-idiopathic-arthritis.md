@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:11.440378Z'
+created: 2026-04-01T10:00:00+0000
 description: Umbrella term for chronic arthritis in children under 16 with symptoms
   persisting over 6 weeks. Includes oligoarticular, polyarticular (RF+ or RF-), systemic
   (Still disease), enthesitis-related, and psoriatic subtypes. Leading cause of acquired
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: juvenile_idiopathic_arthritis
 permalink: /garden/demo_user/condition/juvenile-idiopathic-arthritis/
+provenance: curated
 slug: juvenile-idiopathic-arthritis
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Juvenile Idiopathic Arthritis
 type: condition
-updated: '2026-06-13T17:47:11.440378Z'
+updated: '2026-08-20T04:08:29.634814Z'
 ---
 
 {% raw %}
@@ -35,16 +36,16 @@ updated: '2026-06-13T17:47:11.440378Z'
 <p>RELATED::<a href="/garden/demo_user/condition/rheumatoid-arthritis/" class="internal-link">Rheumatoid Arthritis</a><br />
 RELATED::<a href="/garden/demo_user/condition/rheumatic-diseases/" class="internal-link">Rheumatic Diseases</a></p>
 <h3>Associated Biomarkers</h3>
-<p>ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">hs-CRP</a><br />
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/esr/" class="internal-link">esr</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/tnf-alpha/" class="internal-link">TNF Alpha</a></p>
 <h3>Improved By Supplement</h3>
 <p>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
-IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a></p>
+IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a></p>
 <h3>Improved By Intervention</h3>
 <p>IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/exercise/" class="internal-link">Exercise</a><br />
-IMPROVED_BY_INTERVENTION::<a class="internal-link is-unresolved" href="/404">Physical Therapy</a></p>
+IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/physical-therapy/" class="internal-link">Physical Therapy</a></p>
 <h2>References</h2>
 <ul>
 <li>PMID:17264476</li>

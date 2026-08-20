@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.466122Z'
+created: 2026-03-05T00:00:00+0000
 description: Chronic condition characterized by inappropriate and excessive mast cell
   activation and mediator release affecting multiple organ systems. Distinct from
   mastocytosis (clonal mast cell proliferation). Mast cells degranulate in response
@@ -10,9 +10,12 @@ description: Chronic condition characterized by inappropriate and excessive mast
   therapy.
 dg-home: false
 dg-publish: true
+evidence_level: 3
 gardenUsername: demo_user
 id: mcas
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/mcas/
+provenance: curated
 slug: mcas
 source: Manual
 tags:
@@ -24,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: MCAS
 type: condition
-updated: '2026-06-13T17:47:11.466122Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -54,7 +57,7 @@ updated: '2026-06-13T17:47:11.466122Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/condition/long-covid/" class="internal-link">Long COVID</a><br />
-RELATED::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
 RELATED::<a href="/garden/demo_user/condition/leaky-gut/" class="internal-link">Leaky Gut</a><br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/histamine/" class="internal-link">Histamine</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></p>
@@ -68,5 +71,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-c/" class=
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/palmitoylethanolamide/" class="internal-link">Palmitoylethanolamide</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/probiotics/" class="internal-link">Probiotics</a></p>
+<h2>References</h2>
+<ul>
+<li>Akin C. Immunol Allergy Clin North Am. 2018;38(3):401-409. Mast cell activation syndromes (review) (PMID: 30007219)</li>
+<li>Valent P, Akin C, Arock M, et al. Int Arch Allergy Immunol. 2012;157(3):215-225. Definitions, criteria and global classification of mast cell disorders (PMID: 22041821)</li>
+<li>Hamilton MJ, Hornick JL, Akin C, Castells MC, Greenberger NJ. Gastroenterol Clin North Am. 2014;43(4):735-748. Mast cell activation syndrome (review) (PMID: 25216916)</li>
+</ul>
 
 {% endraw %}

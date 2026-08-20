@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.982316Z'
+created: 2026-01-03T17:55:41+0000
 description: The mechanistic target of rapamycin (mTOR) pathway is a central regulator
   of cell growth, proliferation, and metabolism, integrating nutrient and growth factor
   signals to control anabolic processes.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: mtor_pathway
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/mtor-pathway/
+provenance: curated
 slug: mtor-pathway
 source: Manual
 tags:
@@ -21,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: mTOR Pathway
 type: pathway
-updated: '2026-06-13T17:47:13.982316Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -61,5 +63,9 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/homa-ir/" class="internal-li
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/diabetes/" class="internal-link">Diabetes</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/weight-gain/" class="internal-link">Weight Gain</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimer's Disease</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

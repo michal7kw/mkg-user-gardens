@@ -1,13 +1,16 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:12.055093Z'
+created: 2026-01-03T17:55:38+0000
 description: Deliberate exposure to cold temperatures (e.g., ice baths, cold showers)
   to trigger hormetic stress responses and metabolic benefits.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: cold_exposure
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/intervention/cold-exposure/
+provenance: curated
 slug: cold-exposure
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Cold Exposure
 type: intervention
-updated: '2026-06-13T17:47:12.055093Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -72,13 +75,17 @@ RELATED::<a href="/garden/demo_user/cellularcomponent/mitochondria/" class="inte
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a> (cold showers associated with reduced depressive symptoms, Evidence Level 3b)</p>
 <h3>Modulates Hormone</h3>
 <p>MODULATES_HORMONE::<a href="/garden/demo_user/neurotransmitter/norepinephrine/" class="internal-link">Norepinephrine</a> (200-300% increase within minutes, Evidence Level 2b)<br />
-MODULATES_HORMONE::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a> (acute transient increase during exposure, Evidence Level 2b)<br />
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a> (acute transient increase during exposure, Evidence Level 2b)<br />
 MODULATES_HORMONE::<a href="/garden/demo_user/labtest/adiponectin/" class="internal-link">adiponectin</a> (increased with regular cold exposure, Evidence Level 3a)</p>
 <h3>Modulates Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a> (anti-inflammatory effect with regular practice, Evidence Level 2b)</p>
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (anti-inflammatory effect with regular practice, Evidence Level 2b)</p>
 <h3>Affects Brain Region</h3>
 <p>AFFECTS_BRAIN_REGION::<a class="internal-link is-unresolved" href="/404">Locus Coeruleus</a> (primary source of norepinephrine surge, Evidence Level 2b)</p>
 <h3>Improves Function</h3>
 <p>IMPROVES_FUNCTION::<a href="/garden/demo_user/cognitivefunction/emotional-regulation/" class="internal-link">Emotional Regulation</a> (stress inoculation builds mental resilience, Evidence Level 3a)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

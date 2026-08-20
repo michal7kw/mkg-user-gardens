@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.269792Z'
+created: 2026-03-05T00:00:00+0000
 description: Coenzyme A (CoA) is an essential metabolic cofactor derived from pantothenic
   acid (vitamin B5), cysteine, and ATP. Its reactive terminal thiol group carries
   acyl groups as thioesters, enabling fatty acid oxidation, citric acid cycle function,
@@ -13,6 +13,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: coenzyme_a
 permalink: /garden/demo_user/metabolite/coenzyme-a/
+provenance: curated
 pubchem_id: '87642'
 slug: coenzyme-a
 source: Manual
@@ -26,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Coenzyme A
 type: metabolite
-updated: '2026-06-13T17:47:13.269792Z'
+updated: '2026-08-20T04:08:31.132463Z'
 ---
 
 {% raw %}

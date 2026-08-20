@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.88
-created: '2026-06-13T17:47:13.451982Z'
+created: 2026-05-27T12:00:00+0000
 description: Malonyl-CoA is the central regulatory metabolite of lipid metabolism.
   Produced from acetyl-CoA by acetyl-CoA carboxylase (ACC), it is the building block
   of fatty-acid synthesis and a potent inhibitor of CPT-1, the gatekeeper of mitochondrial
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: malonyl_coa
 permalink: /garden/demo_user/metabolite/malonyl-coa/
+provenance: curated
 pubchem_id: '644066'
 slug: malonyl-coa
 source: PubMed
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Malonyl-CoA
 type: metabolite
-updated: '2026-06-13T17:47:13.451982Z'
+updated: '2026-08-20T04:08:31.182928Z'
 ---
 
 {% raw %}

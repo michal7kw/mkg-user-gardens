@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:14.486158Z'
+created: 2026-01-03T17:55:39+0000
 description: Natural polyamine that induces autophagy via inhibition of acetyltransferase
   EP300 (p300). Endogenous levels decline with age, and this decline correlates with
   reduced autophagy and increased age-related pathology. Found in wheat germ, soybeans,
@@ -13,6 +13,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: spermidine
 permalink: /garden/demo_user/supplement/spermidine/
+provenance: curated
 pubchem_id: '1102'
 slug: spermidine
 source: Manual
@@ -30,7 +31,7 @@ tags:
 templateEngineOverride: njk
 title: Spermidine
 type: supplement
-updated: '2026-06-13T17:47:14.486158Z'
+updated: '2026-08-20T04:08:32.057407Z'
 ---
 
 {% raw %}
@@ -187,7 +188,7 @@ updated: '2026-06-13T17:47:14.486158Z'
 RELATED::<a href="/garden/demo_user/pathway/ampk-pathway/" class="internal-link">AMPK Pathway</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Hippocampus</a></p>
 <h3>Modulates Pathway</h3>
-<p>MODULATES_PATHWAY::<a class="internal-link is-unresolved" href="/404">Autophagy-Lysosomal Pathway</a></p>
+<p>MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/autophagy-lysosomal-pathway/" class="internal-link">Autophagy-Lysosomal Pathway</a></p>
 <h3>Affects Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a></p>
 <h3>May Improve Condition</h3>

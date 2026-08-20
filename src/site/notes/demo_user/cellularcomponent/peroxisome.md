@@ -1,15 +1,18 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.099779Z'
+created: 2026-03-05T00:00:00+0000
 description: Single-membrane organelle containing oxidative enzymes, primarily catalase
   and various oxidases. Specializes in very-long-chain fatty acid beta-oxidation,
   plasmalogen synthesis, and reactive oxygen species (ROS) detoxification. Plays a
   key role in lipid metabolism and cellular redox homeostasis.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: peroxisome
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/cellularcomponent/peroxisome/
+provenance: curated
 slug: peroxisome
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Peroxisome
 type: cellularcomponent
-updated: '2026-06-13T17:47:11.099779Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -32,5 +35,10 @@ updated: '2026-06-13T17:47:11.099779Z'
 <h3>Related</h3>
 <p>PART_OF::<a href="/garden/demo_user/cellularcomponent/mitochondria/" class="internal-link">Mitochondria</a><br />
 PART_OF::<a href="/garden/demo_user/cellularcomponent/endoplasmic-reticulum/" class="internal-link">Endoplasmic Reticulum</a></p>
+<h2>References</h2>
+<ul>
+<li>Alberts B, et al. Molecular Biology of the Cell. 6th ed. Garland Science; 2014 (textbook reference)</li>
+<li>Lodish H, et al. Molecular Cell Biology. 8th ed. W.H. Freeman; 2016 (textbook reference)</li>
+</ul>
 
 {% endraw %}

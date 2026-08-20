@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:13.805274Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:40+0000
 description: Peripheral nervous system including sensory and motor neurons. Transmit
   signals between the central nervous system and the rest of the body.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: nerves
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/organ/nerves/
+provenance: curated
 slug: nerves
 source: Manual
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Nerves
 type: organ
-updated: '2026-06-13T17:47:13.805274Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -46,5 +49,9 @@ REQUIRES_NUTRIENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" c
 CONNECTED_TO::<a href="/garden/demo_user/organ/muscles/" class="internal-link">Muscles</a> (Motor neurons innervate skeletal muscle fibers at the neuromuscular junction, Evidence Level 1a)<br />
 CONNECTED_TO::<a href="/garden/demo_user/organ/gut/" class="internal-link">Gut</a> (Enteric nervous system and vagus nerve mediate gut-brain axis communication, Evidence Level 1a)<br />
 RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a> (Magnesium regulates nerve excitability and neuromuscular transmission, Evidence Level 1b)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (textbook reference)</li>
+</ul>
 
 {% endraw %}

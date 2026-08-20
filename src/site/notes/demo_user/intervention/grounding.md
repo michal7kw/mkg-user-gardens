@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.55
-created: '2026-06-13T17:47:12.066370Z'
+created: 2026-03-05T00:00:00+0000
 description: Practice of direct physical contact with the Earth's surface (barefoot
   walking, lying on ground) or using conductive systems connected to ground. Proposed
   mechanism involves transfer of free electrons from Earth's surface, reducing inflammation
@@ -8,9 +8,12 @@ description: Practice of direct physical contact with the Earth's surface (baref
   studies showing improved sleep, pain, and inflammatory markers.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: grounding
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/intervention/grounding/
+provenance: curated
 slug: grounding
 source: Manual
 tags:
@@ -22,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Grounding
 type: intervention
-updated: '2026-06-13T17:47:12.066370Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -56,14 +59,18 @@ updated: '2026-06-13T17:47:12.066370Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/intervention/sleep-optimization/" class="internal-link">Sleep Optimization</a> (grounding may improve sleep quality)<br />
-RELATED::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a> (electron transfer proposed to reduce oxidative stress)<br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a> (electron transfer proposed to reduce oxidative stress)<br />
 RELATED::<a href="/garden/demo_user/intervention/walking/" class="internal-link">Walking</a> (barefoot walking combines grounding with exercise)<br />
 RELATED::<a href="/garden/demo_user/intervention/yoga/" class="internal-link">Yoga</a> (outdoor yoga on grass combines both practices)<br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/chronic-pain/" class="internal-link">Chronic Pain</a> (pilot data shows DOMS and pain reduction, Evidence Level 3b)</p>
 <h3>Modulates Hormone</h3>
-<p>MODULATES_HORMONE::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a> (may normalize diurnal cortisol rhythm, Evidence Level 4)<br />
+<p>MODULATES_HORMONE::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a> (may normalize diurnal cortisol rhythm, Evidence Level 4)<br />
 MODULATES_HORMONE::<a href="/garden/demo_user/hormone/melatonin/" class="internal-link">Melatonin</a> (cortisol normalization may improve melatonin secretion, Evidence Level 4)</p>
 <h3>Modulates Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a> (preliminary anti-inflammatory signal, Evidence Level 4)</p>
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (preliminary anti-inflammatory signal, Evidence Level 4)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

@@ -2,7 +2,7 @@
 aliases:
 - platelet count
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.706522Z'
+created: '2026-01-19T08:30:03.857404+00:00'
 description: Tested twice a year Platelet count measures the number of platelets—tiny
   blood cells that help blood clot and support healing. Low counts (thrombocytopenia)
   can make bruising or bleeding more noticeable, while high counts (thrombocytosis)
@@ -15,6 +15,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-platelet-count
 permalink: /garden/demo_user/labtest/platelet-count/
+provenance: curated
 slug: platelet-count
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: platelet_count
 type: labtest
-updated: '2026-06-13T17:47:12.706522Z'
+updated: '2026-08-20T04:08:30.851172Z'
 ---
 
 {% raw %}
@@ -48,6 +49,10 @@ updated: '2026-06-13T17:47:12.706522Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -58,6 +63,18 @@ updated: '2026-06-13T17:47:12.706522Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -70,18 +87,18 @@ updated: '2026-06-13T17:47:12.706522Z'
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Liver Dysfunction</a><br />
+<p>RELATED::<a href="/garden/demo_user/condition/liver-dysfunction/" class="internal-link">Liver Dysfunction</a><br />
 RELATED::<a href="/garden/demo_user/condition/iron-deficiency-anemia/" class="internal-link">Iron Deficiency Anemia</a><br />
-RELATED::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
 RELATED::<a href="/garden/demo_user/condition/bone-marrow-disorder/" class="internal-link">Bone Marrow Disorder</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Thrombocytopenia Low Platelets</a></p>
 <h3>May Detect</h3>
 <p>MAY_DETECT::<a href="/garden/demo_user/condition/iron-deficiency-anemia/" class="internal-link">Iron Deficiency Anemia</a><br />
-MAY_DETECT::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+MAY_DETECT::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
 MAY_DETECT::<a href="/garden/demo_user/condition/bone-marrow-disorder/" class="internal-link">Bone Marrow Disorder</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/bone-marrow-disorder/" class="internal-link">Bone Marrow Disorder</a><br />
-ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
+ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

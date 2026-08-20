@@ -92,7 +92,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.293487Z'
+created: '2026-01-19T08:30:04.223323+00:00'
 description: ess-tih-may-tid gloh-mer-yoo-lur fil-tray-shun rayt Tested twice a year
   Estimated glomerular filtration rate (eGFR) is a calculation that shows how well
   the kidneys are filtering waste from the blood. Low eGFR can signal reduced kidney
@@ -106,6 +106,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-creatinine-based-estimated-glomerular-filtration-rate-egfr
 permalink: /garden/demo_user/labtest/creatinine-based-estimated-glomerular-filtration-rate-egfr/
+provenance: curated
 slug: creatinine-based-estimated-glomerular-filtration-rate-egfr
 source: Manual
 tags:
@@ -113,7 +114,7 @@ tags:
 templateEngineOverride: njk
 title: creatinine_based_estimated_glomerular_filtration_rate_egfr
 type: labtest
-updated: '2026-06-13T17:47:12.293487Z'
+updated: '2026-08-20T04:08:30.594245Z'
 ---
 
 {% raw %}
@@ -139,6 +140,10 @@ updated: '2026-06-13T17:47:12.293487Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -150,6 +155,18 @@ updated: '2026-06-13T17:47:12.293487Z'
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -160,6 +177,8 @@ updated: '2026-06-13T17:47:12.293487Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/biomarker/egfr/" class="internal-link">EGFR</a></p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/condition/chronic-kidney-disease/" class="internal-link">Chronic Kidney Disease</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Diabetes-Related Kidney Disease</a><br />

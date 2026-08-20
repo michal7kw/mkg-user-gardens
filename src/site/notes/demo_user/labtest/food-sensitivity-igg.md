@@ -2,7 +2,7 @@
 aliases:
 - food sensitivity igg
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.358118Z'
+created: 2025-12-10T09:07:57+0000
 description: 'Tests IgG antibodies to 100+ foods. Note: IgG food sensitivity testing
   has limited clinical evidence.'
 dg-home: false
@@ -11,6 +11,7 @@ evidence_level: 2
 gardenUsername: demo_user
 id: test-food-sensitivity-001
 permalink: /garden/demo_user/labtest/food-sensitivity-igg/
+provenance: curated
 slug: food-sensitivity-igg
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: food_sensitivity_igg
 type: labtest
-updated: '2026-06-13T17:47:12.358118Z'
+updated: '2026-08-20T04:08:30.654021Z'
 ---
 
 {% raw %}
@@ -44,6 +45,10 @@ updated: '2026-06-13T17:47:12.358118Z'
 <td>Food Sensitivity</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -54,6 +59,18 @@ updated: '2026-06-13T17:47:12.358118Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>10-21 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$199-$399</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>

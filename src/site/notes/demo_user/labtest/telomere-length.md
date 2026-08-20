@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.819315Z'
+created: 2025-12-10T09:07:57+0000
 description: Measures average telomere length. Shorter telomeres associated with cellular
   aging.
 dg-home: false
@@ -9,6 +9,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: test-telomere-001
 permalink: /garden/demo_user/labtest/telomere-length/
+provenance: curated
 slug: telomere-length
 source: Manual
 tags:
@@ -16,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: telomere_length
 type: labtest
-updated: '2026-06-13T17:47:12.819315Z'
+updated: '2026-08-20T04:08:30.916101Z'
 ---
 
 {% raw %}
@@ -42,6 +43,10 @@ updated: '2026-06-13T17:47:12.819315Z'
 <td>Telomere Length</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -52,6 +57,18 @@ updated: '2026-06-13T17:47:12.819315Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>14-28 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$199-$349</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -64,7 +81,7 @@ updated: '2026-06-13T17:47:12.819315Z'
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
 <p>RELATED::<a href="/garden/demo_user/cellularcomponent/telomere/" class="internal-link">Telomere</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Aging</a></p>
+RELATED::<a href="/garden/demo_user/pathway/aging/" class="internal-link">Aging</a></p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

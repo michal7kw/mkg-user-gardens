@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.666505Z'
+confidence_score: 0.95
+created: 2026-03-28T12:00:00+0000
 description: Acute cerebrovascular event caused by interrupted blood supply (ischemic,
   87%) or bleeding (hemorrhagic, 13%) in the brain, leading to rapid loss of neurological
   function.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: stroke
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/stroke/
+provenance: curated
 slug: stroke
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Stroke
 type: condition
-updated: '2026-06-13T17:47:11.666505Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -65,5 +68,11 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/fibrinogen/" class="internal
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/d-dimer/" class="internal-link">D-Dimer</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Cerebral_Arteries</a></p>
+<h2>References</h2>
+<ul>
+<li>Powers WJ, Rabinstein AA, Ackerson T, et al. Stroke. 2019;50(12):e344-e418. AHA/ASA Guideline for Early Management of Patients With Acute Ischemic Stroke (PMID: 31662037)</li>
+<li>Kernan WN, Ovbiagele B, Black HR, et al. Stroke. 2014;45(7):2160-2236. AHA/ASA Guideline for the Prevention of Stroke in Patients With Stroke and TIA (PMID: 24788967)</li>
+<li>Jauch EC, Saver JL, Adams HP Jr, et al. Stroke. 2013;44(3):870-947. Guidelines for the early management of patients with acute ischemic stroke (PMID: 23370205)</li>
+</ul>
 
 {% endraw %}

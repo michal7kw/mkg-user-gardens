@@ -8,21 +8,32 @@ country_regulatory:
       class C
     prescription_type: RR
     reimbursement_class: A
+  pl:
+    agency_status: approved
+    atc_code: A02BC01
+    notes: URPL/EMA-approved; small low-dose packs sold OTC (brands Polprazol, Bioprazol,
+      Helicid), prescription packs are Rp and reimbursed on the NFZ list (odpłatność
+      ryczałtowa); Polish name omeprazol
+    prescription_type: OTC/Rp
+    reimbursement_class: refundowany (prescription) / 100% (OTC packs)
   uk:
     agency_status: MHRA-approved
     atc_code: A02BC01
     notes: BNF; low-dose P (pharmacy) packs sold OTC for short-term reflux
     prescription_type: POM
     reimbursement_class: NHS
-created: '2026-06-13T17:47:11.857826Z'
+created: 2026-01-03T17:55:41+0000
 description: Proton pump inhibitor (PPI) for acid-related disorders. Irreversibly
   inhibits gastric H+/K+ ATPase, reducing stomach acid production. One of the most
   prescribed medications globally.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: omeprazole
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/omeprazole/
+provenance: curated
 slug: omeprazole
 source: Manual
 tags:
@@ -35,7 +46,7 @@ tags:
 templateEngineOverride: njk
 title: Omeprazole
 type: drug
-updated: '2026-06-13T17:47:11.857826Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -57,5 +68,9 @@ updated: '2026-06-13T17:47:11.857826Z'
 <h2>Relationships</h2>
 <h3>Interacts With</h3>
 <p>INTERACTS_WITH::<a href="/garden/demo_user/drug/imipramine/" class="internal-link">Imipramine</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

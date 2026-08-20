@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.653739Z'
+confidence_score: 0.8
+created: 2026-01-18T16:02:34+0000
 description: A broad category of conditions that disrupt normal sleep patterns, affecting
   the quality, timing, and amount of sleep.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: sleep_disorder
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/sleep-disorder/
+provenance: curated
 slug: sleep-disorder
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Sleep Disorder
 type: condition
-updated: '2026-06-13T17:47:11.653739Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -55,7 +58,7 @@ updated: '2026-06-13T17:47:11.653739Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Risk Biomarkers</h3>
-<p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin D (25-OH)</a></p>
@@ -65,5 +68,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class=
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/l-theanine/" class="internal-link">L-Theanine</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/glycine/" class="internal-link">Glycine</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/ashwagandha/" class="internal-link">Ashwagandha</a></p>
+<h2>References</h2>
+<ul>
+<li>Sateia MJ, Buysse DJ, Krystal AD, Neubauer DN, Heald JL. J Clin Sleep Med. 2021;17(2):255-262. Clinical practice guideline for the pharmacologic treatment of chronic insomnia (PMID: 33794301)</li>
+<li>Edinger JD, Arnedt JT, Bertisch SM, et al. J Clin Sleep Med. 2021;17(2):255-262. Behavioral and psychological treatments for chronic insomnia (PMID: 33443580)</li>
+<li>Krystal AD, Prather AA, Ashbrook LH. Lancet. 2019;393(10179):1545-1557. The assessment and management of insomnia (review) (PMID: 30910454)</li>
+</ul>
 
 {% endraw %}

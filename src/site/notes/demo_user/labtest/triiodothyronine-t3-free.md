@@ -2,7 +2,7 @@
 aliases:
 - triiodothyronine t3 free
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.931288Z'
+created: '2026-01-19T08:30:01.337221+00:00'
 description: try-eye-oh-doh-thigh-ruh-neen tee-three free Triiodothyronine (T3) Free
   is the active thyroid hormone that directly regulates metabolism, energy levels,
   and body temperature. Most T3 is made by converting T4 into this active form. Measuring
@@ -14,6 +14,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-triiodothyronine-t3-free
 permalink: /garden/demo_user/labtest/triiodothyronine-t3-free/
+provenance: curated
 slug: triiodothyronine-t3-free
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: triiodothyronine_t3_free
 type: labtest
-updated: '2026-06-13T17:47:12.931288Z'
+updated: '2026-08-20T04:08:30.966365Z'
 ---
 
 {% raw %}
@@ -47,6 +48,10 @@ updated: '2026-06-13T17:47:12.931288Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -57,6 +62,18 @@ updated: '2026-06-13T17:47:12.931288Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -69,7 +86,7 @@ updated: '2026-06-13T17:47:12.931288Z'
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Hypothyroidism</a><br />
+<p>RELATED::<a href="/garden/demo_user/condition/hypothyroidism/" class="internal-link">Hypothyroidism</a><br />
 RELATED::<a href="/garden/demo_user/condition/graves-disease/" class="internal-link">Graves Disease</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Euthyroid Sick Syndrome Low T3 Syndrome In Critical Illness</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Thyroiditis</a><br />

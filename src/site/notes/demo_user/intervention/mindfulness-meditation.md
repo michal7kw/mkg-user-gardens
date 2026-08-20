@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:12.092939Z'
+created: '2026-04-01T19:57:52.320833+00:00'
 description: Secular attention-training practice derived from Buddhist Vipassana tradition.
   Involves non-judgmental present-moment awareness of thoughts, sensations, and emotions.
   Distinct from other meditation forms in its emphasis on metacognitive awareness
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: mindfulness_meditation
 permalink: /garden/demo_user/intervention/mindfulness-meditation/
+provenance: curated
 slug: mindfulness-meditation
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Mindfulness Meditation
 type: intervention
-updated: '2026-06-13T17:47:12.092939Z'
+updated: '2026-08-20T04:08:30.402323Z'
 ---
 
 {% raw %}
@@ -56,12 +57,12 @@ updated: '2026-06-13T17:47:12.092939Z'
 <h2>Relationships</h2>
 <h3>Affects Biomarker</h3>
 <!-- seeded: intervention coverage (mirror_intervention_edges_to_markdown.py) -->
-<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">Cortisol</a> (Evidence Level 4)<br />
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">Cortisol</a> (Evidence Level 4)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/cortisol-am/" class="internal-link">Cortisol (AM)</a> (Evidence Level 4)</p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/intervention/meditation/" class="internal-link">Meditation</a><br />
 RELATED::<a href="/garden/demo_user/intervention/yoga/" class="internal-link">Yoga</a><br />
-MODULATES_HORMONE::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Prefrontal Cortex</a></p>
 <h3>Modulates Hormone</h3>
 <p>MODULATES_HORMONE::<a href="/garden/demo_user/hormone/melatonin/" class="internal-link">Melatonin</a></p>

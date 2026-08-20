@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:13.827281Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:40+0000
 description: Largest organ of the body providing barrier protection, temperature regulation,
   sensation, and vitamin D synthesis. Reflects internal health status.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: skin
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/organ/skin/
+provenance: curated
 slug: skin
 source: Manual
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Skin
 type: organ
-updated: '2026-06-13T17:47:13.827281Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -54,5 +57,9 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/psoriasis/" clas
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/acne-vulgaris/" class="internal-link">Acne Vulgaris</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/melanoma/" class="internal-link">Melanoma</a><br />
 ASSOCIATED_WITH_CONDITION::<a class="internal-link is-unresolved" href="/404">Non-Melanoma Skin Cancer</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (textbook reference)</li>
+</ul>
 
 {% endraw %}

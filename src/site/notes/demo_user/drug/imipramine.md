@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.802544Z'
+created: 2026-01-03T17:55:38+0000
 description: The first tricyclic antidepressant (TCA) developed. Used for depression
   and nocturnal enuresis (bedwetting) in children.
 dg-home: false
@@ -8,7 +8,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: imipramine
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/imipramine/
+provenance: curated
 slug: imipramine
 source: Manual
 tags:
@@ -21,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Imipramine
 type: drug
-updated: '2026-06-13T17:47:11.802544Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -40,7 +42,7 @@ updated: '2026-06-13T17:47:11.802544Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Histamine H1 Receptor</a><br />
+<p>RELATED::<a href="/garden/demo_user/protein/histamine-h1-receptor/" class="internal-link">Histamine H1 Receptor</a><br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/drug/piracetam/" class="internal-link">Piracetam</a><br />
 RELATED::<a href="/garden/demo_user/condition/panic-disorder/" class="internal-link">Panic Disorder</a><br />
@@ -53,9 +55,13 @@ RELATED::<a class="internal-link is-unresolved" href="/404">Plantago ovata seed<
 INTERACTS_WITH::<a href="/garden/demo_user/drug/omeprazole/" class="internal-link">Omeprazole</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">NET</a><br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/acetylcholine/" class="internal-link">Acetylcholine</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Muscarinic Acetylcholine Receptor</a><br />
+RELATED::<a href="/garden/demo_user/protein/muscarinic-acetylcholine-receptor/" class="internal-link">Muscarinic Acetylcholine Receptor</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Technetium Tc-99m mebrofenin</a><br />
 RELATED::<a href="/garden/demo_user/protein/sert/" class="internal-link">SERT</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/drug/memantine/" class="internal-link">Memantine</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

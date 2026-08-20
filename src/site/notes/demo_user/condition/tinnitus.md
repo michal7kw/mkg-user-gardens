@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.681567Z'
+confidence_score: 0.75
+created: 2026-03-28T12:00:00+0000
 description: Perception of sound (ringing, buzzing, hissing, or roaring) in one or
   both ears without an external acoustic source, affecting 10-15% of adults.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: tinnitus
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/tinnitus/
+provenance: curated
 slug: tinnitus
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Tinnitus
 type: condition
-updated: '2026-06-13T17:47:11.681567Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -67,5 +70,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/b-complex-vitamins
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Auditory_Cortex</a></p>
+<h2>References</h2>
+<ul>
+<li>Baguley D, McFerran D, Hall D. Lancet. 2013;382(9904):1600-1607. Tinnitus (review) (PMID: 23822890)</li>
+<li>Jastreboff PJ, Hazell JW. Cambridge University Press; 2004. Tinnitus retraining therapy (book)</li>
+<li>Cima RFF, Maes IH, Joore MA, et al. Lancet. 2012;379(9830):1951-1960. Specialised treatment based on cognitive behaviour therapy vs usual care for tinnitus (PMID: 22405281)</li>
+</ul>
 
 {% endraw %}

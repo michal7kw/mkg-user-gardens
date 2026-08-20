@@ -7,13 +7,20 @@ country_regulatory:
     notes: Reimbursed for depressive and anxiety disorders
     prescription_type: RR
     reimbursement_class: A
+  pl:
+    agency_status: approved
+    atc_code: N06AB10
+    notes: URPL/EMA-approved; reimbursed SSRI for depressive and anxiety disorders
+      on the NFZ list (odpłatność ryczałtowa/30% by indication); Polish name escytalopram
+    prescription_type: Rp
+    reimbursement_class: refundowany
   uk:
     agency_status: MHRA-approved
     atc_code: N06AB10
     notes: BNF; SSRI for depression and anxiety
     prescription_type: POM
     reimbursement_class: NHS
-created: '2026-06-13T17:47:11.771798Z'
+created: 2026-04-01T12:00:00+0000
 description: The S-enantiomer of citalopram (Lexapro), considered the most selective
   and best-tolerated SSRI. Removed the pharmacologically inactive R-enantiomer, reducing
   dose requirement and potentially improving the QT safety profile. FDA-approved for
@@ -25,6 +32,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: escitalopram
 permalink: /garden/demo_user/drug/escitalopram/
+provenance: curated
 slug: escitalopram
 source: Manual
 tags:
@@ -36,7 +44,7 @@ tags:
 templateEngineOverride: njk
 title: Escitalopram
 type: drug
-updated: '2026-06-13T17:47:11.771798Z'
+updated: '2026-08-20T04:08:30.091490Z'
 ---
 
 {% raw %}
@@ -110,7 +118,7 @@ INHIBITS::<a href="/garden/demo_user/protein/sert/" class="internal-link">SERT</
 TREATS::<a href="/garden/demo_user/condition/anxiety/" class="internal-link">Anxiety</a></p>
 <h3>Metabolized By</h3>
 <p>METABOLIZED_BY::<a href="/garden/demo_user/protein/cyp2c19/" class="internal-link">CYP2C19</a><br />
-METABOLIZED_BY::<a href="/garden/demo_user/gene/cyp3a4/" class="internal-link">CYP3A4</a></p>
+METABOLIZED_BY::<a href="/garden/demo_user/protein/cyp3a4/" class="internal-link">CYP3A4</a></p>
 <h3>Modulates Neurotransmitter</h3>
 <p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a></p>
 <h3>Interacts With</h3>

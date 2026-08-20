@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.525065Z'
+created: 2026-01-22T12:00:00+0000
 description: Pyruvate is the three-carbon alpha-ketoacid end product of glycolysis
   and the central metabolic crossroads of cellular biochemistry. It serves as the
   critical branch point connecting glycolysis to mitochondrial oxidative metabolism
@@ -13,6 +13,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: pyruvate
 permalink: /garden/demo_user/metabolite/pyruvate/
+provenance: curated
 pubchem_id: '1060'
 slug: pyruvate
 source: Manual
@@ -27,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Pyruvate
 type: metabolite
-updated: '2026-06-13T17:47:13.525065Z'
+updated: '2026-08-20T04:08:31.211861Z'
 ---
 
 {% raw %}
@@ -102,7 +103,7 @@ RELATED::<a href="/garden/demo_user/metabolite/alpha-ketoglutarate/" class="inte
 RELATED::<a href="/garden/demo_user/metabolite/ketone-bodies/" class="internal-link">Ketone Bodies</a></p>
 <h3>Related Hormones</h3>
 <p>RELATED::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">Insulin</a><br />
-RELATED::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">Cortisol</a></p>
+RELATED::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">Cortisol</a></p>
 <h3>Related Supplements</h3>
 <p>RELATED::<a href="/garden/demo_user/supplement/thiamine/" class="internal-link">Thiamine</a><br />
 RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />

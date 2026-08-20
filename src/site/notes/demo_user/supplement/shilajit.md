@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.65
-created: '2026-06-13T17:47:14.480997Z'
+confidence_score: 0.6
+created: 2026-03-05T00:00:00+0000
 description: Mineral-rich exudate found in high-altitude rock formations (Himalayas,
   Altai, Caucasus), formed over centuries from decomposed plant matter. Contains fulvic
   acid, dibenzo-alpha-pyrones (DBPs), and 80+ trace minerals. Traditional Ayurvedic
@@ -12,7 +12,9 @@ dg-publish: true
 evidence_level: 2
 gardenUsername: demo_user
 id: shilajit
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/shilajit/
+provenance: curated
 pubchem_id: '5359407'
 slug: shilajit
 source: Manual
@@ -25,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Shilajit
 type: supplement
-updated: '2026-06-13T17:47:14.480997Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -54,5 +56,11 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/sarcopenia/" class="
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a> (Fulvic acid crosses BBB; antioxidant and anti-inflammatory neuroprotection with cognitive benefits in preclinical models, Evidence Level 2a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/muscles/" class="internal-link">Muscles</a> (Enhances mitochondrial ATP production and CoQ10 synergy supporting muscle energy and recovery, Evidence Level 2a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/kidneys/" class="internal-link">Kidneys</a> (Traditional Ayurvedic use for kidney support; fulvic acid enhances mineral bioavailability, Evidence Level 2a)</p>
+<h2>References</h2>
+<ul>
+<li>Aggarwal SP, et al. Phytother Res. 2013;27(8):1177-1182. Shilajit in chronic fatigue (PMID: 23349048)</li>
+<li>Schepetkin IA, et al. Immunobiology. 2002;205(3):367-379. Fulvic acid and immune function (PMID: 12432550)</li>
+<li>Keller J, et al. Nat Prod Commun. 2019. Shilajit (review)</li>
+</ul>
 
 {% endraw %}

@@ -1,13 +1,14 @@
 ---
 aliases:
 - 08_Supplements_and_Stacks
-created: '2026-06-13T17:47:14.600368Z'
+created: '2026-08-20T04:08:32.171480Z'
 description: Managing supplements, adopting curated health stacks, personalized recommendations,
   and drug interaction checking
 dg-home: false
 dg-publish: true
 gardenUsername: demo_user
 permalink: /garden/demo_user/users_guide/supplements-and-health-stacks/
+provenance: curated
 slug: supplements-and-health-stacks
 tags:
 - users_guide
@@ -15,7 +16,7 @@ tags:
 templateEngineOverride: njk
 title: Supplements and Health Stacks
 type: users_guide
-updated: '2026-06-13T17:47:14.600368Z'
+updated: '2026-08-20T04:08:32.171480Z'
 ---
 
 {% raw %}

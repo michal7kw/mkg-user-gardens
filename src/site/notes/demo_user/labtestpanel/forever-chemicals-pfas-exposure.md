@@ -2,7 +2,7 @@
 aliases:
 - forever chemicals pfas exposure
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.114542Z'
+created: 2026-01-18T16:48:42+0000
 description: Tests blood for exposure to “forever chemicals” (PFAS), harmful substances
   linked to health risks like endocrine disruption, metabolic disorders, and cancer.
   Most people are unaware of their exposure to “forever chemicals,” or per- and polyfluoroalkyl
@@ -22,6 +22,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-forever-chemicals-pfas-exposure
 permalink: /garden/demo_user/labtestpanel/forever-chemicals-pfas-exposure/
+provenance: curated
 slug: forever-chemicals-pfas-exposure
 source: Manual
 tags:
@@ -29,7 +30,7 @@ tags:
 templateEngineOverride: njk
 title: forever_chemicals_pfas_exposure
 type: labtestpanel
-updated: '2026-06-13T17:47:13.114542Z'
+updated: '2026-08-20T04:08:31.060753Z'
 ---
 
 {% raw %}
@@ -58,7 +59,8 @@ updated: '2026-06-13T17:47:13.114542Z'
 <li>Residents of communities near PFAS-contaminated sites or military bases</li>
 </ul>
 <h2>Relationships</h2>
-<p>USED_FOR::<a class="internal-link is-unresolved" href="/404">Environmental Toxicity</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/pfas-panel/" class="internal-link">pfas_panel</a><br />
+USED_FOR::<a class="internal-link is-unresolved" href="/404">Environmental Toxicity</a><br />
 RELATED::<a href="/garden/demo_user/labtest/lead/" class="internal-link">lead</a><br />
 RELATED::<a href="/garden/demo_user/labtest/mercury/" class="internal-link">mercury</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a><br />

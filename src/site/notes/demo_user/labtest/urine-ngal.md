@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:12.968590Z'
+created: '2026-05-03'
 description: Urinary neutrophil gelatinase-associated lipocalin (NGAL), a 25-kDa lipocalin
   family protein released by injured renal tubular cells. Rises within 2-4 hours of
   tubular injury — well before creatinine. Used in critical care and pediatric AKI
@@ -11,6 +11,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: urine_ngal
 permalink: /garden/demo_user/labtest/urine-ngal/
+provenance: curated
 slug: urine-ngal
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: urine_ngal
 type: labtest
-updated: '2026-06-13T17:47:12.968590Z'
+updated: '2026-08-20T04:08:30.995187Z'
 ---
 
 {% raw %}
@@ -35,8 +36,8 @@ updated: '2026-06-13T17:47:12.968590Z'
 </ul>
 <p>Available as an immunoassay; less specific than NephroCheck but more widely available. Not yet routine in adult outpatient practice.</p>
 <h2>Relationships</h2>
+<p>MEASURES_RISK_OF::<a href="/garden/demo_user/condition/acute-kidney-injury/" class="internal-link">Acute Kidney Injury</a></p>
 <ul>
-<li>MEASURES_RISK_OF <a href="/garden/demo_user/condition/acute-kidney-injury/" class="internal-link">Acute Kidney Injury</a></li>
 <li>INDICATES <a class="internal-link is-unresolved" href="/404">Renal Tubular Injury</a></li>
 </ul>
 

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.159134Z'
+created: '2026-03-11T11:39:48.320418+00:00'
 description: Cognitive capacity to selectively concentrate on relevant stimuli while
   ignoring distractors. Comprises multiple subtypes (sustained, selective, divided,
   executive, orienting) mediated by distinct but overlapping neural circuits. The
@@ -12,6 +12,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: attention_and_focus
 permalink: /garden/demo_user/cognitivefunction/attention-and-focus/
+provenance: curated
 slug: attention-and-focus
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Attention and Focus
 type: cognitivefunction
-updated: '2026-06-13T17:47:11.159134Z'
+updated: '2026-08-20T04:08:29.227845Z'
 ---
 
 {% raw %}
@@ -56,10 +57,10 @@ updated: '2026-06-13T17:47:11.159134Z'
 <h2>Relationships</h2>
 <h3>Supported By Region</h3>
 <p>SUPPORTED_BY_REGION::<a class="internal-link is-unresolved" href="/404">Prefrontal Cortex</a><br />
-SUPPORTED_BY_REGION::<a href="/garden/demo_user/anatomy/cingulate-cortex/" class="internal-link">Cingulate Cortex</a><br />
-SUPPORTED_BY_REGION::<a href="/garden/demo_user/anatomy/parietal-lobe/" class="internal-link">Parietal Lobe</a><br />
+SUPPORTED_BY_REGION::<a href="/garden/demo_user/organ/cingulate-cortex/" class="internal-link">Cingulate Cortex</a><br />
+SUPPORTED_BY_REGION::<a href="/garden/demo_user/organ/parietal-lobe/" class="internal-link">Parietal Lobe</a><br />
 SUPPORTED_BY_REGION::<a class="internal-link is-unresolved" href="/404">Locus Coeruleus</a><br />
-SUPPORTED_BY_REGION::<a href="/garden/demo_user/anatomy/basal-forebrain/" class="internal-link">Basal Forebrain</a></p>
+SUPPORTED_BY_REGION::<a href="/garden/demo_user/organ/basal-forebrain/" class="internal-link">Basal Forebrain</a></p>
 <h3>Modulated By Neurotransmitter</h3>
 <p>MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/norepinephrine/" class="internal-link">Norepinephrine</a><br />
 MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a><br />

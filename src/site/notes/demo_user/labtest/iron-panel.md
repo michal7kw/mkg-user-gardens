@@ -92,7 +92,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.444490Z'
+created: 2025-12-10T09:07:56+0000
 description: Measures serum iron, ferritin, TIBC, transferrin saturation. Essential
   for anemia workup and iron overload assessment.
 dg-home: false
@@ -101,6 +101,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: test-iron-001
 permalink: /garden/demo_user/labtest/iron-panel/
+provenance: curated
 slug: iron-panel
 source: Manual
 tags:
@@ -108,7 +109,7 @@ tags:
 templateEngineOverride: njk
 title: iron_panel
 type: labtest
-updated: '2026-06-13T17:47:12.444490Z'
+updated: '2026-08-20T04:08:30.725876Z'
 ---
 
 {% raw %}
@@ -134,6 +135,10 @@ updated: '2026-06-13T17:47:12.444490Z'
 <td>Iron Panel</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -144,6 +149,18 @@ updated: '2026-06-13T17:47:12.444490Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>1-3 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$35-$85</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -176,11 +193,11 @@ updated: '2026-06-13T17:47:12.444490Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
-<h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/biomarker/tibc/" class="internal-link">Tibc</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/serum-iron/" class="internal-link">Serum Iron</a><br />
-RELATED::<a href="/garden/demo_user/labtest/ferritin/" class="internal-link">ferritin</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/transferrin-saturation/" class="internal-link">Transferrin Saturation</a></p>
+<h3>Includes Test</h3>
+<p>INCLUDES_TEST::<a href="/garden/demo_user/supplement/iron/" class="internal-link">iron</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/ferritin/" class="internal-link">ferritin</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/iron-binding-capacity/" class="internal-link">iron_binding_capacity</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/iron-saturation/" class="internal-link">iron_saturation</a></p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

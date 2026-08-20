@@ -1,11 +1,17 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.945635Z'
+created: '2026-03-11T11:39:49.060290+00:00'
+description: The Noradrenergic Locus Coeruleus Pathway acts as the brain's massive,
+  centralized alarm bell. The Locus Coeruleus (LC) is an impossibly tiny, highly-pigmented
+  "blue spot" located deep inside the pons of the brainstem.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: noradrenergic_locus_coeruleus_pathways
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/noradrenergic-locus-coeruleus-pathways/
+provenance: curated
 slug: noradrenergic-locus-coeruleus-pathways
 source: Manual
 tags:
@@ -13,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Noradrenergic Locus Coeruleus Pathways
 type: pathway
-updated: '2026-06-13T17:47:13.945635Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -35,11 +41,15 @@ MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/l-theanine/" class="internal-link">L-Theanine</a></p>
 <h3>Associated Biomarker</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/norepinephrine/" class="internal-link">Norepinephrine</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimer's Disease</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

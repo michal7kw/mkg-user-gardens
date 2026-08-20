@@ -2,7 +2,7 @@
 aliases:
 - extended autoimmunity
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.074692Z'
+created: 2026-01-18T16:48:42+0000
 description: Detects and monitors autoimmune conditions with comprehensive testing
   for better symptom management and prevention. These tests screen for a broad range
   of conditions like rheumatoid arthritis, systemic lupus erythematosus, mixed connective
@@ -26,6 +26,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-extended-autoimmunity
 permalink: /garden/demo_user/labtestpanel/extended-autoimmunity/
+provenance: curated
 slug: extended-autoimmunity
 source: Manual
 tags:
@@ -33,7 +34,7 @@ tags:
 templateEngineOverride: njk
 title: extended_autoimmunity
 type: labtestpanel
-updated: '2026-06-13T17:47:13.074692Z'
+updated: '2026-08-20T04:08:31.043337Z'
 ---
 
 {% raw %}
@@ -64,11 +65,11 @@ updated: '2026-06-13T17:47:13.074692Z'
 <li>Monitoring disease activity in known autoimmune conditions</li>
 </ul>
 <h2>Relationships</h2>
-<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/antinuclear-antibodies-ana-screen/" class="internal-link">antinuclear antibodies ana screen</a><br />
-INCLUDES_TEST::<a href="/garden/demo_user/labtest/antinuclear-antibodies-titer/" class="internal-link">antinuclear antibodies titer</a><br />
-INCLUDES_TEST::<a href="/garden/demo_user/labtest/antinuclear-antibodies-ana-pattern/" class="internal-link">antinuclear antibodies ana pattern</a><br />
-INCLUDES_TEST::<a href="/garden/demo_user/labtest/rheumatoid-factor-rf/" class="internal-link">rheumatoid factor rf</a><br />
-INCLUDES_TEST::<a href="/garden/demo_user/labtest/thyroid-peroxidase-antibodies-tpo/" class="internal-link">thyroid peroxidase antibodies tpo</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/antinuclear-antibodies-ana-screen/" class="internal-link">antinuclear_antibodies_ana_screen</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/antinuclear-antibodies-titer/" class="internal-link">antinuclear_antibodies_titer</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/antinuclear-antibodies-ana-pattern/" class="internal-link">antinuclear_antibodies_ana_pattern</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/rheumatoid-factor-rf/" class="internal-link">rheumatoid_factor_rf</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/thyroid-peroxidase-antibodies-tpo/" class="internal-link">thyroid_peroxidase_antibodies_tpo</a><br />
 INCLUDES_TEST::<a href="/garden/demo_user/labtest/esr/" class="internal-link">esr</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/autoimmune-disease/" class="internal-link">Autoimmune Disease</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/systemic-lupus-erythematosus/" class="internal-link">Systemic Lupus Erythematosus</a><br />

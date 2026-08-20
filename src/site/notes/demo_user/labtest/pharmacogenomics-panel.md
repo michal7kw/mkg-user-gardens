@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.704333Z'
+created: 2025-12-10T09:07:57+0000
 description: Tests drug-metabolizing genes (CYP450, etc.) to guide medication selection
   and dosing.
 dg-home: false
@@ -9,6 +9,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: test-pgx-001
 permalink: /garden/demo_user/labtest/pharmacogenomics-panel/
+provenance: curated
 slug: pharmacogenomics-panel
 source: Manual
 tags:
@@ -16,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: pharmacogenomics_panel
 type: labtest
-updated: '2026-06-13T17:47:12.704333Z'
+updated: '2026-08-20T04:08:30.848645Z'
 ---
 
 {% raw %}
@@ -42,6 +43,10 @@ updated: '2026-06-13T17:47:12.704333Z'
 <td>Pharmacogenomics</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -53,6 +58,18 @@ updated: '2026-06-13T17:47:12.704333Z'
 <td><strong>Turnaround Time</strong></td>
 <td>14-28 days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$199-$399</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -63,7 +80,7 @@ updated: '2026-06-13T17:47:12.704333Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
-<p>RELATED::<a href="/garden/demo_user/gene/cyp3a4/" class="internal-link">CYP3A4</a><br />
+<p>RELATED::<a href="/garden/demo_user/protein/cyp3a4/" class="internal-link">CYP3A4</a><br />
 RELATED::<a href="/garden/demo_user/protein/cyp2d6/" class="internal-link">CYP2D6</a></p>
 <h2>Notes</h2>
 <ul>

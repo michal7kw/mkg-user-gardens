@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.788692Z'
+created: 2026-04-01T12:00:00+0000
 description: SSRI antidepressant (Luvox) with unique pharmacological profile — potent
   sigma-1 receptor agonist and powerful CYP1A2/CYP2C19 enzyme inhibitor. First SSRI
   approved for OCD (FDA 1994). The sigma-1 agonism may provide neuroprotective and
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: fluvoxamine
 permalink: /garden/demo_user/drug/fluvoxamine/
+provenance: curated
 slug: fluvoxamine
 source: Manual
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Fluvoxamine
 type: drug
-updated: '2026-06-13T17:47:11.788692Z'
+updated: '2026-08-20T04:08:30.109710Z'
 ---
 
 {% raw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.541521Z'
+created: 2026-03-06T12:00:00+0000
 description: Reactive oxygen species (ROS) are a group of highly reactive oxygen-containing
   molecules produced as natural byproducts of mitochondrial electron transport chain
   activity (~1-2% of total electron flow leaks to form superoxide). The major ROS
@@ -15,6 +15,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: reactive_oxygen_species
 permalink: /garden/demo_user/metabolite/reactive-oxygen-species/
+provenance: curated
 slug: reactive-oxygen-species
 source: Manual
 tags:
@@ -28,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Reactive Oxygen Species
 type: metabolite
-updated: '2026-06-13T17:47:13.541521Z'
+updated: '2026-08-20T04:08:31.216436Z'
 ---
 
 {% raw %}

@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.470499Z'
+confidence_score: 0.9
+created: 2026-03-28T12:00:00+0000
 description: A progressive degenerative disease of the macula (central retina) that
   causes central vision loss, primarily affecting adults over 50. The leading cause
   of irreversible blindness in developed countries.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: macular_degeneration
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/macular-degeneration/
+provenance: curated
 slug: macular-degeneration
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Macular Degeneration
 type: condition
-updated: '2026-06-13T17:47:11.470499Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -54,7 +57,7 @@ AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Macula</a></li
 RELATED::<a href="/garden/demo_user/condition/glaucoma/" class="internal-link">Glaucoma</a></p>
 <h3>Improved By Supplement</h3>
 <p>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a><br />
-IMPROVED_BY_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Lutein</a><br />
+IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/lutein/" class="internal-link">Lutein</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a><br />
 IMPROVED_BY_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Zeaxanthin</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a></p>
@@ -62,7 +65,14 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acid
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">hs crp</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/homocysteine/" class="internal-link">homocysteine</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">Vitamin_D_25-OH</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin_D_25-OH</a></p>
 <h3>Affects Organ</h3>
+<h2>References</h2>
+<ul>
+<li>Ferris FL 3rd, Wilkinson CP, Bird A, et al. Retina. 2013;33(8):1481. Clinical classification of age-related macular degeneration (PMID: 23733081)</li>
+<li>Age-Related Eye Disease Study 2 (AREDS2) Research Group. JAMA. 2013;309(19):2005-2015. Lutein/zeaxanthin and omega-3 for AMD (PMID: 23644909)</li>
+<li>Wong WL, Su X, Li X, et al. Lancet Glob Health. 2014;2(2):e106-e116. Global prevalence of age-related macular degeneration (PMID: 25104649)</li>
+<li>Lim LS, Mitchell P, Seddon JM, Holz FG, Wong TY. Lancet. 2012;379(9827):1728-1738. Age-related macular degeneration (review) (PMID: 22472830)</li>
+</ul>
 
 {% endraw %}

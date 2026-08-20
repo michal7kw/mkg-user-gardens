@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.228486Z'
+confidence_score: 0.9
+created: 2026-01-18T16:48:41+0000
 description: A neurodevelopmental disorder characterized by persistent patterns of
   inattention, hyperactivity, and impulsivity that interfere with functioning or development.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: attention_deficit_hyperactivity_disorder
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/attention-deficit-hyperactivity-disorder/
+provenance: curated
 slug: attention-deficit-hyperactivity-disorder
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Attention Deficit Hyperactivity Disorder
 type: condition
-updated: '2026-06-13T17:47:11.228486Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -57,5 +60,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/zinc/" class="inte
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/l-theanine/" class="internal-link">L-Theanine</a></p>
+<h2>References</h2>
+<ul>
+<li>Wolraich ML, Hagan JF Jr, Allan C, et al. Pediatrics. 2019;144(4):e20192528. AAP Clinical Practice Guideline for ADHD (PMID: 31570648)</li>
+<li>Faraone SV, Asherson P, Banaschewski T, et al. Neurosci Biobehav Rev. 2015;55:1-2. The genetics of ADHD (PMID: 26088133)</li>
+<li>Cortese S, Adamo N, Del Giovane C, et al. Lancet Psychiatry. 2018;5(9):727-738. Comparative efficacy and tolerability of ADHD medications (network meta-analysis) (PMID: 29733911)</li>
+</ul>
 
 {% endraw %}

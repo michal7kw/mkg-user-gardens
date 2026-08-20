@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.179766Z'
+created: '2026-03-11T11:39:48.337208+00:00'
 description: Cognitive and affective processes involved in evaluating, anticipating,
   and learning from rewards. The mesolimbic dopamine pathway (VTA to nucleus accumbens)
   is the core circuit. Reward processing drives motivated behavior, decision-making,
@@ -12,6 +12,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: reward_processing
 permalink: /garden/demo_user/cognitivefunction/reward-processing/
+provenance: curated
 slug: reward-processing
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Reward Processing
 type: cognitivefunction
-updated: '2026-06-13T17:47:11.179766Z'
+updated: '2026-08-20T04:08:29.242545Z'
 ---
 
 {% raw %}
@@ -59,12 +60,12 @@ updated: '2026-06-13T17:47:11.179766Z'
 <p>SUPPORTED_BY_REGION::<a class="internal-link is-unresolved" href="/404">Ventral Tegmental Area</a><br />
 SUPPORTED_BY_REGION::<a class="internal-link is-unresolved" href="/404">Nucleus Accumbens</a><br />
 SUPPORTED_BY_REGION::<a class="internal-link is-unresolved" href="/404">Prefrontal Cortex</a><br />
-SUPPORTED_BY_REGION::<a href="/garden/demo_user/anatomy/cingulate-cortex/" class="internal-link">Cingulate Cortex</a><br />
+SUPPORTED_BY_REGION::<a href="/garden/demo_user/organ/cingulate-cortex/" class="internal-link">Cingulate Cortex</a><br />
 SUPPORTED_BY_REGION::<a class="internal-link is-unresolved" href="/404">Amygdala</a></p>
 <h3>Modulated By Neurotransmitter</h3>
 <p>MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a><br />
 MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/endorphins/" class="internal-link">Endorphins</a><br />
-MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a><br />
+MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a><br />
 MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a><br />
 MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a></p>
 <h3>Improved By Intervention</h3>

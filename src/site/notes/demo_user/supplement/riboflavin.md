@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:14.468709Z'
+created: '2026-04-01T19:57:35.820301+00:00'
 description: Essential B-vitamin (B2) that serves as a precursor to FAD and FMN, critical
   cofactors for Complex I and Complex II of the mitochondrial electron transport chain
   and numerous oxidoreductase enzymes.
@@ -10,6 +10,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: riboflavin
 permalink: /garden/demo_user/supplement/riboflavin/
+provenance: curated
 pubchem_id: '493570'
 slug: riboflavin
 source: Manual
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Riboflavin
 type: supplement
-updated: '2026-06-13T17:47:14.468709Z'
+updated: '2026-08-20T04:08:32.042919Z'
 ---
 
 {% raw %}

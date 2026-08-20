@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:12.088826Z'
+created: 2026-01-24T12:00:00+0000
 description: A dietary pattern emphasizing fruits, vegetables, whole grains, legumes,
   nuts, olive oil, and fish. Associated with reduced risk of cardiovascular disease,
   cognitive decline, and dementia.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: mediterranean_diet
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/intervention/mediterranean-diet/
+provenance: curated
 slug: mediterranean-diet
 source: Manual
 tags:
@@ -21,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Mediterranean Diet
 type: intervention
-updated: '2026-06-13T17:47:12.088826Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -53,21 +55,23 @@ updated: '2026-06-13T17:47:12.088826Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Affects Biomarker</h3>
-<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hemoglobin-a1c/" class="internal-link">Hemoglobin A1c</a> (Evidence Level 4)<br />
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (Evidence Level 4)<br />
+DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (Evidence Level 4)<br />
+DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hemoglobin-a1c/" class="internal-link">Hemoglobin A1c</a> (Evidence Level 4)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a> (Evidence Level 4)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/ldl-cholesterol/" class="internal-link">Ldl</a> (Evidence Level 4)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/total-cholesterol/" class="internal-link">Total Cholesterol</a> (Evidence Level 4)<br />
-DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/vldl/" class="internal-link">Vldl</a> (Evidence Level 3)</p>
+DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/vldl/" class="internal-link">Vldl</a> (Evidence Level 3)</p>
 <!-- seeded: intervention coverage (mirror_intervention_edges_to_markdown.py) -->
 <p>DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/apolipoprotein-b/" class="internal-link">Apolipoprotein B</a> (Evidence Level 4)<br />
-DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/crp-hs/" class="internal-link">CRP (hs)</a> (Evidence Level 4)<br />
+DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">CRP (hs)</a> (Evidence Level 4)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/metabolite/glucose/" class="internal-link">Glucose</a> (Evidence Level 4)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">HbA1c</a> (Evidence Level 4)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="internal-link">LDL Cholesterol</a> (Evidence Level 4)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">Triglycerides</a> (Evidence Level 4)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/uric-acid/" class="internal-link">Uric Acid</a> (Evidence Level 3)</p>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">CRP</a><br />
+<p>RELATED::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a><br />
 RELATED::<a href="/garden/demo_user/supplement/folate/" class="internal-link">Folate</a> (abundant in leafy greens and legumes)<br />
 RELATED::<a href="/garden/demo_user/supplement/vitamin-e/" class="internal-link">Vitamin E</a> (rich in olive oil and nuts)<br />
 RELATED::<a href="/garden/demo_user/intervention/sleep-optimization/" class="internal-link">Sleep Optimization</a> (diet quality supports sleep architecture)<br />
@@ -82,7 +86,7 @@ RELATED::<a href="/garden/demo_user/intervention/keto-diet/" class="internal-lin
 <h3>Modulates Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a> (polyphenols and omega-3s increase BDNF, Evidence Level 2a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/homocysteine/" class="internal-link">homocysteine</a> (folate-rich foods reduce homocysteine, Evidence Level 1b)<br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a> (anti-inflammatory dietary pattern reduces CRP, Evidence Level 1a)<br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (anti-inflammatory dietary pattern reduces CRP, Evidence Level 1a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a> (improved glycemic control, Evidence Level 1b)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="internal-link">LDL Cholesterol</a> (modest reduction with olive oil and fiber, Evidence Level 1b)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a> (reduced with omega-3 and fiber intake, Evidence Level 1b)</p>
@@ -92,5 +96,9 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/vascular-dementia/" 
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/mild-cognitive-impairment/" class="internal-link">Mild Cognitive Impairment</a> (MIND diet variant, Evidence Level 2a)<br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a> (33% risk reduction, Evidence Level 1a)<br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/type-2-diabetes/" class="internal-link">Type 2 Diabetes</a> (23% reduced incidence, Evidence Level 1b)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

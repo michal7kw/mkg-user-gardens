@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.719252Z'
+created: '2026-04-05T16:16:18.476272+00:00'
 description: Essential polyunsaturated fatty acids (primarily linoleic acid and arachidonic
   acid). Necessary for cell membrane structure but pro-inflammatory when consumed
   in excess relative to omega-3.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_omega6
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/omega-6/
+provenance: curated
 slug: omega-6
 source: dev_seeder
 tags:
@@ -16,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Omega-6
 type: nutrient
-updated: '2026-06-13T17:47:13.719252Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -54,7 +57,7 @@ updated: '2026-06-13T17:47:13.719252Z'
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">CRP (C-Reactive Protein)</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">CRP (C-Reactive Protein)</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="internal-link">LDL Cholesterol</a></li>
 <li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Dermatitis</a></li>
@@ -63,6 +66,10 @@ updated: '2026-06-13T17:47:13.719252Z'
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/nutrient/omega-3-ala/" class="internal-link">Omega-3 (ALA)</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/dietary-fat/" class="internal-link">Dietary Fat</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/saturated-fat/" class="internal-link">Saturated Fat</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.779761Z'
+created: 2026-02-07T00:00:00+0000
 description: Selenium test measures this essential trace mineral in blood. Selenium
   is a critical component of selenoproteins including glutathione peroxidases, thioredoxin
   reductases, and iodothyronine deiodinases. It plays vital roles in antioxidant defense,
@@ -11,6 +11,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-selenium
 permalink: /garden/demo_user/labtest/selenium/
+provenance: curated
 slug: selenium
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: selenium
 type: labtest
-updated: '2026-06-13T17:47:12.779761Z'
+updated: '2026-08-20T04:08:30.891342Z'
 ---
 
 {% raw %}
@@ -44,6 +45,10 @@ updated: '2026-06-13T17:47:12.779761Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -54,6 +59,18 @@ updated: '2026-06-13T17:47:12.779761Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -70,13 +87,15 @@ updated: '2026-06-13T17:47:12.779761Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/supplement/selenium/" class="internal-link">Selenium</a></p>
 <h3>Related Tests</h3>
-<p>RELATED_TESTS::<a href="/garden/demo_user/labtest/thyroid-stimulating-hormone-tsh/" class="internal-link">thyroid stimulating hormone tsh</a><br />
+<p>RELATED_TESTS::<a href="/garden/demo_user/labtest/tsh/" class="internal-link">thyroid stimulating hormone tsh</a><br />
 RELATED_TESTS::<a href="/garden/demo_user/labtest/thyroid-peroxidase-antibodies-tpo/" class="internal-link">thyroid peroxidase antibodies tpo</a><br />
 RELATED_TESTS::<a href="/garden/demo_user/labtest/zinc-serum/" class="internal-link">zinc serum</a></p>
 <h3>Enriched</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/organ/thyroid/" class="internal-link">Thyroid</a><br />
-INDICATES::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
+INDICATES::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

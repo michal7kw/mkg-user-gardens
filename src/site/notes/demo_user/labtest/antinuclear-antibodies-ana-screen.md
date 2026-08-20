@@ -92,7 +92,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.187458Z'
+created: '2026-01-19T08:30:01.429744+00:00'
 description: an-tee-noo-klee-ur an-tih-bod-eez skreen Antinuclear antibodies (ANA)
   screen looks for antibodies that sometimes target the body’s own cells. A positive
   result may suggest autoimmune activity, but it is also found in many healthy people.
@@ -106,6 +106,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-antinuclear-antibodies-ana-screen
 permalink: /garden/demo_user/labtest/antinuclear-antibodies-ana-screen/
+provenance: curated
 slug: antinuclear-antibodies-ana-screen
 source: Manual
 tags:
@@ -113,7 +114,7 @@ tags:
 templateEngineOverride: njk
 title: antinuclear_antibodies_ana_screen
 type: labtest
-updated: '2026-06-13T17:47:12.187458Z'
+updated: '2026-08-20T04:08:30.497159Z'
 ---
 
 {% raw %}
@@ -139,6 +140,10 @@ updated: '2026-06-13T17:47:12.187458Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -149,6 +154,18 @@ updated: '2026-06-13T17:47:12.187458Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>

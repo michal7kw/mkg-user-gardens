@@ -1,6 +1,10 @@
 ---
+aliases:
+- Homa Ir
+- HOMA IR
+- Homa-Ir
 confidence_score: 0.9
-created: '2026-06-13T17:47:10.905848Z'
+created: 2026-05-26T12:00:00+0000
 description: HOMA-IR (Homeostatic Model Assessment of Insulin Resistance) is a calculated
   index of insulin resistance derived from paired fasting glucose and fasting insulin.
   It is the most widely used surrogate measure of hepatic insulin resistance in research
@@ -11,9 +15,11 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: homa_ir
+last_modified: 2026-06-21T00:00:00+0000
 permalink: /garden/demo_user/biomarker/homa-ir/
+provenance: curated
 slug: homa-ir
-source: PubMed
+source: Manual
 tags:
 - biomarker
 - metabolic
@@ -24,7 +30,7 @@ tags:
 templateEngineOverride: njk
 title: HOMA-IR
 type: biomarker
-updated: '2026-06-13T17:47:10.905848Z'
+updated: 2026-06-21T00:00:00+0000
 ---
 
 {% raw %}
@@ -138,10 +144,10 @@ updated: '2026-06-13T17:47:10.905848Z'
 <li>Pair with C-peptide where endogenous insulin secretion is in question.</li>
 </ul>
 <h2>Clinical Significance</h2>
-<p>HOMA-IR predicts incident <a href="/garden/demo_user/condition/type-2-diabetes/" class="internal-link">Type 2 Diabetes</a>, <a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a>, non-alcoholic fatty liver disease, and cardiovascular events. Elevated levels are specifically associated with:</p>
+<p>HOMA-IR predicts incident <a href="/garden/demo_user/condition/type-2-diabetes/" class="internal-link">Type 2 Diabetes</a>, <a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a>, non-alcoholic fatty liver disease, and cardiovascular events. Elevated levels are specifically associated with:</p>
 <ul>
 <li><strong><a href="/garden/demo_user/condition/type-2-diabetes/" class="internal-link">Type 2 Diabetes</a></strong> — a predictive vector for future diagnosis and onset of clinical diabetes.</li>
-<li><strong><a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></strong> — the core unifying physiological mechanism driving the syndrome's criteria.</li>
+<li><strong><a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></strong> — the core unifying physiological mechanism driving the syndrome's criteria.</li>
 <li><strong><a href="/garden/demo_user/condition/nafld/" class="internal-link">NAFLD</a></strong> — drives hepatic lipogenesis and the pathogenesis of fatty liver disease.</li>
 <li><strong>Polycystic Ovary Syndrome (PCOS)</strong> — insulin resistance is a major driver of hyperandrogenemia.</li>
 <li><strong>Cardiovascular Disease</strong> — an independent risk factor for endothelial dysfunction.</li>
@@ -166,10 +172,10 @@ CORRELATED_WITH::<a href="/garden/demo_user/labtest/adiponectin/" class="interna
 <p>INDICATES_ORGAN_HEALTH::<a href="/garden/demo_user/organ/pancreas/" class="internal-link">Pancreas</a></p>
 <h3>Predicts Risk</h3>
 <p>PREDICTS_RISK::<a href="/garden/demo_user/condition/type-2-diabetes/" class="internal-link">Type 2 Diabetes</a><br />
-PREDICTS_RISK::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
+PREDICTS_RISK::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/insulin-resistance/" class="internal-link">Insulin Resistance</a><br />
-ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/type-2-diabetes/" class="internal-link">Type 2 Diabetes</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/nafld/" class="internal-link">NAFLD</a></p>
 <h3>Improved By Intervention</h3>

@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.201822Z'
+confidence_score: 0.9
+created: 2026-01-18T16:02:34+0000
 description: An exaggerated immune response to Ordinarily harmless substances (allergens),
   characterized by the production of IgE antibodies and release of inflammatory mediators
   like histamine.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: allergy
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/allergy/
+provenance: curated
 slug: allergy
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Allergy
 type: condition
-updated: '2026-06-13T17:47:11.201822Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -47,12 +50,19 @@ updated: '2026-06-13T17:47:11.201822Z'
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/interleukin-6/" class="internal-link">Interleukin 6</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/wbc/" class="internal-link">Wbc</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
 <h3>Improved By Supplement</h3>
 <p>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/quercetin/" class="internal-link">Quercetin</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/probiotics/" class="internal-link">Probiotics</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a></p>
+<h2>References</h2>
+<ul>
+<li>Boyce JA, Assa'ad A, Burks AW, et al. J Allergy Clin Immunol. 2011;128(6):1105-1118. Guidelines for the diagnosis and management of food allergy (PMID: 21477847)</li>
+<li>Wallace DV, Dykewicz MS, Bernstein DI, et al. J Allergy Clin Immunol. 2008;117(2 Suppl):S1-S58. The diagnosis and management of rhinitis (PMID: 17452624)</li>
+<li>Liu AH, Jaramillo R, Sicherer SH, et al. J Allergy Clin Immunol. 2010;126(4):798-806. National prevalence of food allergy (PMID: 20920774)</li>
+<li>Du Toit G, Roberts G, Sayre PH, et al. N Engl J Med. 2015;372(9):803-813. LEAP trial: Randomized trial of peanut consumption (PMID: 25705822)</li>
+</ul>
 
 {% endraw %}

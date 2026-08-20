@@ -1,5 +1,5 @@
 ---
-created: '2026-06-13T17:47:11.973416Z'
+created: '2026-08-20T04:08:30.303378Z'
 description: Optimize brain function, memory, and mental clarity. Omega-3 DHA is the
   primary structural fat in neuronal membranes, Lion's Mane stimulates nerve growth
   factor, creatine enhances brain energy metabolism, and B-complex supports methylation
@@ -10,6 +10,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: a914b5fe-eacd-4a0a-9a91-a139135cc028
 permalink: /garden/demo_user/healthstack/cognitive-performance/
+provenance: curated
 slug: cognitive-performance
 source: Manual
 tags:
@@ -19,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Cognitive Performance
 type: healthstack
-updated: '2026-06-13T17:47:11.973416Z'
+updated: '2026-08-20T04:08:30.303378Z'
 ---
 
 {% raw %}
@@ -40,28 +41,28 @@ updated: '2026-06-13T17:47:11.973416Z'
 </thead>
 <tbody>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Omega-3 (High DHA)</a></td>
+<td><a href="/garden/demo_user/supplement/omega-3-dha/" class="internal-link">Omega-3 (High DHA)</a></td>
 <td>1000mg</td>
 <td>once daily</td>
 <td>with meals</td>
 <td>DHA comprises 40% of brain polyunsaturated fatty acids</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Lion's Mane Extract</a></td>
+<td><a href="/garden/demo_user/supplement/lions-mane/" class="internal-link">Lion's Mane Extract</a></td>
 <td>1000mg</td>
 <td>once daily</td>
 <td>morning</td>
 <td>Stimulates Nerve Growth Factor (NGF) production</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Creatine Monohydrate</a></td>
+<td><a href="/garden/demo_user/supplement/creatine/" class="internal-link">Creatine Monohydrate</a></td>
 <td>5g</td>
 <td>once daily</td>
 <td>morning</td>
 <td>Enhances brain phosphocreatine energy buffer</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">B-Complex</a></td>
+<td><a href="/garden/demo_user/supplement/b-complex-vitamins/" class="internal-link">B-Complex</a></td>
 <td>1capsules</td>
 <td>once daily</td>
 <td>morning</td>
@@ -89,7 +90,7 @@ updated: '2026-06-13T17:47:11.973416Z'
 <td>Critical for myelin synthesis and neurological function</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Omega-3 Index</a></td>
+<td><a href="/garden/demo_user/biomarker/omega3-index/" class="internal-link">Omega-3 Index</a></td>
 <td>4-12</td>
 <td>8-12</td>
 <td>%</td>
@@ -110,10 +111,10 @@ updated: '2026-06-13T17:47:11.973416Z'
 <li>Energy</li>
 </ul>
 <h3>Contains Supplement</h3>
-<p>CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Omega-3 (High DHA)</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Lion's Mane Extract</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Creatine Monohydrate</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">B-Complex</a></p>
+<p>CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-dha/" class="internal-link">Omega-3 (High DHA)</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/lions-mane/" class="internal-link">Lion's Mane Extract</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/creatine/" class="internal-link">Creatine Monohydrate</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/b-complex-vitamins/" class="internal-link">B-Complex</a></p>
 <h2>Relationships</h2>
 <h3>Enriched</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a><br />

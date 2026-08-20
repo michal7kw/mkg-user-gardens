@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.298669Z'
+created: 2026-02-07T00:00:00+0000
 description: C-Terminal Telopeptide (CTX or beta-CrossLaps) measures a collagen degradation
   fragment released during bone resorption. It is the most widely used marker of bone
   resorption and is recommended by the IOF/IFCC as the reference resorption marker.
@@ -11,6 +11,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-ctx
 permalink: /garden/demo_user/labtest/ctx/
+provenance: curated
 slug: ctx
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: ctx
 type: labtest
-updated: '2026-06-13T17:47:12.298669Z'
+updated: '2026-08-20T04:08:30.597316Z'
 ---
 
 {% raw %}
@@ -44,6 +45,10 @@ updated: '2026-06-13T17:47:12.298669Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -54,6 +59,14 @@ updated: '2026-06-13T17:47:12.298669Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -85,7 +98,7 @@ updated: '2026-06-13T17:47:12.298669Z'
 <h3>Related Tests</h3>
 <p>RELATED_TESTS::<a href="/garden/demo_user/labtest/vitamin-d-25oh/" class="internal-link">vitamin d 25oh</a><br />
 RELATED_TESTS::<a href="/garden/demo_user/labtest/osteocalcin/" class="internal-link">osteocalcin</a><br />
-RELATED_TESTS::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a></p>
+RELATED_TESTS::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a></p>
 <h3>Included In</h3>
 <p>INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/bone-health-panel/" class="internal-link">bone health panel</a></p>
 <h2>Notes</h2>

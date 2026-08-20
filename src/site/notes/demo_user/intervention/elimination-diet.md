@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.059515Z'
+created: '2026-04-05T16:16:17.225240+00:00'
 description: Systematic diagnostic diet that removes common allergenic and inflammatory
   foods for 2-4 weeks, then reintroduces them one at a time to identify triggers.
   Gold standard for food sensitivity identification.
@@ -9,6 +9,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: intervention_elimination
 permalink: /garden/demo_user/intervention/elimination-diet/
+provenance: curated
 slug: elimination-diet
 source: dev_seeder
 tags:
@@ -17,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Elimination Diet
 type: intervention
-updated: '2026-06-13T17:47:12.059515Z'
+updated: '2026-08-20T04:08:30.373538Z'
 ---
 
 {% raw %}

@@ -1,69 +1,57 @@
 ---
-created: '2026-05-02T03:59:36.882896Z'
-description: The cellular degradation and recycling system that removes damaged organelles
-  and protein aggregates. Dysfunction contributes to accumulation of toxic proteins
-  in neurodegenerative diseases.
+confidence_score: 0.85
+created: 2026-06-23T00:00:00+0000
+description: The cellular degradation pathway by which cytoplasmic components (damaged
+  organelles, misfolded proteins) are sequestered in autophagosomes and degraded by
+  lysosomal hydrolases. Critical for cellular homeostasis, quality control, and adaptation
+  to stress.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
+id: autophagy_lysosomal_pathway
 permalink: /garden/demo_user/pathway/autophagy-lysosomal-pathway/
+provenance: curated
 slug: autophagy-lysosomal-pathway
+source: Manual
 tags:
 - pathway
-- neurodegeneration
+- cellular
 - autophagy
 - lysosome
 - proteostasis
 templateEngineOverride: njk
 title: Autophagy-Lysosomal Pathway
 type: pathway
-updated: '2026-05-02T03:59:36.882896Z'
+updated: '2026-08-20T04:08:31.465894Z'
 ---
 
 {% raw %}
 <h1>Autophagy-Lysosomal Pathway</h1>
 <h2>Overview</h2>
-<p>The Autophagy-Lysosomal Pathway (ALP) is the paramount cellular recycling infrastructure defending mammalian cells from suffocating on their own toxic metabolic wastes. While the smaller ubiquitin-proteasome system (UPS) effectively handles the disposal of individual, short-lived proteins, the ALP is designed for heavy-duty industrial clearance: digesting permanently damaged mitochondria (mitophagy), clearing intracellular invading bacteria, and destroying massively clumped, extremely toxic protein tangles that are far too large for the UPS to handle.</p>
-<p>The mechanical process progresses across three highly coordinated steps:</p>
-<ol>
-<li><strong>Phagophore Initiation</strong>: The cell wraps a double-layered membrane structure directly around the toxic &quot;trash&quot; (such as a misfolded bundle of Alpha-Synuclein).</li>
-<li><strong>Autophagosome Formation</strong>: The membrane completely seals off, locking the toxic debris securely inside a transport vesicle known as an <em>autophagosome</em>.</li>
-<li><strong>Lysosomal Fusion &amp; Degradation</strong>: The autophagosome docks directly into an intensely acidic <em>lysosome</em>. The lysosome dumps brutal hydrolase enzymes directly onto the trash, mathematically disintegrating it down into baseline constituent amino acids, which are then cleanly recycled back into the cytoplasm to build fresh, healthy structures.</li>
-</ol>
-<h2>Clinical Pathologies</h2>
-<p>Because neurons are highly sensitive, terminally differentiated cells (meaning they do not divide or dilute their trash), the Autophagy-Lysosomal Pathway acts as their absolute primary defense against terminal neurodegeneration.</p>
-<p>If aging or genetic mutations cause lysosomal acidification to fail or prevent autophagosome sealing, the neuron instantly clogs up with toxic proteins. This pathway collapse is the central unifying catastrophic engine driving practically every major neurodegenerative disease, directly triggering Beta-Amyloid plaque build-up in <a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimer's Disease</a> and Lewy Body synuclein cascades in <a href="/garden/demo_user/condition/parkinsons-disease/" class="internal-link">Parkinson's Disease</a>.</p>
+<p>The autophagy-lysosomal pathway is the major cellular degradation system responsible for clearing damaged organelles (especially mitochondria via <strong>mitophagy</strong>), aggregated proteins, and cytoplasmic debris. Autophagosomes engulf cargo and fuse with lysosomes, where acidic hydrolases degrade the contents. Dysfunction is implicated in <strong>neurodegenerative diseases</strong> (Alzheimer's, Parkinson's), <strong>cancer</strong>, and <strong>aging</strong>. Nutrient-sensing pathways (<strong>mTOR</strong> inhibits, <strong>AMPK</strong> activates) regulate autophagy.</p>
+<h2>Key Components</h2>
+<ul>
+<li><strong>ULK1 complex</strong> -- initiation of autophagosome formation</li>
+<li><strong>LC3/ATG8</strong> -- autophagosome membrane marker</li>
+<li><strong>p62/SQSTM1</strong> -- adaptor linking cargo to autophagosomes</li>
+<li><strong>Lysosomal hydrolases</strong> -- degrade material at acidic pH (~4.5)</li>
+<li><strong>TFEB</strong> -- master transcription factor for lysosomal biogenesis</li>
+</ul>
+<h2>Modulation</h2>
+<ul>
+<li><strong>Rapamycin</strong> (mTOR inhibitor) -- activates autophagy</li>
+<li><strong>Caloric restriction / fasting</strong> -- activates via AMPK</li>
+<li><strong>Spermidine</strong> -- induces autophagy</li>
+<li><strong>Exercise</strong> -- stimulates autophagy in muscle and liver</li>
+</ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/intervention/exercise/" class="internal-link">Exercise</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Ubiquitin-Proteasome System</a><br />
-RELATED::<a href="/garden/demo_user/pathway/mitophagy/" class="internal-link">Mitophagy</a><br />
-RELATED::<a href="/garden/demo_user/drug/rapamycin/" class="internal-link">Rapamycin</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Parkinsons Disease</a><br />
-RELATED::<a href="/garden/demo_user/pathway/alpha-synuclein-aggregation/" class="internal-link">Alpha-Synuclein Aggregation</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">mTOR Signaling</a><br />
-RELATED::<a href="/garden/demo_user/pathway/tau-phosphorylation/" class="internal-link">Tau Phosphorylation</a><br />
-RELATED::<a href="/garden/demo_user/pathway/amyloid-cascade/" class="internal-link">Amyloid Cascade</a><br />
-RELATED::<a href="/garden/demo_user/intervention/intermittent-fasting/" class="internal-link">Intermittent Fasting</a><br />
-RELATED::<a href="/garden/demo_user/protein/ampk/" class="internal-link">AMPK</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Huntingtons Disease</a><br />
-RELATED::<a href="/garden/demo_user/supplement/spermidine/" class="internal-link">Spermidine</a><br />
-RELATED::<a href="/garden/demo_user/intervention/caloric-restriction/" class="internal-link">Caloric Restriction</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Alzheimers Disease</a><br />
-RELATED::<a href="/garden/demo_user/condition/amyotrophic-lateral-sclerosis/" class="internal-link">Amyotrophic Lateral Sclerosis</a><br />
-RELATED::<a href="/garden/demo_user/condition/frontotemporal-dementia/" class="internal-link">Frontotemporal Dementia</a></p>
-<h3>Modulated By Supplement</h3>
-<p>MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/spermidine/" class="internal-link">Spermidine</a><br />
-MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/resveratrol/" class="internal-link">Resveratrol</a><br />
-MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/berberine/" class="internal-link">Berberine</a><br />
-MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a></p>
-<h3>Associated Biomarker</h3>
-<p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/8-ohdg/" class="internal-link">8-OHdG</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/supplement/glutathione/" class="internal-link">Glutathione</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/tnf-alpha/" class="internal-link">TNF Alpha</a></p>
-<h3>Associated With Condition</h3>
-<p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimer's Disease</a><br />
-ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/parkinsons-disease/" class="internal-link">Parkinson's Disease</a><br />
-ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/mitochondrial-dysfunction/" class="internal-link">Mitochondrial Dysfunction</a></p>
+<p>RELATED::<a href="/garden/demo_user/pathway/autophagy/" class="internal-link">Autophagy</a></p>
+<h2>References</h2>
+<ul>
+<li>Dikic I, Elazar Z. Nat Rev Mol Cell Biol. 2018;19(6):349-364. Autophagy mechanisms (PMID: 29618821)</li>
+<li>Mizushima N, Levine B. Nature. 2020;588(7837):390-402. Autophagy in human diseases (PMID: 33177149)</li>
+</ul>
 
 {% endraw %}

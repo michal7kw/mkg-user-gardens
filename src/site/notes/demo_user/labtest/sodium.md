@@ -90,7 +90,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.799729Z'
+created: 2026-01-18T16:02:31+0000
 description: Tested twice a year Sodium, an essential electrolyte commonly consumed
   as part of table salt (sodium chloride), plays a vital role in maintaining the body’s
   fluid balance, supporting nerve signaling, and enabling muscle contractions, including
@@ -102,6 +102,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-sodium
 permalink: /garden/demo_user/labtest/sodium/
+provenance: curated
 slug: sodium
 source: Manual
 tags:
@@ -111,7 +112,7 @@ tags:
 templateEngineOverride: njk
 title: sodium
 type: labtest
-updated: '2026-06-13T17:47:12.799729Z'
+updated: '2026-08-20T04:08:30.898542Z'
 ---
 
 {% raw %}
@@ -137,6 +138,10 @@ updated: '2026-06-13T17:47:12.799729Z'
 <td>Kidney Function</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -148,6 +153,18 @@ updated: '2026-06-13T17:47:12.799729Z'
 <td><strong>Turnaround Time</strong></td>
 <td>3-7 days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -158,11 +175,13 @@ updated: '2026-06-13T17:47:12.799729Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/nutrient/sodium/" class="internal-link">Sodium</a></p>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Dehydration</a><br />
+<p>RELATED::<a href="/garden/demo_user/condition/dehydration/" class="internal-link">Dehydration</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Medication Effect</a><br />
 RELATED::<a href="/garden/demo_user/labtest/comprehensive-metabolic-panel/" class="internal-link">comprehensive metabolic panel</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Kidney Dysfunction</a><br />
+RELATED::<a href="/garden/demo_user/condition/kidney-dysfunction/" class="internal-link">Kidney Dysfunction</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Fluid Imbalance Low Or High Sodium</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Hormonal Imbalance Adrenal Or Thyroid</a></p>
 <h3>Enriched</h3>

@@ -2,7 +2,7 @@
 aliases:
 - Intermittent Fasting 168
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.074254Z'
+created: '2026-04-05T16:16:18.422273+00:00'
 description: Time-restricted eating with a 16-hour fasting window and 8-hour eating
   window. Promotes autophagy, insulin sensitivity, and metabolic flexibility.
 dg-home: false
@@ -10,6 +10,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: intervention_if_16_8
 permalink: /garden/demo_user/intervention/intermittent-fasting-168/
+provenance: curated
 slug: intermittent-fasting-168
 source: dev_seeder
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Intermittent Fasting 16:8
 type: intervention
-updated: '2026-06-13T17:47:12.074254Z'
+updated: '2026-08-20T04:08:30.387595Z'
 ---
 
 {% raw %}

@@ -1,6 +1,10 @@
 ---
+aliases:
+- Apolipoprotein B
+- ApoB
+- apolipoprotein_b_apob
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.197207Z'
+created: 2025-12-10T09:07:56+0000
 description: Measures ApoB protein, present in all atherogenic lipoprotein particles.
   Considered superior to LDL-C for CVD risk.
 dg-home: false
@@ -9,6 +13,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: test-apob-001
 permalink: /garden/demo_user/labtest/apolipoprotein-b/
+provenance: curated
 slug: apolipoprotein-b
 source: Manual
 tags:
@@ -16,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: apolipoprotein_b
 type: labtest
-updated: '2026-06-13T17:47:12.197207Z'
+updated: '2026-08-20T04:08:30.511542Z'
 ---
 
 {% raw %}
@@ -42,6 +47,10 @@ updated: '2026-06-13T17:47:12.197207Z'
 <td>Lipid Panel</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -53,12 +62,24 @@ updated: '2026-06-13T17:47:12.197207Z'
 <td><strong>Turnaround Time</strong></td>
 <td>1-3 days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$30-$75</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Biomarkers Measured</h2>
 <p>This test measures the following biomarkers:</p>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404">apoB</a></li>
+<li><a href="/garden/demo_user/biomarker/apolipoprotein-b/" class="internal-link">apoB</a></li>
 </ul>
 <h2>Recommended For</h2>
 <h3>Supplement Monitoring</h3>
@@ -68,8 +89,9 @@ updated: '2026-06-13T17:47:12.197207Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">apoB</a></p>
+<p>RELATED::<a href="/garden/demo_user/biomarker/apolipoprotein-b/" class="internal-link">apoB</a></p>
 <h3>Enriched</h3>
 <p>MEASURES::<a href="/garden/demo_user/labtest/apolipoprotein-b/" class="internal-link">Apolipoprotein B</a><br />
 INDICATES::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a></p>

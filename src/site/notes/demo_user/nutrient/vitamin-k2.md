@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.750545Z'
+created: '2026-04-05T16:16:16.725264+00:00'
 description: Fat-soluble vitamin (menaquinone) that activates matrix Gla protein and
   osteocalcin, directing calcium to bones and away from arteries. Synergistic with
   vitamin D.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_vitamin_k2
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/vitamin-k2/
+provenance: curated
 slug: vitamin-k2
 source: dev_seeder
 tags:
@@ -16,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Vitamin K2
 type: nutrient
-updated: '2026-06-13T17:47:13.750545Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -49,9 +52,9 @@ updated: '2026-06-13T17:47:13.750545Z'
 <p>Vitamin K2 has no established tolerable upper limit and is generally considered non-toxic even at high supplemental doses. The primary safety concern is interaction with anticoagulant medications, particularly warfarin (vitamin K antagonist), where K2 supplementation can reduce warfarin's anticoagulant effect and increase clotting risk. Patients on warfarin should consult their physician before supplementing K2. Newer direct oral anticoagulants (DOACs) do not interact with vitamin K and are compatible with K2 supplementation.</p>
 <h2>Relationships</h2>
 <ul>
-<li>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Bone</a></li>
+<li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/bones/" class="internal-link">Bone</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a></li>
-<li>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Blood Vessels</a></li>
+<li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/blood-vessels/" class="internal-link">Blood Vessels</a></li>
 <li>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Teeth</a></li>
 <li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Bone Density (DEXA)</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/osteocalcin/" class="internal-link">osteocalcin</a></li>
@@ -60,10 +63,14 @@ updated: '2026-06-13T17:47:13.750545Z'
 <li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Arterial Calcification</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a></li>
-<li>SYNERGISTIC_WITH::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a></li>
+<li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a></li>
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-e/" class="internal-link">Vitamin E</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/dietary-fat/" class="internal-link">Dietary Fat</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

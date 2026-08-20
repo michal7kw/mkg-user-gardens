@@ -2,7 +2,7 @@
 aliases:
 - Plant-BasedVegan Diet
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.104737Z'
+created: '2026-04-05T16:16:24.687785+00:00'
 description: Diet excluding all animal products, relying entirely on plant foods.
   Rich in fiber, polyphenols, and phytochemicals. Requires careful planning to avoid
   nutrient deficiencies (B12, iron, zinc, omega-3).
@@ -11,6 +11,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: intervention_plant_based
 permalink: /garden/demo_user/intervention/plant-basedvegan-diet/
+provenance: curated
 slug: plant-basedvegan-diet
 source: dev_seeder
 tags:
@@ -19,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Plant-Based/Vegan Diet
 type: intervention
-updated: '2026-06-13T17:47:12.104737Z'
+updated: '2026-08-20T04:08:30.410556Z'
 ---
 
 {% raw %}
@@ -39,7 +40,15 @@ updated: '2026-06-13T17:47:12.104737Z'
 <li>anemia</li>
 </ul>
 <h2>Relationships</h2>
-<p>No relationships found.</p>
+<p>EMPHASIZES::<a href="/garden/demo_user/nutrient/dietary-fiber/" class="internal-link">Dietary Fiber</a><br />
+EMPHASIZES::<a href="/garden/demo_user/nutrient/folate-b9/" class="internal-link">Folate (B9)</a><br />
+EMPHASIZES::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a><br />
+RESTRICTS::<a href="/garden/demo_user/supplement/vitamin-b12/" class="internal-link">Vitamin B12</a><br />
+RESTRICTS::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a><br />
+RESTRICTS::<a href="/garden/demo_user/nutrient/omega-3-dha/" class="internal-link">Omega-3 (DHA)</a><br />
+RESTRICTS::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a><br />
+RESTRICTS::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a><br />
+RESTRICTS::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a></p>
 <h2>Research SupportNo research studies documented yet.</h2>
 <h2>ReferencesNo references available.</h2>
 

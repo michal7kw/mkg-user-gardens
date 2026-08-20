@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.172923Z'
+created: '2026-03-11T11:39:48.364391+00:00'
 description: Cognitive processes for encoding, storing, consolidating, and retrieving
   information. Multiple memory systems (episodic, semantic, working, procedural, spatial)
   depend on distinct but interacting neural circuits. The hippocampus is essential
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: memory_and_learning
 permalink: /garden/demo_user/cognitivefunction/memory-and-learning/
+provenance: curated
 slug: memory-and-learning
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Memory and Learning
 type: cognitivefunction
-updated: '2026-06-13T17:47:11.172923Z'
+updated: '2026-08-20T04:08:29.238021Z'
 ---
 
 {% raw %}
@@ -66,7 +67,7 @@ updated: '2026-06-13T17:47:11.172923Z'
 SUPPORTED_BY_REGION::<a class="internal-link is-unresolved" href="/404">Prefrontal Cortex</a><br />
 SUPPORTED_BY_REGION::<a class="internal-link is-unresolved" href="/404">Entorhinal Cortex</a><br />
 SUPPORTED_BY_REGION::<a class="internal-link is-unresolved" href="/404">Amygdala</a><br />
-SUPPORTED_BY_REGION::<a href="/garden/demo_user/anatomy/basal-forebrain/" class="internal-link">Basal Forebrain</a></p>
+SUPPORTED_BY_REGION::<a href="/garden/demo_user/organ/basal-forebrain/" class="internal-link">Basal Forebrain</a></p>
 <h3>Modulated By Neurotransmitter</h3>
 <p>MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/acetylcholine/" class="internal-link">Acetylcholine</a><br />
 MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a><br />

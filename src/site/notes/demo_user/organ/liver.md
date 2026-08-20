@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:13.796997Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:40+0000
 description: Largest internal organ responsible for detoxification, metabolism, bile
   production, and over 500 vital functions. Key target for supplements supporting
   phase I and II detoxification.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: liver
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/organ/liver/
+provenance: curated
 slug: liver
 source: Manual
 tags:
@@ -16,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Liver
 type: organ
-updated: '2026-06-13T17:47:13.796997Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -54,12 +57,16 @@ RELATED::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</
 RELATED::<a href="/garden/demo_user/clinicalpattern/liver-stress-pattern/" class="internal-link">Liver Stress Pattern</a><br />
 RELATED::<a href="/garden/demo_user/supplement/berberine/" class="internal-link">Berberine</a><br />
 RELATED::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a><br />
-RELATED::<a href="/garden/demo_user/gene/cyp3a4/" class="internal-link">CYP3A4</a><br />
-RELATED::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+RELATED::<a href="/garden/demo_user/protein/cyp3a4/" class="internal-link">CYP3A4</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/non-alcoholic-fatty-liver-disease/" class="internal-link">Non-alcoholic Fatty Liver Disease</a><br />
-ASSOCIATED_WITH_CONDITION::<a class="internal-link is-unresolved" href="/404">Cirrhosis</a><br />
+ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cirrhosis/" class="internal-link">Cirrhosis</a><br />
 ASSOCIATED_WITH_CONDITION::<a class="internal-link is-unresolved" href="/404">Hepatitis</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/drug-induced-liver-injury/" class="internal-link">Drug-Induced Liver Injury</a><br />
 ASSOCIATED_WITH_CONDITION::<a class="internal-link is-unresolved" href="/404">Hepatocellular Carcinoma</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (textbook reference)</li>
+</ul>
 
 {% endraw %}

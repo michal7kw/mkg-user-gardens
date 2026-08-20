@@ -1,6 +1,9 @@
 ---
+aliases:
+- Alzheimer S Detection
+- alzheimer s detection
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.031569Z'
+created: 2026-01-18T16:48:42+0000
 description: Assess risk of Alzheimer’s disease with advanced biomarkers for early
   detection and prevention. Tests, such as the beta-amyloid 42/40 (Aβ42/40) ratio
   and phosphorylated tau217 (p-tau217), provide key insights into the risk of developing
@@ -13,6 +16,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-alzheimer-s-detection
 permalink: /garden/demo_user/labtestpanel/alzheimer-s-detection/
+provenance: curated
 slug: alzheimer-s-detection
 source: Manual
 tags:
@@ -20,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: alzheimer_s_detection
 type: labtestpanel
-updated: '2026-06-13T17:47:13.031569Z'
+updated: '2026-08-20T04:08:31.022947Z'
 ---
 
 {% raw %}
@@ -30,9 +34,9 @@ updated: '2026-06-13T17:47:13.031569Z'
 <p>The beta-amyloid 42/40 ratio indicates amyloid plaque burden in the brain, while phosphorylated tau217 (p-tau217) reflects tau pathology. Together, these biomarkers enable early detection, differentiation from other neurodegenerative conditions such as Parkinson’s disease, and longitudinal monitoring of disease progression. This panel is particularly valuable for individuals with family history or genetic risk factors such as APOE4 carrier status.</p>
 <h2>Included Tests</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404">Amyloid Beta 42</a> -- Amyloid peptide decreased in cerebrospinal fluid with plaque deposition</li>
-<li><a class="internal-link is-unresolved" href="/404">Amyloid Beta 40</a> -- Reference amyloid peptide for ratio calculation</li>
-<li><a class="internal-link is-unresolved" href="/404">Beta-Amyloid 42/40 Ratio</a> -- Key indicator of cerebral amyloid plaque burden</li>
+<li><a href="/garden/demo_user/labtest/amyloid-beta-42/" class="internal-link">Amyloid Beta 42</a> -- Amyloid peptide decreased in cerebrospinal fluid with plaque deposition</li>
+<li><a href="/garden/demo_user/labtest/amyloid-beta-40/" class="internal-link">Amyloid Beta 40</a> -- Reference amyloid peptide for ratio calculation</li>
+<li><a href="/garden/demo_user/labtest/beta-amyloid-42-40-ratio/" class="internal-link">Beta-Amyloid 42/40 Ratio</a> -- Key indicator of cerebral amyloid plaque burden</li>
 <li>Phosphorylated Tau 217 (p-tau217) -- Marker of tau pathology and neurodegeneration</li>
 </ul>
 <h2>Clinical Indications</h2>
@@ -44,9 +48,9 @@ updated: '2026-06-13T17:47:13.031569Z'
 <li>Monitoring disease progression in diagnosed individuals</li>
 </ul>
 <h2>Relationships</h2>
-<p>INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Amyloid Beta 42</a><br />
-INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Amyloid Beta 40</a><br />
-INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Beta-Amyloid 42/40 Ratio</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/amyloid-beta-42/" class="internal-link">amyloid_beta_42</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/amyloid-beta-40/" class="internal-link">amyloid_beta_40</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/beta-amyloid-42-40-ratio/" class="internal-link">beta_amyloid_42_40_ratio</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimer’s Disease</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></p>
 

@@ -1,6 +1,8 @@
 ---
+aliases:
+- BNP
 confidence_score: 0.9
-created: '2026-06-13T17:47:10.737070Z'
+created: 2026-02-07T00:00:00+0000
 description: B-type Natriuretic Peptide (BNP) is a 32-amino-acid cardiac neurohormone
   secreted by ventricular cardiomyocytes in response to increased wall stretch from
   volume or pressure overload. It is the gold-standard blood biomarker for heart failure
@@ -12,6 +14,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: bnp
 permalink: /garden/demo_user/biomarker/bnp/
+provenance: curated
 slug: bnp
 source: Manual
 tags:
@@ -25,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: BNP
 type: biomarker
-updated: '2026-06-13T17:47:10.737070Z'
+updated: '2026-08-20T04:08:28.520733Z'
 ---
 
 {% raw %}

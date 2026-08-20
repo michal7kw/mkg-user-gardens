@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:12.106216Z'
+created: 2026-01-03T17:55:39+0000
 description: Red light therapy (RLT) is a therapeutic technique that uses red low-level
   wavelengths of light to treat skin issues, sleep problems, and chronic pain, among
   other things.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: red_light_therapy
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/intervention/red-light-therapy/
+provenance: curated
 slug: red-light-therapy
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Red Light Therapy
 type: intervention
-updated: '2026-06-13T17:47:12.106216Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -61,7 +64,7 @@ updated: '2026-06-13T17:47:12.106216Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/metabolite/atp/" class="internal-link">ATP</a><br />
-RELATED::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
 RELATED::<a href="/garden/demo_user/cellularcomponent/mitochondria/" class="internal-link">Mitochondria</a><br />
 RELATED::<a href="/garden/demo_user/intervention/sauna/" class="internal-link">Sauna</a> (complementary thermal and photonic therapy)<br />
 RELATED::<a href="/garden/demo_user/intervention/cold-exposure/" class="internal-link">Cold Exposure</a> (contrast with cold; both are hormetic stressors)<br />
@@ -70,11 +73,15 @@ RELATED::<a href="/garden/demo_user/intervention/mitochondrial-uncoupling/" clas
 <p>AFFECTS::<a href="/garden/demo_user/cellularcomponent/mitochondria/" class="internal-link">Mitochondria</a> (photons absorbed by cytochrome c oxidase, increasing ATP production 30-50%, Evidence Level 2a)</p>
 <h3>Modulates Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/metabolite/atp/" class="internal-link">ATP</a> (enhanced mitochondrial electron transport chain function, Evidence Level 2a)<br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a> (anti-inflammatory effects reduce systemic inflammation, Evidence Level 2b)</p>
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (anti-inflammatory effects reduce systemic inflammation, Evidence Level 2b)</p>
 <h3>Reduces Condition</h3>
-<p>REDUCES_CONDITION::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a> (reduced TNF-alpha, IL-6; increased IL-10, Evidence Level 2a)</p>
+<p>REDUCES_CONDITION::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a> (reduced TNF-alpha, IL-6; increased IL-10, Evidence Level 2a)</p>
 <h3>May Improve Condition</h3>
 <p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/chronic-pain/" class="internal-link">Chronic Pain</a> (moderate analgesic effect in musculoskeletal conditions, Evidence Level 1a)<br />
-MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Hypothyroidism</a> (improved thyroid function in Hashimoto's, Evidence Level 2b)</p>
+MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/hypothyroidism/" class="internal-link">Hypothyroidism</a> (improved thyroid function in Hashimoto's, Evidence Level 2b)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

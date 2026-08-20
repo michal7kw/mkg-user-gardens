@@ -1,13 +1,16 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:12.095881Z'
+created: 2026-01-25T19:25:00+0000
 description: The transfer of healthy, functional mitochondria into cells or tissues
   with damaged mitochondria. A cutting-edge "Mitotherapy" for aging and ischemic injury.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: mitochondrial_transplantation
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/intervention/mitochondrial-transplantation/
+provenance: curated
 slug: mitochondrial-transplantation
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Mitochondrial Transplantation
 type: intervention
-updated: '2026-06-13T17:47:12.095881Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -69,5 +72,9 @@ RELATED::<a href="/garden/demo_user/intervention/zone-2-training/" class="intern
 TREATS::<a href="/garden/demo_user/condition/mitochondrial-dysfunction/" class="internal-link">Mitochondrial Dysfunction</a> (primary indication, Evidence Level 4)</p>
 <h3>May Improve Condition</h3>
 <p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a> (reduced infarct size in ischemia-reperfusion, Evidence Level 3b)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

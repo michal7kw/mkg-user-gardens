@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:14.223525Z'
+created: '2025-01-22'
 description: In a randomized, placebo-controlled, double-blind trial, NMN supplementation
   (250 mg/day for 10 weeks) increased skeletal muscle insulin sensitivity, insulin
   signaling, and muscle remodeling in postmenopausal prediabetic women. This represents
@@ -12,8 +12,10 @@ doi: 10.1126/science.abe9985
 evidence_level: 5
 gardenUsername: demo_user
 id: pmid_33888596
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/research/nmn-improves-muscle-insulin-sensitivity-in-prediabetic-women/
 pmid: '33888596'
+provenance: curated
 slug: nmn-improves-muscle-insulin-sensitivity-in-prediabetic-women
 source: Manual
 tags:
@@ -28,7 +30,7 @@ tags:
 templateEngineOverride: njk
 title: NMN improves muscle insulin sensitivity in prediabetic women
 type: research
-updated: '2026-06-13T17:47:14.223525Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -59,14 +61,18 @@ updated: '2026-06-13T17:47:14.223525Z'
 ACTIVATES::<a href="/garden/demo_user/protein/ampk/" class="internal-link">AMPK</a></p>
 <h3>Affects</h3>
 <p>AFFECTS::<a href="/garden/demo_user/cellularcomponent/mitochondria/" class="internal-link">Mitochondria</a><br />
-AFFECTS::<a class="internal-link is-unresolved" href="/404">Muscle</a></p>
+AFFECTS::<a href="/garden/demo_user/organ/muscles/" class="internal-link">Muscle</a></p>
 <h3>May Improve Condition</h3>
 <p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/insulin-resistance/" class="internal-link">Insulin Resistance</a></p>
 <h3>Increases Biomarker</h3>
-<p>INCREASES_BIOMARKER::<a class="internal-link is-unresolved" href="/404">NAD</a></p>
+<p>INCREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/nad/" class="internal-link">NAD</a></p>
 <h3>Studies</h3>
 <p>STUDIES::<a href="/garden/demo_user/supplement/nmn/" class="internal-link">NMN</a></p>
 <h3>Involves</h3>
 <p>INVOLVES::<a href="/garden/demo_user/protein/pgc-1alpha/" class="internal-link">PGC-1alpha</a></p>
+<h2>References</h2>
+<ul>
+<li>NMN improves muscle insulin sensitivity in prediabetic women — original research publication indexed in this knowledge base.</li>
+</ul>
 
 {% endraw %}

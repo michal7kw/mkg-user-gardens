@@ -2,13 +2,14 @@
 aliases:
 - pregnancy hcg
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.166539Z'
+created: 2026-01-18T16:48:42+0000
 description: This test will help determine if you are pregnant.
 dg-home: false
 dg-publish: true
 gardenUsername: demo_user
 id: fhp-pregnancy-hcg
 permalink: /garden/demo_user/labtestpanel/pregnancy-hcg/
+provenance: curated
 slug: pregnancy-hcg
 source: Manual
 tags:
@@ -16,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: pregnancy_hcg
 type: labtestpanel
-updated: '2026-06-13T17:47:13.166539Z'
+updated: '2026-08-20T04:08:31.079551Z'
 ---
 
 {% raw %}
@@ -37,7 +38,7 @@ updated: '2026-06-13T17:47:13.166539Z'
 <li>Tumor marker for gestational trophoblastic disease and certain germ cell tumors</li>
 </ul>
 <h2>Relationships</h2>
-<p>INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Human Chorionic Gonadotropin (hCG)</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/human-chorionic-gonadotropin-hcg/" class="internal-link">human_chorionic_gonadotropin_hcg</a><br />
 USED_FOR::<a class="internal-link is-unresolved" href="/404">Pregnancy</a><br />
 RELATED::<a href="/garden/demo_user/labtest/follicle-stimulating-hormone/" class="internal-link">follicle stimulating hormone</a><br />
 RELATED::<a href="/garden/demo_user/labtest/luteinizing-hormone/" class="internal-link">luteinizing hormone</a><br />

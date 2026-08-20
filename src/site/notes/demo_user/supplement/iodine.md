@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.7
-created: '2026-06-13T17:47:14.358944Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:41+0000
 description: Essential trace element required for thyroid hormone synthesis (T3 and
   T4). Critical for metabolic regulation, cognitive development, and overall health.
   Deficiency remains common worldwide.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: iodine
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/iodine/
+provenance: curated
 pubchem_id: '807'
 slug: iodine
 source: Manual
@@ -23,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Iodine
 type: supplement
-updated: '2026-06-13T17:47:14.358944Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -64,5 +66,11 @@ TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/tsh/" class="internal-link
 SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/l-tyrosine/" class="internal-link">L-Tyrosine</a> (tyrosine is the amino acid backbone of thyroid hormones, Evidence Level 1a)</p>
 <h3>Modulates Hormone</h3>
 <p>MODULATES_HORMONE::<a href="/garden/demo_user/hormone/thyroid-hormones/" class="internal-link">Thyroid Hormones</a> (substrate for T3 and T4 synthesis, Evidence Level 1a)</p>
+<h2>References</h2>
+<ul>
+<li>Zimmermann MB. Endocr Rev. 2009;30(4):376-408. Iodine deficiency (review) (PMID: 19460960)</li>
+<li>Eastman CJ, Zimmermann MB. Nat Rev Endocrinol. 2018;14(11):687-688. Iodine (review) (PMID: 30158500)</li>
+<li>WHO/UNICEF/ICCIDD. Assessment of Iodine Deficiency Disorders. WHO; 2007 (guideline)</li>
+</ul>
 
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.940111Z'
+created: 2026-04-01T12:00:00+0000
 description: Gene encoding the serotonin 2A receptor (5-HT2A), a Gq-coupled GPCR critical
   for cortical excitability, mood regulation, and psychedelic drug response. The rs7997012
   polymorphism is associated with SSRI antidepressant response (STAR*D study). The
@@ -12,6 +12,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: htr2a
 permalink: /garden/demo_user/gene/htr2a/
+provenance: curated
 slug: htr2a
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: HTR2A
 type: gene
-updated: '2026-06-13T17:47:11.940111Z'
+updated: '2026-08-20T04:08:30.276894Z'
 ---
 
 {% raw %}

@@ -1,5 +1,6 @@
 ---
-created: '2026-06-13T17:47:14.240930Z'
+confidence_score: 0.7
+created: '2026-08-20T04:08:31.763556Z'
 description: Drug-induced muscle damage manifesting as myalgia, weakness, and elevated
   creatine kinase, most commonly associated with statin therapy through mitochondrial
   dysfunction and CoQ10 depletion, ranging from mild symptoms to life-threatening
@@ -9,7 +10,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: myopathy
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/sideeffect/myopathy/
+provenance: curated
 slug: myopathy
 source: Manual
 tags:
@@ -22,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Myopathy
 type: sideeffect
-updated: '2026-06-13T17:47:14.240930Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -30,7 +33,7 @@ updated: '2026-06-13T17:47:14.240930Z'
 <h2>Overview</h2>
 <p>Drug-induced myopathy encompasses a spectrum of skeletal muscle disorders caused by medications, ranging from mild myalgia (muscle pain without CK elevation) through myositis (muscle inflammation with CK elevation) to rhabdomyolysis (severe muscle necrosis with massive CK elevation, myoglobinuria, and risk of acute kidney injury). Statin-associated muscle symptoms (SAMS) are by far the most clinically significant and common form, affecting an estimated 5-20% of statin users depending on diagnostic criteria, and representing the leading cause of statin discontinuation.</p>
 <p><a href="/garden/demo_user/drug/atorvastatin/" class="internal-link">Atorvastatin</a> and other HMG-CoA reductase inhibitors cause muscle damage through multiple proposed mechanisms. The most well-established is depletion of <a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a> (ubiquinone), which shares the mevalonate biosynthetic pathway with cholesterol. By inhibiting HMG-CoA reductase, statins reduce not only cholesterol synthesis but also the production of downstream isoprenoid intermediates including CoQ10, dolichols, and isoprenylated proteins. CoQ10 depletion impairs mitochondrial electron transport chain function in skeletal muscle, reducing ATP production and increasing oxidative stress. Muscle tissue is particularly vulnerable due to its high energy demands and dependence on oxidative phosphorylation. Additional mechanisms include impaired isoprenylation of small GTPases (affecting membrane integrity and signal transduction), reduced selenoprotein synthesis, and altered calcium homeostasis via impaired prenylation of regulatory proteins.</p>
-<p><a href="/garden/demo_user/biomarker/creatine-kinase/" class="internal-link">Creatine Kinase</a> (CK) is the primary biomarker for monitoring drug-induced myopathy. Baseline CK measurement before statin initiation is recommended, and CK elevation greater than 10 times the upper limit of normal (typically &gt;2,000 U/L) with muscle symptoms defines rhabdomyolysis. Risk factors for statin myopathy include high statin dose, advanced age, female sex, low body mass index, hypothyroidism, renal impairment, and drug interactions (particularly CYP3A4 inhibitors such as clarithromycin, itraconazole, and grapefruit juice that increase statin plasma levels). Simvastatin 80 mg carries the highest myopathy risk among commonly used statins, leading to FDA restriction of this dose.</p>
+<p><a href="/garden/demo_user/labtest/creatine-kinase/" class="internal-link">Creatine Kinase</a> (CK) is the primary biomarker for monitoring drug-induced myopathy. Baseline CK measurement before statin initiation is recommended, and CK elevation greater than 10 times the upper limit of normal (typically &gt;2,000 U/L) with muscle symptoms defines rhabdomyolysis. Risk factors for statin myopathy include high statin dose, advanced age, female sex, low body mass index, hypothyroidism, renal impairment, and drug interactions (particularly CYP3A4 inhibitors such as clarithromycin, itraconazole, and grapefruit juice that increase statin plasma levels). Simvastatin 80 mg carries the highest myopathy risk among commonly used statins, leading to FDA restriction of this dose.</p>
 <p>CoQ10 supplementation (100-200 mg/day) has been widely adopted as a preventive strategy for statin-induced myopathy, supported by biological plausibility and multiple (though not all) randomized controlled trials showing reduction in muscle symptoms. A meta-analysis of 12 RCTs found a statistically significant reduction in statin-associated myalgia with CoQ10 supplementation. Other management strategies include switching to a lower-risk statin (pravastatin, fluvastatin -- which do not undergo CYP3A4 metabolism), reducing dose, alternate-day dosing with long half-life statins (rosuvastatin), or switching to non-statin lipid-lowering therapies (ezetimibe, PCSK9 inhibitors).</p>
 <h2>Key Mechanisms</h2>
 <ul>
@@ -81,10 +84,14 @@ updated: '2026-06-13T17:47:14.240930Z'
 <h2>Relationships</h2>
 <p>CAUSED_BY::<a href="/garden/demo_user/drug/atorvastatin/" class="internal-link">Atorvastatin</a><br />
 MITIGATED_BY::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a><br />
-MONITORED_BY::<a href="/garden/demo_user/biomarker/creatine-kinase/" class="internal-link">Creatine Kinase</a><br />
+MONITORED_BY::<a href="/garden/demo_user/labtest/creatine-kinase/" class="internal-link">Creatine Kinase</a><br />
 MECHANISM_INVOLVES::<a href="/garden/demo_user/condition/mitochondrial-dysfunction/" class="internal-link">Mitochondrial Dysfunction</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/condition/myalgia/" class="internal-link">Myalgia</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/condition/myositis/" class="internal-link">Myositis</a><br />
 RISK_FACTOR::<a class="internal-link is-unresolved" href="/404">Renal Disease</a></p>
+<h2>References</h2>
+<ul>
+<li>MedDRA. Medical Dictionary for Regulatory Activities. https://www.meddra.org (adverse event classification)</li>
+</ul>
 
 {% endraw %}

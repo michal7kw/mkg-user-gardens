@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.964051Z'
+created: 2026-01-03T17:55:41+0000
 description: The serotonin synthesis pathway converts the essential amino acid tryptophan
   to serotonin (5-HT) through two enzymatic steps, producing the neurotransmitter
   crucial for mood, sleep, appetite, and cognition.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: serotonin_synthesis
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/serotonin-synthesis/
+provenance: curated
 slug: serotonin-synthesis
 source: Manual
 tags:
@@ -21,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Serotonin Synthesis
 type: pathway
-updated: '2026-06-13T17:47:13.964051Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -56,5 +58,9 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/sleep-disorder/"
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a></p>
 <h3>Involves</h3>
 <p>INVOLVES::<a href="/garden/demo_user/gene/tph2/" class="internal-link">TPH2</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

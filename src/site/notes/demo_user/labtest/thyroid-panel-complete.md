@@ -2,7 +2,7 @@
 aliases:
 - thyroid panel complete
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.848092Z'
+created: 2025-12-10T09:07:56+0000
 description: 'Comprehensive thyroid assessment: TSH, Free T4, Free T3, Total T4, Total
   T3, Reverse T3, TPO antibodies, thyroglobulin antibodies.'
 dg-home: false
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: test-thyroid-complete-001
 permalink: /garden/demo_user/labtest/thyroid-panel-complete/
+provenance: curated
 slug: thyroid-panel-complete
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: thyroid_panel_complete
 type: labtest
-updated: '2026-06-13T17:47:12.848092Z'
+updated: '2026-08-20T04:08:30.931077Z'
 ---
 
 {% raw %}
@@ -44,6 +45,10 @@ updated: '2026-06-13T17:47:12.848092Z'
 <td>Thyroid Complete</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -55,6 +60,18 @@ updated: '2026-06-13T17:47:12.848092Z'
 <td><strong>Turnaround Time</strong></td>
 <td>2-5 days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$125-$275</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Biomarkers Measured</h2>
@@ -63,8 +80,8 @@ updated: '2026-06-13T17:47:12.848092Z'
 <li><a href="/garden/demo_user/labtest/tsh/" class="internal-link">tsh</a></li>
 <li><a href="/garden/demo_user/biomarker/free-t4/" class="internal-link">Free T4</a></li>
 <li><a href="/garden/demo_user/biomarker/free-t3/" class="internal-link">Free T3</a></li>
-<li><a href="/garden/demo_user/biomarker/total-t4/" class="internal-link">Total T4</a></li>
-<li><a href="/garden/demo_user/biomarker/total-t3/" class="internal-link">Total T3</a></li>
+<li><a href="/garden/demo_user/labtest/total-t4/" class="internal-link">Total T4</a></li>
+<li><a href="/garden/demo_user/labtest/total-t3/" class="internal-link">Total T3</a></li>
 <li><a href="/garden/demo_user/labtest/reverse-t3/" class="internal-link">Reverse T3</a></li>
 <li><a href="/garden/demo_user/biomarker/tpo-antibodies/" class="internal-link">Tpo Antibodies</a></li>
 <li><a href="/garden/demo_user/biomarker/tg-antibodies/" class="internal-link">Tg Antibodies</a></li>
@@ -77,15 +94,15 @@ updated: '2026-06-13T17:47:12.848092Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
-<h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/biomarker/free-t3/" class="internal-link">Free T3</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/total-t3/" class="internal-link">Total T3</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/tpo-antibodies/" class="internal-link">Tpo Antibodies</a><br />
-RELATED::<a href="/garden/demo_user/labtest/reverse-t3/" class="internal-link">Reverse T3</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/total-t4/" class="internal-link">Total T4</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/free-t4/" class="internal-link">Free T4</a><br />
-RELATED::<a href="/garden/demo_user/labtest/tsh/" class="internal-link">tsh</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/tg-antibodies/" class="internal-link">Tg Antibodies</a></p>
+<h3>Includes Test</h3>
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/tsh/" class="internal-link">tsh</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/thyroxine-t4-free/" class="internal-link">thyroxine_t4_free</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/triiodothyronine-t3-free/" class="internal-link">triiodothyronine_t3_free</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/reverse-t3/" class="internal-link">reverse_t3</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/thyroid-peroxidase-antibodies-tpo/" class="internal-link">thyroid_peroxidase_antibodies_tpo</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/thyroglobulin-antibodies-tgab/" class="internal-link">thyroglobulin_antibodies_tgab</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/total-t4/" class="internal-link">total_t4</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/total-t3/" class="internal-link">total_t3</a></p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

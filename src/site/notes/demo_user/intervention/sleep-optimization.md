@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:12.118128Z'
+created: 2026-01-24T12:00:00+0000
 description: Strategies to improve sleep quality, duration, and architecture for brain
   health. Adequate sleep supports glymphatic clearance of neurotoxins, memory consolidation,
   and cognitive function.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: sleep_optimization
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/intervention/sleep-optimization/
+provenance: curated
 slug: sleep-optimization
 source: Manual
 tags:
@@ -21,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Sleep Optimization
 type: intervention
-updated: '2026-06-13T17:47:12.118128Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -66,19 +68,23 @@ RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link"
 <p>MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/neuroinflammation/" class="internal-link">Neuroinflammation</a> (sleep deprivation increases neuroinflammatory markers, Evidence Level 2a)<br />
 MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/amyloid-cascade/" class="internal-link">Amyloid Cascade</a> (glymphatic clearance of amyloid-beta is sleep-dependent, Evidence Level 2a)</p>
 <h3>Modulates Hormone</h3>
-<p>MODULATES_HORMONE::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a> (sleep regulates HPA axis and cortisol circadian rhythm, Evidence Level 1b)<br />
+<p>MODULATES_HORMONE::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a> (sleep regulates HPA axis and cortisol circadian rhythm, Evidence Level 1b)<br />
 MODULATES_HORMONE::<a href="/garden/demo_user/hormone/melatonin/" class="internal-link">Melatonin</a> (darkness and circadian alignment optimize melatonin secretion, Evidence Level 1b)<br />
 MODULATES_HORMONE::<a href="/garden/demo_user/hormone/growth-hormone/" class="internal-link">Growth Hormone</a> (80% of GH secreted during deep sleep, Evidence Level 1b)<br />
 MODULATES_HORMONE::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a> (sleep deprivation impairs insulin sensitivity within one night, Evidence Level 2a)</p>
 <h3>Modulates Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a> (adequate sleep supports BDNF-mediated neuroplasticity, Evidence Level 2a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/amyloid-beta-4240-ratio/" class="internal-link">Amyloid-Beta 4240 Ratio</a> (glymphatic clearance during SWS, Evidence Level 2a)<br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a> (poor sleep elevates inflammatory markers, Evidence Level 1b)</p>
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (poor sleep elevates inflammatory markers, Evidence Level 1b)</p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a> (glymphatic system clearance and memory consolidation, Evidence Level 2a)</p>
 <h3>May Improve Condition</h3>
 <p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/mild-cognitive-impairment/" class="internal-link">Mild Cognitive Impairment</a> (sleep optimization may slow cognitive decline, Evidence Level 2b)<br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/vascular-dementia/" class="internal-link">Vascular Dementia</a> (cardiovascular risk factor management, Evidence Level 2b)<br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a> (sleep quality strongly linked to mood regulation, Evidence Level 1b)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

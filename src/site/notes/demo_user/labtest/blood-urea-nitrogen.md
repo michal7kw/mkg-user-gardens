@@ -90,7 +90,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.223149Z'
+created: '2026-01-19T08:30:04.032184+00:00'
 description: Tested twice a year Blood urea nitrogen (BUN) measures the amount of
   nitrogen in the blood that comes from urea, a waste product made when the body breaks
   down protein. BUN is commonly used to check kidney function, since healthy kidneys
@@ -102,6 +102,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-blood-urea-nitrogen
 permalink: /garden/demo_user/labtest/blood-urea-nitrogen/
+provenance: curated
 slug: blood-urea-nitrogen
 source: Manual
 tags:
@@ -109,7 +110,7 @@ tags:
 templateEngineOverride: njk
 title: blood_urea_nitrogen
 type: labtest
-updated: '2026-06-13T17:47:12.223149Z'
+updated: '2026-08-20T04:08:30.530509Z'
 ---
 
 {% raw %}
@@ -135,6 +136,10 @@ updated: '2026-06-13T17:47:12.223149Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -146,6 +151,18 @@ updated: '2026-06-13T17:47:12.223149Z'
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -156,11 +173,13 @@ updated: '2026-06-13T17:47:12.223149Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/labtest/blood-urea-nitrogen/" class="internal-link">Blood Urea Nitrogen</a></p>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Liver Dysfunction</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Dehydration</a><br />
+<p>RELATED::<a href="/garden/demo_user/condition/liver-dysfunction/" class="internal-link">Liver Dysfunction</a><br />
+RELATED::<a href="/garden/demo_user/condition/dehydration/" class="internal-link">Dehydration</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Malnutrition</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Kidney Dysfunction</a><br />
+RELATED::<a href="/garden/demo_user/condition/kidney-dysfunction/" class="internal-link">Kidney Dysfunction</a><br />
 RELATED::<a href="/garden/demo_user/condition/gastrointestinal-bleeding/" class="internal-link">Gastrointestinal Bleeding</a></p>
 <h3>May Detect</h3>
 <p>MAY_DETECT::<a href="/garden/demo_user/condition/gastrointestinal-bleeding/" class="internal-link">Gastrointestinal Bleeding</a></p>

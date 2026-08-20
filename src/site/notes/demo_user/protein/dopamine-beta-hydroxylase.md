@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:14.132172Z'
+created: 2026-03-19T00:00:00+0000
 description: Copper-dependent monooxygenase that converts dopamine to norepinephrine
   in noradrenergic neurons and adrenal medulla chromaffin cells. Requires ascorbic
   acid (Vitamin C) and copper as essential cofactors. Uniquely localized within synaptic
@@ -12,6 +12,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: dopamine_beta_hydroxylase
 permalink: /garden/demo_user/protein/dopamine-beta-hydroxylase/
+provenance: curated
 slug: dopamine-beta-hydroxylase
 source: Manual
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Dopamine Beta-Hydroxylase
 type: protein
-updated: '2026-06-13T17:47:14.132172Z'
+updated: '2026-08-20T04:08:31.664178Z'
 ---
 
 {% raw %}
@@ -86,7 +87,7 @@ AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Locus Coeruleu
 <p>PARTICIPATES_IN_PATHWAY::<a href="/garden/demo_user/pathway/dopamine-synthesis/" class="internal-link">Dopamine Synthesis</a></p>
 <h3>Requires Cofactor</h3>
 <p>REQUIRES_COFACTOR::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a><br />
-REQUIRES_COFACTOR::<a href="/garden/demo_user/biomarker/copper/" class="internal-link">Copper</a></p>
+REQUIRES_COFACTOR::<a href="/garden/demo_user/supplement/copper/" class="internal-link">Copper</a></p>
 <h3>Converts</h3>
 <p>CONVERTS::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a></p>
 <h3>Produces</h3>

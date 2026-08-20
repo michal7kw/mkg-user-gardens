@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.571606Z'
+confidence_score: 0.85
+created: 2026-01-18T16:02:34+0000
 description: A condition caused by damage to the nerves outside the brain and spinal
   cord (peripheral nerves), often resulting in numbness, tingling, and pain.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: peripheral_neuropathy
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/peripheral-neuropathy/
+provenance: curated
 slug: peripheral-neuropathy
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Peripheral Neuropathy
 type: condition
-updated: '2026-06-13T17:47:11.571606Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -46,8 +49,7 @@ updated: '2026-06-13T17:47:11.571606Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">EMG and Nerve Conduction Studies</a><br />
-RELATED::<a href="/garden/demo_user/labtest/lead/" class="internal-link">lead</a></p>
+<p>RELATED::<a href="/garden/demo_user/labtest/lead/" class="internal-link">lead</a></p>
 <p>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Peripheral Nerves</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/supplement/vitamin-b12/" class="internal-link">Vitamin B12</a><br />
@@ -61,5 +63,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/b-complex-vitamins
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-b12/" class="internal-link">Vitamin B12</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/l-carnitine/" class="internal-link">L-Carnitine</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a></p>
+<h2>References</h2>
+<ul>
+<li>Watson JC, Dyck PJ. N Engl J Med. 2015;373(5):449-461. Peripheral neuropathy (review) (PMID: 26244306)</li>
+<li>Callaghan BC, Cheng HT, Stables CL, Smith AL, Feldman EL. JAMA. 2012;308(22):2351-2361. Diabetic neuropathy (review) (PMID: 23190337)</li>
+<li>England JD, Asbury AK. Lancet Neurol. 2004;3(9):539-549. Peripheral neuropathy (review) (PMID: 15337174)</li>
+</ul>
 
 {% endraw %}

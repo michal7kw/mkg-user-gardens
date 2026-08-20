@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:11.607806Z'
+created: 2026-04-01T10:00:00+0000
 description: Inflammatory arthritis occurring in up to 30% of psoriasis patients.
   Heterogeneous presentation including peripheral arthritis, axial disease, dactylitis,
   enthesitis, and nail disease. Pathogenesis involves the IL-23/IL-17 axis.
@@ -10,6 +10,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: psoriatic_arthritis
 permalink: /garden/demo_user/condition/psoriatic-arthritis/
+provenance: curated
 slug: psoriatic-arthritis
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Psoriatic Arthritis
 type: condition
-updated: '2026-06-13T17:47:11.607806Z'
+updated: '2026-08-20T04:08:29.871624Z'
 ---
 
 {% raw %}
@@ -66,7 +67,7 @@ updated: '2026-06-13T17:47:11.607806Z'
 <li>RELATED::<a href="/garden/demo_user/condition/psoriasis/" class="internal-link">Psoriasis</a></li>
 <li>RELATED::<a href="/garden/demo_user/condition/spondyloarthropathy/" class="internal-link">Spondyloarthropathy</a></li>
 <li>RELATED::<a href="/garden/demo_user/condition/ankylosing-spondylitis/" class="internal-link">Ankylosing Spondylitis</a></li>
-<li>ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></li>
+<li>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></li>
 <li>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/esr/" class="internal-link">esr</a></li>
 <li>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hla-b27/" class="internal-link">HLA-B27</a></li>
 <li>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a></li>

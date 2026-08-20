@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:13.785394Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:39+0000
 description: Muscular organ that pumps blood throughout the body via the circulatory
   system. Central to cardiovascular health and affected by numerous supplements.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: heart
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/organ/heart/
+provenance: curated
 slug: heart
 source: Manual
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Heart
 type: organ
-updated: '2026-06-13T17:47:13.785394Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -46,12 +49,12 @@ updated: '2026-06-13T17:47:13.785394Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">CoQ10</a><br />
+RELATED::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">CoQ10</a><br />
 RELATED::<a href="/garden/demo_user/supplement/creatine/" class="internal-link">Creatine</a><br />
 RELATED::<a href="/garden/demo_user/clinicalpattern/cardiovascular-risk-pattern/" class="internal-link">Cardiovascular Risk Pattern</a><br />
 RELATED::<a href="/garden/demo_user/supplement/vitamin-k2/" class="internal-link">Vitamin K2</a><br />
-RELATED::<a href="/garden/demo_user/condition/thyroid-dysfunction/" class="internal-link">Thyroid Dysfunction</a><br />
-RELATED::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/thyroid-dysfunction/" class="internal-link">Thyroid Dysfunction</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 RELATED::<a href="/garden/demo_user/clinicalpattern/kidney-stress-pattern/" class="internal-link">Kidney Stress Pattern</a><br />
 RELATED::<a href="/garden/demo_user/supplement/resveratrol/" class="internal-link">Resveratrol</a><br />
@@ -60,5 +63,9 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/heart-failure/" 
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/atrial-fibrillation/" class="internal-link">Atrial Fibrillation</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/hypertension/" class="internal-link">Hypertension</a><br />
 ASSOCIATED_WITH_CONDITION::<a class="internal-link is-unresolved" href="/404">Myocarditis</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (textbook reference)</li>
+</ul>
 
 {% endraw %}

@@ -1,15 +1,18 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:10.678951Z'
+created: '2026-02-14T12:00:00+00:00'
 description: A group of specialized biomarkers including NGAL, KIM-1, Cystatin C,
   TIMP-2, and IGFBP7 used for the early detection, risk stratification, and monitoring
   of acute kidney injury (AKI). These markers detect tubular damage 24-48 hours before
   serum creatinine rises, enabling earlier clinical intervention and improved outcomes.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: acute_kidney_injury_markers
+last_modified: 2026-06-21T00:00:00+0000
 permalink: /garden/demo_user/biomarker/acute-kidney-injury-markers/
+provenance: curated
 slug: acute-kidney-injury-markers
 source: Manual
 tags:
@@ -22,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Acute Kidney Injury Markers
 type: biomarker
-updated: '2026-06-13T17:47:10.678951Z'
+updated: 2026-06-21T00:00:00+0000
 ---
 
 {% raw %}
@@ -235,7 +238,7 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/heart-failure/" 
 <p>PREDICTS_RISK::<a href="/garden/demo_user/condition/acute-kidney-injury/" class="internal-link">Acute Kidney Injury</a><br />
 PREDICTS_RISK::<a href="/garden/demo_user/condition/chronic-kidney-disease/" class="internal-link">Chronic Kidney Disease</a></p>
 <h3>Correlated With</h3>
-<p>CORRELATED_WITH::<a href="/garden/demo_user/biomarker/cystatin-c/" class="internal-link">Cystatin C</a><br />
+<p>CORRELATED_WITH::<a href="/garden/demo_user/labtest/cystatin-c/" class="internal-link">Cystatin C</a><br />
 CORRELATED_WITH::<a href="/garden/demo_user/labtest/creatinine/" class="internal-link">Creatinine</a><br />
 CORRELATED_WITH::<a href="/garden/demo_user/labtest/blood-urea-nitrogen/" class="internal-link">Blood Urea Nitrogen</a></p>
 <h3>Affected By Supplement</h3>

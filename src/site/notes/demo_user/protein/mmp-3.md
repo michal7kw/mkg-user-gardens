@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.75
-created: '2026-06-13T17:47:14.164159Z'
+created: 2026-04-01T10:00:00+0000
 description: Matrix metalloproteinase-3 (stromelysin-1) degrades cartilage proteoglycans,
   fibronectin, and collagens. Serum MMP-3 is a validated biomarker for RA disease
   activity and predicts radiographic progression. Also activates other MMPs.
@@ -10,6 +10,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: mmp_3
 permalink: /garden/demo_user/protein/mmp-3/
+provenance: curated
 slug: mmp-3
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: MMP-3
 type: protein
-updated: '2026-06-13T17:47:14.164159Z'
+updated: '2026-08-20T04:08:31.690922Z'
 ---
 
 {% raw %}

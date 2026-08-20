@@ -7,21 +7,31 @@ country_regulatory:
     notes: Reimbursed systemic corticosteroid
     prescription_type: RR
     reimbursement_class: A
+  pl:
+    agency_status: approved
+    atc_code: H02AB07
+    notes: URPL/EMA-approved; reimbursed systemic corticosteroid on the NFZ list (odpłatność
+      ryczałtowa); common brand Encorton; Polish name prednizon
+    prescription_type: Rp
+    reimbursement_class: refundowany
   uk:
     agency_status: MHRA-approved
     atc_code: H02AB07
     notes: BNF; UK formularies use prednisolone rather than prednisone
     prescription_type: POM
     reimbursement_class: NHS
-created: '2026-06-13T17:47:11.871027Z'
+created: 2026-01-03T17:55:41+0000
 description: Synthetic corticosteroid with potent anti-inflammatory and immunosuppressive
   effects. Used for a wide range of inflammatory and autoimmune conditions. Converted
   to active prednisolone in the liver.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: prednisone
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/prednisone/
+provenance: curated
 slug: prednisone
 source: Manual
 tags:
@@ -33,7 +43,7 @@ tags:
 templateEngineOverride: njk
 title: Prednisone
 type: drug
-updated: '2026-06-13T17:47:11.871027Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -57,5 +67,9 @@ updated: '2026-06-13T17:47:11.871027Z'
 <h3>Related</h3>
 <p>INTERACTS_WITH::<a href="/garden/demo_user/drug/doxepin/" class="internal-link">Doxepin</a></p>
 <h3>Interacts With</h3>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

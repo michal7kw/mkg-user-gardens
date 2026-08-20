@@ -2,7 +2,7 @@
 aliases:
 - 52 Fasting
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.040852Z'
+created: '2026-04-05T16:16:19.343853+00:00'
 description: 'Modified fasting protocol: eat normally 5 days per week, restrict to
   500-600 calories on 2 non-consecutive days. Provides intermittent energy restriction
   without daily time restriction.'
@@ -11,6 +11,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: intervention_5_2_fasting
 permalink: /garden/demo_user/intervention/52-fasting/
+provenance: curated
 slug: 52-fasting
 source: dev_seeder
 tags:
@@ -19,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: 5:2 Fasting
 type: intervention
-updated: '2026-06-13T17:47:12.040852Z'
+updated: '2026-08-20T04:08:30.361747Z'
 ---
 
 {% raw %}

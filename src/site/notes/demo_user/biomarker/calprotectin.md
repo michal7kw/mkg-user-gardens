@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.87
-created: '2026-06-13T17:47:10.792418Z'
+created: 2026-02-07T00:00:00+0000
 description: Fecal calprotectin is a 36 kDa heterodimeric protein (S100A8/A9) released
   from activated neutrophils at sites of gastrointestinal mucosal inflammation. It
   is the gold standard non-invasive stool biomarker for detecting and monitoring intestinal
@@ -11,6 +11,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: calprotectin
 permalink: /garden/demo_user/biomarker/calprotectin/
+provenance: curated
 slug: calprotectin
 source: Manual
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Calprotectin
 type: biomarker
-updated: '2026-06-13T17:47:10.792418Z'
+updated: '2026-08-20T04:08:28.546010Z'
 ---
 
 {% raw %}

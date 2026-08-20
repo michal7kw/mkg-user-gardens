@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:12.129165Z'
+created: 2026-03-05T00:00:00+0000
 description: Low-intensity aerobic exercise accessible to nearly all populations.
   Consistent evidence for reducing all-cause mortality, cardiovascular disease, type
   2 diabetes, depression, and cognitive decline. 7,000-10,000 steps/day associated
@@ -10,7 +10,9 @@ dg-publish: true
 evidence_level: 3
 gardenUsername: demo_user
 id: walking
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/intervention/walking/
+provenance: curated
 slug: walking
 source: Manual
 tags:
@@ -23,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Walking
 type: intervention
-updated: '2026-06-13T17:47:12.129165Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -69,10 +71,10 @@ RELATED::<a href="/garden/demo_user/intervention/strength-training/" class="inte
 RELATED::<a href="/garden/demo_user/intervention/sleep-optimization/" class="internal-link">Sleep Optimization</a> (morning walks anchor circadian rhythm)</p>
 <h3>Modulates Hormone</h3>
 <p>MODULATES_HORMONE::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a> (post-meal walking reduces postprandial insulin demand, Evidence Level 1b)<br />
-MODULATES_HORMONE::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a> (walking, especially in nature, reduces cortisol 12-16%, Evidence Level 2b)</p>
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a> (walking, especially in nature, reduces cortisol 12-16%, Evidence Level 2b)</p>
 <h3>Modulates Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a> (walking increases hippocampal BDNF, supporting neuroplasticity, Evidence Level 2a)<br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a> (regular walking reduces systemic inflammation, Evidence Level 1b)<br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (regular walking reduces systemic inflammation, Evidence Level 1b)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a> (improved glycemic control with daily walking, Evidence Level 1b)</p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a> (hippocampal volume preservation and neurogenesis, Evidence Level 2a)</p>
@@ -80,5 +82,9 @@ AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-li
 <p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/type-2-diabetes/" class="internal-link">Type 2 Diabetes</a> (26% reduced incidence with regular walking, Evidence Level 1a)<br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a> (30% risk reduction with 30 min/day, Evidence Level 1a)<br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a> (30-40% reduced risk, Evidence Level 1a)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

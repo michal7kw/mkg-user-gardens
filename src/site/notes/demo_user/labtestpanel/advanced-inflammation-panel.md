@@ -2,7 +2,7 @@
 aliases:
 - advanced inflammation panel
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.026562Z'
+created: 2026-02-07T00:00:00+0000
 description: Multi-marker panel assessing systemic inflammation through complementary
   pathways. hs-CRP for vascular inflammation, ESR for chronic inflammation, fibrinogen
   for acute phase and clotting risk, and ferritin as both iron store and acute phase
@@ -12,6 +12,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-advanced-inflammation
 permalink: /garden/demo_user/labtestpanel/advanced-inflammation-panel/
+provenance: curated
 slug: advanced-inflammation-panel
 source: Manual
 tags:
@@ -19,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: advanced_inflammation_panel
 type: labtestpanel
-updated: '2026-06-13T17:47:13.026562Z'
+updated: '2026-08-20T04:08:31.020441Z'
 ---
 
 {% raw %}
@@ -29,7 +30,7 @@ updated: '2026-06-13T17:47:13.026562Z'
 <p>By combining markers such as hs-CRP (vascular inflammation), ESR (chronic inflammation), fibrinogen (acute phase and clotting risk), ferritin (iron stores and acute-phase reactant), TNF-alpha, and IL-6 (pro-inflammatory cytokines), the panel provides a comprehensive inflammatory burden assessment that guides both diagnosis and intervention strategies.</p>
 <h2>Included Tests</h2>
 <ul>
-<li><a href="/garden/demo_user/labtest/high-sensitivity-c-reactive-protein-hs-crp/" class="internal-link">high sensitivity c reactive protein hs crp</a> -- Vascular and systemic inflammation marker</li>
+<li><a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">hs-CRP</a> -- Vascular and systemic inflammation marker</li>
 <li><a href="/garden/demo_user/labtest/esr/" class="internal-link">esr</a> -- Erythrocyte sedimentation rate for chronic inflammation</li>
 <li><a href="/garden/demo_user/labtest/fibrinogen/" class="internal-link">fibrinogen</a> -- Acute-phase protein and clotting risk factor</li>
 <li><a href="/garden/demo_user/labtest/ferritin/" class="internal-link">ferritin</a> -- Iron storage marker and acute-phase reactant</li>
@@ -45,12 +46,12 @@ updated: '2026-06-13T17:47:13.026562Z'
 <li>Differentiating between acute and chronic inflammatory processes</li>
 </ul>
 <h2>Relationships</h2>
-<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/high-sensitivity-c-reactive-protein-hs-crp/" class="internal-link">high sensitivity c reactive protein hs crp</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">hs_crp</a><br />
 INCLUDES_TEST::<a href="/garden/demo_user/labtest/esr/" class="internal-link">esr</a><br />
 INCLUDES_TEST::<a href="/garden/demo_user/labtest/fibrinogen/" class="internal-link">fibrinogen</a><br />
 INCLUDES_TEST::<a href="/garden/demo_user/labtest/ferritin/" class="internal-link">ferritin</a><br />
-INCLUDES_TEST::<a href="/garden/demo_user/labtest/tnf-alpha/" class="internal-link">TNF Alpha</a><br />
-INCLUDES_TEST::<a href="/garden/demo_user/labtest/interleukin-6/" class="internal-link">Interleukin 6</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/tnf-alpha/" class="internal-link">tnf_alpha</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/interleukin-6/" class="internal-link">interleukin_6</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/autoimmune-disease/" class="internal-link">Autoimmune Disease</a></p>

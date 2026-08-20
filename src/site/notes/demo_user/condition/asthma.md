@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.223159Z'
+created: '2026-04-01T19:57:53.735209+00:00'
 description: Chronic inflammatory airway disease characterized by reversible airflow
   obstruction, bronchial hyperresponsiveness, and airway remodeling. Affects 300 million
   people worldwide. Driven by eosinophilic/allergic (Th2) or neutrophilic/non-allergic
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: asthma
 permalink: /garden/demo_user/condition/asthma/
+provenance: curated
 slug: asthma
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Asthma
 type: condition
-updated: '2026-06-13T17:47:11.223159Z'
+updated: '2026-08-20T04:08:29.325518Z'
 ---
 
 {% raw %}
@@ -65,8 +66,8 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class=
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a></p>
 <h3>Associated With</h3>
-<p>ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">Vitamin_D_25-OH</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin_D_25-OH</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h2>References</h2>
 <ul>
 <li>PMID:28622554</li>

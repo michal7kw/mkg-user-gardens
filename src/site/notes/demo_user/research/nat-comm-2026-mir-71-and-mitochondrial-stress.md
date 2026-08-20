@@ -1,15 +1,18 @@
 ---
 aliases:
 - Nat Comm 2026 miR-71 and Mitochondrial Stress
-confidence_score: 0.0
-created: '2026-06-13T17:47:14.226209Z'
+confidence_score: 0.8
+created: 2026-01-25T19:05:00+0000
 description: Identification of miR-71 as a crucial regulator of mitochondrial stress
   signaling (UPRmt) and systemic stress resistance.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nat_comm_2026_mir71_stress
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/research/nat-comm-2026-mir-71-and-mitochondrial-stress/
+provenance: curated
 slug: nat-comm-2026-mir-71-and-mitochondrial-stress
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: 'Nat Comm 2026: miR-71 and Mitochondrial Stress'
 type: research
-updated: '2026-06-13T17:47:14.226209Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -51,5 +54,9 @@ updated: '2026-06-13T17:47:14.226209Z'
 <p>STUDIED_TOPIC::<a href="/garden/demo_user/cellularcomponent/mitochondria/" class="internal-link">Mitochondria</a><br />
 STUDIED_TOPIC::<a href="/garden/demo_user/healthstack/longevity/" class="internal-link">Longevity</a><br />
 STUDIED_TOPIC::<a href="/garden/demo_user/pathway/hormesis/" class="internal-link">Hormesis</a></p>
+<h2>References</h2>
+<ul>
+<li>Nat Comm 2026 miR-71 and Mitochondrial Stress — original research publication indexed in this knowledge base.</li>
+</ul>
 
 {% endraw %}

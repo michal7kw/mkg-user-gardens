@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.92
-created: '2026-06-13T17:47:13.913643Z'
+created: 2026-05-27T12:00:00+0000
 description: Ketogenesis is the hepatic synthesis of ketone bodies (beta-hydroxybutyrate,
   acetoacetate, acetone) from acetyl-CoA derived from fatty-acid oxidation. Activated
   by fasting, prolonged exercise, and low-carbohydrate states, it supplies an alternative
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: ketogenesis
 permalink: /garden/demo_user/pathway/ketogenesis/
+provenance: curated
 slug: ketogenesis
 source: PubMed
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Ketogenesis
 type: pathway
-updated: '2026-06-13T17:47:13.913643Z'
+updated: '2026-08-20T04:08:31.517083Z'
 ---
 
 {% raw %}

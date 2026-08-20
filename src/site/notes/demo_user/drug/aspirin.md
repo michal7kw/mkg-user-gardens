@@ -8,13 +8,21 @@ country_regulatory:
       strengths are patient-paid
     prescription_type: RR (cardio) / OTC
     reimbursement_class: A (low-dose antiplatelet) / C (OTC analgesic)
+  pl:
+    agency_status: approved
+    atc_code: B01AC06
+    notes: URPL/EMA-approved; low-dose cardioprotective ASA (brands Acard, Polocard
+      75 mg) and analgesic ASA (Polopiryna) are widely sold OTC and not routinely
+      reimbursed; Polish name kwas acetylosalicylowy
+    prescription_type: OTC
+    reimbursement_class: 100% (OTC, nierefundowany)
   uk:
     agency_status: MHRA-approved
     atc_code: B01AC06
     notes: low-dose 75mg cardio-protective aspirin often bought OTC (GSL); NHS-prescribable
     prescription_type: GSL
     reimbursement_class: NHS
-created: '2026-06-13T17:47:11.731446Z'
+created: 2026-01-03T17:55:40+0000
 description: Nonsteroidal anti-inflammatory drug (NSAID) with irreversible antiplatelet
   effects. Used for pain, fever, inflammation, and cardiovascular protection. One
   of the most widely used medications worldwide.
@@ -24,6 +32,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: aspirin
 permalink: /garden/demo_user/drug/aspirin/
+provenance: curated
 slug: aspirin
 source: Manual
 tags:
@@ -36,7 +45,7 @@ tags:
 templateEngineOverride: njk
 title: Aspirin
 type: drug
-updated: '2026-06-13T17:47:11.731446Z'
+updated: '2026-08-20T04:08:30.042219Z'
 ---
 
 {% raw %}
@@ -58,7 +67,7 @@ RELATED::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="inte
 <p>TREATS::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />
 TREATS::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a></p>
 <h3>Affects Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/stomach/" class="internal-link">Stomach</a></p>

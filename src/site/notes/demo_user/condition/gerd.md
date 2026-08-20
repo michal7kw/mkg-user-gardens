@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.370408Z'
+confidence_score: 0.9
+created: 2026-03-28T12:00:00+0000
 description: A chronic digestive condition in which stomach acid or bile flows back
   into the esophagus, causing mucosal irritation, heartburn, and potential complications
   including Barrett's esophagus.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: gerd
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/gerd/
+provenance: curated
 slug: gerd
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: GERD
 type: condition
-updated: '2026-06-13T17:47:11.370408Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -62,5 +65,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/probiotics/" class
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">hs crp</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/ferritin/" class="internal-link">ferritin</a></p>
 <h3>Affects Organ</h3>
+<h2>References</h2>
+<ul>
+<li>Katz PO, Gerson LB, Vela MF. Am J Gastroenterol. 2013;108(3):308-328. Guidelines for the diagnosis and management of GERD (PMID: 23419381)</li>
+<li>Spechler SJ, Souza RF. N Engl J Med. 2014;371(25):2424. Barrett esophagus and GERD (review) (PMID: 25539107)</li>
+<li>Lundell LR, Dent J, Bennett JR, et al. Gut. 1999;45(2):172-180. The Los Angeles classification of esophagitis (PMID: 10403722)</li>
+</ul>
 
 {% endraw %}

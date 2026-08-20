@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.610420Z'
+created: 2026-01-25T20:45:00+0000
 description: Adenosine is a purine nucleoside that functions as both a core metabolite
   in cellular energy transfer (component of ATP, ADP, AMP, cAMP) and a ubiquitous
   neuromodulator in the central nervous system. It accumulates in the brain during
@@ -15,6 +15,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: adenosine
 permalink: /garden/demo_user/neurotransmitter/adenosine/
+provenance: curated
 pubchem_id: '60961'
 slug: adenosine
 source: Manual
@@ -30,7 +31,7 @@ tags:
 templateEngineOverride: njk
 title: Adenosine
 type: neurotransmitter
-updated: '2026-06-13T17:47:13.610420Z'
+updated: '2026-08-20T04:08:31.271640Z'
 ---
 
 {% raw %}
@@ -318,7 +319,7 @@ REQUIRES_COFACTOR::<a href="/garden/demo_user/supplement/magnesium/" class="inte
 <h3>Neurotransmitter Interactions</h3>
 <p>FUNCTIONAL_ANTAGONIST_OF::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a><br />
-INTERACTS_WITH::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a><br />
+INTERACTS_WITH::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/neurotransmitter/norepinephrine/" class="internal-link">Norepinephrine</a></p>
 <h3>Conditions</h3>

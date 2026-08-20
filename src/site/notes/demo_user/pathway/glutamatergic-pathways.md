@@ -1,11 +1,17 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.893457Z'
+created: '2026-03-11T11:39:49.109556+00:00'
+description: The Glutamatergic Pathway serves as the absolute, overwhelming primary
+  engine orchestrating excitatory physiological neurotransmission throughout the entirely
+  of the human Central Nervous System.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: glutamatergic_pathways
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/glutamatergic-pathways/
+provenance: curated
 slug: glutamatergic-pathways
 source: Manual
 tags:
@@ -13,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Glutamatergic Pathways
 type: pathway
-updated: '2026-06-13T17:47:13.893457Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -44,5 +50,9 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/8-ohdg/" class="internal-l
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/parkinsons-disease/" class="internal-link">Parkinson's Disease</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

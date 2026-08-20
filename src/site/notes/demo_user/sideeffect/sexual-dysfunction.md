@@ -1,5 +1,5 @@
 ---
-created: '2026-06-13T17:47:14.253399Z'
+created: 2026-04-01T12:00:00+0000
 description: SSRI-induced sexual dysfunction encompassing decreased libido, arousal
   difficulties, anorgasmia/delayed orgasm, and erectile dysfunction. Affects 30-70%
   of SSRI users, making it the most common reason for medication non-adherence and
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: sexual_dysfunction
 permalink: /garden/demo_user/sideeffect/sexual-dysfunction/
+provenance: curated
 slug: sexual-dysfunction
 source: Manual
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Sexual Dysfunction
 type: sideeffect
-updated: '2026-06-13T17:47:14.253399Z'
+updated: '2026-08-20T04:08:31.768617Z'
 ---
 
 {% raw %}

@@ -1,6 +1,8 @@
 ---
+aliases:
+- Magnesium Glycinate
 confidence_score: 0.9
-created: '2026-06-13T17:47:14.401763Z'
+created: 2026-01-03T17:55:35+0000
 description: Essential mineral involved in over 300 enzymatic reactions, including
   energy metabolism, protein synthesis, muscle and nerve function, blood glucose control,
   and blood pressure regulation. Nearly two-thirds of the Western population does
@@ -12,6 +14,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: magnesium
 permalink: /garden/demo_user/supplement/magnesium/
+provenance: curated
 pubchem_id: '5462224'
 slug: magnesium
 source: dev_seeder
@@ -29,7 +32,7 @@ tags:
 templateEngineOverride: njk
 title: Magnesium
 type: supplement
-updated: '2026-06-13T17:47:14.401763Z'
+updated: '2026-08-20T04:08:31.967109Z'
 ---
 
 {% raw %}
@@ -164,6 +167,8 @@ updated: '2026-06-13T17:47:14.401763Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Affects Biomarker</h3>
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/cortisol-am/" class="internal-link">Cortisol (AM)</a> (Evidence Level 3)<br />
+DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/insulin-fasting/" class="internal-link">Insulin Fasting</a> (Evidence Level 3)</p>
 <!-- seeded: supplement coverage (mirror_supplement_edges_to_markdown.py) -->
 <p>INCREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/rbc-magnesium/" class="internal-link">RBC Magnesium</a> (Evidence Level 4)</p>
 <h3>Interacts With</h3>
@@ -181,8 +186,8 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunctio
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/osteoporosis/" class="internal-link">Osteoporosis</a></p>
 <h3>Targets Biomarker</h3>
 <p>TARGETS_BIOMARKER::<a href="/garden/demo_user/biomarker/alkaline-phosphatase/" class="internal-link">Alkaline Phosphatase</a><br />
-TARGETS_BIOMARKER::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a><br />
-TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">Cortisol</a><br />
+TARGETS_BIOMARKER::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a><br />
+TARGETS_BIOMARKER::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">Cortisol</a><br />
 TARGETS_BIOMARKER::<a href="/garden/demo_user/biomarker/glucose-fasting/" class="internal-link">Glucose Fasting</a><br />
 TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a><br />
 TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />

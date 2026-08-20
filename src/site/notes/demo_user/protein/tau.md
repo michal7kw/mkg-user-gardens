@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:14.202232Z'
+created: 2026-01-24T12:00:00+0000
 description: Microtubule-associated protein that stabilizes the neuronal cytoskeleton.
   Hyperphosphorylation leads to its detachment and aggregation into neurofibrillary
   tangles (NFTs).
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: tau
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/protein/tau/
+provenance: curated
 slug: tau
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Tau
 type: protein
-updated: '2026-06-13T17:47:14.202232Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -44,5 +47,10 @@ RELATED::<a class="internal-link is-unresolved" href="/404">Alzheimers Disease P
 RELATED::<a href="/garden/demo_user/condition/frontotemporal-dementia/" class="internal-link">Frontotemporal Dementia</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">GSK3-beta</a><br />
 RELATED::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimers Disease</a></p>
+<h2>References</h2>
+<ul>
+<li>UniProt Consortium. Nucleic Acids Res. 2023;51(D1):D523-D531. UniProt (PMID: 36408955)</li>
+<li>Uhlén M, et al. Science. 2015;347(6220):1260419. The Human Protein Atlas (PMID: 25613900)</li>
+</ul>
 
 {% endraw %}

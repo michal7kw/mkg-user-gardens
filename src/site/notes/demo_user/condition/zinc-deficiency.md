@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.715301Z'
+confidence_score: 0.85
+created: 2026-01-18T16:02:34+0000
 description: A nutritional deficiency state characterized by insufficient levels of
   zinc, an essential trace element involved in immune function, protein synthesis,
   and wound healing.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: zinc_deficiency
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/zinc-deficiency/
+provenance: curated
 slug: zinc-deficiency
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Zinc Deficiency
 type: condition
-updated: '2026-06-13T17:47:11.715301Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -60,5 +63,11 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-lin
 <p>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/probiotics/" class="internal-link">Probiotics</a></p>
+<h2>References</h2>
+<ul>
+<li>Prasad AS. J Trace Elem Med Biol. 2014;28(4):361-368. Zinc deficiency in humans (review) (PMID: 25022368)</li>
+<li>Wessels I, Maywald M, Rink L. Nutrients. 2017;9(12):1286. Zinc as a gatekeeper of immune function (PMID: 29186883)</li>
+<li>Maares M, Haase H. Nutrients. 2020;12(8):2182. A guide to human zinc absorption (review) (PMID: 32708727)</li>
+</ul>
 
 {% endraw %}

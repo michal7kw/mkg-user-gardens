@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.610882Z'
+confidence_score: 0.85
+created: 2026-01-18T16:48:41+0000
 description: A group of serious mental illnesses that affect the mind, making it difficult
   to distinguish between what is real and what is not.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: psychotic_disorders
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/psychotic-disorders/
+provenance: curated
 slug: psychotic-disorders
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Psychotic Disorders
 type: condition
-updated: '2026-06-13T17:47:11.610882Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -58,5 +61,12 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class=
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/folate/" class="internal-link">Folate</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/b-complex-vitamins/" class="internal-link">B-Complex Vitamins</a></p>
+<h2>References</h2>
+<ul>
+<li>van Os J, Kapur S. Lancet. 2009;374(9690):635-645. Schizophrenia (review) (PMID: 19700006)</li>
+<li>Kahn RS, Sommer IE, Murray RM, et al. Nat Rev Dis Primers. 2015;1:15001. Schizophrenia (review) (PMID: 27189524)</li>
+<li>Kane JM, Correll CU. Lancet. 2019;394(10202):1027-1035. Pharmacologic treatment of schizophrenia (review) (PMID: 30522821)</li>
+<li>Correll CU, Rubio JM, Kane JM. Nat Rev Dis Primers. 2018;4(1):19. Schizophrenia mechanisms and management (review)</li>
+</ul>
 
 {% endraw %}

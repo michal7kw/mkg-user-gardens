@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.372061Z'
+created: 2026-01-18T16:02:31+0000
 description: Tested twice a year Glucose is the body’s main source of energy, fueling
   cells throughout the day. Testing glucose levels can reveal early signs of imbalances
   like prediabetes or diabetes, allowing action to be taken sooner. High levels may
@@ -13,6 +13,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-glucose
 permalink: /garden/demo_user/labtest/glucose/
+provenance: curated
 slug: glucose
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: glucose
 type: labtest
-updated: '2026-06-13T17:47:12.372061Z'
+updated: '2026-08-20T04:08:30.666603Z'
 ---
 
 {% raw %}
@@ -48,6 +49,10 @@ updated: '2026-06-13T17:47:12.372061Z'
 <td>Cmp</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -58,6 +63,18 @@ updated: '2026-06-13T17:47:12.372061Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>3-7 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -70,14 +87,14 @@ updated: '2026-06-13T17:47:12.372061Z'
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Prediabetes</a><br />
+<p>RELATED::<a href="/garden/demo_user/condition/prediabetes/" class="internal-link">Prediabetes</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Type 1  Type 2 Diabetes</a><br />
-RELATED::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Hyperglycemia  Hypoglycemia</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Pancreatic Dysfunction</a><br />
 RELATED::<a href="/garden/demo_user/labtest/comprehensive-metabolic-panel/" class="internal-link">comprehensive metabolic panel</a></p>
 <h3>May Detect</h3>
-<p>MAY_DETECT::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
+<p>MAY_DETECT::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

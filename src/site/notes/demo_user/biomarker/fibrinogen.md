@@ -1,19 +1,31 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:10.851727Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:37+0000
+description: Fibrinogen (Factor I) is a liver-synthesized glycoprotein that is both
+  the precursor of fibrin in the coagulation cascade and an acute-phase reactant.
+  Plasma levels rise with inflammation, infection, and tissue injury, and elevated
+  fibrinogen is an independent risk factor for myocardial infarction, stroke, and
+  peripheral arterial disease.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: fibrinogen
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/biomarker/fibrinogen/
+provenance: curated
 slug: fibrinogen
 source: Manual
 tags:
 - biomarker
+- cardiovascular_risk
+- inflammation
+- coagulation
+- acute_phase_reactant
 templateEngineOverride: njk
 title: Fibrinogen
 type: biomarker
-updated: '2026-06-13T17:47:10.851727Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -75,7 +87,7 @@ updated: '2026-06-13T17:47:10.851727Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+<p>RELATED::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">C-Reactive Protein</a><br />
 RELATED::<a href="/garden/demo_user/labtest/esr/" class="internal-link">esr</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/d-dimer/" class="internal-link">D-Dimer</a></p>
@@ -85,9 +97,13 @@ INDICATES_ORGAN_HEALTH::<a href="/garden/demo_user/organ/heart/" class="internal
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/vascular-dementia/" class="internal-link">Vascular Dementia</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />
-ASSOCIATED_WITH_CONDITION::<a class="internal-link is-unresolved" href="/404">Atherosclerosis</a></p>
+ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/atherosclerosis/" class="internal-link">Atherosclerosis</a></p>
 <h3>Increases Risk For</h3>
 <p>INCREASES_RISK_FOR::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a> (when elevated, Evidence Level 1a)<br />
 INCREASES_RISK_FOR::<a href="/garden/demo_user/condition/stroke/" class="internal-link">Stroke</a> (when elevated, Evidence Level 1a)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

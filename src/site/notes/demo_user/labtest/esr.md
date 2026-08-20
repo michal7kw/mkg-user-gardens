@@ -90,7 +90,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.318714Z'
+created: 2025-12-10T09:07:57+0000
 description: Non-specific marker of inflammation. Used in monitoring inflammatory
   conditions.
 dg-home: false
@@ -99,6 +99,7 @@ evidence_level: 0
 gardenUsername: demo_user
 id: test-esr-001
 permalink: /garden/demo_user/labtest/esr/
+provenance: curated
 slug: esr
 source: Manual
 tags:
@@ -106,7 +107,7 @@ tags:
 templateEngineOverride: njk
 title: esr
 type: labtest
-updated: '2026-06-13T17:47:12.318714Z'
+updated: '2026-08-20T04:08:30.626128Z'
 ---
 
 {% raw %}
@@ -131,6 +132,10 @@ updated: '2026-06-13T17:47:12.318714Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -141,6 +146,10 @@ updated: '2026-06-13T17:47:12.318714Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
 </tr>
 </tbody>
 </table>

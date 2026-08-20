@@ -1,12 +1,17 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:14.040991Z'
-description: '...'
+created: 2026-01-03T17:55:35+0000
+description: Pruritus (clinically known as itching) is fundamentally a massively complex
+  physiological phenotype generated strictly inside specialized nerve endings resting
+  entirely within the junction of the epidermis and dermis.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: pruritus
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/phenotype/pruritus/
+provenance: curated
 slug: pruritus
 source: Manual
 tags:
@@ -16,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Pruritus
 type: phenotype
-updated: '2026-06-13T17:47:14.040991Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -31,42 +36,10 @@ updated: '2026-06-13T17:47:14.040991Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">disseminated superficial actinic porokeratosis</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">pudendal neuralgia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">dystrophic epidermolysis bullosa</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">linear atrophoderma of Moulin</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">dermatitis herpetiformis</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">microvillus inclusion disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">hereditary leiomyomatosis and renal cell cancer</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Rotor syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Pruritus vulvae</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">congenital panfollicular nevus disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Pruritis on abdomen</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">lichen planopilaris</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">autosomal erythropoietic protoporphyria</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">acquired ichthyosis</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">hereditary progressive mucinous histiocytosis</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">hyperkeratosis lenticularis perstans disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Abnormality of skin physiology</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Pruritis on breast</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Pruritis on hand</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">peeling skin syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Pruritus on foot</a><br />
-RELATED::<a href="/garden/demo_user/drug/doxepin/" class="internal-link">Doxepin</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Vaginal pruritus</a></p>
-<h3>Related To Phenotype</h3>
-<p>RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Pruritis on abdomen</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Pruritus vulvae</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Abnormality of skin physiology</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Pruritus on foot</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Pruritis on hand</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Pruritis on breast</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Vaginal pruritus</a></p>
-<h3>Excludes Phenotype</h3>
-<p>EXCLUDES_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">congenital panfollicular nevus disease</a><br />
-EXCLUDES_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">linear atrophoderma of Moulin</a><br />
-EXCLUDES_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">peeling skin syndrome</a><br />
-EXCLUDES_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Rotor syndrome</a><br />
-EXCLUDES_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">pudendal neuralgia</a></p>
+<p>RELATED::<a href="/garden/demo_user/drug/doxepin/" class="internal-link">Doxepin</a></p>
+<h2>References</h2>
+<ul>
+<li>Kohler S, et al. Nucleic Acids Res. 2021;49(D1):D1207-D1217. The Human Phenotype Ontology (HPO) (PMID: 33264411)</li>
+</ul>
 
 {% endraw %}

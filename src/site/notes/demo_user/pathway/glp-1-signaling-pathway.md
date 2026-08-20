@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.879183Z'
+created: 2026-04-14T00:00:00+0000
 description: The GLP-1 receptor signaling cascade activated by GLP-1 hormone and GLP-1
   receptor agonists. Involves Gs-cAMP-PKA signaling, Epac pathway, PI3K-Akt, and MAPK/ERK
   activation, leading to enhanced insulin secretion, beta-cell preservation, cardioprotection,
@@ -10,6 +10,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: glp1_signaling_pathway
 permalink: /garden/demo_user/pathway/glp-1-signaling-pathway/
+provenance: curated
 slug: glp-1-signaling-pathway
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: GLP-1 Signaling Pathway
 type: pathway
-updated: '2026-06-13T17:47:13.879183Z'
+updated: '2026-08-20T04:08:31.492043Z'
 ---
 
 {% raw %}
@@ -204,7 +205,7 @@ updated: '2026-06-13T17:47:13.879183Z'
 <h3>Modulates Hormone</h3>
 <ul>
 <li>MODULATES_HORMONE::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a> (enhances secretion via cAMP-PKA, Evidence Level 1a)</li>
-<li>MODULATES_HORMONE::<a class="internal-link is-unresolved" href="/404">Glucagon</a> (suppresses alpha-cell secretion, Evidence Level 1a)</li>
+<li>MODULATES_HORMONE::<a href="/garden/demo_user/hormone/glucagon/" class="internal-link">Glucagon</a> (suppresses alpha-cell secretion, Evidence Level 1a)</li>
 </ul>
 <h3>Affects Organ</h3>
 <ul>

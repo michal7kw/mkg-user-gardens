@@ -1,6 +1,28 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:11.820779Z'
+country_regulatory:
+  it:
+    agency_status: approved
+    atc_code: A10BJ03
+    notes: AIFA-approved for type 2 diabetes; limited current use.
+    prescription_type: RR
+    reimbursement_class: A
+  pl:
+    agency_status: approved
+    atc_code: A10BJ03
+    notes: URPL/EMA-dopuszczony krótkodziałający agonista GLP-1 w cukrzycy typu 2
+      (Lyxumia). Ograniczona dostępność, zwykle pełnopłatny. Status refundacji zmienia
+      się — sprawdź aktualne obwieszczenie MZ.
+    prescription_type: Rp
+    reimbursement_class: nierefundowany
+  uk:
+    agency_status: approved
+    atc_code: A10BJ03
+    notes: MHRA/EMA-approved short-acting GLP-1 receptor agonist for type 2 diabetes
+      (Lyxumia).
+    prescription_type: POM
+    reimbursement_class: NHS
+created: 2026-04-14T00:00:00+0000
 description: GLP-1 receptor agonist for type 2 diabetes. Once-daily injection providing
   predominantly postprandial glucose control. Available as Adlyxin (US) and Lyxumia
   (EU). Short-acting GLP-1 agonist with strong gastric emptying delay effect.
@@ -10,6 +32,7 @@ drugbank_id: DB09283
 gardenUsername: demo_user
 id: lixisenatide
 permalink: /garden/demo_user/drug/lixisenatide/
+provenance: curated
 pubchem_id: 16135742
 slug: lixisenatide
 source: Manual
@@ -23,7 +46,7 @@ tags:
 templateEngineOverride: njk
 title: Lixisenatide
 type: drug
-updated: '2026-06-13T17:47:11.820779Z'
+updated: '2026-08-20T04:08:30.139756Z'
 ---
 
 {% raw %}
@@ -82,7 +105,7 @@ RELATED::<a href="/garden/demo_user/drug/metformin/" class="internal-link">METFO
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/metabolite/glucose/" class="internal-link">Glucose</a> (strong postprandial glucose reduction, Evidence Level 1a)</p>
 <h3>Modulates Hormone</h3>
 <p>MODULATES_HORMONE::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a> (enhances glucose-dependent secretion, Evidence Level 1a)<br />
-MODULATES_HORMONE::<a class="internal-link is-unresolved" href="/404">Glucagon</a> (suppresses postprandial, Evidence Level 1a)</p>
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/glucagon/" class="internal-link">Glucagon</a> (suppresses postprandial, Evidence Level 1a)</p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/pancreas/" class="internal-link">Pancreas</a> (beta-cell stimulation, Evidence Level 1a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/intestines/" class="internal-link">Intestines</a> (strong gastric emptying delay, Evidence Level 1a)<br />

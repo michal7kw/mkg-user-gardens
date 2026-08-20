@@ -1,14 +1,17 @@
 ---
 confidence_score: 1.0
-created: '2026-06-13T17:47:13.929742Z'
+created: 2026-01-25T18:15:00+0000
 description: The continuous remodeling of the mitochondrial network through fusion
   and fission events. Essential for maintaining mitochondrial quality, distribution,
   and function.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: mitochondrial_dynamics
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/mitochondrial-dynamics/
+provenance: curated
 slug: mitochondrial-dynamics
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Mitochondrial Dynamics
 type: pathway
-updated: '2026-06-13T17:47:13.929742Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -57,5 +60,9 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/supplement/glutathione/" class="inte
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/mitochondrial-dysfunction/" class="internal-link">Mitochondrial Dysfunction</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/parkinsons-disease/" class="internal-link">Parkinson's Disease</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimer's Disease</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

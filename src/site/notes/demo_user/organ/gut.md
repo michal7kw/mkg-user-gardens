@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:13.781775Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:39+0000
 description: The gastrointestinal tract, particularly the intestines. Home to the
   gut microbiome and critical for nutrient absorption and immune function.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: gut
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/organ/gut/
+provenance: curated
 slug: gut
 source: Manual
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Gut
 type: organ
-updated: '2026-06-13T17:47:13.781775Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -49,5 +52,9 @@ RELATED::<a class="internal-link is-unresolved" href="/404">Fiber</a> (Prebiotic
 PART_OF::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a> (GALT contains 70-80% of all immune cells in the body, Evidence Level 1a)<br />
 RELATED::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a> (Supports intestinal barrier function and modulates gut immune responses, Evidence Level 2a)<br />
 CONNECTED_TO::<a href="/garden/demo_user/organ/spleen/" class="internal-link">Spleen</a> (Splenic immune cells respond to antigens first encountered in gut-associated lymphoid tissue, Evidence Level 2b)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (textbook reference)</li>
+</ul>
 
 {% endraw %}

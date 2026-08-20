@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.329950Z'
+created: 2026-01-03T17:55:39+0000
 description: Group of metabolic diseases characterized by chronic hyperglycemia resulting
   from defects in insulin secretion, insulin action, or both. Type 2 diabetes (90-95%
   of cases) is driven by progressive insulin resistance and beta cell dysfunction,
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: diabetes
 permalink: /garden/demo_user/condition/diabetes/
+provenance: curated
 slug: diabetes
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Diabetes
 type: condition
-updated: '2026-06-13T17:47:11.329950Z'
+updated: '2026-08-20T04:08:29.481429Z'
 ---
 
 {% raw %}
@@ -58,7 +59,7 @@ updated: '2026-06-13T17:47:11.329950Z'
 RELATED::<a href="/garden/demo_user/supplement/berberine/" class="internal-link">Berberine</a><br />
 RELATED::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a><br />
 RELATED::<a href="/garden/demo_user/metabolite/glucose/" class="internal-link">Glucose</a><br />
-RELATED::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
 RELATED::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a></p>
 <h3>Affected By Intervention</h3>
 <p>AFFECTED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/keto-diet/" class="internal-link">Keto Diet</a><br />
@@ -67,7 +68,7 @@ AFFECTED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/intermittent-f
 AFFECTED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/mediterranean-diet/" class="internal-link">Mediterranean Diet</a><br />
 AFFECTED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/time-restricted-eating/" class="internal-link">Time-Restricted Eating</a></p>
 <h3>Complicates</h3>
-<p>COMPLICATES::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+<p>COMPLICATES::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
 COMPLICATES::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a><br />

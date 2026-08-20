@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.75
-created: '2026-06-13T17:47:14.335383Z'
+confidence_score: 0.7
+created: 2026-01-03T17:55:39+0000
 description: A plant flavonol with potent senolytic activity — selectively kills senescent
   cells by inhibiting pro-survival PI3K/AKT/mTOR and BCL-2/BCL-xL pathways. Found
   in strawberries, apples, persimmons. Also neuroprotective (BDNF induction, anti-inflammatory)
@@ -11,7 +11,9 @@ dg-publish: true
 evidence_level: 3
 gardenUsername: demo_user
 id: fisetin
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/fisetin/
+provenance: curated
 pubchem_id: '5281614'
 slug: fisetin
 source: Manual
@@ -25,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Fisetin
 type: supplement
-updated: '2026-06-13T17:47:14.335383Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -40,13 +42,8 @@ updated: '2026-06-13T17:47:14.335383Z'
 <p>Senolytic protocol 20mg/kg for 2 days per month; daily neuroprotective 100-500mg</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">p16INK4a</a><br />
-RELATED::<a href="/garden/demo_user/supplement/quercetin/" class="internal-link">Quercetin</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Navitoclax</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">mTOR</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Dasatinib</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Cellular Senescence Pathway</a></p>
+<p>RELATED::<a href="/garden/demo_user/supplement/quercetin/" class="internal-link">Quercetin</a><br />
+RELATED::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a></p>
 <h3>Affects Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/uric-acid/" class="internal-link">Uric Acid</a></p>
@@ -59,5 +56,12 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cancer/" class="inte
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/parkinsons-disease/" class="internal-link">Parkinson's Disease</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a> (Neuroprotective via BDNF induction and Nrf2 activation; reduces neuroinflammation in Alzheimer's and Parkinson's models, Evidence Level 3a)</p>
+<h2>References</h2>
+<ul>
+<li>Kirkland JL, Tchkonia T. Cell Metab. 2021;33(1):9-20. Senolytic drugs (review) (PMID: 33326789)</li>
+<li>Yousefzadeh MJ, et al. EBioMedicine. 2018;36:18-28. Fisetin as senolytic (PMID: 30143670)</li>
+<li>Maher P. Arch Biochem Biophys. 2020;686:108373. Fisetin as neuroprotective (PMID: 32023438)</li>
+<li>Khan N, et al. Antioxid Redox Signal. 2013;19(1):31-38. Fisetin in cancer (PMID: 23472808)</li>
+</ul>
 
 {% endraw %}

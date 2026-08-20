@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.798713Z'
+created: 2026-04-01T10:00:00+0000
 description: Antimalarial drug repurposed as DMARD for RA and cornerstone therapy
   for SLE. Inhibits Toll-like receptor signaling in dendritic cells and reduces antigen
   presentation.
@@ -10,6 +10,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: hydroxychloroquine
 permalink: /garden/demo_user/drug/hydroxychloroquine/
+provenance: curated
 slug: hydroxychloroquine
 source: Manual
 tags:
@@ -20,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Hydroxychloroquine
 type: drug
-updated: '2026-06-13T17:47:11.798713Z'
+updated: '2026-08-20T04:08:30.118735Z'
 ---
 
 {% raw %}
@@ -37,7 +38,7 @@ updated: '2026-06-13T17:47:11.798713Z'
 <p>TREATS::<a href="/garden/demo_user/condition/rheumatoid-arthritis/" class="internal-link">Rheumatoid Arthritis</a><br />
 TREATS::<a href="/garden/demo_user/condition/systemic-lupus-erythematosus/" class="internal-link">Systemic Lupus Erythematosus</a></p>
 <h3>Affects Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h3>Modulates Pathway</h3>
 <p>MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/nf-kb-pathway/" class="internal-link">NF-kB Pathway</a></p>
 <h2>References</h2>

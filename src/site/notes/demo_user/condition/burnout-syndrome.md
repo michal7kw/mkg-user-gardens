@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.8
-created: '2026-06-13T17:47:11.260750Z'
+confidence_score: 0.75
+created: 2026-03-05T00:00:00+0000
 description: State of chronic physical and emotional exhaustion resulting from prolonged
   occupational or caregiving stress. Classified by WHO (ICD-11) as an occupational
   phenomenon characterized by emotional exhaustion, depersonalization/cynicism, and
@@ -9,9 +9,12 @@ description: State of chronic physical and emotional exhaustion resulting from p
   dysfunction.
 dg-home: false
 dg-publish: true
+evidence_level: 3
 gardenUsername: demo_user
 id: burnout_syndrome
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/burnout-syndrome/
+provenance: curated
 slug: burnout-syndrome
 source: Manual
 tags:
@@ -23,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Burnout Syndrome
 type: condition
-updated: '2026-06-13T17:47:11.260750Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -45,14 +48,14 @@ updated: '2026-06-13T17:47:11.260750Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/hormone/dhea/" class="internal-link">DHEA</a><br />
+<p>RELATED::<a href="/garden/demo_user/supplement/dhea/" class="internal-link">DHEA</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a><br />
 IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/exercise/" class="internal-link">Exercise</a><br />
 RELATED::<a href="/garden/demo_user/supplement/ashwagandha/" class="internal-link">Ashwagandha</a><br />
-RELATED::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+RELATED::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/sleep-optimization/" class="internal-link">Sleep Optimization</a></p>
 <h3>Risk Biomarkers</h3>
-<p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/dhea-s/" class="internal-link">Dhea S</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a><br />
@@ -63,5 +66,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/rhodiola-rosea/" c
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/b-complex-vitamins/" class="internal-link">B-Complex Vitamins</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a></p>
+<h2>References</h2>
+<ul>
+<li>Maslach C, Schaufeli WB, Leiter MP. Annu Rev Psychol. 2001;52:397-422. Job burnout (PMID: 11148311)</li>
+<li>Salvagioni DAJ, Melanda FN, Mesas AE, Gonzalez AD, Gabani FL, Andrade SM. Burnout Research. 2017;8:1-13. Physical, psychological and occupational consequences of job burnout (review)</li>
+<li>West CP, Dyrbye LN, Erwin PJ, Shanafelt TD. Lancet. 2016;388(10057):2272-2281. Interventions to prevent and reduce physician burnout (PMID: 27693681)</li>
+</ul>
 
 {% endraw %}

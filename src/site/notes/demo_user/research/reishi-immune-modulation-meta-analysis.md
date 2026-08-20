@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:14.233196Z'
+created: 2026-04-14T00:00:00+0000
 description: Meta-analysis and systematic review of randomized controlled trials examining
   the immunomodulatory effects of Ganoderma lucidum (Reishi) supplementation, focusing
   on NK cell activity, cytokine profiles, and immune cell counts.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: reishi_immune_meta_analysis
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/research/reishi-immune-modulation-meta-analysis/
+provenance: curated
 slug: reishi-immune-modulation-meta-analysis
 source: Manual
 tags:
@@ -24,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Reishi Immune Modulation Meta-Analysis
 type: research
-updated: '2026-06-13T17:47:14.233196Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -65,5 +67,9 @@ AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/tnf-alpha/" class="interna
 <p>RELATED::<a href="/garden/demo_user/condition/immune-system-disorder/" class="internal-link">Immune System Disorder</a><br />
 RELATED::<a href="/garden/demo_user/condition/cancer/" class="internal-link">Cancer</a><br />
 RELATED::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a></p>
+<h2>References</h2>
+<ul>
+<li>Reishi Immune Modulation Meta-Analysis — original research publication indexed in this knowledge base.</li>
+</ul>
 
 {% endraw %}

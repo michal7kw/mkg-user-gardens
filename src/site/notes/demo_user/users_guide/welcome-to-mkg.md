@@ -1,13 +1,14 @@
 ---
 aliases:
 - 00_Welcome
-created: '2026-06-13T17:47:14.557621Z'
+created: '2026-08-20T04:08:32.140014Z'
 description: Overview of the MKG platform — what it does, who it's for, and what's
   possible
 dg-home: false
 dg-publish: true
 gardenUsername: demo_user
 permalink: /garden/demo_user/users_guide/welcome-to-mkg/
+provenance: curated
 slug: welcome-to-mkg
 tags:
 - users_guide
@@ -15,7 +16,7 @@ tags:
 templateEngineOverride: njk
 title: Welcome to MKG
 type: users_guide
-updated: '2026-06-13T17:47:14.557621Z'
+updated: '2026-08-20T04:08:32.140014Z'
 ---
 
 {% raw %}

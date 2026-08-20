@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:12.048711Z'
+created: 2026-01-22T12:00:00+0000
 description: A dietary intervention involving sustained reduction of caloric intake
   (typically 20-40% below ad libitum) without malnutrition. The most robust and reproducible
   intervention for extending lifespan and healthspan across multiple species, from
@@ -10,6 +10,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: caloric_restriction
 permalink: /garden/demo_user/intervention/caloric-restriction/
+provenance: curated
 slug: caloric-restriction
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Caloric Restriction
 type: intervention
-updated: '2026-06-13T17:47:12.048711Z'
+updated: '2026-08-20T04:08:30.365909Z'
 ---
 
 {% raw %}
@@ -62,7 +63,7 @@ updated: '2026-06-13T17:47:12.048711Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>MODULATES_PATHWAY::<a class="internal-link is-unresolved" href="/404">Autophagy-Lysosomal Pathway</a></p>
+<p>MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/autophagy-lysosomal-pathway/" class="internal-link">Autophagy-Lysosomal Pathway</a></p>
 <h2>Research Support</h2>
 <p>No research studies documented yet.</p>
 <h2>References</h2>

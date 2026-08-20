@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.943027Z'
+confidence_score: 0.8
+created: 2026-01-24T12:00:00+0000
 description: Encodes the Microtubule-Associated Protein Tau. Mutations are associated
   with frontotemporal dementia, but rarely with Alzheimer's directly (though Tau protein
   is central to AD pathology).
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: mapt
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/gene/mapt/
+provenance: curated
 slug: mapt
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: MAPT
 type: gene
-updated: '2026-06-13T17:47:11.943027Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -42,5 +45,10 @@ ASSOCIATED_WITH_CONDITION::<a class="internal-link is-unresolved" href="/404">Pr
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/parkinsons-disease/" class="internal-link">Parkinsons Disease</a> (MAPT H1 haplotype confers risk, Evidence Level 2a)<br />
 REGULATED_BY::<a class="internal-link is-unresolved" href="/404">GSK-3beta</a> (Phosphorylates tau reducing microtubule affinity, Evidence Level 1b)<br />
 REGULATED_BY::<a class="internal-link is-unresolved" href="/404">CDK5</a> (Phosphorylates tau at multiple sites, Evidence Level 1b)</p>
+<h2>References</h2>
+<ul>
+<li>Stelzer G, et al. Nucleic Acids Res. 2016;44(D1):D978-D985. The GeneCards Suite (PMID: 26400158)</li>
+<li>Safran M, et al. Nucleic Acids Res. 2010;38(Suppl 1):D740-D744. GeneCards (PMID: 19906715)</li>
+</ul>
 
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:12.038280Z'
+created: 2026-03-05T00:00:00+0000
 description: Peptide hormone primarily produced by lactotroph cells of the anterior
   pituitary. Best known for inducing lactation, but has over 300 known biological
   functions including immune regulation, bone metabolism, stress modulation, and reproductive
@@ -8,9 +8,12 @@ description: Peptide hormone primarily produced by lactotroph cells of the anter
   by dopamine.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: prolactin
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/hormone/prolactin/
+provenance: curated
 slug: prolactin
 source: Manual
 tags:
@@ -23,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Prolactin
 type: hormone
-updated: '2026-06-13T17:47:12.038280Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -36,5 +39,9 @@ updated: '2026-06-13T17:47:12.038280Z'
 RELATED::<a href="/garden/demo_user/hormone/thyroid-hormones/" class="internal-link">Thyroid Hormones</a><br />
 RELATED::<a href="/garden/demo_user/organ/bones/" class="internal-link">Bones</a><br />
 RELATED::<a href="/garden/demo_user/hormone/estrogen/" class="internal-link">Estrogen</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

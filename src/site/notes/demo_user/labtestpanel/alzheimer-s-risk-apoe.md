@@ -1,6 +1,9 @@
 ---
+aliases:
+- Alzheimer S Risk Apoe
+- alzheimer s risk apoe
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.035651Z'
+created: 2026-01-18T16:48:42+0000
 description: This test looks at genetic variations in apolipoprotein E (ApoE), a protein
   essential for transporting cholesterol and regulating fat metabolism. Specific ApoE
   gene variations are associated with an increased risk of cardiovascular disease
@@ -13,6 +16,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-alzheimer-s-risk-apoe
 permalink: /garden/demo_user/labtestpanel/alzheimer-s-risk-apoe/
+provenance: curated
 slug: alzheimer-s-risk-apoe
 source: Manual
 tags:
@@ -20,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: alzheimer_s_risk_apoe
 type: labtestpanel
-updated: '2026-06-13T17:47:13.035651Z'
+updated: '2026-08-20T04:08:31.024454Z'
 ---
 
 {% raw %}
@@ -41,7 +45,8 @@ updated: '2026-06-13T17:47:13.035651Z'
 <li>Guiding statin therapy decisions in context of APOE4 status</li>
 </ul>
 <h2>Relationships</h2>
-<p>USED_FOR::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimer’s Disease</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/apoe-genotype/" class="internal-link">apoe_genotype</a><br />
+USED_FOR::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimer’s Disease</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a></p>

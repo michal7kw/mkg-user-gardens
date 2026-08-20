@@ -1,12 +1,13 @@
 ---
 aliases:
 - 12_Web_Dashboard_Tour
-created: '2026-06-13T17:47:14.626591Z'
+created: '2026-08-20T04:08:32.189281Z'
 description: Complete page-by-page walkthrough of all web dashboard features and pages
 dg-home: false
 dg-publish: true
 gardenUsername: demo_user
 permalink: /garden/demo_user/users_guide/web-dashboard-tour/
+provenance: curated
 slug: web-dashboard-tour
 tags:
 - users_guide
@@ -14,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Web Dashboard Tour
 type: users_guide
-updated: '2026-06-13T17:47:14.626591Z'
+updated: '2026-08-20T04:08:32.189281Z'
 ---
 
 {% raw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.168355Z'
+created: '2026-03-11T11:39:48.349099+00:00'
 description: Umbrella term for higher-order cognitive processes that control and coordinate
   other cognitive functions. Core components include working memory, cognitive flexibility,
   and inhibitory control. Primarily mediated by the prefrontal cortex and dependent
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: executive_function
 permalink: /garden/demo_user/cognitivefunction/executive-function/
+provenance: curated
 slug: executive-function
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Executive Function
 type: cognitivefunction
-updated: '2026-06-13T17:47:11.168355Z'
+updated: '2026-08-20T04:08:29.236504Z'
 ---
 
 {% raw %}
@@ -55,15 +56,15 @@ updated: '2026-06-13T17:47:11.168355Z'
 <h2>Relationships</h2>
 <h3>Supported By Region</h3>
 <p>SUPPORTED_BY_REGION::<a class="internal-link is-unresolved" href="/404">Prefrontal Cortex</a><br />
-SUPPORTED_BY_REGION::<a href="/garden/demo_user/anatomy/cingulate-cortex/" class="internal-link">Cingulate Cortex</a><br />
+SUPPORTED_BY_REGION::<a href="/garden/demo_user/organ/cingulate-cortex/" class="internal-link">Cingulate Cortex</a><br />
 SUPPORTED_BY_REGION::<a class="internal-link is-unresolved" href="/404">Thalamus</a><br />
-SUPPORTED_BY_REGION::<a href="/garden/demo_user/anatomy/caudate-nucleus/" class="internal-link">Caudate Nucleus</a><br />
-SUPPORTED_BY_REGION::<a href="/garden/demo_user/anatomy/putamen/" class="internal-link">Putamen</a></p>
+SUPPORTED_BY_REGION::<a href="/garden/demo_user/organ/caudate-nucleus/" class="internal-link">Caudate Nucleus</a><br />
+SUPPORTED_BY_REGION::<a href="/garden/demo_user/organ/putamen/" class="internal-link">Putamen</a></p>
 <h3>Modulated By Neurotransmitter</h3>
 <p>MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a><br />
 MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/norepinephrine/" class="internal-link">Norepinephrine</a><br />
 MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a><br />
-MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a></p>
+MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a></p>
 <h3>Improved By Intervention</h3>
 <p>IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/exercise/" class="internal-link">Exercise</a><br />
 IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/meditation/" class="internal-link">Meditation</a><br />

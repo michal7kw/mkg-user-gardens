@@ -2,7 +2,7 @@
 aliases:
 - LDL Particle Number
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.477265Z'
+created: '2026-01-19T08:30:00.729808+00:00'
 description: LDL particle number measures how many LDL particles are circulating in
   the blood. Standard LDL cholesterol tests estimate the amount of cholesterol by
   weight, while particle tests count the actual number of cholesterol-carrying particles.
@@ -14,6 +14,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-ldl-particle-number
 permalink: /garden/demo_user/labtest/ldl-particle-number/
+provenance: curated
 slug: ldl-particle-number
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: ldl_particle_number
 type: labtest
-updated: '2026-06-13T17:47:12.477265Z'
+updated: '2026-08-20T04:08:30.741412Z'
 ---
 
 {% raw %}
@@ -47,6 +48,10 @@ updated: '2026-06-13T17:47:12.477265Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -58,6 +63,18 @@ updated: '2026-06-13T17:47:12.477265Z'
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -68,19 +85,21 @@ updated: '2026-06-13T17:47:12.477265Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/biomarker/ldl-p/" class="internal-link">LDL-P</a></p>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Hyperlipidemia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Atherosclerosis</a><br />
-RELATED::<a href="/garden/demo_user/labtestpanel/extended-heart-metabolic/" class="internal-link">extended heart metabolic</a><br />
-RELATED::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+<p>RELATED::<a href="/garden/demo_user/condition/hyperlipidemia/" class="internal-link">Hyperlipidemia</a><br />
+RELATED::<a href="/garden/demo_user/condition/atherosclerosis/" class="internal-link">Atherosclerosis</a><br />
+RELATED::<br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 RELATED::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />
-RELATED::<a href="/garden/demo_user/labtestpanel/genetic-heart-risks/" class="internal-link">genetic heart risks</a></p>
+RELATED::</p>
 <h3>May Detect</h3>
-<p>MAY_DETECT::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+<p>MAY_DETECT::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 MAY_DETECT::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a></p>
 <h3>Included In</h3>
-<p>INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/genetic-heart-risks/" class="internal-link">genetic heart risks</a><br />
-INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/extended-heart-metabolic/" class="internal-link">extended heart metabolic</a></p>
+<p>INCLUDED_IN::<br />
+INCLUDED_IN::</p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

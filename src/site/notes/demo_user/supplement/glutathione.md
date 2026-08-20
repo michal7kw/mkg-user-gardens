@@ -1,5 +1,5 @@
 ---
-created: '2026-06-13T17:47:14.348041Z'
+created: '2026-08-20T04:08:31.931533Z'
 description: The body's master antioxidant, available as a supplement in liposomal
   form for enhanced bioavailability. Protects mitochondrial membranes and DNA from
   oxidative damage caused by reactive oxygen species generated during oxidative phosphorylation.
@@ -9,6 +9,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: glutathione_supplement
 permalink: /garden/demo_user/supplement/glutathione/
+provenance: curated
 pubchem_id: '124886'
 slug: glutathione
 source: Manual
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Glutathione
 type: supplement
-updated: '2026-06-13T17:47:14.348041Z'
+updated: '2026-08-20T04:08:31.931533Z'
 ---
 
 {% raw %}
@@ -96,7 +97,7 @@ AFFECTS_ORGAN::<a href="/garden/demo_user/organ/immune-system/" class="internal-
 </ul>
 <h3>Merged From biomarker</h3>
 <p>RELATED::<a href="/garden/demo_user/supplement/alpha-lipoic-acid/" class="internal-link">Alpha Lipoic Acid</a><br />
-RELATED::<a href="/garden/demo_user/gene/cyp3a4/" class="internal-link">CYP3A4</a><br />
+RELATED::<a href="/garden/demo_user/protein/cyp3a4/" class="internal-link">CYP3A4</a><br />
 RELATED::<a href="/garden/demo_user/protein/nrf2/" class="internal-link">NRF2</a><br />
 RELATED::<a href="/garden/demo_user/pathway/pentose-phosphate-pathway/" class="internal-link">Pentose Phosphate Pathway</a><br />
 RELATED::<a href="/garden/demo_user/supplement/selenium/" class="internal-link">Selenium</a></p>

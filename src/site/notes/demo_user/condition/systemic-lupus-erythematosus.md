@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.673037Z'
+confidence_score: 0.9
+created: 2026-01-18T16:02:34+0000
 description: A chronic autoimmune disease where the immune system attacks various
   tissues, causing widespread inflammation and tissue damage in multiple organs.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: systemic_lupus_erythematosus
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/systemic-lupus-erythematosus/
+provenance: curated
 slug: systemic-lupus-erythematosus
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Systemic Lupus Erythematosus
 type: condition
-updated: '2026-06-13T17:47:11.673037Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -68,7 +71,14 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/selenium/" class="
 <p>TREATED_BY::<a href="/garden/demo_user/drug/hydroxychloroquine/" class="internal-link">Hydroxychloroquine</a></p>
 <h3>Diagnostic Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/anti-dsdna-antibody/" class="internal-link">Anti-dsDNA Antibody</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/complement-c3/" class="internal-link">Complement C3</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/complement-c4/" class="internal-link">Complement C4</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/complement-c3/" class="internal-link">Complement C3</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/complement-c4/" class="internal-link">Complement C4</a></p>
+<h2>References</h2>
+<ul>
+<li>Fanouriakis A, Kostopoulou M, Alunno A, et al. Ann Rheum Dis. 2020;79(6):712-723. EULAR recommendations for the management of SLE (PMID: 32357122)</li>
+<li>Tsokos GC. N Engl J Med. 2011;365(22):2110-2121. Systemic lupus erythematosus (review) (PMID: 22129254)</li>
+<li>Aringer M, Costenbader K, Daikh D, et al. Arthritis Rheumatol. 2019;71(9):1400-1412. EULAR/ACR classification criteria for SLE (PMID: 31385518)</li>
+<li>Ruiz-Irastorza G, Ramos-Casals M, Brito-Zeron P, Khamashta MA. Nat Rev Dis Primers. 2021;7(1):12. SLE (review) (PMID: 33619295)</li>
+</ul>
 
 {% endraw %}

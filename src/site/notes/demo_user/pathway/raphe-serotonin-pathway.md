@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.956286Z'
+created: '2026-04-01T19:57:48.057996+00:00'
 description: Serotonergic projections from the dorsal and median raphe nuclei to widespread
   cortical and subcortical targets. Modulates mood, sleep, appetite, pain, and cognition.
   Primary target of SSRI antidepressants.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: raphe_serotonin_pathway
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/raphe-serotonin-pathway/
+provenance: curated
 slug: raphe-serotonin-pathway
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Raphe Serotonin Pathway
 type: pathway
-updated: '2026-06-13T17:47:13.956286Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -46,7 +49,7 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfun
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/sleep-disorder/" class="internal-link">Sleep Disorder</a></p>
 <h3>Associated With</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a></p>
 <h3>Involves</h3>
 <p>INVOLVES::<a href="/garden/demo_user/protein/sert/" class="internal-link">SERT</a><br />
@@ -56,5 +59,9 @@ INVOLVES::<a href="/garden/demo_user/protein/5-ht1a-receptor/" class="internal-l
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-b6/" class="internal-link">Vitamin B6</a><br />
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/l-tryptophan/" class="internal-link">L-Tryptophan</a><br />
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

@@ -4,7 +4,7 @@ aliases:
 - PGC1A
 - PPARGC1
 confidence_score: 0.9
-created: '2026-06-13T17:47:11.948143Z'
+created: 2026-05-27T12:00:00+0000
 description: Encodes PGC-1alpha, the master transcriptional coactivator of mitochondrial
   biogenesis and oxidative metabolism. Induced by exercise, cold, and fasting via
   AMPK and SIRT1, it drives mitochondrial gene programs. The Gly482Ser (rs8192678)
@@ -16,6 +16,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: ppargc1a
 permalink: /garden/demo_user/gene/ppargc1a/
+provenance: curated
 slug: ppargc1a
 source: PubMed
 tags:
@@ -27,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: PPARGC1A
 type: gene
-updated: '2026-06-13T17:47:11.948143Z'
+updated: '2026-08-20T04:08:30.284522Z'
 ---
 
 {% raw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.102023Z'
+created: '2026-04-05T16:16:24.426780+00:00'
 description: Extreme time-restricted eating with a single meal consumed within a 1-hour
   window and 23-hour fast. Maximizes fasting-state metabolic adaptations including
   autophagy and ketogenesis.
@@ -9,6 +9,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: intervention_omad
 permalink: /garden/demo_user/intervention/omad-one-meal-a-day/
+provenance: curated
 slug: omad-one-meal-a-day
 source: dev_seeder
 tags:
@@ -17,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: OMAD (One Meal a Day)
 type: intervention
-updated: '2026-06-13T17:47:12.102023Z'
+updated: '2026-08-20T04:08:30.408036Z'
 ---
 
 {% raw %}

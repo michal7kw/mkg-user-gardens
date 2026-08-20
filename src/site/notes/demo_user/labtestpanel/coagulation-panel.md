@@ -2,7 +2,7 @@
 aliases:
 - coagulation panel
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.070517Z'
+created: 2026-02-07T00:00:00+0000
 description: Comprehensive evaluation of blood clotting function covering both intrinsic
   and extrinsic pathways, fibrinolysis markers, and platelet function. Used for bleeding
   disorder evaluation, pre-surgical assessment, and thrombotic risk.
@@ -11,6 +11,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-coagulation
 permalink: /garden/demo_user/labtestpanel/coagulation-panel/
+provenance: curated
 slug: coagulation-panel
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: coagulation_panel
 type: labtestpanel
-updated: '2026-06-13T17:47:13.070517Z'
+updated: '2026-08-20T04:08:31.041337Z'
 ---
 
 {% raw %}
@@ -31,7 +32,7 @@ updated: '2026-06-13T17:47:13.070517Z'
 <li><a href="/garden/demo_user/labtest/prothrombin-time-pt-inr/" class="internal-link">prothrombin time pt inr</a> -- Extrinsic pathway assessment and warfarin monitoring</li>
 <li><a href="/garden/demo_user/labtest/partial-thromboplastin-time-ptt/" class="internal-link">partial thromboplastin time ptt</a> -- Intrinsic pathway evaluation and heparin monitoring</li>
 <li><a href="/garden/demo_user/labtest/platelet-count/" class="internal-link">platelet count</a> -- Cellular hemostasis assessment</li>
-<li><a href="/garden/demo_user/biomarker/d-dimer/" class="internal-link">D-Dimer</a> -- Fibrin degradation marker for thrombotic events</li>
+<li><a href="/garden/demo_user/labtest/d-dimer/" class="internal-link">D-Dimer</a> -- Fibrin degradation marker for thrombotic events</li>
 <li><a href="/garden/demo_user/labtest/fibrinogen/" class="internal-link">fibrinogen</a> -- Clotting factor and acute-phase protein</li>
 </ul>
 <h2>Clinical Indications</h2>
@@ -43,10 +44,10 @@ updated: '2026-06-13T17:47:13.070517Z'
 <li>Disseminated intravascular coagulation (DIC) workup</li>
 </ul>
 <h2>Relationships</h2>
-<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/prothrombin-time-pt-inr/" class="internal-link">prothrombin time pt inr</a><br />
-INCLUDES_TEST::<a href="/garden/demo_user/labtest/partial-thromboplastin-time-ptt/" class="internal-link">partial thromboplastin time ptt</a><br />
-INCLUDES_TEST::<a href="/garden/demo_user/labtest/platelet-count/" class="internal-link">platelet count</a><br />
-INCLUDES_TEST::<a href="/garden/demo_user/biomarker/d-dimer/" class="internal-link">D-Dimer</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/prothrombin-time-pt-inr/" class="internal-link">prothrombin_time_pt_inr</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/partial-thromboplastin-time-ptt/" class="internal-link">partial_thromboplastin_time_ptt</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/platelet-count/" class="internal-link">platelet_count</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/d-dimer/" class="internal-link">d_dimer</a><br />
 INCLUDES_TEST::<a href="/garden/demo_user/labtest/fibrinogen/" class="internal-link">fibrinogen</a><br />
 USED_FOR::<a class="internal-link is-unresolved" href="/404">Deep Vein Thrombosis</a><br />
 USED_FOR::<a class="internal-link is-unresolved" href="/404">Bleeding Disorders</a><br />

@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.710998Z'
+confidence_score: 0.8
+created: 2026-01-18T16:48:42+0000
 description: An increase in body weight, which can be caused by increased body fat,
   muscle mass, or fluid retention.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: weight_gain
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/weight-gain/
+provenance: curated
 slug: weight-gain
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Weight Gain
 type: condition
-updated: '2026-06-13T17:47:11.710998Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -70,5 +73,10 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/chromium/" class="
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/probiotics/" class="internal-link">Probiotics</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/mct-oil/" class="internal-link">MCT Oil</a></p>
+<h2>References</h2>
+<ul>
+<li>Heymsfield SB, Wadden TA. N Engl J Med. 2017;377(2):156-165. Mechanisms, pathophysiology, and management of obesity (review) (PMID: 28700843)</li>
+<li>Apovian CM, Aronne LJ, Bessesen DH, et al. J Clin Endocrinol Metab. 2015;100(2):342-362. Pharmacological management of obesity (Endocrine Society guideline) (PMID: 25590212)</li>
+</ul>
 
 {% endraw %}

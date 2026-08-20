@@ -2,7 +2,7 @@
 aliases:
 - extended immune regulation
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.095795Z'
+created: 2026-01-18T16:48:42+0000
 description: These tests help evaluate susceptibility to infections, detect potential
   immunodeficiency disorders, and identify autoimmune conditions, providing essential
   insights for maintaining immune system balance and overall health. Immunoglobulins
@@ -14,6 +14,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-extended-immune-regulation
 permalink: /garden/demo_user/labtestpanel/extended-immune-regulation/
+provenance: curated
 slug: extended-immune-regulation
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: extended_immune_regulation
 type: labtestpanel
-updated: '2026-06-13T17:47:13.095795Z'
+updated: '2026-08-20T04:08:31.051866Z'
 ---
 
 {% raw %}
@@ -31,9 +32,9 @@ updated: '2026-06-13T17:47:13.095795Z'
 <p>Abnormal immunoglobulin levels can indicate primary immunodeficiency (low levels), autoimmune disease, chronic infections, or hematologic malignancies such as multiple myeloma (elevated monoclonal immunoglobulins). This panel is particularly useful for patients with recurrent infections, suspected immune deficiency, or as part of a comprehensive autoimmune workup.</p>
 <h2>Included Tests</h2>
 <ul>
-<li>Immunoglobulin G (IgG) -- Primary serum antibody for long-term immunity</li>
-<li>Immunoglobulin A (IgA) -- Mucosal immunity marker (gut, respiratory, urogenital)</li>
-<li>Immunoglobulin M (IgM) -- First-responder antibody to new infections</li>
+<li><a href="/garden/demo_user/labtest/immunoglobulin-g-igg/" class="internal-link">Immunoglobulin G (IgG)</a> -- Primary serum antibody for long-term immunity</li>
+<li><a href="/garden/demo_user/labtest/immunoglobulin-a-iga/" class="internal-link">Immunoglobulin A (IgA)</a> -- Mucosal immunity marker (gut, respiratory, urogenital)</li>
+<li><a href="/garden/demo_user/labtest/immunoglobulin-m-igm/" class="internal-link">Immunoglobulin M (IgM)</a> -- First-responder antibody to new infections</li>
 <li>IgG Subclasses (1-4) -- Detailed humoral immune profiling</li>
 </ul>
 <h2>Clinical Indications</h2>
@@ -45,14 +46,14 @@ updated: '2026-06-13T17:47:13.095795Z'
 <li>Chronic sinopulmonary infections or chronic diarrhea workup</li>
 </ul>
 <h2>Relationships</h2>
-<p>INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Immunoglobulin G (IgG)</a><br />
-INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Immunoglobulin A (IgA)</a><br />
-INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Immunoglobulin M (IgM)</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/immunoglobulin-g-igg/" class="internal-link">immunoglobulin_g_igg</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/immunoglobulin-a-iga/" class="internal-link">immunoglobulin_a_iga</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/immunoglobulin-m-igm/" class="internal-link">immunoglobulin_m_igm</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/immune-system-disorder/" class="internal-link">Immune System Disorder</a><br />
 RELATED::<a href="/garden/demo_user/labtest/white-blood-cell-count/" class="internal-link">white blood cell count</a><br />
 RELATED::<a href="/garden/demo_user/labtest/lymphocytes/" class="internal-link">lymphocytes</a><br />
 RELATED::<a href="/garden/demo_user/labtest/neutrophils/" class="internal-link">neutrophils</a><br />
-RELATED::<a href="/garden/demo_user/labtest/high-sensitivity-c-reactive-protein-hs-crp/" class="internal-link">high sensitivity c reactive protein hs crp</a><br />
+RELATED::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">high sensitivity c reactive protein hs crp</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a></p>
 
 {% endraw %}

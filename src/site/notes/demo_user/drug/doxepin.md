@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.764289Z'
+created: 2026-01-03T17:55:38+0000
 description: Tricyclic antidepressant (TCA) with very potent antihistamine properties.
   Used for depression, anxiety, and at low doses for insomnia.
 dg-home: false
@@ -8,7 +8,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: doxepin
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/doxepin/
+provenance: curated
 slug: doxepin
 source: Manual
 tags:
@@ -22,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Doxepin
 type: drug
-updated: '2026-06-13T17:47:11.764289Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -45,7 +47,7 @@ RELATED::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal
 RELATED::<a href="/garden/demo_user/condition/anxiety/" class="internal-link">Anxiety</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">NET</a><br />
 RELATED::<a href="/garden/demo_user/phenotype/pruritus/" class="internal-link">Pruritus</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Histamine H1 Receptor</a><br />
+RELATED::<a href="/garden/demo_user/protein/histamine-h1-receptor/" class="internal-link">Histamine H1 Receptor</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/drug/prednisone/" class="internal-link">Prednisone</a><br />
 RELATED::<a href="/garden/demo_user/protein/sert/" class="internal-link">SERT</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Oxabolone cipionate</a><br />
@@ -53,8 +55,12 @@ TREATS::<a href="/garden/demo_user/condition/insomnia/" class="internal-link">In
 RELATED::<a class="internal-link is-unresolved" href="/404">Choline C 11</a><br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/histamine/" class="internal-link">Histamine</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Methylphosphinic Acid</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Muscarinic Acetylcholine Receptor</a><br />
+RELATED::<a href="/garden/demo_user/protein/muscarinic-acetylcholine-receptor/" class="internal-link">Muscarinic Acetylcholine Receptor</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Sodium fluoride</a><br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/norepinephrine/" class="internal-link">Norepinephrine</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

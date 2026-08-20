@@ -1,5 +1,6 @@
 ---
-created: '2026-06-13T17:47:11.928509Z'
+confidence_score: 0.75
+created: '2026-08-20T04:08:30.255209Z'
 description: Exposure to agricultural and household pesticides, primarily organophosphates
   and glyphosate-based herbicides, causing acetylcholinesterase inhibition, oxidative
   stress, mitochondrial dysfunction, and increased risk of neurodegenerative disease,
@@ -9,7 +10,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: pesticide_exposure
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/exposure/pesticide-exposure/
+provenance: curated
 slug: pesticide-exposure
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Pesticide Exposure
 type: exposure
-updated: '2026-06-13T17:47:11.928509Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -98,5 +101,9 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/condition/carcinoma/" class="interna
 RISK_FACTOR::<a href="/garden/demo_user/condition/peripheral-neuropathy/" class="internal-link">Peripheral Neuropathy</a><br />
 CAUSES::<a href="/garden/demo_user/condition/mitochondrial-dysfunction/" class="internal-link">Mitochondrial Dysfunction</a><br />
 ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">Endocrine Disruption</a></p>
+<h2>References</h2>
+<ul>
+<li>CDC. https://www.cdc.gov/niosh Environmental hazard references</li>
+</ul>
 
 {% endraw %}

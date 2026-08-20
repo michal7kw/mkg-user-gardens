@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:13.770132Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:39+0000
 description: Central organ of the nervous system responsible for cognition, emotion,
   motor control, and regulating bodily functions. Highly metabolically active and
   responsive to numerous supplements.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: brain
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/organ/brain/
+provenance: curated
 slug: brain
 source: Manual
 tags:
@@ -16,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Brain
 type: organ
-updated: '2026-06-13T17:47:13.770132Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -53,7 +56,7 @@ RELATED::<a href="/garden/demo_user/supplement/l-tyrosine/" class="internal-link
 RELATED::<a href="/garden/demo_user/supplement/melatonin-supplement/" class="internal-link">Melatonin Supplement</a><br />
 RELATED::<a href="/garden/demo_user/supplement/nmn/" class="internal-link">NMN</a><br />
 RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
-RELATED::<a href="/garden/demo_user/condition/iron-deficiency/" class="internal-link">Iron Deficiency</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/iron-deficiency/" class="internal-link">Iron Deficiency</a><br />
 RELATED::<a href="/garden/demo_user/supplement/ashwagandha/" class="internal-link">Ashwagandha</a><br />
 RELATED::<a href="/garden/demo_user/supplement/resveratrol/" class="internal-link">Resveratrol</a><br />
 RELATED::<a href="/garden/demo_user/supplement/folate/" class="internal-link">Folate</a><br />
@@ -67,12 +70,16 @@ RELATED::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="inte
 RELATED::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a><br />
 RELATED::<a href="/garden/demo_user/supplement/vitamin-b6/" class="internal-link">Vitamin B6</a><br />
 RELATED::<a href="/garden/demo_user/supplement/rhodiola-rosea/" class="internal-link">Rhodiola Rosea</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">CoQ10</a><br />
-RELATED::<a href="/garden/demo_user/drug/mct8-oil/" class="internal-link">MCT8 Oil</a><br />
+RELATED::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">CoQ10</a><br />
+RELATED::<a href="/garden/demo_user/supplement/mct-oil/" class="internal-link">MCT8 Oil</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimer's Disease</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/stroke/" class="internal-link">Stroke</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/parkinsons-disease/" class="internal-link">Parkinson's Disease</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/epilepsy/" class="internal-link">Epilepsy</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (textbook reference)</li>
+</ul>
 
 {% endraw %}

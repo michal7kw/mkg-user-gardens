@@ -1,7 +1,7 @@
 ---
 aliases:
 - Energy and Vitality
-created: '2026-06-13T17:47:11.976106Z'
+created: '2026-08-20T04:08:30.305463Z'
 description: Combat fatigue and support sustained energy levels. B-complex vitamins
   are essential cofactors in energy metabolism, CoQ10 powers mitochondrial ATP production,
   iron supports oxygen transport, and vitamin D3 regulates hundreds of metabolic processes.
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: fd6e929c-a8d5-449a-b9e6-4ad4dada302b
 permalink: /garden/demo_user/healthstack/energy-vitality/
+provenance: curated
 slug: energy-vitality
 source: Manual
 tags:
@@ -20,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Energy & Vitality
 type: healthstack
-updated: '2026-06-13T17:47:11.976106Z'
+updated: '2026-08-20T04:08:30.305463Z'
 ---
 
 {% raw %}
@@ -41,28 +42,28 @@ updated: '2026-06-13T17:47:11.976106Z'
 </thead>
 <tbody>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">B-Complex</a></td>
+<td><a href="/garden/demo_user/supplement/b-complex-vitamins/" class="internal-link">B-Complex</a></td>
 <td>1capsules</td>
 <td>once daily</td>
 <td>morning</td>
 <td>Essential cofactors in cellular energy metabolism</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">CoQ10 (Ubiquinol)</a></td>
+<td><a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">CoQ10 (Ubiquinol)</a></td>
 <td>100mg</td>
 <td>once daily</td>
 <td>with meals</td>
 <td>Mitochondrial electron transport chain cofactor</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Iron Bisglycinate</a></td>
+<td><a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron Bisglycinate</a></td>
 <td>25mg</td>
 <td>once daily</td>
 <td>empty stomach</td>
 <td>Supports oxygen transport and energy production</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Vitamin D3</a></td>
+<td><a href="/garden/demo_user/nutrient/vitamin-d/" class="internal-link">Vitamin D3</a></td>
 <td>4000IU</td>
 <td>once daily</td>
 <td>with meals</td>
@@ -111,13 +112,13 @@ updated: '2026-06-13T17:47:11.976106Z'
 <li>General wellness</li>
 </ul>
 <h3>Contains Supplement</h3>
-<p>CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">B-Complex</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">CoQ10 (Ubiquinol)</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Iron Bisglycinate</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Vitamin D3</a></p>
+<p>CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/b-complex-vitamins/" class="internal-link">B-Complex</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">CoQ10 (Ubiquinol)</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron Bisglycinate</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/nutrient/vitamin-d/" class="internal-link">Vitamin D3</a></p>
 <h2>Relationships</h2>
 <h3>Enriched</h3>
-<p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+<p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
 INCLUDES_SUPPLEMENT::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a><br />
 INCLUDES_SUPPLEMENT::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a><br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/ferritin/" class="internal-link">ferritin</a><br />

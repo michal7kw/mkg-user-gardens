@@ -1,13 +1,16 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.747635Z'
+created: '2026-04-05T16:15:37.930141+00:00'
 description: Fat-soluble antioxidant (tocopherols and tocotrienols) that protects
   cell membranes from lipid peroxidation. Supports immune function and vascular health.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_vitamin_e
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/vitamin-e/
+provenance: curated
 slug: vitamin-e
 source: dev_seeder
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Vitamin E
 type: nutrient
-updated: '2026-06-13T17:47:13.747635Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -54,9 +57,9 @@ updated: '2026-06-13T17:47:13.747635Z'
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/skin/" class="internal-link">Skin</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="internal-link">LDL Cholesterol</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">CRP (C-Reactive Protein)</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">CRP (C-Reactive Protein)</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a></li>
-<li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Cognitive Decline</a></li>
+<li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/cognitivefunction/cognitive-decline/" class="internal-link">Cognitive Decline</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/peripheral-neuropathy/" class="internal-link">Peripheral Neuropathy</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/selenium/" class="internal-link">Selenium</a></li>
@@ -65,6 +68,10 @@ updated: '2026-06-13T17:47:13.747635Z'
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/dietary-fat/" class="internal-link">Dietary Fat</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/polyphenols/" class="internal-link">Polyphenols</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

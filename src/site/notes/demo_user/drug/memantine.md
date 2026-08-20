@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.835302Z'
+created: 2026-01-03T17:55:41+0000
 description: Uncompetitive NMDA receptor antagonist. Protects neurons from excitotoxicity.
   Used for moderate to severe Alzheimer's disease.
 dg-home: false
@@ -8,7 +8,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: memantine
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/memantine/
+provenance: curated
 slug: memantine
 source: Manual
 tags:
@@ -19,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Memantine
 type: drug
-updated: '2026-06-13T17:47:11.835302Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -45,5 +47,9 @@ RELATED::<a href="/garden/demo_user/condition/alzheimers-disease/" class="intern
 RELATED::<a class="internal-link is-unresolved" href="/404">NMDA Receptor</a><br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a></p>
 <h3>Interacts With</h3>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

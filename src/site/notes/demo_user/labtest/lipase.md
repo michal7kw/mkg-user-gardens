@@ -90,7 +90,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.506614Z'
+created: 2026-01-18T16:02:31+0000
 description: Lipase is a digestive enzyme made by the pancreas that helps break down
   dietary fats. Elevated levels can indicate pancreatic stress or inflammation (pancreatitis)
   and may also be associated with conditions affecting the pancreas, gallbladder,
@@ -102,6 +102,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-lipase
 permalink: /garden/demo_user/labtest/lipase/
+provenance: curated
 slug: lipase
 source: Manual
 tags:
@@ -111,7 +112,7 @@ tags:
 templateEngineOverride: njk
 title: lipase
 type: labtest
-updated: '2026-06-13T17:47:12.506614Z'
+updated: '2026-08-20T04:08:30.755016Z'
 ---
 
 {% raw %}
@@ -137,6 +138,10 @@ updated: '2026-06-13T17:47:12.506614Z'
 <td>Cmp</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -147,6 +152,18 @@ updated: '2026-06-13T17:47:12.506614Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>3-7 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -161,7 +178,7 @@ updated: '2026-06-13T17:47:12.506614Z'
 <h3>Related</h3>
 <p>RELATED::<a class="internal-link is-unresolved" href="/404">Stomach Flu Gastroenteritis</a><br />
 RELATED::<a href="/garden/demo_user/condition/gallbladder-disease/" class="internal-link">Gallbladder Disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Kidney Disease</a><br />
+RELATED::<a href="/garden/demo_user/condition/kidney-disease/" class="internal-link">Kidney Disease</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Pancreatitis Acute Or Chronic</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Bowel Blockage Or Perforation</a></p>
 <h3>May Detect</h3>

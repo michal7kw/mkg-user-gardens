@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:11.092470Z'
+created: 2026-01-03T17:55:39+0000
 description: Mitochondria are double-membrane-bound organelles found in most eukaryotic
   organisms. They generate most of the cell's supply of adenosine triphosphate (ATP),
   used as a source of chemical energy, through cellular respiration.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: mitochondria
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/cellularcomponent/mitochondria/
+provenance: curated
 slug: mitochondria
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Mitochondria
 type: cellularcomponent
-updated: '2026-06-13T17:47:11.092470Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -54,9 +57,9 @@ RELATED::<a href="/garden/demo_user/intervention/keto-diet/" class="internal-lin
 RELATED::<a href="/garden/demo_user/supplement/alpha-lipoic-acid/" class="internal-link">Alpha Lipoic Acid</a><br />
 RELATED::<a href="/garden/demo_user/protein/sirt3/" class="internal-link">SIRT3</a><br />
 RELATED::<a href="/garden/demo_user/intervention/red-light-therapy/" class="internal-link">Red Light Therapy</a><br />
-RELATED::<a href="/garden/demo_user/metabolite/nicotinamide-riboside/" class="internal-link">Nicotinamide Riboside</a><br />
+RELATED::<a href="/garden/demo_user/supplement/nicotinamide-riboside/" class="internal-link">Nicotinamide Riboside</a><br />
 RELATED::<a href="/garden/demo_user/protein/ampk/" class="internal-link">AMPK</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">CoQ10</a><br />
+RELATED::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">CoQ10</a><br />
 RELATED::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a><br />
 RELATED::<a href="/garden/demo_user/metabolite/nadh/" class="internal-link">NADH</a><br />
 RELATED::<a href="/garden/demo_user/pathway/beta-oxidation/" class="internal-link">Beta-Oxidation</a><br />
@@ -64,7 +67,7 @@ RELATED::<a href="/garden/demo_user/condition/oxidative-stress/" class="internal
 RELATED::<a href="/garden/demo_user/metabolite/acetyl-coa/" class="internal-link">Acetyl-CoA</a><br />
 RELATED::<a href="/garden/demo_user/pathway/mitophagy/" class="internal-link">Mitophagy</a><br />
 RELATED::<a href="/garden/demo_user/pathway/oxidative-phosphorylation/" class="internal-link">Oxidative Phosphorylation</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">NAD</a><br />
+RELATED::<a href="/garden/demo_user/biomarker/nad/" class="internal-link">NAD</a><br />
 RELATED::<a href="/garden/demo_user/protein/nrf2/" class="internal-link">NRF2</a><br />
 RELATED::<a href="/garden/demo_user/protein/pgc-1alpha/" class="internal-link">PGC-1alpha</a></p>
 <h3>Produces</h3>
@@ -79,5 +82,10 @@ REGULATES::<a href="/garden/demo_user/protein/ampk/" class="internal-link">AMPK<
 <p>AFFECTED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/red-light-therapy/" class="internal-link">Red Light Therapy</a></p>
 <h3>Affected By Diet</h3>
 <p>AFFECTED_BY_DIET::<a href="/garden/demo_user/intervention/keto-diet/" class="internal-link">Keto Diet</a></p>
+<h2>References</h2>
+<ul>
+<li>Alberts B, et al. Molecular Biology of the Cell. 6th ed. Garland Science; 2014 (textbook reference)</li>
+<li>Lodish H, et al. Molecular Cell Biology. 8th ed. W.H. Freeman; 2016 (textbook reference)</li>
+</ul>
 
 {% endraw %}

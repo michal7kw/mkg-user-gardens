@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.571979Z'
+created: 2026-01-22T12:00:00+0000
 description: Succinate (succinic acid) is a four-carbon dicarboxylic acid intermediate
   of the citric acid cycle that uniquely bridges the TCA cycle and the electron transport
   chain through succinate dehydrogenase (Complex II). Beyond its metabolic role, succinate
@@ -13,6 +13,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: succinate
 permalink: /garden/demo_user/metabolite/succinate/
+provenance: curated
 pubchem_id: '1110'
 slug: succinate
 source: Manual
@@ -27,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Succinate
 type: metabolite
-updated: '2026-06-13T17:47:13.571979Z'
+updated: '2026-08-20T04:08:31.227146Z'
 ---
 
 {% raw %}

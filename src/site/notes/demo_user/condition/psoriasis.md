@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.604952Z'
+confidence_score: 0.85
+created: 2026-01-18T16:48:42+0000
 description: A chronic autoimmune disease that speeds up the growth cycle of skin
   cells, causing patches of thick, red skin and silvery scales.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: psoriasis
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/psoriasis/
+provenance: curated
 slug: psoriasis
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Psoriasis
 type: condition
-updated: '2026-06-13T17:47:11.604952Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -68,5 +71,11 @@ TREATED_BY::<a href="/garden/demo_user/drug/infliximab/" class="internal-link">I
 ASSOCIATED_WITH::<a href="/garden/demo_user/protein/interleukin-23/" class="internal-link">Interleukin-23</a></p>
 <h3>Involves Pathway</h3>
 <p>INVOLVES_PATHWAY::<a href="/garden/demo_user/pathway/jak-stat-signaling-pathway/" class="internal-link">JAK-STAT Signaling Pathway</a></p>
+<h2>References</h2>
+<ul>
+<li>Griffiths CE, Barker JN. Lancet. 2007;370(9583):263-271. Pathogenesis and clinical features of psoriasis (review) (PMID: 17658397)</li>
+<li>Mrowietz U, van de Kerkhof PC. Lancet. 2015;386(9997):e2. Psoriasis (review)</li>
+<li>Nestle FO, Kaplan DH, Barker J. N Engl J Med. 2009;361(5):496-509. Psoriasis (review) (PMID: 19641206)</li>
+</ul>
 
 {% endraw %}

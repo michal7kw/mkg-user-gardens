@@ -3,7 +3,7 @@ aliases:
 - TCF4
 - Transcription factor 7-like 2
 confidence_score: 0.92
-created: '2026-06-13T17:47:11.956674Z'
+created: 2026-05-27T12:00:00+0000
 description: Encodes a Wnt-signaling transcription factor that regulates pancreatic
   beta-cell function and incretin (GLP-1) action. Its intronic variant rs7903146 (T
   allele) is the single strongest common genetic risk factor for type 2 diabetes,
@@ -14,6 +14,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: tcf7l2
 permalink: /garden/demo_user/gene/tcf7l2/
+provenance: curated
 slug: tcf7l2
 source: PubMed
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: TCF7L2
 type: gene
-updated: '2026-06-13T17:47:11.956674Z'
+updated: '2026-08-20T04:08:30.291355Z'
 ---
 
 {% raw %}

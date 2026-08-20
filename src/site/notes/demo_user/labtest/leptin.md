@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.495678Z'
+created: 2026-01-18T16:02:31+0000
 description: Leptin is called the satiety hormone, and tells the brain when you are
   full and when to stop eating. It is an important hormone produced by fat cells to
   regulate metabolism and body weight. High levels often points to leptin resistance,
@@ -12,6 +12,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-leptin
 permalink: /garden/demo_user/labtest/leptin/
+provenance: curated
 slug: leptin
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: leptin
 type: labtest
-updated: '2026-06-13T17:47:12.495678Z'
+updated: '2026-08-20T04:08:30.749504Z'
 ---
 
 {% raw %}
@@ -47,6 +48,10 @@ updated: '2026-06-13T17:47:12.495678Z'
 <td>Cmp</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -57,6 +62,18 @@ updated: '2026-06-13T17:47:12.495678Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>3-7 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -70,15 +87,15 @@ updated: '2026-06-13T17:47:12.495678Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/condition/insulin-resistance/" class="internal-link">Insulin Resistance</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Obesity</a><br />
+RELATED::<a href="/garden/demo_user/condition/obesity/" class="internal-link">Obesity</a><br />
 RELATED::<a href="/garden/demo_user/condition/leptin-resistance/" class="internal-link">Leptin Resistance</a><br />
 RELATED::<a href="/garden/demo_user/condition/hormonal-imbalance/" class="internal-link">Hormonal Imbalance</a><br />
-RELATED::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
+RELATED::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
 <h3>May Detect</h3>
 <p>MAY_DETECT::<a href="/garden/demo_user/condition/hormonal-imbalance/" class="internal-link">Hormonal Imbalance</a><br />
 MAY_DETECT::<a href="/garden/demo_user/condition/insulin-resistance/" class="internal-link">Insulin Resistance</a><br />
 MAY_DETECT::<a href="/garden/demo_user/condition/leptin-resistance/" class="internal-link">Leptin Resistance</a><br />
-MAY_DETECT::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
+MAY_DETECT::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/hormonal-imbalance/" class="internal-link">Hormonal Imbalance</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/insulin-resistance/" class="internal-link">Insulin Resistance</a><br />

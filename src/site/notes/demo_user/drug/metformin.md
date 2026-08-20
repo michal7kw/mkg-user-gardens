@@ -7,13 +7,20 @@ country_regulatory:
     notes: Fully reimbursed first-line therapy for type 2 diabetes
     prescription_type: RR
     reimbursement_class: A
+  pl:
+    agency_status: approved
+    atc_code: A10BA02
+    notes: URPL/EMA-approved; reimbursed first-line therapy for type 2 diabetes on
+      the NFZ list (odpłatność ryczałtowa); Polish name metformina
+    prescription_type: Rp
+    reimbursement_class: refundowany
   uk:
     agency_status: MHRA-approved
     atc_code: A10BA02
     notes: BNF; first-line therapy for type 2 diabetes
     prescription_type: POM
     reimbursement_class: NHS
-created: '2026-06-13T17:47:11.831003Z'
+created: 2026-01-03T17:55:38+0000
 description: First-line biguanide antidiabetic drug that activates AMPK, inhibits
   mitochondrial complex I, and reduces hepatic glucose production. Under investigation
   as a longevity agent in the landmark TAME trial. Not metabolized by CYP enzymes;
@@ -21,9 +28,12 @@ description: First-line biguanide antidiabetic drug that activates AMPK, inhibit
 dg-home: false
 dg-publish: true
 drugbank_id: DB00331
+evidence_level: 4
 gardenUsername: demo_user
 id: metformin
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/metformin/
+provenance: curated
 slug: metformin
 source: Manual
 tags:
@@ -36,7 +46,7 @@ tags:
 templateEngineOverride: njk
 title: METFORMIN
 type: drug
-updated: '2026-06-13T17:47:11.831003Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -99,7 +109,7 @@ The TAME (Targeting Aging with Metformin) trial is the first FDA-approved clinic
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a class="internal-link is-unresolved" href="/404">Diabetes Gestational</a><br />
-RELATED::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Leukemia Lymphocytic Chronic B-Cell</a><br />
 TREATS::<a href="/garden/demo_user/condition/adenomatous-polyposis-coli/" class="internal-link">Adenomatous Polyposis Coli</a><br />
 RELATED::<a href="/garden/demo_user/condition/polycystic-ovary-syndrome/" class="internal-link">Polycystic Ovary Syndrome</a><br />
@@ -122,5 +132,9 @@ TREATS::<a href="/garden/demo_user/condition/colorectal-neoplasms/" class="inter
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/pancreas/" class="internal-link">Pancreas</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

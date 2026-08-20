@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.664688Z'
+created: 2026-03-05T00:00:00+0000
 description: Biogenic amine neurotransmitter and immune mediator synthesized from
   histidine by histidine decarboxylase. Acts as the brain's primary wakefulness-promoting
   neurotransmitter from the tuberomammillary nucleus, a key immune modulator in allergic
@@ -12,6 +12,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: histamine
 permalink: /garden/demo_user/neurotransmitter/histamine/
+provenance: curated
 pubchem_id: '774'
 slug: histamine
 source: Manual
@@ -29,7 +30,7 @@ tags:
 templateEngineOverride: njk
 title: Histamine
 type: neurotransmitter
-updated: '2026-06-13T17:47:13.664688Z'
+updated: '2026-08-20T04:08:31.314579Z'
 ---
 
 {% raw %}
@@ -110,7 +111,7 @@ updated: '2026-06-13T17:47:13.664688Z'
 <h2>Relationships</h2>
 <h3>Neurotransmitter Interactions</h3>
 <p>RELATED::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a> - Both promote wakefulness; serotonergic raphe nuclei and histaminergic TMN are co-activated during arousal<br />
-RELATED::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a> - GABAergic input to TMN inhibits histamine release during sleep; GABA promotes sleep, histamine promotes wakefulness<br />
+RELATED::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a> - GABAergic input to TMN inhibits histamine release during sleep; GABA promotes sleep, histamine promotes wakefulness<br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a> - H3 receptors modulate dopamine release; histamine-dopamine interaction relevant to cognition and reward<br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/norepinephrine/" class="internal-link">Norepinephrine</a> - Both are wakefulness-promoting; locus coeruleus NE and TMN histamine are co-activated during arousal<br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/acetylcholine/" class="internal-link">Acetylcholine</a> - H3 receptors modulate ACh release in cortex and hippocampus; both systems promote cortical activation</p>
@@ -132,7 +133,7 @@ RELATED::<a href="/garden/demo_user/supplement/quercetin/" class="internal-link"
 RELATED::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a> - Supports DAO activity; contributes to histamine degradation<br />
 RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a> - Natural mast cell stabilizer; may reduce histamine release</p>
 <h3>Hormones</h3>
-<p>RELATED::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">Cortisol</a> - Cortisol suppresses histamine release and mast cell degranulation; stress-histamine interaction</p>
+<p>RELATED::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">Cortisol</a> - Cortisol suppresses histamine release and mast cell degranulation; stress-histamine interaction</p>
 <h2>References</h2>
 <ul>
 <li>Haas HL, Sergeeva OA, Selbach O. Histamine in the nervous system. <em>Physiol Rev.</em> 2008;88(3):1183-1241 (PMID: 18768678)</li>

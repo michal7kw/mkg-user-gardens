@@ -2,7 +2,7 @@
 aliases:
 - methylmalonic acid
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.588870Z'
+created: '2026-01-19T08:30:02.557554+00:00'
 description: Methylmalonic acid (MMA) is a substance involved in metabolism and energy
   production. MMA levels rise when vitamin B12 is low, making this one of the most
   sensitive tests for early or mild B12 deficiency—even before symptoms appear. While
@@ -16,6 +16,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-methylmalonic-acid
 permalink: /garden/demo_user/labtest/methylmalonic-acid/
+provenance: curated
 slug: methylmalonic-acid
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: methylmalonic_acid
 type: labtest
-updated: '2026-06-13T17:47:12.588870Z'
+updated: '2026-08-20T04:08:30.791119Z'
 ---
 
 {% raw %}
@@ -49,6 +50,10 @@ updated: '2026-06-13T17:47:12.588870Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -59,6 +64,18 @@ updated: '2026-06-13T17:47:12.588870Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -71,18 +88,16 @@ updated: '2026-06-13T17:47:12.588870Z'
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Vitamin B12 Deficiency</a><br />
-RELATED::<a href="/garden/demo_user/labtestpanel/extended-vitamins-minerals-nutrients/" class="internal-link">extended vitamins minerals nutrients</a><br />
+<p>RELATED::<a href="/garden/demo_user/condition/vitamin-b12-deficiency/" class="internal-link">Vitamin B12 Deficiency</a><br />
+RELATED::<br />
 RELATED::<a href="/garden/demo_user/condition/chronic-kidney-disease/" class="internal-link">Chronic Kidney Disease</a><br />
 RELATED::<a href="/garden/demo_user/condition/pernicious-anemia/" class="internal-link">Pernicious Anemia</a><br />
-RELATED::<a href="/garden/demo_user/labtestpanel/mthfr-gene/" class="internal-link">mthfr gene</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Malabsorption</a></p>
 <h3>May Detect</h3>
 <p>MAY_DETECT::<a href="/garden/demo_user/condition/chronic-kidney-disease/" class="internal-link">Chronic Kidney Disease</a><br />
 MAY_DETECT::<a href="/garden/demo_user/condition/pernicious-anemia/" class="internal-link">Pernicious Anemia</a></p>
 <h3>Included In</h3>
-<p>INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/mthfr-gene/" class="internal-link">mthfr gene</a><br />
-INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/extended-vitamins-minerals-nutrients/" class="internal-link">extended vitamins minerals nutrients</a></p>
+<p>INCLUDED_IN::</p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/pernicious-anemia/" class="internal-link">Pernicious Anemia</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/chronic-kidney-disease/" class="internal-link">Chronic Kidney Disease</a></p>

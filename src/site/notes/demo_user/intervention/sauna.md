@@ -1,15 +1,18 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:12.111814Z'
+created: 2026-03-05T00:00:00+0000
 description: Heat therapy using dry heat (Finnish sauna, 80-100C) or infrared radiation
   (infrared sauna, 40-60C). Regular use associated with reduced cardiovascular mortality,
   improved endothelial function, and enhanced heat shock protein expression. Triggers
   hormetic stress response with adaptations similar to moderate exercise.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: sauna
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/intervention/sauna/
+provenance: curated
 slug: sauna
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Sauna
 type: intervention
-updated: '2026-06-13T17:47:12.111814Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -67,13 +70,17 @@ RELATED::<a href="/garden/demo_user/cellularcomponent/mitochondria/" class="inte
 <h3>Modulates Hormone</h3>
 <p>MODULATES_HORMONE::<a href="/garden/demo_user/hormone/growth-hormone/" class="internal-link">Growth Hormone</a> (200-300% increase with prolonged or multi-round sessions, Evidence Level 2b)<br />
 MODULATES_HORMONE::<a href="/garden/demo_user/neurotransmitter/norepinephrine/" class="internal-link">Norepinephrine</a> (acute sympathetic activation during heat exposure, Evidence Level 2b)<br />
-MODULATES_HORMONE::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a> (transient increase during session, decreases post-session, Evidence Level 2b)</p>
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a> (transient increase during session, decreases post-session, Evidence Level 2b)</p>
 <h3>Modulates Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a> (anti-inflammatory effect with regular use, Evidence Level 2b)</p>
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (anti-inflammatory effect with regular use, Evidence Level 2b)</p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a> (cardiovascular conditioning mimics moderate exercise, Evidence Level 2a)</p>
 <h3>May Improve Condition</h3>
 <p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a> (63% reduced sudden cardiac death risk, Evidence Level 2a)<br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/hypertension/" class="internal-link">Hypertension</a> (3-7 mmHg systolic BP reduction, Evidence Level 2a)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

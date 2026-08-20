@@ -95,7 +95,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.352540Z'
+created: '2026-01-19T08:30:01.903704+00:00'
 description: Follicle-stimulating hormone (FSH) is made by the pituitary gland in
   the brain. In females, it regulates the menstrual cycle and stimulates the ovaries
   to grow and mature eggs for ovulation. Measuring FSH can provide insight into fertility,
@@ -109,6 +109,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-follicle-stimulating-hormone
 permalink: /garden/demo_user/labtest/follicle-stimulating-hormone/
+provenance: curated
 slug: follicle-stimulating-hormone
 source: Manual
 tags:
@@ -116,7 +117,7 @@ tags:
 templateEngineOverride: njk
 title: follicle_stimulating_hormone
 type: labtest
-updated: '2026-06-13T17:47:12.352540Z'
+updated: '2026-08-20T04:08:30.650009Z'
 ---
 
 {% raw %}
@@ -142,6 +143,10 @@ updated: '2026-06-13T17:47:12.352540Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -152,6 +157,18 @@ updated: '2026-06-13T17:47:12.352540Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>

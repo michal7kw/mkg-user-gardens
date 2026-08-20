@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.87
-created: '2026-06-13T17:47:10.763399Z'
+created: 2026-02-07T00:00:00+0000
 description: C-Peptide is a 31-amino acid polypeptide cleaved from proinsulin during
   insulin biosynthesis in pancreatic beta cells, secreted in equimolar amounts with
   insulin. Unlike insulin, C-peptide is not extracted by the liver and has a longer
@@ -11,6 +11,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: c_peptide
 permalink: /garden/demo_user/biomarker/c-peptide/
+provenance: curated
 slug: c-peptide
 source: Manual
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: C-Peptide
 type: biomarker
-updated: '2026-06-13T17:47:10.763399Z'
+updated: '2026-08-20T04:08:28.532618Z'
 ---
 
 {% raw %}
@@ -174,7 +175,7 @@ CORRELATED_WITH::<a href="/garden/demo_user/biomarker/insulin-fasting/" class="i
 CORRELATED_WITH::<a href="/garden/demo_user/biomarker/glucose-fasting/" class="internal-link">Glucose Fasting</a><br />
 CORRELATED_WITH::<a href="/garden/demo_user/metabolite/glucose/" class="internal-link">Glucose</a><br />
 CORRELATED_WITH::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">Triglycerides</a><br />
-CORRELATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">Cortisol</a></p>
+CORRELATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">Cortisol</a></p>
 <h3>Affected By Supplement</h3>
 <p>AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/berberine/" class="internal-link">Berberine</a><br />
 AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/chromium/" class="internal-link">Chromium</a><br />

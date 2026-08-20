@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.351758Z'
+confidence_score: 0.85
+created: 2026-03-28T12:00:00+0000
 description: A chronic inflammatory condition in which tissue similar to the endometrium
   grows outside the uterus, causing pain, inflammation, and often infertility.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: endometriosis
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/endometriosis/
+provenance: curated
 slug: endometriosis
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Endometriosis
 type: condition
-updated: '2026-06-13T17:47:11.351758Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -45,7 +48,7 @@ updated: '2026-06-13T17:47:11.351758Z'
 <li><strong>Lifestyle</strong>: Anti-inflammatory diet (Mediterranean pattern), regular exercise (reduces estrogen levels, improves pain), stress management, heat therapy, pelvic floor physical therapy</li>
 <li><strong>Supplements</strong>: Omega-3 fatty acids (reduce prostaglandin-mediated inflammation), NAC (shown to reduce endometrioma size in one RCT), curcumin, vitamin D, magnesium (muscle relaxation)<br />
 AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Uterus</a><br />
-AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Ovaries</a><br />
+AFFECTS_ORGAN::<a href="/garden/demo_user/organ/ovaries/" class="internal-link">Ovaries</a><br />
 AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Pelvic Peritoneum</a></li>
 </ul>
 <h2>Relationships</h2>
@@ -63,8 +66,14 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="inter
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/interleukin-6/" class="internal-link">interleukin 6</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">hs crp</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/estradiol/" class="internal-link">estradiol</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">ca-125</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/ca-125/" class="internal-link">ca-125</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Pelvic_Peritoneum</a></p>
+<h2>References</h2>
+<ul>
+<li>Zondervan KT, Becker CM, Missmer SA. Nat Rev Dis Primers. 2020;6(1):1-24. Endometriosis (review) (PMID: 32042123)</li>
+<li>Dunselman GA, Vermeulen N, Becker C, et al. Hum Reprod. 2014;29(3):400-412. ESHRE guideline: Management of women with endometriosis (PMID: 24396113)</li>
+<li>Giudice LC. Lancet. 2010;376(9748):1198. Clinical practice: Endometriosis (review) (PMID: 20889115)</li>
+</ul>
 
 {% endraw %}

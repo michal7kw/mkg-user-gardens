@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.366536Z'
+confidence_score: 0.85
+created: 2026-01-24T12:00:00+0000
 description: A group of neurodegenerative disorders characterized by progressive degeneration
   of the frontal and temporal lobes. Causes changes in personality, behavior, and
   language, typically with earlier onset than Alzheimer's disease.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: frontotemporal_dementia
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/frontotemporal-dementia/
+provenance: curated
 slug: frontotemporal-dementia
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Frontotemporal Dementia
 type: condition
-updated: '2026-06-13T17:47:11.366536Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -46,21 +49,15 @@ updated: '2026-06-13T17:47:11.366536Z'
 <li><strong>Supplements</strong>: Omega-3 fatty acids, CoQ10 (mitochondrial support), lion's mane (NGF stimulation -- preclinical), curcumin, NAC</li>
 <li><strong>Clinical trials</strong>: Anti-tau therapies, progranulin-targeting agents (for GRN mutations) under active investigation<br />
 AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Frontal Lobe</a><br />
-AFFECTS_ORGAN::<a href="/garden/demo_user/anatomy/temporal-lobe/" class="internal-link">Temporal Lobe</a></li>
+AFFECTS_ORGAN::<a href="/garden/demo_user/organ/temporal-lobe/" class="internal-link">Temporal Lobe</a></li>
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">MRI Volumetry</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/amyloid-beta-4240-ratio/" class="internal-link">Amyloid-Beta 4240 Ratio</a><br />
+<p>RELATED::<a href="/garden/demo_user/biomarker/amyloid-beta-4240-ratio/" class="internal-link">Amyloid-Beta 4240 Ratio</a><br />
 RELATED::<a href="/garden/demo_user/pathway/tau-phosphorylation/" class="internal-link">Tau Phosphorylation</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Temporal Pole</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Corticobasal Degeneration</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Tau PET Imaging</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/plasma-p-tau217/" class="internal-link">Plasma p-tau217</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Neuropsychological Testing</a><br />
 RELATED::<a href="/garden/demo_user/gene/mapt/" class="internal-link">MAPT</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/phospho-tau/" class="internal-link">Phospho-Tau</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">FDG-PET</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/neuron-derived-exosome-biomarkers/" class="internal-link">Neuron-Derived Exosome Biomarkers</a><br />
 RELATED::<a href="/garden/demo_user/protein/tau/" class="internal-link">Tau</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/anterior-cingulate-cortex/" class="internal-link">Anterior Cingulate Cortex</a><br />
@@ -68,10 +65,8 @@ AFFECTS_BRAIN_REGION::<a class="internal-link is-unresolved" href="/404">Insula<
 RELATED::<a href="/garden/demo_user/biomarker/blood-nfl/" class="internal-link">Blood NfL</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/gfap/" class="internal-link">GFAP</a><br />
 RELATED::<a href="/garden/demo_user/condition/amyotrophic-lateral-sclerosis/" class="internal-link">Amyotrophic Lateral Sclerosis</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Progranulin Plasma</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/neurofilament-light-chain/" class="internal-link">Neurofilament Light Chain</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Autophagy-Lysosomal Pathway</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Progressive Supranuclear Palsy</a><br />
+RELATED::<a href="/garden/demo_user/pathway/autophagy-lysosomal-pathway/" class="internal-link">Autophagy-Lysosomal Pathway</a><br />
 AFFECTS_BRAIN_REGION::<a class="internal-link is-unresolved" href="/404">Prefrontal Cortex</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/mtbr-tau243/" class="internal-link">MTBR-tau243</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/orbitofrontal-cortex/" class="internal-link">Orbitofrontal Cortex</a></p>
@@ -86,5 +81,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/coenzyme-q10/" cla
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/lions-mane/" class="internal-link">Lion's Mane</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a></p>
+<h2>References</h2>
+<ul>
+<li>Bang J, Spina S, Miller BL. Lancet. 2015;386(10004):1672-1682. Frontotemporal dementia (review) (PMID: 25766875)</li>
+<li>Hogan DB, Jette N, Fiest KM, et al. Can J Neurol Sci. 2016;43(1):3-21. The prevalence, incidence and care of frontotemporal dementia (review)</li>
+<li>Olney NT, Spina S, Miller BL. Neuropsychol Rev. 2017;27(3):294-301. Frontotemporal dementia (review) (PMID: 28695567)</li>
+</ul>
 
 {% endraw %}

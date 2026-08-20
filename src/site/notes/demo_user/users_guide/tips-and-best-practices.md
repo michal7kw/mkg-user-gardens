@@ -1,13 +1,14 @@
 ---
 aliases:
 - 13_Tips_and_Best_Practices
-created: '2026-06-13T17:47:14.635132Z'
+created: '2026-08-20T04:08:32.195345Z'
 description: Quality standards, evidence level scale, naming conventions, tagging,
   and relationship best practices
 dg-home: false
 dg-publish: true
 gardenUsername: demo_user
 permalink: /garden/demo_user/users_guide/tips-and-best-practices/
+provenance: curated
 slug: tips-and-best-practices
 tags:
 - users_guide
@@ -15,7 +16,7 @@ tags:
 templateEngineOverride: njk
 title: Tips and Best Practices
 type: users_guide
-updated: '2026-06-13T17:47:14.635132Z'
+updated: '2026-08-20T04:08:32.195345Z'
 ---
 
 {% raw %}

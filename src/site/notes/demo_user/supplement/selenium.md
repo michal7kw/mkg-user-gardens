@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.7
-created: '2026-06-13T17:47:14.477849Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:34+0000
 description: Essential trace mineral critical for thyroid function, antioxidant defense
   (glutathione peroxidase), and immune function. Required for T4 to T3 conversion.
 dg-home: false
@@ -9,6 +9,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: selenium_supplement
 permalink: /garden/demo_user/supplement/selenium/
+provenance: curated
 pubchem_id: '6326970'
 slug: selenium
 source: Manual
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Selenium
 type: supplement
-updated: '2026-06-13T17:47:14.477849Z'
+updated: '2026-08-20T04:08:32.050442Z'
 ---
 
 {% raw %}
@@ -44,7 +45,7 @@ updated: '2026-06-13T17:47:14.477849Z'
 <h3>Related</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/thyroid/" class="internal-link">Thyroid</a><br />
 RELATED::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a><br />
-RELATED::<a href="/garden/demo_user/condition/thyroid-dysfunction/" class="internal-link">Thyroid Dysfunction</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/thyroid-dysfunction/" class="internal-link">Thyroid Dysfunction</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a><br />
 RELATED::<a href="/garden/demo_user/supplement/glutathione/" class="internal-link">Glutathione</a><br />
 MODULATES_HORMONE::<a href="/garden/demo_user/hormone/thyroid-hormones/" class="internal-link">Thyroid Hormones</a><br />
@@ -71,5 +72,12 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disea
 <h3>Targets Biomarker</h3>
 <p>TARGETS_BIOMARKER::<a href="/garden/demo_user/biomarker/free-t3/" class="internal-link">Free T3</a><br />
 TARGETS_BIOMARKER::<a href="/garden/demo_user/biomarker/free-t4/" class="internal-link">Free T4</a></p>
+<h2>References</h2>
+<ul>
+<li>Rayman MP. Lancet. 2012;379(9822):1256-1268. Selenium and human health (PMID: 22381456)</li>
+<li>Vinceti M, et al. J Trace Elem Med Biol. 2018;50:452-459. Selenium and cancer (PMID: 29857809)</li>
+<li>Rayman MP, et al. Ann Intern Med. 2002;136(5):377. Selenium and thyroid function (PMID: 11874309)</li>
+<li>Pitropakis N, et al. Ther Adv Endocrinol Metab. 2023. Selenium in Hashimoto thyroiditis (review)</li>
+</ul>
 
 {% endraw %}

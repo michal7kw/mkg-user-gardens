@@ -1,12 +1,16 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:14.011127Z'
-description: '...'
+created: 2026-01-03T17:55:35+0000
+description: Generalized hypotonia manifests as a systemic, global reduction in baseline
+  muscular tension spanning both the axial core and all appendicular limbs.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: generalized_hypotonia
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/phenotype/generalized-hypotonia/
+provenance: curated
 slug: generalized-hypotonia
 source: Manual
 tags:
@@ -16,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Generalized hypotonia
 type: phenotype
-updated: '2026-06-13T17:47:14.011127Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -27,26 +31,12 @@ updated: '2026-06-13T17:47:14.011127Z'
 <p>This phenotype is heavily tied to deep genetic anomalies mapping back to the PrimeKG etiology trees, particularly covering the spinocerebellar spin tracts, systemic mitochondrial energy failures, or catastrophic lysosomal storage diseases destroying generalized neural networks.</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">long chain 3-hydroxyacyl-CoA dehydrogenase deficiency</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">cap myopathy</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">spinocerebellar ataxia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">spastic ataxia 8 autosomal recessive with hypomyelinating leukodystrophy</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Generalized hypotonia due to defect at the neuromuscular junction</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">early-onset progressive encephalopathy-spastic ataxia-distal spinal muscular atrophy syndrome</a><br />
-RELATED::<a href="/garden/demo_user/phenotype/hypotonia/" class="internal-link">Hypotonia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">partial deletion of the short arm of chromosome 7</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">TH-deficient dopa-responsive dystonia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">X-linked intellectual disability-hypotonia-movement disorder syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">progressive external ophthalmoplegia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">infantile neuronal ceroid lipofuscinosis</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Episodic generalized hypotonia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">trisomy 10p</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">8q243 microdeletion syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">giant axonal neuropathy</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">dysmorphism-short stature-deafness-disorder of sex development syndrome</a></p>
+<p>RELATED::<a href="/garden/demo_user/phenotype/hypotonia/" class="internal-link">Hypotonia</a></p>
 <h3>Related To Phenotype</h3>
-<p>RELATED_TO_PHENOTYPE::<a href="/garden/demo_user/phenotype/hypotonia/" class="internal-link">Hypotonia</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Episodic generalized hypotonia</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Generalized hypotonia due to defect at the neuromuscular junction</a></p>
+<p>RELATED_TO_PHENOTYPE::<a href="/garden/demo_user/phenotype/hypotonia/" class="internal-link">Hypotonia</a></p>
+<h2>References</h2>
+<ul>
+<li>Kohler S, et al. Nucleic Acids Res. 2021;49(D1):D1207-D1217. The Human Phenotype Ontology (HPO) (PMID: 33264411)</li>
+</ul>
 
 {% endraw %}

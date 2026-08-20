@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:10.730688Z'
+created: 2026-01-24T12:00:00+0000
 description: Brain-Derived Neurotrophic Factor (BDNF) is a neurotrophin critical for
   neuronal survival, synaptic plasticity, long-term potentiation, and adult neurogenesis
   in the hippocampus. Serum BDNF levels reflect brain BDNF availability and are reduced
@@ -8,9 +8,12 @@ description: Brain-Derived Neurotrophic Factor (BDNF) is a neurotrophin critical
   increased by exercise, learning, and certain supplements.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: bdnf
+last_modified: 2026-06-21T00:00:00+0000
 permalink: /garden/demo_user/biomarker/bdnf/
+provenance: curated
 slug: bdnf
 source: Manual
 tags:
@@ -23,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: BDNF
 type: biomarker
-updated: '2026-06-13T17:47:10.730688Z'
+updated: 2026-06-21T00:00:00+0000
 ---
 
 {% raw %}
@@ -167,7 +170,7 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/depression/" cla
 INDICATES_ORGAN_HEALTH::<a class="internal-link is-unresolved" href="/404">Prefrontal Cortex</a> (BDNF supports executive function and synaptic plasticity, Evidence Level 2a)<br />
 INDICATES_ORGAN_HEALTH::<a class="internal-link is-unresolved" href="/404">Amygdala</a> (BDNF modulates fear conditioning and emotional regulation, Evidence Level 2b)</p>
 <h3>Correlated With</h3>
-<p>CORRELATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">Cortisol</a> (inverse -- chronic stress and cortisol suppress BDNF)</p>
+<p>CORRELATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">Cortisol</a> (inverse -- chronic stress and cortisol suppress BDNF)</p>
 <h3>Affected By Supplement</h3>
 <p>AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-dha/" class="internal-link">Omega-3 DHA</a><br />
 AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a><br />

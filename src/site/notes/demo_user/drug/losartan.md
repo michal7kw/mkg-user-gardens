@@ -7,21 +7,31 @@ country_regulatory:
     notes: Fully reimbursed ARB antihypertensive
     prescription_type: RR
     reimbursement_class: A
+  pl:
+    agency_status: approved
+    atc_code: C09CA01
+    notes: URPL/EMA-approved; reimbursed ARB antihypertensive on the NFZ list (odpłatność
+      ryczałtowa); Polish name losartan
+    prescription_type: Rp
+    reimbursement_class: refundowany
   uk:
     agency_status: MHRA-approved
     atc_code: C09CA01
     notes: BNF; ARB antihypertensive
     prescription_type: POM
     reimbursement_class: NHS
-created: '2026-06-13T17:47:11.824914Z'
+created: 2026-01-03T17:55:40+0000
 description: Angiotensin II receptor blocker (ARB) for hypertension and diabetic nephropathy.
   Blocks AT1 receptors, providing similar benefits to ACE inhibitors without the cough.
   First ARB developed.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: losartan
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/losartan/
+provenance: curated
 slug: losartan
 source: Manual
 tags:
@@ -34,7 +44,7 @@ tags:
 templateEngineOverride: njk
 title: Losartan
 type: drug
-updated: '2026-06-13T17:47:11.824914Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -69,5 +79,9 @@ AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/uric-acid/" class="interna
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/kidneys/" class="internal-link">Kidneys</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

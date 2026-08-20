@@ -1,13 +1,16 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.713358Z'
+created: '2026-04-05T16:16:17.088592+00:00'
 description: Docosahexaenoic acid — essential omega-3 fatty acid critical for brain
   structure and anti-inflammatory signaling
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_omega3_dha
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/omega-3-dha/
+provenance: curated
 slug: omega-3-dha
 source: dev_seeder
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Omega-3 (DHA)
 type: nutrient
-updated: '2026-06-13T17:47:13.713358Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -52,10 +55,10 @@ updated: '2026-06-13T17:47:13.713358Z'
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/eyes/" class="internal-link">Eyes</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">CRP (C-Reactive Protein)</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Omega-3 Index</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">CRP (C-Reactive Protein)</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/omega3-index/" class="internal-link">Omega-3 Index</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a></li>
-<li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Cognitive Decline</a></li>
+<li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/cognitivefunction/cognitive-decline/" class="internal-link">Cognitive Decline</a></li>
 <li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Dry Eye Syndrome</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/nutrient/omega-3-epa/" class="internal-link">Omega-3 (EPA)</a></li>
@@ -64,6 +67,10 @@ updated: '2026-06-13T17:47:13.713358Z'
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/nutrient/omega-6/" class="internal-link">Omega-6</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/omega-3-ala/" class="internal-link">Omega-3 (ALA)</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/dietary-fat/" class="internal-link">Dietary Fat</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

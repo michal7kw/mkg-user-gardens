@@ -1,5 +1,6 @@
 ---
-created: '2026-06-13T17:47:13.851948Z'
+confidence_score: 0.85
+created: '2026-08-20T04:08:31.463756Z'
 description: Programmed cell death mechanism essential for tissue homeostasis, immune
   regulation, and elimination of damaged or potentially cancerous cells through an
   orderly cascade of caspase activation.
@@ -8,7 +9,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: apoptosis
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/apoptosis/
+provenance: curated
 slug: apoptosis
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Apoptosis
 type: pathway
-updated: '2026-06-13T17:47:13.851948Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -84,5 +87,9 @@ REGULATED_BY::<a href="/garden/demo_user/pathway/nf-kb-pathway/" class="internal
 ASSOCIATED_WITH::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a><br />
 THERAPEUTIC_TARGET_FOR::<a href="/garden/demo_user/condition/chronic-lymphocytic-leukemia/" class="internal-link">Chronic Lymphocytic Leukemia</a><br />
 BIOMARKER_LINK::<a class="internal-link is-unresolved" href="/404">Caspase-3</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

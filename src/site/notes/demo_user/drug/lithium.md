@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.818985Z'
+created: 2026-01-03T17:55:40+0000
 description: Mood stabilizer and gold standard for bipolar disorder. Also studied
   at micro-doses for neuroprotection and longevity. Modulates multiple signaling pathways
   including GSK-3β and inositol.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: lithium
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/lithium/
+provenance: curated
 slug: lithium
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Lithium
 type: drug
-updated: '2026-06-13T17:47:11.818985Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -43,5 +46,9 @@ updated: '2026-06-13T17:47:11.818985Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/pathway/tau-phosphorylation/" class="internal-link">Tau Phosphorylation</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

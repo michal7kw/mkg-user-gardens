@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.920054Z'
+created: '2026-04-01T19:57:48.222112+00:00'
 description: Noradrenergic projections from the locus coeruleus to virtually all brain
   regions. Controls arousal, attention, and the stress response. Tonic firing maintains
   wakefulness; phasic firing enhances signal-to-noise for attention.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: lc_norepinephrine_pathway
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/locus-coeruleus-norepinephrine-pathway/
+provenance: curated
 slug: locus-coeruleus-norepinephrine-pathway
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Locus Coeruleus Norepinephrine Pathway
 type: pathway
-updated: '2026-06-13T17:47:13.920054Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -42,7 +45,7 @@ RELATED::<a class="internal-link is-unresolved" href="/404">Hippocampus</a><br /
 RELATED::<a class="internal-link is-unresolved" href="/404">Locus Coeruleus</a></p>
 <h3>Associated With</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/norepinephrine/" class="internal-link">Norepinephrine</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a><br />
@@ -53,5 +56,9 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/depression/" cla
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/l-theanine/" class="internal-link">L-Theanine</a><br />
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/l-tyrosine/" class="internal-link">L-Tyrosine</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

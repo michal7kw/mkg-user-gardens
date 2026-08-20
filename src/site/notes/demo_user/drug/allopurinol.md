@@ -7,13 +7,20 @@ country_regulatory:
     notes: Fully reimbursed urate-lowering therapy for gout/hyperuricaemia
     prescription_type: RR
     reimbursement_class: A
+  pl:
+    agency_status: approved
+    atc_code: M04AA01
+    notes: URPL/EMA-approved; reimbursed urate-lowering therapy for gout/hyperuricaemia
+      on the NFZ list (odpłatność ryczałtowa); Polish name allopurynol
+    prescription_type: Rp
+    reimbursement_class: refundowany
   uk:
     agency_status: MHRA-approved
     atc_code: M04AA01
     notes: BNF; urate-lowering therapy for gout
     prescription_type: POM
     reimbursement_class: NHS
-created: '2026-06-13T17:47:11.725068Z'
+created: 2026-04-01T10:00:00+0000
 description: First-line urate-lowering therapy for gout. Reduces uric acid production
   by blocking xanthine oxidase. Must be dose-titrated to target serum urate below
   6 mg/dL. HLA-B*5801 screening recommended before initiation due to risk of severe
@@ -24,6 +31,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: allopurinol
 permalink: /garden/demo_user/drug/allopurinol/
+provenance: curated
 slug: allopurinol
 source: Manual
 tags:
@@ -34,7 +42,7 @@ tags:
 templateEngineOverride: njk
 title: Allopurinol
 type: drug
-updated: '2026-06-13T17:47:11.725068Z'
+updated: '2026-08-20T04:08:30.032122Z'
 ---
 
 {% raw %}

@@ -1,5 +1,6 @@
 ---
-created: '2026-06-13T17:47:13.906114Z'
+confidence_score: 0.85
+created: '2026-08-20T04:08:31.511541Z'
 description: Innate immune defense mechanism involving NF-kB-mediated transcription
   of pro-inflammatory cytokines (TNF-alpha, IL-6, IL-1beta), eicosanoid production,
   and immune cell recruitment, with acute forms being protective and chronic low-grade
@@ -9,7 +10,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: inflammation_response
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/inflammation-response/
+provenance: curated
 slug: inflammation-response
 source: Manual
 tags:
@@ -22,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Inflammation Response
 type: pathway
-updated: '2026-06-13T17:47:13.906114Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -30,7 +33,7 @@ updated: '2026-06-13T17:47:13.906114Z'
 <h2>Overview</h2>
 <p>The inflammation response is a fundamental innate immune defense mechanism that protects the body against infection, tissue damage, and harmful stimuli. In its acute form, inflammation is a precisely orchestrated sequence of vascular changes, immune cell recruitment, and mediator release that contains threats and initiates tissue repair. The cardinal signs -- redness (rubor), heat (calor), swelling (tumor), pain (dolor), and loss of function (functio laesa) -- reflect increased blood flow, vascular permeability, and neural sensitization at the site of injury or infection.</p>
 <p>At the molecular level, the <a href="/garden/demo_user/pathway/nf-kb-pathway/" class="internal-link">NF-kB Pathway</a> serves as the master transcriptional regulator of the inflammatory response. Pattern recognition receptors (Toll-like receptors, NOD-like receptors) on innate immune cells detect pathogen-associated molecular patterns (PAMPs) and damage-associated molecular patterns (DAMPs), triggering signaling cascades that converge on NF-kB. Once activated, NF-kB translocates to the nucleus and drives expression of hundreds of pro-inflammatory genes, including cytokines (TNF-alpha, IL-6, IL-1beta), chemokines (IL-8, MCP-1), adhesion molecules (ICAM-1, VCAM-1), and enzymes (COX-2, iNOS). The resulting cytokine milieu orchestrates neutrophil and macrophage recruitment, complement activation, and fever induction.</p>
-<p>While acute <a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a> is protective and self-limiting, chronic low-grade inflammation (&quot;inflammaging&quot;) is now recognized as a unifying mechanism underlying most age-related diseases, including cardiovascular disease, type 2 diabetes, neurodegeneration, and cancer. Chronic inflammation is characterized by persistently elevated levels of circulating inflammatory markers, particularly <a class="internal-link is-unresolved" href="/404">hs-CRP</a> (high-sensitivity C-reactive protein), IL-6, and TNF-alpha, often in the absence of overt infection. Sources of chronic inflammation include visceral adiposity (adipose tissue macrophages), gut dysbiosis (endotoxemia), senescent cell accumulation (SASP), and oxidative stress.</p>
+<p>While acute <a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a> is protective and self-limiting, chronic low-grade inflammation (&quot;inflammaging&quot;) is now recognized as a unifying mechanism underlying most age-related diseases, including cardiovascular disease, type 2 diabetes, neurodegeneration, and cancer. Chronic inflammation is characterized by persistently elevated levels of circulating inflammatory markers, particularly <a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (high-sensitivity C-reactive protein), IL-6, and TNF-alpha, often in the absence of overt infection. Sources of chronic inflammation include visceral adiposity (adipose tissue macrophages), gut dysbiosis (endotoxemia), senescent cell accumulation (SASP), and oxidative stress.</p>
 <p>Several evidence-based interventions target the inflammatory response. <a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a>, the active compound in turmeric, is a potent NF-kB inhibitor that has demonstrated anti-inflammatory efficacy in numerous clinical trials for conditions including osteoarthritis, metabolic syndrome, and inflammatory bowel disease. <a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a> (EPA and DHA) compete with arachidonic acid for COX and LOX enzymes, producing anti-inflammatory resolvins, protectins, and maresins that actively promote inflammation resolution. Regular exercise, adequate sleep, stress management, and Mediterranean-type dietary patterns all reduce systemic inflammatory markers.</p>
 <h2>Key Mechanisms</h2>
 <ul>
@@ -52,7 +55,7 @@ updated: '2026-06-13T17:47:13.906114Z'
 </thead>
 <tbody>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">hs-CRP</a></td>
+<td><a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></td>
 <td>Systemic inflammation; cardiovascular risk</td>
 <td>&lt;1.0 mg/L</td>
 </tr>
@@ -81,12 +84,16 @@ updated: '2026-06-13T17:47:13.906114Z'
 <h2>Relationships</h2>
 <p>REGULATED_BY::<a href="/garden/demo_user/pathway/nf-kb-pathway/" class="internal-link">NF-kB Pathway</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a><br />
-BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a><br />
+BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a><br />
 MODULATED_BY::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a><br />
 MODULATED_BY::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
 CONTRIBUTES_TO::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />
 CONTRIBUTES_TO::<a href="/garden/demo_user/condition/depressive-disorder/" class="internal-link">Depressive Disorder</a><br />
 CONTRIBUTES_TO::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">Aging</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/pathway/aging/" class="internal-link">Aging</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.92
-created: '2026-06-13T17:47:14.204117Z'
+created: 2026-03-28T12:00:00+0000
 description: Enzyme catalyzing the final thiolytic cleavage step of each beta-oxidation
   cycle. Cleaves 3-ketoacyl-CoA with CoA to release acetyl-CoA and a shortened acyl-CoA,
   which re-enters the cycle.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: thiolase
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/protein/thiolase/
+provenance: curated
 slug: thiolase
 source: Manual
 tags:
@@ -20,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Thiolase
 type: protein
-updated: '2026-06-13T17:47:14.204117Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -55,5 +57,10 @@ RELATED::<a href="/garden/demo_user/cellularcomponent/mitochondria/" class="inte
 CATALYZES::<a href="/garden/demo_user/metabolite/acetyl-coa/" class="internal-link">Acetyl-CoA</a></p>
 <h3>Participates In</h3>
 <p>PARTICIPATES_IN::<a href="/garden/demo_user/pathway/beta-oxidation/" class="internal-link">Beta-Oxidation</a></p>
+<h2>References</h2>
+<ul>
+<li>UniProt Consortium. Nucleic Acids Res. 2023;51(D1):D523-D531. UniProt (PMID: 36408955)</li>
+<li>Uhlén M, et al. Science. 2015;347(6220):1260419. The Human Protein Atlas (PMID: 25613900)</li>
+</ul>
 
 {% endraw %}

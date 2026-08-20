@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.507315Z'
+confidence_score: 0.9
+created: 2026-01-03T17:55:38+0000
 description: Non-Alcoholic Fatty Liver Disease, characterized by excessive fat accumulation
   in the liver not caused by alcohol consumption.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: nafld
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/nafld/
+provenance: curated
 slug: nafld
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: NAFLD
 type: condition
-updated: '2026-06-13T17:47:11.507315Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -55,7 +58,7 @@ updated: '2026-06-13T17:47:11.507315Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
+<p>RELATED::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/alanine-transaminase/" class="internal-link">Alanine Transaminase</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a><br />
@@ -68,5 +71,12 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acid
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-e/" class="internal-link">Vitamin E</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/alpha-lipoic-acid/" class="internal-link">Alpha Lipoic Acid</a></p>
+<h2>References</h2>
+<ul>
+<li>Rinella ME, Lazarus JV, Ratziu V, et al. J Hepatol. 2023;79(6):1542-1556. A multisociety Delphi consensus statement on new fatty liver disease nomenclature (PMID: 37603453)</li>
+<li>Younossi ZM, Koenig AB, Abdelatif D, Fazel Y, Henry L, Wymer M. Hepatology. 2016;64(1):73-84. Global epidemiology of NAFLD (PMID: 26707365)</li>
+<li>Chalasani N, Younossi Z, Lavine JE, et al. Hepatology. 2018;67(1):328-357. The diagnosis and management of NAFLD (AASLD guideline) (PMID: 28714183)</li>
+<li>Sumida Y, Yoneda M. Diagnostics (Basel). 2022;12(2):310. Current and future pharmacological treatments for NAFLD/NASH (PMID: 35204360)</li>
+</ul>
 
 {% endraw %}

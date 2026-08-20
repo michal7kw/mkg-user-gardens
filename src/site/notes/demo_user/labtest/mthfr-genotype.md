@@ -2,7 +2,7 @@
 aliases:
 - mthfr genotype
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.605261Z'
+created: 2025-12-10T09:07:57+0000
 description: Tests C677T and A1298C variants affecting folate metabolism and homocysteine
   levels.
 dg-home: false
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: test-mthfr-001
 permalink: /garden/demo_user/labtest/mthfr-genotype/
+provenance: curated
 slug: mthfr-genotype
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: mthfr_genotype
 type: labtest
-updated: '2026-06-13T17:47:12.605261Z'
+updated: '2026-08-20T04:08:30.797656Z'
 ---
 
 {% raw %}
@@ -44,6 +45,10 @@ updated: '2026-06-13T17:47:12.605261Z'
 <td>Snp Panel</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -54,6 +59,18 @@ updated: '2026-06-13T17:47:12.605261Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>7-14 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$99-$199</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>

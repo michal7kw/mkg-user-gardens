@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.653679Z'
+created: 2026-01-03T17:55:39+0000
 description: The most abundant excitatory neurotransmitter in the vertebrate nervous
   system, present in over 90% of brain synapses. Essential for synaptic plasticity,
   learning, and memory via NMDA and AMPA receptor activation. Excess extracellular
@@ -11,6 +11,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: glutamate
 permalink: /garden/demo_user/neurotransmitter/glutamate/
+provenance: curated
 pubchem_id: '33032'
 slug: glutamate
 source: Manual
@@ -26,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Glutamate
 type: neurotransmitter
-updated: '2026-06-13T17:47:13.653679Z'
+updated: '2026-08-20T04:08:31.306495Z'
 ---
 
 {% raw %}
@@ -155,7 +156,7 @@ updated: '2026-06-13T17:47:13.653679Z'
 </table>
 <h2>Relationships</h2>
 <h3>Neurotransmitter Interactions</h3>
-<p>RELATED::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a> - Synthesized from glutamate via glutamic acid decarboxylase; primary inhibitory counterpart</p>
+<p>RELATED::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a> - Synthesized from glutamate via glutamic acid decarboxylase; primary inhibitory counterpart</p>
 <h3>Neurodegenerative Conditions</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimer's Disease</a> - NMDA receptor dysfunction; memantine is approved therapy<br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/amyotrophic-lateral-sclerosis/" class="internal-link">Amyotrophic Lateral Sclerosis</a> - Impaired EAAT2 transport; excitotoxic motor neuron death<br />

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:10.702588Z'
+created: '2026-02-14T12:00:00+00:00'
 description: Alkaline Phosphatase (ALP) is a zinc-dependent metalloenzyme found on
   the outer surface of cell membranes in tissues with high transport activity, particularly
   the liver (canalicular membrane of hepatocytes), bone (osteoblasts), intestine,
@@ -8,9 +8,12 @@ description: Alkaline Phosphatase (ALP) is a zinc-dependent metalloenzyme found 
   liver disease, and increased bone turnover.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: alp
+last_modified: 2026-06-21T00:00:00+0000
 permalink: /garden/demo_user/biomarker/alkaline-phosphatase/
+provenance: curated
 slug: alkaline-phosphatase
 source: Manual
 tags:
@@ -23,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Alkaline Phosphatase
 type: biomarker
-updated: '2026-06-13T17:47:10.702588Z'
+updated: 2026-06-21T00:00:00+0000
 ---
 
 {% raw %}
@@ -174,7 +177,7 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/inflammation/" c
 <p>INDICATES_ORGAN_HEALTH::<a href="/garden/demo_user/organ/bones/" class="internal-link">Bones</a> (marker of osteoblast activity and bone turnover, Evidence Level 1a)<br />
 INDICATES_ORGAN_HEALTH::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a> (marker of cholestasis and biliary obstruction, Evidence Level 1a)</p>
 <h3>Correlated With</h3>
-<p>CORRELATED_WITH::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a><br />
+<p>CORRELATED_WITH::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a><br />
 CORRELATED_WITH::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a><br />
 CORRELATED_WITH::<a href="/garden/demo_user/biomarker/bilirubin-total/" class="internal-link">Bilirubin Total</a><br />
 CORRELATED_WITH::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin D (25-OH)</a></p>

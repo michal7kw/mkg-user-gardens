@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.7
-created: '2026-06-13T17:47:14.450074Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:35+0000
 description: Live beneficial bacteria that support gut microbiome health. Affect digestion,
   immune function, and even mood through the gut-brain axis. Strain-specific benefits.
 dg-home: false
@@ -8,7 +8,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: probiotics
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/probiotics/
+provenance: curated
 pubchem_id: 'null'
 slug: probiotics
 source: Manual
@@ -22,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Probiotics
 type: supplement
-updated: '2026-06-13T17:47:14.450074Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -44,11 +46,8 @@ updated: '2026-06-13T17:47:14.450074Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Gut Microbiome</a> (probiotics modulate gut microbial composition)<br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Saccharomyces Boulardii</a> (probiotic yeast for antibiotic-associated diarrhea)</p>
-<h3>Affects Organ</h3>
-<p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a><br />
+<p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a>### Affects Organ<br />
+AFFECTS_ORGAN::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/gut/" class="internal-link">Gut</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></p>
 <h3>May Improve Condition</h3>
@@ -64,12 +63,18 @@ TARGETS_BIOMARKER::<a href="/garden/demo_user/biomarker/secretory-iga/" class="i
 TARGETS_BIOMARKER::<a href="/garden/demo_user/biomarker/tmao/" class="internal-link">TMAO</a><br />
 TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/zonulin/" class="internal-link">zonulin</a></p>
 <h3>May Improve Condition</h3>
-<p>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">IBS</a><br />
+<p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/irritable-bowel-syndrome/" class="internal-link">Irritable Bowel Syndrome</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/immune-system-disorder/" class="internal-link">Immune System Disorder</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/leaky-gut/" class="internal-link">Leaky Gut</a></p>
 <h3>Synergistic With</h3>
-<p>SYNERGISTIC_WITH::<a class="internal-link is-unresolved" href="/404">Prebiotics</a> (prebiotics provide fuel for probiotic growth, synbiotic effect, Evidence Level 1a)</p>
+<h2>References</h2>
+<ul>
+<li>Hill C, et al. Nat Rev Gastroenterol Hepatol. 2014;11(8):506-514. Consensus statement on probiotics (PMID: 24912386)</li>
+<li>McFarland LV. World J Gastroenterol. 2015;21(25):7649-7661. Probiotics in antibiotic-associated diarrhea (PMID: 26140065)</li>
+<li>King S, et al. World J Gastroenterol. 2014;20(26):8502-8514. Probiotics in IBS (PMID: 25009382)</li>
+<li>Guo Q, et al. Adv Nutr. 2019;10(5):809-819. Probiotics and immune function (PMID: 31041519)</li>
+</ul>
 
 {% endraw %}

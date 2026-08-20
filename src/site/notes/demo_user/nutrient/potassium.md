@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.724931Z'
+created: '2026-04-05T16:15:40.415671+00:00'
 description: Major intracellular cation essential for nerve impulse transmission,
   muscle contraction, fluid balance, and blood pressure regulation via the sodium-potassium
   pump.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_potassium
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/potassium/
+provenance: curated
 slug: potassium
 source: dev_seeder
 tags:
@@ -16,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Potassium
 type: nutrient
-updated: '2026-06-13T17:47:13.724931Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -56,14 +59,18 @@ updated: '2026-06-13T17:47:13.724931Z'
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/kidneys/" class="internal-link">Kidneys</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/muscles/" class="internal-link">Muscles</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Blood Pressure</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/examination/blood-pressure/" class="internal-link">Blood Pressure</a></li>
 <li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Serum Potassium</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/hypertension/" class="internal-link">Hypertension</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/kidney-stones/" class="internal-link">Kidney Stones</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/osteoporosis/" class="internal-link">Osteoporosis</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a></li>
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/nutrient/sodium/" class="internal-link">Sodium</a></li>
-<li>RELATED::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a></li>
+<li>RELATED::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

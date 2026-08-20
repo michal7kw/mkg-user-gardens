@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:12.109334Z'
+created: '2026-04-01T19:57:53.289513+00:00'
 description: Progressive resistance exercise using elastic bands that provide variable
   resistance across the range of motion. Effective alternative to free weights for
   strength, muscle hypertrophy, and rehabilitation. Particularly suitable for home
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: resistance_band_training
 permalink: /garden/demo_user/intervention/resistance-band-training/
+provenance: curated
 slug: resistance-band-training
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Resistance Band Training
 type: intervention
-updated: '2026-06-13T17:47:12.109334Z'
+updated: '2026-08-20T04:08:30.417057Z'
 ---
 
 {% raw %}
@@ -58,7 +59,7 @@ RELATED::<a href="/garden/demo_user/intervention/strength-training/" class="inte
 <h3>Modulates Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/fasting-glucose/" class="internal-link">fasting_glucose</a></p>
 <h3>Modulates Hormone</h3>
-<p>MODULATES_HORMONE::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+<p>MODULATES_HORMONE::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 MODULATES_HORMONE::<a href="/garden/demo_user/hormone/igf-1/" class="internal-link">IGF-1</a><br />
 MODULATES_HORMONE::<a href="/garden/demo_user/hormone/testosterone/" class="internal-link">Testosterone</a><br />
 MODULATES_HORMONE::<a href="/garden/demo_user/hormone/growth-hormone/" class="internal-link">Growth Hormone</a></p>

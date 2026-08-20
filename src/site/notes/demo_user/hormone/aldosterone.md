@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:12.013364Z'
+created: 2026-03-05T00:00:00+0000
 description: Primary mineralocorticoid hormone produced by the zona glomerulosa of
   the adrenal cortex. Central regulator of the renin-angiotensin-aldosterone system
   (RAAS). Controls sodium/potassium balance, blood volume, and blood pressure through
@@ -8,9 +8,12 @@ description: Primary mineralocorticoid hormone produced by the zona glomerulosa 
   or contributes to essential hypertension.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: aldosterone
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/hormone/aldosterone/
+provenance: curated
 pubchem_id: '5839'
 slug: aldosterone
 source: Manual
@@ -25,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Aldosterone
 type: hormone
-updated: '2026-06-13T17:47:12.013364Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -37,6 +40,10 @@ updated: '2026-06-13T17:47:12.013364Z'
 <p>RELATED::<a href="/garden/demo_user/organ/kidneys/" class="internal-link">Kidneys</a><br />
 RELATED::<a href="/garden/demo_user/condition/hypertension/" class="internal-link">Hypertension</a><br />
 RELATED::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a><br />
-RELATED::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+RELATED::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

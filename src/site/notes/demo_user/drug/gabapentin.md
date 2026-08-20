@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.792394Z'
+created: 2026-01-03T17:55:40+0000
 description: Anticonvulsant and analgesic used for neuropathic pain, epilepsy, and
   restless leg syndrome. Binds to alpha-2-delta calcium channel subunit. Not actually
   a GABA analog despite the name.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: gabapentin
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/gabapentin/
+provenance: curated
 slug: gabapentin
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Gabapentin
 type: drug
-updated: '2026-06-13T17:47:11.792394Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -41,16 +44,20 @@ updated: '2026-06-13T17:47:11.792394Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a><br />
+<p>RELATED::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a><br />
 RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a></p>
 <h3>Interacts With</h3>
 <p>INTERACTS_WITH::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a></p>
 <h3>Treats</h3>
-<p>TREATS::<a class="internal-link is-unresolved" href="/404">Neuropathic Pain</a></p>
+<p>TREATS::<a href="/garden/demo_user/condition/neuropathic-pain/" class="internal-link">Neuropathic Pain</a></p>
 <h3>Modulates Neurotransmitter</h3>
-<p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a><br />
+<p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a><br />
 MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

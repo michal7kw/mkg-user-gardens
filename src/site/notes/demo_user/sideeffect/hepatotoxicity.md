@@ -1,5 +1,6 @@
 ---
-created: '2026-06-13T17:47:14.238089Z'
+confidence_score: 0.7
+created: '2026-08-20T04:08:31.760008Z'
 description: Drug- or supplement-induced liver injury ranging from asymptomatic transaminase
   elevation to acute liver failure, representing the most common cause of post-marketing
   drug withdrawal and a major safety concern in pharmacology and supplement use.
@@ -8,7 +9,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: hepatotoxicity
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/sideeffect/hepatotoxicity/
+provenance: curated
 slug: hepatotoxicity
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Hepatotoxicity
 type: sideeffect
-updated: '2026-06-13T17:47:14.238089Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -91,5 +94,9 @@ MONITORED_BY::<a href="/garden/demo_user/biomarker/alanine-transaminase/" class=
 ASSOCIATED_WITH::<a href="/garden/demo_user/condition/biliary-obstruction/" class="internal-link">Biliary Obstruction</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/condition/cholestasis/" class="internal-link">Cholestasis</a><br />
 RISK_FACTOR::<a href="/garden/demo_user/condition/alcohol-use-disorder/" class="internal-link">Alcohol Use Disorder</a></p>
+<h2>References</h2>
+<ul>
+<li>MedDRA. Medical Dictionary for Regulatory Activities. https://www.meddra.org (adverse event classification)</li>
+</ul>
 
 {% endraw %}

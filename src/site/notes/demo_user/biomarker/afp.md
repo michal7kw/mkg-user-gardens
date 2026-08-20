@@ -1,15 +1,18 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:10.667902Z'
+created: 2026-02-07T00:00:00+0000
 description: Alpha-fetoprotein (AFP) is a glycoprotein produced primarily by the fetal
   liver and yolk sac during development. In non-pregnant adults, elevated serum AFP
   is a key tumor marker for hepatocellular carcinoma (HCC) and non-seminomatous germ
   cell tumors, with levels above 400 ng/mL strongly suggestive of HCC.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: afp
+last_modified: 2026-06-21T00:00:00+0000
 permalink: /garden/demo_user/biomarker/afp/
+provenance: curated
 slug: afp
 source: Manual
 tags:
@@ -22,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: AFP
 type: biomarker
-updated: '2026-06-13T17:47:10.667902Z'
+updated: 2026-06-21T00:00:00+0000
 ---
 
 {% raw %}
@@ -159,8 +162,8 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/autoimmune-hepat
 <h3>Correlated With</h3>
 <p>CORRELATED_WITH::<a href="/garden/demo_user/labtest/cea/" class="internal-link">CEA</a><br />
 CORRELATED_WITH::<a href="/garden/demo_user/biomarker/alanine-transaminase/" class="internal-link">Alanine Transaminase</a></p>
-<h3>Included In</h3>
-<p>INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/cancer-screening-panel/" class="internal-link">cancer_screening_panel</a></p>
+<h3>Measured By Test</h3>
+<p>MEASURED_BY_TEST::<a href="/garden/demo_user/labtest/afp/" class="internal-link">afp</a></p>
 <h2>References</h2>
 <ul>
 <li>Marrero JA et al. <em>Hepatology.</em> 2009;49(3):856-863 -- Alpha-fetoprotein for HCC surveillance and diagnosis (PMID: 19180227)</li>

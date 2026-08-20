@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.135698Z'
+confidence_score: 0.75
+created: 2025-01-05T00:00:00+0000
 description: Elevated liver enzymes indicating hepatocyte damage or stress. May suggest
   fatty liver disease, medication toxicity, or other hepatic conditions.
 dg-home: false
@@ -8,7 +8,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: liver_stress
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/clinicalpattern/liver-stress-pattern/
+provenance: curated
 slug: liver-stress-pattern
 source: Manual
 tags:
@@ -21,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Liver Stress Pattern
 type: clinicalpattern
-updated: '2026-06-13T17:47:11.135698Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -83,26 +85,30 @@ updated: '2026-06-13T17:47:11.135698Z'
 RELATED::<a href="/garden/demo_user/biomarker/ggt/" class="internal-link">Ggt</a><br />
 RELATED::<a href="/garden/demo_user/condition/non-alcoholic-fatty-liver-disease/" class="internal-link">Non-alcoholic Fatty Liver Disease</a><br />
 RELATED::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">AST</a><br />
+RELATED::<a href="/garden/demo_user/biomarker/aspartate-aminotransferase/" class="internal-link">AST</a><br />
 RELATED::<a href="/garden/demo_user/supplement/vitamin-e/" class="internal-link">Vitamin E</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Cirrhosis</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Gallbladder</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Milk Thistle</a><br />
-RELATED::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+RELATED::<a href="/garden/demo_user/condition/cirrhosis/" class="internal-link">Cirrhosis</a><br />
+RELATED::<a href="/garden/demo_user/organ/gallbladder/" class="internal-link">Gallbladder</a><br />
+RELATED::<a href="/garden/demo_user/supplement/milk-thistle/" class="internal-link">Milk Thistle</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">ALT</a></p>
 <h3>Increases Risk For</h3>
 <p>INCREASES_RISK_FOR::<a href="/garden/demo_user/condition/non-alcoholic-fatty-liver-disease/" class="internal-link">Non-alcoholic Fatty Liver Disease</a><br />
-INCREASES_RISK_FOR::<a class="internal-link is-unresolved" href="/404">Cirrhosis</a></p>
+INCREASES_RISK_FOR::<a href="/garden/demo_user/condition/cirrhosis/" class="internal-link">Cirrhosis</a></p>
 <h3>Requires Biomarker</h3>
 <p>REQUIRES_BIOMARKER::<a href="/garden/demo_user/biomarker/ggt/" class="internal-link">Ggt</a><br />
 REQUIRES_BIOMARKER::<a class="internal-link is-unresolved" href="/404">ALT</a><br />
-REQUIRES_BIOMARKER::<a class="internal-link is-unresolved" href="/404">AST</a></p>
+REQUIRES_BIOMARKER::<a href="/garden/demo_user/biomarker/aspartate-aminotransferase/" class="internal-link">AST</a></p>
 <h3>Improved By Supplement</h3>
-<p>IMPROVED_BY_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Milk Thistle</a><br />
+<p>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/milk-thistle/" class="internal-link">Milk Thistle</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-e/" class="internal-link">Vitamin E</a><br />
 IMPROVED_BY_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">N-Acetyl Cysteine</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a><br />
-AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Gallbladder</a></p>
+AFFECTS_ORGAN::<a href="/garden/demo_user/organ/gallbladder/" class="internal-link">Gallbladder</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

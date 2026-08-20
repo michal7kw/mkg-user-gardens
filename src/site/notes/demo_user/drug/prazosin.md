@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:11.860000Z'
+created: 2026-01-03T17:55:38+0000
 description: Prazosin is a sympatholytic alpha-1 adrenergic receptor antagonist utilized
   globally for the treatment of essential hypertension, benign prostatic hyperplasia,
   and extensively prescribed off-label for trauma-related nightmares in PTSD.
@@ -9,6 +9,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: prazosin
 permalink: /garden/demo_user/drug/prazosin/
+provenance: curated
 slug: prazosin
 source: Manual
 tags:
@@ -19,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: PRAZOSIN
 type: drug
-updated: '2026-06-13T17:47:11.860000Z'
+updated: '2026-08-20T04:08:30.174461Z'
 ---
 
 {% raw %}

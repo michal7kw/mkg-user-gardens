@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:10.883025Z'
+created: 2026-02-07T00:00:00+0000
 description: Glutathione (GSH) is a tripeptide antioxidant (glutamate-cysteine-glycine)
   that serves as the body's primary intracellular defense against oxidative damage.
   Measurement of total glutathione and the GSH/GSSG ratio provides insight into redox
@@ -11,6 +11,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: glutathione
 permalink: /garden/demo_user/biomarker/glutathione/
+provenance: curated
 slug: glutathione
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Glutathione
 type: biomarker
-updated: '2026-06-13T17:47:10.883025Z'
+updated: '2026-08-20T04:08:28.721948Z'
 ---
 
 {% raw %}

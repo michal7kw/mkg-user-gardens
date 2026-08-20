@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.195277Z'
+created: 2025-12-10T09:07:57+0000
 description: Tests APOE gene variants (E2, E3, E4). E4 associated with increased Alzheimer's
   and cardiovascular risk.
 dg-home: false
@@ -9,6 +9,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: test-apoe-001
 permalink: /garden/demo_user/labtest/apoe-genotype/
+provenance: curated
 slug: apoe-genotype
 source: Manual
 tags:
@@ -16,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: apoe_genotype
 type: labtest
-updated: '2026-06-13T17:47:12.195277Z'
+updated: '2026-08-20T04:08:30.508025Z'
 ---
 
 {% raw %}
@@ -42,6 +43,10 @@ updated: '2026-06-13T17:47:12.195277Z'
 <td>Snp Panel</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -52,6 +57,18 @@ updated: '2026-06-13T17:47:12.195277Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>7-14 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$99-$199</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>

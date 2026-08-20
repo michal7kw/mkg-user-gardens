@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:14.276069Z'
+confidence_score: 0.7
+created: 2026-01-24T12:00:00+0000
 description: An Ayurvedic herb (Brahmi) traditionally used for cognitive enhancement.
   Contains bacosides that support memory consolidation, reduce anxiety, and provide
   neuroprotection through antioxidant mechanisms.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: bacopa_monnieri
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/bacopa-monnieri/
+provenance: curated
 pubchem_id: '46173937'
 slug: bacopa-monnieri
 source: Manual
@@ -21,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Bacopa Monnieri
 type: supplement
-updated: '2026-06-13T17:47:14.276069Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -38,7 +40,7 @@ updated: '2026-06-13T17:47:14.276069Z'
 <p>RELATED::<a href="/garden/demo_user/supplement/ashwagandha/" class="internal-link">Ashwagandha</a><br />
 RELATED::<a href="/garden/demo_user/intervention/cognitive-training/" class="internal-link">Cognitive Training</a><br />
 MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/serotonergic-raphe-pathways/" class="internal-link">Serotonergic Raphe Pathways</a><br />
-MODULATES_HORMONE::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Amygdala</a><br />
 RELATED::<a href="/garden/demo_user/supplement/phosphatidylserine/" class="internal-link">Phosphatidylserine</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/mild-cognitive-impairment/" class="internal-link">Mild Cognitive Impairment</a><br />
@@ -61,5 +63,11 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/attention-deficit-hy
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a> (Enhances dendritic branching in hippocampus; modulates serotonin and acetylcholine; antioxidant neuroprotection via SOD and catalase upregulation, Evidence Level 4a)<br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimer's Disease</a></p>
+<h2>References</h2>
+<ul>
+<li>Stough C, et al. Psychopharmacology (Berl). 2001;156(4):481-484. Bacopa and cognitive function (PMID: 11498727)</li>
+<li>Calabrese C, et al. J Altern Complement Med. 2008;14(6):707-713. Bacopa in memory (PMID: 18611150)</li>
+<li>Kongkeaw C, et al. J Ethnopharmacol. 2014;151(1):528-535. Bacopa meta-analysis (PMID: 24374409)</li>
+</ul>
 
 {% endraw %}

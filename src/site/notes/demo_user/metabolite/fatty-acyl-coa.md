@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.335293Z'
+created: 2026-03-28T12:00:00+0000
 description: Fatty acyl-CoA is the activated thioester form of a fatty acid, produced
   by acyl-CoA synthetase in the cytosol through an ATP-dependent reaction linking
   free fatty acids to coenzyme A. It is the obligatory substrate for beta-oxidation
@@ -13,6 +13,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: fatty_acyl_coa
 permalink: /garden/demo_user/metabolite/fatty-acyl-coa/
+provenance: curated
 slug: fatty-acyl-coa
 source: Manual
 tags:
@@ -25,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Fatty Acyl-CoA
 type: metabolite
-updated: '2026-06-13T17:47:13.335293Z'
+updated: '2026-08-20T04:08:31.141612Z'
 ---
 
 {% raw %}

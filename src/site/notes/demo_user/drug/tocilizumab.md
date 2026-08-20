@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.901315Z'
+created: 2026-04-01T10:00:00+0000
 description: Humanized monoclonal antibody against the IL-6 receptor. Blocks both
   soluble and membrane-bound IL-6 receptor signaling. Unique among RA biologics in
   being effective as monotherapy without methotrexate. Also approved for giant cell
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: tocilizumab
 permalink: /garden/demo_user/drug/tocilizumab/
+provenance: curated
 slug: tocilizumab
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Tocilizumab
 type: drug
-updated: '2026-06-13T17:47:11.901315Z'
+updated: '2026-08-20T04:08:30.207877Z'
 ---
 
 {% raw %}
@@ -42,7 +43,7 @@ updated: '2026-06-13T17:47:11.901315Z'
 <h3>Modulates Pathway</h3>
 <p>MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/jak-stat-signaling-pathway/" class="internal-link">JAK-STAT Signaling Pathway</a></p>
 <h3>Decreases Biomarker</h3>
-<p>DECREASES_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a><br />
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a><br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/esr/" class="internal-link">esr</a></p>
 <h2>References</h2>
 <ul>

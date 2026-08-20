@@ -1,6 +1,8 @@
 ---
-confidence_score: 0.7
-created: '2026-06-13T17:47:14.310672Z'
+aliases:
+- Chromium Picolinate
+confidence_score: 0.6
+created: 2026-01-03T17:55:41+0000
 description: Essential trace mineral that enhances insulin signaling and glucose metabolism.
   Chromium picolinate is the most bioavailable form. Important for blood sugar regulation.
 dg-home: false
@@ -8,7 +10,9 @@ dg-publish: true
 evidence_level: 2
 gardenUsername: demo_user
 id: chromium
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/chromium/
+provenance: curated
 pubchem_id: '23976'
 slug: chromium
 source: Manual
@@ -22,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Chromium
 type: supplement
-updated: '2026-06-13T17:47:14.310672Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -46,7 +50,8 @@ updated: '2026-06-13T17:47:14.310672Z'
 <p>RELATED::<a href="/garden/demo_user/supplement/berberine/" class="internal-link">Berberine</a><br />
 RELATED::<a href="/garden/demo_user/condition/insulin-resistance/" class="internal-link">Insulin Resistance</a></p>
 <h3>Affects Biomarker</h3>
-<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/metabolite/glucose/" class="internal-link">Glucose</a> (Evidence Level 3)<br />
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/insulin-fasting/" class="internal-link">Insulin Fasting</a> (Evidence Level 3)<br />
+DECREASES_BIOMARKER::<a href="/garden/demo_user/metabolite/glucose/" class="internal-link">Glucose</a> (Evidence Level 3)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hemoglobin-a1c/" class="internal-link">Hemoglobin A1c</a> (Evidence Level 3)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a><br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a></p>
@@ -69,5 +74,11 @@ SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/alpha-lipoic-acid/" clas
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/fasting-glucose/" class="internal-link">Fasting Glucose</a><br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a><br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hdl-cholesterol/" class="internal-link">Hdl</a></p>
+<h2>References</h2>
+<ul>
+<li>Costello RB, et al. Biol Trace Elem Res. 2016;170(1):1-2. Chromium (editorial) (PMID: 26453056)</li>
+<li>Bailey CH. Pharmacotherapy. 2014;34(12):1275-1283. Chromium picolinate in diabetes (review)</li>
+<li>Hua Y, et al. Nutrients. 2012;4(12):1851-1863. Chromium and glucose metabolism (PMID: 23340314)</li>
+</ul>
 
 {% endraw %}

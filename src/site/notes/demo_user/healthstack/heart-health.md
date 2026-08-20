@@ -1,5 +1,5 @@
 ---
-created: '2026-06-13T17:47:11.981680Z'
+created: '2026-08-20T04:08:30.309068Z'
 description: A foundational cardiovascular stack targeting key lipid markers and inflammation.
   Omega-3 fatty acids reduce triglycerides and inflammation, CoQ10 supports mitochondrial
   energy in cardiac cells, magnesium helps regulate heart rhythm, and garlic extract
@@ -10,6 +10,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: 590e9cbc-9950-48ef-8c7b-670b12380925
 permalink: /garden/demo_user/healthstack/heart-health/
+provenance: curated
 slug: heart-health
 source: Manual
 tags:
@@ -19,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Heart Health
 type: healthstack
-updated: '2026-06-13T17:47:11.981680Z'
+updated: '2026-08-20T04:08:30.309068Z'
 ---
 
 {% raw %}
@@ -40,28 +41,28 @@ updated: '2026-06-13T17:47:11.981680Z'
 </thead>
 <tbody>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Omega-3 Fish Oil</a></td>
+<td><a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fish Oil</a></td>
 <td>2000mg</td>
 <td>once daily</td>
 <td>with meals</td>
 <td>Reduces triglycerides and systemic inflammation</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">CoQ10 (Ubiquinol)</a></td>
+<td><a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">CoQ10 (Ubiquinol)</a></td>
 <td>200mg</td>
 <td>once daily</td>
 <td>with meals</td>
 <td>Supports mitochondrial energy production in cardiac cells</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Magnesium Glycinate</a></td>
+<td><a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium Glycinate</a></td>
 <td>400mg</td>
 <td>once daily</td>
 <td>evening</td>
 <td>Supports healthy heart rhythm and blood pressure</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Aged Garlic Extract</a></td>
+<td><a href="/garden/demo_user/supplement/garlic/" class="internal-link">Aged Garlic Extract</a></td>
 <td>600mg</td>
 <td>twice daily</td>
 <td>with meals</td>
@@ -103,7 +104,7 @@ updated: '2026-06-13T17:47:11.981680Z'
 <td>Independent cardiovascular risk factor</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">hs-CRP</a></td>
+<td><a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></td>
 <td>0-3.0</td>
 <td>0-1.0</td>
 <td>mg/L</td>
@@ -117,10 +118,10 @@ updated: '2026-06-13T17:47:11.981680Z'
 <li>Longevity</li>
 </ul>
 <h3>Contains Supplement</h3>
-<p>CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Omega-3 Fish Oil</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">CoQ10 (Ubiquinol)</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Magnesium Glycinate</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Aged Garlic Extract</a></p>
+<p>CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fish Oil</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">CoQ10 (Ubiquinol)</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium Glycinate</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/garlic/" class="internal-link">Aged Garlic Extract</a></p>
 <h2>Relationships</h2>
 <h3>Enriched</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />

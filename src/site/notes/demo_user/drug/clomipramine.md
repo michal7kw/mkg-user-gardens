@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.753551Z'
+created: 2026-01-03T17:55:38+0000
 description: Tricyclic antidepressant (TCA) with potent serotonin reuptake inhibition.
   The gold standard medication for Obsessive-Compulsive Disorder (OCD).
 dg-home: false
@@ -8,7 +8,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: clomipramine
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/clomipramine/
+provenance: curated
 slug: clomipramine
 source: Manual
 tags:
@@ -21,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Clomipramine
 type: drug
-updated: '2026-06-13T17:47:11.753551Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -58,5 +60,9 @@ RELATED::<a class="internal-link is-unresolved" href="/404">Testosterone propion
 RELATED::<a class="internal-link is-unresolved" href="/404">Benzyl alcohol</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Oxazepam acetate</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Magnesium salicylate</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

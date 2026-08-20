@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:14.502382Z'
+confidence_score: 0.7
+created: '2026-04-01T19:57:37.146050+00:00'
 description: Concentrated extract from Prunus cerasus (Montmorency tart cherry) rich
   in anthocyanins and polyphenols that reduce exercise-induced oxidative stress, inflammation,
   and muscle soreness, accelerating recovery from intense exercise.
@@ -10,6 +10,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: tart_cherry_extract
 permalink: /garden/demo_user/supplement/tart-cherry-extract/
+provenance: curated
 slug: tart-cherry-extract
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Tart Cherry Extract
 type: supplement
-updated: '2026-06-13T17:47:14.502382Z'
+updated: '2026-08-20T04:08:32.067626Z'
 ---
 
 {% raw %}
@@ -70,8 +71,8 @@ updated: '2026-06-13T17:47:14.502382Z'
 <p>RELATED::<a href="/garden/demo_user/intervention/exercise/" class="internal-link">Exercise</a><br />
 RELATED::<a href="/garden/demo_user/metabolite/reactive-oxygen-species/" class="internal-link">Reactive Oxygen Species</a></p>
 <h3>Affects Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/creatine-kinase/" class="internal-link">Creatine Kinase</a><br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/creatine-kinase/" class="internal-link">Creatine Kinase</a><br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h3>May Improve Condition</h3>
 <p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/sleep-disorder/" class="internal-link">Sleep Disorder</a></p>
 <h3>Affects Organ</h3>

@@ -2,7 +2,7 @@
 aliases:
 - extended heart metabolic
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.081532Z'
+created: 2026-01-18T16:48:42+0000
 description: This comprehensive set of tests provides a deeper understanding of cardiovascular
   and metabolic health by evaluating how effectively cholesterol is working, how the
   body manages blood sugar (including insulin resistance), levels of harmful oxidative
@@ -23,6 +23,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-extended-heart-metabolic
 permalink: /garden/demo_user/labtestpanel/extended-heart-metabolic/
+provenance: curated
 slug: extended-heart-metabolic
 source: Manual
 tags:
@@ -30,7 +31,7 @@ tags:
 templateEngineOverride: njk
 title: extended_heart_metabolic
 type: labtestpanel
-updated: '2026-06-13T17:47:13.081532Z'
+updated: '2026-08-20T04:08:31.045337Z'
 ---
 
 {% raw %}
@@ -40,7 +41,7 @@ updated: '2026-06-13T17:47:13.081532Z'
 <p>This panel reflects the approach used by leading preventive cardiologists who recognize that standard cholesterol numbers often miss significant cardiovascular risk. ApoB is considered a superior predictor of atherosclerotic events compared to LDL-C alone. TMAO links gut microbiome health to cardiovascular risk. HDL functional testing reveals whether HDL particles are actually performing their cardioprotective role, rather than simply measuring HDL quantity.</p>
 <h2>Included Tests</h2>
 <ul>
-<li><a href="/garden/demo_user/labtest/apolipoprotein-b-apob/" class="internal-link">apolipoprotein b apob</a> -- Superior predictor of atherogenic particle burden</li>
+<li><a href="/garden/demo_user/labtest/apolipoprotein-b/" class="internal-link">apolipoprotein b apob</a> -- Superior predictor of atherogenic particle burden</li>
 <li>Apolipoprotein A1 -- Protective lipoprotein component</li>
 <li>ApoB/ApoA1 Ratio -- Atherogenic balance indicator</li>
 <li>HDL Function pCEC -- HDL cholesterol efflux capacity</li>
@@ -62,15 +63,15 @@ updated: '2026-06-13T17:47:13.081532Z'
 <li>Monitoring response to statin, PCSK9 inhibitor, or lifestyle interventions</li>
 </ul>
 <h2>Relationships</h2>
-<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/apolipoprotein-b-apob/" class="internal-link">apolipoprotein b apob</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/apolipoprotein-b/" class="internal-link">apolipoprotein_b</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />
-USED_FOR::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+USED_FOR::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/insulin-resistance/" class="internal-link">Insulin Resistance</a><br />
 RELATED::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="internal-link">LDL Cholesterol</a><br />
 RELATED::<a href="/garden/demo_user/labtest/hdl-cholesterol/" class="internal-link">HDL Cholesterol</a><br />
 RELATED::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a><br />
 RELATED::<a href="/garden/demo_user/labtest/total-cholesterol/" class="internal-link">Total Cholesterol</a><br />
-RELATED::<a href="/garden/demo_user/labtest/high-sensitivity-c-reactive-protein-hs-crp/" class="internal-link">high sensitivity c reactive protein hs crp</a><br />
+RELATED::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">high sensitivity c reactive protein hs crp</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/kidneys/" class="internal-link">Kidneys</a></p>
 

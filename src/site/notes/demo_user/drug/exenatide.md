@@ -1,6 +1,27 @@
 ---
 confidence_score: 0.92
-created: '2026-06-13T17:47:11.777305Z'
+country_regulatory:
+  it:
+    agency_status: approved
+    atc_code: A10BJ01
+    notes: AIFA-approved for type 2 diabetes; older agent, now less commonly used.
+    prescription_type: RR
+    reimbursement_class: A
+  pl:
+    agency_status: approved
+    atc_code: A10BJ01
+    notes: URPL/EMA-dopuszczony agonista GLP-1 w cukrzycy typu 2 (Byetta, Bydureon).
+      Starszy lek, obecnie rzadziej stosowany i zwykle pełnopłatny. Status refundacji
+      zmienia się — sprawdź aktualne obwieszczenie MZ.
+    prescription_type: Rp
+    reimbursement_class: nierefundowany
+  uk:
+    agency_status: approved
+    atc_code: A10BJ01
+    notes: MHRA/EMA-approved GLP-1 receptor agonist for type 2 diabetes (Byetta, Bydureon).
+    prescription_type: POM
+    reimbursement_class: NHS
+created: 2026-04-14T00:00:00+0000
 description: GLP-1 receptor agonist for type 2 diabetes. First-in-class incretin mimetic
   derived from Gila monster saliva (exendin-4). Available as twice-daily injection
   (Byetta) and once-weekly extended-release (Bydureon/Bydureon BCise). Pioneered the
@@ -11,6 +32,7 @@ drugbank_id: DB01276
 gardenUsername: demo_user
 id: exenatide
 permalink: /garden/demo_user/drug/exenatide/
+provenance: curated
 pubchem_id: 55576
 slug: exenatide
 source: Manual
@@ -25,7 +47,7 @@ tags:
 templateEngineOverride: njk
 title: Exenatide
 type: drug
-updated: '2026-06-13T17:47:11.777305Z'
+updated: '2026-08-20T04:08:30.097117Z'
 ---
 
 {% raw %}
@@ -139,11 +161,11 @@ RELATED::<a href="/garden/demo_user/drug/metformin/" class="internal-link">METFO
 <h3>Affects Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a> (reduces by 0.8-1.2%, Evidence Level 1a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/metabolite/glucose/" class="internal-link">Glucose</a> (reduces postprandial and fasting glucose, Evidence Level 1a)<br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Blood Pressure</a> (modest systolic reduction 2-4 mmHg, Evidence Level 2a)<br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/examination/blood-pressure/" class="internal-link">Blood Pressure</a> (modest systolic reduction 2-4 mmHg, Evidence Level 2a)<br />
 AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Body Weight</a> (modest weight loss 2-4 kg, Evidence Level 1a)</p>
 <h3>Modulates Hormone</h3>
 <p>MODULATES_HORMONE::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a> (enhances glucose-dependent secretion, Evidence Level 1a)<br />
-MODULATES_HORMONE::<a class="internal-link is-unresolved" href="/404">Glucagon</a> (suppresses postprandial glucagon, Evidence Level 1a)</p>
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/glucagon/" class="internal-link">Glucagon</a> (suppresses postprandial glucagon, Evidence Level 1a)</p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/pancreas/" class="internal-link">Pancreas</a> (beta-cell stimulation and glucagon suppression, Evidence Level 1a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/intestines/" class="internal-link">Intestines</a> (delays gastric emptying, Evidence Level 1a)<br />

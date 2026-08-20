@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.235832Z'
+confidence_score: 0.85
+created: 2026-01-18T16:02:34+0000
 description: A deficiency in one or more of the B-complex vitamins (e.g., Folate,
   B6, B12), which are essential for energy metabolism, red blood cell production,
   and neurological function.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: b_vitamin_deficiency
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/b-vitamin-deficiency/
+provenance: curated
 slug: b-vitamin-deficiency
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: B Vitamin Deficiency
 type: condition
-updated: '2026-06-13T17:47:11.235832Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -64,5 +67,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/folate/" class="in
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-b6/" class="internal-link">Vitamin B6</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/thiamine/" class="internal-link">Thiamine</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/riboflavin/" class="internal-link">Riboflavin</a></p>
+<h2>References</h2>
+<ul>
+<li>Stabler SP. N Engl J Med. 2013;368(2):149-160. Vitamin B12 deficiency (review) (PMID: 23301732)</li>
+<li>Green R, Allen LH, Bjorke-Monsen AL, et al. Clin Chem. 2017;63(5):933-942. Vitamin B12 deficiency (review) (PMID: 28461443)</li>
+<li>Thomson AD, Guerrini I, Marshall EJ. Alcohol Alcohol. 2012;47(2):104-110. The evolution and treatment of Korsakoff syndrome (PMID: 22268860)</li>
+</ul>
 
 {% endraw %}

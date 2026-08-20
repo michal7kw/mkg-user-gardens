@@ -1,12 +1,16 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:14.043946Z'
-description: '...'
+created: 2026-01-03T17:55:35+0000
+description: Respiratory distress operates as an intensely dangerous, high-acuity
+  phenotype denoting an impending systemic hypoxic collapse.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: respiratory_distress
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/phenotype/respiratory-distress/
+provenance: curated
 slug: respiratory-distress
 source: Manual
 tags:
@@ -16,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Respiratory distress
 type: phenotype
-updated: '2026-06-13T17:47:14.043946Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -33,46 +37,13 @@ updated: '2026-06-13T17:47:14.043946Z'
 <p>This phenotype inherently funnels directly into <strong>Acute Respiratory Distress Syndrome (ARDS)</strong> and massive <strong>Respiratory Failure</strong>. If the underlying cause (e.g., massive pneumonia fluid filling the alveoli, a massive pulmonary embolism completely blocking lung blood flow, or massive anaphylaxis swelling the trachea shut) is not neutralized, the muscular effort inevitably exhausts the patient. The diaphragm fails, hypercapnia (CO2 poisoning) induces narcosis, and the patient goes into terminal cardiopulmonary arrest.</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">severe neonatal hypotonia-seizures-encephalopathy syndrome due to 5q313 microdeletion</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">bronchopulmonary dysplasia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">infantile Krabbe disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">congenital diaphragmatic hernia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">short chain acyl-CoA dehydrogenase deficiency</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Ramos-Arroyo syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">progressive supranuclear palsy-corticobasal syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">esophageal atresiatracheoesophageal fistula</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">avian influenza</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">malignant mesothelioma disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Kasabach-Merritt syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Japanese encephalitis</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Lyell syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">hereditary angioedema</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">methylmalonic aciduriaacidemia and homocystinuria</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">torsion dystonia</a><br />
-RELATED::<a href="/garden/demo_user/condition/severe-acute-respiratory-syndrome/" class="internal-link">Severe Acute Respiratory Syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">myotonic dystrophy</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">congenital pulmonary lymphangiectasia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">arterial calcification of infancy</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Episodic respiratory distress</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Intercostal retractions</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Schinzel-Giedion syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">vitamin B12-unresponsive methylmalonic acidemia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">biotinidase deficiency</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">holocarboxylase synthetase deficiency</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">pulmonary non-tuberculous mycobacterial infection</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">very long chain acyl-CoA dehydrogenase deficiency</a><br />
-RELATED::<a href="/garden/demo_user/phenotype/dyspnea/" class="internal-link">Dyspnea</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">colchicine poisoning</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">8q243 microdeletion syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">mitochondrial myopathy with reversible cytochrome C oxidase deficiency</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Nasal flaring</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">tuberous sclerosis</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">pancreatic hypoplasia-diabetes-congenital heart disease syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">mitochondrial DNA depletion syndrome myopathic form</a></p>
+<p>RELATED::<a href="/garden/demo_user/condition/severe-acute-respiratory-syndrome/" class="internal-link">Severe Acute Respiratory Syndrome</a><br />
+RELATED::<a href="/garden/demo_user/phenotype/dyspnea/" class="internal-link">Dyspnea</a></p>
 <h3>Related To Phenotype</h3>
-<p>RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Intercostal retractions</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Episodic respiratory distress</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Nasal flaring</a><br />
-RELATED_TO_PHENOTYPE::<a href="/garden/demo_user/phenotype/dyspnea/" class="internal-link">Dyspnea</a></p>
+<p>RELATED_TO_PHENOTYPE::<a href="/garden/demo_user/phenotype/dyspnea/" class="internal-link">Dyspnea</a></p>
+<h2>References</h2>
+<ul>
+<li>Kohler S, et al. Nucleic Acids Res. 2021;49(D1):D1207-D1217. The Human Phenotype Ontology (HPO) (PMID: 33264411)</li>
+</ul>
 
 {% endraw %}

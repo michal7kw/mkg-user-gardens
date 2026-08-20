@@ -1,13 +1,16 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.686150Z'
+created: '2026-04-05T16:16:17.107585+00:00'
 description: Most abundant mineral in the body — essential for bone structure, muscle
   contraction, nerve transmission, and blood clotting. 99% stored in bones and teeth.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_calcium
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/calcium/
+provenance: curated
 slug: calcium
 source: dev_seeder
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Calcium
 type: nutrient
-updated: '2026-06-13T17:47:13.686150Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -48,7 +51,7 @@ updated: '2026-06-13T17:47:13.686150Z'
 <p>Excess calcium intake, particularly from supplements, may increase the risk of kidney stones, constipation, and impaired absorption of iron and zinc. Very high intakes have been associated with vascular calcification and potential cardiovascular risk, though evidence remains debated.</p>
 <h2>Relationships</h2>
 <ul>
-<li>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Bone</a></li>
+<li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/bones/" class="internal-link">Bone</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/kidneys/" class="internal-link">Kidneys</a></li>
 <li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Serum Calcium</a></li>
@@ -62,6 +65,10 @@ updated: '2026-06-13T17:47:13.686150Z'
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a></li>
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a></li>
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/nutrient/sodium/" class="internal-link">Sodium</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

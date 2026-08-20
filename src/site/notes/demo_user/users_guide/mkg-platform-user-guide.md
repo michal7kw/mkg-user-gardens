@@ -1,12 +1,13 @@
 ---
 aliases:
 - _index
-created: '2026-06-13T17:47:14.652152Z'
+created: '2026-08-20T04:08:32.206010Z'
 description: Table of contents and reading paths for all MKG platform user guides
 dg-home: false
 dg-publish: true
 gardenUsername: demo_user
 permalink: /garden/demo_user/users_guide/mkg-platform-user-guide/
+provenance: curated
 slug: mkg-platform-user-guide
 tags:
 - users_guide
@@ -14,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: MKG Platform User Guide
 type: users_guide
-updated: '2026-06-13T17:47:14.652152Z'
+updated: '2026-08-20T04:08:32.206010Z'
 ---
 
 {% raw %}
@@ -128,6 +129,111 @@ updated: '2026-06-13T17:47:14.652152Z'
 <td>14</td>
 <td><a href="/garden/demo_user/users_guide/troubleshooting/" class="internal-link">Troubleshooting</a></td>
 <td>Common issues, connection problems, FAQ</td>
+</tr>
+</tbody>
+</table>
+<h2>Page Guides (Web Dashboard)</h2>
+<p>Each page of the web app links here via its &quot;View in Knowledge Base&quot; button.<br />
+These are concise, task-focused guides for a single page.</p>
+<table>
+<thead>
+<tr>
+<th>Page</th>
+<th>Guide</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dashboard</td>
+<td><a href="/garden/demo_user/users_guide/dashboard-guide/" class="internal-link">Dashboard — Guide</a></td>
+</tr>
+<tr>
+<td>Lab Tests</td>
+<td><a href="/garden/demo_user/users_guide/lab-tests-guide/" class="internal-link">Lab Tests — Guide</a></td>
+</tr>
+<tr>
+<td>Biomarkers</td>
+<td><a href="/garden/demo_user/users_guide/biomarkers-guide/" class="internal-link">Biomarkers — Guide</a></td>
+</tr>
+<tr>
+<td>Recommendations</td>
+<td><a href="/garden/demo_user/users_guide/recommendations-guide/" class="internal-link">Recommendations — Guide</a></td>
+</tr>
+<tr>
+<td>My Stack</td>
+<td><a href="/garden/demo_user/users_guide/my-stack-guide/" class="internal-link">My Stack — Guide</a></td>
+</tr>
+<tr>
+<td>AI Assistant</td>
+<td><a href="/garden/demo_user/users_guide/ai-assistant-guide/" class="internal-link">AI Assistant — Guide</a></td>
+</tr>
+<tr>
+<td>Knowledge Graph</td>
+<td><a href="/garden/demo_user/users_guide/knowledge-graph-guide/" class="internal-link">Knowledge Graph — Guide</a></td>
+</tr>
+<tr>
+<td>Supplement Map</td>
+<td><a href="/garden/demo_user/users_guide/supplement-map-guide/" class="internal-link">Supplement Map — Guide</a></td>
+</tr>
+<tr>
+<td>Path Finder</td>
+<td><a href="/garden/demo_user/users_guide/path-finder-guide/" class="internal-link">Path Finder — Guide</a></td>
+</tr>
+<tr>
+<td>Drug Interactions</td>
+<td><a href="/garden/demo_user/users_guide/drug-interactions-guide/" class="internal-link">Drug Interactions — Guide</a></td>
+</tr>
+<tr>
+<td>Systems</td>
+<td><a href="/garden/demo_user/users_guide/systems-guide/" class="internal-link">Systems — Guide</a></td>
+</tr>
+<tr>
+<td>Health Reports</td>
+<td><a href="/garden/demo_user/users_guide/health-reports-guide/" class="internal-link">Health Reports — Guide</a></td>
+</tr>
+<tr>
+<td>Bioenergetics</td>
+<td><a href="/garden/demo_user/users_guide/bioenergetics-guide/" class="internal-link">Bioenergetics — Guide</a></td>
+</tr>
+<tr>
+<td>Energy Systems</td>
+<td><a href="/garden/demo_user/users_guide/energy-systems-guide/" class="internal-link">Energy Systems — Guide</a></td>
+</tr>
+<tr>
+<td>Nutrition</td>
+<td><a href="/garden/demo_user/users_guide/nutrition-guide/" class="internal-link">Nutrition — Guide</a></td>
+</tr>
+<tr>
+<td>Digital Garden</td>
+<td><a href="/garden/demo_user/users_guide/digital-garden-guide/" class="internal-link">Digital Garden — Guide</a></td>
+</tr>
+<tr>
+<td>Export &amp; Backups</td>
+<td><a href="/garden/demo_user/users_guide/export-backups-guide/" class="internal-link">Export &amp; Backups — Guide</a></td>
+</tr>
+<tr>
+<td>Developer API</td>
+<td><a href="/garden/demo_user/users_guide/developer-api-guide/" class="internal-link">Developer API — Guide</a></td>
+</tr>
+<tr>
+<td>Settings</td>
+<td><a href="/garden/demo_user/users_guide/settings-guide/" class="internal-link">Settings — Guide</a></td>
+</tr>
+<tr>
+<td>Pathway Simulation</td>
+<td><a href="/garden/demo_user/users_guide/pathway-simulation-guide/" class="internal-link">Pathway Simulation — Guide</a></td>
+</tr>
+<tr>
+<td>Experiments</td>
+<td><a href="/garden/demo_user/users_guide/experiments/" class="internal-link">Experiments — Guide</a></td>
+</tr>
+<tr>
+<td>Brain Explorer</td>
+<td><a href="/garden/demo_user/users_guide/brain-explorer-guide/" class="internal-link">Brain Explorer — Guide</a></td>
+</tr>
+<tr>
+<td>Network Analysis</td>
+<td><a href="/garden/demo_user/users_guide/network-analysis-guide/" class="internal-link">Network Analysis — Guide</a></td>
 </tr>
 </tbody>
 </table>

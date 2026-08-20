@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:12.132681Z'
+created: 2026-03-05T00:00:00+0000
 description: Mind-body practice combining physical postures (asana), breathwork (pranayama),
   and meditation. Evidence supports benefits for stress reduction, flexibility, balance,
   chronic pain, anxiety, and cardiovascular risk factors. Multiple styles range from
@@ -10,7 +10,9 @@ dg-publish: true
 evidence_level: 3
 gardenUsername: demo_user
 id: yoga
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/intervention/yoga/
+provenance: curated
 slug: yoga
 source: Manual
 tags:
@@ -23,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Yoga
 type: intervention
-updated: '2026-06-13T17:47:12.132681Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -61,19 +63,19 @@ updated: '2026-06-13T17:47:12.132681Z'
 <h2>Relationships</h2>
 <h3>Affects Biomarker</h3>
 <!-- seeded: intervention coverage (mirror_intervention_edges_to_markdown.py) -->
-<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">Cortisol</a> (Evidence Level 3)</p>
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">Cortisol</a> (Evidence Level 3)</p>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a> (27% increase in brain GABA after single session)<br />
+<p>RELATED::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a> (27% increase in brain GABA after single session)<br />
 RELATED::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a><br />
 RELATED::<a href="/garden/demo_user/intervention/breathwork/" class="internal-link">Breathwork</a> (pranayama is the breathwork component of yoga)<br />
 RELATED::<a href="/garden/demo_user/intervention/grounding/" class="internal-link">Grounding</a> (outdoor yoga on natural surfaces combines both)<br />
 RELATED::<a href="/garden/demo_user/intervention/sleep-optimization/" class="internal-link">Sleep Optimization</a> (evening yoga improves sleep onset and quality)<br />
 RELATED::<a href="/garden/demo_user/intervention/strength-training/" class="internal-link">Strength Training</a> (yoga complements resistance training for mobility)</p>
 <h3>Modulates Hormone</h3>
-<p>MODULATES_HORMONE::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a> (significant reduction via HPA axis downregulation, Evidence Level 1b)<br />
+<p>MODULATES_HORMONE::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a> (significant reduction via HPA axis downregulation, Evidence Level 1b)<br />
 MODULATES_HORMONE::<a href="/garden/demo_user/hormone/melatonin/" class="internal-link">Melatonin</a> (evening yoga may improve melatonin secretion, Evidence Level 3a)</p>
 <h3>Modulates Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a> (anti-inflammatory effect with regular practice, Evidence Level 2a)<br />
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (anti-inflammatory effect with regular practice, Evidence Level 2a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a> (increased neuroplasticity marker, Evidence Level 2b)</p>
 <h3>Affects Brain Region</h3>
 <p>AFFECTS_BRAIN_REGION::<a class="internal-link is-unresolved" href="/404">Prefrontal Cortex</a> (enhanced executive control and emotion regulation, Evidence Level 2b)</p>
@@ -84,5 +86,9 @@ AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-l
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/anxiety/" class="internal-link">Anxiety</a> (moderate-large anxiolytic effect, Evidence Level 1a)<br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a> (small-moderate antidepressant effect, Evidence Level 1a)<br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/hypertension/" class="internal-link">Hypertension</a> (4-5 mmHg systolic reduction, Evidence Level 1a)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

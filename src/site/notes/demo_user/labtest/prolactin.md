@@ -93,7 +93,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.724124Z'
+created: 2026-01-18T16:02:30+0000
 description: Prolactin is a hormone made by the pituitary gland in the brain. In females,
   it supports breast development, plays a central role in milk production after childbirth,
   and also influences the menstrual cycle. Measuring prolactin can help explain irregular
@@ -105,6 +105,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-prolactin
 permalink: /garden/demo_user/labtest/prolactin/
+provenance: curated
 slug: prolactin
 source: Manual
 tags:
@@ -114,7 +115,7 @@ tags:
 templateEngineOverride: njk
 title: prolactin
 type: labtest
-updated: '2026-06-13T17:47:12.724124Z'
+updated: '2026-08-20T04:08:30.862378Z'
 ---
 
 {% raw %}
@@ -140,6 +141,10 @@ updated: '2026-06-13T17:47:12.724124Z'
 <td>Sex Hormones</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -150,6 +155,18 @@ updated: '2026-06-13T17:47:12.724124Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>3-7 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -166,7 +183,7 @@ updated: '2026-06-13T17:47:12.724124Z'
 RELATED::<a href="/garden/demo_user/condition/hormonal-imbalance/" class="internal-link">Hormonal Imbalance</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Pituitary Dysfunction Or Adenoma</a><br />
 RELATED::<a href="/garden/demo_user/labtestpanel/extended-hormone-health/" class="internal-link">extended hormone health</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Hypothyroidism</a><br />
+RELATED::<a href="/garden/demo_user/condition/hypothyroidism/" class="internal-link">Hypothyroidism</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Adrenal Dysfunction</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/hormonal-imbalance/" class="internal-link">Hormonal Imbalance</a></p>

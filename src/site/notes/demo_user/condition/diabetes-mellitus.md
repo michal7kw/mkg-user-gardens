@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:11.327864Z'
+created: 2026-01-18T16:48:42+0000
 description: A group of metabolic disorders characterized by high blood sugar levels
   over a prolonged period, resulting from defects in insulin secretion, insulin action,
   or both.
@@ -9,6 +9,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: diabetes_mellitus
 permalink: /garden/demo_user/condition/diabetes-mellitus/
+provenance: curated
 slug: diabetes-mellitus
 source: Manual
 tags:
@@ -19,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Diabetes Mellitus
 type: condition
-updated: '2026-06-13T17:47:11.327864Z'
+updated: '2026-08-20T04:08:29.479402Z'
 ---
 
 {% raw %}

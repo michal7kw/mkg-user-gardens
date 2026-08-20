@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:12.010794Z'
+created: '2026-08-20T04:08:30.327575Z'
 description: Anti-inflammatory adipokine hormone secreted by adipose tissue. Uniquely,
   levels are inversely correlated with body fat — higher in lean individuals. Enhances
   insulin sensitivity, promotes fatty acid oxidation, and has potent anti-inflammatory
@@ -10,8 +10,9 @@ dg-home: false
 dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
-id: adiponectin
+id: adiponectin_hormone
 permalink: /garden/demo_user/hormone/adiponectin/
+provenance: curated
 pubchem_id: '17787534'
 slug: adiponectin
 source: Manual
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Adiponectin
 type: hormone
-updated: '2026-06-13T17:47:12.010794Z'
+updated: '2026-08-20T04:08:30.327575Z'
 ---
 
 {% raw %}
@@ -59,7 +60,7 @@ MODULATED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/intermittent-
 MODULATED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/mediterranean-diet/" class="internal-link">Mediterranean Diet</a><br />
 MODULATED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/cold-exposure/" class="internal-link">Cold Exposure</a></p>
 <h3>Modulated By Supplement</h3>
-<p>MODULATED_BY_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Omega-3 Fish Oil</a><br />
+<p>MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fish Oil</a><br />
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/berberine/" class="internal-link">Berberine</a></p>
 <h2>References</h2>
 <ul>

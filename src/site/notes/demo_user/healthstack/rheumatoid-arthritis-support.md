@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.999032Z'
+created: 2026-04-01T10:00:00+0000
 description: Evidence-based supplement stack designed to support RA management alongside
   conventional treatment. Focuses on reducing inflammatory cytokines (TNF-alpha, IL-6),
   modulating NF-kB signaling, and supporting joint integrity. NOT a replacement for
@@ -11,6 +11,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: rheumatoid_arthritis_support_stack
 permalink: /garden/demo_user/healthstack/rheumatoid-arthritis-support/
+provenance: curated
 slug: rheumatoid-arthritis-support
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Rheumatoid Arthritis Support
 type: healthstack
-updated: '2026-06-13T17:47:11.999032Z'
+updated: '2026-08-20T04:08:30.320022Z'
 ---
 
 {% raw %}
@@ -94,7 +95,7 @@ updated: '2026-06-13T17:47:11.999032Z'
 </thead>
 <tbody>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">hs-CRP</a></td>
+<td><a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></td>
 <td>0-1.0</td>
 <td>0-0.5</td>
 <td>mg/L</td>
@@ -143,7 +144,7 @@ INCLUDES_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="int
 INCLUDES_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a><br />
 INCLUDES_SUPPLEMENT::<a href="/garden/demo_user/supplement/probiotics/" class="internal-link">Probiotics</a><br />
 INCLUDES_SUPPLEMENT::<a href="/garden/demo_user/supplement/boswellia-serrata/" class="internal-link">Boswellia Serrata</a><br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a><br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a><br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/esr/" class="internal-link">esr</a></p>
 <hr />
 <p><strong>Difficulty:</strong> Intermediate | <strong>Evidence Level:</strong> ⭐⭐⭐ (3/5)</p>

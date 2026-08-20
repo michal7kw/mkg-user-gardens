@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.072883Z'
+created: '2026-04-05T16:16:19.387333+00:00'
 description: Diet providing 25-35% of calories from protein (1.6-2.4 g/kg/day), emphasizing
   lean meats, fish, eggs, dairy, and legumes. Supports muscle protein synthesis, satiety,
   and body composition improvement.
@@ -9,6 +9,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: intervention_high_protein
 permalink: /garden/demo_user/intervention/high-protein-diet/
+provenance: curated
 slug: high-protein-diet
 source: dev_seeder
 tags:
@@ -17,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: High-Protein Diet
 type: intervention
-updated: '2026-06-13T17:47:12.072883Z'
+updated: '2026-08-20T04:08:30.384574Z'
 ---
 
 {% raw %}

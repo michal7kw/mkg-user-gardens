@@ -1,12 +1,16 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.984808Z'
-description: '...'
+created: 2026-01-03T17:55:35+0000
+description: Abdominal pain is arguably one of the most frequently presented clinical
+  symptoms in emergency medicine.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: abdominal_pain
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/phenotype/abdominal-pain/
+provenance: curated
 slug: abdominal-pain
 source: Manual
 tags:
@@ -16,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Abdominal pain
 type: phenotype
-updated: '2026-06-13T17:47:13.984808Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -32,46 +36,13 @@ updated: '2026-06-13T17:47:13.984808Z'
 <p>This phenotype inherently triggers extreme diagnostic triage to immediately rule out immediate surgical catastrophes, often dubbed &quot;acute abdomens.&quot; Severe, sudden-onset &quot;tearing&quot; pain radiating directly to the back signals an Abdominal Aortic Aneurysm (AAA) rupture, while rigid, board-like abdominal muscles natively indicate catastrophic hollow organ perforation spilling stomach acid/feces into the cavity (peritonitis).</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Abdominal cramps</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Abdominal guarding</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Burkitt lymphoma</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">renal nutcracker syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">thrombocytopenic purpura</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">pseudomyxoma peritonei</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">celiac artery stenosis from compression by median arcuate ligament of diaphragm</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">acute promyelocytic leukemia</a><br />
-RELATED::<a href="/garden/demo_user/condition/autoimmune-hepatitis/" class="internal-link">Autoimmune Hepatitis</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">scrub typhus</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">peripartum cardiomyopathy</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">NK-cell enteropathy</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">vitamin B12-unresponsive methylmalonic acidemia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Plummer-Vinson syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">typhoid fever</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Acute abdomen</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">urinary bladder small cell neuroendocrine carcinoma</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">autoimmune hemolytic anemia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Abdominal rigidity</a><br />
-RELATED::<a href="/garden/demo_user/condition/pain/" class="internal-link">Pain</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">polycystic liver disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">eosinophilic gastroenteritis</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Hennekam-Beemer syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Abdominal colic</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">autosomal dominant hypocalcemia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Episodic abdominal pain</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Erdheim-Chester disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">boutonneuse fever</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Muckle-Wells syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">rhabdoid tumor</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Abdominal symptom</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">pediatric systemic lupus erythematosus</a></p>
+<p>RELATED::<a href="/garden/demo_user/condition/autoimmune-hepatitis/" class="internal-link">Autoimmune Hepatitis</a><br />
+RELATED::<a href="/garden/demo_user/phenotype/pain/" class="internal-link">Pain</a></p>
 <h3>Related To Phenotype</h3>
-<p>RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Episodic abdominal pain</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Abdominal guarding</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Abdominal cramps</a><br />
-RELATED_TO_PHENOTYPE::<a href="/garden/demo_user/condition/pain/" class="internal-link">Pain</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Abdominal rigidity</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Abdominal symptom</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Acute abdomen</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Abdominal colic</a></p>
+<p>RELATED_TO_PHENOTYPE::<a href="/garden/demo_user/phenotype/pain/" class="internal-link">Pain</a></p>
+<h2>References</h2>
+<ul>
+<li>Kohler S, et al. Nucleic Acids Res. 2021;49(D1):D1207-D1217. The Human Phenotype Ontology (HPO) (PMID: 33264411)</li>
+</ul>
 
 {% endraw %}

@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.400680Z'
+confidence_score: 0.95
+created: 2026-01-18T16:02:34+0000
 description: A chronic, progressive syndrome in which the heart muscle is unable to
   pump enough blood to meet the body's needs for blood and oxygen.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: heart_failure
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/heart-failure/
+provenance: curated
 slug: heart-failure
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Heart Failure
 type: condition
-updated: '2026-06-13T17:47:11.400680Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -44,8 +47,7 @@ updated: '2026-06-13T17:47:11.400680Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/labtest/hyaline-casts-urine/" class="internal-link">hyaline casts urine</a><br />
-RELATED::<a href="/garden/demo_user/labtest/albumin/" class="internal-link">albumin</a></p>
+<p>RELATED::<a href="/garden/demo_user/labtest/albumin/" class="internal-link">albumin</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/bnp/" class="internal-link">bnp</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/troponin/" class="internal-link">Troponin</a><br />
@@ -58,5 +60,12 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acid
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/taurine/" class="internal-link">Taurine</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/l-carnitine/" class="internal-link">L-Carnitine</a></p>
+<h2>References</h2>
+<ul>
+<li>McDonagh TA, Metra M, Adamo M, et al. Eur Heart J. 2021;42(36):3599-3726. ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (PMID: 34447992)</li>
+<li>Heidenreich PA, Bozkurt B, Aguilar D, et al. J Am Coll Cardiol. 2022;79(17):e263-e421. AHA/ACC/HFSA Guideline for the Management of Heart Failure (PMID: 35379503)</li>
+<li>Packer M, Anker SD, Butler J, et al. N Engl J Med. 2021;384(2):105-117. DAPA-HF: Dapagliflozin in heart failure with reduced ejection fraction (PMID: 31535839)</li>
+<li>Pfeffer MA, McMurray JJ, Velazquez EJ, et al. N Engl J Med. 2003;349(20):1893-1906. VALIANT: Valsartan after MI (PMID: 14610160)</li>
+</ul>
 
 {% endraw %}

@@ -1,13 +1,16 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.741442Z'
+created: '2026-04-05T16:16:21.004880+00:00'
 description: Water-soluble antioxidant essential for collagen synthesis, immune function,
   and iron absorption. Potent free radical scavenger and enzyme cofactor.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_vitamin_c
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/vitamin-c/
+provenance: curated
 slug: vitamin-c
 source: dev_seeder
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Vitamin C
 type: nutrient
-updated: '2026-06-13T17:47:13.741442Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -52,11 +55,11 @@ updated: '2026-06-13T17:47:13.741442Z'
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/skin/" class="internal-link">Skin</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/adrenal-glands/" class="internal-link">Adrenal Glands</a></li>
-<li>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Blood Vessels</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">CRP (C-Reactive Protein)</a></li>
+<li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/blood-vessels/" class="internal-link">Blood Vessels</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">CRP (C-Reactive Protein)</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/ferritin/" class="internal-link">ferritin</a></li>
 <li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Scurvy</a></li>
-<li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/iron-deficiency/" class="internal-link">Iron Deficiency</a></li>
+<li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/clinicalpattern/iron-deficiency/" class="internal-link">Iron Deficiency</a></li>
 <li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Common Cold</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a></li>
@@ -66,6 +69,10 @@ updated: '2026-06-13T17:47:13.741442Z'
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/nutrient/folate-b9/" class="internal-link">Folate (B9)</a></li>
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-b12/" class="internal-link">Vitamin B12</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/polyphenols/" class="internal-link">Polyphenols</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

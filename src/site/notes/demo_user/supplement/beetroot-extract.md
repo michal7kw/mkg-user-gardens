@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:14.278468Z'
+created: '2026-04-01T19:57:37.413621+00:00'
 description: Rich source of dietary nitrate that converts to nitric oxide (NO) in
   the body, improving oxygen efficiency, reducing oxygen cost of exercise, enhancing
   blood flow, and improving endurance performance.
@@ -10,6 +10,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: beetroot_extract
 permalink: /garden/demo_user/supplement/beetroot-extract/
+provenance: curated
 slug: beetroot-extract
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Beetroot Extract
 type: supplement
-updated: '2026-06-13T17:47:14.278468Z'
+updated: '2026-08-20T04:08:31.867247Z'
 ---
 
 {% raw %}
@@ -68,7 +69,7 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disea
 <h3>Supports</h3>
 <p>SUPPORTS::<a href="/garden/demo_user/cellularcomponent/mitochondria/" class="internal-link">Mitochondria</a></p>
 <h3>Affects Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Blood_Pressure</a></p>
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/examination/blood-pressure/" class="internal-link">Blood_Pressure</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a> (Nitric oxide-mediated vasodilation reduces blood pressure and improves cardiovascular function, Evidence Level 4a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/blood/" class="internal-link">Blood</a> (Increases circulating nitrite levels enhancing oxygen delivery and reducing oxygen cost of exercise, Evidence Level 4a)</p>

@@ -1,5 +1,6 @@
 ---
-created: '2026-06-13T17:47:11.922496Z'
+confidence_score: 0.75
+created: '2026-08-20T04:08:30.250696Z'
 description: Chronic or acute exposure to toxic heavy metals (lead, mercury, cadmium,
   arsenic) from environmental, occupational, or dietary sources, causing oxidative
   stress, enzyme inhibition, and organ damage primarily affecting kidneys, brain,
@@ -9,7 +10,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: heavy_metal_exposure
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/exposure/heavy-metal-exposure/
+provenance: curated
 slug: heavy-metal-exposure
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Heavy Metal Exposure
 type: exposure
-updated: '2026-06-13T17:47:11.922496Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -88,8 +91,12 @@ DETOXIFIED_BY::<a href="/garden/demo_user/supplement/nac/" class="internal-link"
 DETOXIFIED_BY::<a href="/garden/demo_user/supplement/selenium/" class="internal-link">Selenium</a><br />
 CAUSES::<a href="/garden/demo_user/condition/chronic-kidney-disease/" class="internal-link">Chronic Kidney Disease</a><br />
 CAUSES::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">Anemia</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/condition/anemia/" class="internal-link">Anemia</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/condition/peripheral-neuropathy/" class="internal-link">Peripheral Neuropathy</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/condition/carcinoma/" class="internal-link">Carcinoma</a></p>
+<h2>References</h2>
+<ul>
+<li>CDC. https://www.cdc.gov/niosh Environmental hazard references</li>
+</ul>
 
 {% endraw %}

@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.342606Z'
+confidence_score: 0.8
+created: 2026-03-28T12:00:00+0000
 description: Abnormal accumulation of fluid in the interstitial tissues causing swelling,
   resulting from imbalances in capillary hydrostatic pressure, oncotic pressure, lymphatic
   drainage, or capillary permeability.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: edema
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/edema/
+provenance: curated
 slug: edema
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Edema
 type: condition
-updated: '2026-06-13T17:47:11.342606Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -53,16 +56,7 @@ AFFECTS_ORGAN::<a href="/garden/demo_user/organ/kidneys/" class="internal-link">
 <h2>Relationships</h2>
 <h3>Consolidated (merged from Phenotype)</h3>
 <p>IMPROVED_BY_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Horse Chestnut Extract</a><br />
-IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-b6/" class="internal-link">Vitamin B6</a><br />
-RELATED::<a href="/garden/demo_user/condition/heart-failure/" class="internal-link">Heart Failure</a><br />
-RELATED::<a href="/garden/demo_user/condition/chronic-kidney-disease/" class="internal-link">Chronic Kidney Disease</a><br />
-RELATED::<a href="/garden/demo_user/condition/nephrotic-syndrome/" class="internal-link">Nephrotic Syndrome</a><br />
-RELATED::<a href="/garden/demo_user/condition/venous-thromboembolism/" class="internal-link">Venous Thromboembolism</a></p>
-<h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/condition/heart-failure/" class="internal-link">Heart Failure</a><br />
-RELATED::<a href="/garden/demo_user/condition/chronic-kidney-disease/" class="internal-link">Chronic Kidney Disease</a><br />
-RELATED::<a href="/garden/demo_user/condition/nephrotic-syndrome/" class="internal-link">Nephrotic Syndrome</a><br />
-RELATED::<a href="/garden/demo_user/condition/venous-thromboembolism/" class="internal-link">Venous Thromboembolism</a></p>
+IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-b6/" class="internal-link">Vitamin B6</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/albumin/" class="internal-link">albumin</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/bnp/" class="internal-link">bnp</a><br />
@@ -74,32 +68,7 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/nutrient/potassium/" class="i
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-b6/" class="internal-link">Vitamin B6</a><br />
 IMPROVED_BY_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Horse Chestnut Extract</a></p>
 <h3>Merged From phenotype</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Abnormality of fluid regulation</a><br />
-RELATED::<a href="/garden/demo_user/labtest/albumin/" class="internal-link">albumin</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Cerebral edema</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Corneal stromal edema</a><br />
-RELATED::<a href="/garden/demo_user/labtest/creatinine/" class="internal-link">creatinine</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Edema of the dorsum of hands</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Edema of the upper limbs</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Facial edema</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Generalized edema</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Genital edema</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Hyperkeratosis over edematous areas</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Hypoproteinemic edema</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Increased nuchal translucency</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Intestinal edema</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Joint swelling</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Laryngeal edema</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Macular edema</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Muscular edema</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Peau dorange</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Pedal edema</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Peripheral edema</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Pharyngeal edema</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Pleural effusion</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Pulmonary edema</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Tongue edema</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Abnormality of fluid regulation</a><br />
+<p>RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Abnormality of fluid regulation</a><br />
 RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Cerebral edema</a><br />
 RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Corneal stromal edema</a><br />
 RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Edema of the dorsum of hands</a><br />
@@ -122,5 +91,11 @@ RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Pharyng
 RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Pleural effusion</a><br />
 RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Pulmonary edema</a><br />
 RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Tongue edema</a></p>
+<h2>References</h2>
+<ul>
+<li>Ely JW, Osheroff JA, Chambliss ML, Ebell MH. J Gen Intern Med. 2006;21(7):684-688. Approach to leg edema of unclear etiology (review) (PMID: 16808734)</li>
+<li>Mortimer PS, Rockson SG. J Clin Invest. 2014;124(3):937-941. New developments in clinical aspects of lymphatic disease (review) (PMID: 24590274)</li>
+<li>Tielleman TL, de Boer EM, Karels-Brambila OE, et al. N Engl J Med. 2023. Edema (review)</li>
+</ul>
 
 {% endraw %}

@@ -2,7 +2,7 @@
 aliases:
 - thyroid panel basic
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.844089Z'
+created: 2025-12-10T09:07:56+0000
 description: TSH and Free T4. Standard initial thyroid assessment.
 dg-home: false
 dg-publish: true
@@ -10,6 +10,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: test-thyroid-basic-001
 permalink: /garden/demo_user/labtest/thyroid-panel-basic/
+provenance: curated
 slug: thyroid-panel-basic
 source: Manual
 tags:
@@ -17,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: thyroid_panel_basic
 type: labtest
-updated: '2026-06-13T17:47:12.844089Z'
+updated: '2026-08-20T04:08:30.930075Z'
 ---
 
 {% raw %}
@@ -43,6 +44,10 @@ updated: '2026-06-13T17:47:12.844089Z'
 <td>Thyroid</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -53,6 +58,18 @@ updated: '2026-06-13T17:47:12.844089Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>1-3 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$35-$75</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -70,9 +87,9 @@ updated: '2026-06-13T17:47:12.844089Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
-<h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/labtest/tsh/" class="internal-link">tsh</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/free-t4/" class="internal-link">Free T4</a></p>
+<h3>Includes Test</h3>
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/tsh/" class="internal-link">tsh</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/thyroxine-t4-free/" class="internal-link">thyroxine_t4_free</a></p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

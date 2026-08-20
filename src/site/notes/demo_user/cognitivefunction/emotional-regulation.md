@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.164915Z'
+created: '2026-03-11T11:39:48.386058+00:00'
 description: Ability to monitor, evaluate, and modify emotional reactions to achieve
   goals and maintain well-being. Involves both automatic (implicit) and deliberate
   (explicit) strategies. The prefrontal cortex exerts top-down control over amygdala
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: emotional_regulation
 permalink: /garden/demo_user/cognitivefunction/emotional-regulation/
+provenance: curated
 slug: emotional-regulation
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Emotional Regulation
 type: cognitivefunction
-updated: '2026-06-13T17:47:11.164915Z'
+updated: '2026-08-20T04:08:29.233994Z'
 ---
 
 {% raw %}
@@ -57,12 +58,12 @@ updated: '2026-06-13T17:47:11.164915Z'
 <h3>Supported By Region</h3>
 <p>SUPPORTED_BY_REGION::<a class="internal-link is-unresolved" href="/404">Amygdala</a><br />
 SUPPORTED_BY_REGION::<a class="internal-link is-unresolved" href="/404">Prefrontal Cortex</a><br />
-SUPPORTED_BY_REGION::<a href="/garden/demo_user/anatomy/cingulate-cortex/" class="internal-link">Cingulate Cortex</a><br />
+SUPPORTED_BY_REGION::<a href="/garden/demo_user/organ/cingulate-cortex/" class="internal-link">Cingulate Cortex</a><br />
 SUPPORTED_BY_REGION::<a class="internal-link is-unresolved" href="/404">Insula</a><br />
 SUPPORTED_BY_REGION::<a class="internal-link is-unresolved" href="/404">Hippocampus</a></p>
 <h3>Modulated By Neurotransmitter</h3>
 <p>MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
-MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a><br />
+MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a><br />
 MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/norepinephrine/" class="internal-link">Norepinephrine</a><br />
 MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a><br />
 MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/hormone/oxytocin/" class="internal-link">Oxytocin</a></p>

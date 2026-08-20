@@ -1,12 +1,18 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:14.023085Z'
-description: '...'
+created: 2026-01-03T17:55:35+0000
+description: Hypotonia is an objective medical phenotype characterized by massively
+  reduced resting muscle tone. While frequently conflated with sheer muscle weakness,
+  tone specifically measures the passive resistance of a muscle to being passively
+  stretched (e.g., when a doctor bends a patient's arm).
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: hypotonia
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/phenotype/hypotonia/
+provenance: curated
 slug: hypotonia
 source: Manual
 tags:
@@ -16,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Hypotonia
 type: phenotype
-updated: '2026-06-13T17:47:14.023085Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -31,26 +37,12 @@ updated: '2026-06-13T17:47:14.023085Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Frog-leg posture</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Facial hypotonia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Oral motor hypotonia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Muscular hypotonia of the trunk</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Abnormal muscle tone</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Infantile muscular hypotonia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Appendicular hypotonia</a><br />
-RELATED::<a href="/garden/demo_user/phenotype/generalized-hypotonia/" class="internal-link">Generalized hypotonia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Severe muscular hypotonia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Neonatal hypotonia</a></p>
+<p>RELATED::<a href="/garden/demo_user/phenotype/generalized-hypotonia/" class="internal-link">Generalized hypotonia</a></p>
 <h3>Related To Phenotype</h3>
-<p>RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Severe muscular hypotonia</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Frog-leg posture</a><br />
-RELATED_TO_PHENOTYPE::<a href="/garden/demo_user/phenotype/generalized-hypotonia/" class="internal-link">Generalized hypotonia</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Muscular hypotonia of the trunk</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Neonatal hypotonia</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Infantile muscular hypotonia</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Abnormal muscle tone</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Oral motor hypotonia</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Facial hypotonia</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Appendicular hypotonia</a></p>
+<p>RELATED_TO_PHENOTYPE::<a href="/garden/demo_user/phenotype/generalized-hypotonia/" class="internal-link">Generalized hypotonia</a></p>
+<h2>References</h2>
+<ul>
+<li>Kohler S, et al. Nucleic Acids Res. 2021;49(D1):D1207-D1217. The Human Phenotype Ontology (HPO) (PMID: 33264411)</li>
+</ul>
 
 {% endraw %}

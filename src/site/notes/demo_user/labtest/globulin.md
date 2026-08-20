@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.369300Z'
+created: 2026-01-18T16:02:30+0000
 description: Tested twice a year Globulin is a protein essential for liver function,
   blood clotting, and immune system operations. Abnormal globulin levels may indicate
   changes affecting the liver, immune system, or overall health.
@@ -10,6 +10,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-globulin
 permalink: /garden/demo_user/labtest/globulin/
+provenance: curated
 slug: globulin
 source: Manual
 tags:
@@ -19,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: globulin
 type: labtest
-updated: '2026-06-13T17:47:12.369300Z'
+updated: '2026-08-20T04:08:30.665097Z'
 ---
 
 {% raw %}
@@ -45,6 +46,10 @@ updated: '2026-06-13T17:47:12.369300Z'
 <td>Liver Function</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -55,6 +60,18 @@ updated: '2026-06-13T17:47:12.369300Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>3-7 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -67,11 +84,11 @@ updated: '2026-06-13T17:47:12.369300Z'
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Kidney Disease</a><br />
+<p>RELATED::<a href="/garden/demo_user/condition/kidney-disease/" class="internal-link">Kidney Disease</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Malnutrition Or Poor Absorption</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Monoclonal Gammopathies EG Multiple Myeloma Mgus</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Chronic Inflammation EG Autoimmune Disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Liver Dysfunction</a></p>
+RELATED::<a href="/garden/demo_user/condition/liver-dysfunction/" class="internal-link">Liver Dysfunction</a></p>
 <h3>Enriched</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a><br />
 INDICATES::<a href="/garden/demo_user/condition/autoimmune-disease/" class="internal-link">Autoimmune Disease</a><br />

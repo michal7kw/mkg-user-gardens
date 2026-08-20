@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.215529Z'
+created: '2026-08-20T04:08:29.319500Z'
 description: A group of mental health disorders characterized by excessive fear, worry,
   and physiological arousal. Includes generalized anxiety disorder (GAD), social anxiety,
   panic disorder, and specific phobias. The most common mental health condition worldwide
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: anxiety
 permalink: /garden/demo_user/condition/anxiety/
+provenance: curated
 slug: anxiety
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Anxiety
 type: condition
-updated: '2026-06-13T17:47:11.215529Z'
+updated: '2026-08-20T04:08:29.319500Z'
 ---
 
 {% raw %}
@@ -84,9 +85,9 @@ RELATED::<a href="/garden/demo_user/condition/panic-disorder/" class="internal-l
 RELATED::<a href="/garden/demo_user/condition/social-anxiety-disorder/" class="internal-link">Social Anxiety Disorder</a><br />
 RELATED::<a href="/garden/demo_user/condition/ocd/" class="internal-link">OCD</a></p>
 <h3>Risk Biomarkers</h3>
-<p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">hs-CRP</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a><br />
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/protein/sert/" class="internal-link">SERT</a><br />
@@ -96,7 +97,7 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/protein/5-ht1a-receptor/" class="int
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/l-theanine/" class="internal-link">L-Theanine</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
-IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a></p>
+IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a></p>
 <h3>Treated By Drug</h3>
 <p>TREATED_BY_DRUG::<a href="/garden/demo_user/drug/sertraline/" class="internal-link">Sertraline</a><br />
 TREATED_BY_DRUG::<a href="/garden/demo_user/drug/fluoxetine/" class="internal-link">Fluoxetine</a><br />
@@ -126,7 +127,7 @@ RELATED::<a href="/garden/demo_user/supplement/ashwagandha/" class="internal-lin
 RELATED::<a href="/garden/demo_user/condition/autoimmune-hepatitis/" class="internal-link">Autoimmune Hepatitis</a><br />
 RELATED::<a href="/garden/demo_user/supplement/bacopa-monnieri/" class="internal-link">Bacopa Monnieri</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">CLCN4-related X-linked intellectual disability syndrome</a><br />
-RELATED::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+RELATED::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">DYRK1A-related intellectual disability syndrome due to 21q2213q222 microdeletion</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">DYRK1A-related intellectual disability syndrome</a><br />
 RELATED::<a href="/garden/demo_user/drug/doxepin/" class="internal-link">Doxepin</a><br />

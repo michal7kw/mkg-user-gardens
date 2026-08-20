@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:13.794733Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:39+0000
 description: Bean-shaped organs responsible for filtering blood, removing waste, regulating
   fluid balance, electrolyte levels, and blood pressure. Essential for homeostasis.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: kidneys
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/organ/kidneys/
+provenance: curated
 slug: kidneys
 source: Manual
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Kidneys
 type: organ
-updated: '2026-06-13T17:47:13.794733Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -52,5 +55,9 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/acute-kidney-inj
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/kidney-stones/" class="internal-link">Kidney Stones</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/glomerulonephritis/" class="internal-link">Glomerulonephritis</a><br />
 ASSOCIATED_WITH_CONDITION::<a class="internal-link is-unresolved" href="/404">Diabetic Nephropathy</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (textbook reference)</li>
+</ul>
 
 {% endraw %}

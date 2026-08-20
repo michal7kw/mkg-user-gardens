@@ -1,6 +1,9 @@
 ---
+aliases:
+- Food Allergies Ige
+- food allergies ige
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.109598Z'
+created: 2026-01-18T16:48:42+0000
 description: Food-specific IgE testing identifies immunoglobulin E (IgE) responses
   associated with true food allergies, meaning allergies that cause immediate and
   potentially severe reactions, such as hives, swelling, difficulty breathing, or
@@ -16,6 +19,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-food-allergies-ige
 permalink: /garden/demo_user/labtestpanel/food-allergies-ige/
+provenance: curated
 slug: food-allergies-ige
 source: Manual
 tags:
@@ -23,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: food_allergies_ige
 type: labtestpanel
-updated: '2026-06-13T17:47:13.109598Z'
+updated: '2026-08-20T04:08:31.057219Z'
 ---
 
 {% raw %}
@@ -52,8 +56,10 @@ updated: '2026-06-13T17:47:13.109598Z'
 <li>Pre-food challenge testing for reintroduction protocols</li>
 </ul>
 <h2>Relationships</h2>
-<p>USED_FOR::<a href="/garden/demo_user/condition/allergy/" class="internal-link">Allergy</a><br />
-USED_FOR::<a class="internal-link is-unresolved" href="/404">Anaphylaxis</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/total-ige/" class="internal-link">total_ige</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/food-allergen-panel-ige/" class="internal-link">food_allergen_panel_ige</a><br />
+USED_FOR::<a href="/garden/demo_user/condition/allergy/" class="internal-link">Allergy</a><br />
+USED_FOR::<a href="/garden/demo_user/condition/anaphylaxis/" class="internal-link">Anaphylaxis</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/gut/" class="internal-link">Gut</a></p>
 

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.141966Z'
+created: 2026-02-07T00:00:00+0000
 description: Adiponectin test measures this anti-inflammatory adipokine hormone produced
   by adipose tissue. Higher levels indicate better insulin sensitivity and lower cardiovascular
   risk. Inversely correlated with obesity, metabolic syndrome, and type 2 diabetes.
@@ -10,6 +10,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-adiponectin
 permalink: /garden/demo_user/labtest/adiponectin/
+provenance: curated
 slug: adiponectin
 source: Manual
 tags:
@@ -17,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: adiponectin
 type: labtest
-updated: '2026-06-13T17:47:12.141966Z'
+updated: '2026-08-20T04:08:30.449922Z'
 ---
 
 {% raw %}
@@ -43,6 +44,10 @@ updated: '2026-06-13T17:47:12.141966Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -53,6 +58,14 @@ updated: '2026-06-13T17:47:12.141966Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -80,6 +93,8 @@ updated: '2026-06-13T17:47:12.141966Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/labtest/adiponectin/" class="internal-link">Adiponectin</a></p>
 <h3>Related Tests</h3>
 <p>RELATED_TESTS::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a><br />
 RELATED_TESTS::<a href="/garden/demo_user/labtest/fasting-insulin/" class="internal-link">fasting insulin</a><br />

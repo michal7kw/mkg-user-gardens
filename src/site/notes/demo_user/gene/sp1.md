@@ -1,12 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.951595Z'
-description: '...'
+confidence_score: 0.8
+created: 2025-12-26T00:00:00+0000
+description: SP1 (Specificity Protein 1) is a ubiquitously expressed zinc finger transcription
+  factor that was among the first mammalian transcription factors to be identified
+  and cloned.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: sp1
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/gene/sp1/
+provenance: curated
 slug: sp1
 source: Manual
 tags:
@@ -16,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: SP1
 type: gene
-updated: '2026-06-13T17:47:11.951595Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -46,15 +51,20 @@ updated: '2026-06-13T17:47:11.951595Z'
 <p>RELATED::<a href="/garden/demo_user/cellularcomponent/nucleus/" class="internal-link">Nucleus</a></p>
 <h3>Interacts With</h3>
 <p>INTERACTS_WITH::<a href="/garden/demo_user/gene/taf1/" class="internal-link">TAF1</a><br />
-INTERACTS_WITH::<a href="/garden/demo_user/gene/gata2/" class="internal-link">GATA2</a><br />
-INTERACTS_WITH::<a href="/garden/demo_user/gene/fos/" class="internal-link">FOS</a><br />
-INTERACTS_WITH::<a class="internal-link is-unresolved" href="/404">p53</a></p>
+INTERACTS_WITH::<a href="/garden/demo_user/protein/gata2/" class="internal-link">GATA2</a><br />
+INTERACTS_WITH::<a href="/garden/demo_user/protein/fos/" class="internal-link">FOS</a><br />
+INTERACTS_WITH::<a href="/garden/demo_user/protein/tp53/" class="internal-link">p53</a></p>
 <h3>Participates In Pathway</h3>
 <p>PARTICIPATES_IN_PATHWAY::<a href="/garden/demo_user/pathway/nf-kb-pathway/" class="internal-link">NF-kB Pathway</a><br />
-PARTICIPATES_IN_PATHWAY::<a class="internal-link is-unresolved" href="/404">Cell Cycle Pathway</a></p>
+PARTICIPATES_IN_PATHWAY::<a href="/garden/demo_user/pathway/cell-cycle/" class="internal-link">Cell Cycle Pathway</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cancer/" class="internal-link">Cancer</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/insulin-resistance/" class="internal-link">Insulin Resistance</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimer's Disease</a></p>
+<h2>References</h2>
+<ul>
+<li>Stelzer G, et al. Nucleic Acids Res. 2016;44(D1):D978-D985. The GeneCards Suite (PMID: 26400158)</li>
+<li>Safran M, et al. Nucleic Acids Res. 2010;38(Suppl 1):D740-D744. GeneCards (PMID: 19906715)</li>
+</ul>
 
 {% endraw %}

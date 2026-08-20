@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.92
-created: '2026-06-13T17:47:13.970008Z'
+created: 2026-05-27T12:00:00+0000
 description: Synaptic plasticity is the activity-dependent strengthening (long-term
   potentiation, LTP) or weakening (long-term depression, LTD) of synaptic connections.
   Mediated by NMDA/AMPA glutamate receptors, calcium signaling, and BDNF/TrkB, it
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: synaptic_plasticity
 permalink: /garden/demo_user/pathway/synaptic-plasticity/
+provenance: curated
 slug: synaptic-plasticity
 source: PubMed
 tags:
@@ -24,14 +25,14 @@ tags:
 templateEngineOverride: njk
 title: Synaptic Plasticity
 type: pathway
-updated: '2026-06-13T17:47:13.970008Z'
+updated: '2026-08-20T04:08:31.566037Z'
 ---
 
 {% raw %}
 <h1>Synaptic Plasticity</h1>
 <h2>Overview</h2>
 <p>Synaptic plasticity is the capacity of synapses to change their strength in response to activity, and it is the leading cellular model for how the brain learns and stores memory. Its two canonical forms are <strong>long-term potentiation (LTP)</strong>, a persistent strengthening of synaptic transmission following high-frequency activity, and <strong>long-term depression (LTD)</strong>, a corresponding weakening. Both depend on the precise coincidence detection performed by the NMDA subtype of <a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a> receptor, whose calcium influx triggers downstream kinase cascades (notably CaMKII) that traffic AMPA receptors into or out of the postsynaptic membrane.</p>
-<p>Beyond glutamatergic mechanics, plasticity is gated by neurotrophic support — <a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a> acting through TrkB (see <a href="/garden/demo_user/pathway/bdnf-trkb-signaling-pathway/" class="internal-link">BDNF-TrkB Signaling Pathway</a>) — and is tuned by inhibitory <a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a> tone. Plasticity occurs at the <a href="/garden/demo_user/cellularcomponent/synapse/" class="internal-link">Synapse</a> and is the substrate that links molecular neurochemistry to <a href="/garden/demo_user/cognitivefunction/memory-and-learning/" class="internal-link">Memory and Learning</a>.</p>
+<p>Beyond glutamatergic mechanics, plasticity is gated by neurotrophic support — <a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a> acting through TrkB (see <a href="/garden/demo_user/pathway/bdnf-trkb-signaling-pathway/" class="internal-link">BDNF-TrkB Signaling Pathway</a>) — and is tuned by inhibitory <a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a> tone. Plasticity occurs at the <a href="/garden/demo_user/cellularcomponent/synapse/" class="internal-link">Synapse</a> and is the substrate that links molecular neurochemistry to <a href="/garden/demo_user/cognitivefunction/memory-and-learning/" class="internal-link">Memory and Learning</a>.</p>
 <h2>Key Steps (LTP)</h2>
 <ol>
 <li>Glutamate release activates postsynaptic AMPA receptors, depolarizing the membrane.</li>
@@ -46,7 +47,7 @@ updated: '2026-06-13T17:47:13.970008Z'
 <h2>Relationships</h2>
 <h3>Mediated By Neurotransmitter</h3>
 <p>MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a><br />
-MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a></p>
+MODULATED_BY_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a></p>
 <h3>Driven By</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a><br />
 MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/bdnf-trkb-signaling-pathway/" class="internal-link">BDNF-TrkB Signaling Pathway</a></p>

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.520436Z'
+created: 2026-04-01T12:00:00+0000
 description: Chronic psychiatric disorder characterized by intrusive, distressing
   thoughts (obsessions) and repetitive behaviors or mental acts (compulsions) performed
   to reduce anxiety. Prevalence 2-3%. Strongly linked to serotonergic circuit dysfunction
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: ocd
 permalink: /garden/demo_user/condition/ocd/
+provenance: curated
 slug: ocd
 source: Manual
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: OCD
 type: condition
-updated: '2026-06-13T17:47:11.520436Z'
+updated: '2026-08-20T04:08:29.751734Z'
 ---
 
 {% raw %}

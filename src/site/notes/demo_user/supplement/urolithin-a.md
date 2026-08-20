@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:14.518840Z'
+created: 2026-05-26T12:00:00+0000
 description: Urolithin A is a gut-microbiome metabolite of ellagitannins (from pomegranate,
   walnuts, and berries) that induces mitophagy -- the selective autophagic recycling
   of damaged mitochondria. It is one of the few longevity-oriented compounds with
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: urolithin_a
 permalink: /garden/demo_user/supplement/urolithin-a/
+provenance: curated
 pubchem_id: '5488186'
 slug: urolithin-a
 source: PubMed
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Urolithin A
 type: supplement
-updated: '2026-06-13T17:47:14.518840Z'
+updated: '2026-08-20T04:08:32.079191Z'
 ---
 
 {% raw %}

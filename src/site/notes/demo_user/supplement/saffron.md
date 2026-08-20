@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:14.475517Z'
+created: 2026-05-27T12:00:00+0000
 description: Saffron (Crocus sativus stigma) is a botanical with antidepressant and
   anxiolytic evidence. Its active constituents crocin and safranal modulate serotonergic
   transmission, reduce oxidative stress, and increase BDNF. Multiple randomized trials
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: saffron
 permalink: /garden/demo_user/supplement/saffron/
+provenance: curated
 slug: saffron
 source: PubMed
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Saffron
 type: supplement
-updated: '2026-06-13T17:47:14.475517Z'
+updated: '2026-08-20T04:08:32.044427Z'
 ---
 
 {% raw %}

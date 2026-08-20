@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.475040Z'
+created: 2026-01-22T12:00:00+0000
 description: Reduced form of nicotinamide adenine dinucleotide, the primary electron
   carrier in cellular respiration that shuttles high-energy electrons from catabolic
   pathways (glycolysis, TCA cycle, beta-oxidation) to Complex I of the mitochondrial
@@ -13,6 +13,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: nadh
 permalink: /garden/demo_user/metabolite/nadh/
+provenance: curated
 pubchem_id: '439153'
 slug: nadh
 source: Manual
@@ -28,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: NADH
 type: metabolite
-updated: '2026-06-13T17:47:13.475040Z'
+updated: '2026-08-20T04:08:31.190628Z'
 ---
 
 {% raw %}
@@ -89,7 +90,7 @@ RELATED::<a href="/garden/demo_user/metabolite/ketone-bodies/" class="internal-l
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a> - Neurons critically depend on NADH oxidation for ATP; NAD+ decline linked to neurodegeneration<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a> - Cardiac muscle relies on continuous NADH supply for contractile function</p>
 <h3>Precursors and Supplements</h3>
-<p>DERIVED_FROM::<a href="/garden/demo_user/metabolite/nicotinamide-riboside/" class="internal-link">Nicotinamide Riboside</a> - Efficient oral NAD+ precursor that increases NADH via salvage pathway<br />
+<p>DERIVED_FROM::<a href="/garden/demo_user/supplement/nicotinamide-riboside/" class="internal-link">Nicotinamide Riboside</a> - Efficient oral NAD+ precursor that increases NADH via salvage pathway<br />
 RELATED::<a href="/garden/demo_user/supplement/niacin/" class="internal-link">Niacin</a> - Vitamin B3; dietary precursor for NAD+ and subsequently NADH biosynthesis</p>
 <h3>Redox and Signaling</h3>
 <p>RELATED::<a href="/garden/demo_user/metabolite/reactive-oxygen-species/" class="internal-link">Reactive Oxygen Species</a> - Complex I NADH oxidation can generate superoxide as a byproduct (reverse electron transport)<br />

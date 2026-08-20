@@ -1,6 +1,7 @@
 ---
 aliases:
 - prothrombin time pt inr
+- PT/INR
 confidence_score: 0.0
 country_availability:
   it:
@@ -92,7 +93,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.754791Z'
+created: 2026-02-07T00:00:00+0000
 description: Prothrombin Time (PT) with International Normalized Ratio (INR) test.
   Evaluates the extrinsic and common coagulation pathways (Factors I, II, V, VII,
   X). Essential for monitoring warfarin therapy and assessing liver synthetic function.
@@ -102,6 +103,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: test-pt-inr-001
 permalink: /garden/demo_user/labtest/prothrombin-time-pt-inr/
+provenance: curated
 slug: prothrombin-time-pt-inr
 source: Manual
 tags:
@@ -109,7 +111,7 @@ tags:
 templateEngineOverride: njk
 title: prothrombin_time_pt_inr
 type: labtest
-updated: '2026-06-13T17:47:12.754791Z'
+updated: '2026-08-20T04:08:30.876514Z'
 ---
 
 {% raw %}
@@ -135,6 +137,10 @@ updated: '2026-06-13T17:47:12.754791Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -146,13 +152,25 @@ updated: '2026-06-13T17:47:12.754791Z'
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Biomarkers Measured</h2>
 <p>This test measures the following biomarkers:</p>
 <ul>
 <li><a href="/garden/demo_user/biomarker/prothrombin-time/" class="internal-link">prothrombin time</a></li>
-<li><a href="/garden/demo_user/biomarker/inr-international-normalized-ratio/" class="internal-link">inr</a></li>
+<li><a href="/garden/demo_user/biomarker/inr/" class="internal-link">inr</a></li>
 </ul>
 <h2>Recommended For</h2>
 <h3>Supplement Monitoring</h3>

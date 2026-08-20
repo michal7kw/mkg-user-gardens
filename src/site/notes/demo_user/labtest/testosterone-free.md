@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.821773Z'
+created: 2025-12-10T09:07:56+0000
 description: Measures bioavailable testosterone. More accurate than total testosterone
   for assessing androgen status.
 dg-home: false
@@ -9,6 +9,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: test-testosterone-free-001
 permalink: /garden/demo_user/labtest/testosterone-free/
+provenance: curated
 slug: testosterone-free
 source: Manual
 tags:
@@ -16,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: testosterone_free
 type: labtest
-updated: '2026-06-13T17:47:12.821773Z'
+updated: '2026-08-20T04:08:30.917100Z'
 ---
 
 {% raw %}
@@ -42,6 +43,10 @@ updated: '2026-06-13T17:47:12.821773Z'
 <td>Sex Hormones</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -52,6 +57,18 @@ updated: '2026-06-13T17:47:12.821773Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>2-5 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$45-$95</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>

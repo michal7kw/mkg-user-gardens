@@ -1,14 +1,17 @@
 ---
 confidence_score: 1.0
-created: '2026-06-13T17:47:12.098740Z'
+created: 2026-01-25T19:20:00+0000
 description: A metabolic intervention where the proton gradient in mitochondria is
   dissipated (leaked) without generating ATP, forcing the cell to burn more fuel to
   maintain the potential. Mimics exercise and activates thermogenesis.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: mitochondrial_uncoupling
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/intervention/mitochondrial-uncoupling/
+provenance: curated
 slug: mitochondrial-uncoupling
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Mitochondrial Uncoupling
 type: intervention
-updated: '2026-06-13T17:47:12.098740Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -78,5 +81,9 @@ ACTIVATED_BY::<a href="/garden/demo_user/intervention/cold-exposure/" class="int
 <h3>Modulates Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a> (improved glycemic control in animal models, Evidence Level 3b)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a> (reduced hepatic steatosis and circulating triglycerides, Evidence Level 3b)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.762529Z'
+created: 2026-01-03T17:55:40+0000
 description: Reversible acetylcholinesterase inhibitor. First-line symptomatic treatment
   for Alzheimer's disease.
 dg-home: false
@@ -8,7 +8,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: donepezil
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/donepezil/
+provenance: curated
 slug: donepezil
 source: Manual
 tags:
@@ -19,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Donepezil
 type: drug
-updated: '2026-06-13T17:47:11.762529Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -40,8 +42,12 @@ updated: '2026-06-13T17:47:11.762529Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimers Disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Dementia</a><br />
+RELATED::<a href="/garden/demo_user/condition/dementia/" class="internal-link">Dementia</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Acetylcholinesterase</a><br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/acetylcholine/" class="internal-link">Acetylcholine</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

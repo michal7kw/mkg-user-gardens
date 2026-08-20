@@ -2,7 +2,7 @@
 aliases:
 - truage pace
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.948263Z'
+created: 2025-12-10T09:07:57+0000
 description: Measures DunedinPACE - the rate of biological aging rather than absolute
   age.
 dg-home: false
@@ -11,6 +11,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: test-truage-pace-001
 permalink: /garden/demo_user/labtest/truage-pace/
+provenance: curated
 slug: truage-pace
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: truage_pace
 type: labtest
-updated: '2026-06-13T17:47:12.948263Z'
+updated: '2026-08-20T04:08:30.972437Z'
 ---
 
 {% raw %}
@@ -44,6 +45,10 @@ updated: '2026-06-13T17:47:12.948263Z'
 <td>Biological Age</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -55,6 +60,18 @@ updated: '2026-06-13T17:47:12.948263Z'
 <td><strong>Turnaround Time</strong></td>
 <td>21-42 days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$229-$229</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -65,7 +82,7 @@ updated: '2026-06-13T17:47:12.948263Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Aging</a></p>
+<p>RELATED::<a href="/garden/demo_user/pathway/aging/" class="internal-link">Aging</a></p>
 <h3>Enriched</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/cellularcomponent/telomere/" class="internal-link">Telomere</a><br />
 INDICATES::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a></p>

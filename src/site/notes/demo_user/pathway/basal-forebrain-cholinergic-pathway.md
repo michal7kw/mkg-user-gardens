@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.860493Z'
+created: '2026-04-01T19:57:05.499056+00:00'
 description: Cholinergic projections from the basal forebrain (nucleus basalis of
   Meynert, medial septum) to the hippocampus and neocortex. Essential for memory encoding
   and attention. Severely affected in Alzheimer's disease.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: basal_forebrain_cholinergic_pathway
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/basal-forebrain-cholinergic-pathway/
+provenance: curated
 slug: basal-forebrain-cholinergic-pathway
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Basal Forebrain Cholinergic Pathway
 type: pathway
-updated: '2026-06-13T17:47:13.860493Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -38,11 +41,11 @@ updated: '2026-06-13T17:47:13.860493Z'
 <p>RELATED::<a href="/garden/demo_user/neurotransmitter/acetylcholine/" class="internal-link">Acetylcholine</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Prefrontal Cortex</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Hippocampus</a><br />
-RELATED::<a href="/garden/demo_user/anatomy/temporal-lobe/" class="internal-link">Temporal Lobe</a></p>
+RELATED::<a href="/garden/demo_user/organ/temporal-lobe/" class="internal-link">Temporal Lobe</a></p>
 <h3>Associated With</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
 <h3>Modulated By Supplement</h3>
 <p>MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/b-complex-vitamins/" class="internal-link">B-Complex Vitamins</a><br />
@@ -51,5 +54,9 @@ MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/lions-mane/" clas
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimer's Disease</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/memory-disorders/" class="internal-link">Memory Disorders</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

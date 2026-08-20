@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.388349Z'
+confidence_score: 0.9
+created: 2026-01-18T16:48:42+0000
 description: A painful form of inflammatory arthritis caused by the accumulation of
   urate crystals in joints, leading to sudden, severe attacks of pain, swelling, and
   redness.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: arthritis_gouty
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/gouty-arthritis/
+provenance: curated
 slug: gouty-arthritis
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Gouty Arthritis
 type: condition
-updated: '2026-06-13T17:47:11.388349Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -61,5 +64,12 @@ TREATED_BY::<a href="/garden/demo_user/drug/allopurinol/" class="internal-link">
 TREATED_BY::<a href="/garden/demo_user/drug/febuxostat/" class="internal-link">Febuxostat</a></p>
 <h3>Associated Proteins</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/protein/interleukin-1-beta/" class="internal-link">Interleukin-1 Beta</a></p>
+<h2>References</h2>
+<ul>
+<li>FitzGerald JD, Dalbeth N, Mikuls T, et al. Arthritis Care Res. 2020;72(6):744-760. ACR Guideline for Management of Gout (PMID: 32128343)</li>
+<li>Richette P, Doherty M, Pascual E, et al. Ann Rheum Dis. 2017;76(1):29-42. EULAR revised recommendations for gout management (PMID: 27457514)</li>
+<li>Dalbeth N, Choi HK, Joosten LAB, et al. Nat Rev Dis Primers. 2019;5(1):69. Gout (review) (PMID: 31420539)</li>
+<li>Becker MA, Schumacher HR Jr, Wortmann RL, et al. N Engl J Med. 2005;353(23):2450-2461. Febuxostat compared with allopurinol in patients with hyperuricemia and gout (PMID: 16339094)</li>
+</ul>
 
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.675416Z'
+created: 2026-05-27T12:00:00+0000
 description: Orexin (hypocretin) is an excitatory neuropeptide produced by a small
   population of neurons in the lateral hypothalamus. It is the master stabilizer of
   wakefulness and arousal, integrating sleep-wake control with energy balance and
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: orexin
 permalink: /garden/demo_user/neurotransmitter/orexin/
+provenance: curated
 slug: orexin
 source: PubMed
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Orexin
 type: neurotransmitter
-updated: '2026-06-13T17:47:13.675416Z'
+updated: '2026-08-20T04:08:31.322872Z'
 ---
 
 {% raw %}

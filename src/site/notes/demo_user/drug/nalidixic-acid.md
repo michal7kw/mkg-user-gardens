@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.849388Z'
+confidence_score: 0.8
+created: 2026-01-18T16:48:42+0000
 description: The first synthetic quinolone antibiotic, used primarily for the treatment
   of urinary tract infections caused by gram-negative bacteria.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nalidixic_acid
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/nalidixic-acid/
+provenance: curated
 slug: nalidixic-acid
 source: Manual
 tags:
@@ -17,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Nalidixic Acid
 type: drug
-updated: '2026-06-13T17:47:11.849388Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -40,5 +43,9 @@ AFFECTS_ORGAN::<a href="/garden/demo_user/organ/bladder/" class="internal-link">
 TREATS::<a href="/garden/demo_user/condition/urinary-tract-infection/" class="internal-link">Urinary Tract Infection</a> (Uncomplicated lower UTIs from gram-negative bacteria, Evidence Level 1b)<br />
 PRECURSOR_OF_CLASS::<a class="internal-link is-unresolved" href="/404">Fluoroquinolones</a> (Founding member of the quinolone antibiotic class, Evidence Level 1a)<br />
 CONTRAINDICATED_IN::<a class="internal-link is-unresolved" href="/404">G6PD Deficiency</a> (Risk of hemolytic anemia, Evidence Level 2b)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

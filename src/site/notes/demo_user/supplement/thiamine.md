@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:14.510188Z'
+created: '2026-04-01T19:57:35.586554+00:00'
 description: Essential B-vitamin (B1) that serves as a cofactor for pyruvate dehydrogenase
   and alpha-ketoglutarate dehydrogenase, two critical enzymes linking glycolysis to
   the TCA cycle and maintaining TCA cycle flux.
@@ -10,6 +10,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: thiamine
 permalink: /garden/demo_user/supplement/thiamine/
+provenance: curated
 pubchem_id: '1130'
 slug: thiamine
 source: Manual
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Thiamine
 type: supplement
-updated: '2026-06-13T17:47:14.510188Z'
+updated: '2026-08-20T04:08:32.073513Z'
 ---
 
 {% raw %}

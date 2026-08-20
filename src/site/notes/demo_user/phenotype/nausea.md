@@ -1,12 +1,17 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:14.036446Z'
-description: '...'
+created: 2026-01-03T17:55:35+0000
+description: Nausea operates as a hardwired evolutionary defense mechanism. As a clinical
+  phenotype, it is an immensely uncomfortable, highly distressing visceral sensation
+  typically localized intuitively to the throat or epigastrium.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nausea
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/phenotype/nausea/
+provenance: curated
 slug: nausea
 source: Manual
 tags:
@@ -16,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Nausea
 type: phenotype
-updated: '2026-06-13T17:47:14.036446Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -28,38 +33,11 @@ updated: '2026-06-13T17:47:14.036446Z'
 <p>Alternatively, nausea can be triggered heavily by the <strong>vestibular system</strong> (motion sickness, via conflicting visual/inner-ear motion data) or directly by massive inflammation spanning the peripheral vagus nerve winding through an irritated gastrointestinal tract (e.g. food poisoning).</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">mal de Debarquement</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">non-secreting paraganglioma</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">neuroleptic malignant syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">liver neuroendocrine carcinoma</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">renal nutcracker syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">glucocorticoid-remediable aldosteronism</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">acute liver failure</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">ileal neuroendocrine tumor well differentiated low or intermediate grade</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">seizures-scoliosis-macrocephaly syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">hereditary renal hypouricemia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">boutonneuse fever</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Nausea and vomiting</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">gallbladder neuroendocrine tumor grade 12</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">neuromyelitis optica</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">pseudotumor cerebri</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">primary unilateral adrenal hyperplasia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">multiple endocrine neoplasia</a><br />
-RELATED::<a href="/garden/demo_user/sideeffect/serotonin-syndrome/" class="internal-link">Serotonin Syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">gastric mucosal hypertrophy</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">jejunal neuroendocrine tumor well differentiated low or intermediate grade</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">ethylene glycol poisoning</a><br />
-RELATED::<a href="/garden/demo_user/drug/chlorpromazine/" class="internal-link">Chlorpromazine</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">hereditary angioedema</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">hereditary pheochromocytoma-paraganglioma</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">duodenal neuroendocrine tumor well differentiated low or intermediate grade</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">cocaine intoxication</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">sporadic pheochromocytomasecreting paraganglioma</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">aldosterone-producing adenoma with seizures and neurological abnormalities</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">optic pathway glioma</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">colchicine poisoning</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">hereditary coproporphyria</a></p>
-<h3>Related To Phenotype</h3>
-<p>RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Nausea and vomiting</a></p>
+<p>RELATED::<a href="/garden/demo_user/sideeffect/serotonin-syndrome/" class="internal-link">Serotonin Syndrome</a><br />
+RELATED::<a href="/garden/demo_user/drug/chlorpromazine/" class="internal-link">Chlorpromazine</a></p>
+<h2>References</h2>
+<ul>
+<li>Kohler S, et al. Nucleic Acids Res. 2021;49(D1):D1207-D1217. The Human Phenotype Ontology (HPO) (PMID: 33264411)</li>
+</ul>
 
 {% endraw %}

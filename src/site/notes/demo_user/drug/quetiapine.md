@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.873277Z'
+created: 2026-01-03T17:55:38+0000
 description: Atypical antipsychotic used for schizophrenia, bipolar disorder, and
   adjunctive treatment of depression. Has sedative properties often used off-label
   for insomnia.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: quetiapine
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/quetiapine/
+provenance: curated
 slug: quetiapine
 source: Manual
 tags:
@@ -23,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Quetiapine
 type: drug
-updated: '2026-06-13T17:47:11.873277Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -42,7 +44,7 @@ updated: '2026-06-13T17:47:11.873277Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+<p>RELATED::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Chromous sulfate</a><br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/norepinephrine/" class="internal-link">Norepinephrine</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Hygromycin B</a><br />
@@ -62,11 +64,15 @@ RELATED::<a href="/garden/demo_user/condition/bipolar-disorder/" class="internal
 RELATED::<a href="/garden/demo_user/protein/5-ht2a-receptor/" class="internal-link">5-HT2A Receptor</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Carbaspirin calcium</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Dopamine D2 Receptor</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Histamine H1 Receptor</a><br />
+RELATED::<a href="/garden/demo_user/protein/histamine-h1-receptor/" class="internal-link">Histamine H1 Receptor</a><br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/drug/lisinopril/" class="internal-link">Lisinopril</a><br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/histamine/" class="internal-link">Histamine</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Picosulfuric acid</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Emetonium iodide</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

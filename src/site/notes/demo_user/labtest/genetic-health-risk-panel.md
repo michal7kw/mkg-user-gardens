@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:12.365261Z'
+created: '2026-05-03'
 description: Direct-to-consumer (DTC) genetic test panel covering health-trait variants.
   The most prominent example is 23andMe's FDA-authorized Genetic Health Risk reports
   covering APOE (Alzheimer's risk), BRCA1/BRCA2 (founder variants — limited coverage),
@@ -12,6 +12,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: genetic_health_risk_panel
 permalink: /garden/demo_user/labtest/genetic-health-risk-panel/
+provenance: curated
 slug: genetic-health-risk-panel
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: genetic_health_risk_panel
 type: labtest
-updated: '2026-06-13T17:47:12.365261Z'
+updated: '2026-08-20T04:08:30.661576Z'
 ---
 
 {% raw %}
@@ -42,11 +43,11 @@ updated: '2026-06-13T17:47:12.365261Z'
 <p><strong>Important clinical caveat:</strong> DTC panels typically genotype only the most common variants in each gene and miss many pathogenic variants. A negative DTC result does NOT rule out hereditary risk — confirmatory testing (panel sequencing or specific variant testing through a clinical genetics lab) is required for any clinical decision-making.</p>
 <p>The 23andMe and AncestryDNA platforms also generate raw genotype data that can be reanalyzed by third-party services for additional variants — but the analytical accuracy of imputed or low-coverage variants in raw data is much lower than the FDA-cleared subset.</p>
 <h2>Relationships</h2>
+<p>TESTS::<a href="/garden/demo_user/labtest/apoe-genotype/" class="internal-link">APOE Genotype</a><br />
+TESTS::<a href="/garden/demo_user/variant/rs429358-apoe-e4-defining/" class="internal-link">rs429358</a><br />
+TESTS::<a href="/garden/demo_user/variant/rs7412-apoe-e2-defining/" class="internal-link">rs7412</a><br />
+TESTS::<a href="/garden/demo_user/variant/rs6025-factor-v-leiden/" class="internal-link">rs6025</a></p>
 <ul>
-<li>TESTS <a href="/garden/demo_user/labtest/apoe-genotype/" class="internal-link">APOE Genotype</a></li>
-<li>TESTS <a class="internal-link is-unresolved" href="/404">rs429358</a></li>
-<li>TESTS <a class="internal-link is-unresolved" href="/404">rs7412</a></li>
-<li>TESTS <a class="internal-link is-unresolved" href="/404">rs6025</a></li>
 <li>ALTERNATIVE_TO <a class="internal-link is-unresolved" href="/404">Clinical Genetic Panel</a> (NOT equivalent — DTC has lower sensitivity)</li>
 </ul>
 

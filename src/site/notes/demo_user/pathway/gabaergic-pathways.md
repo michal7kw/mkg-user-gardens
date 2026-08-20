@@ -1,11 +1,16 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.877215Z'
+created: '2026-03-11T11:39:49.405793+00:00'
+description: The GABAergic Pathway represents the entire decentralized, globally distributed
+  web of inhibitory neurons operating within the Central Nervous System.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: gabaergic_pathways
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/gabaergic-pathways/
+provenance: curated
 slug: gabaergic-pathways
 source: Manual
 tags:
@@ -13,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: GABAergic Pathways
 type: pathway
-updated: '2026-06-13T17:47:13.877215Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -34,13 +39,17 @@ MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/taurine/" class="internal-link">Taurine</a><br />
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/l-tryptophan/" class="internal-link">L-Tryptophan</a></p>
 <h3>Associated Biomarker</h3>
-<p>ASSOCIATED_WITH::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a><br />
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/sleep-disorder/" class="internal-link">Sleep Disorder</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

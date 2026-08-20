@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.88
-created: '2026-06-13T17:47:14.410585Z'
+created: 2026-01-03T17:55:40+0000
 description: Melatonin is a naturally occurring indoleamine hormone synthesized from
   tryptophan in the pineal gland, primarily secreted during darkness to regulate the
   sleep-wake cycle. As a supplement, exogenous melatonin is one of the most well-studied
@@ -14,6 +14,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: melatonin_supplement
 permalink: /garden/demo_user/supplement/melatonin-supplement/
+provenance: curated
 pubchem_id: '896'
 slug: melatonin-supplement
 source: Manual
@@ -31,7 +32,7 @@ tags:
 templateEngineOverride: njk
 title: Melatonin Supplement
 type: supplement
-updated: '2026-06-13T17:47:14.410585Z'
+updated: '2026-08-20T04:08:31.978695Z'
 ---
 
 {% raw %}
@@ -188,7 +189,7 @@ updated: '2026-06-13T17:47:14.410585Z'
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/supplement/l-theanine/" class="internal-link">L-Theanine</a><br />
 MODULATES_HORMONE::<a href="/garden/demo_user/hormone/melatonin/" class="internal-link">Melatonin</a><br />
-MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a><br />
+MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a><br />
 RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 RELATED::<a href="/garden/demo_user/supplement/glycine/" class="internal-link">Glycine</a></p>
 <h3>Interacts With</h3>
@@ -200,7 +201,7 @@ RELATED::<a href="/garden/demo_user/supplement/glycine/" class="internal-link">G
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></p>
 <h3>Synergistic With</h3>
 <p>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/l-theanine/" class="internal-link">L-Theanine</a><br />
-SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a><br />
+SYNERGISTIC_WITH::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a><br />
 SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/glycine/" class="internal-link">Glycine</a><br />
 SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a></p>
 <h3>Mimics</h3>
@@ -217,7 +218,7 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/immune-system-disord
 <h3>Activates Pathway</h3>
 <p>ACTIVATES_PATHWAY::<a href="/garden/demo_user/pathway/circadian-rhythm-pathway/" class="internal-link">Circadian Rhythm Pathway</a></p>
 <h3>Affects Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">Cortisol</a></p>
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">Cortisol</a></p>
 <h3>Supports</h3>
 <p>SUPPORTS::<a href="/garden/demo_user/cellularcomponent/mitochondria/" class="internal-link">Mitochondria</a></p>
 <h2>References</h2>

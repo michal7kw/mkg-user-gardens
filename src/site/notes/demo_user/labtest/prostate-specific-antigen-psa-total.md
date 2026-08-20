@@ -94,7 +94,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.739974Z'
+created: '2026-01-19T08:30:02.087771+00:00'
 description: pros-tate speh-sif-ik an-tih-jen (p-s-a) toh-tul Total prostate-specific
   antigen (PSA) measures the overall amount of PSA in the blood, including both PSA
   that is attached to proteins and PSA that is free. This test is considered alongside
@@ -105,6 +105,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-prostate-specific-antigen-psa-total
 permalink: /garden/demo_user/labtest/prostate-specific-antigen-psa-total/
+provenance: curated
 slug: prostate-specific-antigen-psa-total
 source: Manual
 tags:
@@ -112,7 +113,7 @@ tags:
 templateEngineOverride: njk
 title: prostate_specific_antigen_psa_total
 type: labtest
-updated: '2026-06-13T17:47:12.739974Z'
+updated: '2026-08-20T04:08:30.871985Z'
 ---
 
 {% raw %}
@@ -138,6 +139,10 @@ updated: '2026-06-13T17:47:12.739974Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -149,6 +154,18 @@ updated: '2026-06-13T17:47:12.739974Z'
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -159,7 +176,9 @@ updated: '2026-06-13T17:47:12.739974Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
-<p>INDICATES_ORGAN_HEALTH::<a class="internal-link is-unresolved" href="/404">Prostate</a></p>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/biomarker/psa/" class="internal-link">PSA</a><br />
+INDICATES_ORGAN_HEALTH::<a href="/garden/demo_user/organ/prostate/" class="internal-link">Prostate</a></p>
 <h3>Enriched</h3>
 <p>INDICATES::<a href="/garden/demo_user/condition/cancer/" class="internal-link">Cancer</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/blood/" class="internal-link">Blood</a></p>

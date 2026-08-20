@@ -92,7 +92,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.151789Z'
+created: '2026-01-19T08:30:03.145793+00:00'
 description: Tested twice a year Alanine aminotransferase (ALT) is an enzyme found
   in the liver that helps process nutrients and toxins. Elevated ALT levels in the
   blood can signal liver cell damage, making it a useful marker of liver health.
@@ -102,6 +102,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-alanine-transaminase-alt
 permalink: /garden/demo_user/labtest/alanine-transaminase-alt/
+provenance: curated
 slug: alanine-transaminase-alt
 source: Manual
 tags:
@@ -109,7 +110,7 @@ tags:
 templateEngineOverride: njk
 title: alanine_transaminase_alt
 type: labtest
-updated: '2026-06-13T17:47:12.151789Z'
+updated: '2026-08-20T04:08:30.456476Z'
 ---
 
 {% raw %}
@@ -135,6 +136,10 @@ updated: '2026-06-13T17:47:12.151789Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -146,6 +151,18 @@ updated: '2026-06-13T17:47:12.151789Z'
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -156,6 +173,8 @@ updated: '2026-06-13T17:47:12.151789Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/biomarker/alanine-transaminase/" class="internal-link">Alanine Transaminase</a></p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/condition/alcohol-related-liver-injury/" class="internal-link">Alcohol-Related Liver Injury</a><br />
 RELATED::<a href="/garden/demo_user/condition/drug-induced-liver-injury/" class="internal-link">Drug-Induced Liver Injury</a><br />

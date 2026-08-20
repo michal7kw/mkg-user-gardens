@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.109952Z'
+confidence_score: 0.75
+created: 2025-01-05T00:00:00+0000
 description: Elevated cardiovascular disease risk based on lipid abnormalities, inflammation,
   and other markers.
 dg-home: false
@@ -8,7 +8,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: cardiovascular_risk
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/clinicalpattern/cardiovascular-risk-pattern/
+provenance: curated
 slug: cardiovascular-risk-pattern
 source: Manual
 tags:
@@ -21,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Cardiovascular Risk Pattern
 type: clinicalpattern
-updated: '2026-06-13T17:47:11.109952Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -70,11 +72,11 @@ updated: '2026-06-13T17:47:11.109952Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
+<p>RELATED::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
 <h3>Requires Biomarker</h3>
 <p>REQUIRES_BIOMARKER::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="internal-link">LDL Cholesterol</a><br />
-REQUIRES_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a><br />
-REQUIRES_BIOMARKER::<a class="internal-link is-unresolved" href="/404">ApoB</a><br />
+REQUIRES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a><br />
+REQUIRES_BIOMARKER::<a href="/garden/demo_user/biomarker/apolipoprotein-b/" class="internal-link">ApoB</a><br />
 REQUIRES_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a><br />
 REQUIRES_BIOMARKER::<a href="/garden/demo_user/biomarker/lpa/" class="internal-link">Lpa</a></p>
 <h3>Increases Risk For</h3>
@@ -83,10 +85,14 @@ INCREASES_RISK_FOR::<a href="/garden/demo_user/condition/stroke/" class="interna
 INCREASES_RISK_FOR::<a href="/garden/demo_user/condition/myocardial-infarction/" class="internal-link">Myocardial Infarction</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a><br />
-AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Blood Vessels</a></p>
+AFFECTS_ORGAN::<a href="/garden/demo_user/organ/blood-vessels/" class="internal-link">Blood Vessels</a></p>
 <h3>Improved By Supplement</h3>
 <p>IMPROVED_BY_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Red Yeast Rice</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
-IMPROVED_BY_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">CoQ10</a></p>
+IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">CoQ10</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

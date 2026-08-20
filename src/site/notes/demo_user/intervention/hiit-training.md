@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:12.069106Z'
+created: 2026-01-03T17:55:39+0000
 description: High-Intensity Interval Training - exercise protocol alternating short
   bursts of intense anaerobic activity with recovery periods. Highly time-efficient
   method for improving cardiovascular fitness, insulin sensitivity, mitochondrial
@@ -10,7 +10,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: hiit_training
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/intervention/hiit-training/
+provenance: curated
 slug: hiit-training
 source: Manual
 tags:
@@ -23,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: HIIT Training
 type: intervention
-updated: '2026-06-13T17:47:12.069106Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -81,10 +83,10 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disea
 <h3>Modulates Hormone</h3>
 <p>MODULATES_HORMONE::<a href="/garden/demo_user/hormone/growth-hormone/" class="internal-link">Growth Hormone</a> (acute 450% increase post-HIIT, Evidence Level 2a)<br />
 MODULATES_HORMONE::<a href="/garden/demo_user/hormone/testosterone/" class="internal-link">Testosterone</a> (transient increase in males post-session, Evidence Level 2b)<br />
-MODULATES_HORMONE::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a> (acute elevation during high-intensity work, Evidence Level 2a)<br />
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a> (acute elevation during high-intensity work, Evidence Level 2a)<br />
 MODULATES_HORMONE::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a> (improved sensitivity for 24-72h post-session, Evidence Level 1b)</p>
 <h3>Modulates Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a> (reduces systemic inflammation with regular training, Evidence Level 1b)<br />
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (reduces systemic inflammation with regular training, Evidence Level 1b)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a> (0.5-0.8% reduction in T2D populations, Evidence Level 1a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a> (acute increase supports neuroplasticity, Evidence Level 2a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a> (reduced with regular HIIT, Evidence Level 1b)</p>
@@ -92,5 +94,9 @@ AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="int
 <p>AFFECTS::<a href="/garden/demo_user/cellularcomponent/mitochondria/" class="internal-link">Mitochondria</a> (PGC-1alpha-mediated mitochondrial biogenesis, Evidence Level 2b)</p>
 <h3>Improves Function</h3>
 <p>IMPROVES_FUNCTION::<a href="/garden/demo_user/cognitivefunction/executive-function/" class="internal-link">Executive Function</a> (acute HIIT boosts prefrontal cortex activation, Evidence Level 2a)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

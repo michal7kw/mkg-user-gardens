@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.536218Z'
+confidence_score: 0.9
+created: 2026-01-18T16:02:34+0000
 description: A chronic condition characterized by decreased bone mass and deterioration
   of bone tissue, making bones fragile and more likely to fracture.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: osteoporosis
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/osteoporosis/
+provenance: curated
 slug: osteoporosis
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Osteoporosis
 type: condition
-updated: '2026-06-13T17:47:11.536218Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -60,7 +63,7 @@ updated: '2026-06-13T17:47:11.536218Z'
 <p>RELATED::<a href="/garden/demo_user/condition/vitamin-d-deficiency/" class="internal-link">Vitamin D Deficiency</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin D (25-OH)</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/osteocalcin/" class="internal-link">osteocalcin</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/alkaline-phosphatase/" class="internal-link">Alkaline Phosphatase</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/estradiol/" class="internal-link">estradiol</a></p>
@@ -69,5 +72,12 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/estradiol/" class="internal-
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-k2/" class="internal-link">Vitamin K2</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a></p>
+<h2>References</h2>
+<ul>
+<li>Cosman F, de Beur SJ, LeBoff MS, et al. Osteoporos Int. 2014;25(10):2359-2381. Clinician's Guide to Prevention and Treatment of Osteoporosis (NOF) (PMID: 25182297)</li>
+<li>Compston J, Cooper A, Cooper C, et al. Osteoporos Int. 2017;28(10):2829-2846. UK clinical guideline for the prevention and treatment of osteoporosis (PMID: 28890680)</li>
+<li>Black DM, Cummings SR, Karpf DB, et al. Lancet. 1996;348(9041):1535-1541. FIT: Randomised trial of alendronate on fracture risk (PMID: 8950879)</li>
+<li>Kanis JA, Norton N, Harvey NC, et al. Arch Osteoporos. 2024;20(1):17. SCOPE 2023 update (PMID: 38262837)</li>
+</ul>
 
 {% endraw %}

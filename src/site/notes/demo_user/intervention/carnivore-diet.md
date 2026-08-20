@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.050836Z'
+created: '2026-04-05T16:16:24.613028+00:00'
 description: All-animal-product diet eliminating all plant foods. Based on the premise
   that plant antinutrients and fiber may cause digestive issues in sensitive individuals.
   Highly restrictive and controversial.
@@ -9,6 +9,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: intervention_carnivore
 permalink: /garden/demo_user/intervention/carnivore-diet/
+provenance: curated
 slug: carnivore-diet
 source: dev_seeder
 tags:
@@ -17,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Carnivore Diet
 type: intervention
-updated: '2026-06-13T17:47:12.050836Z'
+updated: '2026-08-20T04:08:30.368015Z'
 ---
 
 {% raw %}
@@ -39,7 +40,10 @@ updated: '2026-06-13T17:47:12.050836Z'
 <li>pregnancy without medical supervision</li>
 </ul>
 <h2>Relationships</h2>
-<p>No relationships found.</p>
+<p>EMPHASIZES::<a href="/garden/demo_user/nutrient/protein/" class="internal-link">Protein</a><br />
+RESTRICTS::<a href="/garden/demo_user/nutrient/dietary-fiber/" class="internal-link">Dietary Fiber</a><br />
+RESTRICTS::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a><br />
+RESTRICTS::<a href="/garden/demo_user/nutrient/folate-b9/" class="internal-link">Folate (B9)</a></p>
 <h2>Research SupportNo research studies documented yet.</h2>
 <h2>ReferencesNo references available.</h2>
 

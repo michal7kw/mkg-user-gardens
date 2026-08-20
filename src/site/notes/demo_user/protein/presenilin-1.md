@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:14.176659Z'
+confidence_score: 0.75
+created: 2026-01-24T12:00:00+0000
 description: Catalytic core of the Gamma-Secretase complex. Cleaves APP to release
   Amyloid Beta.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: presenilin_1
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/protein/presenilin-1/
+provenance: curated
 slug: presenilin-1
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Presenilin-1
 type: protein
-updated: '2026-06-13T17:47:14.176659Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -45,5 +48,10 @@ PARTICIPATES_IN_PATHWAY::<a class="internal-link is-unresolved" href="/404">Amyl
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimers Disease</a> (Over 300 FAD mutations in PSEN1, Evidence Level 1a)<br />
 INTERACTS_WITH::<a href="/garden/demo_user/protein/bace1/" class="internal-link">BACE1</a> (Sequential APP processing: BACE1 then gamma-secretase, Evidence Level 1a)<br />
 PARTICIPATES_IN_PATHWAY::<a class="internal-link is-unresolved" href="/404">Notch Signaling</a> (Essential for Notch receptor activation, Evidence Level 1a)</p>
+<h2>References</h2>
+<ul>
+<li>UniProt Consortium. Nucleic Acids Res. 2023;51(D1):D523-D531. UniProt (PMID: 36408955)</li>
+<li>Uhlén M, et al. Science. 2015;347(6220):1260419. The Human Protein Atlas (PMID: 25613900)</li>
+</ul>
 
 {% endraw %}

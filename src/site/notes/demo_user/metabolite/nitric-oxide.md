@@ -1,5 +1,5 @@
 ---
-created: '2026-06-13T17:47:13.501944Z'
+created: 2026-03-19T00:00:00+0000
 description: Gaseous signaling molecule with vasodilatory, neurotransmitter, and immune
   defense functions. Produced enzymatically by three NOS isoforms (eNOS, nNOS, iNOS)
   requiring tetrahydrobiopterin (BH4) as cofactor, or non-enzymatically via the dietary
@@ -12,6 +12,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: nitric_oxide
 permalink: /garden/demo_user/metabolite/nitric-oxide/
+provenance: curated
 pubchem_id: '145068'
 slug: nitric-oxide
 source: Manual
@@ -25,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Nitric Oxide
 type: metabolite
-updated: '2026-06-13T17:47:13.501944Z'
+updated: '2026-08-20T04:08:31.200719Z'
 ---
 
 {% raw %}
@@ -104,7 +105,7 @@ AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Br
 <h3>Supports Function</h3>
 <p>SUPPORTS_FUNCTION::<a href="/garden/demo_user/cognitivefunction/memory-and-learning/" class="internal-link">Memory and Learning</a></p>
 <h3>Affects Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Blood Pressure</a></p>
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/examination/blood-pressure/" class="internal-link">Blood Pressure</a></p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/metabolite/reactive-oxygen-species/" class="internal-link">Reactive Oxygen Species</a><br />
 RELATED::<a href="/garden/demo_user/supplement/ginkgo-biloba/" class="internal-link">Ginkgo Biloba</a></p>

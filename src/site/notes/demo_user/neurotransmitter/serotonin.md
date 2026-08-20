@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.678107Z'
+created: 2026-01-03T17:55:39+0000
 description: Indolamine monoamine neurotransmitter (5-hydroxytryptamine, 5-HT) synthesized
   from the essential amino acid tryptophan. Approximately 90-95% of the body's serotonin
   is produced peripherally in enterochromaffin cells of the gastrointestinal tract
@@ -14,6 +14,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: serotonin
 permalink: /garden/demo_user/neurotransmitter/serotonin/
+provenance: curated
 pubchem_id: '5202'
 slug: serotonin
 source: Manual
@@ -28,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Serotonin
 type: neurotransmitter
-updated: '2026-06-13T17:47:13.678107Z'
+updated: '2026-08-20T04:08:31.323878Z'
 ---
 
 {% raw %}

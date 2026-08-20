@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.786142Z'
+created: 2026-01-03T17:55:40+0000
 description: First widely prescribed SSRI antidepressant (Prozac). Long half-life
   allows flexible dosing and easier discontinuation. FDA-approved for depression,
   OCD, panic disorder, bulimia, and PMDD.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: fluoxetine
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/fluoxetine/
+provenance: curated
 slug: fluoxetine
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Fluoxetine
 type: drug
-updated: '2026-06-13T17:47:11.786142Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -48,7 +51,7 @@ TREATS::<a href="/garden/demo_user/condition/ocd/" class="internal-link">OCD</a>
 <p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a></p>
 <h3>Affects Brain Region</h3>
 <p>AFFECTS_BRAIN_REGION::<a class="internal-link is-unresolved" href="/404">Prefrontal Cortex</a><br />
-AFFECTS_BRAIN_REGION::<a href="/garden/demo_user/anatomy/raphe-nuclei/" class="internal-link">Raphe Nuclei</a><br />
+AFFECTS_BRAIN_REGION::<a href="/garden/demo_user/organ/raphe-nuclei/" class="internal-link">Raphe Nuclei</a><br />
 AFFECTS_BRAIN_REGION::<a class="internal-link is-unresolved" href="/404">Amygdala</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></p>
@@ -67,5 +70,9 @@ TREATS::<a href="/garden/demo_user/condition/pmdd/" class="internal-link">PMDD</
 CAUSES::<a href="/garden/demo_user/sideeffect/serotonin-syndrome/" class="internal-link">Serotonin Syndrome</a></p>
 <h3>Affects Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

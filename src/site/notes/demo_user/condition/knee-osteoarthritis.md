@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.448361Z'
+confidence_score: 0.9
+created: 2026-01-18T16:48:42+0000
 description: A degenerative joint disease affecting the knee, characterized by the
   breakdown of cartilage and underlying bone, leading to pain and stiffness.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: knee_osteoarthritis
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/knee-osteoarthritis/
+provenance: curated
 slug: knee-osteoarthritis
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Knee Osteoarthritis
 type: condition
-updated: '2026-06-13T17:47:11.448361Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -57,5 +60,12 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acid
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/sulforaphane/" class="internal-link">Sulforaphane</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/glycine/" class="internal-link">Glycine</a></p>
+<h2>References</h2>
+<ul>
+<li>Bannuru RR, Osani MC, Vaysbrot EE, et al. Osteoarthritis Cartilage. 2019;27(11):1578-1588. OARSI guidelines for the non-surgical management of knee OA (PMID: 31278997)</li>
+<li>Kolasinski SL, Neogi T, Hochberg MC, et al. Arthritis Care Res. 2020;72(2):149-162. ACR/AF Guideline for Management of Hand, Hip, and Knee OA (PMID: 31908149)</li>
+<li>Hunter DJ, Bierma-Zeinstra S. Lancet. 2019;393(10182):1745-1759. Osteoarthritis (review) (PMID: 31058344)</li>
+<li>McAlindon TE, Bannuru RR, Sullivan MC, et al. Osteoarthritis Cartilage. 2014;22(3):363-388. OARSI guidelines for the non-surgical management of knee OA (PMID: 24462672)</li>
+</ul>
 
 {% endraw %}

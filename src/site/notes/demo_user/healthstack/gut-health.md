@@ -1,5 +1,5 @@
 ---
-created: '2026-06-13T17:47:11.978872Z'
+created: '2026-08-20T04:08:30.307523Z'
 description: Optimize the gut microbiome and intestinal barrier integrity with targeted
   probiotics, prebiotics, and gut-healing compounds. A healthy gut is foundational
   to immune function, mental health (gut-brain axis), nutrient absorption, and systemic
@@ -10,6 +10,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: gut_health_stack
 permalink: /garden/demo_user/healthstack/gut-health/
+provenance: curated
 slug: gut-health
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Gut Health
 type: healthstack
-updated: '2026-06-13T17:47:11.978872Z'
+updated: '2026-08-20T04:08:30.307523Z'
 ---
 
 {% raw %}
@@ -49,7 +50,7 @@ updated: '2026-06-13T17:47:11.978872Z'
 <td>Restores microbiome diversity — Lactobacillus and Bifidobacterium strains reduce inflammation and support immune function</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">L-Glutamine</a></td>
+<td><a href="/garden/demo_user/supplement/l-glutamine/" class="internal-link">L-Glutamine</a></td>
 <td>5000mg</td>
 <td>once daily</td>
 <td>morning</td>
@@ -63,14 +64,14 @@ updated: '2026-06-13T17:47:11.978872Z'
 <td>Soluble prebiotic fiber — feeds butyrate-producing bacteria and improves stool consistency</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Zinc Carnosine</a></td>
+<td><a href="/garden/demo_user/supplement/zinc-carnosine/" class="internal-link">Zinc Carnosine</a></td>
 <td>75mg</td>
 <td>twice daily</td>
 <td>before meals</td>
 <td>Stabilizes gut mucosa and accelerates ulcer healing — specific affinity for damaged gastric tissue</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Omega-3 Fish Oil</a></td>
+<td><a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fish Oil</a></td>
 <td>2000mg</td>
 <td>once daily</td>
 <td>with meals</td>
@@ -91,7 +92,7 @@ updated: '2026-06-13T17:47:11.978872Z'
 </thead>
 <tbody>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">hs-CRP</a></td>
+<td><a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></td>
 <td>0-3.0</td>
 <td>0-0.5</td>
 <td>mg/L</td>
@@ -114,10 +115,10 @@ updated: '2026-06-13T17:47:11.978872Z'
 </ul>
 <h3>Contains Supplement</h3>
 <p>CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Probiotic (Multi-Strain)</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">L-Glutamine</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Psyllium Husk</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Zinc Carnosine</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Omega-3 Fish Oil</a></p>
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/l-glutamine/" class="internal-link">L-Glutamine</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/soluble-fiber/" class="internal-link">Psyllium Husk</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/zinc-carnosine/" class="internal-link">Zinc Carnosine</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fish Oil</a></p>
 <h2>Relationships</h2>
 <h3>Enriched</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/irritable-bowel-syndrome/" class="internal-link">Irritable Bowel Syndrome</a><br />

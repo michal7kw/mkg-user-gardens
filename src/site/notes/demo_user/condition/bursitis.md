@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.65
-created: '2026-06-13T17:47:11.263171Z'
+created: 2026-04-01T10:00:00+0000
 description: Inflammation of a bursa. Common in shoulder (subacromial), elbow (olecranon),
   hip (trochanteric), and knee (prepatellar). May be septic (infectious) or aseptic
   (mechanical/inflammatory).
@@ -10,6 +10,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: bursitis
 permalink: /garden/demo_user/condition/bursitis/
+provenance: curated
 slug: bursitis
 source: Manual
 tags:
@@ -19,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Bursitis
 type: condition
-updated: '2026-06-13T17:47:11.263171Z'
+updated: '2026-08-20T04:08:29.392395Z'
 ---
 
 {% raw %}
@@ -38,7 +39,7 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acid
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/boswellia-serrata/" class="internal-link">Boswellia Serrata</a></p>
 <h3>Improved By Intervention</h3>
 <p>IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/exercise/" class="internal-link">Exercise</a><br />
-IMPROVED_BY_INTERVENTION::<a class="internal-link is-unresolved" href="/404">Physical Therapy</a></p>
+IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/physical-therapy/" class="internal-link">Physical Therapy</a></p>
 <h2>References</h2>
 <ul>
 <li>PMID:21542743</li>

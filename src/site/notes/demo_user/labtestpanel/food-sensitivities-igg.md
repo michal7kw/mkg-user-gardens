@@ -1,6 +1,9 @@
 ---
+aliases:
+- Food Sensitivities Igg
+- food sensitivities igg
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.112042Z'
+created: 2026-01-18T16:48:42+0000
 description: Food-specific IgG testing identifies immunoglobulin G (IgG) responses
   associated with potential food sensitivities or intolerances. Unlike IgE-mediated
   allergies, which cause immediate reactions, IgG responses are linked to delayed
@@ -15,6 +18,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-food-sensitivities-igg
 permalink: /garden/demo_user/labtestpanel/food-sensitivities-igg/
+provenance: curated
 slug: food-sensitivities-igg
 source: Manual
 tags:
@@ -22,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: food_sensitivities_igg
 type: labtestpanel
-updated: '2026-06-13T17:47:13.112042Z'
+updated: '2026-08-20T04:08:31.058746Z'
 ---
 
 {% raw %}
@@ -53,7 +57,8 @@ updated: '2026-06-13T17:47:13.112042Z'
 <li>Guiding elimination diet protocols</li>
 </ul>
 <h2>Relationships</h2>
-<p>USED_FOR::<a href="/garden/demo_user/condition/allergy/" class="internal-link">Allergy</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/food-sensitivity-igg/" class="internal-link">food_sensitivity_igg</a><br />
+USED_FOR::<a href="/garden/demo_user/condition/allergy/" class="internal-link">Allergy</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/irritable-bowel-syndrome/" class="internal-link">Irritable Bowel Syndrome</a><br />
 RELATED::<a href="/garden/demo_user/condition/leaky-gut/" class="internal-link">Leaky Gut</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/gut/" class="internal-link">Gut</a><br />

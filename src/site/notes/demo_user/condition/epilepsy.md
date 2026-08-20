@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.354632Z'
+confidence_score: 0.9
+created: 2026-03-28T12:00:00+0000
 description: A chronic neurological disorder characterized by recurrent, unprovoked
   seizures due to abnormal electrical activity in the brain.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: epilepsy
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/epilepsy/
+provenance: curated
 slug: epilepsy
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Epilepsy
 type: condition
-updated: '2026-06-13T17:47:11.354632Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -44,7 +47,7 @@ updated: '2026-06-13T17:47:11.354632Z'
 <li><strong>Lifestyle</strong>: Sleep hygiene (sleep deprivation is a major trigger), stress management, alcohol avoidance, seizure diary tracking</li>
 <li><strong>Supplements</strong>: Magnesium (neuronal excitability modulation), vitamin B6 (cofactor in GABA synthesis), omega-3 fatty acids, vitamin D (often depleted by AEDs), taurine<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a><br />
-AFFECTS_ORGAN::<a href="/garden/demo_user/anatomy/temporal-lobe/" class="internal-link">Temporal Lobe</a></li>
+AFFECTS_ORGAN::<a href="/garden/demo_user/organ/temporal-lobe/" class="internal-link">Temporal Lobe</a></li>
 </ul>
 <h2>Relationships</h2>
 <h3>Improved By Supplement</h3>
@@ -56,8 +59,15 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-b6/" class
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/prolactin/" class="internal-link">prolactin</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/homocysteine/" class="internal-link">homocysteine</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">Vitamin_D_25-OH</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin_D_25-OH</a></p>
 <h3>Affects Organ</h3>
-<p>AFFECTS_ORGAN::<a href="/garden/demo_user/anatomy/temporal-lobe/" class="internal-link">Temporal Lobe</a></p>
+<p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/temporal-lobe/" class="internal-link">Temporal Lobe</a></p>
+<h2>References</h2>
+<ul>
+<li>Krumholz A, Wiebe S, Gronseth GS, et al. Neurology. 2015;84(16):1695-1703. Evidence-based guideline: Management of an unprovoked first seizure (PMID: 25901057)</li>
+<li>French JA, Gazzola DM. Lancet Neurol. 2019;18(1):75-87. New generation antiepileptic drugs (review) (PMID: 30522820)</li>
+<li>Kwan P, Brodie MJ. N Engl J Med. 2000;342(5):314-319. Early identification of refractory epilepsy (PMID: 10648764)</li>
+<li>Devinsky O, Spruill TM, Thurman D, Friedman D. Nat Rev Neurol. 2016;12(1):9-21. Recognizing and preventing epilepsy-related mortality (PMID: 26668032)</li>
+</ul>
 
 {% endraw %}

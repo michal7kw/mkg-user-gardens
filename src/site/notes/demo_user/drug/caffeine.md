@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:11.738476Z'
+created: 2026-03-19T00:00:00+0000
 description: World's most widely consumed psychoactive substance. Methylxanthine alkaloid
   that acts primarily as a nonselective adenosine A1 and A2A receptor antagonist,
   blocking adenosine's sleep-promoting and vasodilatory effects. Enhances alertness,
@@ -14,6 +14,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: caffeine
 permalink: /garden/demo_user/drug/caffeine/
+provenance: curated
 pubchem_id: '2519'
 slug: caffeine
 source: Manual
@@ -27,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Caffeine
 type: drug
-updated: '2026-06-13T17:47:11.738476Z'
+updated: '2026-08-20T04:08:30.054191Z'
 ---
 
 {% raw %}
@@ -108,7 +109,7 @@ updated: '2026-06-13T17:47:11.738476Z'
 RELATED::<a href="/garden/demo_user/pathway/dopamine-synthesis/" class="internal-link">Dopamine Synthesis</a><br />
 RELATED::<a href="/garden/demo_user/protein/mao-a/" class="internal-link">MAO-A</a></p>
 <h3>Affects Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
 <h3>Modulates Neurotransmitter</h3>
 <p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a><br />
 MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/norepinephrine/" class="internal-link">Norepinephrine</a><br />

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.201045Z'
+created: 2026-01-22T12:00:00+0000
 description: Adenosine diphosphate (ADP) is the immediate precursor and hydrolysis
   product of ATP in cellular energy metabolism. ADP levels signal energy demand to
   mitochondria and regulate the rate of oxidative phosphorylation through respiratory
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: adp
 permalink: /garden/demo_user/metabolite/adp/
+provenance: curated
 pubchem_id: '6022'
 slug: adp
 source: Manual
@@ -25,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: ADP
 type: metabolite
-updated: '2026-06-13T17:47:13.201045Z'
+updated: '2026-08-20T04:08:31.102796Z'
 ---
 
 {% raw %}
@@ -113,7 +114,7 @@ RELATED::<a href="/garden/demo_user/metabolite/ketone-bodies/" class="internal-l
 <p>RELATED::<a href="/garden/demo_user/supplement/creatine/" class="internal-link">Creatine</a><br />
 RELATED::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a><br />
 RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
-RELATED::<a href="/garden/demo_user/metabolite/nicotinamide-riboside/" class="internal-link">Nicotinamide Riboside</a><br />
+RELATED::<a href="/garden/demo_user/supplement/nicotinamide-riboside/" class="internal-link">Nicotinamide Riboside</a><br />
 RELATED::<a href="/garden/demo_user/supplement/nmn/" class="internal-link">NMN</a></p>
 <h3>Related Proteins</h3>
 <p>RELATED::<a href="/garden/demo_user/protein/sirt1/" class="internal-link">SIRT1</a></p>

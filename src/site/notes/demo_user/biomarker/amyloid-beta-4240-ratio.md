@@ -2,7 +2,7 @@
 aliases:
 - Amyloid-Beta 4240 Ratio
 confidence_score: 0.9
-created: '2026-06-13T17:47:10.708192Z'
+created: 2026-01-24T12:00:00+0000
 description: The amyloid-beta 42/40 ratio measures the relative abundance of A-beta42
   to A-beta40 peptides in CSF or plasma. A decreased ratio reflects brain amyloid
   plaque deposition and is the core "A" biomarker in the ATN (Amyloid/Tau/Neurodegeneration)
@@ -12,6 +12,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: amyloid_beta_42_40_ratio
 permalink: /garden/demo_user/biomarker/amyloid-beta-4240-ratio/
+provenance: curated
 slug: amyloid-beta-4240-ratio
 source: Manual
 tags:
@@ -25,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Amyloid-Beta 42/40 Ratio
 type: biomarker
-updated: '2026-06-13T17:47:10.708192Z'
+updated: '2026-08-20T04:08:28.460291Z'
 ---
 
 {% raw %}

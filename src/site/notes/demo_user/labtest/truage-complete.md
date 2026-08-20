@@ -2,7 +2,7 @@
 aliases:
 - truage complete
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.944691Z'
+created: 2025-12-10T09:07:57+0000
 description: TruDiagnostic's comprehensive epigenetic test. Measures biological age
   using DNA methylation markers.
 dg-home: false
@@ -11,6 +11,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: test-truage-001
 permalink: /garden/demo_user/labtest/truage-complete/
+provenance: curated
 slug: truage-complete
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: truage_complete
 type: labtest
-updated: '2026-06-13T17:47:12.944691Z'
+updated: '2026-08-20T04:08:30.970931Z'
 ---
 
 {% raw %}
@@ -44,6 +45,10 @@ updated: '2026-06-13T17:47:12.944691Z'
 <td>Biological Age</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -55,6 +60,18 @@ updated: '2026-06-13T17:47:12.944691Z'
 <td><strong>Turnaround Time</strong></td>
 <td>21-42 days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$499-$499</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -65,7 +82,7 @@ updated: '2026-06-13T17:47:12.944691Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Aging</a><br />
+<p>RELATED::<a href="/garden/demo_user/pathway/aging/" class="internal-link">Aging</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/grimage/" class="internal-link">GrimAge</a></p>
 <h2>Notes</h2>
 <ul>

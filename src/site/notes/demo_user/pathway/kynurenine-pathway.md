@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.916425Z'
+created: 2026-05-26T12:00:00+0000
 description: The dominant route of tryptophan catabolism (~95% of dietary tryptophan
   not used for protein synthesis), producing de novo NAD+ as well as a set of neuroactive
   metabolites -- neurotoxic quinolinic acid and neuroprotective kynurenic acid. Activated
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: kynurenine_pathway
 permalink: /garden/demo_user/pathway/kynurenine-pathway/
+provenance: curated
 slug: kynurenine-pathway
 source: PubMed
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Kynurenine Pathway
 type: pathway
-updated: '2026-06-13T17:47:13.916425Z'
+updated: '2026-08-20T04:08:31.517595Z'
 ---
 
 {% raw %}

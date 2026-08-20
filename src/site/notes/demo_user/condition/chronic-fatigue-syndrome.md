@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.283128Z'
+confidence_score: 0.75
+created: 2026-05-16T00:00:00+0000
 description: Complex, multi-system illness characterized by profound and persistent
   fatigue not relieved by rest, post-exertional malaise (PEM), unrefreshing sleep,
   cognitive dysfunction ("brain fog"), and orthostatic intolerance. Not explained
@@ -10,9 +10,12 @@ description: Complex, multi-system illness characterized by profound and persist
   and HPA-axis disturbance.
 dg-home: false
 dg-publish: true
+evidence_level: 3
 gardenUsername: demo_user
 id: chronic_fatigue
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/chronic-fatigue-syndrome/
+provenance: curated
 slug: chronic-fatigue-syndrome
 source: Manual
 tags:
@@ -24,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Chronic Fatigue Syndrome
 type: condition
-updated: '2026-06-13T17:47:11.283128Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -51,10 +54,12 @@ updated: '2026-06-13T17:47:11.283128Z'
 <h2>Relationships</h2>
 <h3>Associated Biomarkers</h3>
 <p>AFFECTS::<a href="/garden/demo_user/supplement/vitamin-b12/" class="internal-link">Vitamin B12</a></p>
-<h2>Sources</h2>
+<h2>References</h2>
 <ul>
-<li>IOM (2015) Beyond Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Redefining an Illness</li>
-<li>CDC ME/CFS Clinician Resource</li>
+<li>Institute of Medicine. Beyond Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Redefining an Illness. National Academies Press; 2015 (report)</li>
+<li>Clayton EW. Proc Natl Acad Sci U S A. 2015;112(12):E1547. Beyond myalgic encephalomyelitis/chronic fatigue syndrome (PMID: 25695922)</li>
+<li>Puetz TW, Moraska A, Houser MC. Ment Health Phys Act. 2014;7(2):100-114. Exercise and ME/CFS (review)</li>
+<li>Davis GW, Komaroff AL, Nath A, et al. Nat Rev Dis Primers. 2024. ME/CFS (review)</li>
 </ul>
 
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.6
-created: '2026-06-13T17:47:14.306227Z'
+created: 2026-04-01T10:00:00+0000
 description: Proteolytic enzyme complex from pineapple stems. Anti-inflammatory via
   modulation of prostaglandin synthesis, bradykinin, and fibrin. Clinical evidence
   supports use for osteoarthritis pain (comparable to diclofenac in some trials) and
@@ -11,6 +11,7 @@ evidence_level: 2
 gardenUsername: demo_user
 id: bromelain
 permalink: /garden/demo_user/supplement/bromelain/
+provenance: curated
 slug: bromelain
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Bromelain
 type: supplement
-updated: '2026-06-13T17:47:14.306227Z'
+updated: '2026-08-20T04:08:31.889277Z'
 ---
 
 {% raw %}
@@ -43,7 +44,7 @@ updated: '2026-06-13T17:47:14.306227Z'
 <h2>Relationships</h2>
 <ul>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/knee-osteoarthritis/" class="internal-link">Knee Osteoarthritis</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/gut/" class="internal-link">Gut</a> (Proteolytic enzyme aids protein digestion when taken with food; modulates intestinal immune cell surface receptors, Evidence Level 2a)</li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/joints/" class="internal-link">Joints</a> (Reduces prostaglandin E2 and edema in inflamed joints; comparable analgesic effect to diclofenac in some OA trials, Evidence Level 2a)</li>
 </ul>

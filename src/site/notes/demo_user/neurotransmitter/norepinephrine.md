@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.669684Z'
+created: 2026-01-03T17:55:39+0000
 description: Catecholamine neurotransmitter and hormone that serves as the primary
   mediator of the sympathetic nervous system's fight-or-flight response and the brain's
   principal arousal-promoting neurotransmitter from the locus coeruleus. Regulates
@@ -11,6 +11,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: norepinephrine
 permalink: /garden/demo_user/neurotransmitter/norepinephrine/
+provenance: curated
 pubchem_id: '439260'
 slug: norepinephrine
 source: Manual
@@ -27,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Norepinephrine
 type: neurotransmitter
-updated: '2026-06-13T17:47:13.669684Z'
+updated: '2026-08-20T04:08:31.318146Z'
 ---
 
 {% raw %}
@@ -123,7 +124,7 @@ updated: '2026-06-13T17:47:13.669684Z'
 RELATED::<a class="internal-link is-unresolved" href="/404">Epinephrine</a> - NE is converted to epinephrine by PNMT in adrenal medulla; both mediate stress response<br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a> - Both targeted by SNRIs and TCAs for depression; co-regulate mood and anxiety<br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/histamine/" class="internal-link">Histamine</a> - Both promote wakefulness; TMN histamine and LC NE are co-activated during arousal<br />
-RELATED::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a> - GABA inhibits LC neuron firing; benzodiazepines reduce NE release to produce anxiolysis and sedation</p>
+RELATED::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a> - GABA inhibits LC neuron firing; benzodiazepines reduce NE release to produce anxiolysis and sedation</p>
 <h3>Conditions</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/attention-deficit-hyperactivity-disorder/" class="internal-link">Attention Deficit Hyperactivity Disorder</a> - Prefrontal NE deficiency; atomoxetine and guanfacine target NE system<br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a> - Monoamine hypothesis includes NE deficiency; SNRIs and TCAs increase NE availability<br />
@@ -153,7 +154,7 @@ RELATED::<a href="/garden/demo_user/drug/clomipramine/" class="internal-link">Cl
 RELATED::<a href="/garden/demo_user/drug/amitriptyline/" class="internal-link">Amitriptyline</a> - TCA antidepressant; blocks NE and serotonin reuptake<br />
 RELATED::<a href="/garden/demo_user/drug/quetiapine/" class="internal-link">Quetiapine</a> - Atypical antipsychotic; alpha-1/alpha-2 antagonism contributes to NE modulation</p>
 <h3>Hormones</h3>
-<p>RELATED::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">Cortisol</a> - HPA axis activation increases NE release; chronic cortisol dysregulates NE signaling</p>
+<p>RELATED::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">Cortisol</a> - HPA axis activation increases NE release; chronic cortisol dysregulates NE signaling</p>
 <h3>Pathways</h3>
 <p>PARTICIPATES_IN_PATHWAY::<a href="/garden/demo_user/pathway/locus-coeruleus-norepinephrine-pathway/" class="internal-link">Locus Coeruleus Norepinephrine Pathway</a> - Primary NE signaling pathway from LC to entire brain</p>
 <h2>References</h2>

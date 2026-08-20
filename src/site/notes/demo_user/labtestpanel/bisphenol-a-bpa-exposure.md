@@ -2,7 +2,7 @@
 aliases:
 - bisphenol a bpa exposure
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.039508Z'
+created: 2026-01-18T16:48:42+0000
 description: Measures your urine levels of Bisphenol A (BPA), an endocrine disruptor
   found in plastics that is associated with hormone disruption and metabolic health
   issues. BPA is found in plastics, canned foods, thermal paper receipts, and cosmetics
@@ -16,6 +16,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-bisphenol-a-bpa-exposure
 permalink: /garden/demo_user/labtestpanel/bisphenol-a-bpa-exposure/
+provenance: curated
 slug: bisphenol-a-bpa-exposure
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: bisphenol_a_bpa_exposure
 type: labtestpanel
-updated: '2026-06-13T17:47:13.039508Z'
+updated: '2026-08-20T04:08:31.026469Z'
 ---
 
 {% raw %}
@@ -44,7 +45,7 @@ updated: '2026-06-13T17:47:13.039508Z'
 <li>Occupational exposure assessment (plastics manufacturing, retail workers)</li>
 </ul>
 <h2>Relationships</h2>
-<p>INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Bisphenol A (BPA), Urine</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/bisphenol-a-bpa-urine/" class="internal-link">bisphenol_a_bpa_urine</a><br />
 USED_FOR::<a class="internal-link is-unresolved" href="/404">Hormone Imbalance</a><br />
 RELATED::<a href="/garden/demo_user/labtest/lead/" class="internal-link">lead</a><br />
 RELATED::<a href="/garden/demo_user/labtest/mercury/" class="internal-link">mercury</a><br />

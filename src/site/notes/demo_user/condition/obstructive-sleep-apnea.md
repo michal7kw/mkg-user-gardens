@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.524817Z'
+confidence_score: 0.9
+created: 2026-01-18T16:48:42+0000
 description: A sleep disorder where throat muscles intermittently relax and block
   the airway during sleep, causing breathing to stop and start.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: obstructive_sleep_apnea
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/obstructive-sleep-apnea/
+provenance: curated
 slug: obstructive-sleep-apnea
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Obstructive Sleep Apnea
 type: condition
-updated: '2026-06-13T17:47:11.524817Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -55,11 +58,18 @@ AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">He
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/bnp/" class="internal-link">bnp</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
 <h3>Improved By Supplement</h3>
 <p>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a></p>
+<h2>References</h2>
+<ul>
+<li>Senaratna CV, Perret JL, Lodge CJ, et al. JAMA. 2017;317(6):605-614. Prevalence of obstructive sleep apnea in the general adult population (PMID: 28196323)</li>
+<li>Peppard PE, Young T, Barnet JH, Palta M, Hagen EW, Hla KM. Am J Epidemiol. 2013;177(9):1006-1013. Increased prevalence of sleep-disordered breathing in adults (PMID: 23589584)</li>
+<li>McEvoy RD, Antic NA, Heeley E, et al. N Engl J Med. 2016;375(10):919-931. CPAP for prevention of cardiovascular events in OSA (SAVE) (PMID: 27571015)</li>
+<li>Qaseem A, Holty JE, Owens DK, et al. Ann Intern Med. 2013;158(9):667-678. Management of OSA in adults (ACP guideline) (PMID: 23667318)</li>
+</ul>
 
 {% endraw %}

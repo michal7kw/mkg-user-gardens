@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.559188Z'
+created: 2026-03-05T00:00:00+0000
 description: S-Adenosylmethionine (SAMe) is the universal methyl donor for over 200
   methylation reactions including DNA methylation, neurotransmitter synthesis, phospholipid
   metabolism, and detoxification. Synthesized from methionine and ATP by methionine
@@ -13,6 +13,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: s_adenosylmethionine
 permalink: /garden/demo_user/metabolite/s-adenosylmethionine/
+provenance: curated
 pubchem_id: '34756'
 slug: s-adenosylmethionine
 source: Manual
@@ -27,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: S-Adenosylmethionine
 type: metabolite
-updated: '2026-06-13T17:47:13.559188Z'
+updated: '2026-08-20T04:08:31.223639Z'
 ---
 
 {% raw %}

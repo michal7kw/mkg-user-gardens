@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.131016Z'
+confidence_score: 0.75
+created: 2025-01-05T00:00:00+0000
 description: Impaired kidney function indicated by elevated creatinine, BUN, and reduced
   eGFR. Early detection enables intervention to slow progression.
 dg-home: false
@@ -8,7 +8,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: kidney_stress
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/clinicalpattern/kidney-stress-pattern/
+provenance: curated
 slug: kidney-stress-pattern
 source: Manual
 tags:
@@ -21,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Kidney Stress Pattern
 type: clinicalpattern
-updated: '2026-06-13T17:47:11.131016Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -78,7 +80,7 @@ updated: '2026-06-13T17:47:11.131016Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
+<p>RELATED::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
 <h3>Requires Biomarker</h3>
 <p>REQUIRES_BIOMARKER::<a href="/garden/demo_user/labtest/creatinine/" class="internal-link">creatinine</a><br />
 REQUIRES_BIOMARKER::<a href="/garden/demo_user/biomarker/egfr/" class="internal-link">EGFR</a><br />
@@ -91,7 +93,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acid
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a></p>
 <h3>Increases Risk For</h3>
 <p>INCREASES_RISK_FOR::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />
-INCREASES_RISK_FOR::<a class="internal-link is-unresolved" href="/404">Anemia</a><br />
+INCREASES_RISK_FOR::<a href="/garden/demo_user/condition/anemia/" class="internal-link">Anemia</a><br />
 INCREASES_RISK_FOR::<a href="/garden/demo_user/condition/chronic-kidney-disease/" class="internal-link">Chronic Kidney Disease</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

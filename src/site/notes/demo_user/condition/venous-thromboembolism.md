@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.703735Z'
+confidence_score: 0.9
+created: 2026-01-18T16:48:41+0000
 description: A condition where a blood clot forms in a vein, encompassing Deep Vein
   Thrombosis (DVT) and Pulmonary Embolism (PE).
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: venous_thromboembolism
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/venous-thromboembolism/
+provenance: curated
 slug: venous-thromboembolism
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Venous Thromboembolism
 type: condition
-updated: '2026-06-13T17:47:11.703735Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -57,5 +60,12 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/platelets/" class="interna
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-e/" class="internal-link">Vitamin E</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a></p>
+<h2>References</h2>
+<ul>
+<li>Kearon C, Akl EA, Ornelas J, et al. Chest. 2016;149(2):315-352. Antithrombotic Therapy for VTE Disease (CHEST Guideline) (PMID: 26919978)</li>
+<li>Konstantinides SV, Meyer G, Becattini C, et al. Eur Respir J. 2020;55(6):2000235. ESC/ERS Guidelines for the diagnosis and management of acute PE (PMID: 32342838)</li>
+<li>Agnelli G, Buller HR, Cohen A, et al. N Engl J Med. 2013;368(8):699-708. AMPLIFY: Apixaban for VTE treatment (PMID: 23380047)</li>
+<li>Anderson FA, Spencer FA. Circulation. 2003;107(23 Suppl 1):I9-I16. Risk factors for VTE (review) (PMID: 12814980)</li>
+</ul>
 
 {% endraw %}

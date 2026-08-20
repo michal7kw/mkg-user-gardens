@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.75
-created: '2026-06-13T17:47:11.746450Z'
+created: 2026-04-01T10:00:00+0000
 description: PEGylated Fab' fragment of anti-TNF antibody. Unique among TNF inhibitors
   -- lacks Fc region so does not cross the placenta -- preferred TNF inhibitor in
   pregnancy and breastfeeding. Also does not activate complement or cause ADCC.
@@ -10,6 +10,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: certolizumab_pegol
 permalink: /garden/demo_user/drug/certolizumab-pegol/
+provenance: curated
 slug: certolizumab-pegol
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Certolizumab Pegol
 type: drug
-updated: '2026-06-13T17:47:11.746450Z'
+updated: '2026-08-20T04:08:30.062151Z'
 ---
 
 {% raw %}
@@ -36,7 +37,7 @@ TREATS::<a href="/garden/demo_user/condition/ankylosing-spondylitis/" class="int
 <h3>Targets</h3>
 <p>TARGETS::<a href="/garden/demo_user/labtest/tnf-alpha/" class="internal-link">TNF Alpha</a></p>
 <h3>Decreases Biomarker</h3>
-<p>DECREASES_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h2>References</h2>
 <ul>
 <li>PMID:18383260</li>

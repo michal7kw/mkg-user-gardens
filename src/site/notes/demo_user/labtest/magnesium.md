@@ -90,7 +90,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.545733Z'
+created: 2026-01-18T16:02:30+0000
 description: Magnesium is an essential mineral involved in hundreds of processes in
   the body, including building strong bones, maintaining a steady heart rhythm, supporting
   muscle function, and producing energy. Nearly half of U.S. adults don't get enough
@@ -103,6 +103,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-magnesium
 permalink: /garden/demo_user/labtest/magnesium/
+provenance: curated
 slug: magnesium
 source: Manual
 tags:
@@ -112,7 +113,7 @@ tags:
 templateEngineOverride: njk
 title: magnesium
 type: labtest
-updated: '2026-06-13T17:47:12.545733Z'
+updated: '2026-08-20T04:08:30.773911Z'
 ---
 
 {% raw %}
@@ -138,6 +139,10 @@ updated: '2026-06-13T17:47:12.545733Z'
 <td>Nutrient Panel</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -148,6 +153,18 @@ updated: '2026-06-13T17:47:12.545733Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>3-7 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -165,14 +182,12 @@ RELATED::<a href="/garden/demo_user/condition/magnesium-deficiency/" class="inte
 RELATED::<a class="internal-link is-unresolved" href="/404">Poor Nutrient Absorption</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Increased Cardiovascular Risk</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Neuromuscular Dysfunction</a><br />
-RELATED::<a href="/garden/demo_user/labtestpanel/extended-vitamins-minerals-nutrients/" class="internal-link">extended vitamins minerals nutrients</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Mood Or Congition Changes</a><br />
-RELATED::<a href="/garden/demo_user/labtestpanel/mthfr-gene/" class="internal-link">mthfr gene</a></p>
+RELATED::<br />
+RELATED::<a class="internal-link is-unresolved" href="/404">Mood Or Congition Changes</a></p>
 <h3>May Detect</h3>
 <p>MAY_DETECT::<a href="/garden/demo_user/condition/magnesium-deficiency/" class="internal-link">Magnesium Deficiency</a></p>
 <h3>Included In</h3>
-<p>INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/mthfr-gene/" class="internal-link">mthfr gene</a><br />
-INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/extended-vitamins-minerals-nutrients/" class="internal-link">extended vitamins minerals nutrients</a></p>
+<p>INCLUDED_IN::</p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/magnesium-deficiency/" class="internal-link">Magnesium Deficiency</a></p>
 <h2>Notes</h2>

@@ -1,13 +1,18 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:13.802923Z'
+aliases:
+- Muscle
+confidence_score: 0.85
+created: 2026-01-03T17:55:40+0000
 description: Contractile tissues enabling movement, posture, and heat production.
   Skeletal muscle is the largest organ system by mass and a major metabolic tissue.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: muscles
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/organ/muscles/
+provenance: curated
 slug: muscles
 source: Manual
 tags:
@@ -15,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Muscles
 type: organ
-updated: '2026-06-13T17:47:13.802923Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -41,12 +46,16 @@ updated: '2026-06-13T17:47:13.802923Z'
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 RELATED::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Muscle</a><br />
+RELATED::<a href="/garden/demo_user/organ/muscles/" class="internal-link">Muscle</a><br />
 REQUIRES_NUTRIENT::<a class="internal-link is-unresolved" href="/404">Creatine Supplement</a> (Enhances phosphocreatine energy stores for high-intensity muscle contraction, Evidence Level 1a)<br />
 CONNECTED_TO::<a href="/garden/demo_user/organ/nerves/" class="internal-link">Nerves</a> (Motor neurons control voluntary muscle contraction via neuromuscular junctions, Evidence Level 1a)<br />
 CONNECTED_TO::<a href="/garden/demo_user/organ/joints/" class="internal-link">Joints</a> (Muscles cross joints and generate movement through tendon-bone attachments, Evidence Level 1a)<br />
 RELATED::<a href="/garden/demo_user/supplement/vitamin-b12/" class="internal-link">Vitamin B12</a> (Supports red blood cell production for oxygen delivery to working muscles, Evidence Level 2a)<br />
 RELATED::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a> (Iron in hemoglobin and myoglobin is essential for muscle oxygen transport and storage, Evidence Level 1b)<br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Protein Supplement</a> (Protein provides amino acids for muscle protein synthesis and repair, Evidence Level 1a)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (textbook reference)</li>
+</ul>
 
 {% endraw %}

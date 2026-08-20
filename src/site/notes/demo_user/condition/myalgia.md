@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.500616Z'
+created: 2026-01-03T17:55:38+0000
 description: Myalgia is the medical term for muscle pain or aching. It is a common
   symptom with a broad differential diagnosis spanning from benign self-limiting conditions
   to severe systemic diseases.
@@ -9,6 +9,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: myalgia
 permalink: /garden/demo_user/condition/myalgia/
+provenance: curated
 slug: myalgia
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Myalgia
 type: condition
-updated: '2026-06-13T17:47:11.500616Z'
+updated: '2026-08-20T04:08:29.723658Z'
 ---
 
 {% raw %}
@@ -48,11 +49,11 @@ updated: '2026-06-13T17:47:11.500616Z'
 </ol>
 <h2>Relationships</h2>
 <h3>Related Symptom</h3>
-<p>RELATED::<a href="/garden/demo_user/condition/pain/" class="internal-link">Pain</a></p>
+<p>RELATED::<a href="/garden/demo_user/phenotype/pain/" class="internal-link">Pain</a></p>
 <h3>Affected By Drug</h3>
 <p>RELATED::<a class="internal-link is-unresolved" href="/404">INDOMETHACIN</a></p>
 <h3>Correlated With Biomarker</h3>
-<p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/creatine-kinase/" class="internal-link">Creatine Kinase</a><br />
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/creatine-kinase/" class="internal-link">Creatine Kinase</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin D (25-OH)</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/magnesium-rbc/" class="internal-link">Magnesium Rbc</a></p>

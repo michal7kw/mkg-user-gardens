@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:10.895231Z'
+created: 2026-01-03T17:55:38+0000
 description: GrimAge is a second-generation epigenetic clock that uses DNA methylation
   patterns at 1,030 CpG sites to estimate biological age and predict mortality and
   healthspan. Developed by Steve Horvath's laboratory, it incorporates surrogate biomarkers
@@ -13,6 +13,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: grimage
 permalink: /garden/demo_user/biomarker/grimage/
+provenance: curated
 slug: grimage
 source: Manual
 tags:
@@ -25,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: GrimAge
 type: biomarker
-updated: '2026-06-13T17:47:10.895231Z'
+updated: '2026-08-20T04:08:28.730359Z'
 ---
 
 {% raw %}

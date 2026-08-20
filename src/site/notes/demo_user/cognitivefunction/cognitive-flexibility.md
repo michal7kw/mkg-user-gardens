@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.162346Z'
+created: 2026-05-27T12:00:00+0000
 description: Cognitive flexibility is the executive ability to shift between tasks,
   rules, or mental sets and to adapt behavior to changing demands. One of the three
   core executive functions, it is supported by prefrontal-striatal circuits and dopaminergic
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: cognitive_flexibility
 permalink: /garden/demo_user/cognitivefunction/cognitive-flexibility/
+provenance: curated
 slug: cognitive-flexibility
 source: PubMed
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Cognitive Flexibility
 type: cognitivefunction
-updated: '2026-06-13T17:47:11.162346Z'
+updated: '2026-08-20T04:08:29.230856Z'
 ---
 
 {% raw %}

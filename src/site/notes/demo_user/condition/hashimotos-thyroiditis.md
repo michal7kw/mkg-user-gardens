@@ -1,15 +1,18 @@
 ---
 aliases:
 - Hashimoto's Thyroiditis
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.395693Z'
+confidence_score: 0.9
+created: 2026-01-18T16:02:34+0000
 description: A chronic autoimmune disorder where the immune system attacks and gradually
   destroys the thyroid gland, leading to hypothyroidism.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: hashimotos_thyroiditis
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/hashimotos-thyroiditis/
+provenance: curated
 slug: hashimotos-thyroiditis
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Hashimotos Thyroiditis
 type: condition
-updated: '2026-06-13T17:47:11.395693Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -50,7 +53,6 @@ updated: '2026-06-13T17:47:11.395693Z'
 <li><strong>Monitoring</strong>: Regular TSH, Free T4, Free T3, and TPO antibody testing every 6-12 months</li>
 </ul>
 <h2>Relationships</h2>
-<p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/thyroid/" class="internal-link">Thyroid</a></p>
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/tsh/" class="internal-link">tsh</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/free-t4/" class="internal-link">Free T4</a><br />
@@ -63,5 +65,12 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class=
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/inositol/" class="internal-link">Inositol</a></p>
+<h2>References</h2>
+<ul>
+<li>Caturegli P, De Remigis A, Rose NR. Nat Rev Endocrinol. 2014;10(5):311-318. Hashimoto thyroiditis (review) (PMID: 24459526)</li>
+<li>Antonelli A, Ferrari SM, Corrado A, Di Domenicantonio A, Fallahi P. J Immunol Res. 2015;2015:295174. Autoimmune thyroid disorders (review) (PMID: 25815355)</li>
+<li>Mazokopakis EE, Papadakis JA, Papadomanolaki MG, et al. Thyroid. 2007;17(3):209-213. Selenium and Hashimoto thyroiditis (PMID: 17485826)</li>
+<li>Jonas MI, Kurylowicz A, Puzianowska-Kuznicka M. Front Endocrinol (Lausanne). 2022;13:846812. Vitamin D and autoimmune thyroid disease (review) (PMID: 35693857)</li>
+</ul>
 
 {% endraw %}

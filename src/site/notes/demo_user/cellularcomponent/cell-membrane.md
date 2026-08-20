@@ -1,15 +1,18 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.085726Z'
+created: 2026-03-05T00:00:00+0000
 description: Phospholipid bilayer forming the outer boundary of all cells. Selectively
   permeable barrier that regulates transport of ions, nutrients, and signaling molecules.
   Contains embedded proteins for signal transduction, cell adhesion, and molecular
   transport. Rich in cholesterol for fluidity regulation.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: cell_membrane
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/cellularcomponent/cell-membrane/
+provenance: curated
 slug: cell-membrane
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Cell Membrane
 type: cellularcomponent
-updated: '2026-06-13T17:47:11.085726Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -30,5 +33,10 @@ updated: '2026-06-13T17:47:11.085726Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>PART_OF::<a href="/garden/demo_user/cellularcomponent/mitochondria/" class="internal-link">Mitochondria</a></p>
+<h2>References</h2>
+<ul>
+<li>Alberts B, et al. Molecular Biology of the Cell. 6th ed. Garland Science; 2014 (textbook reference)</li>
+<li>Lodish H, et al. Molecular Cell Biology. 8th ed. W.H. Freeman; 2016 (textbook reference)</li>
+</ul>
 
 {% endraw %}

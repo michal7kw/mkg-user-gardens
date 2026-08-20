@@ -2,7 +2,7 @@
 aliases:
 - fecal calprotectin
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.337048Z'
+created: 2026-02-07T00:00:00+0000
 description: Fecal Calprotectin test. Non-invasive stool biomarker for intestinal
   inflammation. Differentiates inflammatory bowel disease from irritable bowel syndrome.
   Used for monitoring IBD disease activity and predicting relapse.
@@ -12,6 +12,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: test-fecal-calprotectin-001
 permalink: /garden/demo_user/labtest/fecal-calprotectin/
+provenance: curated
 slug: fecal-calprotectin
 source: Manual
 tags:
@@ -19,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: fecal_calprotectin
 type: labtest
-updated: '2026-06-13T17:47:12.337048Z'
+updated: '2026-08-20T04:08:30.637436Z'
 ---
 
 {% raw %}
@@ -45,6 +46,10 @@ updated: '2026-06-13T17:47:12.337048Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Stool</td>
 </tr>
@@ -55,6 +60,18 @@ updated: '2026-06-13T17:47:12.337048Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>

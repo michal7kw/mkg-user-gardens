@@ -1,6 +1,8 @@
 ---
+aliases:
+- ApoB
 confidence_score: 0.92
-created: '2026-06-13T17:47:10.719193Z'
+created: '2026-02-14T12:00:00+00:00'
 description: Apolipoprotein B (ApoB) is the structural protein present as a single
   copy on every atherogenic lipoprotein particle (VLDL, IDL, LDL, Lp(a)). Because
   each particle contains exactly one ApoB molecule, serum ApoB directly counts the
@@ -8,9 +10,12 @@ description: Apolipoprotein B (ApoB) is the structural protein present as a sing
   risk compared to LDL cholesterol alone.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: apob
+last_modified: 2026-06-21T00:00:00+0000
 permalink: /garden/demo_user/biomarker/apolipoprotein-b/
+provenance: curated
 slug: apolipoprotein-b
 source: Manual
 tags:
@@ -23,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Apolipoprotein B
 type: biomarker
-updated: '2026-06-13T17:47:10.719193Z'
+updated: 2026-06-21T00:00:00+0000
 ---
 
 {% raw %}
@@ -174,14 +179,20 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/myocardial-infar
 <p>PREDICTS_RISK::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />
 PREDICTS_RISK::<a href="/garden/demo_user/condition/myocardial-infarction/" class="internal-link">Myocardial Infarction</a></p>
 <h3>Correlated With</h3>
-<p>CORRELATED_WITH::<a href="/garden/demo_user/biomarker/vldl/" class="internal-link">Vldl</a><br />
+<p>CORRELATED_WITH::<a href="/garden/demo_user/labtest/vldl/" class="internal-link">Vldl</a><br />
 CORRELATED_WITH::<a href="/garden/demo_user/labtest/total-cholesterol/" class="internal-link">Total Cholesterol</a><br />
 CORRELATED_WITH::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="internal-link">LDL Cholesterol</a><br />
 CORRELATED_WITH::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">Triglycerides</a></p>
 <h3>Affected By Supplement</h3>
 <p>AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/niacin/" class="internal-link">Niacin</a><br />
 AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
-AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/berberine/" class="internal-link">Berberine</a></p>
+AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/berberine/" class="internal-link">Berberine</a><br />
+AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/bergamot/" class="internal-link">Bergamot</a><br />
+AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/plant-sterols/" class="internal-link">Plant Sterols</a><br />
+AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/soluble-fiber/" class="internal-link">Soluble Fiber</a></p>
+<h3>Improved By Intervention</h3>
+<p>IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/mediterranean-diet/" class="internal-link">Mediterranean Diet</a><br />
+IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/anti-inflammatory-diet/" class="internal-link">Anti-Inflammatory Diet</a></p>
 <h2>References</h2>
 <ul>
 <li>Sniderman AD et al. <em>J Am Coll Cardiol.</em> 2019;74(4):525-535 -- ApoB and cardiovascular risk: consensus statement (PMID: 31319918)</li>

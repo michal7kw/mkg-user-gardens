@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:11.640140Z'
+created: 2026-05-27T12:00:00+0000
 description: Schizophrenia is a chronic psychiatric disorder characterized by positive
   symptoms (hallucinations, delusions), negative symptoms (avolition, flattened affect),
   and cognitive impairment. Its neurobiology centers on dopamine dysregulation (mesolimbic
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: schizophrenia
 permalink: /garden/demo_user/condition/schizophrenia/
+provenance: curated
 slug: schizophrenia
 source: PubMed
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Schizophrenia
 type: condition
-updated: '2026-06-13T17:47:11.640140Z'
+updated: '2026-08-20T04:08:29.913608Z'
 ---
 
 {% raw %}

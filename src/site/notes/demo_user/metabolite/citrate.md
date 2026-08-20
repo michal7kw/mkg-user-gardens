@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.262808Z'
+created: 2026-01-22T12:00:00+0000
 description: Citrate is a six-carbon tricarboxylic acid and the first intermediate
   of the citric acid cycle, formed by the irreversible condensation of acetyl-CoA
   with oxaloacetate via citrate synthase. Beyond its central role in mitochondrial
@@ -14,6 +14,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: citrate
 permalink: /garden/demo_user/metabolite/citrate/
+provenance: curated
 pubchem_id: '311'
 slug: citrate
 source: Manual
@@ -28,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Citrate
 type: metabolite
-updated: '2026-06-13T17:47:13.262808Z'
+updated: '2026-08-20T04:08:31.128434Z'
 ---
 
 {% raw %}

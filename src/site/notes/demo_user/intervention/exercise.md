@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.98
-created: '2026-06-13T17:47:12.060863Z'
+created: 2026-01-22T12:00:00+0000
 description: Physical activity performed to improve or maintain physical fitness,
   health, and overall wellness. Encompasses aerobic (cardio), anaerobic (resistance),
   flexibility, and balance training. One of the most effective interventions for preventing
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: exercise
 permalink: /garden/demo_user/intervention/exercise/
+provenance: curated
 slug: exercise
 source: Manual
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Exercise
 type: intervention
-updated: '2026-06-13T17:47:12.060863Z'
+updated: '2026-08-20T04:08:30.375040Z'
 ---
 
 {% raw %}
@@ -62,7 +63,9 @@ updated: '2026-06-13T17:47:12.060863Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Affects Biomarker</h3>
-<p>INCREASES_BIOMARKER::<a href="/garden/demo_user/supplement/glutathione/" class="internal-link">Glutathione</a> (Evidence Level 3)<br />
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (Evidence Level 3)<br />
+DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (Evidence Level 3)<br />
+INCREASES_BIOMARKER::<a href="/garden/demo_user/supplement/glutathione/" class="internal-link">Glutathione</a> (Evidence Level 3)<br />
 INCREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hdl-cholesterol/" class="internal-link">Hdl</a> (Evidence Level 4)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a> (Evidence Level 3)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/interleukin-6/" class="internal-link">Interleukin 6</a> (Evidence Level 3)<br />
@@ -70,7 +73,7 @@ DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/tnf-alpha/" class="inter
 <!-- seeded: intervention coverage (mirror_intervention_edges_to_markdown.py) -->
 <p>INCREASES_BIOMARKER::<a href="/garden/demo_user/labtest/adiponectin/" class="internal-link">Adiponectin</a> (Evidence Level 3)<br />
 INCREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a> (Evidence Level 4)<br />
-DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/crp-hs/" class="internal-link">CRP (hs)</a> (Evidence Level 3)<br />
+DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">CRP (hs)</a> (Evidence Level 3)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/fibrinogen/" class="internal-link">Fibrinogen</a> (Evidence Level 3)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/gdf15/" class="internal-link">GDF15</a> (Evidence Level 3)<br />
 INCREASES_BIOMARKER::<a href="/garden/demo_user/labtest/hdl-cholesterol/" class="internal-link">HDL Cholesterol</a> (Evidence Level 4)<br />
@@ -82,7 +85,7 @@ RELATED::<a href="/garden/demo_user/intervention/sleep-optimization/" class="int
 RELATED::<a href="/garden/demo_user/intervention/cognitive-training/" class="internal-link">Cognitive Training</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/mild-cognitive-impairment/" class="internal-link">Mild Cognitive Impairment</a><br />
 MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/alpha-synuclein-aggregation/" class="internal-link">Alpha-Synuclein Aggregation</a><br />
-MODULATES_PATHWAY::<a class="internal-link is-unresolved" href="/404">Autophagy-Lysosomal Pathway</a><br />
+MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/autophagy-lysosomal-pathway/" class="internal-link">Autophagy-Lysosomal Pathway</a><br />
 RELATED::<a href="/garden/demo_user/intervention/mediterranean-diet/" class="internal-link">Mediterranean Diet</a><br />
 MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/neuroinflammation/" class="internal-link">Neuroinflammation</a></p>
 <h2>Research Support</h2>

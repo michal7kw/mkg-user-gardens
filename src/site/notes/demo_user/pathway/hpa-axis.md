@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.899651Z'
+created: 2026-04-01T00:00:00+0000
 description: The hypothalamic-pituitary-adrenal axis is the central stress response
   system. The hypothalamus releases CRH, which stimulates the anterior pituitary to
   secrete ACTH, which in turn triggers cortisol release from the adrenal cortex. Chronic
@@ -8,9 +8,12 @@ description: The hypothalamic-pituitary-adrenal axis is the central stress respo
   metabolic and immune dysfunction.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: hpa_axis
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/hpa-axis/
+provenance: curated
 slug: hpa-axis
 source: Manual
 tags:
@@ -22,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: HPA Axis
 type: pathway
-updated: '2026-06-13T17:47:13.899651Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -45,7 +48,7 @@ updated: '2026-06-13T17:47:13.899651Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+<p>RELATED::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
 RELATED::<a href="/garden/demo_user/pathway/circadian-rhythm-pathway/" class="internal-link">Circadian Rhythm Pathway</a></p>
 <h3>Modulated By Supplement</h3>
 <p>MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/phosphatidylserine/" class="internal-link">Phosphatidylserine</a><br />
@@ -54,8 +57,12 @@ MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/ashwagandha/" class="internal-link">Ashwagandha</a><br />
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/reishi/" class="internal-link">Reishi</a></p>
 <h3>Associated With</h3>
-<p>ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">hs-CRP</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">DHEA-S</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/dhea-s/" class="internal-link">DHEA-S</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

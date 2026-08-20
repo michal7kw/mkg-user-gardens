@@ -1,5 +1,5 @@
 ---
-created: '2026-06-13T17:47:11.990218Z'
+created: '2026-08-20T04:08:30.314913Z'
 description: Protect and rebuild joint cartilage, reduce joint inflammation, and maintain
   mobility with targeted collagen, anti-inflammatory, and cartilage-supporting supplements.
   Essential for active individuals, aging populations, and anyone with joint wear
@@ -10,6 +10,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: joint_health_stack
 permalink: /garden/demo_user/healthstack/joint-health/
+provenance: curated
 slug: joint-health
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Joint Health
 type: healthstack
-updated: '2026-06-13T17:47:11.990218Z'
+updated: '2026-08-20T04:08:30.314913Z'
 ---
 
 {% raw %}
@@ -56,14 +57,14 @@ updated: '2026-06-13T17:47:11.990218Z'
 <td>Provides building block for glycosaminoglycans in cartilage matrix — may slow cartilage loss</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Omega-3 Fish Oil</a></td>
+<td><a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fish Oil</a></td>
 <td>2000mg</td>
 <td>once daily</td>
 <td>with meals</td>
 <td>EPA/DHA reduce joint inflammation by competing with arachidonic acid (reduces PGE2, LTB4)</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Curcumin (with Piperine)</a></td>
+<td><a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin (with Piperine)</a></td>
 <td>1000mg</td>
 <td>once daily</td>
 <td>with meals</td>
@@ -91,7 +92,7 @@ updated: '2026-06-13T17:47:11.990218Z'
 </thead>
 <tbody>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">hs-CRP</a></td>
+<td><a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></td>
 <td>0-3.0</td>
 <td>0-1.0</td>
 <td>mg/L</td>
@@ -115,13 +116,13 @@ updated: '2026-06-13T17:47:11.990218Z'
 <h3>Contains Supplement</h3>
 <p>CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Collagen Peptides (Type II)</a><br />
 CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/glucosamine-sulfate/" class="internal-link">Glucosamine Sulfate</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Omega-3 Fish Oil</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Curcumin (with Piperine)</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fish Oil</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin (with Piperine)</a><br />
 CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a></p>
 <h2>Relationships</h2>
 <h3>Enriched</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/knee-osteoarthritis/" class="internal-link">Knee Osteoarthritis</a><br />
-ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
 INCLUDES_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a><br />
 INCLUDES_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a></p>

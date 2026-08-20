@@ -92,7 +92,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.166289Z'
+created: '2026-01-19T08:30:03.311812+00:00'
 description: Tested twice a year Alkaline phosphatase (ALP) is an enzyme found in
   the liver, bones, and other tissues that helps break down proteins and support growth.
   Abnormal ALP levels can point to conditions affecting the liver, bones, or nutrition
@@ -104,6 +104,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-alkaline-phosphatase-alp
 permalink: /garden/demo_user/labtest/alkaline-phosphatase-alp/
+provenance: curated
 slug: alkaline-phosphatase-alp
 source: Manual
 tags:
@@ -111,7 +112,7 @@ tags:
 templateEngineOverride: njk
 title: alkaline_phosphatase_alp
 type: labtest
-updated: '2026-06-13T17:47:12.166289Z'
+updated: '2026-08-20T04:08:30.465523Z'
 ---
 
 {% raw %}
@@ -137,6 +138,10 @@ updated: '2026-06-13T17:47:12.166289Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -148,6 +153,18 @@ updated: '2026-06-13T17:47:12.166289Z'
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -158,6 +175,8 @@ updated: '2026-06-13T17:47:12.166289Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/biomarker/alkaline-phosphatase/" class="internal-link">Alkaline Phosphatase</a></p>
 <h3>Related</h3>
 <p>RELATED::<a class="internal-link is-unresolved" href="/404">Biliary Obstruction Gallstones Tumors</a><br />
 RELATED::<a href="/garden/demo_user/condition/primary-sclerosing-cholangitis/" class="internal-link">Primary Sclerosing Cholangitis</a><br />

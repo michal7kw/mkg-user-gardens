@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.533105Z'
+created: 2026-04-01T10:00:00+0000
 description: Most common form of arthritis affecting over 300 million people worldwide.
   Degenerative joint disease involving cartilage loss, subchondral bone remodeling,
   osteophyte formation, and synovial inflammation. Now understood as a whole-joint
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: osteoarthritis
 permalink: /garden/demo_user/condition/osteoarthritis/
+provenance: curated
 slug: osteoarthritis
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Osteoarthritis
 type: condition
-updated: '2026-06-13T17:47:11.533105Z'
+updated: '2026-08-20T04:08:29.766584Z'
 ---
 
 {% raw %}
@@ -35,7 +36,7 @@ updated: '2026-06-13T17:47:11.533105Z'
 <p>RELATED::<a href="/garden/demo_user/condition/knee-osteoarthritis/" class="internal-link">Knee Osteoarthritis</a><br />
 RELATED::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a></p>
 <h3>Associated Biomarkers</h3>
-<p>ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h3>Improved By Supplement</h3>
 <p>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />

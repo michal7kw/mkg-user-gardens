@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:14.270456Z'
+confidence_score: 0.75
+created: 2026-01-03T17:55:41+0000
 description: Powerful carotenoid antioxidant derived from microalgae (Haematococcus
   pluvialis). One of nature's strongest antioxidants - 6000x more potent than vitamin
   C. Protects skin, eyes, and cardiovascular system.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 3
 gardenUsername: demo_user
 id: astaxanthin
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/astaxanthin/
+provenance: curated
 pubchem_id: '5281224'
 slug: astaxanthin
 source: Manual
@@ -24,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Astaxanthin
 type: supplement
-updated: '2026-06-13T17:47:14.270456Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -58,5 +60,11 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunctio
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/eyes/" class="internal-link">Eyes</a> (Accumulates in retina and ciliary body; protects against UV and blue light oxidative damage, Evidence Level 4a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/skin/" class="internal-link">Skin</a> (Protects against UV-induced photoaging; improves elasticity and hydration via membrane-spanning antioxidant activity, Evidence Level 4a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a> (Reduces lipid oxidation and improves cardiovascular markers including oxidized LDL and triglycerides, Evidence Level 3a)</p>
+<h2>References</h2>
+<ul>
+<li>Ambati RR, et al. Mar Drugs. 2014;12(1):128-152. Astaxanthin (review) (PMID: 24402174)</li>
+<li>Kishimoto Y, et al. Mar Drugs. 2016;14(2):35. Astaxanthin and oxidative stress (PMID: 26891274)</li>
+<li>Donoso A, et al. Antioxidants (Basel). 2021;10(10):1625. Astaxanthin in exercise and sports (PMID: 34684230)</li>
+</ul>
 
 {% endraw %}

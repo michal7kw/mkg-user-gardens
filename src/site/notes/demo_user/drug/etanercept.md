@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.775613Z'
+created: 2026-04-01T10:00:00+0000
 description: Soluble TNF receptor fusion protein (brand Enbrel). Binds TNF-alpha and
   TNF-beta (lymphotoxin-alpha), preventing their interaction with cell surface TNF
   receptors. Unique mechanism as a decoy receptor rather than antibody.
@@ -10,6 +10,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: etanercept
 permalink: /garden/demo_user/drug/etanercept/
+provenance: curated
 slug: etanercept
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Etanercept
 type: drug
-updated: '2026-06-13T17:47:11.775613Z'
+updated: '2026-08-20T04:08:30.096102Z'
 ---
 
 {% raw %}
@@ -39,7 +40,7 @@ TREATS::<a href="/garden/demo_user/condition/psoriasis/" class="internal-link">P
 <h3>Targets</h3>
 <p>TARGETS::<a href="/garden/demo_user/labtest/tnf-alpha/" class="internal-link">TNF Alpha</a></p>
 <h3>Decreases Biomarker</h3>
-<p>DECREASES_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a><br />
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a><br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/esr/" class="internal-link">esr</a></p>
 <h2>References</h2>
 <ul>

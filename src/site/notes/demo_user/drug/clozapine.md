@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.755875Z'
+created: 2026-01-03T17:55:35+0000
 description: Atypical antipsychotic known for its superior efficacy in treatment-resistant
   schizophrenia. It requires strict monitoring due to the risk of agranulocytosis.
 dg-home: false
@@ -8,7 +8,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: clozapine
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/clozapine/
+provenance: curated
 slug: clozapine
 source: Manual
 tags:
@@ -21,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Clozapine
 type: drug
-updated: '2026-06-13T17:47:11.755875Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -42,12 +44,12 @@ updated: '2026-06-13T17:47:11.755875Z'
 <p>RELATED::<a href="/garden/demo_user/neurotransmitter/acetylcholine/" class="internal-link">Acetylcholine</a><br />
 RELATED::<a href="/garden/demo_user/condition/schizophrenia/" class="internal-link">Schizophrenia</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Choline salicylate</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Histamine H1 Receptor</a><br />
+RELATED::<a href="/garden/demo_user/protein/histamine-h1-receptor/" class="internal-link">Histamine H1 Receptor</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Myocarditis</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Agranulocytosis</a><br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Sodium sulfate</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Muscarinic Acetylcholine Receptor</a><br />
+RELATED::<a href="/garden/demo_user/protein/muscarinic-acetylcholine-receptor/" class="internal-link">Muscarinic Acetylcholine Receptor</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Dopamine D4 Receptor</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Sodium oxybate</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Gentamicin C1a</a><br />
@@ -59,7 +61,11 @@ RELATED::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal
 RELATED::<a class="internal-link is-unresolved" href="/404">Farnesyl thiopyrophosphate</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Octylphenoxy polyethoxyethanol</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">25-Dimethoxy-4-ethylthioamphetamine</a><br />
-RELATED::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Vinyl ether</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

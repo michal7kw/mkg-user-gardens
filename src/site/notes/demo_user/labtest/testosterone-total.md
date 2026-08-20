@@ -93,7 +93,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.825500Z'
+created: 2025-12-10T09:07:56+0000
 description: Measures total testosterone levels. Important for assessing hypogonadism,
   PCOS, and hormonal balance.
 dg-home: false
@@ -102,6 +102,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: test-testosterone-001
 permalink: /garden/demo_user/labtest/testosterone-total/
+provenance: curated
 slug: testosterone-total
 source: Manual
 tags:
@@ -109,7 +110,7 @@ tags:
 templateEngineOverride: njk
 title: testosterone_total
 type: labtest
-updated: '2026-06-13T17:47:12.825500Z'
+updated: '2026-08-20T04:08:30.919100Z'
 ---
 
 {% raw %}
@@ -135,6 +136,10 @@ updated: '2026-06-13T17:47:12.825500Z'
 <td>Sex Hormones</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -145,6 +150,18 @@ updated: '2026-06-13T17:47:12.825500Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>1-3 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$35-$75</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>

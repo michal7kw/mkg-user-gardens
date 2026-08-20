@@ -1,13 +1,16 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.696877Z'
+created: '2026-04-05T16:16:03.599576+00:00'
 description: Indigestible carbohydrate that supports gut health, glycemic control,
   and cholesterol reduction
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_fiber
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/dietary-fiber/
+provenance: curated
 slug: dietary-fiber
 source: dev_seeder
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Dietary Fiber
 type: nutrient
-updated: '2026-06-13T17:47:13.696877Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -48,22 +51,26 @@ updated: '2026-06-13T17:47:13.696877Z'
 <p>Excessive fiber intake, particularly when increased rapidly, can cause bloating, gas, abdominal cramping, and diarrhea. Very high fiber consumption may also impair mineral absorption (calcium, iron, zinc) by binding these minerals with phytates, though this is typically only significant in the context of otherwise poor mineral intake.</p>
 <h2>Relationships</h2>
 <ul>
-<li>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Colon</a></li>
+<li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/colon/" class="internal-link">Colon</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/pancreas/" class="internal-link">Pancreas</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="internal-link">LDL Cholesterol</a></li>
 <li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Blood Glucose</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">CRP (C-Reactive Protein)</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">CRP (C-Reactive Protein)</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/type-2-diabetes/" class="internal-link">Type 2 Diabetes</a></li>
-<li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Hyperlipidemia</a></li>
+<li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/hyperlipidemia/" class="internal-link">Hyperlipidemia</a></li>
 <li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Constipation</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/irritable-bowel-syndrome/" class="internal-link">Irritable Bowel Syndrome</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/nutrient/carbohydrate/" class="internal-link">Carbohydrate</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/nutrient/polyphenols/" class="internal-link">Polyphenols</a></li>
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a></li>
-<li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a></li>
+<li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a></li>
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

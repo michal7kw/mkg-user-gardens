@@ -1,5 +1,6 @@
 ---
-created: '2026-06-13T17:47:11.915523Z'
+confidence_score: 0.75
+created: '2026-08-20T04:08:30.245126Z'
 description: Exposure to ambient airborne pollutants including particulate matter
   (PM2.5, PM10), ozone (O3), nitrogen dioxide (NO2), and sulfur dioxide (SO2), driving
   systemic inflammation, oxidative stress, and increased risk of cardiovascular, respiratory,
@@ -9,7 +10,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: air_pollution
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/exposure/air-pollution/
+provenance: curated
 slug: air-pollution
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Air Pollution
 type: exposure
-updated: '2026-06-13T17:47:11.915523Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -80,5 +83,9 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/condition/chronic-obstructive-pulmon
 ASSOCIATED_WITH::<a href="/garden/demo_user/condition/lung-neoplasms/" class="internal-link">Lung Neoplasms</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/condition/carcinoma/" class="internal-link">Carcinoma</a></p>
+<h2>References</h2>
+<ul>
+<li>CDC. https://www.cdc.gov/niosh Environmental hazard references</li>
+</ul>
 
 {% endraw %}

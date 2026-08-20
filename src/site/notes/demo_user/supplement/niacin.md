@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:14.429948Z'
+created: '2026-04-01T19:57:35.472715+00:00'
 description: Essential B-vitamin (B3) and NAD+ precursor through the Preiss-Handler
   salvage pathway. Supports cellular energy production, sirtuin activity, and DNA
   repair. Available as nicotinic acid and nicotinamide forms.
@@ -10,6 +10,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: niacin
 permalink: /garden/demo_user/supplement/niacin/
+provenance: curated
 pubchem_id: '938'
 slug: niacin
 source: Manual
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Niacin
 type: supplement
-updated: '2026-06-13T17:47:14.429948Z'
+updated: '2026-08-20T04:08:31.997339Z'
 ---
 
 {% raw %}
@@ -78,7 +79,7 @@ updated: '2026-06-13T17:47:14.429948Z'
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/supplement/b-complex-vitamins/" class="internal-link">B-Complex Vitamins</a><br />
 RELATED::<a href="/garden/demo_user/supplement/thiamine/" class="internal-link">Thiamine</a><br />
-RELATED::<a href="/garden/demo_user/metabolite/nicotinamide-riboside/" class="internal-link">Nicotinamide Riboside</a><br />
+RELATED::<a href="/garden/demo_user/supplement/nicotinamide-riboside/" class="internal-link">Nicotinamide Riboside</a><br />
 RELATED::<a href="/garden/demo_user/metabolite/nadh/" class="internal-link">NADH</a><br />
 RELATED::<a href="/garden/demo_user/supplement/nmn/" class="internal-link">NMN</a><br />
 RELATED::<a href="/garden/demo_user/supplement/riboflavin/" class="internal-link">Riboflavin</a></p>
@@ -104,7 +105,7 @@ MODULATES::<a href="/garden/demo_user/protein/sirt1/" class="internal-link">SIRT
 <h3>Modulates Pathway</h3>
 <p>MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/nad-salvage-pathway/" class="internal-link">NAD_Salvage_Pathway</a></p>
 <h3>Targets Biomarker</h3>
-<p>TARGETS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">NAD</a><br />
+<p>TARGETS_BIOMARKER::<a href="/garden/demo_user/biomarker/nad/" class="internal-link">NAD</a><br />
 TARGETS_BIOMARKER::<a href="/garden/demo_user/biomarker/lp-pla2/" class="internal-link">Lp-PLA2</a><br />
 TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/apolipoprotein-b/" class="internal-link">apolipoprotein b</a></p>
 <h3>Affects Organ</h3>

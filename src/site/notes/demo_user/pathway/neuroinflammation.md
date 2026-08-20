@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.940531Z'
+created: 2026-01-24T12:00:00+0000
 description: The innate immune response within the central nervous system, involving
   activation of microglia and astrocytes. Chronic neuroinflammation contributes to
   neurodegeneration in AD, PD, MS, and other diseases.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: neuroinflammation
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/neuroinflammation/
+provenance: curated
 slug: neuroinflammation
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Neuroinflammation
 type: pathway
-updated: '2026-06-13T17:47:13.940531Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -48,7 +51,7 @@ RELATED::<a href="/garden/demo_user/condition/amyotrophic-lateral-sclerosis/" cl
 RELATED::<a href="/garden/demo_user/condition/oxidative-stress/" class="internal-link">Oxidative Stress</a><br />
 RELATED::<a href="/garden/demo_user/pathway/tau-phosphorylation/" class="internal-link">Tau Phosphorylation</a><br />
 RELATED::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimers Disease</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">IL-6</a><br />
+RELATED::<a href="/garden/demo_user/biomarker/interleukin-6/" class="internal-link">IL-6</a><br />
 RELATED::<a href="/garden/demo_user/condition/huntingtons-disease/" class="internal-link">Huntingtons Disease</a><br />
 RELATED::<a href="/garden/demo_user/intervention/sleep-optimization/" class="internal-link">Sleep Optimization</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Complement System</a><br />
@@ -71,5 +74,9 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/parkinsons-disea
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

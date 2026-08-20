@@ -1,5 +1,5 @@
 ---
-created: '2026-06-13T17:47:11.964371Z'
+created: '2026-08-20T04:08:30.297137Z'
 description: Target chronic low-grade inflammation, a root driver of cardiovascular
   disease, neurodegeneration, and accelerated aging. This stack combines omega-3 for
   resolvin production, curcumin for NF-kB inhibition, vitamin D for immune regulation,
@@ -10,6 +10,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: bbb3fe87-29de-4294-a288-f232675a5922
 permalink: /garden/demo_user/healthstack/anti-inflammation/
+provenance: curated
 slug: anti-inflammation
 source: Manual
 tags:
@@ -20,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Anti-Inflammation
 type: healthstack
-updated: '2026-06-13T17:47:11.964371Z'
+updated: '2026-08-20T04:08:30.297137Z'
 ---
 
 {% raw %}
@@ -41,21 +42,21 @@ updated: '2026-06-13T17:47:11.964371Z'
 </thead>
 <tbody>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Omega-3 Fish Oil</a></td>
+<td><a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fish Oil</a></td>
 <td>3000mg</td>
 <td>once daily</td>
 <td>with meals</td>
 <td>Produces resolvins and protectins that resolve inflammation</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Curcumin (with Piperine)</a></td>
+<td><a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin (with Piperine)</a></td>
 <td>1000mg</td>
 <td>once daily</td>
 <td>with meals</td>
 <td>Potent NF-kB inhibitor reducing inflammatory gene expression</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Vitamin D3</a></td>
+<td><a href="/garden/demo_user/nutrient/vitamin-d/" class="internal-link">Vitamin D3</a></td>
 <td>5000IU</td>
 <td>once daily</td>
 <td>with meals</td>
@@ -83,7 +84,7 @@ updated: '2026-06-13T17:47:11.964371Z'
 </thead>
 <tbody>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">hs-CRP</a></td>
+<td><a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></td>
 <td>0-3.0</td>
 <td>0-0.5</td>
 <td>mg/L</td>
@@ -112,13 +113,13 @@ updated: '2026-06-13T17:47:11.964371Z'
 <li>Longevity</li>
 </ul>
 <h3>Contains Supplement</h3>
-<p>CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Omega-3 Fish Oil</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Curcumin (with Piperine)</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Vitamin D3</a><br />
+<p>CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fish Oil</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin (with Piperine)</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/nutrient/vitamin-d/" class="internal-link">Vitamin D3</a><br />
 CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/quercetin/" class="internal-link">Quercetin</a></p>
 <h2>Relationships</h2>
 <h3>Enriched</h3>
-<p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+<p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/autoimmune-disease/" class="internal-link">Autoimmune Disease</a><br />
 INCLUDES_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a><br />
 INCLUDES_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />

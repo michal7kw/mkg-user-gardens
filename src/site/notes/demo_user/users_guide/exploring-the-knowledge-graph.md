@@ -1,13 +1,14 @@
 ---
 aliases:
 - 06_Exploring_the_Knowledge_Graph
-created: '2026-06-13T17:47:14.589421Z'
+created: '2026-08-20T04:08:32.163686Z'
 description: Visual graph exploration, search, BodyMap anatomy view, entity detail
   pages, and PathFinder
 dg-home: false
 dg-publish: true
 gardenUsername: demo_user
 permalink: /garden/demo_user/users_guide/exploring-the-knowledge-graph/
+provenance: curated
 slug: exploring-the-knowledge-graph
 tags:
 - users_guide
@@ -15,7 +16,7 @@ tags:
 templateEngineOverride: njk
 title: Exploring the Knowledge Graph
 type: users_guide
-updated: '2026-06-13T17:47:14.589421Z'
+updated: '2026-08-20T04:08:32.163686Z'
 ---
 
 {% raw %}

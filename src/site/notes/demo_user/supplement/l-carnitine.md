@@ -1,6 +1,9 @@
 ---
-confidence_score: 0.7
-created: '2026-06-13T17:47:14.364906Z'
+aliases:
+- Acetyl-L-Carnitine
+- ALCAR
+confidence_score: 0.8
+created: 2026-01-03T17:55:41+0000
 description: Amino acid derivative essential for fatty acid transport into mitochondria
   for energy production. Supports heart health, exercise performance, and cognitive
   function. Multiple forms for different applications.
@@ -9,7 +12,9 @@ dg-publish: true
 evidence_level: 3
 gardenUsername: demo_user
 id: l_carnitine
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/l-carnitine/
+provenance: curated
 pubchem_id: '10917'
 slug: l-carnitine
 source: Manual
@@ -23,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: L-Carnitine
 type: supplement
-updated: '2026-06-13T17:47:14.364906Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -45,8 +50,6 @@ updated: '2026-06-13T17:47:14.364906Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Lysine</a> (precursor amino acid for carnitine biosynthesis)<br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Methionine</a> (precursor amino acid for carnitine biosynthesis)</p>
 <h3>Affects Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a><br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a></p>
@@ -60,11 +63,17 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/diabetes/" class="in
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a> (cardiac muscle relies heavily on fatty acid oxidation for energy, Evidence Level 1a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a> (ALCAR supports acetylcholine synthesis and mitochondrial function in neurons, Evidence Level 1b)<br />
-AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Skeletal Muscle</a> (stores 95% of body carnitine for fatty acid oxidation, Evidence Level 1a)</p>
+AFFECTS_ORGAN::<a href="/garden/demo_user/organ/muscles/" class="internal-link">Muscles</a> (stores 95% of body carnitine for fatty acid oxidation, Evidence Level 1a)</p>
 <h3>Modulates Neurotransmitter</h3>
 <p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/acetylcholine/" class="internal-link">Acetylcholine</a> (ALCAR donates acetyl groups for acetylcholine synthesis, Evidence Level 2a)</p>
 <h3>Synergistic With</h3>
-<p>SYNERGISTIC_WITH::<a class="internal-link is-unresolved" href="/404">CoQ10</a> (both support mitochondrial energy production via complementary mechanisms, Evidence Level 2b)<br />
+<p>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">CoQ10</a> (both support mitochondrial energy production via complementary mechanisms, Evidence Level 2b)<br />
 SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/alpha-lipoic-acid/" class="internal-link">Alpha Lipoic Acid</a> (combined use supports mitochondrial function and reduces oxidative stress in aging, Evidence Level 2a)</p>
+<h2>References</h2>
+<ul>
+<li>Longo N, et al. Mol Genet Metab. 2016;118(2):79-85. Carnitine transport and metabolism (PMID: 26899768)</li>
+<li>DiNicolantonio JJ, et al. Mayo Clin Proc. 2013;88(10):1126-1135. L-carnitine in cardiovascular disease (review) (PMID: 24079600)</li>
+<li>Asadi M, et al. Clin Endocrinol (Oxf). 2020;93(2):161-168. L-carnitine in PCOS (PMID: 32291902)</li>
+</ul>
 
 {% endraw %}

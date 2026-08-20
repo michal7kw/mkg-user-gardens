@@ -92,7 +92,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.868938Z'
+created: '2026-01-19T08:30:01.271937+00:00'
 description: Thyroxine (T4) Freeis one of the main hormones made by the thyroid. It
   acts largely as a precursor, since most of it is later converted into T3, the more
   active form. Measuring free T4 shows how much thyroid hormone is being produced
@@ -103,6 +103,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-thyroxine-t4-free
 permalink: /garden/demo_user/labtest/thyroxine-t4-free/
+provenance: curated
 slug: thyroxine-t4-free
 source: Manual
 tags:
@@ -110,7 +111,7 @@ tags:
 templateEngineOverride: njk
 title: thyroxine_t4_free
 type: labtest
-updated: '2026-06-13T17:47:12.868938Z'
+updated: '2026-08-20T04:08:30.938614Z'
 ---
 
 {% raw %}
@@ -136,6 +137,10 @@ updated: '2026-06-13T17:47:12.868938Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -146,6 +151,18 @@ updated: '2026-06-13T17:47:12.868938Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -159,7 +176,7 @@ updated: '2026-06-13T17:47:12.868938Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a class="internal-link is-unresolved" href="/404">Chronic Illness Or Secondary Thyroid Dysfunction</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Hypothyroidism</a><br />
+RELATED::<a href="/garden/demo_user/condition/hypothyroidism/" class="internal-link">Hypothyroidism</a><br />
 RELATED::<a href="/garden/demo_user/condition/graves-disease/" class="internal-link">Graves Disease</a><br />
 RELATED::<a href="/garden/demo_user/condition/hashimotos-thyroiditis/" class="internal-link">Hashimotos Thyroiditis</a><br />
 RELATED::<a href="/garden/demo_user/condition/thyroid-storm/" class="internal-link">Thyroid Storm</a><br />

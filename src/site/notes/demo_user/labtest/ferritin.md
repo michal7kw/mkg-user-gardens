@@ -90,7 +90,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.339108Z'
+created: 2025-12-10T09:07:56+0000
 description: Measures iron stores. Key marker for iron deficiency and overload, also
   an acute phase reactant.
 dg-home: false
@@ -99,6 +99,7 @@ evidence_level: 0
 gardenUsername: demo_user
 id: test-ferritin-001
 permalink: /garden/demo_user/labtest/ferritin/
+provenance: curated
 slug: ferritin
 source: Manual
 tags:
@@ -106,7 +107,7 @@ tags:
 templateEngineOverride: njk
 title: ferritin
 type: labtest
-updated: '2026-06-13T17:47:12.339108Z'
+updated: '2026-08-20T04:08:30.641472Z'
 ---
 
 {% raw %}
@@ -131,6 +132,10 @@ updated: '2026-06-13T17:47:12.339108Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -141,6 +146,10 @@ updated: '2026-06-13T17:47:12.339108Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
 </tr>
 </tbody>
 </table>
@@ -157,11 +166,13 @@ updated: '2026-06-13T17:47:12.339108Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/labtest/ferritin/" class="internal-link">Ferritin</a></p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/labtest/iron-panel/" class="internal-link">iron panel</a></p>
 <h3>Enriched</h3>
 <p>INDICATES::<a href="/garden/demo_user/condition/iron-deficiency-anemia/" class="internal-link">Iron Deficiency Anemia</a><br />
-INDICATES::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
+INDICATES::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

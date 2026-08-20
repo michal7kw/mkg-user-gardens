@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.726832Z'
+created: 2026-01-03T17:55:38+0000
 description: Tricyclic antidepressant (TCA) that inhibits the reuptake of serotonin
   and norepinephrine. Widely used for depression, neuropathic pain, and migraine prophylaxis.
 dg-home: false
@@ -8,7 +8,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: amitriptyline
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/amitriptyline/
+provenance: curated
 slug: amitriptyline
 source: Manual
 tags:
@@ -19,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Amitriptyline
 type: drug
-updated: '2026-06-13T17:47:11.726832Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -49,17 +51,21 @@ RELATED::<a class="internal-link is-unresolved" href="/404">Insulin glargine</a>
 RELATED::<a class="internal-link is-unresolved" href="/404">NET</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">1-2-Phenylethyl-4-phenyl-4-acetoxypiperidine</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Sodium ascorbate</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Neuropathic Pain</a><br />
+RELATED::<a href="/garden/demo_user/condition/neuropathic-pain/" class="internal-link">Neuropathic Pain</a><br />
 TREATS::<a href="/garden/demo_user/condition/fibromyalgia/" class="internal-link">Fibromyalgia</a><br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/norepinephrine/" class="internal-link">Norepinephrine</a><br />
 TREATS::<a href="/garden/demo_user/condition/insomnia/" class="internal-link">Insomnia</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Muscarinic Acetylcholine Receptor</a><br />
+RELATED::<a href="/garden/demo_user/protein/muscarinic-acetylcholine-receptor/" class="internal-link">Muscarinic Acetylcholine Receptor</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Botulinum Toxin Type B</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">MAOI</a><br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
 RELATED::<a href="/garden/demo_user/protein/sert/" class="internal-link">SERT</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Nitrous oxide</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Alcohol</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Histamine H1 Receptor</a></p>
+RELATED::<a href="/garden/demo_user/protein/histamine-h1-receptor/" class="internal-link">Histamine H1 Receptor</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

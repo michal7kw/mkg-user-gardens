@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.423123Z'
+confidence_score: 0.8
+created: 2026-01-18T16:02:34+0000
 description: A broad category of conditions where the immune system is either underactive
   (deficiency) or overactive (dysfunction/autoimmunity/allergy).
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: immune_system_disorder
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/immune-system-disorder/
+provenance: curated
 slug: immune-system-disorder
 source: Manual
 tags:
@@ -17,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: Immune System Disorder
 type: condition
-updated: '2026-06-13T17:47:11.423123Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -52,5 +55,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-c/" class=
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/glutathione/" class="internal-link">Glutathione</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/probiotics/" class="internal-link">Probiotics</a></p>
+<h2>References</h2>
+<ul>
+<li>Chinen J, Shearer WT. J Allergy Clin Immunol. 2010;125(2 Suppl 2):S195-S203. Secondary immunodeficiencies (review) (PMID: 20176482)</li>
+<li>Picard C, Al-Herz W, Bousfiha A, et al. J Clin Immunol. 2015;35(7):596-626. Primary immunodeficiency diseases (IUIS classification) (PMID: 26238836)</li>
+<li>Lenardo M, Lo B, Lopez-Nieto CE. Nat Rev Immunol. 2021;21(8):477-488. Human immune disorders (review)</li>
+</ul>
 
 {% endraw %}

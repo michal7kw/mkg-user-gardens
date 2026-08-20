@@ -1,13 +1,16 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.691272Z'
+created: '2026-04-05T16:16:24.646058+00:00'
 description: Trace mineral that enhances insulin signaling and glucose uptake. Involved
   in macronutrient metabolism via chromodulin complex activation of insulin receptor.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_chromium
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/chromium/
+provenance: curated
 slug: chromium
 source: dev_seeder
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Chromium
 type: nutrient
-updated: '2026-06-13T17:47:13.691272Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -60,11 +63,15 @@ updated: '2026-06-13T17:47:13.691272Z'
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/type-2-diabetes/" class="internal-link">Type 2 Diabetes</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/insulin-resistance/" class="internal-link">Insulin Resistance</a></li>
-<li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></li>
+<li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/nutrient/carbohydrate/" class="internal-link">Carbohydrate</a></li>
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a></li>
 <li>RELATED::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

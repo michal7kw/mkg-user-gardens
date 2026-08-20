@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.589764Z'
+created: 2026-04-01T10:00:00+0000
 description: Idiopathic inflammatory myopathy causing symmetric proximal muscle weakness
   without characteristic skin findings. CD8+ T-cell mediated attack on muscle fibers.
   Increasingly recognized as overlapping with antisynthetase syndrome.
@@ -10,6 +10,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: polymyositis
 permalink: /garden/demo_user/condition/polymyositis/
+provenance: curated
 slug: polymyositis
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Polymyositis
 type: condition
-updated: '2026-06-13T17:47:11.589764Z'
+updated: '2026-08-20T04:08:29.837570Z'
 ---
 
 {% raw %}
@@ -34,14 +35,14 @@ updated: '2026-06-13T17:47:11.589764Z'
 <p>RELATED::<a href="/garden/demo_user/condition/myositis/" class="internal-link">Myositis</a><br />
 RELATED::<a href="/garden/demo_user/condition/dermatomyositis/" class="internal-link">Dermatomyositis</a></p>
 <h3>Associated Biomarkers</h3>
-<p>ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h3>Improved By Supplement</h3>
 <p>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/creatine/" class="internal-link">Creatine</a></p>
 <h3>Improved By Intervention</h3>
 <p>IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/exercise/" class="internal-link">Exercise</a><br />
-IMPROVED_BY_INTERVENTION::<a class="internal-link is-unresolved" href="/404">Physical Therapy</a></p>
+IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/physical-therapy/" class="internal-link">Physical Therapy</a></p>
 <h2>References</h2>
 <ul>
 <li>PMID:26293789</li>

@@ -8,13 +8,21 @@ country_regulatory:
       Lirca
     prescription_type: RR
     reimbursement_class: A
+  pl:
+    agency_status: approved
+    atc_code: M04AC01
+    notes: EMA/URPL-recognised but availability in Poland has historically been limited
+      (no widely marketed domestic product; sometimes supplied via targeted import
+      / import docelowy); not on the NFZ reimbursement list; Polish name kolchicyna
+    prescription_type: Rp
+    reimbursement_class: 100% (nierefundowany)
   uk:
     agency_status: MHRA-approved
     atc_code: M04AC01
     notes: BNF; for acute gout and prophylaxis
     prescription_type: POM
     reimbursement_class: NHS
-created: '2026-06-13T17:47:11.758392Z'
+created: 2026-04-01T10:00:00+0000
 description: Ancient plant alkaloid from Colchicum autumnale. Inhibits microtubule
   polymerization, disrupting neutrophil chemotaxis and NLRP3 inflammasome activation.
   First-line for acute gout flares and prophylaxis during urate-lowering therapy initiation.
@@ -24,6 +32,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: colchicine
 permalink: /garden/demo_user/drug/colchicine/
+provenance: curated
 slug: colchicine
 source: Manual
 tags:
@@ -34,7 +43,7 @@ tags:
 templateEngineOverride: njk
 title: Colchicine
 type: drug
-updated: '2026-06-13T17:47:11.758392Z'
+updated: '2026-08-20T04:08:30.078717Z'
 ---
 
 {% raw %}
@@ -46,7 +55,7 @@ updated: '2026-06-13T17:47:11.758392Z'
 <h3>Treats</h3>
 <p>TREATS::<a href="/garden/demo_user/condition/gouty-arthritis/" class="internal-link">Gouty Arthritis</a></p>
 <h3>Affects Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h2>References</h2>
 <ul>
 <li>PMID:21480190</li>

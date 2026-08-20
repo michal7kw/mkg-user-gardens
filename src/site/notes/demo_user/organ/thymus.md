@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:13.838675Z'
+confidence_score: 0.85
+created: 2026-05-16T00:00:00+0000
 description: Bilobed lymphoid organ situated in the upper anterior mediastinum, posterior
   to the sternum, where T-lymphocyte precursors from bone marrow undergo positive
   and negative selection to produce a self-tolerant, pathogen-reactive T-cell repertoire.
@@ -9,9 +9,12 @@ description: Bilobed lymphoid organ situated in the upper anterior mediastinum, 
   adaptive immunity and central tolerance.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: thymus
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/organ/thymus/
+provenance: curated
 slug: thymus
 source: Manual
 tags:
@@ -23,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Thymus
 type: organ
-updated: '2026-06-13T17:47:13.838675Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -45,6 +48,11 @@ updated: '2026-06-13T17:47:13.838675Z'
 <h2>Sources</h2>
 <ul>
 <li>Janeway's Immunobiology, 9th ed., Chapter 8</li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Miller JF. Immunol Rev. 2002;185:7-14. Thymus (review) (PMID: 12141211)</li>
+<li>Boyd RL, et al. Immunol Today. 1993;14(9):445-459. Thymic microenvironment (PMID: 8253934)</li>
 </ul>
 
 {% endraw %}

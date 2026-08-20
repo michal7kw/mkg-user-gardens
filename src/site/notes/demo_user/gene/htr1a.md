@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.937424Z'
+created: 2026-04-01T12:00:00+0000
 description: Gene encoding the serotonin 1A receptor (5-HT1A), a key inhibitory GPCR
   involved in mood regulation, anxiety, and antidepressant response. The rs6295 C/G
   promoter polymorphism (C-1019G) modulates receptor expression and is associated
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: htr1a
 permalink: /garden/demo_user/gene/htr1a/
+provenance: curated
 slug: htr1a
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: HTR1A
 type: gene
-updated: '2026-06-13T17:47:11.937424Z'
+updated: '2026-08-20T04:08:30.273752Z'
 ---
 
 {% raw %}
@@ -64,7 +65,7 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/post-traumatic-s
 <h3>Associated Biomarker</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
 <h3>Pathway</h3>
 <p>PARTICIPATES_IN_PATHWAY::<a href="/garden/demo_user/pathway/raphe-serotonin-pathway/" class="internal-link">Raphe Serotonin Pathway</a></p>
 <h2>References</h2>

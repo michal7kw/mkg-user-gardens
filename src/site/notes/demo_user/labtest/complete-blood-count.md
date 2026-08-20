@@ -92,7 +92,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.268308Z'
+created: 2025-12-10T09:07:56+0000
 description: Measures red blood cells, white blood cells, hemoglobin, hematocrit,
   and platelets. Essential for detecting anemia, infection, and blood disorders.
 dg-home: false
@@ -101,6 +101,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: test-cbc-001
 permalink: /garden/demo_user/labtest/complete-blood-count/
+provenance: curated
 slug: complete-blood-count
 source: Manual
 tags:
@@ -108,7 +109,7 @@ tags:
 templateEngineOverride: njk
 title: complete_blood_count
 type: labtest
-updated: '2026-06-13T17:47:12.268308Z'
+updated: '2026-08-20T04:08:30.578068Z'
 ---
 
 {% raw %}
@@ -134,6 +135,10 @@ updated: '2026-06-13T17:47:12.268308Z'
 <td>Cbc</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -144,6 +149,18 @@ updated: '2026-06-13T17:47:12.268308Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>1-2 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$15-$45</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -167,15 +184,15 @@ updated: '2026-06-13T17:47:12.268308Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
-<h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/biomarker/wbc/" class="internal-link">Wbc</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/rbc/" class="internal-link">Rbc</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/platelets/" class="internal-link">Platelets</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/mcv/" class="internal-link">Mcv</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/mchc/" class="internal-link">Mchc</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/mch/" class="internal-link">Mch</a><br />
-RELATED::<a href="/garden/demo_user/labtest/hemoglobin/" class="internal-link">hemoglobin</a><br />
-RELATED::<a href="/garden/demo_user/labtest/hematocrit/" class="internal-link">hematocrit</a></p>
+<h3>Includes Test</h3>
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/white-blood-cell-count/" class="internal-link">white_blood_cell_count</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/red-blood-cell-count/" class="internal-link">red_blood_cell_count</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/hemoglobin/" class="internal-link">hemoglobin</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/hematocrit/" class="internal-link">hematocrit</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/platelet-count/" class="internal-link">platelet_count</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/mean-corpuscular-volume-mcv/" class="internal-link">mean_corpuscular_volume_mcv</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/mean-corpuscular-hemoglobin-mch/" class="internal-link">mean_corpuscular_hemoglobin_mch</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/mean-corpuscular-hemoglobin-concentration-mchc/" class="internal-link">mean_corpuscular_hemoglobin_concentration_mchc</a></p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

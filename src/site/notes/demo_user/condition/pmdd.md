@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.548260Z'
+created: 2026-04-01T12:00:00+0000
 description: Severe mood disorder triggered by luteal phase hormonal changes, characterized
   by marked affective lability, irritability, depressed mood, and anxiety in the 1-2
   weeks before menstruation. Affects 3-8% of menstruating women. Unique SSRI pharmacology
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: pmdd
 permalink: /garden/demo_user/condition/pmdd/
+provenance: curated
 slug: pmdd
 source: Manual
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: PMDD
 type: condition
-updated: '2026-06-13T17:47:11.548260Z'
+updated: '2026-08-20T04:08:29.824388Z'
 ---
 
 {% raw %}
@@ -133,7 +134,7 @@ RELATED::<a href="/garden/demo_user/condition/menopause/" class="internal-link">
 <h3>Improved By Supplement</h3>
 <p>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-b6/" class="internal-link">Vitamin B6</a><br />
-IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a><br />
+IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a><br />
 IMPROVED_BY_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Vitex Agnus-Castus</a></p>
 <h3>Improved By Intervention</h3>
 <p>IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/exercise/" class="internal-link">Exercise</a><br />

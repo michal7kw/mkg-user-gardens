@@ -92,7 +92,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.512185Z'
+created: 2025-12-10T09:07:56+0000
 description: Measures total cholesterol, LDL, HDL, and triglycerides. Essential for
   cardiovascular risk assessment.
 dg-home: false
@@ -101,6 +101,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: test-lipid-001
 permalink: /garden/demo_user/labtest/lipid-panel-standard/
+provenance: curated
 slug: lipid-panel-standard
 source: Manual
 tags:
@@ -108,7 +109,7 @@ tags:
 templateEngineOverride: njk
 title: lipid_panel_standard
 type: labtest
-updated: '2026-06-13T17:47:12.512185Z'
+updated: '2026-08-20T04:08:30.759029Z'
 ---
 
 {% raw %}
@@ -134,6 +135,10 @@ updated: '2026-06-13T17:47:12.512185Z'
 <td>Lipid Panel</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -144,6 +149,18 @@ updated: '2026-06-13T17:47:12.512185Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>1-2 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$25-$55</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -167,7 +184,7 @@ updated: '2026-06-13T17:47:12.512185Z'
 <li><a href="/garden/demo_user/biomarker/ldl-cholesterol/" class="internal-link">Ldl</a></li>
 <li><a href="/garden/demo_user/biomarker/hdl-cholesterol/" class="internal-link">Hdl</a></li>
 <li><a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a></li>
-<li><a href="/garden/demo_user/biomarker/vldl/" class="internal-link">Vldl</a></li>
+<li><a href="/garden/demo_user/labtest/vldl/" class="internal-link">Vldl</a></li>
 </ul>
 <h2>Recommended For</h2>
 <h3>Supplement Monitoring</h3>
@@ -177,12 +194,12 @@ updated: '2026-06-13T17:47:12.512185Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
-<h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/biomarker/hdl-cholesterol/" class="internal-link">Hdl</a><br />
-RELATED::<a href="/garden/demo_user/labtest/total-cholesterol/" class="internal-link">Total Cholesterol</a><br />
-RELATED::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/ldl-cholesterol/" class="internal-link">Ldl</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/vldl/" class="internal-link">Vldl</a></p>
+<h3>Includes Test</h3>
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/total-cholesterol/" class="internal-link">total_cholesterol</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="internal-link">ldl_cholesterol</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/hdl-cholesterol/" class="internal-link">hdl_cholesterol</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/vldl/" class="internal-link">vldl</a></p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

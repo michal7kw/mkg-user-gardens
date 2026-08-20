@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.412899Z'
+created: 2025-12-10T09:07:57+0000
 description: Calculated from fasting glucose and insulin. Quantifies insulin resistance.
 dg-home: false
 dg-publish: true
@@ -8,6 +8,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: test-homa-ir-001
 permalink: /garden/demo_user/labtest/homa-ir/
+provenance: curated
 slug: homa-ir
 source: Manual
 tags:
@@ -15,7 +16,7 @@ tags:
 templateEngineOverride: njk
 title: homa_ir
 type: labtest
-updated: '2026-06-13T17:47:12.412899Z'
+updated: '2026-08-20T04:08:30.698525Z'
 ---
 
 {% raw %}
@@ -41,6 +42,10 @@ updated: '2026-06-13T17:47:12.412899Z'
 <td>Bmp</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -51,6 +56,18 @@ updated: '2026-06-13T17:47:12.412899Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>1-3 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$35-$75</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>

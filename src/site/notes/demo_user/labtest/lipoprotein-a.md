@@ -83,7 +83,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.519760Z'
+created: 2025-12-10T09:07:56+0000
 description: Measures Lp(a), a genetically determined cardiovascular risk factor.
   Testing once in lifetime recommended.
 dg-home: false
@@ -92,6 +92,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: test-lpa-001
 permalink: /garden/demo_user/labtest/lipoprotein-a/
+provenance: curated
 slug: lipoprotein-a
 source: Manual
 tags:
@@ -99,7 +100,7 @@ tags:
 templateEngineOverride: njk
 title: lipoprotein_a
 type: labtest
-updated: '2026-06-13T17:47:12.519760Z'
+updated: '2026-08-20T04:08:30.762047Z'
 ---
 
 {% raw %}
@@ -125,6 +126,10 @@ updated: '2026-06-13T17:47:12.519760Z'
 <td>Lipid Panel</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -135,6 +140,18 @@ updated: '2026-06-13T17:47:12.519760Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>2-5 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$35-$85</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>

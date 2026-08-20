@@ -1,13 +1,16 @@
 ---
-confidence_score: 0
-created: '2026-06-13T17:47:11.636257Z'
+confidence_score: 0.85
+created: 2026-01-18T16:02:34+0000
 description: A progressive and generalized skeletal muscle disorder characterized
   by the age-related loss of muscle mass, strength, and function.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: sarcopenia
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/sarcopenia/
+provenance: curated
 slug: sarcopenia
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Sarcopenia
 type: condition
-updated: '2026-06-13T17:47:11.636257Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -50,7 +53,7 @@ updated: '2026-06-13T17:47:11.636257Z'
 <p>RELATED::<a href="/garden/demo_user/supplement/creatine/" class="internal-link">Creatine</a></p>
 <p>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Skeletal Muscle</a></p>
 <h3>Risk Biomarkers</h3>
-<p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/creatine-kinase/" class="internal-link">Creatine Kinase</a><br />
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/creatine-kinase/" class="internal-link">Creatine Kinase</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/albumin/" class="internal-link">albumin</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/igf-1/" class="internal-link">IGF-1</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin D (25-OH)</a><br />
@@ -61,5 +64,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class=
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/l-carnitine/" class="internal-link">L-Carnitine</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a></p>
+<h2>References</h2>
+<ul>
+<li>Cruz-Jentoft AJ, Bahat G, Bauer J, et al. Age Ageing. 2019;48(1):16-31. Sarcopenia: revised European consensus on definition and diagnosis (PMID: 30312372)</li>
+<li>Cruz-Jentoft AJ, Sayer AA. Lancet. 2019;393(10191):2636-2646. Sarcopenia (review) (PMID: 31171417)</li>
+<li>Fiatarone MA, O'Neill EF, Ryan ND, et al. N Engl J Med. 1994;330(25):1769-1775. Exercise training and nutritional supplementation for physical frailty (PMID: 8190155)</li>
+</ul>
 
 {% endraw %}

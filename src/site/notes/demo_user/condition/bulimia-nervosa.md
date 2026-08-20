@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.257000Z'
+created: 2026-04-01T12:00:00+0000
 description: Eating disorder characterized by recurrent episodes of binge eating followed
   by compensatory behaviors (self-induced vomiting, laxative misuse, excessive exercise,
   fasting). Prevalence 1-3% in young women. Serotonergic dysfunction is central to
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: bulimia_nervosa
 permalink: /garden/demo_user/condition/bulimia-nervosa/
+provenance: curated
 slug: bulimia-nervosa
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Bulimia Nervosa
 type: condition
-updated: '2026-06-13T17:47:11.257000Z'
+updated: '2026-08-20T04:08:29.388376Z'
 ---
 
 {% raw %}
@@ -82,7 +83,7 @@ updated: '2026-06-13T17:47:11.257000Z'
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a></p>
 <h3>Associated Biomarker</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
 <h3>Associated Gene</h3>
 <p>ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">SLC6A4</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/gene/htr2a/" class="internal-link">HTR2A</a></p>

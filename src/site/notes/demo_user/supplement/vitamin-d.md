@@ -1,6 +1,9 @@
 ---
+aliases:
+- Vitamin D3
+- Cholecalciferol
 confidence_score: 0.9
-created: '2026-06-13T17:47:14.531964Z'
+created: '2026-03-23T03:06:42.643108+00:00'
 description: Fat-soluble secosteroid hormone precursor essential for calcium absorption,
   immune modulation, gene expression, and neuromuscular function. Deficiency (<30
   ng/mL) affects an estimated 1 billion people worldwide and is linked to osteoporosis,
@@ -11,6 +14,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: vitamin_d
 permalink: /garden/demo_user/supplement/vitamin-d/
+provenance: curated
 pubchem_id: '5280795'
 slug: vitamin-d
 source: Manual
@@ -24,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Vitamin D
 type: supplement
-updated: '2026-06-13T17:47:14.531964Z'
+updated: '2026-08-20T04:08:32.092425Z'
 ---
 
 {% raw %}
@@ -61,10 +65,11 @@ updated: '2026-06-13T17:47:14.531964Z'
 MODULATES_HORMONE::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a><br />
 MODULATES_HORMONE::<a href="/garden/demo_user/hormone/thyroid-hormones/" class="internal-link">Thyroid Hormones</a></p>
 <h3>Affects Biomarker</h3>
-<p>INCREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin D (25-OH)</a> (Evidence Level 5)<br />
+<p>INCREASES_BIOMARKER::<a href="/garden/demo_user/labtest/testosterone-total/" class="internal-link">Testosterone Total</a> (Evidence Level 3)<br />
+INCREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin D (25-OH)</a> (Evidence Level 5)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin D (25-OH)</a><br />
-AFFECTS_BIOMARKER::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a><br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a><br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h3>May Improve Condition</h3>
 <p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/osteoporosis/" class="internal-link">Osteoporosis</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a><br />
@@ -73,11 +78,11 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/diabetes/" class="in
 <h3>Synergistic With</h3>
 <p>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-k2/" class="internal-link">Vitamin K2</a><br />
 SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
-SYNERGISTIC_WITH::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a><br />
+SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a><br />
 SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a></p>
 <h3>Targets Biomarker</h3>
 <p>TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/ctx/" class="internal-link">ctx</a><br />
-TARGETS_BIOMARKER::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a><br />
+TARGETS_BIOMARKER::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a><br />
 TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />
 TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/interleukin-6/" class="internal-link">Interleukin 6</a><br />
 TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/osteocalcin/" class="internal-link">osteocalcin</a><br />
@@ -94,8 +99,8 @@ AFFECTS_ORGAN::<a href="/garden/demo_user/organ/bones/" class="internal-link">Bo
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/muscles/" class="internal-link">Muscles</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/skin/" class="internal-link">Skin</a><br />
-MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
-MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 RELATED::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a><br />
 RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 REQUIRES_COFACTOR::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a></p>

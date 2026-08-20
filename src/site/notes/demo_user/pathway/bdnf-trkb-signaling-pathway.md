@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.88
-created: '2026-06-13T17:47:13.857441Z'
+created: 2026-05-27T12:00:00+0000
 description: Signaling cascade in which brain-derived neurotrophic factor (BDNF) binds
   its high-affinity receptor TrkB to activate MAPK, PI3K-Akt, and PLC-gamma pathways.
   It drives neuronal survival, neurogenesis, dendritic growth, and synaptic plasticity,
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: bdnf_trkb_signaling_pathway
 permalink: /garden/demo_user/pathway/bdnf-trkb-signaling-pathway/
+provenance: curated
 slug: bdnf-trkb-signaling-pathway
 source: PubMed
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: BDNF-TrkB Signaling Pathway
 type: pathway
-updated: '2026-06-13T17:47:13.857441Z'
+updated: '2026-08-20T04:08:31.470926Z'
 ---
 
 {% raw %}

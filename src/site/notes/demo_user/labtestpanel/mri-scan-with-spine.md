@@ -1,6 +1,9 @@
 ---
+aliases:
+- Mri Scan With Spine
+- mri scan with spine
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.154326Z'
+created: 2026-01-18T16:48:42+0000
 description: Everything in the MRI Scan, plus targeted spine coverage to screen for
   spinal lesions and tumors, herniated discs, cervical spinal stenosis, spondylosis,
   fractures, scoliosis, arthritis, and other degenerative changes.
@@ -9,6 +12,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-mri-scan-with-spine
 permalink: /garden/demo_user/labtestpanel/mri-scan-with-spine/
+provenance: curated
 slug: mri-scan-with-spine
 source: Manual
 tags:
@@ -16,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: mri_scan_with_spine
 type: labtestpanel
-updated: '2026-06-13T17:47:13.154326Z'
+updated: '2026-08-20T04:08:31.075030Z'
 ---
 
 {% raw %}

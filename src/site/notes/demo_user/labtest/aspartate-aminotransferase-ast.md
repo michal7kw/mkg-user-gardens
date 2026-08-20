@@ -92,7 +92,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.206620Z'
+created: '2026-01-19T08:30:03.355833+00:00'
 description: Tested twice a year Aspartate aminotransferase (AST) is an enzyme found
   throughout the body, especially in the liver, heart, and muscles. When these tissues
   are stressed or damaged, AST can be released into the bloodstream, so higher levels
@@ -105,6 +105,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-aspartate-aminotransferase-ast
 permalink: /garden/demo_user/labtest/aspartate-aminotransferase-ast/
+provenance: curated
 slug: aspartate-aminotransferase-ast
 source: Manual
 tags:
@@ -112,7 +113,7 @@ tags:
 templateEngineOverride: njk
 title: aspartate_aminotransferase_ast
 type: labtest
-updated: '2026-06-13T17:47:12.206620Z'
+updated: '2026-08-20T04:08:30.517596Z'
 ---
 
 {% raw %}
@@ -138,6 +139,10 @@ updated: '2026-06-13T17:47:12.206620Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -149,6 +154,18 @@ updated: '2026-06-13T17:47:12.206620Z'
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -159,6 +176,8 @@ updated: '2026-06-13T17:47:12.206620Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/biomarker/aspartate-aminotransferase/" class="internal-link">Aspartate Aminotransferase</a></p>
 <h3>Related</h3>
 <p>RELATED::<a class="internal-link is-unresolved" href="/404">Liver Inflammation Hepatitis Cirrhosis</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Muscle Injury Rhabdomyolysis Strenuous Exercise Trauma</a><br />

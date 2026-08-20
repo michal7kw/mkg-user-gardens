@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.304082Z'
+confidence_score: 0.8
+created: 2026-01-18T16:48:41+0000
 description: A deficit in intellectual functioning, including problems with memory,
   attention, language, thinking, and judgment.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: cognitive_dysfunction
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/cognitive-dysfunction/
+provenance: curated
 slug: cognitive-dysfunction
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Cognitive Dysfunction
 type: condition
-updated: '2026-06-13T17:47:11.304082Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -60,5 +63,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/lions-mane/" class
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/phosphatidylserine/" class="internal-link">Phosphatidylserine</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/creatine/" class="internal-link">Creatine</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/b-complex-vitamins/" class="internal-link">B-Complex Vitamins</a></p>
+<h2>References</h2>
+<ul>
+<li>Livingston G, Huntley J, Sommerlad A, et al. Lancet. 2020;396(10248):413-446. Dementia prevention, intervention, and care (Lancet Commission) (PMID: 32738937)</li>
+<li>Petersen RC. N Engl J Med. 2011;364(23):2227-2234. Mild cognitive impairment (review) (PMID: 21651394)</li>
+<li>Ngandu T, Lehtisalo J, Solomon A, et al. Lancet. 2015;385(9984):2255-2263. FINGER trial (PMID: 26065181)</li>
+</ul>
 
 {% endraw %}

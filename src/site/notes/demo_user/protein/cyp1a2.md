@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:14.111116Z'
+created: '2026-04-01T19:57:08.791542+00:00'
 description: Cytochrome P450 1A2, a major drug-metabolizing enzyme responsible for
   the metabolism of caffeine, theophylline, clozapine, and olanzapine. Uniquely inducible
   by smoking and dietary components (cruciferous vegetables, chargrilled meat) and
@@ -10,6 +10,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: cyp1a2
 permalink: /garden/demo_user/protein/cyp1a2/
+provenance: curated
 slug: cyp1a2
 source: Manual
 tags:
@@ -20,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: CYP1A2
 type: protein
-updated: '2026-06-13T17:47:14.111116Z'
+updated: '2026-08-20T04:08:31.652758Z'
 ---
 
 {% raw %}
@@ -48,7 +49,7 @@ RELATED::<a href="/garden/demo_user/drug/omeprazole/" class="internal-link">Omep
 RELATED::<a href="/garden/demo_user/drug/clozapine/" class="internal-link">Clozapine</a><br />
 RELATED::<a href="/garden/demo_user/drug/caffeine/" class="internal-link">Caffeine</a></p>
 <h3>Interacts With</h3>
-<p>INTERACTS_WITH::<a href="/garden/demo_user/gene/cyp3a4/" class="internal-link">CYP3A4</a></p>
+<p>INTERACTS_WITH::<a href="/garden/demo_user/protein/cyp3a4/" class="internal-link">CYP3A4</a></p>
 <h3>Inhibited By</h3>
 <p>INHIBITED_BY::<a href="/garden/demo_user/drug/fluvoxamine/" class="internal-link">Fluvoxamine</a></p>
 <h3>Modulated By Supplement</h3>

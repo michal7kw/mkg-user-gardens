@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.431766Z'
+created: 2026-03-05T00:00:00+0000
 description: L-Lactate is the conjugate base of lactic acid (C3H6O3) and a central
   metabolite that serves simultaneously as the end product of anaerobic glycolysis,
   a major oxidative fuel for heart and brain, and a signaling molecule with far-reaching
@@ -14,6 +14,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: lactate
 permalink: /garden/demo_user/metabolite/lactate/
+provenance: curated
 pubchem_id: '612'
 slug: lactate
 source: Manual
@@ -29,7 +30,7 @@ tags:
 templateEngineOverride: njk
 title: Lactate
 type: metabolite
-updated: '2026-06-13T17:47:13.431766Z'
+updated: '2026-08-20T04:08:31.176304Z'
 ---
 
 {% raw %}

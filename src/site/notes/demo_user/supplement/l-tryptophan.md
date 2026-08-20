@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:14.375886Z'
+created: 2026-01-03T17:55:41+0000
 description: Essential amino acid and precursor to serotonin and melatonin. The rate-limiting
   substrate for serotonin synthesis, commonly used to support mood, sleep, and stress
   resilience.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 2
 gardenUsername: demo_user
 id: l_tryptophan
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/l-tryptophan/
+provenance: curated
 pubchem_id: '6305'
 slug: l-tryptophan
 source: Manual
@@ -23,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: L-Tryptophan
 type: supplement
-updated: '2026-06-13T17:47:14.375886Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -53,7 +55,7 @@ INTERACTS_WITH::<a href="/garden/demo_user/drug/fluoxetine/" class="internal-lin
 <h3>Modulates Neurotransmitter</h3>
 <p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a></p>
 <h3>Affects Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
 <h3>May Improve Condition</h3>
 <p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/sleep-disorder/" class="internal-link">Sleep Disorder</a><br />
@@ -63,12 +65,18 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/anxiety/" class="int
 <h3>Precursor Of</h3>
 <p>PRECURSOR_OF::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a> (via tryptophan hydroxylase to 5-HTP then AADC to serotonin, Evidence Level 1a)<br />
 PRECURSOR_OF::<a href="/garden/demo_user/hormone/melatonin/" class="internal-link">Melatonin</a> (serotonin is further converted to melatonin in the pineal gland, Evidence Level 1a)<br />
-PRECURSOR_OF::<a class="internal-link is-unresolved" href="/404">NAD</a> (via the kynurenine pathway, Evidence Level 1a)</p>
+PRECURSOR_OF::<a href="/garden/demo_user/biomarker/nad/" class="internal-link">NAD</a> (via the kynurenine pathway, Evidence Level 1a)</p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a> (serotonin and melatonin synthesis for mood and sleep regulation, Evidence Level 1a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/gut/" class="internal-link">Gut</a> (enteric serotonin production regulates motility, Evidence Level 1b)</p>
 <h3>Requires Cofactor</h3>
 <p>REQUIRES_COFACTOR::<a href="/garden/demo_user/supplement/vitamin-b6/" class="internal-link">Vitamin B6</a> (cofactor for aromatic L-amino acid decarboxylase, Evidence Level 1a)<br />
 REQUIRES_COFACTOR::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a> (cofactor for tryptophan hydroxylase, Evidence Level 1a)</p>
+<h2>References</h2>
+<ul>
+<li>Richard DM, et al. Int J Tryptophan Res. 2009;2:45-60. Tryptophan (review) (PMID: 20651948)</li>
+<li>Lindseth G, et al. Adv Mind Body Med. 2015;29(2):22-26. Tryptophan and sleep</li>
+<li>Hudson C, et al. J Psychiatry Neurosci. 2008;33(5):417-422. Tryptophan depletion and depression (PMID: 18787665)</li>
+</ul>
 
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:13.767275Z'
+confidence_score: 0.85
+created: 2026-05-16T00:00:00+0000
 description: Soft, spongy tissue inside the central cavity of bones — the body's primary
   hematopoietic organ, responsible for producing red blood cells (via erythropoiesis),
   white blood cells (via myelopoiesis and lymphopoiesis), and platelets. Red marrow
@@ -10,9 +10,12 @@ description: Soft, spongy tissue inside the central cavity of bones — the body
   and differentiate under signals including erythropoietin, thrombopoietin, and G-CSF.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: bone_marrow
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/organ/bone-marrow/
+provenance: curated
 slug: bone-marrow
 source: Manual
 tags:
@@ -24,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Bone Marrow
 type: organ
-updated: '2026-06-13T17:47:13.767275Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -48,6 +51,11 @@ AFFECTS::<a href="/garden/demo_user/supplement/vitamin-b12/" class="internal-lin
 <h2>Sources</h2>
 <ul>
 <li>Anatomy &amp; Physiology, Saladin, 8th ed., Chapter 18</li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Crane GM, et al. Nat Rev Immunol. 2017;17(3):161-167. Bone marrow (review) (PMID: 28134257)</li>
+<li>Bianco P, et al. Cell Stem Cell. 2008;3(4):351-352. Bone marrow stromal cells (PMID: 18940727)</li>
 </ul>
 
 {% endraw %}

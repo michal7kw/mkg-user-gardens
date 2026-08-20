@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.339722Z'
+confidence_score: 0.85
+created: 2026-03-28T12:00:00+0000
 description: A chronic relapsing inflammatory skin disorder (atopic dermatitis) characterized
   by pruritus, dry skin, and impaired epidermal barrier function, often associated
   with the atopic triad (asthma, allergic rhinitis).
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: eczema
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/eczema/
+provenance: curated
 slug: eczema
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Eczema
 type: condition
-updated: '2026-06-13T17:47:11.339722Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -66,7 +69,13 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/probiotics/" class
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/interleukin-6/" class="internal-link">interleukin 6</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">hs crp</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/esr/" class="internal-link">esr</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">Vitamin_D_25-OH</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin_D_25-OH</a></p>
 <h3>Affects Organ</h3>
+<h2>References</h2>
+<ul>
+<li>Wollenberg A, Christen-Zach S, Taieb A, et al. J Eur Acad Dermatol Venereol. 2022;36(9):1409-1417. ETFAD/EADV Eczema management guidelines (PMID: 35475513)</li>
+<li>Weidinger S, Novak N. Lancet. 2016;387(10023):1109-1122. Atopic dermatitis (review) (PMID: 26377142)</li>
+<li>Simpson EL, Bieber T, Guttman-Yassky E, et al. N Engl J Med. 2016;375(24):2335-2348. Dupilumab in atopic dermatitis (LIBERTY AD SOLO) (PMID: 27690741)</li>
+</ul>
 
 {% endraw %}

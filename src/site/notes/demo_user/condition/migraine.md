@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.485768Z'
+created: '2026-04-01T19:57:10.179952+00:00'
 description: Recurrent neurovascular headache disorder characterized by moderate-to-severe
   pulsating pain, often unilateral, with nausea, photophobia, and phonophobia. Affects
   12% of the population (18% of women). Involves cortical spreading depression, trigeminovascular
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: migraine
 permalink: /garden/demo_user/condition/migraine/
+provenance: curated
 slug: migraine
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Migraine
 type: condition
-updated: '2026-06-13T17:47:11.485768Z'
+updated: '2026-08-20T04:08:29.700221Z'
 ---
 
 {% raw %}
@@ -62,7 +63,7 @@ RELATED::<a href="/garden/demo_user/condition/depression/" class="internal-link"
 <h3>Associated With</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/magnesium-rbc/" class="internal-link">magnesium rbc</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h3>Improved By Supplement</h3>
 <p>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a><br />

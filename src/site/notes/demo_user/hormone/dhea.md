@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:12.018487Z'
+created: 2026-03-05T00:00:00+0000
 description: Most abundant circulating steroid hormone, primarily produced by the
   adrenal cortex. Serves as a precursor to both testosterone and estrogen. Levels
   peak in early adulthood and decline ~2-3% per year, reaching 20% of peak by age
@@ -8,9 +8,12 @@ description: Most abundant circulating steroid hormone, primarily produced by th
   health, and neuroprotection.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: dhea
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/hormone/dhea/
+provenance: curated
 pubchem_id: '5881'
 slug: dhea
 source: Manual
@@ -24,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: DHEA
 type: hormone
-updated: '2026-06-13T17:47:12.018487Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -34,9 +37,13 @@ updated: '2026-06-13T17:47:12.018487Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a><br />
-RELATED::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+RELATED::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 RELATED::<a href="/garden/demo_user/hormone/estrogen/" class="internal-link">Estrogen</a><br />
 RELATED::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a><br />
 RELATED::<a href="/garden/demo_user/organ/bones/" class="internal-link">Bones</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

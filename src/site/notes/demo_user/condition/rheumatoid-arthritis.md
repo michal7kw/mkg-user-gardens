@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.628463Z'
+created: '2026-04-01T19:57:52.659375+00:00'
 description: Chronic systemic autoimmune disease causing inflammatory destruction
   of synovial joints. Affects 0.5-1% of the population. Driven by TNF-alpha, IL-6,
   and IL-1 mediated inflammation. Early aggressive treatment prevents irreversible
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: rheumatoid_arthritis
 permalink: /garden/demo_user/condition/rheumatoid-arthritis/
+provenance: curated
 slug: rheumatoid-arthritis
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Rheumatoid Arthritis
 type: condition
-updated: '2026-06-13T17:47:11.628463Z'
+updated: '2026-08-20T04:08:29.903973Z'
 ---
 
 {% raw %}
@@ -63,7 +64,7 @@ RELATED::<a href="/garden/demo_user/condition/knee-osteoarthritis/" class="inter
 <p>AFFECTED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/exercise/" class="internal-link">Exercise</a><br />
 AFFECTED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/anti-inflammatory-diet/" class="internal-link">Anti-Inflammatory Diet</a></p>
 <h3>Associated With</h3>
-<p>ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">hs-CRP</a><br />
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/tnf-alpha/" class="internal-link">tnf alpha</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/interleukin-6/" class="internal-link">interleukin 6</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/esr/" class="internal-link">esr</a></p>

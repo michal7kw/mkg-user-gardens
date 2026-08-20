@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.908434Z'
+created: 2026-04-01T12:00:00+0000
 description: Novel antidepressant (Viibryd) classified as a SPARI — Serotonin Partial
   Agonist-Reuptake Inhibitor. Combines SSRI activity (SERT inhibition) with 5-HT1A
   receptor partial agonism. FDA-approved for major depressive disorder (2011). Must
@@ -12,6 +12,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: vilazodone
 permalink: /garden/demo_user/drug/vilazodone/
+provenance: curated
 slug: vilazodone
 source: Manual
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Vilazodone
 type: drug
-updated: '2026-06-13T17:47:11.908434Z'
+updated: '2026-08-20T04:08:30.214546Z'
 ---
 
 {% raw %}
@@ -67,7 +68,7 @@ INHIBITS::<a href="/garden/demo_user/protein/sert/" class="internal-link">SERT</
 <h3>Treats</h3>
 <p>TREATS::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a></p>
 <h3>Metabolized By</h3>
-<p>METABOLIZED_BY::<a href="/garden/demo_user/gene/cyp3a4/" class="internal-link">CYP3A4</a></p>
+<p>METABOLIZED_BY::<a href="/garden/demo_user/protein/cyp3a4/" class="internal-link">CYP3A4</a></p>
 <h3>Modulates Neurotransmitter</h3>
 <p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a></p>
 <h3>Interacts With</h3>

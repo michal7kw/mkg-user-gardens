@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:13.904309Z'
+created: 2026-04-01T10:00:00+0000
 description: Interleukin-6 signals through classical (membrane-bound IL-6R) and trans
   (soluble IL-6R) pathways, activating JAK1/JAK2 and STAT3. Drives CRP production,
   acute phase response, B-cell differentiation, and Th17 polarization. Central to
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: il_6_signaling_pathway
 permalink: /garden/demo_user/pathway/il-6-signaling-pathway/
+provenance: curated
 slug: il-6-signaling-pathway
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: IL-6 Signaling Pathway
 type: pathway
-updated: '2026-06-13T17:47:13.904309Z'
+updated: '2026-08-20T04:08:31.510535Z'
 ---
 
 {% raw %}
@@ -35,7 +36,7 @@ updated: '2026-06-13T17:47:13.904309Z'
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/rheumatoid-arthritis/" class="internal-link">Rheumatoid Arthritis</a></p>
 <h3>Associated With</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/interleukin-6/" class="internal-link">Interleukin 6</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h3>Modulated By Supplement</h3>
 <p>MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a><br />
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a></p>

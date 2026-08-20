@@ -2,7 +2,7 @@
 aliases:
 - Fructose-16-Bisphosphate
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.344234Z'
+created: 2026-03-28T12:00:00+0000
 description: Fructose-1,6-bisphosphate (F1,6BP) is the product of the committed step
   of glycolysis, formed by phosphofructokinase-1 (PFK-1) phosphorylation of fructose-6-phosphate.
   It serves as a feedforward activator of pyruvate kinase, ensuring coordinated glycolytic
@@ -14,6 +14,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: fructose_1_6_bisphosphate
 permalink: /garden/demo_user/metabolite/fructose-16-bisphosphate/
+provenance: curated
 pubchem_id: '10267'
 slug: fructose-16-bisphosphate
 source: Manual
@@ -27,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Fructose-1,6-Bisphosphate
 type: metabolite
-updated: '2026-06-13T17:47:13.344234Z'
+updated: '2026-08-20T04:08:31.146261Z'
 ---
 
 {% raw %}

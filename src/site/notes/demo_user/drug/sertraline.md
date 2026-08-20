@@ -7,21 +7,32 @@ country_regulatory:
     notes: Reimbursed for depressive and anxiety disorders
     prescription_type: RR
     reimbursement_class: A
+  pl:
+    agency_status: approved
+    atc_code: N06AB06
+    notes: URPL/EMA-approved; reimbursed SSRI for depressive and anxiety disorders
+      on the NFZ list (odpłatność ryczałtowa/30% by indication); common brands Zoloft,
+      Asentra; Polish name sertralina
+    prescription_type: Rp
+    reimbursement_class: refundowany
   uk:
     agency_status: MHRA-approved
     atc_code: N06AB06
     notes: BNF; commonly a first-line SSRI on the NHS
     prescription_type: POM
     reimbursement_class: NHS
-created: '2026-06-13T17:47:11.890017Z'
+created: 2026-01-03T17:55:41+0000
 description: Selective serotonin reuptake inhibitor (SSRI) antidepressant. First-line
   treatment for depression, anxiety disorders, OCD, and PTSD. Well-studied with favorable
   safety profile.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: sertraline
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/sertraline/
+provenance: curated
 slug: sertraline
 source: Manual
 tags:
@@ -34,7 +45,7 @@ tags:
 templateEngineOverride: njk
 title: Sertraline
 type: drug
-updated: '2026-06-13T17:47:11.890017Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -61,7 +72,7 @@ TREATS::<a class="internal-link is-unresolved" href="/404">PTSD</a></p>
 MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a></p>
 <h3>Affects Brain Region</h3>
 <p>AFFECTS_BRAIN_REGION::<a class="internal-link is-unresolved" href="/404">Prefrontal Cortex</a><br />
-AFFECTS_BRAIN_REGION::<a href="/garden/demo_user/anatomy/raphe-nuclei/" class="internal-link">Raphe Nuclei</a><br />
+AFFECTS_BRAIN_REGION::<a href="/garden/demo_user/organ/raphe-nuclei/" class="internal-link">Raphe Nuclei</a><br />
 AFFECTS_BRAIN_REGION::<a class="internal-link is-unresolved" href="/404">Amygdala</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></p>
@@ -81,5 +92,9 @@ CAUSES::<a href="/garden/demo_user/sideeffect/ssri-discontinuation-syndrome/" cl
 CAUSES::<a href="/garden/demo_user/sideeffect/serotonin-syndrome/" class="internal-link">Serotonin Syndrome</a></p>
 <h3>Affects Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

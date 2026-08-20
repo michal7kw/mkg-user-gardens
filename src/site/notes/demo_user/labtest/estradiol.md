@@ -93,7 +93,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.323014Z'
+created: 2025-12-10T09:07:56+0000
 description: Primary estrogen in reproductive-age women. Important for fertility,
   menopause assessment, and hormone therapy monitoring.
 dg-home: false
@@ -102,6 +102,7 @@ evidence_level: 0
 gardenUsername: demo_user
 id: test-estradiol-001
 permalink: /garden/demo_user/labtest/estradiol/
+provenance: curated
 slug: estradiol
 source: Manual
 tags:
@@ -109,7 +110,7 @@ tags:
 templateEngineOverride: njk
 title: estradiol
 type: labtest
-updated: '2026-06-13T17:47:12.323014Z'
+updated: '2026-08-20T04:08:30.628158Z'
 ---
 
 {% raw %}
@@ -134,6 +135,10 @@ updated: '2026-06-13T17:47:12.323014Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -144,6 +149,10 @@ updated: '2026-06-13T17:47:12.323014Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
 </tr>
 </tbody>
 </table>

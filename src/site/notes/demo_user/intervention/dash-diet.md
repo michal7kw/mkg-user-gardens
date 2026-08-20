@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.058249Z'
+created: '2026-04-05T16:16:24.519999+00:00'
 description: Dietary Approaches to Stop Hypertension — emphasizes fruits, vegetables,
   whole grains, lean protein, and low-fat dairy while restricting sodium and saturated
   fat.
@@ -9,6 +9,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: intervention_dash
 permalink: /garden/demo_user/intervention/dash-diet/
+provenance: curated
 slug: dash-diet
 source: dev_seeder
 tags:
@@ -17,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: DASH Diet
 type: intervention
-updated: '2026-06-13T17:47:12.058249Z'
+updated: '2026-08-20T04:08:30.372534Z'
 ---
 
 {% raw %}

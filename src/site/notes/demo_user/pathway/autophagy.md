@@ -1,6 +1,8 @@
 ---
+aliases:
+- Autophagy-Lysosomal Pathway
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.854504Z'
+created: '2026-04-01T19:57:04.429656+00:00'
 description: Evolutionarily conserved cellular self-digestion process that degrades
   and recycles damaged organelles, misfolded proteins, and intracellular pathogens
   through lysosomal machinery, playing key roles in longevity, neurodegeneration,
@@ -10,7 +12,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: autophagy
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/autophagy/
+provenance: curated
 slug: autophagy
 source: Manual
 tags:
@@ -23,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Autophagy
 type: pathway
-updated: '2026-06-13T17:47:13.854504Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -69,6 +73,10 @@ ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">Neurodegener
 <h3>Protects Against</h3>
 <p>PROTECTS_AGAINST::<a href="/garden/demo_user/condition/mitochondrial-dysfunction/" class="internal-link">Mitochondrial Dysfunction</a></p>
 <h3>Longevity Mechanism</h3>
-<p>LONGEVITY_MECHANISM::<a class="internal-link is-unresolved" href="/404">Aging</a></p>
+<p>LONGEVITY_MECHANISM::<a href="/garden/demo_user/pathway/aging/" class="internal-link">Aging</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

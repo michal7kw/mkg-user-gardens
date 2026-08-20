@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.92
-created: '2026-06-13T17:47:13.489452Z'
+created: 2026-01-22T12:00:00+0000
 description: Nicotinamide riboside (NR) is a naturally occurring vitamin B3 form and
   direct NAD+ precursor that raises cellular NAD+ levels via the NRK salvage pathway.
   It bypasses the rate-limiting NAMPT enzyme used by nicotinamide and avoids the flushing
@@ -13,6 +13,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: nicotinamide_riboside
 permalink: /garden/demo_user/metabolite/nicotinamide-riboside/
+provenance: curated
 pubchem_id: '439924'
 slug: nicotinamide-riboside
 source: Manual
@@ -27,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Nicotinamide Riboside
 type: metabolite
-updated: '2026-06-13T17:47:13.489452Z'
+updated: '2026-08-20T04:08:31.196172Z'
 ---
 
 {% raw %}

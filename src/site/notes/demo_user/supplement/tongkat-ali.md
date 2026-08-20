@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:14.513678Z'
+created: 2026-03-05T00:00:00+0000
 description: Root extract of Eurycoma longifolia, a Southeast Asian medicinal plant
   traditionally used as an aphrodisiac and energy tonic. Contains bioactive quassinoids
   (eurycomanone, eurycolactone) that modulate testosterone via HPA axis and SHBG mechanisms.
@@ -12,6 +12,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: tongkat_ali
 permalink: /garden/demo_user/supplement/tongkat-ali/
+provenance: curated
 pubchem_id: '13936691'
 slug: tongkat-ali
 source: Manual
@@ -29,7 +30,7 @@ tags:
 templateEngineOverride: njk
 title: Tongkat Ali
 type: supplement
-updated: '2026-06-13T17:47:14.513678Z'
+updated: '2026-08-20T04:08:32.075659Z'
 ---
 
 {% raw %}
@@ -157,7 +158,7 @@ updated: '2026-06-13T17:47:14.513678Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/supplement/cistanche/" class="internal-link">Cistanche</a><br />
-MODULATES_HORMONE::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">Cortisol</a><br />
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">Cortisol</a><br />
 RELATED::<a href="/garden/demo_user/supplement/ashwagandha/" class="internal-link">Ashwagandha</a></p>
 <h3>Modulates Neurotransmitter</h3>
 <p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a></p>

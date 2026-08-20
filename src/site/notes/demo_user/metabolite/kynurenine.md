@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.424622Z'
+created: 2026-05-26T12:00:00+0000
 description: L-Kynurenine is the central branch-point metabolite of the kynurenine
   pathway, formed from tryptophan by TDO2/IDO1. It is the common precursor of both
   neuroprotective kynurenic acid and the neurotoxic quinolinic acid / NAD+ branch,
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: kynurenine
 permalink: /garden/demo_user/metabolite/kynurenine/
+provenance: curated
 pubchem_id: '161166'
 slug: kynurenine
 source: PubMed
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Kynurenine
 type: metabolite
-updated: '2026-06-13T17:47:13.424622Z'
+updated: '2026-08-20T04:08:31.173305Z'
 ---
 
 {% raw %}

@@ -2,7 +2,7 @@
 aliases:
 - SIRT1 activation by resveratrol mechanism and physiological effects
 confidence_score: 0.88
-created: '2026-06-13T17:47:14.235497Z'
+created: '2025-01-22'
 description: This comprehensive mechanistic review elucidates how resveratrol activates
   SIRT1 through allosteric modulation, triggering downstream effects on PGC-1alpha,
   mitochondrial biogenesis, and metabolic homeostasis. The paper provides critical
@@ -13,7 +13,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: pmid_23471411
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/research/sirt1-activation-by-resveratrol-mechanism-and-physiological-effects/
+provenance: curated
 slug: sirt1-activation-by-resveratrol-mechanism-and-physiological-effects
 source: Manual
 tags:
@@ -28,7 +30,7 @@ tags:
 templateEngineOverride: njk
 title: 'SIRT1 activation by resveratrol: mechanism and physiological effects'
 type: research
-updated: '2026-06-13T17:47:14.235497Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -56,9 +58,13 @@ updated: '2026-06-13T17:47:14.235497Z'
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/supplement/resveratrol/" class="internal-link">Resveratrol</a><br />
 RELATED::<a href="/garden/demo_user/protein/sirt1/" class="internal-link">SIRT1</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">NAD</a></p>
+RELATED::<a href="/garden/demo_user/biomarker/nad/" class="internal-link">NAD</a></p>
 <h3>Studied Topic</h3>
 <p>STUDIED_TOPIC::<a href="/garden/demo_user/supplement/resveratrol/" class="internal-link">Resveratrol</a><br />
 STUDIED_TOPIC::<a href="/garden/demo_user/protein/sirt1/" class="internal-link">SIRT1</a></p>
+<h2>References</h2>
+<ul>
+<li>SIRT1 activation by resveratrol mechanism and physiological effects — original research publication indexed in this knowledge base.</li>
+</ul>
 
 {% endraw %}

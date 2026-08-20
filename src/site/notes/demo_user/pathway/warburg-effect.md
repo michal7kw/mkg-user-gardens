@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.979774Z'
+created: 2026-05-27T12:00:00+0000
 description: The Warburg effect (aerobic glycolysis) is the preferential conversion
   of glucose to lactate even in the presence of oxygen, characteristic of proliferating
   cells and most cancers. Rather than maximizing ATP yield, it provides rapid ATP
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: warburg_effect
 permalink: /garden/demo_user/pathway/warburg-effect/
+provenance: curated
 slug: warburg-effect
 source: PubMed
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Warburg Effect
 type: pathway
-updated: '2026-06-13T17:47:13.979774Z'
+updated: '2026-08-20T04:08:31.572167Z'
 ---
 
 {% raw %}

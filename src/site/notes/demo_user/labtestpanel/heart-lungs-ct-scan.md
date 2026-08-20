@@ -1,6 +1,9 @@
 ---
+aliases:
+- Heart Lungs Ct Scan
+- heart lungs ct scan
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.131139Z'
+created: 2026-01-18T16:48:42+0000
 description: This single low-dose chest computed tomography (CT) scan can help detect
   signs of lung cancer, pulmonary nodules, emphysema, and more. Following the scan,
   advanced AI analysis of the images—performed remotely—assesses plaque buildup in
@@ -11,6 +14,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-heart-lungs-ct-scan
 permalink: /garden/demo_user/labtestpanel/heart-lungs-ct-scan/
+provenance: curated
 slug: heart-lungs-ct-scan
 source: Manual
 tags:
@@ -18,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: heart_lungs_ct_scan
 type: labtestpanel
-updated: '2026-06-13T17:47:13.131139Z'
+updated: '2026-08-20T04:08:31.067641Z'
 ---
 
 {% raw %}

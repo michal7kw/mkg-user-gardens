@@ -1,6 +1,9 @@
 ---
+aliases:
+- Lyme Antibodies
+- lyme antibodies
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.140865Z'
+created: 2026-01-18T16:48:42+0000
 description: These tests identify antibodies associated with tick-borne infections
   like Lyme disease, babesiosis (caused by Babesia), ehrlichiosis (caused by Ehrlichia),
   anaplasmosis (caused by Anaplasma), and Bartonella-related diseases, detecting both
@@ -25,6 +28,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-lyme-antibodies
 permalink: /garden/demo_user/labtestpanel/lyme-antibodies/
+provenance: curated
 slug: lyme-antibodies
 source: Manual
 tags:
@@ -32,7 +36,7 @@ tags:
 templateEngineOverride: njk
 title: lyme_antibodies
 type: labtestpanel
-updated: '2026-06-13T17:47:13.140865Z'
+updated: '2026-08-20T04:08:31.070695Z'
 ---
 
 {% raw %}
@@ -61,7 +65,9 @@ updated: '2026-06-13T17:47:13.140865Z'
 <li>Evaluation for tick-borne co-infections in known Lyme patients</li>
 </ul>
 <h2>Relationships</h2>
-<p>USED_FOR::<a class="internal-link is-unresolved" href="/404">Lyme Disease</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/lyme-antibody-screen/" class="internal-link">lyme_antibody_screen</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/lyme-western-blot/" class="internal-link">lyme_western_blot</a><br />
+USED_FOR::<a class="internal-link is-unresolved" href="/404">Lyme Disease</a><br />
 RELATED::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/nerves/" class="internal-link">Nerves</a></p>

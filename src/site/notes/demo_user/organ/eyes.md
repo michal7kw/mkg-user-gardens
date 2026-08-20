@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:13.778420Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:39+0000
 description: Sensory organs responsible for vision, converting light into neural signals.
   Highly metabolically active with specialized nutrient requirements.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: eyes
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/organ/eyes/
+provenance: curated
 slug: eyes
 source: Manual
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Eyes
 type: organ
-updated: '2026-06-13T17:47:13.778420Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -40,12 +43,16 @@ updated: '2026-06-13T17:47:13.778420Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Lutein</a> (Macular pigment protecting the fovea from blue-light oxidative damage, Evidence Level 1a)<br />
+RELATED::<a href="/garden/demo_user/supplement/lutein/" class="internal-link">Lutein</a> (Macular pigment protecting the fovea from blue-light oxidative damage, Evidence Level 1a)<br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Zeaxanthin</a> (Co-localizes with lutein in the macula as antioxidant blue-light filter, Evidence Level 1a)<br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Vitamin A</a> (Retinal is the chromophore essential for photoreceptor signal transduction, Evidence Level 1a)<br />
+RELATED::<a href="/garden/demo_user/supplement/vitamin-a/" class="internal-link">Vitamin A</a> (Retinal is the chromophore essential for photoreceptor signal transduction, Evidence Level 1a)<br />
 RELATED::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a> (Concentrated in retina and RPE; essential for vitamin A metabolism and antioxidant defense, Evidence Level 1b)<br />
-CONNECTED_TO::<a href="/garden/demo_user/anatomy/occipital-lobe/" class="internal-link">Occipital Lobe</a> (Visual information transmitted via optic nerve to primary visual cortex, Evidence Level 1a)<br />
+CONNECTED_TO::<a href="/garden/demo_user/organ/occipital-lobe/" class="internal-link">Occipital Lobe</a> (Visual information transmitted via optic nerve to primary visual cortex, Evidence Level 1a)<br />
 CONNECTED_TO::<a href="/garden/demo_user/organ/pineal-gland/" class="internal-link">Pineal Gland</a> (Retinal light detection controls pineal melatonin synthesis via retinohypothalamic tract, Evidence Level 1b)<br />
 CONNECTED_TO::<a href="/garden/demo_user/organ/nerves/" class="internal-link">Nerves</a> (Optic nerve is a cranial nerve bundle of 1.2 million retinal ganglion cell axons, Evidence Level 1a)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (textbook reference)</li>
+</ul>
 
 {% endraw %}

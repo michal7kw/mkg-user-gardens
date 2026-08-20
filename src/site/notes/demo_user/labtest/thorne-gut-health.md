@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.835308Z'
+created: 2025-12-10T09:07:57+0000
 description: At-home gut microbiome test analyzing bacterial diversity and digestive
   function markers.
 dg-home: false
@@ -9,6 +9,7 @@ evidence_level: 2
 gardenUsername: demo_user
 id: test-thorne-gut-001
 permalink: /garden/demo_user/labtest/thorne-gut-health/
+provenance: curated
 slug: thorne-gut-health
 source: Manual
 tags:
@@ -16,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: thorne_gut_health
 type: labtest
-updated: '2026-06-13T17:47:12.835308Z'
+updated: '2026-08-20T04:08:30.921626Z'
 ---
 
 {% raw %}
@@ -42,6 +43,10 @@ updated: '2026-06-13T17:47:12.835308Z'
 <td>Gut Microbiome</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -52,6 +57,18 @@ updated: '2026-06-13T17:47:12.835308Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>14-21 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$198-$198</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.750033Z'
+created: 2026-04-01T12:00:00+0000
 description: SSRI antidepressant (Celexa) that is the most pharmacologically selective
   SERT inhibitor — minimal off-target receptor binding and fewest CYP-mediated drug
   interactions among SSRIs. Available as racemic mixture (R- and S-enantiomers). Key
@@ -13,6 +13,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: citalopram
 permalink: /garden/demo_user/drug/citalopram/
+provenance: curated
 slug: citalopram
 source: Manual
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Citalopram
 type: drug
-updated: '2026-06-13T17:47:11.750033Z'
+updated: '2026-08-20T04:08:30.068820Z'
 ---
 
 {% raw %}
@@ -63,7 +64,7 @@ INHIBITS::<a href="/garden/demo_user/protein/sert/" class="internal-link">SERT</
 <p>TREATS::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a></p>
 <h3>Metabolized By</h3>
 <p>METABOLIZED_BY::<a href="/garden/demo_user/protein/cyp2c19/" class="internal-link">CYP2C19</a><br />
-METABOLIZED_BY::<a href="/garden/demo_user/gene/cyp3a4/" class="internal-link">CYP3A4</a></p>
+METABOLIZED_BY::<a href="/garden/demo_user/protein/cyp3a4/" class="internal-link">CYP3A4</a></p>
 <h3>Modulates Neurotransmitter</h3>
 <p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a></p>
 <h3>Interacts With</h3>

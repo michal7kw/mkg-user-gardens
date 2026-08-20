@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.509984Z'
+created: 2026-01-22T12:00:00+0000
 description: Four-carbon dicarboxylic keto acid that condenses with acetyl-CoA to
   form citrate, initiating the citric acid cycle. Oxaloacetate is a central metabolic
   hub serving as a key intermediate in gluconeogenesis, the urea cycle, amino acid
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: oxaloacetate
 permalink: /garden/demo_user/metabolite/oxaloacetate/
+provenance: curated
 pubchem_id: '970'
 slug: oxaloacetate
 source: Manual
@@ -26,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Oxaloacetate
 type: metabolite
-updated: '2026-06-13T17:47:13.509984Z'
+updated: '2026-08-20T04:08:31.203230Z'
 ---
 
 {% raw %}

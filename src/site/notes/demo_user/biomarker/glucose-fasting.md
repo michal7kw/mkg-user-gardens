@@ -1,6 +1,11 @@
 ---
+aliases:
+- Fasting Glucose
+- Fasting Blood Glucose
+- Glucose (fasting)
+- FBG
 confidence_score: 0.95
-created: '2026-06-13T17:47:10.874112Z'
+created: 2026-01-03T17:55:37+0000
 description: Fasting plasma glucose (FPG) measures the concentration of glucose in
   blood after an 8-12 hour overnight fast. It is the gold-standard screening test
   for diabetes mellitus and prediabetes, reflecting basal hepatic glucose output and
@@ -11,6 +16,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: glucose_fasting
 permalink: /garden/demo_user/biomarker/glucose-fasting/
+provenance: curated
 slug: glucose-fasting
 source: Manual
 tags:
@@ -23,7 +29,7 @@ tags:
 templateEngineOverride: njk
 title: Glucose Fasting
 type: biomarker
-updated: '2026-06-13T17:47:10.874112Z'
+updated: '2026-08-20T04:08:28.709758Z'
 ---
 
 {% raw %}
@@ -186,11 +192,11 @@ updated: '2026-06-13T17:47:10.874112Z'
 <p>INDICATES_ORGAN_HEALTH::<a href="/garden/demo_user/organ/pancreas/" class="internal-link">Pancreas</a></p>
 <h3>Predicts Risk</h3>
 <p>PREDICTS_RISK::<a href="/garden/demo_user/condition/type-2-diabetes/" class="internal-link">Type 2 Diabetes</a><br />
-PREDICTS_RISK::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+PREDICTS_RISK::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 PREDICTS_RISK::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/insulin-resistance/" class="internal-link">Insulin Resistance</a><br />
-ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
+ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
 <h3>Correlated With</h3>
 <p>CORRELATED_WITH::<a href="/garden/demo_user/labtest/homa-ir/" class="internal-link">Homa Ir</a><br />
 CORRELATED_WITH::<a href="/garden/demo_user/biomarker/insulin-fasting/" class="internal-link">Insulin Fasting</a><br />
@@ -206,6 +212,10 @@ AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-d/" class=
 INCLUDED_IN::<a href="/garden/demo_user/labtest/comprehensive-metabolic-panel/" class="internal-link">comprehensive metabolic panel</a></p>
 <h3>Measured By Test</h3>
 <p>MEASURED_BY_TEST::<a href="/garden/demo_user/labtest/fasting-glucose/" class="internal-link">fasting glucose</a></p>
+<h3>Improved By Intervention</h3>
+<p>IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/low-glycemic-index-diet/" class="internal-link">Low Glycemic Index Diet</a> - blunts glycemic load and lowers fasting glucose<br />
+IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/strength-training/" class="internal-link">Strength Training</a> - improves glucose disposal and insulin sensitivity<br />
+IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/walking/" class="internal-link">Walking</a> - post-meal and daily walking lowers fasting glucose</p>
 <h2>References</h2>
 <ul>
 <li>Bergman M, Abdul-Ghani M, DeFronzo RA, et al. <em>Diabetes Res Clin Pract.</em> 2020;165:108234 -- Review of methods for detecting glycemic disorders (PMID: 32497744)</li>

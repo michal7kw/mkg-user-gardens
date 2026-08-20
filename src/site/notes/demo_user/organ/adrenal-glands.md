@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:13.756489Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:39+0000
 description: Endocrine glands producing stress hormones (cortisol, adrenaline), aldosterone,
   and small amounts of sex hormones. Critical for stress response and homeostasis.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: adrenal_glands
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/organ/adrenal-glands/
+provenance: curated
 slug: adrenal-glands
 source: Manual
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Adrenal Glands
 type: organ
-updated: '2026-06-13T17:47:13.756489Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -55,5 +58,9 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cushings-syndrom
 ASSOCIATED_WITH_CONDITION::<a class="internal-link is-unresolved" href="/404">Pheochromocytoma</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/congenital-adrenal-hyperplasia/" class="internal-link">Congenital Adrenal Hyperplasia</a><br />
 ASSOCIATED_WITH_CONDITION::<a class="internal-link is-unresolved" href="/404">Primary Hyperaldosteronism</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (textbook reference)</li>
+</ul>
 
 {% endraw %}

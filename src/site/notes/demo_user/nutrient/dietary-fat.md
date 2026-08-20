@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.693978Z'
+created: '2026-04-05T16:16:19.650736+00:00'
 description: Essential macronutrient providing concentrated energy (9 kcal/g), fat-soluble
   vitamin absorption, hormone synthesis, and cell membrane integrity. Includes saturated,
   monounsaturated, and polyunsaturated types.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_dietary_fat
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/dietary-fat/
+provenance: curated
 slug: dietary-fat
 source: dev_seeder
 tags:
@@ -16,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Dietary Fat
 type: nutrient
-updated: '2026-06-13T17:47:13.693978Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -53,7 +56,7 @@ updated: '2026-06-13T17:47:13.693978Z'
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></li>
-<li>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Gallbladder</a></li>
+<li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/gallbladder/" class="internal-link">Gallbladder</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="internal-link">LDL Cholesterol</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hdl-cholesterol/" class="internal-link">HDL Cholesterol</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a></li>
@@ -67,6 +70,10 @@ updated: '2026-06-13T17:47:13.693978Z'
 <li>RELATED::<a href="/garden/demo_user/nutrient/saturated-fat/" class="internal-link">Saturated Fat</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/protein/" class="internal-link">Protein</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/carbohydrate/" class="internal-link">Carbohydrate</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

@@ -1,13 +1,16 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.707654Z'
+created: '2026-04-05T16:15:38.430722+00:00'
 description: Essential mineral cofactor for 300+ enzymes — supports muscle, nerve,
   cardiac, and metabolic function
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_magnesium
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/magnesium/
+provenance: curated
 slug: magnesium
 source: dev_seeder
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Magnesium
 type: nutrient
-updated: '2026-06-13T17:47:13.707654Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -51,24 +54,28 @@ updated: '2026-06-13T17:47:13.707654Z'
 <ul>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></li>
-<li>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Bone</a></li>
+<li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/bones/" class="internal-link">Bone</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/kidneys/" class="internal-link">Kidneys</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/muscles/" class="internal-link">Muscles</a></li>
 <li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Blood Glucose</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Blood Pressure</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/examination/blood-pressure/" class="internal-link">Blood Pressure</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">CRP (C-Reactive Protein)</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">CRP (C-Reactive Protein)</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/hypertension/" class="internal-link">Hypertension</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/type-2-diabetes/" class="internal-link">Type 2 Diabetes</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/migraine/" class="internal-link">Migraine</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/insomnia/" class="internal-link">Insomnia</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/anxiety/" class="internal-link">Anxiety</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a></li>
-<li>SYNERGISTIC_WITH::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a></li>
+<li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/nutrient/potassium/" class="internal-link">Potassium</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-b12/" class="internal-link">Vitamin B12</a></li>
-<li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a></li>
+<li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a></li>
 <li>RELATED::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

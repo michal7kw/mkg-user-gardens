@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:13.840386Z'
+confidence_score: 0.85
+created: 2026-01-03T17:55:40+0000
 description: Butterfly-shaped endocrine gland that produces thyroid hormones (T3,
   T4) regulating metabolism, energy, growth, and development. Highly sensitive to
   nutrient status.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: thyroid
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/organ/thyroid/
+provenance: curated
 slug: thyroid
 source: Manual
 tags:
@@ -16,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Thyroid
 type: organ
-updated: '2026-06-13T17:47:13.840386Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -49,13 +52,17 @@ updated: '2026-06-13T17:47:13.840386Z'
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/supplement/selenium/" class="internal-link">Selenium</a><br />
 RELATED::<a href="/garden/demo_user/supplement/l-tyrosine/" class="internal-link">L-Tyrosine</a><br />
-RELATED::<a href="/garden/demo_user/condition/thyroid-dysfunction/" class="internal-link">Thyroid Dysfunction</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/thyroid-dysfunction/" class="internal-link">Thyroid Dysfunction</a><br />
 RELATED::<a href="/garden/demo_user/supplement/ashwagandha/" class="internal-link">Ashwagandha</a><br />
 RELATED::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a><br />
-ASSOCIATED_WITH_CONDITION::<a class="internal-link is-unresolved" href="/404">Hypothyroidism</a><br />
+ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/hypothyroidism/" class="internal-link">Hypothyroidism</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/hyperthyroidism/" class="internal-link">Hyperthyroidism</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/hashimotos-thyroiditis/" class="internal-link">Hashimoto's Thyroiditis</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/graves-disease/" class="internal-link">Graves' Disease</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/thyroid-cancer/" class="internal-link">Thyroid Cancer</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (textbook reference)</li>
+</ul>
 
 {% endraw %}

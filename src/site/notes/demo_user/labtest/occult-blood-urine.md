@@ -2,7 +2,7 @@
 aliases:
 - occult blood urine
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.635594Z'
+created: '2026-01-19T08:30:05.019751+00:00'
 description: Tested twice a year Occult blood in urine, means there are traces of
   blood not visible to the naked eye and may sometimes occur after exercise or minor
   irritation without indicating disease. Persistent or unexplained occult blood in
@@ -14,6 +14,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-occult-blood-urine
 permalink: /garden/demo_user/labtest/occult-blood-urine/
+provenance: curated
 slug: occult-blood-urine
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: occult_blood_urine
 type: labtest
-updated: '2026-06-13T17:47:12.635594Z'
+updated: '2026-08-20T04:08:30.810756Z'
 ---
 
 {% raw %}
@@ -47,6 +48,10 @@ updated: '2026-06-13T17:47:12.635594Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -57,6 +62,18 @@ updated: '2026-06-13T17:47:12.635594Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -69,7 +86,7 @@ updated: '2026-06-13T17:47:12.635594Z'
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Urinary Tract Infection Uti</a><br />
+<p>RELATED::<a href="/garden/demo_user/condition/urinary-tract-infection/" class="internal-link">Urinary Tract Infection Uti</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Kidney Inflammation Glomerulonephritis</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Bladder Inflammation Cystitis</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Strenuous Exercise Or Muscle Injury</a><br />

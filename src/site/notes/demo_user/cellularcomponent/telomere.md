@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:11.107262Z'
+created: '2026-04-01T19:57:52.285899+00:00'
 description: Repetitive TTAGGG nucleotide sequences capping chromosome ends, protecting
   genomic integrity during cell division. Telomere length is a biomarker of biological
   aging — shortening with each division until reaching the Hayflick limit triggers
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: telomere
 permalink: /garden/demo_user/cellularcomponent/telomere/
+provenance: curated
 slug: telomere
 source: Manual
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Telomere
 type: cellularcomponent
-updated: '2026-06-13T17:47:11.107262Z'
+updated: '2026-08-20T04:08:29.177986Z'
 ---
 
 {% raw %}
@@ -45,7 +46,7 @@ updated: '2026-06-13T17:47:11.107262Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+<p>RELATED::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
 <h3>Affected By Intervention</h3>
 <p>AFFECTED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/exercise/" class="internal-link">Exercise</a><br />
 AFFECTED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/mediterranean-diet/" class="internal-link">Mediterranean Diet</a><br />
@@ -56,8 +57,8 @@ AFFECTED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/sleep-optimiza
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cancer/" class="internal-link">Cancer</a></p>
 <h3>Affected By Supplement</h3>
-<p>AFFECTED_BY_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Vitamin_D3</a><br />
-AFFECTED_BY_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Omega-3_Fish_Oil</a><br />
+<p>AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/nutrient/vitamin-d/" class="internal-link">Vitamin_D3</a><br />
+AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3_Fish_Oil</a><br />
 AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/resveratrol/" class="internal-link">Resveratrol</a></p>
 <h3>Part Of</h3>
 <p>PART_OF::<a href="/garden/demo_user/cellularcomponent/nucleus/" class="internal-link">Nucleus</a></p>

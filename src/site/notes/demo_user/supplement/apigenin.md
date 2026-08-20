@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.7
-created: '2026-06-13T17:47:14.264399Z'
+confidence_score: 0.65
+created: 2026-01-24T12:00:00+0000
 description: A natural flavonoid found in chamomile, parsley, and celery with antioxidant,
   anti-inflammatory, neuroprotective, and sedative properties. It is known to inhibit
   CD38 (boosting NAD+ levels) and modulate GABA receptors.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 3
 gardenUsername: demo_user
 id: apigenin
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/apigenin/
+provenance: curated
 pubchem_id: '5280443'
 slug: apigenin
 source: Manual
@@ -23,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Apigenin
 type: supplement
-updated: '2026-06-13T17:47:14.264399Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -47,15 +49,15 @@ updated: '2026-06-13T17:47:14.264399Z'
 <h3>Related</h3>
 <p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/insomnia/" class="internal-link">Insomnia</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a><br />
-RELATED::<a href="/garden/demo_user/metabolite/nicotinamide-riboside/" class="internal-link">Nicotinamide Riboside</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">NAD</a><br />
+RELATED::<a href="/garden/demo_user/supplement/nicotinamide-riboside/" class="internal-link">Nicotinamide Riboside</a><br />
+RELATED::<a href="/garden/demo_user/biomarker/nad/" class="internal-link">NAD</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/anxiety/" class="internal-link">Anxiety</a><br />
-MODULATES_HORMONE::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 RELATED::<a href="/garden/demo_user/supplement/nmn/" class="internal-link">NMN</a></p>
 <h3>Modulates Neurotransmitter</h3>
-<p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a></p>
+<p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a></p>
 <h3>Affects Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/hormone/testosterone/" class="internal-link">Testosterone</a><br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a></p>
 <h3>May Improve Condition</h3>
@@ -67,6 +69,11 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/depression/" class="
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a></p>
 <h3>Synergistic With</h3>
 <p>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/nmn/" class="internal-link">NMN</a> (both preserve NAD+ via complementary mechanisms, Evidence Level 2a)<br />
-SYNERGISTIC_WITH::<a href="/garden/demo_user/metabolite/nicotinamide-riboside/" class="internal-link">Nicotinamide Riboside</a> (NR provides NAD+ precursor while apigenin inhibits NAD+ degradation, Evidence Level 2a)</p>
+SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/nicotinamide-riboside/" class="internal-link">Nicotinamide Riboside</a> (NR provides NAD+ precursor while apigenin inhibits NAD+ degradation, Evidence Level 2a)</p>
+<h2>References</h2>
+<ul>
+<li>Salehi B, et al. Biomolecules. 2021;11(1):42. Apigenin (review) (PMID: 33401557)</li>
+<li>Tang AQ, et al. Anticancer Agents Med Chem. 2017;17(5):667-675. Apigenin in cancer (PMID: 27908127)</li>
+</ul>
 
 {% endraw %}

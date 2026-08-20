@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.645956Z'
+confidence_score: 0.95
+created: 2026-03-28T12:00:00+0000
 description: A life-threatening organ dysfunction caused by a dysregulated host response
   to infection, representing a medical emergency with mortality rates of 20-40%.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: sepsis
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/sepsis/
+provenance: curated
 slug: sepsis
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Sepsis
 type: condition
-updated: '2026-06-13T17:47:11.645956Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -68,5 +71,11 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/albumin/" class="internal-li
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/platelets/" class="internal-link">Platelets</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/wbc/" class="internal-link">Wbc</a></p>
 <h3>Affects Organ</h3>
+<h2>References</h2>
+<ul>
+<li>Evans L, Rhodes A, Alhazzani W, et al. Intensive Care Med. 2021;47(11):1181-1247. Surviving Sepsis Campaign International Guidelines 2021 (PMID: 34599491)</li>
+<li>Singer M, Deutschman CS, Seymour CW, et al. JAMA. 2016;315(8):801-810. The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3) (PMID: 26903338)</li>
+<li>Fleischmann C, Scherag A, Adhikari NK, et al. Am J Respir Crit Care Med. 2016;193(3):259-272. Assessment of global incidence and mortality of hospital-treated sepsis (PMID: 26496613)</li>
+</ul>
 
 {% endraw %}

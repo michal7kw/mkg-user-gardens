@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:12.042271Z'
+created: '2026-04-01T19:57:52.352395+00:00'
 description: Dietary pattern emphasizing foods that reduce chronic low-grade inflammation
   (omega-3 fatty acids, polyphenols, fiber, fermented foods) while minimizing pro-inflammatory
   inputs (refined sugar, seed oils, processed foods, alcohol). Shares principles with
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: anti_inflammatory_diet
 permalink: /garden/demo_user/intervention/anti-inflammatory-diet/
+provenance: curated
 slug: anti-inflammatory-diet
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Anti-Inflammatory Diet
 type: intervention
-updated: '2026-06-13T17:47:12.042271Z'
+updated: '2026-08-20T04:08:30.362747Z'
 ---
 
 {% raw %}
@@ -54,12 +55,15 @@ updated: '2026-06-13T17:47:12.042271Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Affects Biomarker</h3>
-<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a> (Evidence Level 4)<br />
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (Evidence Level 4)<br />
+DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a> (Evidence Level 4)<br />
+DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="internal-link">LDL Cholesterol</a> (Evidence Level 3)<br />
+DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a> (Evidence Level 4)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/interleukin-6/" class="internal-link">Interleukin 6</a> (Evidence Level 3)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/ldl-cholesterol/" class="internal-link">Ldl</a> (Evidence Level 3)</p>
 <!-- seeded: intervention coverage (mirror_intervention_edges_to_markdown.py) -->
 <p>DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/apolipoprotein-b/" class="internal-link">Apolipoprotein B</a> (Evidence Level 3)<br />
-DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/crp-hs/" class="internal-link">CRP (hs)</a> (Evidence Level 4)<br />
+DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">CRP (hs)</a> (Evidence Level 4)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/esr/" class="internal-link">Esr</a> (Evidence Level 3)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/f2-isoprostanes/" class="internal-link">F2 Isoprostanes</a> (Evidence Level 3)</p>
 <h3>Related</h3>
@@ -67,15 +71,15 @@ DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/f2-isoprostanes/" clas
 RELATED::<a href="/garden/demo_user/intervention/intermittent-fasting/" class="internal-link">Intermittent Fasting</a></p>
 <h3>Modulates Hormone</h3>
 <p>MODULATES_HORMONE::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a><br />
-MODULATES_HORMONE::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 MODULATES_HORMONE::<a href="/garden/demo_user/labtest/adiponectin/" class="internal-link">adiponectin</a></p>
 <h3>Modulates Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/homocysteine/" class="internal-link">homocysteine</a><br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a><br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h3>Synergistic With</h3>
-<p>SYNERGISTIC_WITH::<a class="internal-link is-unresolved" href="/404">Curcumin_with_Piperine</a><br />
-SYNERGISTIC_WITH::<a class="internal-link is-unresolved" href="/404">Omega-3_Fish_Oil</a></p>
+<p>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a><br />
+SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a></p>
 <h2>References</h2>
 <ul>
 <li>PMID:20219103</li>

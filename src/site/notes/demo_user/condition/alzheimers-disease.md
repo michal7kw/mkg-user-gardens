@@ -2,16 +2,19 @@
 aliases:
 - Alzheimers Disease
 - Alzheimer’s Disease
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.203994Z'
+confidence_score: 0.9
+created: 2026-01-24T12:00:00+0000
 description: A progressive neurodegenerative disorder and the most common cause of
   dementia. Characterized by extracellular amyloid-beta plaques and intracellular
   tau neurofibrillary tangles.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: alzheimers_disease
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/alzheimers-disease/
+provenance: curated
 slug: alzheimers-disease
 source: Manual
 tags:
@@ -22,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Alzheimer's Disease
 type: condition
-updated: '2026-06-13T17:47:11.203994Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -61,9 +64,9 @@ RELATED::<a href="/garden/demo_user/protein/bace1/" class="internal-link">BACE1<
 IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/mediterranean-diet/" class="internal-link">Mediterranean Diet</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Retinal Imaging for Neurodegeneration</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/neuron-derived-exosome-biomarkers/" class="internal-link">Neuron-Derived Exosome Biomarkers</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Dementia</a><br />
+RELATED::<a href="/garden/demo_user/condition/dementia/" class="internal-link">Dementia</a><br />
 RELATED::<a href="/garden/demo_user/supplement/omega-3-dha/" class="internal-link">Omega-3 DHA</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Autophagy-Lysosomal Pathway</a><br />
+RELATED::<a href="/garden/demo_user/pathway/autophagy-lysosomal-pathway/" class="internal-link">Autophagy-Lysosomal Pathway</a><br />
 RELATED::<a href="/garden/demo_user/condition/vascular-dementia/" class="internal-link">Vascular Dementia</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Lecanemab</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/total-tau/" class="internal-link">Total Tau</a><br />
@@ -93,8 +96,8 @@ RELATED::<a href="/garden/demo_user/biomarker/amyloid-beta-4240-ratio/" class="i
 RELATED::<a class="internal-link is-unresolved" href="/404">EEG</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Neuropsychological Testing</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/phospho-tau/" class="internal-link">Phospho-Tau</a><br />
-RELATED::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
-RELATED::<a href="/garden/demo_user/gene/apoe/" class="internal-link">APOE</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+RELATED::<a href="/garden/demo_user/protein/apoe/" class="internal-link">APOE</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Alpha-Synuclein SAA</a><br />
 RELATED::<a href="/garden/demo_user/pathway/neuroinflammation/" class="internal-link">Neuroinflammation</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/s100b/" class="internal-link">S100B</a><br />
@@ -114,5 +117,13 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/lions-mane/" class
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/phosphatidylserine/" class="internal-link">Phosphatidylserine</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/resveratrol/" class="internal-link">Resveratrol</a></p>
+<h2>References</h2>
+<ul>
+<li>Scheltens P, De Strooper B, Kivipelto M, et al. Lancet. 2021;397(10284):1577-1590. Alzheimer's disease (review) (PMID: 33637493)</li>
+<li>Livingston G, Huntley J, Sommerlad A, et al. Lancet. 2020;396(10248):413-446. Dementia prevention, intervention, and care (Lancet Commission 2020) (PMID: 32738937)</li>
+<li>van der Lee J, Bakker TJ, Duivenvoorden HJ, Droes RM. J Am Med Dir Assoc. 2014;15(8):576-584. Multivariate model of dementia (review)</li>
+<li>van Dyck CH, Swanson CJ, Aisen P, et al. N Engl J Med. 2023;388(1):9-21. Lecanemab in early Alzheimer's disease (CLARITY-AD) (PMID: 36449413)</li>
+<li>Petersen RC. N Engl J Med. 2011;364(23):2227-2234. Mild cognitive impairment (review) (PMID: 21651394)</li>
+</ul>
 
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.319712Z'
+created: 2026-01-18T16:02:34+0000
 description: A serious mood disorder characterized by persistent feelings of sadness,
   hopelessness, and a loss of interest in activities once enjoyed. Lifetime prevalence
   of 15-20%. Involves dysregulation of serotonin, norepinephrine, dopamine, HPA axis,
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: depression
 permalink: /garden/demo_user/condition/depression/
+provenance: curated
 slug: depression
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Depression
 type: condition
-updated: '2026-06-13T17:47:11.319712Z'
+updated: '2026-08-20T04:08:29.471353Z'
 ---
 
 {% raw %}
@@ -76,10 +77,10 @@ RELATED::<a href="/garden/demo_user/pathway/serotonin-reuptake/" class="internal
 <h3>Risk Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">hs-CRP</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin D (25-OH)</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/homocysteine/" class="internal-link">homocysteine</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/protein/sert/" class="internal-link">SERT</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/protein/5-ht1a-receptor/" class="internal-link">5-HT1A Receptor</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/protein/5-ht2a-receptor/" class="internal-link">5-HT2A Receptor</a></p>

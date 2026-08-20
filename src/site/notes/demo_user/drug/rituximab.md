@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:11.879869Z'
+created: 2026-04-01T10:00:00+0000
 description: Chimeric monoclonal antibody targeting CD20 on B lymphocytes. Depletes
   B cells via ADCC, CDC, and direct apoptosis. Used in RA after TNF-inhibitor failure.
   First-line for ANCA-associated vasculitis. Also used in lymphoma, CLL, and other
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: rituximab
 permalink: /garden/demo_user/drug/rituximab/
+provenance: curated
 slug: rituximab
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Rituximab
 type: drug
-updated: '2026-06-13T17:47:11.879869Z'
+updated: '2026-08-20T04:08:30.185293Z'
 ---
 
 {% raw %}
@@ -41,7 +42,7 @@ TREATS::<a href="/garden/demo_user/condition/vasculitis/" class="internal-link">
 <h3>Interacts With</h3>
 <p>INTERACTS_WITH::<a href="/garden/demo_user/drug/methotrexate/" class="internal-link">Methotrexate</a></p>
 <h3>Decreases Biomarker</h3>
-<p>DECREASES_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h2>References</h2>
 <ul>
 <li>PMID:16717171</li>

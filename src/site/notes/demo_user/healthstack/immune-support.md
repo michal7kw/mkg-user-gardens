@@ -1,5 +1,5 @@
 ---
-created: '2026-06-13T17:47:11.987591Z'
+created: '2026-08-20T04:08:30.313322Z'
 description: Fortify immune defenses with well-researched nutrients. Vitamin D3 modulates
   innate and adaptive immunity, vitamin C supports neutrophil function, zinc is essential
   for T-cell development, and elderberry has antiviral properties.
@@ -9,6 +9,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: 8e078333-fce4-4be3-8aa7-22d01be36afc
 permalink: /garden/demo_user/healthstack/immune-support/
+provenance: curated
 slug: immune-support
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Immune Support
 type: healthstack
-updated: '2026-06-13T17:47:11.987591Z'
+updated: '2026-08-20T04:08:30.313322Z'
 ---
 
 {% raw %}
@@ -39,7 +40,7 @@ updated: '2026-06-13T17:47:11.987591Z'
 </thead>
 <tbody>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Vitamin D3</a></td>
+<td><a href="/garden/demo_user/nutrient/vitamin-d/" class="internal-link">Vitamin D3</a></td>
 <td>5000IU</td>
 <td>once daily</td>
 <td>with meals</td>
@@ -53,7 +54,7 @@ updated: '2026-06-13T17:47:11.987591Z'
 <td>Supports neutrophil chemotaxis and pathogen killing</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Zinc Picolinate</a></td>
+<td><a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc Picolinate</a></td>
 <td>30mg</td>
 <td>once daily</td>
 <td>with meals</td>
@@ -88,7 +89,7 @@ updated: '2026-06-13T17:47:11.987591Z'
 <td>Primary immune-modulating vitamin</td>
 </tr>
 <tr>
-<td><a href="/garden/demo_user/labtest/zinc-serum/" class="internal-link">Zinc (Serum)</a></td>
+<td><a href="/garden/demo_user/biomarker/zinc/" class="internal-link">Zinc (Serum)</a></td>
 <td>60-130</td>
 <td>80-120</td>
 <td>mcg/dL</td>
@@ -109,14 +110,14 @@ updated: '2026-06-13T17:47:11.987591Z'
 <li>General wellness</li>
 </ul>
 <h3>Contains Supplement</h3>
-<p>CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Vitamin D3</a><br />
+<p>CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/nutrient/vitamin-d/" class="internal-link">Vitamin D3</a><br />
 CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Zinc Picolinate</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc Picolinate</a><br />
 CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Elderberry Extract</a></p>
 <h2>Relationships</h2>
 <h3>Enriched</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/autoimmune-disease/" class="internal-link">Autoimmune Disease</a><br />
-ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
 INCLUDES_SUPPLEMENT::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a><br />
 INCLUDES_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-c/" class="internal-link">Vitamin C</a><br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a></p>

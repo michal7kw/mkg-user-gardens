@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.467345Z'
+created: 2026-05-26T12:00:00+0000
 description: Nicotinamide adenine dinucleotide (NAD+) is a central redox cofactor
   and signaling substrate that carries electrons in catabolism and serves as the obligate
   co-substrate for sirtuins, PARPs, and CD38. Cellular NAD+ declines with age, linking
@@ -9,8 +9,9 @@ dg-home: false
 dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
-id: nad_plus
+id: nad_plus_metabolite
 permalink: /garden/demo_user/metabolite/nad/
+provenance: curated
 pubchem_id: '5892'
 slug: nad
 source: PubMed
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: NAD+
 type: metabolite
-updated: '2026-06-13T17:47:13.467345Z'
+updated: '2026-08-20T04:08:31.187582Z'
 ---
 
 {% raw %}
@@ -105,7 +106,7 @@ PARTICIPATES_IN::<a href="/garden/demo_user/pathway/oxidative-phosphorylation/" 
 <p>MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nmn/" class="internal-link">NMN</a><br />
 MODULATED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/niacin/" class="internal-link">Niacin</a></p>
 <h3>Related Metabolites</h3>
-<p>RELATED_TO::<a href="/garden/demo_user/metabolite/nicotinamide-riboside/" class="internal-link">Nicotinamide Riboside</a></p>
+<p>RELATED_TO::<a href="/garden/demo_user/supplement/nicotinamide-riboside/" class="internal-link">Nicotinamide Riboside</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/mild-cognitive-impairment/" class="internal-link">Mild Cognitive Impairment</a></p>

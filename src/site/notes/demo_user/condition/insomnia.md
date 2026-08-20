@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.429776Z'
+created: '2026-04-01T19:57:09.992884+00:00'
 description: Chronic difficulty initiating or maintaining sleep, or non-restorative
   sleep, despite adequate opportunity. The most common sleep disorder, affecting 30%
   of adults intermittently and 10% chronically. Strongly bidirectional with anxiety
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: insomnia
 permalink: /garden/demo_user/condition/insomnia/
+provenance: curated
 slug: insomnia
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Insomnia
 type: condition
-updated: '2026-06-13T17:47:11.429776Z'
+updated: '2026-08-20T04:08:29.621554Z'
 ---
 
 {% raw %}
@@ -68,8 +69,8 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/l-theanine/" class
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/glycine/" class="internal-link">Glycine</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/ashwagandha/" class="internal-link">Ashwagandha</a></p>
 <h3>Associated With</h3>
-<p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">hs-CRP</a><br />
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a></p>
 <h3>Affected By Intervention</h3>
 <p>AFFECTED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/mindfulness-meditation/" class="internal-link">Mindfulness Meditation</a><br />

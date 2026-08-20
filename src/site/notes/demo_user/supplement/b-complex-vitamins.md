@@ -1,6 +1,8 @@
 ---
+aliases:
+- B-Complex
 confidence_score: 0.0
-created: '2026-06-13T17:47:14.272820Z'
+created: '2026-04-01T19:57:36.050460+00:00'
 description: Comprehensive formula containing all eight B vitamins, which serve as
   essential cofactors across glycolysis, TCA cycle, electron transport chain, and
   numerous other metabolic pathways critical for cellular energy production.
@@ -10,6 +12,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: b_complex_vitamins
 permalink: /garden/demo_user/supplement/b-complex-vitamins/
+provenance: curated
 slug: b-complex-vitamins
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: B-Complex Vitamins
 type: supplement
-updated: '2026-06-13T17:47:14.272820Z'
+updated: '2026-08-20T04:08:31.863212Z'
 ---
 
 {% raw %}
@@ -89,6 +92,9 @@ updated: '2026-06-13T17:47:14.272820Z'
 <li><strong>Timing</strong>: Morning with food (B vitamins can be energizing)</li>
 </ul>
 <h2>Relationships</h2>
+<h3>Affects Biomarker</h3>
+<!-- seeded: supplement coverage (mirror_supplement_edges_to_markdown.py) -->
+<p>INCREASES_BIOMARKER::<a href="/garden/demo_user/supplement/vitamin-b12/" class="internal-link">Vitamin B12</a> (Evidence Level 4)</p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/supplement/thiamine/" class="internal-link">Thiamine</a><br />
 RELATED::<a href="/garden/demo_user/supplement/riboflavin/" class="internal-link">Riboflavin</a><br />

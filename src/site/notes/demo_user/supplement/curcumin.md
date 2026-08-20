@@ -1,6 +1,8 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:14.326651Z'
+aliases:
+- Curcumin (with Piperine)
+confidence_score: 0.85
+created: 2026-01-03T17:55:40+0000
 description: Active compound in turmeric with powerful anti-inflammatory and antioxidant
   properties. Supports joint health, brain function, and metabolic health. Requires
   enhanced absorption formulations.
@@ -9,7 +11,9 @@ dg-publish: true
 evidence_level: 4
 gardenUsername: demo_user
 id: curcumin
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/curcumin/
+provenance: curated
 pubchem_id: '969516'
 slug: curcumin
 source: Manual
@@ -23,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Curcumin
 type: supplement
-updated: '2026-06-13T17:47:14.326651Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -44,11 +48,11 @@ updated: '2026-06-13T17:47:14.326651Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+<p>RELATED::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
 RELATED::<a href="/garden/demo_user/supplement/omega-3-dha/" class="internal-link">Omega-3 DHA</a><br />
 RELATED::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />
 MODULATES_PATHWAY::<a href="/garden/demo_user/pathway/neuroinflammation/" class="internal-link">Neuroinflammation</a><br />
-RELATED::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 RELATED::<a href="/garden/demo_user/protein/nrf2/" class="internal-link">NRF2</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a><br />
 RELATED::<a href="/garden/demo_user/protein/ampk/" class="internal-link">AMPK</a><br />
@@ -59,8 +63,8 @@ RELATED::<a href="/garden/demo_user/drug/turmeric/" class="internal-link">Turmer
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/joints/" class="internal-link">Joints</a></p>
 <h3>May Improve Condition</h3>
-<p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
-MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
+<p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a></p>
 <h3>Synergistic With</h3>
 <p>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a></p>
 <h3>Affects Biomarker</h3>
@@ -79,5 +83,12 @@ TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/esr/" class="internal-link
 TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />
 TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/interleukin-6/" class="internal-link">Interleukin 6</a><br />
 TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/tnf-alpha/" class="internal-link">TNF Alpha</a></p>
+<h2>References</h2>
+<ul>
+<li>Gupta SC, et al. AAPS J. 2013;15(1):195-218. Curcumin in inflammatory diseases (review) (PMID: 23143785)</li>
+<li>Daily JW, et al. J Med Food. 2016;19(8):717-729. Curcumin and arthritis (meta-analysis) (PMID: 27002694)</li>
+<li>Hewlings SJ, Kalman DS. Foods. 2017;6(10):92. Curcumin (review) (PMID: 29065148)</li>
+<li>Goel A, Kunnumakkara AB, Aggarwal BB. Biochem Pharmacol. 2008;75(4):787-809. Curcumin as therapeutic agent (PMID: 17900536)</li>
+</ul>
 
 {% endraw %}

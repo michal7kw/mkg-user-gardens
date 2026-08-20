@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:13.973129Z'
+created: 2026-04-01T10:00:00+0000
 description: Tumor necrosis factor signaling pathway mediates inflammation, apoptosis,
   and cell survival through TNFR1 and TNFR2 receptors. Binding of TNF-alpha activates
   NF-kB, MAPK/JNK, and caspase cascades. Central to RA synovial inflammation. Most
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: tnf_signaling_pathway
 permalink: /garden/demo_user/pathway/tnf-signaling-pathway/
+provenance: curated
 slug: tnf-signaling-pathway
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: TNF Signaling Pathway
 type: pathway
-updated: '2026-06-13T17:47:13.973129Z'
+updated: '2026-08-20T04:08:31.569647Z'
 ---
 
 {% raw %}

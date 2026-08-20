@@ -1,16 +1,19 @@
 ---
 aliases:
 - Parkinsons Disease
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.560359Z'
+confidence_score: 0.9
+created: 2026-01-24T12:00:00+0000
 description: A progressive neurodegenerative disorder characterized by motor symptoms
   including tremor, rigidity, and bradykinesia, caused by dopaminergic neuron loss
   in the substantia nigra and alpha-synuclein aggregation.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: parkinsons_disease
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/parkinsons-disease/
+provenance: curated
 slug: parkinsons-disease
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Parkinson's Disease
 type: condition
-updated: '2026-06-13T17:47:11.560359Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -67,7 +70,7 @@ AFFECTS_BRAIN_REGION::<a class="internal-link is-unresolved" href="/404">Substan
 RELATED::<a href="/garden/demo_user/pathway/mitophagy/" class="internal-link">Mitophagy</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a><br />
 AFFECTS_BRAIN_REGION::<a class="internal-link is-unresolved" href="/404">Locus Coeruleus</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Autophagy-Lysosomal Pathway</a><br />
+RELATED::<a href="/garden/demo_user/pathway/autophagy-lysosomal-pathway/" class="internal-link">Autophagy-Lysosomal Pathway</a><br />
 RELATED::<a href="/garden/demo_user/supplement/creatine/" class="internal-link">Creatine</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">DAT-SPECT</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/blood-nfl/" class="internal-link">Blood NfL</a><br />
@@ -92,5 +95,12 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acid
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/creatine/" class="internal-link">Creatine</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a></p>
+<h2>References</h2>
+<ul>
+<li>Postuma RB, Berg D, Stern M, et al. Mov Disord. 2015;30(12):1591-1601. MDS clinical diagnostic criteria for Parkinson's disease (PMID: 26474316)</li>
+<li>Kalia LV, Lang AE. Lancet. 2015;386(9996):896-912. Parkinson's disease (review) (PMID: 25904081)</li>
+<li>Armstrong MJ, Okun MS. Am Fam Physician. 2020;101(6):353-361. Diagnosis and treatment of Parkinson disease (review) (PMID: 32163045)</li>
+<li>Weintraub D, Claassen DO. Annu Rev Med. 2017;68:291-304. Impulse control disorders in Parkinson's disease (PMID: 27661642)</li>
+</ul>
 
 {% endraw %}

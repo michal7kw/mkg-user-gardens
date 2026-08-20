@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.6
-created: '2026-06-13T17:47:11.969981Z'
+created: 2026-04-01T10:00:00+0000
 description: Broad-spectrum supplement stack for autoimmune conditions (SLE, Sjogren's,
   scleroderma, MCTD). Emphasizes immune modulation rather than suppression, gut barrier
   integrity, antioxidant defense, and anti-inflammatory support.
@@ -10,6 +10,7 @@ evidence_level: 2
 gardenUsername: demo_user
 id: autoimmune_support_stack
 permalink: /garden/demo_user/healthstack/autoimmune-support/
+provenance: curated
 slug: autoimmune-support
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Autoimmune Support
 type: healthstack
-updated: '2026-06-13T17:47:11.969981Z'
+updated: '2026-08-20T04:08:30.300354Z'
 ---
 
 {% raw %}
@@ -100,7 +101,7 @@ updated: '2026-06-13T17:47:11.969981Z'
 </thead>
 <tbody>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">hs-CRP</a></td>
+<td><a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></td>
 <td>0-1.0</td>
 <td>0-0.5</td>
 <td>mg/L</td>

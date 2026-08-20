@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.441295Z'
+created: 2026-01-22T12:00:00+0000
 description: L-Malate is a four-carbon dicarboxylic acid intermediate of the citric
   acid cycle, formed by hydration of fumarate and oxidized to oxaloacetate by malate
   dehydrogenase (generating NADH). Malate also serves as the central carrier of the
@@ -13,6 +13,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: malate
 permalink: /garden/demo_user/metabolite/malate/
+provenance: curated
 pubchem_id: '525'
 slug: malate
 source: Manual
@@ -26,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Malate
 type: metabolite
-updated: '2026-06-13T17:47:13.441295Z'
+updated: '2026-08-20T04:08:31.178811Z'
 ---
 
 {% raw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.89
-created: '2026-06-13T17:47:14.217927Z'
+created: '2025-01-22'
 description: This comprehensive review examines alpha-lipoic acid's (ALA) dual role
   as a mitochondrial cofactor and potent antioxidant. The paper details ALA's mechanisms
   in enhancing mitochondrial bioenergetics, recycling endogenous antioxidants (glutathione,
@@ -12,8 +12,10 @@ doi: 10.1016/j.freeradbiomed.2019.06.021
 evidence_level: 4
 gardenUsername: demo_user
 id: pmid_31197632
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/research/alpha-lipoic-acid-as-a-biological-antioxidant-and-its-role-in-mitochondrial-function/
 pmid: '31197632'
+provenance: curated
 slug: alpha-lipoic-acid-as-a-biological-antioxidant-and-its-role-in-mitochondrial-function
 source: Manual
 tags:
@@ -29,7 +31,7 @@ templateEngineOverride: njk
 title: Alpha-lipoic acid as a biological antioxidant and its role in mitochondrial
   function
 type: research
-updated: '2026-06-13T17:47:14.217927Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -73,5 +75,9 @@ AFFECTS::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a
 <p>TREATS::<a href="/garden/demo_user/condition/peripheral-neuropathy/" class="internal-link">Peripheral Neuropathy</a></p>
 <h3>Studies</h3>
 <p>STUDIES::<a href="/garden/demo_user/supplement/alpha-lipoic-acid/" class="internal-link">Alpha Lipoic Acid</a></p>
+<h2>References</h2>
+<ul>
+<li>Alpha-lipoic acid as a biological antioxidant and its role in mitochondrial function — original research publication indexed in this knowledge base.</li>
+</ul>
 
 {% endraw %}

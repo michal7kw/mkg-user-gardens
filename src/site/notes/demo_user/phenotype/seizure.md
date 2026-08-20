@@ -1,12 +1,18 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:14.047231Z'
-description: '...'
+created: 2026-01-03T17:55:34+0000
+description: A seizure acts as the ultimate neurological short-circuit. It is a violent
+  phenotypic manifestation occurring exclusively when the brain’s delicate balance
+  between massive excitatory signaling (Glutamate) and protective inhibitory breaking
+  tone (GABA) is catastrophically lost.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: seizure
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/phenotype/seizure/
+provenance: curated
 slug: seizure
 source: Manual
 tags:
@@ -16,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Seizure
 type: phenotype
-updated: '2026-06-13T17:47:14.047231Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -30,39 +36,13 @@ updated: '2026-06-13T17:47:14.047231Z'
 <li><strong>Generalized Seizures:</strong> The electrical storm instantly engulfs the entire cortex bilaterally, immediately erasing conscious awareness. The most iconic representation is the generalized tonic-clonic (Grand Mal) seizure, forcing cyclical rigid muscular stiffening (tonic) combined with violent rhythmic bilateral jerking (clonic).</li>
 </ul>
 <h2>Relationships</h2>
-<h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Generalized-onset seizure</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Reflex seizure</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Bilateral tonic-clonic seizure</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Focal-onset seizure</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Status epilepticus</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Symptomatic seizures</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Nocturnal seizures</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Dialeptic seizure</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Maternal seizure</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Abnormal nervous system physiology</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Neonatal seizure</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Non-motor seizure</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Infection-related seizure</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Motor seizure</a></p>
-<h3>Related To Phenotype</h3>
-<p>RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Nocturnal seizures</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Non-motor seizure</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Infection-related seizure</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Generalized-onset seizure</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Bilateral tonic-clonic seizure</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Neonatal seizure</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Reflex seizure</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Dialeptic seizure</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Status epilepticus</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Motor seizure</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Focal-onset seizure</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Maternal seizure</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Symptomatic seizures</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Abnormal nervous system physiology</a></p>
 <h3>Enriched</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/epilepsy/" class="internal-link">Epilepsy</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a><br />
-ASSOCIATED_WITH::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a></p>
+<h2>References</h2>
+<ul>
+<li>Kohler S, et al. Nucleic Acids Res. 2021;49(D1):D1207-D1217. The Human Phenotype Ontology (HPO) (PMID: 33264411)</li>
+</ul>
 
 {% endraw %}

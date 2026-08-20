@@ -1,6 +1,10 @@
 ---
+aliases:
+- Aspartate Transaminase
+- AST
+- SGOT
 confidence_score: 0.9
-created: '2026-06-13T17:47:10.724932Z'
+created: '2026-02-14T12:00:00+00:00'
 description: Aspartate Aminotransferase (AST), also known as SGOT, is a pyridoxal
   phosphate-dependent enzyme found in liver, heart, skeletal muscle, kidney, brain,
   and red blood cells. Elevated serum AST reflects tissue damage in any of these organs,
@@ -9,9 +13,12 @@ description: Aspartate Aminotransferase (AST), also known as SGOT, is a pyridoxa
   etiologies.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: ast
+last_modified: 2026-06-21T00:00:00+0000
 permalink: /garden/demo_user/biomarker/aspartate-aminotransferase/
+provenance: curated
 slug: aspartate-aminotransferase
 source: Manual
 tags:
@@ -24,7 +31,7 @@ tags:
 templateEngineOverride: njk
 title: Aspartate Aminotransferase
 type: biomarker
-updated: '2026-06-13T17:47:10.724932Z'
+updated: 2026-06-21T00:00:00+0000
 ---
 
 {% raw %}
@@ -189,7 +196,7 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/rhabdomyolysis/"
 INDICATES_ORGAN_HEALTH::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a> (rises in myocardial infarction, Evidence Level 2a)</p>
 <h3>Correlated With</h3>
 <p>CORRELATED_WITH::<a href="/garden/demo_user/biomarker/alanine-transaminase/" class="internal-link">Alanine Transaminase</a><br />
-CORRELATED_WITH::<a href="/garden/demo_user/biomarker/creatine-kinase/" class="internal-link">Creatine Kinase</a><br />
+CORRELATED_WITH::<a href="/garden/demo_user/labtest/creatine-kinase/" class="internal-link">Creatine Kinase</a><br />
 CORRELATED_WITH::<a href="/garden/demo_user/biomarker/bilirubin-total/" class="internal-link">Bilirubin Total</a></p>
 <h3>Affected By Supplement</h3>
 <p>AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a><br />

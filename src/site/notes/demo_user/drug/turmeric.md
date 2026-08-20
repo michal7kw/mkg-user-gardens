@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:11.904940Z'
+created: 2026-01-03T17:55:39+0000
 description: Turmeric is a spice derived from the root of the Curcuma longa plant,
   known for its active compound curcumin, which possesses potent anti-inflammatory
   and antioxidant properties.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: turmeric
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/turmeric/
+provenance: curated
 slug: turmeric
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Turmeric
 type: drug
-updated: '2026-06-13T17:47:11.904940Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -37,10 +40,14 @@ updated: '2026-06-13T17:47:11.904940Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a><br />
-RELATED::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
+RELATED::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
 <h3>Reduces Condition</h3>
-<p>REDUCES_CONDITION::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
+<p>REDUCES_CONDITION::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
 <h3>Contains</h3>
 <p>CONTAINS::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

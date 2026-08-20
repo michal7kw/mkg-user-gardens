@@ -1,14 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.299750Z'
+confidence_score: 0.8
+created: 2026-01-18T16:02:34+0000
 description: A prolonged state of emotional or physical tension resulting from internal
   or external stressors, characterized by sustained activation of the HPA axis and
   elevated cortisol.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: chronic_stress
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/chronic-stress/
+provenance: curated
 slug: chronic-stress
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Chronic Stress
 type: condition
-updated: '2026-06-13T17:47:11.299750Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -62,7 +65,7 @@ updated: '2026-06-13T17:47:11.299750Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Risk Biomarkers</h3>
-<p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-link">BDNF</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/homocysteine/" class="internal-link">homocysteine</a><br />
@@ -73,5 +76,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class=
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/rhodiola-rosea/" class="internal-link">Rhodiola Rosea</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/l-theanine/" class="internal-link">L-Theanine</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/phosphatidylserine/" class="internal-link">Phosphatidylserine</a></p>
+<h2>References</h2>
+<ul>
+<li>Cohen S, Murphy ML, Prather AA. Annu Rev Psychol. 2019;70:703-729. Ten years of stress research (PMID: 30148679)</li>
+<li>McEwen BS. N Engl J Med. 1998;338(3):171-179. Protective and damaging effects of stress mediators (PMID: 9428819)</li>
+<li>Hammen C. Annu Rev Clin Psychol. 2005;1:293-319. Stress and depression (review) (PMID: 17716090)</li>
+</ul>
 
 {% endraw %}

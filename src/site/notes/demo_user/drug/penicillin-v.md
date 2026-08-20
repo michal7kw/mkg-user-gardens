@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.868029Z'
+confidence_score: 0.8
+created: 2026-01-18T16:48:42+0000
 description: An oral natural penicillin used for mild to moderate bacterial infections,
   such as strep throat and skin infections.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: penicillin_v
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/penicillin-v/
+provenance: curated
 slug: penicillin-v
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Penicillin V
 type: drug
-updated: '2026-06-13T17:47:11.868029Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -41,6 +44,10 @@ TREATS::<a class="internal-link is-unresolved" href="/404">Dental Infection</a> 
 <p>TARGETS::<a class="internal-link is-unresolved" href="/404">Penicillin-Binding Proteins</a> (Irreversible transpeptidase inhibition, Evidence Level 1a)<br />
 SAME_CLASS_AS::<a href="/garden/demo_user/drug/penicillin-g/" class="internal-link">Penicillin G</a> (Acid-stable oral form of natural penicillin, Evidence Level 1a)<br />
 CONTRAINDICATED_IN::<a class="internal-link is-unresolved" href="/404">Penicillin Allergy</a> (Risk of anaphylaxis in sensitized patients, Evidence Level 1a)<br />
-USED_FOR_PROPHYLAXIS::<a class="internal-link is-unresolved" href="/404">Rheumatic Fever</a> (Secondary prophylaxis to prevent recurrence, Evidence Level 1a)</p>
+USED_FOR_PROPHYLAXIS::<a href="/garden/demo_user/condition/rheumatic-fever/" class="internal-link">Rheumatic Fever</a> (Secondary prophylaxis to prevent recurrence, Evidence Level 1a)</p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

@@ -2,7 +2,7 @@
 aliases:
 - bone health panel
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.043671Z'
+created: 2026-02-07T00:00:00+0000
 description: Evaluates bone formation and resorption markers alongside calcium-vitamin
   D metabolism. Essential for osteoporosis risk assessment, monitoring treatment efficacy,
   and evaluating metabolic bone diseases.
@@ -11,6 +11,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-bone-health
 permalink: /garden/demo_user/labtestpanel/bone-health-panel/
+provenance: curated
 slug: bone-health-panel
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: bone_health_panel
 type: labtestpanel
-updated: '2026-06-13T17:47:13.043671Z'
+updated: '2026-08-20T04:08:31.027463Z'
 ---
 
 {% raw %}
@@ -29,9 +30,9 @@ updated: '2026-06-13T17:47:13.043671Z'
 <h2>Included Tests</h2>
 <ul>
 <li><a href="/garden/demo_user/labtest/osteocalcin/" class="internal-link">osteocalcin</a> -- Bone formation marker produced by osteoblasts</li>
-<li><a class="internal-link is-unresolved" href="/404">phosphorus</a> -- Essential mineral for bone mineralization</li>
+<li><a href="/garden/demo_user/labtest/phosphorus/" class="internal-link">phosphorus</a> -- Essential mineral for bone mineralization</li>
 <li><a href="/garden/demo_user/labtest/vitamin-d-25oh/" class="internal-link">vitamin d 25oh</a> -- Key regulator of calcium absorption and bone metabolism</li>
-<li><a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a> -- Primary mineral component of bone matrix</li>
+<li><a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a> -- Primary mineral component of bone matrix</li>
 <li><a href="/garden/demo_user/labtest/alkaline-phosphatase-alp/" class="internal-link">alkaline phosphatase alp</a> -- Enzyme indicating bone and liver metabolic activity</li>
 </ul>
 <h2>Clinical Indications</h2>
@@ -44,10 +45,10 @@ updated: '2026-06-13T17:47:13.043671Z'
 </ul>
 <h2>Relationships</h2>
 <p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/osteocalcin/" class="internal-link">osteocalcin</a><br />
-INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">phosphorus</a><br />
-INCLUDES_TEST::<a href="/garden/demo_user/labtest/vitamin-d-25oh/" class="internal-link">vitamin d 25oh</a><br />
-INCLUDES_TEST::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a><br />
-INCLUDES_TEST::<a href="/garden/demo_user/labtest/alkaline-phosphatase-alp/" class="internal-link">alkaline phosphatase alp</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/phosphorus/" class="internal-link">phosphorus</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/vitamin-d-25oh/" class="internal-link">vitamin_d_25oh</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">calcium</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/alkaline-phosphatase-alp/" class="internal-link">alkaline_phosphatase_alp</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/osteoporosis/" class="internal-link">Osteoporosis</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/bones/" class="internal-link">Bones</a></p>
 

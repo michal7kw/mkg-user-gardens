@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:11.518357Z'
+created: 2026-01-18T16:48:42+0000
 description: A range of liver conditions affecting people who drink little to no alcohol,
   characterized by too much fat stored in liver cells.
 dg-home: false
@@ -8,6 +8,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: non_alcoholic_fatty_liver_disease
 permalink: /garden/demo_user/condition/non-alcoholic-fatty-liver-disease/
+provenance: curated
 slug: non-alcoholic-fatty-liver-disease
 source: Manual
 tags:
@@ -18,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Non-alcoholic Fatty Liver Disease
 type: condition
-updated: '2026-06-13T17:47:11.518357Z'
+updated: '2026-08-20T04:08:29.742013Z'
 ---
 
 {% raw %}
@@ -73,7 +74,7 @@ SORT date DESC
 <p>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fatty Acids</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-e/" class="internal-link">Vitamin E</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/berberine/" class="internal-link">Berberine</a><br />
-IMPROVED_BY_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Milk Thistle</a></p>
+IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/milk-thistle/" class="internal-link">Milk Thistle</a></p>
 <h3>Improved By Intervention</h3>
 <p>IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/exercise/" class="internal-link">Exercise</a><br />
 IMPROVED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/mediterranean-diet/" class="internal-link">Mediterranean Diet</a></p>

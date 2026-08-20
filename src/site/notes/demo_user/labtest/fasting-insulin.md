@@ -95,7 +95,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.332097Z'
+created: 2025-12-10T09:07:57+0000
 description: Measures insulin levels after fasting. Key marker for insulin resistance
   and metabolic health.
 dg-home: false
@@ -104,6 +104,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: test-insulin-001
 permalink: /garden/demo_user/labtest/fasting-insulin/
+provenance: curated
 slug: fasting-insulin
 source: Manual
 tags:
@@ -111,7 +112,7 @@ tags:
 templateEngineOverride: njk
 title: fasting_insulin
 type: labtest
-updated: '2026-06-13T17:47:12.332097Z'
+updated: '2026-08-20T04:08:30.634871Z'
 ---
 
 {% raw %}
@@ -137,6 +138,10 @@ updated: '2026-06-13T17:47:12.332097Z'
 <td>Metabolic Hormones</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -147,6 +152,18 @@ updated: '2026-06-13T17:47:12.332097Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>1-3 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$25-$55</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -170,6 +187,8 @@ updated: '2026-06-13T17:47:12.332097Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/biomarker/insulin-fasting/" class="internal-link">Insulin Fasting</a></p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/biomarker/insulin-fasting/" class="internal-link">Insulin Fasting</a><br />
 RELATED::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a></p>

@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.719413Z'
+created: 2026-01-03T17:55:40+0000
 description: Alpha-glucosidase inhibitor that slows carbohydrate absorption. Reduces
   postprandial glucose spikes. Studied for longevity due to caloric restriction mimetic
   properties.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: acarbose
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/acarbose/
+provenance: curated
 slug: acarbose
 source: Manual
 tags:
@@ -21,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Acarbose
 type: drug
-updated: '2026-06-13T17:47:11.719413Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -51,5 +54,9 @@ AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/fasting-glucose/" class="i
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/pancreas/" class="internal-link">Pancreas</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/intestines/" class="internal-link">Intestines</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

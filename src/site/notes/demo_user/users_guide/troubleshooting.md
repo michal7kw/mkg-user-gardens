@@ -1,13 +1,14 @@
 ---
 aliases:
 - 14_Troubleshooting
-created: '2026-06-13T17:47:14.643214Z'
+created: '2026-08-20T04:08:32.200424Z'
 description: Common issues with connections, sync, plugin, and the web dashboard —
   plus FAQ
 dg-home: false
 dg-publish: true
 gardenUsername: demo_user
 permalink: /garden/demo_user/users_guide/troubleshooting/
+provenance: curated
 slug: troubleshooting
 tags:
 - users_guide
@@ -15,7 +16,7 @@ tags:
 templateEngineOverride: njk
 title: Troubleshooting
 type: users_guide
-updated: '2026-06-13T17:47:14.643214Z'
+updated: '2026-08-20T04:08:32.200424Z'
 ---
 
 {% raw %}

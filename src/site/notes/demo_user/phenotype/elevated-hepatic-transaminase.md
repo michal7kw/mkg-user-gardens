@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:14.001272Z'
+created: 2026-01-03T17:55:35+0000
 description: A clinical and laboratory phenotype defined by abnormally high levels
   of liver enzymes—predominantly Alanine Transaminase (ALT) and Aspartate Transaminase
   (AST)—in the blood serum, acting as the primary universal biomarker indicating acute
@@ -10,6 +10,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: elevated_hepatic_transaminase
 permalink: /garden/demo_user/phenotype/elevated-hepatic-transaminase/
+provenance: curated
 slug: elevated-hepatic-transaminase
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Elevated hepatic transaminase
 type: phenotype
-updated: '2026-06-13T17:47:14.001272Z'
+updated: '2026-08-20T04:08:31.580659Z'
 ---
 
 {% raw %}
@@ -39,18 +40,12 @@ updated: '2026-06-13T17:47:14.001272Z'
 <h2>Relationships</h2>
 <h3>Correlated Biomarkers</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/alanine-transaminase/" class="internal-link">Alanine Transaminase</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">Aspartate Transaminase</a></p>
+ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/aspartate-aminotransferase/" class="internal-link">Aspartate Transaminase</a></p>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/liver-disease/" class="internal-link">Liver Disease</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/autoimmune-hepatitis/" class="internal-link">Autoimmune Hepatitis</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a></p>
-<h3>Related Phenotypes</h3>
-<p>RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Elevated serum aspartate aminotransferase</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Elevated serum alanine aminotransferase</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Elevated serum transaminases during infections</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Abnormal liver function tests during pregnancy</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Abnormal enzymecoenzyme activity</a></p>
 <h2>References</h2>
 <ul>
 <li><em>Giannini EG, et al. CMAJ. 2005</em> -- Liver enzyme alteration: a guide for clinicians (PMID: 15724040)</li>

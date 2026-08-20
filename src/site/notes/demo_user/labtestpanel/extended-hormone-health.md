@@ -2,7 +2,7 @@
 aliases:
 - extended hormone health
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.091425Z'
+created: 2026-01-18T16:48:42+0000
 description: 'Beyond standard hormone tests, these offer deeper insights into metabolic
   health, growth factors, and the hormones that influence physical performance and
   recovery. These hormones influence reproductive health, aging, and metabolism, regulating
@@ -15,6 +15,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-extended-hormone-health
 permalink: /garden/demo_user/labtestpanel/extended-hormone-health/
+provenance: curated
 slug: extended-hormone-health
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: extended_hormone_health
 type: labtestpanel
-updated: '2026-06-13T17:47:13.091425Z'
+updated: '2026-08-20T04:08:31.050356Z'
 ---
 
 {% raw %}
@@ -46,15 +47,15 @@ updated: '2026-06-13T17:47:13.091425Z'
 <li>Athletic performance optimization and recovery monitoring</li>
 </ul>
 <h2>Relationships</h2>
-<p>INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Insulin-like Growth Factor (IGF-1)</a><br />
-INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Dihydrotestosterone (DHT)</a><br />
-INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Androstenedione</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/igf1/" class="internal-link">igf1</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/dihydrotestosterone-dht/" class="internal-link">dihydrotestosterone_dht</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/androstenedione/" class="internal-link">androstenedione</a><br />
 USED_FOR::<a class="internal-link is-unresolved" href="/404">Hormone Imbalance</a><br />
 RELATED::<a href="/garden/demo_user/labtest/anti-mullerian-hormone/" class="internal-link">anti mullerian hormone</a><br />
 RELATED::<a href="/garden/demo_user/labtest/follicle-stimulating-hormone/" class="internal-link">follicle stimulating hormone</a><br />
 RELATED::<a href="/garden/demo_user/labtest/luteinizing-hormone/" class="internal-link">luteinizing hormone</a><br />
-RELATED::<a href="/garden/demo_user/labtest/dhea-sulfate/" class="internal-link">dhea sulfate</a><br />
-RELATED::<a href="/garden/demo_user/labtest/sex-hormone-binding-globulin-shbg/" class="internal-link">sex hormone binding globulin shbg</a><br />
+RELATED::<a href="/garden/demo_user/biomarker/dhea-s/" class="internal-link">dhea sulfate</a><br />
+RELATED::<a href="/garden/demo_user/labtest/shbg/" class="internal-link">sex hormone binding globulin shbg</a><br />
 ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">Endocrine System</a></p>
 
 {% endraw %}

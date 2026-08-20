@@ -1,6 +1,9 @@
 ---
+aliases:
+- GGT
+- Ggt
 confidence_score: 0.9
-created: '2026-06-13T17:47:10.868073Z'
+created: 2026-01-03T17:55:37+0000
 description: Gamma-glutamyl transferase (GGT) is a membrane-bound enzyme that catalyzes
   the transfer of gamma-glutamyl groups from glutathione to amino acids, playing a
   central role in glutathione metabolism and oxidative stress defense. Serum GGT is
@@ -12,6 +15,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: ggt
 permalink: /garden/demo_user/biomarker/ggt/
+provenance: curated
 slug: ggt
 source: Manual
 tags:
@@ -22,9 +26,9 @@ tags:
 - metabolic
 - hepatobiliary
 templateEngineOverride: njk
-title: Ggt
+title: GGT
 type: biomarker
-updated: '2026-06-13T17:47:10.868073Z'
+updated: '2026-08-20T04:08:28.705735Z'
 ---
 
 {% raw %}
@@ -179,7 +183,7 @@ PREDICTS_RISK::<a href="/garden/demo_user/condition/cardiovascular-disease/" cla
 PREDICTS_RISK::<a href="/garden/demo_user/condition/type-2-diabetes/" class="internal-link">Type 2 Diabetes</a><br />
 PREDICTS_RISK::<a href="/garden/demo_user/condition/non-alcoholic-fatty-liver-disease/" class="internal-link">Non-alcoholic Fatty Liver Disease</a></p>
 <h3>Associated With Condition</h3>
-<p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+<p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/oxidative-stress/" class="internal-link">Oxidative Stress</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/alcohol-related-liver-injury/" class="internal-link">Alcohol-Related Liver Injury</a></p>
 <h3>Affected By Supplement</h3>

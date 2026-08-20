@@ -1,13 +1,16 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:13.716220Z'
+created: '2026-04-05T16:15:44.336954+00:00'
 description: Eicosapentaenoic acid — essential omega-3 fatty acid with potent anti-inflammatory
   and cardiovascular benefits
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nutrient_omega3_epa
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/nutrient/omega-3-epa/
+provenance: curated
 slug: omega-3-epa
 source: dev_seeder
 tags:
@@ -15,7 +18,7 @@ tags:
 templateEngineOverride: njk
 title: Omega-3 (EPA)
 type: nutrient
-updated: '2026-06-13T17:47:13.716220Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -51,14 +54,14 @@ updated: '2026-06-13T17:47:13.716220Z'
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/heart/" class="internal-link">Heart</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></li>
 <li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a></li>
-<li>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Blood Vessels</a></li>
+<li>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/blood-vessels/" class="internal-link">Blood Vessels</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">CRP (C-Reactive Protein)</a></li>
-<li>AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Omega-3 Index</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">CRP (C-Reactive Protein)</a></li>
+<li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/omega3-index/" class="internal-link">Omega-3 Index</a></li>
 <li>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="internal-link">LDL Cholesterol</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a></li>
-<li>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Hyperlipidemia</a></li>
+<li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/hyperlipidemia/" class="internal-link">Hyperlipidemia</a></li>
 <li>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/nutrient/omega-3-dha/" class="internal-link">Omega-3 (DHA)</a></li>
 <li>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-e/" class="internal-link">Vitamin E</a></li>
@@ -66,6 +69,10 @@ updated: '2026-06-13T17:47:13.716220Z'
 <li>ANTAGONISTIC_WITH::<a href="/garden/demo_user/nutrient/omega-6/" class="internal-link">Omega-6</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/omega-3-ala/" class="internal-link">Omega-3 (ALA)</a></li>
 <li>RELATED::<a href="/garden/demo_user/nutrient/dietary-fat/" class="internal-link">Dietary Fat</a></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
 </ul>
 
 {% endraw %}

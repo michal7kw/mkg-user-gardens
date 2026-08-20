@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.658274Z'
+created: 2026-04-01T12:00:00+0000
 description: Marked and persistent fear of social situations in which the individual
   may be scrutinized by others. Fear of acting in a way that will be humiliating or
   embarrassing. Lifetime prevalence 7-12%, making it the third most common psychiatric
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: social_anxiety_disorder
 permalink: /garden/demo_user/condition/social-anxiety-disorder/
+provenance: curated
 slug: social-anxiety-disorder
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Social Anxiety Disorder
 type: condition
-updated: '2026-06-13T17:47:11.658274Z'
+updated: '2026-08-20T04:08:29.938490Z'
 ---
 
 {% raw %}

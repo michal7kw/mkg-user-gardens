@@ -1,12 +1,17 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:14.050168Z'
-description: '...'
+created: 2026-01-03T17:55:35+0000
+description: Short stature is a massive, incredibly diverse clinical umbrella phenotype
+  tracking failures in longitudinal physical bone development across pediatric and
+  adolescent populations.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: short_stature
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/phenotype/short-stature/
+provenance: curated
 slug: short-stature
 source: Manual
 tags:
@@ -16,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Short stature
 type: phenotype
-updated: '2026-06-13T17:47:14.050168Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -31,41 +36,12 @@ updated: '2026-06-13T17:47:14.050168Z'
 <li><strong>Severe Genetic Aberrations:</strong> Catastrophic chromosomal structural defects, most iconically <strong>Turner Syndrome</strong> (45,X in females) or <strong>Achondroplasia</strong> (mutations in FGFR3 heavily crippling endochondral bone formation, causing dwarfism).</li>
 </ol>
 <h2>Relationships</h2>
-<h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Growth delay</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Pituitary dwarfism</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Asymmetric short stature</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">autosomal recessive cutis laxa type 2 classic type</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Hurler-Scheie syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">hypogonadism-mitral valve prolapse-intellectual disability syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">intellectual disability X-linked</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Abnormality of body height</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Birth length less than 3rd percentile</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">obesity due to SIM1 deficiency</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">12q14 microdeletion syndrome</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">craniometaphyseal dysplasia autosomal dominant</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">peripheral dysostosis</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Disproportionate short stature</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">avascular necrosis of femoral head primary</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">familial isolated hypoparathyroidism</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Proportionate short stature</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Stickler syndrome</a></p>
-<h3>Related To Phenotype</h3>
-<p>RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Growth delay</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Birth length less than 3rd percentile</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Proportionate short stature</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Pituitary dwarfism</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Asymmetric short stature</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Abnormality of body height</a><br />
-RELATED_TO_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Disproportionate short stature</a></p>
-<h3>Excludes Phenotype</h3>
-<p>EXCLUDES_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">avascular necrosis of femoral head primary</a><br />
-EXCLUDES_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">Stickler syndrome</a><br />
-EXCLUDES_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">craniometaphyseal dysplasia autosomal dominant</a><br />
-EXCLUDES_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">intellectual disability X-linked</a><br />
-EXCLUDES_PHENOTYPE::<a class="internal-link is-unresolved" href="/404">obesity due to SIM1 deficiency</a></p>
 <h3>Enriched</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/growth-hormone/" class="internal-link">Growth Hormone</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/bones/" class="internal-link">Bones</a></p>
+<h2>References</h2>
+<ul>
+<li>Kohler S, et al. Nucleic Acids Res. 2021;49(D1):D1207-D1217. The Human Phenotype Ontology (HPO) (PMID: 33264411)</li>
+</ul>
 
 {% endraw %}

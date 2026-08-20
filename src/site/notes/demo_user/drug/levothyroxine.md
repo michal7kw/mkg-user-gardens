@@ -7,21 +7,31 @@ country_regulatory:
     notes: Reimbursed for hypothyroidism; common brands Eutirox, Tirosint
     prescription_type: RR
     reimbursement_class: A
+  pl:
+    agency_status: approved
+    atc_code: H03AA01
+    notes: URPL/EMA-approved; reimbursed for hypothyroidism on the NFZ list (odpłatność
+      ryczałtowa); common brands Euthyrox, Letrox; Polish name lewotyroksyna
+    prescription_type: Rp
+    reimbursement_class: refundowany
   uk:
     agency_status: MHRA-approved
     atc_code: H03AA01
     notes: BNF; thyroid hormone replacement
     prescription_type: POM
     reimbursement_class: NHS
-created: '2026-06-13T17:47:11.808346Z'
+created: 2026-01-03T17:55:40+0000
 description: Synthetic thyroid hormone (T4) for hypothyroidism replacement therapy.
   The most prescribed medication for thyroid disorders. Requires careful dose titration
   based on TSH levels.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: levothyroxine
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/levothyroxine/
+provenance: curated
 slug: levothyroxine
 source: Manual
 tags:
@@ -33,7 +43,7 @@ tags:
 templateEngineOverride: njk
 title: Levothyroxine
 type: drug
-updated: '2026-06-13T17:47:11.808346Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -58,10 +68,10 @@ RELATED::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc
 RELATED::<a href="/garden/demo_user/supplement/iodine/" class="internal-link">Iodine</a></p>
 <h3>Interacts With</h3>
 <p>INTERACTS_WITH::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
-INTERACTS_WITH::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a><br />
+INTERACTS_WITH::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a></p>
 <h3>Treats</h3>
-<p>TREATS::<a class="internal-link is-unresolved" href="/404">Hypothyroidism</a></p>
+<p>TREATS::<a href="/garden/demo_user/condition/hypothyroidism/" class="internal-link">Hypothyroidism</a></p>
 <h3>Modulates Hormone</h3>
 <p>MODULATES_HORMONE::<a href="/garden/demo_user/hormone/thyroid-hormones/" class="internal-link">Thyroid Hormones</a></p>
 <h3>Affects Biomarker</h3>
@@ -70,5 +80,9 @@ AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/free-t4/" class="interna
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/free-t3/" class="internal-link">Free T3</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/thyroid/" class="internal-link">Thyroid</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.82
-created: '2026-06-13T17:47:14.367908Z'
+created: 2026-01-03T17:55:40+0000
 description: L-Theanine (gamma-glutamylethylamide) is a unique non-protein amino acid
   found almost exclusively in Camellia sinensis (tea plant) and certain mushroom species.
   It readily crosses the blood-brain barrier within 30 minutes, promoting alpha brain
@@ -14,6 +14,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: l_theanine
 permalink: /garden/demo_user/supplement/l-theanine/
+provenance: curated
 pubchem_id: '439378'
 slug: l-theanine
 source: Manual
@@ -31,7 +32,7 @@ tags:
 templateEngineOverride: njk
 title: L-Theanine
 type: supplement
-updated: '2026-06-13T17:47:14.367908Z'
+updated: '2026-08-20T04:08:31.949031Z'
 ---
 
 {% raw %}
@@ -164,7 +165,7 @@ RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link"
 RELATED::<a href="/garden/demo_user/intervention/sleep-optimization/" class="internal-link">Sleep Optimization</a><br />
 RELATED::<a href="/garden/demo_user/drug/caffeine/" class="internal-link">Caffeine</a></p>
 <h3>Modulates Neurotransmitter</h3>
-<p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a><br />
+<p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a><br />
 MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
 MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a><br />
 MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a></p>
@@ -175,7 +176,7 @@ MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/glutamat
 <h3>Affects Neurotransmitter</h3>
 <p>AFFECTS_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a><br />
 AFFECTS_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
-AFFECTS_NEUROTRANSMITTER::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a></p>
+AFFECTS_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a></p>
 <h3>Synergistic With</h3>
 <p>SYNERGISTIC_WITH::<a href="/garden/demo_user/hormone/melatonin/" class="internal-link">Melatonin</a><br />
 SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
@@ -186,7 +187,8 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunctio
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/sleep-disorder/" class="internal-link">Sleep Disorder</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a></p>
 <h3>Affects Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/cortisol-am/" class="internal-link">Cortisol (AM)</a> (Evidence Level 3)<br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
 <h3>Supports</h3>
 <p>SUPPORTS::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a></p>
 <h2>References</h2>

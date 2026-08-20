@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:12.021494Z'
+created: 2026-04-14T00:00:00+0000
 description: Incretin hormone produced by L-cells in the small intestine that stimulates
   glucose-dependent insulin secretion, suppresses glucagon, delays gastric emptying,
   and promotes satiety. Target of GLP-1 receptor agonists for diabetes and obesity
@@ -10,6 +10,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: glp1
 permalink: /garden/demo_user/hormone/glp-1/
+provenance: curated
 slug: glp-1
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: GLP-1
 type: hormone
-updated: '2026-06-13T17:47:12.021494Z'
+updated: '2026-08-20T04:08:30.338140Z'
 ---
 
 {% raw %}
@@ -120,7 +121,7 @@ updated: '2026-06-13T17:47:12.021494Z'
 SECRETED_BY::<a href="/garden/demo_user/organ/pancreas/" class="internal-link">Pancreas</a> (alpha cells produce minor amounts, Evidence Level 2b)</p>
 <h3>Modulates Hormone</h3>
 <p>MODULATES_HORMONE::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a> (stimulates glucose-dependent secretion, Evidence Level 1a)<br />
-MODULATES_HORMONE::<a class="internal-link is-unresolved" href="/404">Glucagon</a> (suppresses postprandial secretion, Evidence Level 1a)</p>
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/glucagon/" class="internal-link">Glucagon</a> (suppresses postprandial secretion, Evidence Level 1a)</p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/pancreas/" class="internal-link">Pancreas</a> (beta-cell stimulation, alpha-cell suppression, Evidence Level 1a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/stomach/" class="internal-link">Stomach</a> (delays gastric emptying, Evidence Level 1a)<br />
@@ -131,8 +132,8 @@ AFFECTS_ORGAN::<a href="/garden/demo_user/organ/intestines/" class="internal-lin
 <h3>Affects Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/metabolite/glucose/" class="internal-link">Glucose</a> (postprandial glucose control, Evidence Level 1a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a> (improves glycemic control, Evidence Level 1a)<br />
-AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/crp-hs/" class="internal-link">CRP (hs)</a> (reduces inflammation, Evidence Level 2a)<br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Blood Pressure</a> (reduces systolic BP, Evidence Level 2a)</p>
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">CRP (hs)</a> (reduces inflammation, Evidence Level 2a)<br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/examination/blood-pressure/" class="internal-link">Blood Pressure</a> (reduces systolic BP, Evidence Level 2a)</p>
 <h3>Modulates Pathway</h3>
 <p>MODULATES::<a href="/garden/demo_user/pathway/glp-1-signaling-pathway/" class="internal-link">GLP-1 Signaling Pathway</a> (primary signaling, Evidence Level 1a)<br />
 MODULATES::<a href="/garden/demo_user/pathway/insulin-signaling/" class="internal-link">Insulin Signaling</a> (enhances insulin sensitivity, Evidence Level 2b)<br />
@@ -145,7 +146,7 @@ RELATED_TO_DRUG::<a href="/garden/demo_user/drug/exenatide/" class="internal-lin
 RELATED_TO_DRUG::<a href="/garden/demo_user/drug/dulaglutide/" class="internal-link">Dulaglutide</a> (GLP-1 receptor agonist, Evidence Level 1a)</p>
 <h3>Related to Condition</h3>
 <p>RELATED::<a href="/garden/demo_user/condition/diabetes/" class="internal-link">Diabetes</a> (deficiency contributes to hyperglycemia, Evidence Level 1a)<br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Obesity</a> (reduced GLP-1 response, Evidence Level 2b)<br />
+RELATED::<a href="/garden/demo_user/condition/obesity/" class="internal-link">Obesity</a> (reduced GLP-1 response, Evidence Level 2b)<br />
 RELATED::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a> (cardioprotective effects, Evidence Level 1a)</p>
 <h2>References</h2>
 <ul>

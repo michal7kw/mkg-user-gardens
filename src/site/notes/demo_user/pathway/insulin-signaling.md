@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.909209Z'
+created: 2026-01-03T17:55:41+0000
 description: The insulin signaling pathway mediates the metabolic effects of insulin,
   promoting glucose uptake, glycogen synthesis, lipogenesis, and protein synthesis
   while inhibiting gluconeogenesis and lipolysis.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: insulin_signaling
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/insulin-signaling/
+provenance: curated
 slug: insulin-signaling
 source: Manual
 tags:
@@ -21,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Insulin Signaling
 type: pathway
-updated: '2026-06-13T17:47:13.909209Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -62,5 +64,9 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/igf-1/" class="internal-link
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/nafld/" class="internal-link">NAFLD</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/weight-gain/" class="internal-link">Weight Gain</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

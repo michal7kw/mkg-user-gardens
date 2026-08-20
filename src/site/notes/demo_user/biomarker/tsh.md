@@ -1,6 +1,9 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.063364Z'
+aliases:
+- TSH
+- Tsh
+confidence_score: 0.95
+created: 2026-01-03T17:55:37+0000
 description: Thyroid Stimulating Hormone (TSH, thyrotropin) is a glycoprotein hormone
   produced by the anterior pituitary that regulates thyroid hormone production. It
   is the single most sensitive screening test for thyroid dysfunction, with a logarithmic
@@ -8,17 +11,20 @@ description: Thyroid Stimulating Hormone (TSH, thyrotropin) is a glycoprotein ho
   and hyperthyroidism.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: tsh
+last_modified: 2026-06-21T00:00:00+0000
 permalink: /garden/demo_user/biomarker/tsh/
+provenance: curated
 slug: tsh
 source: Manual
 tags:
 - biomarker
 templateEngineOverride: njk
-title: Tsh
+title: TSH
 type: biomarker
-updated: '2026-06-13T17:47:11.063364Z'
+updated: 2026-06-21T00:00:00+0000
 ---
 
 {% raw %}
@@ -92,17 +98,41 @@ updated: '2026-06-13T17:47:11.063364Z'
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/phenotype/fatigue/" class="internal-link">Fatigue</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/anxiety/" class="internal-link">Anxiety</a><br />
-ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/hashimotos-thyroiditis/" class="internal-link">Hashimoto's Thyroiditis</a> (most common cause of elevated TSH in iodine-sufficient regions, Evidence Level 1a)<br />
-ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/graves-disease/" class="internal-link">Graves' Disease</a> (causes TSH suppression via thyroid-stimulating antibodies, Evidence Level 1a)<br />
+ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/hashimotos-thyroiditis/" class="internal-link">Hashimotos Thyroiditis</a> (most common cause of elevated TSH in iodine-sufficient regions, Evidence Level 1a)<br />
+ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/hyperthyroidism/" class="internal-link">Hyperthyroidism</a> (causes TSH suppression via thyroid-stimulating antibodies, Evidence Level 1a)<br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a> (subclinical hypothyroidism is an underrecognized cause of treatment-resistant depression, Evidence Level 2a)<br />
-ASSOCIATED_WITH_CONDITION::<a class="internal-link is-unresolved" href="/404">Hyperlipidemia</a> (hypothyroidism elevates LDL cholesterol, Evidence Level 1a)<br />
+ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/labtest/ldl-cholesterol/" class="internal-link">LDL Cholesterol</a> (hypothyroidism elevates LDL cholesterol, Evidence Level 1a)<br />
 RELATED::<a href="/garden/demo_user/labtest/thyroid-panel-basic/" class="internal-link">thyroid_panel_basic</a><br />
 RELATED::<a href="/garden/demo_user/labtest/thyroid-panel-complete/" class="internal-link">thyroid_panel_complete</a></p>
 <h3>Indicates Organ Health</h3>
-<p>INDICATES_ORGAN_HEALTH::<a href="/garden/demo_user/organ/thyroid/" class="internal-link">Thyroid</a><br />
-INDICATES_ORGAN_HEALTH::<a class="internal-link is-unresolved" href="/404">Pituitary</a> (TSH production reflects anterior pituitary function, Evidence Level 1a)</p>
-<h3>Increases Risk For</h3>
-<p>INCREASES_RISK_FOR::<a class="internal-link is-unresolved" href="/404">Hypothyroidism</a> (when elevated, Evidence Level 1a)<br />
-INCREASES_RISK_FOR::<a href="/garden/demo_user/condition/hyperthyroidism/" class="internal-link">Hyperthyroidism</a> (when suppressed, Evidence Level 1a)</p>
+<p>INDICATES_ORGAN_HEALTH::<a href="/garden/demo_user/organ/thyroid/" class="internal-link">Thyroid</a> (TSH reflects thyroid-pituitary axis function, Evidence Level 1a)<br />
+INDICATES_ORGAN_HEALTH::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a> (TSH production reflects anterior pituitary function, Evidence Level 1a)</p>
+<h3>Predicts Risk</h3>
+<p>PREDICTS_RISK::<a href="/garden/demo_user/condition/hashimotos-thyroiditis/" class="internal-link">Hashimotos Thyroiditis</a> (when elevated, Evidence Level 1a)<br />
+PREDICTS_RISK::<a href="/garden/demo_user/condition/hyperthyroidism/" class="internal-link">Hyperthyroidism</a> (when suppressed, Evidence Level 1a)</p>
+<h3>Correlated With</h3>
+<p>CORRELATED_WITH::<a href="/garden/demo_user/biomarker/free-t3/" class="internal-link">Free T3</a><br />
+CORRELATED_WITH::<a href="/garden/demo_user/biomarker/free-t4/" class="internal-link">Free T4</a></p>
+<h3>Affected By Supplement</h3>
+<p>AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/iodine/" class="internal-link">Iodine</a><br />
+AFFECTED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/ashwagandha/" class="internal-link">Ashwagandha</a></p>
+<h3>Measured By Test</h3>
+<p>MEASURED_BY_TEST::<a href="/garden/demo_user/labtest/thyroid-panel-complete/" class="internal-link">thyroid_panel_complete</a><br />
+MEASURED_BY_TEST::<a href="/garden/demo_user/labtest/thyroid-panel-basic/" class="internal-link">thyroid_panel_basic</a></p>
+<h2>References</h2>
+<ul>
+<li>Garber JR, Cobin RH, Gharib H, et al. <em>Thyroid.</em> 2012;22(12):1200-1235. Clinical practice guidelines for hypothyroidism in adults (ATA/AACE) (PMID: 22959517)</li>
+<li>Jonklaas J, Bianco AC, Bauer AJ, et al. <em>Thyroid.</em> 2014;24(12):1670-1751. Guidelines for the treatment of hypothyroidism (ATA) (PMID: 25266257)</li>
+<li>Ross DS, Burch HB, Cooper DS, et al. <em>Thyroid.</em> 2016;26(10):1343-1421. 2016 American Thyroid Association guidelines for diagnosis and management of hyperthyroidism (PMID: 27575920)</li>
+<li>Hollowell JG, Staehling NW, Flanders WD, et al. <em>J Clin Endocrinol Metab.</em> 2002;87(2):489-499. Serum TSH, T(4), and thyroid antibodies in the US population (NHANES III) (PMID: 11836274)</li>
+<li>Surks MI, Ortiz E, Daniels GH, et al. <em>N Engl J Med.</em> 2004;351(23):2407-2413. Subclinical thyroid disease: scientific review and guidelines (PMID: 15575582)</li>
+<li>Cooper DS, Biondi B. <em>Lancet.</em> 2012;379(9821):1142-1154. Subclinical thyroid disease (PMID: 22314245)</li>
+<li>Biondi B, Cappola AR, Cooper DS. <em>Lancet Diabetes Endocrinol.</em> 2019;7(3):212-224. Subclinical hypothyroidism (PMID: 30664846)</li>
+<li>Canaris GJ, Manowitz NR, Mayor G, Ridgway EC. <em>Arch Intern Med.</em> 2000;160(4):526-534. The Colorado thyroid disease prevalence study (PMID: 10695693)</li>
+<li>Vanderpump MP, Tunbridge WM, French JM, et al. <em>Arch Intern Med.</em> 1995;155(16):1726-1732. The incidence of thyroid disorders in the community (Whickham survey) (PMID: 7654115)</li>
+<li>Alexander EK, Pearce EN, Brent GA, et al. <em>Thyroid.</em> 2017;27(3):315-389. 2017 ATA guidelines for thyroid disease during pregnancy (PMID: 28056690)</li>
+<li>Demers LM, Spencer CA. <em>Thyroid.</em> 2003;13(1):3-126. Laboratory medicine practice guidelines (NACB) (PMID: 12688576)</li>
+<li>Stathatos N. <em>Endotext.</em> 2023. Thyroid physiology (PMID: 25905336)</li>
+</ul>
 
 {% endraw %}

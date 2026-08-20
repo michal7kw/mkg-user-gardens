@@ -90,7 +90,7 @@ country_availability:
       name: Nuffield Health
       type: private_walk_in
       url: https://www.nuffieldhealth.com
-created: '2026-06-13T17:47:12.910806Z'
+created: '2026-01-19T08:30:03.525322+00:00'
 description: Tested twice a year Total protein measures the combined levels of albumin
   and globulin in the blood. Maintaining adequate protein levels is important for
   overall health, as proteins support tissue repair, immune function, and general
@@ -102,6 +102,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-total-protein
 permalink: /garden/demo_user/labtest/total-protein/
+provenance: curated
 slug: total-protein
 source: Manual
 tags:
@@ -109,7 +110,7 @@ tags:
 templateEngineOverride: njk
 title: total_protein
 type: labtest
-updated: '2026-06-13T17:47:12.910806Z'
+updated: '2026-08-20T04:08:30.953706Z'
 ---
 
 {% raw %}
@@ -135,6 +136,10 @@ updated: '2026-06-13T17:47:12.910806Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -146,6 +151,18 @@ updated: '2026-06-13T17:47:12.910806Z'
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
 </tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
 </tbody>
 </table>
 <h2>Recommended For</h2>
@@ -156,10 +173,12 @@ updated: '2026-06-13T17:47:12.910806Z'
 <h2>Reference Ranges</h2>
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
+<h3>Measures</h3>
+<p>MEASURES::<a href="/garden/demo_user/labtest/total-protein/" class="internal-link">Total Protein</a></p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/condition/liver-disease/" class="internal-link">Liver Disease</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Blood Cancers EG Multiple Myeloma</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Kidney Disease</a><br />
+RELATED::<a href="/garden/demo_user/condition/kidney-disease/" class="internal-link">Kidney Disease</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Chronic Inflammation EG Autoimmune Disease</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Malnutrition Or Poor Absorption</a><br />
 RELATED::<a href="/garden/demo_user/labtest/liver-function-panel/" class="internal-link">liver function panel</a><br />

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.88
-created: '2026-06-13T17:47:13.535155Z'
+created: 2026-05-26T12:00:00+0000
 description: Quinolinic acid is a neurotoxic kynurenine-pathway metabolite that acts
   as an endogenous NMDA-receptor agonist, causing excitotoxicity and oxidative stress.
   It is also the immediate precursor of de novo NAD+ via QPRT. Produced largely by
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: quinolinic_acid
 permalink: /garden/demo_user/metabolite/quinolinic-acid/
+provenance: curated
 pubchem_id: '1066'
 slug: quinolinic-acid
 source: PubMed
@@ -25,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Quinolinic Acid
 type: metabolite
-updated: '2026-06-13T17:47:13.535155Z'
+updated: '2026-08-20T04:08:31.214921Z'
 ---
 
 {% raw %}

@@ -1,14 +1,17 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.848554Z'
+created: 2026-01-24T12:00:00+0000
 description: The hypothesis that amyloid-beta accumulation is the primary initiating
   event in Alzheimer's disease, triggering downstream tau pathology, neuroinflammation,
   synaptic dysfunction, and neuronal death.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: amyloid_cascade
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/pathway/amyloid-cascade/
+provenance: curated
 slug: amyloid-cascade
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Amyloid Cascade
 type: pathway
-updated: '2026-06-13T17:47:13.848554Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -41,17 +44,17 @@ updated: '2026-06-13T17:47:13.848554Z'
 <p>RELATED::<a class="internal-link is-unresolved" href="/404">BACE1 Inhibitors</a><br />
 RELATED::<a href="/garden/demo_user/protein/app/" class="internal-link">APP</a><br />
 RELATED::<a href="/garden/demo_user/gene/psen1/" class="internal-link">PSEN1</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Autophagy-Lysosomal Pathway</a><br />
+RELATED::<a href="/garden/demo_user/pathway/autophagy-lysosomal-pathway/" class="internal-link">Autophagy-Lysosomal Pathway</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Donanemab</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/amyloid-beta-4240-ratio/" class="internal-link">Amyloid-Beta 4240 Ratio</a><br />
 RELATED::<a href="/garden/demo_user/intervention/sleep-optimization/" class="internal-link">Sleep Optimization</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Aging</a><br />
+RELATED::<a href="/garden/demo_user/pathway/aging/" class="internal-link">Aging</a><br />
 RELATED::<a href="/garden/demo_user/pathway/neuroinflammation/" class="internal-link">Neuroinflammation</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Lecanemab</a><br />
 RELATED::<a href="/garden/demo_user/condition/mild-cognitive-impairment/" class="internal-link">Mild Cognitive Impairment</a><br />
 RELATED::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimers Disease</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Amyloid PET Imaging</a><br />
-RELATED::<a href="/garden/demo_user/gene/apoe/" class="internal-link">APOE</a><br />
+RELATED::<a href="/garden/demo_user/protein/apoe/" class="internal-link">APOE</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Cerebral Amyloid Angiopathy</a><br />
 RELATED::<a href="/garden/demo_user/biomarker/neuron-derived-exosome-biomarkers/" class="internal-link">Neuron-Derived Exosome Biomarkers</a><br />
 RELATED::<a href="/garden/demo_user/pathway/tau-phosphorylation/" class="internal-link">Tau Phosphorylation</a><br />
@@ -74,5 +77,9 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/bdnf/" class="internal-lin
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/mild-cognitive-impairment/" class="internal-link">Mild Cognitive Impairment</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/vascular-dementia/" class="internal-link">Vascular Dementia</a><br />
 ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/inflammation/" class="internal-link">Inflammation</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

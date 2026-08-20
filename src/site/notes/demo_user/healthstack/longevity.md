@@ -1,5 +1,5 @@
 ---
-created: '2026-06-13T17:47:11.993083Z'
+created: '2026-08-20T04:08:30.316482Z'
 description: Target the hallmarks of aging with cutting-edge and foundational supplements.
   Omega-3 and vitamin D form the anti-inflammatory base, CoQ10 supports mitochondrial
   function, curcumin inhibits chronic inflammation, NMN boosts NAD+ for cellular repair,
@@ -10,6 +10,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: cf2894c6-dcc5-4523-bff6-7d27ec6b9bcf
 permalink: /garden/demo_user/healthstack/longevity/
+provenance: curated
 slug: longevity
 source: Manual
 tags:
@@ -20,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Longevity
 type: healthstack
-updated: '2026-06-13T17:47:11.993083Z'
+updated: '2026-08-20T04:08:30.316482Z'
 ---
 
 {% raw %}
@@ -41,35 +42,35 @@ updated: '2026-06-13T17:47:11.993083Z'
 </thead>
 <tbody>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Omega-3 Fish Oil</a></td>
+<td><a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fish Oil</a></td>
 <td>2000mg</td>
 <td>once daily</td>
 <td>with meals</td>
 <td>Anti-inflammatory foundation — reduces inflammaging</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Vitamin D3</a></td>
+<td><a href="/garden/demo_user/nutrient/vitamin-d/" class="internal-link">Vitamin D3</a></td>
 <td>5000IU</td>
 <td>once daily</td>
 <td>with meals</td>
 <td>Immune modulation and cellular health</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">CoQ10 (Ubiquinol)</a></td>
+<td><a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">CoQ10 (Ubiquinol)</a></td>
 <td>200mg</td>
 <td>once daily</td>
 <td>with meals</td>
 <td>Mitochondrial function declines with age — CoQ10 compensates</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Curcumin (with Piperine)</a></td>
+<td><a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin (with Piperine)</a></td>
 <td>1000mg</td>
 <td>once daily</td>
 <td>with meals</td>
 <td>Potent NF-kB inhibitor targeting chronic inflammation</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">NMN (Nicotinamide Mononucleotide)</a></td>
+<td><a href="/garden/demo_user/supplement/nmn/" class="internal-link">NMN (Nicotinamide Mononucleotide)</a></td>
 <td>500mg</td>
 <td>once daily</td>
 <td>morning</td>
@@ -97,7 +98,7 @@ updated: '2026-06-13T17:47:11.993083Z'
 </thead>
 <tbody>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">hs-CRP</a></td>
+<td><a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></td>
 <td>0-3.0</td>
 <td>0-0.5</td>
 <td>mg/L</td>
@@ -133,11 +134,11 @@ updated: '2026-06-13T17:47:11.993083Z'
 <li>Cardiovascular</li>
 </ul>
 <h3>Contains Supplement</h3>
-<p>CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Omega-3 Fish Oil</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Vitamin D3</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">CoQ10 (Ubiquinol)</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Curcumin (with Piperine)</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">NMN (Nicotinamide Mononucleotide)</a><br />
+<p>CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acids/" class="internal-link">Omega-3 Fish Oil</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/nutrient/vitamin-d/" class="internal-link">Vitamin D3</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">CoQ10 (Ubiquinol)</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/curcumin/" class="internal-link">Curcumin (with Piperine)</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/nmn/" class="internal-link">NMN (Nicotinamide Mononucleotide)</a><br />
 CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/resveratrol/" class="internal-link">Resveratrol</a></p>
 <h2>Relationships</h2>
 <h3>Enriched</h3>

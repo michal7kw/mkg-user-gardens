@@ -1,11 +1,17 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:13.834539Z'
+confidence_score: 0.85
+created: '2026-03-11T11:39:16.299640+00:00'
+description: Small lens-shaped nucleus in the basal ganglia circuit, the only glutamatergic
+  (excitatory) structure in an otherwise GABAergic system. Drives the "indirect pathway"
+  that suppresses unwanted movements.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: subthalamic_nucleus
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/organ/subthalamic-nucleus/
+provenance: curated
 slug: subthalamic-nucleus
 source: Manual
 tags:
@@ -13,7 +19,7 @@ tags:
 templateEngineOverride: njk
 title: Subthalamic Nucleus
 type: organ
-updated: '2026-06-13T17:47:13.834539Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -29,5 +35,9 @@ RELATED::<a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal
 RELATED::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a></p>
 <h3>Supports Function</h3>
 <p>SUPPORTS_FUNCTION::<a class="internal-link is-unresolved" href="/404">Motor Planning</a></p>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (textbook reference)</li>
+</ul>
 
 {% endraw %}

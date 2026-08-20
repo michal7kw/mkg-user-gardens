@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:10.696754Z'
+created: '2026-02-14T12:00:00+00:00'
 description: Albumin is the most abundant circulating protein in human plasma, synthesized
   exclusively by hepatocytes at a rate of 12-15 g/day. It maintains colloid oncotic
   pressure, transports hormones, fatty acids, drugs, and bilirubin, and serves as
@@ -8,9 +8,12 @@ description: Albumin is the most abundant circulating protein in human plasma, s
   severity.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: albumin
+last_modified: 2026-06-21T00:00:00+0000
 permalink: /garden/demo_user/biomarker/albumin/
+provenance: curated
 slug: albumin
 source: Manual
 tags:
@@ -23,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Albumin
 type: biomarker
-updated: '2026-06-13T17:47:10.696754Z'
+updated: 2026-06-21T00:00:00+0000
 ---
 
 {% raw %}
@@ -165,7 +168,7 @@ ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/chronic-kidney-d
 <p>INDICATES_ORGAN_HEALTH::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a> (marker of hepatic synthetic function, Evidence Level 1a)<br />
 INDICATES_ORGAN_HEALTH::<a href="/garden/demo_user/organ/kidneys/" class="internal-link">Kidneys</a> (low albumin suggests renal protein loss in nephrotic syndrome, Evidence Level 1b)</p>
 <h3>Correlated With</h3>
-<p>CORRELATED_WITH::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a><br />
+<p>CORRELATED_WITH::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a><br />
 CORRELATED_WITH::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a> (inverse -- albumin is negative acute-phase reactant)<br />
 CORRELATED_WITH::<a href="/garden/demo_user/labtest/total-protein/" class="internal-link">Total Protein</a></p>
 <h3>Indicates Phenotype</h3>

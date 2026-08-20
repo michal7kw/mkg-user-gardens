@@ -1,6 +1,8 @@
 ---
-confidence_score: 0.7
-created: '2026-06-13T17:47:14.361779Z'
+aliases:
+- Iron Bisglycinate
+confidence_score: 0.9
+created: 2026-01-03T17:55:35+0000
 description: Essential trace mineral critical for oxygen transport, energy production,
   and neurotransmitter synthesis. Required cofactor for numerous enzymes including
   those in dopamine and serotonin pathways.
@@ -9,7 +11,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: iron
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/iron/
+provenance: curated
 pubchem_id: '23925'
 slug: iron
 source: Manual
@@ -22,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Iron
 type: supplement
-updated: '2026-06-13T17:47:14.361779Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -73,5 +77,12 @@ AFFECTS_ORGAN::<a href="/garden/demo_user/organ/bone-marrow/" class="internal-li
 <h3>Required For Synthesis</h3>
 <p>REQUIRED_FOR_SYNTHESIS::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a> (iron is a cofactor for tyrosine hydroxylase, Evidence Level 1a)<br />
 REQUIRED_FOR_SYNTHESIS::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a> (iron is a cofactor for tryptophan hydroxylase, Evidence Level 1a)</p>
+<h2>References</h2>
+<ul>
+<li>Camaschella C. N Engl J Med. 2015;373(5):485-486. Iron-deficiency anemia (review) (PMID: 26244306)</li>
+<li>Auerbach M, Adamson JW. Am J Hematol. 2016;91(1):31-38. Iron deficiency treatment (PMID: 26496493)</li>
+<li>Goddard AF, et al. Gut. 2011;60(9):1309-1316. BSG iron deficiency guidelines (PMID: 21561857)</li>
+<li>Tolkien Z, et al. BMJ Open. 2015;5(2):e007190. Ferrous sulfate GI side-effects (PMID: 25672948)</li>
+</ul>
 
 {% endraw %}

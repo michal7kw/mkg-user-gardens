@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.92
-created: '2026-06-13T17:47:13.926181Z'
+created: 2026-05-27T12:00:00+0000
 description: Mitochondrial biogenesis is the process by which cells increase mitochondrial
   mass and number, coordinated by the master coactivator PGC-1alpha together with
   NRF1/NRF2 and the mitochondrial transcription factor TFAM. It is activated by energy
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: mitochondrial_biogenesis
 permalink: /garden/demo_user/pathway/mitochondrial-biogenesis/
+provenance: curated
 slug: mitochondrial-biogenesis
 source: PubMed
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Mitochondrial Biogenesis
 type: pathway
-updated: '2026-06-13T17:47:13.926181Z'
+updated: '2026-08-20T04:08:31.526732Z'
 ---
 
 {% raw %}

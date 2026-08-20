@@ -1,6 +1,30 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:11.883275Z'
+country_regulatory:
+  it:
+    agency_status: approved
+    atc_code: A10BJ06
+    notes: AIFA-approved for type 2 diabetes; obesity indication (Wegovy) largely
+      out-of-pocket.
+    prescription_type: RR
+    reimbursement_class: A
+  pl:
+    agency_status: approved
+    atc_code: A10BJ06
+    notes: URPL/EMA-dopuszczony (Ozempic i Rybelsus w cukrzycy typu 2, Wegovy w otyłości).
+      Częściowo refundowany przez NFZ w cukrzycy typu 2 wg kryteriów; leczenie otyłości
+      (Wegovy) nierefundowane i pełnopłatne. Status refundacji zmienia się — sprawdź
+      aktualne obwieszczenie MZ.
+    prescription_type: Rp
+    reimbursement_class: refundowany
+  uk:
+    agency_status: approved
+    atc_code: A10BJ06
+    notes: MHRA/EMA-approved GLP-1 receptor agonist (Ozempic, Rybelsus for type 2
+      diabetes; Wegovy for obesity).
+    prescription_type: POM
+    reimbursement_class: NHS
+created: 2026-01-03T17:55:41+0000
 description: GLP-1 receptor agonist for type 2 diabetes and obesity. Revolutionary
   drug providing significant weight loss and cardiovascular benefits. Available as
   injectable (Ozempic, Wegovy) and oral (Rybelsus). Demonstrated 15-17% body weight
@@ -11,6 +35,7 @@ drugbank_id: DB13929
 gardenUsername: demo_user
 id: semaglutide
 permalink: /garden/demo_user/drug/semaglutide/
+provenance: curated
 pubchem_id: 16127650
 slug: semaglutide
 source: Manual
@@ -27,7 +52,7 @@ tags:
 templateEngineOverride: njk
 title: Semaglutide
 type: drug
-updated: '2026-06-13T17:47:11.883275Z'
+updated: '2026-08-20T04:08:30.187843Z'
 ---
 
 {% raw %}
@@ -105,15 +130,15 @@ TREATS::<a href="/garden/demo_user/condition/chronic-kidney-disease/" class="int
 <h3>Affects Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hba1c/" class="internal-link">hba1c</a> (reduces by 1.0-1.8%, Evidence Level 1a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/metabolite/glucose/" class="internal-link">Glucose</a> (reduces fasting glucose by 30-50 mg/dL, Evidence Level 1a)<br />
-AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/crp-hs/" class="internal-link">CRP (hs)</a> (reduces systemic inflammation, Evidence Level 2a)<br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">CRP (hs)</a> (reduces systemic inflammation, Evidence Level 2a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/triglycerides/" class="internal-link">triglycerides</a> (modest reduction, Evidence Level 2b)<br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">Blood Pressure</a> (reduces systolic BP by 2-5 mmHg, Evidence Level 2a)<br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/examination/blood-pressure/" class="internal-link">Blood Pressure</a> (reduces systolic BP by 2-5 mmHg, Evidence Level 2a)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/creatinine/" class="internal-link">creatinine</a> (improves kidney function markers, Evidence Level 1a)</p>
 <h3>Modulates Hormone</h3>
 <p>MODULATES_HORMONE::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a> (enhances glucose-dependent secretion, Evidence Level 1a)<br />
 MODULATES_HORMONE::<a href="/garden/demo_user/labtest/leptin/" class="internal-link">leptin</a> (increases leptin sensitivity, Evidence Level 2b)<br />
 MODULATES_HORMONE::<a href="/garden/demo_user/hormone/ghrelin/" class="internal-link">Ghrelin</a> (suppresses hunger hormone, Evidence Level 2b)<br />
-MODULATES_HORMONE::<a class="internal-link is-unresolved" href="/404">Glucagon</a> (suppresses postprandial glucagon, Evidence Level 1a)</p>
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/glucagon/" class="internal-link">Glucagon</a> (suppresses postprandial glucagon, Evidence Level 1a)</p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/pancreas/" class="internal-link">Pancreas</a> (preserves beta-cell function, Evidence Level 2b)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a> (reduces hepatic steatosis, Evidence Level 2b)<br />
@@ -128,7 +153,7 @@ MODULATES::<a class="internal-link is-unresolved" href="/404">Inflammatory Respo
 <h3>Interacts With Drug</h3>
 <p>INTERACTS_WITH::<a href="/garden/demo_user/labtest/insulin/" class="internal-link">insulin</a> (increased hypoglycemia risk, Evidence Level 1b)<br />
 INTERACTS_WITH::<a class="internal-link is-unresolved" href="/404">Sulfonylureas</a> (increased hypoglycemia risk, Evidence Level 1b)<br />
-INTERACTS_WITH::<a class="internal-link is-unresolved" href="/404">Warfarin</a> (potential interaction due to delayed absorption, Evidence Level 2c)</p>
+INTERACTS_WITH::<a href="/garden/demo_user/drug/warfarin/" class="internal-link">Warfarin</a> (potential interaction due to delayed absorption, Evidence Level 2c)</p>
 <h2>References</h2>
 <ul>
 <li>PMID: 34041401 (STEP 1)</li>

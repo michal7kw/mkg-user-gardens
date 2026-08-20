@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.7
-created: '2026-06-13T17:47:14.337770Z'
+confidence_score: 0.9
+created: 2026-01-03T17:55:40+0000
 description: Essential B vitamin (B9) critical for DNA synthesis, methylation, and
   fetal development. Methylfolate (5-MTHF) is the active form that bypasses MTHFR
   genetic issues.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: folate_supplement
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/folate/
+provenance: curated
 pubchem_id: '135405876'
 slug: folate
 source: Manual
@@ -23,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Folate
 type: supplement
-updated: '2026-06-13T17:47:14.337770Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -43,6 +45,8 @@ updated: '2026-06-13T17:47:14.337770Z'
 <li><strong>Cofactors</strong>: Ensure adequate B12 and B6 for complete methylation cycle function</li>
 </ul>
 <h2>Relationships</h2>
+<h3>Provides Nutrient</h3>
+<p>PROVIDES_NUTRIENT::<a href="/garden/demo_user/nutrient/folate-b9/" class="internal-link">Folate (B9)</a></p>
 <h3>Related</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/blood/" class="internal-link">Blood</a><br />
@@ -79,5 +83,11 @@ TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/homocysteine/" class="inte
 <h3>Merged From biomarker</h3>
 <p>RELATED::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a><br />
 RELATED::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a></p>
+<h2>References</h2>
+<ul>
+<li>Crider KS, et al. BMJ. 2024;385:e078106. Folate and neural tube defects (review) (PMID: 38814938)</li>
+<li>Leshner AI, et al. NASEM. 2017. Folate Dietary Reference Intakes (report)</li>
+<li>Bailey RL, et al. Nutrients. 2015;7(3):1531-1540. Folate deficiency (review) (PMID: 25735250)</li>
+</ul>
 
 {% endraw %}

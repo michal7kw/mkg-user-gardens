@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.7
-created: '2026-06-13T17:47:11.452211Z'
+confidence_score: 0.65
+created: 2026-03-05T00:00:00+0000
 description: Increased intestinal permeability allowing bacterial endotoxins (LPS),
   undigested food particles, and antigens to cross the gut barrier into systemic circulation.
   Triggers immune activation and chronic low-grade inflammation. Formally termed "increased
@@ -9,9 +9,12 @@ description: Increased intestinal permeability allowing bacterial endotoxins (LP
   entity remains debated.
 dg-home: false
 dg-publish: true
+evidence_level: 2
 gardenUsername: demo_user
 id: leaky_gut
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/leaky-gut/
+provenance: curated
 slug: leaky-gut
 source: Manual
 tags:
@@ -23,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Leaky Gut
 type: condition
-updated: '2026-06-13T17:47:11.452211Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -51,7 +54,7 @@ updated: '2026-06-13T17:47:11.452211Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
+<p>RELATED::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/liver/" class="internal-link">Liver</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a><br />
 RELATED::<a href="/garden/demo_user/supplement/glutathione/" class="internal-link">Glutathione</a></p>
@@ -66,5 +69,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/zinc/" class="inte
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/glutathione/" class="internal-link">Glutathione</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/quercetin/" class="internal-link">Quercetin</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a></p>
+<h2>References</h2>
+<ul>
+<li>Camilleri M. Adv Nutr. 2019;10(6):1077-1081. Leaky gut: mechanisms, measurement and clinical implications in humans (PMID: 31204547)</li>
+<li>Fasano A. Ann N Y Acad Sci. 2012;1258:25-33. Leaky gut and autoimmune diseases (PMID: 22731752)</li>
+<li>Bischoff SC, Barbara G, Buurman W, et al. BMC Med. 2014;12:1-25. Intestinal permeability (review) (PMID: 25583122)</li>
+</ul>
 
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.086016Z'
+created: '2026-04-01T19:57:13.038216+00:00'
 description: Mindfulness and meditation practices that reduce cortisol, lower sympathetic
   nervous system activation, and improve stress resilience through regular practice.
   Studied for effects on inflammation, telomere length, and neuroendocrine balance.
@@ -10,6 +10,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: meditation
 permalink: /garden/demo_user/intervention/meditation/
+provenance: curated
 slug: meditation
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Meditation
 type: intervention
-updated: '2026-06-13T17:47:12.086016Z'
+updated: '2026-08-20T04:08:30.395534Z'
 ---
 
 {% raw %}
@@ -63,12 +64,12 @@ updated: '2026-06-13T17:47:12.086016Z'
 <p>RELATED::<a href="/garden/demo_user/intervention/sleep-optimization/" class="internal-link">Sleep Optimization</a><br />
 RELATED::<a href="/garden/demo_user/intervention/breathwork/" class="internal-link">Breathwork</a></p>
 <h3>Affects Biomarker</h3>
-<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">Cortisol</a> (Evidence Level 4)<br />
-AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a><br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">DHEA-S</a></p>
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">Cortisol</a> (Evidence Level 4)<br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a><br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/dhea-s/" class="internal-link">DHEA-S</a></p>
 <h3>Modulates Hormone</h3>
-<p>MODULATES_HORMONE::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+<p>MODULATES_HORMONE::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
 <h3>May Improve Condition</h3>
 <p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/chronic-stress/" class="internal-link">Chronic Stress</a><br />

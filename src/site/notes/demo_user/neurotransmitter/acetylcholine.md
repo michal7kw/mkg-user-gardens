@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.597200Z'
+created: 2026-01-03T17:55:39+0000
 description: 'Acetylcholine (ACh) was the first neurotransmitter discovered, identified
 
   by Otto Loewi in 1921 (Nobel Prize, 1936). It is essential for learning, memory,
@@ -24,6 +24,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: acetylcholine
 permalink: /garden/demo_user/neurotransmitter/acetylcholine/
+provenance: curated
 pubchem_id: '187'
 slug: acetylcholine
 source: Manual
@@ -38,7 +39,7 @@ tags:
 templateEngineOverride: njk
 title: Acetylcholine
 type: neurotransmitter
-updated: '2026-06-13T17:47:13.597200Z'
+updated: '2026-08-20T04:08:31.263898Z'
 ---
 
 {% raw %}
@@ -374,7 +375,7 @@ REQUIRES_COFACTOR::<a href="/garden/demo_user/supplement/magnesium/" class="inte
 <h3>Neurotransmitter Interactions</h3>
 <p>INTERACTS_WITH::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/neurotransmitter/glutamate/" class="internal-link">Glutamate</a><br />
-INTERACTS_WITH::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a><br />
+INTERACTS_WITH::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/neurotransmitter/norepinephrine/" class="internal-link">Norepinephrine</a><br />
 INTERACTS_WITH::<a href="/garden/demo_user/neurotransmitter/adenosine/" class="internal-link">Adenosine</a></p>

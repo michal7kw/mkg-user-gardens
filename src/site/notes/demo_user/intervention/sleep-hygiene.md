@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:12.114942Z'
+created: '2026-04-01T19:57:53.412574+00:00'
 description: Evidence-based behavioral practices to optimize sleep quality and circadian
   alignment. Includes consistent sleep-wake timing, light exposure management, temperature
   optimization, and stimulus control. Foundation for all health optimization — poor
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: sleep_hygiene
 permalink: /garden/demo_user/intervention/sleep-hygiene/
+provenance: curated
 slug: sleep-hygiene
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Sleep Hygiene
 type: intervention
-updated: '2026-06-13T17:47:12.114942Z'
+updated: '2026-08-20T04:08:30.423649Z'
 ---
 
 {% raw %}
@@ -59,13 +60,14 @@ updated: '2026-06-13T17:47:12.114942Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Affects Biomarker</h3>
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/insulin-fasting/" class="internal-link">Insulin Fasting</a> (Evidence Level 3)</p>
 <!-- seeded: intervention coverage (mirror_intervention_edges_to_markdown.py) -->
-<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">Cortisol</a> (Evidence Level 4)<br />
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">Cortisol</a> (Evidence Level 4)<br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/cortisol-am/" class="internal-link">Cortisol (AM)</a> (Evidence Level 4)</p>
 <h3>Related</h3>
 <p>RELATED::<a href="/garden/demo_user/intervention/sleep-optimization/" class="internal-link">Sleep Optimization</a><br />
 MODULATES_HORMONE::<a href="/garden/demo_user/hormone/melatonin/" class="internal-link">Melatonin</a><br />
-MODULATES_HORMONE::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+MODULATES_HORMONE::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
 <h3>Modulates Hormone</h3>
 <p>MODULATES_HORMONE::<a href="/garden/demo_user/hormone/growth-hormone/" class="internal-link">Growth Hormone</a><br />
 MODULATES_HORMONE::<a href="/garden/demo_user/hormone/testosterone/" class="internal-link">Testosterone</a></p>

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:14.419504Z'
+created: 2026-03-19T00:00:00+0000
 description: Tropical legume (velvet bean) and traditional Ayurvedic medicine containing
   the highest natural concentration of L-DOPA (3-6% in seeds), making it the richest
   known plant source of this dopamine precursor. Used for centuries in Ayurveda as
@@ -14,6 +14,7 @@ evidence_level: 2
 gardenUsername: demo_user
 id: mucuna_pruriens
 permalink: /garden/demo_user/supplement/mucuna-pruriens/
+provenance: curated
 slug: mucuna-pruriens
 source: Manual
 tags:
@@ -27,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Mucuna Pruriens
 type: supplement
-updated: '2026-06-13T17:47:14.419504Z'
+updated: '2026-08-20T04:08:31.990321Z'
 ---
 
 {% raw %}
@@ -99,7 +100,7 @@ RELATED::<a href="/garden/demo_user/supplement/vitamin-b6/" class="internal-link
 RELATED::<a href="/garden/demo_user/protein/tyrosine-hydroxylase/" class="internal-link">Tyrosine Hydroxylase</a><br />
 RELATED::<a href="/garden/demo_user/supplement/5-htp/" class="internal-link">5-HTP</a></p>
 <h3>Affects Biomarker</h3>
-<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a></p>
+<p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a></p>
 <h3>Affects Organ</h3>
 <p>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Substantia Nigra</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></p>

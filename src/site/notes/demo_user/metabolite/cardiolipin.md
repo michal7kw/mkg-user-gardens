@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.88
-created: '2026-06-13T17:47:13.257605Z'
+created: 2026-05-27T12:00:00+0000
 description: Cardiolipin is the signature diphosphatidylglycerol phospholipid of the
   inner mitochondrial membrane. It is essential for the assembly and stability of
   electron-transport- chain supercomplexes and cristae architecture, and its oxidation
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: cardiolipin
 permalink: /garden/demo_user/metabolite/cardiolipin/
+provenance: curated
 slug: cardiolipin
 source: PubMed
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Cardiolipin
 type: metabolite
-updated: '2026-06-13T17:47:13.257605Z'
+updated: '2026-08-20T04:08:31.125247Z'
 ---
 
 {% raw %}

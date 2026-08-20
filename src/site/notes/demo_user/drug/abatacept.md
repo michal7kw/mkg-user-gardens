@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.8
-created: '2026-06-13T17:47:11.717638Z'
+created: 2026-04-01T10:00:00+0000
 description: CTLA-4-Ig fusion protein that inhibits T-cell activation by blocking
   CD80/CD86-CD28 costimulatory signal. Unique mechanism targeting upstream adaptive
   immune response rather than downstream cytokines. Preferred in anti-CCP positive
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: abatacept
 permalink: /garden/demo_user/drug/abatacept/
+provenance: curated
 slug: abatacept
 source: Manual
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Abatacept
 type: drug
-updated: '2026-06-13T17:47:11.717638Z'
+updated: '2026-08-20T04:08:30.018304Z'
 ---
 
 {% raw %}
@@ -41,7 +42,7 @@ updated: '2026-06-13T17:47:11.717638Z'
 <h3>Affects Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/anti-ccp-antibody/" class="internal-link">Anti-CCP Antibody</a></p>
 <h3>Decreases Biomarker</h3>
-<p>DECREASES_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+<p>DECREASES_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h2>References</h2>
 <ul>
 <li>PMID:16142760</li>

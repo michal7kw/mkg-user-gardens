@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.75
-created: '2026-06-13T17:47:14.453301Z'
+created: 2026-05-26T12:00:00+0000
 description: Pterostilbene is a dimethylated analog of resveratrol found in blueberries
   and grapes. Its two methoxy groups confer markedly higher oral bioavailability and
   metabolic stability than resveratrol, while retaining SIRT1/AMPK activation, Nrf2-driven
@@ -11,6 +11,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: pterostilbene
 permalink: /garden/demo_user/supplement/pterostilbene/
+provenance: curated
 pubchem_id: '5281727'
 slug: pterostilbene
 source: PubMed
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Pterostilbene
 type: supplement
-updated: '2026-06-13T17:47:14.453301Z'
+updated: '2026-08-20T04:08:32.025240Z'
 ---
 
 {% raw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:14.076391Z'
+created: 2026-01-03T17:55:34+0000
 description: The APP gene encodes the Amyloid-Beta Precursor Protein, an integral
   transmembrane protein concentrated in the synapses of neurons. Proteolytic cleavage
   of APP generates the highly neurotoxic amyloid beta (Aβ) peptides that form the
@@ -10,6 +10,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: app
 permalink: /garden/demo_user/protein/app/
+provenance: curated
 slug: app
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: APP
 type: protein
-updated: '2026-06-13T17:47:14.076391Z'
+updated: '2026-08-20T04:08:31.618938Z'
 ---
 
 {% raw %}
@@ -44,7 +45,7 @@ updated: '2026-06-13T17:47:14.076391Z'
 <h2>Relationships</h2>
 <h3>Associated With Condition</h3>
 <p>ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimer's Disease</a><br />
-ASSOCIATED_WITH_CONDITION::<a class="internal-link is-unresolved" href="/404">Dementia</a></p>
+ASSOCIATED_WITH_CONDITION::<a href="/garden/demo_user/condition/dementia/" class="internal-link">Dementia</a></p>
 <h3>Participates In Pathway</h3>
 <p>PARTICIPATES_IN_PATHWAY::<a href="/garden/demo_user/pathway/amyloid-cascade/" class="internal-link">Amyloid Cascade</a></p>
 <h3>Located In</h3>

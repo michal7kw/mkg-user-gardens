@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.65
-created: '2026-06-13T17:47:14.313610Z'
+confidence_score: 0.6
+created: 2026-03-05T00:00:00+0000
 description: Parasitic desert plant (Cistanche tubulosa/deserticola) used in Traditional
   Chinese Medicine for over 1,800 years as a kidney and yang tonic. Contains phenylethanoid
   glycosides (echinacoside, acteoside) with demonstrated neuroprotective, anti-inflammatory,
@@ -11,7 +11,9 @@ dg-publish: true
 evidence_level: 2
 gardenUsername: demo_user
 id: cistanche
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/cistanche/
+provenance: curated
 pubchem_id: 'null'
 slug: cistanche
 source: Manual
@@ -24,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Cistanche
 type: supplement
-updated: '2026-06-13T17:47:14.313610Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -48,5 +50,10 @@ AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-l
 <p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/cognitive-dysfunction/" class="internal-link">Cognitive Dysfunction</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/hormonal-imbalance/" class="internal-link">Hormonal Imbalance</a><br />
 MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/alzheimers-disease/" class="internal-link">Alzheimer's Disease</a></p>
+<h2>References</h2>
+<ul>
+<li>Wang T, et al. J Ethnopharmacol. 2020;254:112683. Cistanche tubulosa (review) (PMID: 31874343)</li>
+<li>Jin X, et al. Pharmacognosy Mag. 2017;13(Suppl 2):S236-S241. Cistanche phenylethanoid glycosides (PMID: 28539732)</li>
+</ul>
 
 {% endraw %}

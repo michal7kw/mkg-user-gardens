@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.810011Z'
+created: 2025-12-10T09:07:57+0000
 description: SomaLogic's advanced proteomics platform measuring 7000+ proteins. Research-grade
   comprehensive protein profiling.
 dg-home: false
@@ -9,6 +9,7 @@ evidence_level: 2
 gardenUsername: demo_user
 id: test-somascan-001
 permalink: /garden/demo_user/labtest/somascan-7k/
+provenance: curated
 slug: somascan-7k
 source: Manual
 tags:
@@ -16,7 +17,7 @@ tags:
 templateEngineOverride: njk
 title: somascan_7k
 type: labtest
-updated: '2026-06-13T17:47:12.810011Z'
+updated: '2026-08-20T04:08:30.901533Z'
 ---
 
 {% raw %}
@@ -42,6 +43,10 @@ updated: '2026-06-13T17:47:12.810011Z'
 <td>Other</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -52,6 +57,18 @@ updated: '2026-06-13T17:47:12.810011Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>21-42 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$2500-$5000</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -73,7 +90,7 @@ updated: '2026-06-13T17:47:12.810011Z'
 <p>RELATED::<a href="/garden/demo_user/nutrient/protein/" class="internal-link">Protein</a></p>
 <h3>Enriched</h3>
 <p>ASSOCIATED_WITH::<a href="/garden/demo_user/organ/blood/" class="internal-link">Blood</a><br />
-INDICATES::<a href="/garden/demo_user/condition/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
+INDICATES::<a href="/garden/demo_user/clinicalpattern/chronic-inflammation/" class="internal-link">Chronic Inflammation</a></p>
 <h2>Notes</h2>
 <ul>
 <li>Results should be interpreted by a qualified healthcare provider</li>

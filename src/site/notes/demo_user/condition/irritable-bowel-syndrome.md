@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.437190Z'
+created: '2026-04-01T19:57:53.803484+00:00'
 description: Chronic functional GI disorder characterized by recurrent abdominal pain
   associated with altered bowel habits (diarrhea, constipation, or mixed). Affects
   10-15% of the global population. Driven by visceral hypersensitivity, gut-brain
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: irritable_bowel_syndrome
 permalink: /garden/demo_user/condition/irritable-bowel-syndrome/
+provenance: curated
 slug: irritable-bowel-syndrome
 source: Manual
 tags:
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Irritable Bowel Syndrome
 type: condition
-updated: '2026-06-13T17:47:11.437190Z'
+updated: '2026-08-20T04:08:29.631656Z'
 ---
 
 {% raw %}
@@ -65,12 +66,12 @@ RELATED::<a href="/garden/demo_user/condition/leaky-gut/" class="internal-link">
 RELATED::<a href="/garden/demo_user/condition/chronic-stress/" class="internal-link">Chronic Stress</a></p>
 <h3>Improved By Supplement</h3>
 <p>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
-IMPROVED_BY_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">L-Glutamine</a><br />
+IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/l-glutamine/" class="internal-link">L-Glutamine</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/probiotics/" class="internal-link">Probiotics</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/berberine/" class="internal-link">Berberine</a></p>
 <h3>Associated With</h3>
-<p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">hs-CRP</a><br />
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a></p>
 <h3>Affected By Intervention</h3>
 <p>AFFECTED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/anti-inflammatory-diet/" class="internal-link">Anti-Inflammatory Diet</a><br />

@@ -1,13 +1,14 @@
 ---
 aliases:
 - 04_Relationships_and_Links
-created: '2026-06-13T17:47:14.578117Z'
+created: '2026-08-20T04:08:32.154863Z'
 description: Connecting entities with typed relationships — syntax, 160+ relationship
   types, and the visual editor
 dg-home: false
 dg-publish: true
 gardenUsername: demo_user
 permalink: /garden/demo_user/users_guide/relationships-and-links/
+provenance: curated
 slug: relationships-and-links
 tags:
 - users_guide
@@ -15,7 +16,7 @@ tags:
 templateEngineOverride: njk
 title: Relationships and Links
 type: users_guide
-updated: '2026-06-13T17:47:14.578117Z'
+updated: '2026-08-20T04:08:32.154863Z'
 ---
 
 {% raw %}

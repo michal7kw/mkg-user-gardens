@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.7
-created: '2026-06-13T17:47:11.796044Z'
+created: 2026-01-03T17:55:38+0000
 description: Potent first-generation typical antipsychotic (butyrophenone). Widely
   used for acute agitation, Tourette syndrome, and psychosis.
 dg-home: false
@@ -8,7 +8,9 @@ dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
 id: haloperidol
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/drug/haloperidol/
+provenance: curated
 slug: haloperidol
 source: Manual
 tags:
@@ -21,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Haloperidol
 type: drug
-updated: '2026-06-13T17:47:11.796044Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -64,5 +66,9 @@ RELATED::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-
 RELATED::<a class="internal-link is-unresolved" href="/404">Extrapyramidal Symptoms</a><br />
 RELATED::<a href="/garden/demo_user/sideeffect/qt-prolongation/" class="internal-link">QT Prolongation</a></p>
 <h3>Interacts With</h3>
+<h2>References</h2>
+<ul>
+<li>Standring S, ed. Gray's Anatomy. 42nd ed. Elsevier; 2020 (reference text)</li>
+</ul>
 
 {% endraw %}

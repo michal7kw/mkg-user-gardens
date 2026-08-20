@@ -1,5 +1,5 @@
 ---
-created: '2026-06-13T17:47:11.984520Z'
+created: '2026-08-20T04:08:30.311217Z'
 description: Support healthy endocrine function across the HPA, HPG, and HPT axes
   with adaptogenic herbs, key micronutrients, and hormone-supporting compounds. Targets
   cortisol regulation, thyroid function, and sex hormone optimization through foundational
@@ -10,6 +10,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: hormonal_balance_stack
 permalink: /garden/demo_user/healthstack/hormonal-balance/
+provenance: curated
 slug: hormonal-balance
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Hormonal Balance
 type: healthstack
-updated: '2026-06-13T17:47:11.984520Z'
+updated: '2026-08-20T04:08:30.311217Z'
 ---
 
 {% raw %}
@@ -49,7 +50,7 @@ updated: '2026-06-13T17:47:11.984520Z'
 <td>Adaptogen that modulates HPA axis — reduces cortisol 14-28% while supporting testosterone and thyroid function</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Vitamin D3</a></td>
+<td><a href="/garden/demo_user/nutrient/vitamin-d/" class="internal-link">Vitamin D3</a></td>
 <td>5000IU</td>
 <td>once daily</td>
 <td>with meals</td>
@@ -127,10 +128,10 @@ updated: '2026-06-13T17:47:11.984520Z'
 <li>Vitality</li>
 </ul>
 <h3>Contains Supplement</h3>
-<p>CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Ashwagandha (KSM-66)</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Vitamin D3</a><br />
+<p>CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/ashwagandha/" class="internal-link">Ashwagandha (KSM-66)</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/nutrient/vitamin-d/" class="internal-link">Vitamin D3</a><br />
 CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a><br />
-CONTAINS_SUPPLEMENT::<a class="internal-link is-unresolved" href="/404">Magnesium Glycinate</a><br />
+CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium Glycinate</a><br />
 CONTAINS_SUPPLEMENT::<a href="/garden/demo_user/supplement/selenium/" class="internal-link">Selenium</a></p>
 <h2>Relationships</h2>
 <h3>Enriched</h3>

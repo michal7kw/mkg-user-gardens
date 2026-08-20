@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.426938Z'
+confidence_score: 0.8
+created: 2026-01-18T16:48:42+0000
 description: The immune system's response to injury or infection, characterized by
   redness, heat, swelling, and pain. Can be acute (healing) or chronic (damaging).
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: inflammation
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/inflammation/
+provenance: curated
 slug: inflammation
 source: Manual
 tags:
@@ -18,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: Inflammation
 type: condition
-updated: '2026-06-13T17:47:11.426938Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -63,5 +66,11 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/omega-3-fatty-acid
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/quercetin/" class="internal-link">Quercetin</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/resveratrol/" class="internal-link">Resveratrol</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/nac/" class="internal-link">NAC</a></p>
+<h2>References</h2>
+<ul>
+<li>Furman D, Campisi J, Verdin E, et al. Nat Med. 2019;25(12):1822-1832. Chronic inflammation in the etiology of disease across the life span (PMID: 31794604)</li>
+<li>Hotamisligil GS. Nature. 2006;444(7121):860-867. Inflammation and metabolic disorders (review) (PMID: 17167474)</li>
+<li>Libby P. N Engl J Med. 2021;384(17):1670. Inflammation in atherosclerosis (review) (PMID: 33761198)</li>
+</ul>
 
 {% endraw %}

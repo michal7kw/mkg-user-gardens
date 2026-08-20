@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.483954Z'
+created: 2026-05-27T12:00:00+0000
 description: NADPH (reduced nicotinamide adenine dinucleotide phosphate) is the cell's
   principal electron donor for reductive biosynthesis and antioxidant defense. Produced
   mainly by the pentose phosphate pathway, it regenerates reduced glutathione and
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: nadph
 permalink: /garden/demo_user/metabolite/nadph/
+provenance: curated
 pubchem_id: '5884'
 slug: nadph
 source: PubMed
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: NADPH
 type: metabolite
-updated: '2026-06-13T17:47:13.483954Z'
+updated: '2026-08-20T04:08:31.194147Z'
 ---
 
 {% raw %}

@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:14.321676Z'
+confidence_score: 0.65
+created: 2026-01-03T17:55:41+0000
 description: Medicinal mushroom traditionally used for energy and endurance. Supports
   ATP production, oxygen utilization, and exercise performance. Contains cordycepin
   with anti-inflammatory and adaptogenic properties.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 3
 gardenUsername: demo_user
 id: cordyceps
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/cordyceps/
+provenance: curated
 pubchem_id: '6303'
 slug: cordyceps
 source: Manual
@@ -24,7 +26,7 @@ tags:
 templateEngineOverride: njk
 title: Cordyceps
 type: supplement
-updated: '2026-06-13T17:47:14.321676Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -55,5 +57,11 @@ MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/chronic-stress/" cla
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/lungs/" class="internal-link">Lungs</a> (Enhances oxygen utilization capacity and VO2 max; traditional use for respiratory conditions, Evidence Level 3a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/kidneys/" class="internal-link">Kidneys</a> (Traditional use for chronic kidney support; cordycepin modulates renal inflammatory pathways, Evidence Level 2a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/muscles/" class="internal-link">Muscles</a> (Upregulates mitochondrial biogenesis and ATP production enhancing exercise performance, Evidence Level 3a)</p>
+<h2>References</h2>
+<ul>
+<li>Tuli HS, et al. Phytother Res. 2013;27(9):1221-1233. Cordyceps bioactivities (review) (PMID: 23239157)</li>
+<li>Ong YL, et al. Food Funct. 2023. Cordyceps sinensis (review)</li>
+<li>Das SK, et al. Aging (Albany NY). 2010;2(11):790-802. Cordyceps and longevity (PMID: 21107926)</li>
+</ul>
 
 {% endraw %}

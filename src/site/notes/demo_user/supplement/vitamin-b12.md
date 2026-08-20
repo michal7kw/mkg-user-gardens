@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:14.520989Z'
+confidence_score: 0.9
+created: 2026-01-03T17:55:35+0000
 description: Essential vitamin for neurological function and red blood cell formation
 dg-home: false
 dg-publish: true
@@ -8,6 +8,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: vitamin_b12_supplement
 permalink: /garden/demo_user/supplement/vitamin-b12/
+provenance: curated
 pubchem_id: '5311498'
 slug: vitamin-b12
 source: dev_seeder
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Vitamin B12
 type: supplement
-updated: '2026-06-13T17:47:14.520989Z'
+updated: '2026-08-20T04:08:32.082318Z'
 ---
 
 {% raw %}
@@ -47,7 +48,7 @@ updated: '2026-06-13T17:47:14.520989Z'
 </thead>
 <tbody>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">Serum B12</a></td>
+<td><a href="/garden/demo_user/supplement/vitamin-b12/" class="internal-link">Vitamin B12</a></td>
 <td>Increases</td>
 <td>strong (200-800 pg/mL increase)</td>
 <td>⭐⭐⭐⭐⭐ (5/5)</td>
@@ -61,7 +62,7 @@ updated: '2026-06-13T17:47:14.520989Z'
 <td>2</td>
 </tr>
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">MMA</a></td>
+<td><a href="/garden/demo_user/labtest/methylmalonic-acid/" class="internal-link">Methylmalonic Acid</a></td>
 <td>Decreases</td>
 <td>strong (50-90% reduction)</td>
 <td>⭐⭐⭐⭐⭐ (5/5)</td>
@@ -139,5 +140,11 @@ TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/homocysteine/" class="inte
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a> (Essential cofactor for myelin synthesis and homocysteine metabolism; deficiency causes neuropsychiatric symptoms, Evidence Level 5a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/blood/" class="internal-link">Blood</a> (Required for red blood cell formation; deficiency causes megaloblastic anemia with macrocytosis, Evidence Level 5a)<br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/nerves/" class="internal-link">Nerves</a> (Cofactor for methylmalonyl-CoA mutase maintaining nerve fiber integrity; deficiency causes subacute combined degeneration, Evidence Level 5a)</p>
+<h2>References</h2>
+<ul>
+<li>Green R, et al. Clin Chem. 2017;63(5):933-942. Vitamin B12 deficiency (review) (PMID: 28461443)</li>
+<li>Stabler SP. N Engl J Med. 2013;368(2):149-160. Vitamin B12 deficiency (PMID: 23301732)</li>
+<li>O'Leary F, Samman S. Adv Nutr. 2010;1(1):38-41. Vitamin B12 (review) (PMID: 22043429)</li>
+</ul>
 
 {% endraw %}

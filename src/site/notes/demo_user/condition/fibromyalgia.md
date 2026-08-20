@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.363088Z'
+created: '2026-04-01T19:57:10.266763+00:00'
 description: Chronic widespread pain disorder characterized by central sensitization,
   fatigue, cognitive dysfunction ("fibro fog"), and sleep disturbance. Affects 2-4%
   of the population, predominantly women. Now understood as a disorder of central
@@ -11,6 +11,7 @@ evidence_level: 4
 gardenUsername: demo_user
 id: fibromyalgia
 permalink: /garden/demo_user/condition/fibromyalgia/
+provenance: curated
 slug: fibromyalgia
 source: Manual
 tags:
@@ -21,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Fibromyalgia
 type: condition
-updated: '2026-06-13T17:47:11.363088Z'
+updated: '2026-08-20T04:08:29.521953Z'
 ---
 
 {% raw %}
@@ -70,9 +71,9 @@ IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/same/" class="inte
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/5-htp/" class="internal-link">5-HTP</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/coenzyme-q10/" class="internal-link">Coenzyme Q10</a></p>
 <h3>Associated With</h3>
-<p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">Vitamin_D_25-OH</a><br />
-ASSOCIATED_WITH::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin_D_25-OH</a><br />
+ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
 <h3>Affected By Intervention</h3>
 <p>AFFECTED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/exercise/" class="internal-link">Exercise</a><br />
 AFFECTED_BY_INTERVENTION::<a href="/garden/demo_user/intervention/yoga/" class="internal-link">Yoga</a><br />

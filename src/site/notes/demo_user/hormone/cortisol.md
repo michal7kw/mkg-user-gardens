@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:12.014683Z'
+created: '2026-08-20T04:08:30.330583Z'
 description: Primary glucocorticoid stress hormone produced by the adrenal cortex
   via the HPA axis. Essential for glucose metabolism, immune modulation, and stress
   response. Chronic elevation drives visceral obesity, immunosuppression, hippocampal
@@ -9,8 +9,9 @@ dg-home: false
 dg-publish: true
 evidence_level: 5
 gardenUsername: demo_user
-id: cortisol
+id: cortisol_hormone
 permalink: /garden/demo_user/hormone/cortisol/
+provenance: curated
 pubchem_id: '5754'
 slug: cortisol
 source: Manual
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Cortisol
 type: hormone
-updated: '2026-06-13T17:47:12.014683Z'
+updated: '2026-08-20T04:08:30.330583Z'
 ---
 
 {% raw %}
@@ -58,13 +59,13 @@ updated: '2026-06-13T17:47:12.014683Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/hormone/dhea/" class="internal-link">DHEA</a><br />
+<p>RELATED::<a href="/garden/demo_user/supplement/dhea/" class="internal-link">DHEA</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Epinephrine</a><br />
 RELATED::<a href="/garden/demo_user/hormone/melatonin/" class="internal-link">Melatonin</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Hypothalamus</a><br />
 RELATED::<a class="internal-link is-unresolved" href="/404">Hippocampus</a></p>
 <h3>Antagonistic With</h3>
-<p>ANTAGONISTIC_WITH::<a href="/garden/demo_user/hormone/dhea/" class="internal-link">DHEA</a><br />
+<p>ANTAGONISTIC_WITH::<a href="/garden/demo_user/supplement/dhea/" class="internal-link">DHEA</a><br />
 ANTAGONISTIC_WITH::<a href="/garden/demo_user/hormone/melatonin/" class="internal-link">Melatonin</a><br />
 ANTAGONISTIC_WITH::<a href="/garden/demo_user/hormone/testosterone/" class="internal-link">Testosterone</a><br />
 ANTAGONISTIC_WITH::<a href="/garden/demo_user/hormone/growth-hormone/" class="internal-link">Growth Hormone</a></p>

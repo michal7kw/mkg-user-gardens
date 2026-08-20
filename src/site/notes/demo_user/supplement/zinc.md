@@ -1,6 +1,8 @@
 ---
+aliases:
+- Zinc Picolinate
 confidence_score: 0.9
-created: '2026-06-13T17:47:14.542503Z'
+created: '2026-08-20T04:08:32.105115Z'
 description: Essential trace mineral involved in 300+ enzymatic reactions, critical
   for immune function, testosterone synthesis, wound healing, DNA synthesis, and taste/smell
   perception. Second most abundant trace mineral in the body after iron. Deficiency
@@ -12,6 +14,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: zinc_supplement
 permalink: /garden/demo_user/supplement/zinc/
+provenance: curated
 pubchem_id: '32051'
 slug: zinc
 source: Manual
@@ -25,7 +28,7 @@ tags:
 templateEngineOverride: njk
 title: Zinc
 type: supplement
-updated: '2026-06-13T17:47:14.542503Z'
+updated: '2026-08-20T04:08:32.105115Z'
 ---
 
 {% raw %}
@@ -65,13 +68,13 @@ updated: '2026-06-13T17:47:14.542503Z'
 MODULATES_HORMONE::<a href="/garden/demo_user/hormone/thyroid-hormones/" class="internal-link">Thyroid Hormones</a><br />
 MODULATES_HORMONE::<a href="/garden/demo_user/hormone/growth-hormone/" class="internal-link">Growth Hormone</a></p>
 <h3>Affects Biomarker</h3>
-<p>INCREASES_BIOMARKER::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a> (Evidence Level 4)<br />
+<p>INCREASES_BIOMARKER::<a href="/garden/demo_user/labtest/testosterone-free/" class="internal-link">Testosterone Free</a> (Evidence Level 4)<br />
+INCREASES_BIOMARKER::<a href="/garden/demo_user/labtest/testosterone-total/" class="internal-link">Testosterone Total</a> (Evidence Level 4)<br />
+INCREASES_BIOMARKER::<a href="/garden/demo_user/supplement/zinc/" class="internal-link">Zinc</a> (Evidence Level 4)<br />
 AFFECTS_BIOMARKER::<a href="/garden/demo_user/hormone/testosterone/" class="internal-link">Testosterone</a><br />
-AFFECTS_BIOMARKER::<a class="internal-link is-unresolved" href="/404">hs-CRP</a></p>
-<h3>May Improve Condition</h3>
-<p>MAY_IMPROVE_CONDITION::<a class="internal-link is-unresolved" href="/404">Acne</a><br />
-MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/immune-system-disorder/" class="internal-link">Immune System Disorder</a><br />
-MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a></p>
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/biomarker/hs-crp/" class="internal-link">hs-CRP</a></p>
+<h3>May Improve ConditionMAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/immune-system-disorder/" class="internal-link">Immune System Disorder</a></h3>
+<p>MAY_IMPROVE_CONDITION::<a href="/garden/demo_user/condition/depression/" class="internal-link">Depression</a></p>
 <h3>Synergistic With</h3>
 <p>SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-d/" class="internal-link">Vitamin D</a><br />
 SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
@@ -79,11 +82,11 @@ SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-c/" class="inter
 SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/selenium/" class="internal-link">Selenium</a></p>
 <h3>Competes With</h3>
 <p>COMPETES_WITH::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a><br />
-COMPETES_WITH::<a href="/garden/demo_user/biomarker/copper/" class="internal-link">Copper</a></p>
+COMPETES_WITH::<a href="/garden/demo_user/supplement/copper/" class="internal-link">Copper</a></p>
 <h3>Targets Biomarker</h3>
 <p>TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/albumin/" class="internal-link">albumin</a><br />
 TARGETS_BIOMARKER::<a href="/garden/demo_user/biomarker/alkaline-phosphatase/" class="internal-link">Alkaline Phosphatase</a><br />
-TARGETS_BIOMARKER::<a href="/garden/demo_user/biomarker/copper/" class="internal-link">Copper</a><br />
+TARGETS_BIOMARKER::<a href="/garden/demo_user/supplement/copper/" class="internal-link">Copper</a><br />
 TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/zonulin/" class="internal-link">zonulin</a></p>
 <h2>References</h2>
 <ul>
@@ -95,13 +98,13 @@ TARGETS_BIOMARKER::<a href="/garden/demo_user/labtest/zonulin/" class="internal-
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/immune-system/" class="internal-link">Immune System</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/skin/" class="internal-link">Skin</a><br />
 AFFECTS_ORGAN::<a href="/garden/demo_user/organ/thyroid/" class="internal-link">Thyroid</a><br />
-MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a><br />
-RELATED::<a href="/garden/demo_user/biomarker/copper/" class="internal-link">Copper</a><br />
-RELATED::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a><br />
+MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a><br />
+RELATED::<a href="/garden/demo_user/supplement/copper/" class="internal-link">Copper</a><br />
+RELATED::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a><br />
 RELATED::<a href="/garden/demo_user/supplement/iron/" class="internal-link">Iron</a><br />
 RELATED::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 RELATED::<a href="/garden/demo_user/supplement/selenium/" class="internal-link">Selenium</a><br />
-RELATED::<a href="/garden/demo_user/condition/thyroid-dysfunction/" class="internal-link">Thyroid Dysfunction</a><br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/thyroid-dysfunction/" class="internal-link">Thyroid Dysfunction</a><br />
 RELATED::<a href="/garden/demo_user/hormone/thyroid-hormones/" class="internal-link">Thyroid Hormones</a><br />
 RELATED::<a href="/garden/demo_user/supplement/vitamin-b6/" class="internal-link">Vitamin B6</a><br />
 SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/vitamin-b6/" class="internal-link">Vitamin B6</a></p>

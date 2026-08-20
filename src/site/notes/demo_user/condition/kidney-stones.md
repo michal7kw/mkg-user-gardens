@@ -1,13 +1,16 @@
 ---
-confidence_score: 0.0
-created: '2026-06-13T17:47:11.445789Z'
+confidence_score: 0.85
+created: 2026-01-18T16:02:34+0000
 description: Hard deposits made of minerals and salts that form inside the kidneys,
   often causing severe pain when passing through the urinary tract.
 dg-home: false
 dg-publish: true
+evidence_level: 5
 gardenUsername: demo_user
 id: kidney_stones
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/condition/kidney-stones/
+provenance: curated
 slug: kidney-stones
 source: Manual
 tags:
@@ -19,7 +22,7 @@ tags:
 templateEngineOverride: njk
 title: Kidney Stones
 type: condition
-updated: '2026-06-13T17:47:11.445789Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -47,14 +50,10 @@ updated: '2026-06-13T17:47:11.445789Z'
 </ul>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a href="/garden/demo_user/labtest/ph-urine/" class="internal-link">ph urine</a><br />
-RELATED::<a href="/garden/demo_user/labtest/red-blood-cell-urine/" class="internal-link">red blood cell urine</a><br />
-RELATED::<a href="/garden/demo_user/labtest/uric-acid/" class="internal-link">Uric Acid</a><br />
-RELATED::<a href="/garden/demo_user/labtest/occult-blood-urine/" class="internal-link">occult blood urine</a><br />
-RELATED::<a href="/garden/demo_user/labtest/white-blood-cell-urine/" class="internal-link">white blood cell urine</a></p>
+<p>RELATED::<a href="/garden/demo_user/labtest/uric-acid/" class="internal-link">Uric Acid</a></p>
 <p>AFFECTS_ORGAN::<a class="internal-link is-unresolved" href="/404">Kidney</a></p>
 <h3>Risk Biomarkers</h3>
-<p>ASSOCIATED_WITH::<a href="/garden/demo_user/nutrient/calcium/" class="internal-link">Calcium</a><br />
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/supplement/calcium/" class="internal-link">Calcium</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/uric-acid/" class="internal-link">Uric Acid</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/creatinine/" class="internal-link">creatinine</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="internal-link">Vitamin D (25-OH)</a></p>
@@ -62,5 +61,11 @@ ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/vitamin-d-25-oh/" class="i
 <p>IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/magnesium/" class="internal-link">Magnesium</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/vitamin-b6/" class="internal-link">Vitamin B6</a><br />
 IMPROVED_BY_SUPPLEMENT::<a href="/garden/demo_user/supplement/probiotics/" class="internal-link">Probiotics</a></p>
+<h2>References</h2>
+<ul>
+<li>Pearle MS, Goldfarb DS, Assimos DG, et al. J Urol. 2014;192(2):560-566. Medical management of kidney stones (AUA guideline) (PMID: 24857601)</li>
+<li>Fink HA, Wilt TJ, Eidman KE, et al. Comparative Effectiveness Reviews. 2012;(115). Medical management to prevent recurrent nephrolithiasis in adults (PMID: 22896859)</li>
+<li>Taylor EN, Stampfer MJ, Curhan GC. J Am Soc Nephrol. 2006;17(8):2121-2128. Dietary factors and kidney stone risk (PMID: 16791061)</li>
+</ul>
 
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.492905Z'
+created: 2026-01-18T16:02:30+0000
 description: Lead is a heavy metal commonly found in contaminated water and soil,
   older houses, and some occupational settings. Lead exposure can impact nearly every
   organ, but it most strongly affects the nervous system, blood, bone marrow, kidneys,
@@ -11,6 +11,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-lead
 permalink: /garden/demo_user/labtest/lead/
+provenance: curated
 slug: lead
 source: Manual
 tags:
@@ -20,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: lead
 type: labtest
-updated: '2026-06-13T17:47:12.492905Z'
+updated: '2026-08-20T04:08:30.748505Z'
 ---
 
 {% raw %}
@@ -46,6 +47,10 @@ updated: '2026-06-13T17:47:12.492905Z'
 <td>Other</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -56,6 +61,18 @@ updated: '2026-06-13T17:47:12.492905Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>3-7 days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -68,11 +85,11 @@ updated: '2026-06-13T17:47:12.492905Z'
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Anemia</a><br />
+<p>RELATED::<a href="/garden/demo_user/condition/anemia/" class="internal-link">Anemia</a><br />
 RELATED::<a href="/garden/demo_user/condition/hypertension/" class="internal-link">Hypertension</a><br />
 RELATED::<a href="/garden/demo_user/labtestpanel/extended-heavy-metals/" class="internal-link">extended heavy metals</a><br />
 RELATED::<a href="/garden/demo_user/condition/peripheral-neuropathy/" class="internal-link">Peripheral Neuropathy</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Cognitive Decline</a><br />
+RELATED::<a href="/garden/demo_user/cognitivefunction/cognitive-decline/" class="internal-link">Cognitive Decline</a><br />
 RELATED::<a href="/garden/demo_user/labtestpanel/bisphenol-a-bpa-exposure/" class="internal-link">bisphenol a bpa exposure</a><br />
 RELATED::<a href="/garden/demo_user/condition/chronic-kidney-disease/" class="internal-link">Chronic Kidney Disease</a><br />
 RELATED::<a href="/garden/demo_user/labtestpanel/forever-chemicals-pfas-exposure/" class="internal-link">forever chemicals pfas exposure</a></p>

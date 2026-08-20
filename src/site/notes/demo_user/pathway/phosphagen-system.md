@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.9
-created: '2026-06-13T17:47:13.953784Z'
+created: 2026-05-27T12:00:00+0000
 description: The phosphagen (ATP-phosphocreatine) system is the fastest cellular energy
   buffer. Creatine kinase reversibly transfers a phosphate between phosphocreatine
   and ADP to regenerate ATP within seconds, sustaining high-power output in muscle
@@ -12,6 +12,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: phosphagen_system
 permalink: /garden/demo_user/pathway/phosphagen-system/
+provenance: curated
 slug: phosphagen-system
 source: PubMed
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Phosphagen System
 type: pathway
-updated: '2026-06-13T17:47:13.953784Z'
+updated: '2026-08-20T04:08:31.553883Z'
 ---
 
 {% raw %}
@@ -38,7 +39,7 @@ updated: '2026-06-13T17:47:13.953784Z'
 <li><strong>Capacity:</strong> the phosphocreatine pool powers only ~5-10 seconds of maximal effort, but its turnover is the rate-limiting buffer for explosive activity.</li>
 </ul>
 <h2>Physiological Role</h2>
-<p>Sustains maximal-intensity exercise, cardiac and neuronal energy stability, and recovery between efforts. Serum <a href="/garden/demo_user/biomarker/creatine-kinase/" class="internal-link">Creatine Kinase</a> leakage is a clinical marker of muscle damage. Dietary <a href="/garden/demo_user/supplement/creatine/" class="internal-link">Creatine</a> supplementation expands the phosphocreatine pool, improving high-intensity performance and showing emerging cognitive benefits.</p>
+<p>Sustains maximal-intensity exercise, cardiac and neuronal energy stability, and recovery between efforts. Serum <a href="/garden/demo_user/labtest/creatine-kinase/" class="internal-link">Creatine Kinase</a> leakage is a clinical marker of muscle damage. Dietary <a href="/garden/demo_user/supplement/creatine/" class="internal-link">Creatine</a> supplementation expands the phosphocreatine pool, improving high-intensity performance and showing emerging cognitive benefits.</p>
 <h2>Relationships</h2>
 <h3>Core Metabolites</h3>
 <p>RELATED_TO::<a href="/garden/demo_user/metabolite/phosphocreatine/" class="internal-link">Phosphocreatine</a><br />
@@ -47,7 +48,7 @@ RELATED_TO::<a href="/garden/demo_user/metabolite/adp/" class="internal-link">AD
 <h3>Regenerates</h3>
 <p>PRODUCES::<a href="/garden/demo_user/metabolite/atp/" class="internal-link">ATP</a></p>
 <h3>Catalyzed By</h3>
-<p>ASSOCIATED_WITH::<a href="/garden/demo_user/biomarker/creatine-kinase/" class="internal-link">Creatine Kinase</a></p>
+<p>ASSOCIATED_WITH::<a href="/garden/demo_user/labtest/creatine-kinase/" class="internal-link">Creatine Kinase</a></p>
 <h3>Occurs In</h3>
 <p>AFFECTS_ORGAN::<a href="/garden/demo_user/organ/brain/" class="internal-link">Brain</a></p>
 <h3>Improved By Supplement</h3>

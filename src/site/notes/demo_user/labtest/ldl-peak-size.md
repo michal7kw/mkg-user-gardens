@@ -2,7 +2,7 @@
 aliases:
 - ldl peak size
 confidence_score: 0.0
-created: '2026-06-13T17:47:12.487149Z'
+created: '2026-01-19T08:30:00.841711+00:00'
 description: LDL peak size shows the most common size of LDL particles in the blood.
   Standard cholesterol tests measure LDL by weight, but particle size matters too
   — smaller, denser LDL particles are more likely to enter artery walls and contribute
@@ -13,6 +13,7 @@ evidence_level: 3
 gardenUsername: demo_user
 id: fh-ldl-peak-size
 permalink: /garden/demo_user/labtest/ldl-peak-size/
+provenance: curated
 slug: ldl-peak-size
 source: Manual
 tags:
@@ -20,7 +21,7 @@ tags:
 templateEngineOverride: njk
 title: ldl_peak_size
 type: labtest
-updated: '2026-06-13T17:47:12.487149Z'
+updated: '2026-08-20T04:08:30.745497Z'
 ---
 
 {% raw %}
@@ -46,6 +47,10 @@ updated: '2026-06-13T17:47:12.487149Z'
 <td>Null</td>
 </tr>
 <tr>
+<td><strong>Test Type</strong></td>
+<td>Standard</td>
+</tr>
+<tr>
 <td><strong>Sample Type</strong></td>
 <td>Blood</td>
 </tr>
@@ -56,6 +61,18 @@ updated: '2026-06-13T17:47:12.487149Z'
 <tr>
 <td><strong>Turnaround Time</strong></td>
 <td>null-null days</td>
+</tr>
+<tr>
+<td><strong>Price Range</strong></td>
+<td>$null-$null</td>
+</tr>
+<tr>
+<td><strong>HSA Eligible</strong></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td><strong>FSA Eligible</strong></td>
+<td>✅ Yes</td>
 </tr>
 </tbody>
 </table>
@@ -68,17 +85,17 @@ updated: '2026-06-13T17:47:12.487149Z'
 <p>Reference ranges vary by laboratory and testing method. Consult your healthcare provider for interpretation.</p>
 <h2>Relationships</h2>
 <h3>Related</h3>
-<p>RELATED::<a class="internal-link is-unresolved" href="/404">Atherosclerosis</a><br />
-RELATED::<a href="/garden/demo_user/labtestpanel/extended-heart-metabolic/" class="internal-link">extended heart metabolic</a><br />
-RELATED::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
-RELATED::<a href="/garden/demo_user/labtestpanel/genetic-heart-risks/" class="internal-link">genetic heart risks</a><br />
-RELATED::<a class="internal-link is-unresolved" href="/404">Hyperlipidemia</a><br />
+<p>RELATED::<a href="/garden/demo_user/condition/atherosclerosis/" class="internal-link">Atherosclerosis</a><br />
+RELATED::<br />
+RELATED::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+RELATED::<br />
+RELATED::<a href="/garden/demo_user/condition/hyperlipidemia/" class="internal-link">Hyperlipidemia</a><br />
 RELATED::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a></p>
 <h3>Included In</h3>
-<p>INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/extended-heart-metabolic/" class="internal-link">extended heart metabolic</a><br />
-INCLUDED_IN::<a href="/garden/demo_user/labtestpanel/genetic-heart-risks/" class="internal-link">genetic heart risks</a></p>
+<p>INCLUDED_IN::<br />
+INCLUDED_IN::</p>
 <h3>May Detect</h3>
-<p>MAY_DETECT::<a href="/garden/demo_user/condition/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
+<p>MAY_DETECT::<a href="/garden/demo_user/clinicalpattern/metabolic-syndrome/" class="internal-link">Metabolic Syndrome</a><br />
 MAY_DETECT::<a href="/garden/demo_user/condition/cardiovascular-disease/" class="internal-link">Cardiovascular Disease</a></p>
 <h2>Notes</h2>
 <ul>

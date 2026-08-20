@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.0
-created: '2026-06-13T17:47:14.291287Z'
+created: '2026-04-01T19:57:10.891281+00:00'
 description: Non-essential amino acid that increases intramuscular carnosine concentrations,
   buffering hydrogen ions during high-intensity exercise to delay the onset of acidosis
   and extend time to fatigue.
@@ -10,6 +10,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: beta_alanine
 permalink: /garden/demo_user/supplement/beta-alanine/
+provenance: curated
 pubchem_id: '239'
 slug: beta-alanine
 source: Manual
@@ -22,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Beta-Alanine
 type: supplement
-updated: '2026-06-13T17:47:14.291287Z'
+updated: '2026-08-20T04:08:31.877252Z'
 ---
 
 {% raw %}

@@ -1,15 +1,18 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.097571Z'
+created: 2026-03-05T00:00:00+0000
 description: Membrane-bound organelle containing the cell's genetic material (DNA).
   Controls gene expression, DNA replication, and RNA processing. Enclosed by a double
   nuclear envelope with nuclear pores for selective transport. Contains the nucleolus
   for ribosomal RNA synthesis.
 dg-home: false
 dg-publish: true
+evidence_level: 4
 gardenUsername: demo_user
 id: nucleus
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/cellularcomponent/nucleus/
+provenance: curated
 slug: nucleus
 source: Manual
 tags:
@@ -20,7 +23,7 @@ tags:
 templateEngineOverride: njk
 title: Nucleus
 type: cellularcomponent
-updated: '2026-06-13T17:47:11.097571Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -52,5 +55,10 @@ updated: '2026-06-13T17:47:11.097571Z'
 <h2>Relationships</h2>
 <h3>Related</h3>
 <p>PART_OF::<a href="/garden/demo_user/cellularcomponent/endoplasmic-reticulum/" class="internal-link">Endoplasmic Reticulum</a></p>
+<h2>References</h2>
+<ul>
+<li>Alberts B, et al. Molecular Biology of the Cell. 6th ed. Garland Science; 2014 (textbook reference)</li>
+<li>Lodish H, et al. Molecular Cell Biology. 8th ed. W.H. Freeman; 2016 (textbook reference)</li>
+</ul>
 
 {% endraw %}

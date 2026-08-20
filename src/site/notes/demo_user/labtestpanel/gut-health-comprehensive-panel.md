@@ -2,7 +2,7 @@
 aliases:
 - gut health comprehensive panel
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.126962Z'
+created: 2026-02-07T00:00:00+0000
 description: Evaluates intestinal inflammation, permeability, and microbiome health.
   Fecal calprotectin distinguishes IBD from IBS, while GI-MAP provides comprehensive
   stool analysis including pathogen detection and microbiome composition. Recommended
@@ -12,6 +12,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-gut-health-comprehensive
 permalink: /garden/demo_user/labtestpanel/gut-health-comprehensive-panel/
+provenance: curated
 slug: gut-health-comprehensive-panel
 source: Manual
 tags:
@@ -19,7 +20,7 @@ tags:
 templateEngineOverride: njk
 title: gut_health_comprehensive_panel
 type: labtestpanel
-updated: '2026-06-13T17:47:13.126962Z'
+updated: '2026-08-20T04:08:31.066069Z'
 ---
 
 {% raw %}
@@ -30,7 +31,6 @@ updated: '2026-06-13T17:47:13.126962Z'
 <h2>Included Tests</h2>
 <ul>
 <li><a href="/garden/demo_user/labtest/gi-map/" class="internal-link">gi map</a> -- Comprehensive stool analysis with pathogen detection and microbiome profiling</li>
-<li><a href="/garden/demo_user/biomarker/calprotectin/" class="internal-link">Calprotectin</a> -- Marker of intestinal inflammation</li>
 <li><a href="/garden/demo_user/labtest/zonulin/" class="internal-link">zonulin</a> -- Intestinal permeability (leaky gut) marker</li>
 <li><a href="/garden/demo_user/labtest/fecal-calprotectin/" class="internal-link">fecal calprotectin</a> -- Fecal-specific inflammation marker distinguishing IBD from IBS</li>
 </ul>
@@ -43,12 +43,11 @@ updated: '2026-06-13T17:47:13.126962Z'
 <li>Monitoring response to gut-healing protocols or probiotics</li>
 </ul>
 <h2>Relationships</h2>
-<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/gi-map/" class="internal-link">gi map</a><br />
-INCLUDES_TEST::<a href="/garden/demo_user/biomarker/calprotectin/" class="internal-link">Calprotectin</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/gi-map/" class="internal-link">gi_map</a><br />
 INCLUDES_TEST::<a href="/garden/demo_user/labtest/zonulin/" class="internal-link">zonulin</a><br />
-INCLUDES_TEST::<a href="/garden/demo_user/labtest/fecal-calprotectin/" class="internal-link">fecal calprotectin</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/fecal-calprotectin/" class="internal-link">fecal_calprotectin</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/irritable-bowel-syndrome/" class="internal-link">Irritable Bowel Syndrome</a><br />
-USED_FOR::<a class="internal-link is-unresolved" href="/404">Inflammatory Bowel Disease</a><br />
+USED_FOR::<a href="/garden/demo_user/condition/inflammatory-bowel-disease/" class="internal-link">Inflammatory Bowel Disease</a><br />
 USED_FOR::<a href="/garden/demo_user/condition/leaky-gut/" class="internal-link">Leaky Gut</a><br />
 ASSOCIATED_WITH::<a href="/garden/demo_user/organ/gut/" class="internal-link">Gut</a></p>
 

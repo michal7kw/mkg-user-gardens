@@ -2,7 +2,7 @@
 aliases:
 - extended heavy metals
 confidence_score: 0.65
-created: '2026-06-13T17:47:13.087519Z'
+created: 2026-01-18T16:48:42+0000
 description: Heavy metals can accumulate in the body over time, often without causing
   noticeable symptoms. However, elevated levels of these metals can contribute to
   serious health problems, including brain, heart, and kidney issues. Testing for
@@ -16,6 +16,7 @@ dg-publish: true
 gardenUsername: demo_user
 id: fhp-extended-heavy-metals
 permalink: /garden/demo_user/labtestpanel/extended-heavy-metals/
+provenance: curated
 slug: extended-heavy-metals
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: extended_heavy_metals
 type: labtestpanel
-updated: '2026-06-13T17:47:13.087519Z'
+updated: '2026-08-20T04:08:31.046337Z'
 ---
 
 {% raw %}
@@ -45,8 +46,8 @@ updated: '2026-06-13T17:47:13.087519Z'
 <li>Monitoring chelation or detoxification therapy effectiveness</li>
 </ul>
 <h2>Relationships</h2>
-<p>INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Arsenic</a><br />
-INCLUDES_TEST::<a class="internal-link is-unresolved" href="/404">Aluminum</a><br />
+<p>INCLUDES_TEST::<a href="/garden/demo_user/labtest/arsenic/" class="internal-link">arsenic</a><br />
+INCLUDES_TEST::<a href="/garden/demo_user/labtest/aluminum/" class="internal-link">aluminum</a><br />
 USED_FOR::<a class="internal-link is-unresolved" href="/404">Heavy Metal Toxicity</a><br />
 RELATED::<a href="/garden/demo_user/labtest/lead/" class="internal-link">lead</a><br />
 RELATED::<a href="/garden/demo_user/labtest/mercury/" class="internal-link">mercury</a><br />

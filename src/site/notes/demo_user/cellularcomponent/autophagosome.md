@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.85
-created: '2026-06-13T17:47:11.082921Z'
+created: '2026-04-01T19:57:53.444788+00:00'
 description: Double-membrane vesicle that engulfs cytoplasmic material (damaged organelles,
   protein aggregates, pathogens) for lysosomal degradation during autophagy. Central
   to cellular quality control, longevity, and the beneficial effects of fasting. The
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: autophagosome
 permalink: /garden/demo_user/cellularcomponent/autophagosome/
+provenance: curated
 slug: autophagosome
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: Autophagosome
 type: cellularcomponent
-updated: '2026-06-13T17:47:11.082921Z'
+updated: '2026-08-20T04:08:29.156987Z'
 ---
 
 {% raw %}

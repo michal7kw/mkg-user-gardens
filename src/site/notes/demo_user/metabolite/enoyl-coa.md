@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.277766Z'
+created: 2026-03-28T12:00:00+0000
 description: Enoyl-CoA (trans-delta2-enoyl-CoA) is the unsaturated thioester intermediate
   formed in the first step of each beta-oxidation cycle when acyl-CoA dehydrogenase
   oxidizes fatty acyl-CoA, introducing a trans double bond between C2 and C3. It is
@@ -13,6 +13,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: enoyl_coa
 permalink: /garden/demo_user/metabolite/enoyl-coa/
+provenance: curated
 slug: enoyl-coa
 source: Manual
 tags:
@@ -24,7 +25,7 @@ tags:
 templateEngineOverride: njk
 title: Enoyl-CoA
 type: metabolite
-updated: '2026-06-13T17:47:13.277766Z'
+updated: '2026-08-20T04:08:31.135586Z'
 ---
 
 {% raw %}

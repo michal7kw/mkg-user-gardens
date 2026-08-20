@@ -1,5 +1,5 @@
 ---
-created: '2026-06-13T17:47:14.068015Z'
+created: 2026-04-01T12:00:00+0000
 description: Serotonin 2A receptor, a Gq-coupled GPCR widely expressed in cortex,
   platelets, and smooth muscle. Mediates serotonin's effects on vasoconstriction,
   platelet aggregation, and the neuromuscular features of serotonin syndrome. Primary
@@ -11,6 +11,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: 5_ht2a_receptor
 permalink: /garden/demo_user/protein/5-ht2a-receptor/
+provenance: curated
 slug: 5-ht2a-receptor
 source: Manual
 tags:
@@ -23,7 +24,7 @@ tags:
 templateEngineOverride: njk
 title: 5-HT2A Receptor
 type: protein
-updated: '2026-06-13T17:47:14.068015Z'
+updated: '2026-08-20T04:08:31.609236Z'
 ---
 
 {% raw %}

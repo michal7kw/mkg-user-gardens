@@ -1,6 +1,6 @@
 ---
-confidence_score: 0.75
-created: '2026-06-13T17:47:14.458488Z'
+confidence_score: 0.65
+created: 2026-01-03T17:55:41+0000
 description: The 'mushroom of immortality' in traditional Chinese medicine. Powerful
   immune modulator, adaptogen, and sleep supporter. Contains beta-glucans and triterpenes
   with calming and anti-cancer properties.
@@ -9,7 +9,9 @@ dg-publish: true
 evidence_level: 3
 gardenUsername: demo_user
 id: reishi
+last_modified: 2026-06-23T00:00:00+0000
 permalink: /garden/demo_user/supplement/reishi/
+provenance: curated
 pubchem_id: '471923'
 slug: reishi
 source: Manual
@@ -29,7 +31,7 @@ tags:
 templateEngineOverride: njk
 title: Reishi
 type: supplement
-updated: '2026-06-13T17:47:14.458488Z'
+updated: 2026-06-23T00:00:00+0000
 ---
 
 {% raw %}
@@ -116,13 +118,13 @@ updated: '2026-06-13T17:47:14.458488Z'
 <h2>Relationships</h2>
 <h3>Affects Biomarker</h3>
 <p>AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />
-AFFECTS_BIOMARKER::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+AFFECTS_BIOMARKER::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/hs-crp/" class="internal-link">Hs Crp</a><br />
-DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/cortisol/" class="internal-link">cortisol</a><br />
+DECREASES_BIOMARKER::<a href="/garden/demo_user/hormone/cortisol/" class="internal-link">cortisol</a><br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/interleukin-6/" class="internal-link">Interleukin 6</a><br />
 DECREASES_BIOMARKER::<a href="/garden/demo_user/labtest/tnf-alpha/" class="internal-link">TNF Alpha</a></p>
 <h3>Modulates Neurotransmitter</h3>
-<p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/supplement/gaba/" class="internal-link">GABA</a><br />
+<p>MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/gaba/" class="internal-link">GABA</a><br />
 MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/serotonin/" class="internal-link">Serotonin</a><br />
 MODULATES_NEUROTRANSMITTER::<a href="/garden/demo_user/neurotransmitter/dopamine/" class="internal-link">Dopamine</a></p>
 <h3>Modulates Pathway</h3>
@@ -160,5 +162,12 @@ SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/cordyceps/" class="inter
 SYNERGISTIC_WITH::<a href="/garden/demo_user/supplement/lions-mane/" class="internal-link">Lion's Mane</a></p>
 <h3>Inhibits</h3>
 <p>INHIBITS::<a href="/garden/demo_user/pathway/nf-kb-pathway/" class="internal-link">NF-kB Pathway</a></p>
+<h2>References</h2>
+<ul>
+<li>Wachtel-Galor S, et al. In: Benzie IFF, Wachtel-Galor S, eds. Herbal Medicine. 2nd ed. CRC Press; 2011. Reishi (Ganoderma lucidum) (book chapter)</li>
+<li>Boh B, et al. Pharmacol Res. 2007;55(6):464-468. Ganoderma lucidum (review) (PMID: 17336858)</li>
+<li>Jin H, et al. Nutrients. 2020;12(6):1624. Reishi mushroom (review) (PMID: 32498614)</li>
+<li>Klupp NL, et al. Integr Cancer Ther. 2015;14(6):537-548. Reishi in cancer (review) (PMID: 26092791)</li>
+</ul>
 
 {% endraw %}

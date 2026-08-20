@@ -1,6 +1,6 @@
 ---
 confidence_score: 0.95
-created: '2026-06-13T17:47:13.351857Z'
+created: 2026-03-28T12:00:00+0000
 description: Fructose-6-phosphate is a key glycolytic intermediate formed by the reversible
   isomerization of glucose-6-phosphate via phosphoglucose isomerase. It serves as
   the substrate for phosphofructokinase-1 (PFK-1), the committed and rate-limiting
@@ -13,6 +13,7 @@ evidence_level: 5
 gardenUsername: demo_user
 id: fructose_6_phosphate
 permalink: /garden/demo_user/metabolite/fructose-6-phosphate/
+provenance: curated
 pubchem_id: '69507'
 slug: fructose-6-phosphate
 source: Manual
@@ -26,7 +27,7 @@ tags:
 templateEngineOverride: njk
 title: Fructose-6-Phosphate
 type: metabolite
-updated: '2026-06-13T17:47:13.351857Z'
+updated: '2026-08-20T04:08:31.148776Z'
 ---
 
 {% raw %}
