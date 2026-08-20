@@ -1,7 +1,7 @@
 ---
 aliases:
 - recommendations
-created: '2026-08-20T04:08:32.226486Z'
+created: '2026-08-20T18:58:48.008423Z'
 description: Understand and act on personalized, evidence-graded recommendations
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Recommendations — Guide
 type: users_guide
-updated: '2026-08-20T04:08:32.226486Z'
+updated: '2026-08-20T18:58:48.008423Z'
 ---
 
 {% raw %}

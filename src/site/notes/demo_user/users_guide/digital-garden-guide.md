@@ -1,7 +1,7 @@
 ---
 aliases:
 - garden
-created: '2026-08-20T04:08:32.218361Z'
+created: '2026-08-20T18:58:47.997297Z'
 description: Publish your health knowledge as a public digital garden
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Digital Garden — Guide
 type: users_guide
-updated: '2026-08-20T04:08:32.218361Z'
+updated: '2026-08-20T18:58:47.997297Z'
 ---
 
 {% raw %}

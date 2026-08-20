@@ -1,7 +1,7 @@
 ---
 aliases:
 - energy-systems
-created: '2026-08-20T04:08:32.217358Z'
+created: '2026-08-20T18:58:47.994270Z'
 description: Understand exercise energy systems, fuels, and recovery
 dg-home: false
 dg-publish: true
@@ -15,7 +15,7 @@ tags:
 templateEngineOverride: njk
 title: Energy Systems — Guide
 type: users_guide
-updated: '2026-08-20T04:08:32.217358Z'
+updated: '2026-08-20T18:58:47.994270Z'
 ---
 
 {% raw %}
